@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "index.qmd"
+    - "people/*.qmd"
+    - "research/*.qmd"
+    - "library/*.qmd"
+    - "library/papers/*.qmd"
+    - "notes/*.qmd"
+    - "notes/posts/*.qmd"
+    - "publications/*.qmd"
+    - "join/*.qmd"
+
+website:
+  title: "藏经阁"
+  description: "团队学术知识平台：整理典籍，积累知识，连接研究者。"
+  favicon: assets/favicon.svg
+  open-graph: true
+  navbar:
+    background: "#152b40"
+    foreground: "#ffffff"
+    left:
+      - text: "首页"
+        href: index.qmd
+      - text: "阁中学人"
+        href: people/index.qmd
+      - text: "研究方向"
+        href: research/index.qmd
+      - text: "典籍目录"
+        href: library/index.qmd
+      - text: "研读札记"
+        href: notes/index.qmd
+      - text: "学术成果"
+        href: publications/index.qmd
+      - text: "加入我们"
+        href: join/index.qmd
+  search:
+    location: navbar
+    type: overlay
+    limit: 20
+  page-footer:
+    left: "© 2026 藏经阁 · 团队学术知识平台"
+    right: "Quarto × GitHub Pages · 开放共享、尊重版权"
+  back-to-top-navigation: true
+
+format:
+  html:
+    theme: cosmo
+    css: assets/styles.css
+    lang: zh-CN
+    toc: true
+    link-external-newwindow: true
+    smooth-scroll: true
+    anchor-sections: true
+
+execute:
+  freeze: auto

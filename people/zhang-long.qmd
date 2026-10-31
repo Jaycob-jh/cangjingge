@@ -1,0 +1,36 @@
+---
+title: "张龙"
+subtitle: "团队成员"
+toc: false
+---
+
+<div class="zk-person-profile">
+<div class="zk-avatar">张</div>
+<div>
+<span class="zk-pill ">团队成员</span>
+<h2>张龙</h2>
+<p>团队成员</p>
+</div>
+</div>
+
+## 个人简介
+
+待本人确认并补充。此处暂不展示未经核实的教育经历、单位、学位或其他个人资料。
+
+## 研究兴趣
+
+- 待补充
+
+## 代表成果
+
+- 待补充（请提供真实论文 DOI 或正式公开链接）
+
+## 学术链接
+
+- ORCID：待补充
+- Google Scholar：待补充
+- GitHub：待补充
+
+---
+
+[← 返回阁中学人](index.qmd)

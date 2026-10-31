@@ -1,0 +1,21 @@
+---
+title: "阁中学人"
+subtitle: "People · 研究团队"
+toc: false
+---
+
+<div class="zk-page-intro">目前展示五位初始成员。已确认的身份信息只有赵晨光为 PI；其余成员的学位、单位、头衔、研究方向及联系方式均留待本人确认后公开。</div>
+
+<div class="zk-person-grid">
+<a class="zk-person pi" href="zhao-chenguang.html"><div class="zk-avatar">赵</div><div><span class="zk-pill zk-pill-gold">Principal Investigator</span><h3>赵晨光</h3><p>PI · 团队负责人</p></div></a>
+<a class="zk-person" href="li-zhilin.html"><div class="zk-avatar">李</div><div><span class="zk-pill">团队成员</span><h3>李智林</h3><p>研究方向待补充</p></div></a>
+<a class="zk-person" href="jia-hai.html"><div class="zk-avatar">贾</div><div><span class="zk-pill">团队成员</span><h3>贾海</h3><p>研究方向待补充</p></div></a>
+<a class="zk-person" href="zhang-long.html"><div class="zk-avatar">张</div><div><span class="zk-pill">团队成员</span><h3>张龙</h3><p>研究方向待补充</p></div></a>
+<a class="zk-person" href="li-minghao.html"><div class="zk-avatar">李</div><div><span class="zk-pill">团队成员</span><h3>李铭浩</h3><p>研究方向待补充</p></div></a>
+</div>
+
+## 如何加入或更新资料
+
+团队成员未来可以通过 GitHub 提交 Pull Request 修改自己的介绍。公开个人信息（例如邮箱、照片、履历、ORCID）之前，应先征得本人同意。
+
+<div class="zk-info"><strong>资料维护规范</strong><p>姓名和已知角色是初始化信息；学校、专业、工作经历、论文与电子邮箱不自动生成，也不从同名人物资料中推断。</p></div>

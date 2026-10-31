@@ -1,0 +1,31 @@
+---
+title: "典籍目录"
+subtitle: "Library · 开放书目与可追溯的文献索引"
+toc: false
+listing:
+  id: papers
+  contents: "papers/*.qmd"
+  type: table
+  sort: "date desc"
+  sort-ui: [date, title, author]
+  filter-ui: true
+  categories: true
+  page-size: 20
+---
+
+<div class="zk-page-intro">典籍目录收录公开可引用的文献元数据、研究摘要和原文链接。当前仅有一篇标为“平台方法参考”的真实示例论文；它不是团队学术成果。</div>
+
+## 文献索引
+
+你可以在下方按标题、作者、年份筛选文献，或用页面右上角的搜索按钮检索整个网站内容。
+
+:::{#papers}
+:::
+
+## 如何添加一篇新论文？
+
+1. 复制 `templates/paper.qmd` 到 `library/papers/` 目录并修改文件名。
+2. 填写文献标题、作者、日期、标签、DOI 和原文链接。
+3. 提交到 GitHub，网站会自动重建，文献出现在列表中。
+
+完整示例参见 [OpenScholar 文献卡片](papers/openscholar.qmd)。**请勿将无权公开传播的 PDF 上传到公开仓库。**

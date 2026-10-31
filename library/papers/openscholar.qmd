@@ -1,0 +1,39 @@
+---
+title: "Synthesizing scientific literature with retrieval-augmented language models"
+author: "Asai et al."
+date: 2026-02-04
+categories: ["平台方法参考", "文献检索", "RAG"]
+description: "Nature 论文；介绍 OpenScholar 如何检索学术语料并生成有出处的跨论文回答。属于本站演示文献，不是团队成果。"
+toc: true
+---
+
+::: {.zk-page-intro}
+**条目性质：** 平台设计参考文献 / 示例条目。此文献不是本团队发表的成果，录入是为了展示藏经阁的文献结构。
+:::
+
+## 书目信息
+
+- **题目：** Synthesizing scientific literature with retrieval-augmented language models
+- **作者：** Akari Asai et al.
+- **期刊：** *Nature*, 650, 857–863 (2026)
+- **发表日期：** 2026-02-04
+- **DOI：** [10.1038/s41586-025-10072-4](https://doi.org/10.1038/s41586-025-10072-4)
+- **开源实现：** [OpenScholar GitHub](https://github.com/AkariAsai/OpenScholar)
+
+## 核心问题
+
+如何让语言模型从大量科学论文中定位证据，并综合多篇文献形成可以追溯来源的回答？
+
+## 方法概览
+
+OpenScholar 将学术语料检索、候选重排序和基于证据的生成相结合，并加入自我反馈以改进最终输出。论文介绍的系统以大规模公开获取的论文语料为基础。
+
+## 对藏经阁的启发
+
+- 文献条目应保留 DOI、作者、发表信息与稳定来源。
+- AI 问答需要返回原文依据，不应只输出没有出处的总结。
+- 大规模语料索引不是第一阶段 MVP 的必要条件。
+
+## 局限与后续
+
+本站尚未集成 OpenScholar 或 RAG；这是供未来技术选型参考的研究论文。具体结果和限制应以 [Nature 原文](https://www.nature.com/articles/s41586-025-10072-4) 为准。

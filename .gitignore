@@ -1,0 +1,17 @@
+_site/
+.quarto/
+_freeze/
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+# Do not commit private data, papers or credentials
+private/
+secrets/
+*.key
+*.pem
+# Untracked visual references bundled for Codex; not public site content
+reference/

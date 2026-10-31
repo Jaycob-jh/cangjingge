@@ -1,0 +1,31 @@
+---
+title: "研读札记"
+subtitle: "Notes · 以证据为中心的知识沉淀"
+toc: false
+listing:
+  id: notes
+  contents: "posts/*.qmd"
+  type: grid
+  sort: "date desc"
+  sort-ui: [date, title]
+  filter-ui: true
+  categories: true
+  page-size: 12
+---
+
+<div class="zk-page-intro">这里展示可公开的精读札记、方法说明和研究综述。未发表研究成果、实验记录与其他内部资料，应先在私有空间整理，审核后再选择公开。</div>
+
+## 最新札记
+
+:::{#notes}
+:::
+
+## 精读卡片的统一结构
+
+<div class="zk-grid">
+<div class="zk-card"><span class="zk-number">01</span><h3>科学问题</h3><p>论文针对何种问题，背景与假设是什么？</p></div>
+<div class="zk-card"><span class="zk-number">02</span><h3>方法与证据</h3><p>核心方法、数据来源、研究设计及对应图表。</p></div>
+<div class="zk-card"><span class="zk-number">03</span><h3>评价与延伸</h3><p>主要结论、局限、相关研究和进一步问题。</p></div>
+</div>
+
+新增札记时复制 `templates/note.qmd` 到 `notes/posts/` 目录，修改后提交。

@@ -1,0 +1,64 @@
+---
+title: "首页"
+page-layout: full
+toc: false
+title-block-banner: false
+---
+
+<div class="zk-container">
+<div class="hero-wrap">
+<div class="hero-content">
+<div class="hero-eyebrow">Research Knowledge Commons</div>
+<div class="hero-mark">典</div>
+<h1>藏经阁</h1>
+<p class="hero-lead">让文献有序，让知识生长。<br/>为团队建立一座可检索、可传承、可协作的学术知识空间。</p>
+<div class="hero-rule"></div>
+<div class="hero-actions">
+<a class="zk-btn zk-btn-gold" href="library/">进入典籍目录 ↗</a>
+<a class="zk-btn zk-btn-line" href="people/">认识阁中学人</a>
+</div>
+<div class="hero-status"><span class="dot"></span> v0.1 · 开放学术门户 · 持续建设中</div>
+</div>
+</div>
+
+<div class="zk-section">
+<div class="zk-section-head">
+<div>
+<span class="zk-section-kicker">OUR PURPOSE / 建设理念</span>
+<h2 class="zk-section-title">从论文收藏，到团队知识资产</h2>
+<p class="zk-section-sub">藏经阁不仅展示学术成果，也逐步积累研究方法、阅读笔记与文献间的关联，让团队经验能够长期传承。</p>
+</div>
+</div>
+<div class="zk-grid">
+<article class="zk-card"><span class="zk-number">01 / ARCHIVE</span><h3>典籍有序</h3><p>按研究主题组织公开论文与书目记录，保留 DOI 和出处，持续建设可检索的文献目录。</p></article>
+<article class="zk-card"><span class="zk-number">02 / INSIGHT</span><h3>研读有据</h3><p>使用统一的精读模板记录科学问题、研究方法、重要结论与局限性。</p></article>
+<article class="zk-card"><span class="zk-number">03 / COLLABORATE</span><h3>知识共建</h3><p>从个人整理起步，未来逐步邀请团队成员共建专题、维护资料与交流成果。</p></article>
+</div>
+</div>
+
+<div class="zk-section">
+<div class="zk-section-head">
+<div>
+<span class="zk-section-kicker">EXPLORE / 栏目导航</span>
+<h2 class="zk-section-title">探索藏经阁</h2>
+</div>
+<a href="research/" class="zk-section-link">全部研究栏目 ↗</a>
+</div>
+<div class="zk-grid">
+<article class="zk-card"><span class="zk-number">A / PEOPLE</span><h3><a href="people/">阁中学人 ↗</a></h3><p>查看赵晨光 PI 与团队初始成员的资料页，学术履历持续补充。</p></article>
+<article class="zk-card"><span class="zk-number">B / RESEARCH</span><h3><a href="research/">研究方向 ↗</a></h3><p>研究方向、科学问题、项目进展与后续专题索引。</p></article>
+<article class="zk-card"><span class="zk-number">C / NOTES</span><h3><a href="notes/">研读札记 ↗</a></h3><p>结构化文献精读、方法对比与可验证的研究认识。</p></article>
+</div>
+</div>
+
+<div class="zk-section">
+<div class="zk-band">
+<div>
+<span class="zk-section-kicker">OPEN & EVOLVING</span>
+<h2>从一个人维护，走向团队共建</h2>
+<p>第一阶段由站点维护者管理公开内容；未来可以通过 GitHub 邀请成员提交更新，经审核后自动发布。内部 PDF 和未公开笔记将独立存储，不放在公开网站。</p>
+</div>
+<a class="zk-btn zk-btn-gold" href="join/">了解协作方式 ↗</a>
+</div>
+</div>
+</div>

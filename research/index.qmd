@@ -1,0 +1,22 @@
+---
+title: "研究方向"
+subtitle: "Research · 从科学问题组织知识"
+toc: false
+---
+
+<div class="zk-page-intro">此页面已经搭好专题结构，但尚未收到团队的具体研究学科与方向。下列内容是栏目模板，不代表团队已经开展的课题。</div>
+
+## 方向与专题
+
+<div class="zk-empty"><strong>研究方向待发布</strong><p>建议初期先确定 2–4 个长期研究主题。每个主题独立设置研究问题、核心文献、研究方法、当前进展和负责人。</p></div>
+
+## 一份研究专题应包含什么？
+
+<div class="zk-step-list">
+<div class="zk-step"><span>1</span><div><strong>核心科学问题</strong><p>用一段话界定问题的边界与重要性。</p></div></div>
+<div class="zk-step"><span>2</span><div><strong>研究脉络</strong><p>列出关键文献、发展阶段、主要证据及尚存争议。</p></div></div>
+<div class="zk-step"><span>3</span><div><strong>方法与资源</strong><p>维护实验方法、数据资源、代码、分析流程与质量控制措施。</p></div></div>
+<div class="zk-step"><span>4</span><div><strong>团队进展</strong><p>关联已公开的论文、报告、笔记与可共享成果。</p></div></div>
+</div>
+
+你可以复制 `templates/research-topic.qmd` 的内容，创建新的 `research/topic-name.qmd` 页面，并把链接加入本页。
