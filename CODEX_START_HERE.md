@@ -52,7 +52,7 @@ quarto render
 1. 在 GitHub 中创建组织（或个人账号下使用），创建 `账号.github.io` 的 Public 仓库。
 2. 将本 ZIP 解压后的源码推送到仓库 **main** 分支。
 3. GitHub `Settings → Pages → Build and deployment → Source` 选 **GitHub Actions**。
-4. `Actions` 页查看 `Publish Zangjingge to GitHub Pages` 的构建和发布状态。
+4. `Actions` 页查看 `Publish Cangjingge to GitHub Pages` 的构建和发布状态。
 5. 成功后访问 `https://账号.github.io/`。
 
 GitHub Pages 适用于公开学术门户，不是受保护的私有网站；请勿上传未授权的内部文件或 PDF。

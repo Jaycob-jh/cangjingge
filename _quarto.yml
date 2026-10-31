@@ -13,7 +13,9 @@ project:
     - "join/*.qmd"
 
 website:
-  title: "藏经阁"
+  title: "藏经阁 Cangjingge"
+  site-url: https://jaycob-jh.github.io/cangjingge/
+  repo-url: https://github.com/Jaycob-jh/cangjingge
   description: "团队学术知识平台：整理典籍，积累知识，连接研究者。"
   favicon: assets/favicon.svg
   open-graph: true

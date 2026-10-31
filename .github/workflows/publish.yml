@@ -1,4 +1,4 @@
-name: Publish Zangjingge to GitHub Pages
+name: Publish Cangjingge to GitHub Pages
 
 on:
   push:

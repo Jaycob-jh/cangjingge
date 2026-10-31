@@ -1,36 +1,34 @@
 ---
 title: "贾海"
-subtitle: "团队成员"
-toc: false
+subtitle: "Hai Jia · 博士研究生"
+toc: true
 ---
-
-<div class="zk-person-profile">
-<div class="zk-avatar">贾</div>
-<div>
-<span class="zk-pill ">团队成员</span>
-<h2>贾海</h2>
-<p>团队成员</p>
-</div>
-</div>
 
 ## 个人简介
 
-待本人确认并补充。此处暂不展示未经核实的教育经历、单位、学位或其他个人资料。
+贾海，北京脑科学与类脑研究中心（CIBR）与北京师范大学联合培养博士研究生，具有数学与计算数学背景。硕士阶段从事基于深度学习的生物信号解码，并参与在线脑机接口系统设计。
 
 ## 研究兴趣
 
-- 待补充
+- 个体脑网络引导的经颅电刺激调控与参数优化。
+- 执行功能相关脑结构与功能网络。
+- 深度学习、生物信号解码与脑机接口。
 
-## 代表成果
+## 教育与研究经历
 
-- 待补充（请提供真实论文 DOI 或正式公开链接）
+- 2024 年起：CIBR 与北京师范大学博士研究生。
+- 2023—2024：CIBR 科研助理。
+- 2020—2023：西华大学理学院计算数学硕士。
+- 2016—2020：成都信息工程大学应用数学学院数学与应用数学学士。
 
-## 学术链接
+## 代表论文
 
-- ORCID：待补充
-- Google Scholar：待补充
-- GitHub：待补充
+Jia, H., et al. (2023). A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification. *IEEE Transactions on Neural Systems and Rehabilitation Engineering*, 31, 1311–1320。书目信息见下方实验室个人页。
 
----
+## 公开资料来源
+
+[崔再续实验室个人页（2024-09-05）](https://cuilab.cibr.ac.cn/Team/GraduateStudents/f22ecff986ab44879be91ef9c2bbf0c0.htm)
+
+资料核对：2026-11-01。
 
 [← 返回阁中学人](index.qmd)

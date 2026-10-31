@@ -8,7 +8,7 @@ title-block-banner: false
 <div class="zk-container">
 <div class="hero-wrap">
 <div class="hero-content">
-<div class="hero-eyebrow">Research Knowledge Commons</div>
+<div class="hero-eyebrow">CANGJINGGE / Research Knowledge Commons</div>
 <div class="hero-mark">典</div>
 <h1>藏经阁</h1>
 <p class="hero-lead">让文献有序，让知识生长。<br/>为团队建立一座可检索、可传承、可协作的学术知识空间。</p>

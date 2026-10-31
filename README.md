@@ -1,16 +1,22 @@
-# 藏经阁 Zangjingge · v0.1
+# 藏经阁 Cangjingge · v0.1
 
 > 零新增软件费用的团队学术门户。Quarto + GitHub Pages，支持五位初始成员资料页、公开文献目录、精读札记、站内搜索、分类筛选和未来团队协作。
 
 **重要说明：** 这是可部署的公开静态网站 MVP，不是私有文献数据库。没有账号注册、PDF 私有上传和 RAG 问答。开发计划请见 `ROADMAP.md`。
+
+## 当前站点
+
+- 网站：https://jaycob-jh.github.io/cangjingge/
+- 仓库：https://github.com/Jaycob-jh/cangjingge
+- 名称统一使用 Cangjingge。成员资料来源见各自个人页。
 
 ## 已录入的团队成员
 
 | 姓名 | 已确认角色 |
 |---|---|
 | 赵晨光 | PI / Principal Investigator |
-| 李智林 | 团队成员（具体职务待补充） |
-| 贾海 | 团队成员（具体职务待补充） |
+| 李智林 | 博士后 |
+| 贾海 | 博士研究生 |
 | 张龙 | 团队成员（具体职务待补充） |
 | 李铭浩 | 团队成员（具体职务待补充） |
 
@@ -29,16 +35,16 @@
 
 ### 第 2 步：上传项目文件
 
-把本压缩包中 `zangjingge-mvp/` 文件夹的**全部内容**放到仓库根目录；确保 `_quarto.yml` 与 `.github/workflows/publish.yml` 都在根目录相应位置。
+把本压缩包中 `cangjingge/` 文件夹的**全部内容**放到仓库根目录；确保 `_quarto.yml` 与 `.github/workflows/publish.yml` 都在根目录相应位置。
 
 推荐用 Git 命令（在电脑上解压后运行）：
 
 ```bash
-cd zangjingge-mvp
+cd cangjingge
 git init
 git branch -M main
 git add .
-git commit -m "Initial Zangjingge academic portal"
+git commit -m "Initial Cangjingge academic portal"
 git remote add origin https://github.com/你的组织名/你的组织名.github.io.git
 git push -u origin main
 ```
@@ -53,7 +59,7 @@ git push -u origin main
 
 ### 第 4 步：查看构建状态
 
-仓库 → **Actions** → `Publish Zangjingge to GitHub Pages`。
+仓库 → **Actions** → `Publish Cangjingge to GitHub Pages`。
 
 首次上传如 Pages 尚未设置，完成步骤 3 后还可以在 Actions 页手动运行 `Run workflow`。
 

@@ -1,4 +1,4 @@
-# Codex 开发指南 · 藏经阁 Zangjingge
+# Codex 开发指南 · 藏经阁 Cangjingge
 
 > 本文件是 AI 编程助手接手本仓库时的项目约束。请先阅读 `CODEX_START_HERE.md`、`README.md` 与 `ROADMAP.md`。
 
@@ -14,8 +14,8 @@
 | 姓名 | 角色 |
 | --- | --- |
 | 赵晨光 | PI / Principal Investigator |
-| 李智林 | 团队成员，具体职务待补充 |
-| 贾海 | 团队成员，具体职务待补充 |
+| 李智林 | 博士后 |
+| 贾海 | 博士研究生 |
 | 张龙 | 团队成员，具体职务待补充 |
 | 李铭浩 | 团队成员，具体职务待补充 |
 

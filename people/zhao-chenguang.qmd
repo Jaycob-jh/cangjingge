@@ -1,36 +1,36 @@
 ---
 title: "赵晨光"
-subtitle: "PI · Principal Investigator"
-toc: false
+subtitle: "Chenguang Zhao · PI"
+toc: true
 ---
-
-<div class="zk-person-profile">
-<div class="zk-avatar">赵</div>
-<div>
-<span class="zk-pill zk-pill-gold">PI / 团队负责人</span>
-<h2>赵晨光</h2>
-<p>PI · Principal Investigator</p>
-</div>
-</div>
 
 ## 个人简介
 
-待本人确认并补充。此处暂不展示未经核实的教育经历、单位、学位或其他个人资料。
+赵晨光，藏经阁团队负责人。2026 年海南医科大学的学术交流报道介绍其为北京脑科学与类脑研究所副研究员。研究围绕视觉注意、神经血氧耦合与非侵入性神经调控展开。
 
-## 研究兴趣
+## 研究方向
 
-- 待补充
+- 视觉注意及其电生理与血氧响应机制。
+- 经颅光生物调节（tPBM）与认知功能调控。
+- EEG–fNIRS 多模态记录，以及光刺激与磁刺激的联合干预。
 
-## 代表成果
+## 教育与研究经历
 
-- 待补充（请提供真实论文 DOI 或正式公开链接）
+- 2015—2021：北京师范大学基础心理学硕博连续培养。
+- 2011—2015：郑州大学通信工程学士。
+- 2021 年起曾在北京师范大学从事博士后研究；该段信息来自早期高校个人介绍。
 
-## 学术链接
+## 代表论文
 
-- ORCID：待补充
-- Google Scholar：待补充
-- GitHub：待补充
+- Zhao, C., et al. (2019). Anticipatory alpha oscillation predicts attentional selection and hemodynamic response. *Human Brain Mapping*. [DOI](https://doi.org/10.1002/hbm.24619)
+- Zhao, C., Kong, Y., et al. (2023). Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity. *PLOS Biology*. [原文](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002014)
 
----
+## 公开资料来源
+
+- [海南医科大学学术交流报道（2026-06-05）](https://muhn.edu.cn/lxy/info/1050/19762.htm)
+- [北京师范大学个人介绍（教育与早期经历）](https://zkgyy.bnu.edu.cn/yjjg/rzsjgxyjzx/rzrcdw/rzrcbshxl/121983.htm)
+- [北京师范大学研究报道（2023）](https://brain.bnu.edu.cn/kyjz/ab1e27fe84a74ae98c602d3fdccbe6ac.htm)
+
+资料核对：2026-11-01。
 
 [← 返回阁中学人](index.qmd)
