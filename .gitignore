@@ -15,3 +15,11 @@ secrets/
 *.pem
 # Untracked visual references bundled for Codex; not public site content
 reference/
+
+# Local build tools; rendered docs remain tracked
+.tools/
+output/
+
+/.quarto/
+**/*.quarto_ipynb
+.playwright-cli/

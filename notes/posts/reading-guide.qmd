@@ -34,3 +34,8 @@ toc: true
 ## 建议笔记模板
 
 请复制 `templates/note.qmd`，按研究专题填写相应信息。编辑时可以保留未完成标记，但正式发布前应删除无效链接。
+
+## 关联文献与专题
+
+- [OpenScholar 文献卡片](../../library/papers/openscholar.qmd)：查看 DOI、版本与公开来源的记录示例。
+- [研究专题索引](../../research/index.qmd)：按科学问题组织后续阅读。

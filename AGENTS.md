@@ -1,65 +1,62 @@
-# Codex 开发指南 · 藏经阁 Cangjingge
+# AGENTS.md · 给 Codex / AI 开发助手
 
-> 本文件是 AI 编程助手接手本仓库时的项目约束。请先阅读 `CODEX_START_HERE.md`、`README.md` 与 `ROADMAP.md`。
+## 不可改变的产品定位（用户已经明确纠正过一次）
 
-## 项目定位与当前范围
+**藏经阁的目标是“协作式科研文献库 + 结构化阅读笔记 + 研究知识沉淀”，不是正式科研团队官网。**
 
-- 这是一个 **Quarto + GitHub Pages 的免费静态学术团队门户**，而非后端文献管理平台。
-- 初期由一位维护者管理，未来通过 GitHub Organization + Pull Request 邀请成员参与。
-- v0.1 只应有公开内容：团队首页、成员资料、研究方向、文献索引、阅读笔记、团队成果和加入方式。
-- 不要未经明确需求就引入收费云服务、付费 AI API、登录后端、私有 PDF 管理或大型前端框架。
+- 一级信息优先级：`典籍目录 > 研读札记 > 研究专题 > 知识关联（未来）`。
+- 成员页、公开成果与团队背景只是**围绕知识生产和协作的次要栏目**。
+- Cui Lab 仅用于参考 PI 单独展示、肖像网格、分组与详情页的布局，不可复制品牌/素材，也不可转化为以人员、新闻、招生为主的首页。
+- 不要未经确认重设整个产品方向，更不要把导航变成 About / Research / Team / Publications 为主的实验室主页。
 
-## 团队成员
+## 栈与成本
 
-| 姓名 | 角色 |
-| --- | --- |
-| 赵晨光 | PI / Principal Investigator |
-| 李智林 | 博士后 |
-| 贾海 | 博士研究生 |
-| 张龙 | 团队成员，具体职务待补充 |
-| 李铭浩 | 团队成员，具体职务待补充 |
+- Quarto + GitHub Pages；免费静态 MVP，初期由维护者编辑。
+- v0.2 不接付费 API，不租服务器，不引入数据库或复杂前端框架。
+- 数据从 `.qmd` 和 `data/people.json` 来，维护者/Codex 本地 `quarto render`，提交 `docs/`；GitHub Pages 从 `main /docs` 发布。
+- GitHub PR 协作是维护内容，不是网站的用户身份管理。
 
-赵晨光、李智林与贾海的公开资料已于 2026-11-01 核对，来源保留在各自个人页；更新时优先核对这些来源。
+## 成员资料与编辑约束
 
-**严禁编造**成员所在单位、研究方向、学位、头像、联系地址和论文成果。示例论文 OpenScholar 仅用于演示文献卡片，不是团队发表成果。
+- 赵晨光：PI / 团队负责人。
+- 李智林、贾海的公开资料已由 Hai 在前一轮明确要求核对并发布，本轮迁移到 `data/people.json`，保留来源；张龙、李铭浩仍仅确认姓名及成员角色。
+- 所有成员照片尚未授权提供，继续使用文字占位。
+- 不得自动从其他网站匹配相同姓名来补充研究经历或联系方式。只有确认其身份且本人同意公开后再发布。
 
-## 文件职责
+**编辑成员只能修改 `data/people.json`**，不要手改 `people/*.qmd`。运行 `python scripts/build_people.py` 统一生成。
 
-- `_quarto.yml`：菜单、搜索、站点基础配置。
-- `index.qmd`：首页。
-- `people/`：五位成员个人页及目录。
-- `research/`：研究方向。
-- `library/`：文献索引与单篇文献内容，引用 DOI，不传播未经授权的 PDF。
-- `notes/`：阅读札记。
-- `publications/`：团队成果（当前未填充未经确认的成果）。
-- `join/`：协作入口。
-- `templates/`：添加论文、笔记、专题、成员的可复制模板。
-- `assets/styles.css`：主要视觉样式。
-- `.github/workflows/publish.yml`：Quarto 自动发布到 GitHub Pages。
-- `reference/`：供 AI 与维护者参照的静态预览/截图，**不是正式网站源代码**，且已由 `.gitignore` 排除，勿作为构建入口。
+## 开发优先级
 
-## 工作要求
+1. 让文献卡片和研读札记更加结构化、容易批量维护。
+2. 完善主题体系、标签词表、笔记与文献的互相引用。
+3. 保留公开与私有内容边界，未来再加入用户登录、私有 PDF 仓储。
+4. 只有真实需要时，扩展本地 AI / RAG 与知识图谱。
 
-1. 优先小范围修改，保留现有数据与页面导航；不要为了重构而删除模板。
-2. 每次改动后运行 `python scripts/validate.py`。
-3. 如果 Quarto 可用，再运行 `quarto render` 并检查 `_site/`；本项目 CI 会在 GitHub Actions 上运行正式构建。
-4. 不要将 API Key、密钥、邮箱、未发表数据、研究组内部文档、订阅 PDF 等添加到公开文件。
-5. 网站应能部署到 `https://<账号或组织名>.github.io/`，最好保留对 GitHub 项目子路径的兼容。
-6. 增加文献请保持可追溯出处（DOI/原文链接/元数据来源），不得把他人成果列为团队出版物。
-7. 修改 CSS 时检查桌面与移动端；保持页面中文阅读效果、可用性和无障碍可访问性。
-8. 如果某项需求依赖账号登录或数据库，请单独提出后续架构方案，不要在静态站点上伪装成可用的私有功能。
-
-## 适合 Codex 的第一批任务
-
-- 校验和修复 GitHub Pages 构建流程；构建后检查链接、站内搜索与 Listing。
-- 改进“文献卡片”模板，让 DOI、摘要、关键证据、标签更加结构化。
-- 将站点名称、社交链接、导航项做成更容易配置的字段。
-- 提供成员增加/更新流程（GitHub PR），但不要增加虚构资料。
-
-## 常用命令
+## 开发和测试要求
 
 ```bash
+python scripts/build_people.py
 python scripts/validate.py
 quarto render
-quarto preview
 ```
+
+如果环境没有 Quarto，前两项基础测试必须完成；正式渲染只能由本地或 Codex 的 Quarto 环境执行。不要宣称未经执行的渲染已通过。
+
+### 修改网页须遵守
+
+- 保持已存在的论文、笔记与五位成员页面。
+- 页面在手机和电脑上都能阅读；尊重 CSS 减少动画、可访问性和语义结构。
+- 新内容须有可追溯出处；不要虚构成员的成果、团队领域、引用数和文献数量。
+- 不公开订阅 PDF、未发表数据、密钥及私人联系信息。
+- `reference/` 是截图和视觉预览资料，不是 Quarto 正式源码。
+
+## 重要文件
+
+`_quarto.yml`（菜单和搜索） · `index.qmd`（知识导向首页） · `library/`（典籍） · `notes/`（札记） · `research/`（专题） · `data/people.json`（成员事实源） · `scripts/build_people.py`（成员页生成） · `scripts/build_site.py`（无 Actions 的本地构建） · `docs/`（必须提交的可发布页面） · `DEPLOY_NO_ACTIONS.md`（部署教程）。
+
+## 不使用 GitHub Actions（用户明确要求，必须遵守）
+
+- **禁止**创建任何 `.github/workflows/*.yml` / `.yaml` 文件。不要提议或恢复 GitHub Actions 构建、部署、PR 自动检查方案。
+- 正式发布链路：`python scripts/build_site.py` → 提交整个 `docs/` → GitHub Pages Source: `Deploy from a branch`, `main`, `/docs`。
+- 成员资料变更后必须重新执行构建脚本；不能假定向 GitHub 推送 `.qmd` 会自动生成 HTML。
+- 官方静态托管平台的内部发布过程不等于本项目使用了自定义 Actions。

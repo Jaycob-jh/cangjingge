@@ -12,7 +12,7 @@ toc: false
 <div class="zk-step"><span>1</span><div><strong>联系站点维护者</strong><p>确认公开信息范围、使用规范与成员权限。正式联系方式待团队确认后发布。</p></div></div>
 <div class="zk-step"><span>2</span><div><strong>接受 GitHub 邀请</strong><p>以个人 GitHub 账号加入团队组织，获得相应的仓库访问权限。</p></div></div>
 <div class="zk-step"><span>3</span><div><strong>提交资料与笔记</strong><p>编辑个人简介或新增文献、专题，使用 Pull Request 提交更改。</p></div></div>
-<div class="zk-step"><span>4</span><div><strong>审核后发布</strong><p>由维护者审核事实、出处、格式和公开权限，合并后自动更新网站。</p></div></div>
+<div class="zk-step"><span>4</span><div><strong>审核后发布</strong><p>由维护者审核事实、出处、格式和公开权限，合并后由维护者本地重新构建 `docs/` 并提交发布。</p></div></div>
 </div>
 
 ## 公开网站与内部资源

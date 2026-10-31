@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "groups": [
+    {
+      "id": "pi",
+      "title": "课题组负责人",
+      "subtitle": "Principal Investigator"
+    },
+    {
+      "id": "senior",
+      "title": "高级科研人员",
+      "subtitle": "Senior Scientists"
+    },
+    {
+      "id": "postdoc",
+      "title": "博士后",
+      "subtitle": "Postdoctoral Fellows"
+    },
+    {
+      "id": "graduate",
+      "title": "研究生",
+      "subtitle": "Graduate Students"
+    },
+    {
+      "id": "assistant",
+      "title": "研究助理",
+      "subtitle": "Research Assistants"
+    },
+    {
+      "id": "members",
+      "title": "团队成员",
+      "subtitle": "Team Members"
+    },
+    {
+      "id": "alumni",
+      "title": "往届成员",
+      "subtitle": "Alumni"
+    }
+  ],
+  "members": [
+    {
+      "id": "zhao-chenguang",
+      "name": "赵晨光",
+      "name_en": "Chenguang Zhao",
+      "group": "pi",
+      "position": "PI / 团队负责人",
+      "photo": "",
+      "bio": "赵晨光，藏经阁团队负责人。2026 年海南医科大学的学术交流报道介绍其为北京脑科学与类脑研究所副研究员。研究围绕视觉注意、神经血氧耦合与非侵入性神经调控展开。",
+      "research": [
+        "视觉注意及其电生理与血氧响应机制。",
+        "经颅光生物调节（tPBM）与认知功能调控。",
+        "EEG–fNIRS 多模态记录，以及光刺激与磁刺激的联合干预。"
+      ],
+      "experience": [
+        "2015—2021：北京师范大学基础心理学硕博连续培养。",
+        "2011—2015：郑州大学通信工程学士。",
+        "2021 年起曾在北京师范大学从事博士后研究；该段信息来自早期高校个人介绍。"
+      ],
+      "publications": [
+        "Zhao, C., et al. (2019). Anticipatory alpha oscillation predicts attentional selection and hemodynamic response. *Human Brain Mapping*. DOI",
+        "Zhao, C., Kong, Y., et al. (2023). Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity. *PLOS Biology*. 原文"
+      ],
+      "links": [
+        {
+          "label": "海南医科大学学术交流报道（2026-06-05）",
+          "url": "https://muhn.edu.cn/lxy/info/1050/19762.htm"
+        },
+        {
+          "label": "北京师范大学个人介绍（教育与早期经历）",
+          "url": "https://zkgyy.bnu.edu.cn/yjjg/rzsjgxyjzx/rzrcdw/rzrcbshxl/121983.htm"
+        },
+        {
+          "label": "北京师范大学研究报道（2023）",
+          "url": "https://brain.bnu.edu.cn/kyjz/ab1e27fe84a74ae98c602d3fdccbe6ac.htm"
+        },
+        {
+          "label": "代表论文 · DOI",
+          "url": "https://doi.org/10.1002/hbm.24619"
+        },
+        {
+          "label": "代表论文 · 原文",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002014"
+        }
+      ],
+      "topics": [],
+      "contributions": []
+    },
+    {
+      "id": "li-zhilin",
+      "name": "李智林",
+      "name_en": "Zhilin Li",
+      "group": "postdoc",
+      "position": "博士后",
+      "photo": "",
+      "bio": "李智林，北京脑科学与类脑研究中心（CIBR）崔再续实验室博士后。研究聚焦脑网络引导的经颅光生物调节，探索光刺激引起的神经调控信号如何在大尺度脑网络中传播。",
+      "research": [
+        "脑网络引导的经颅光生物调节（tPBM）。",
+        "光刺激的网络传播机制及其认知调控潜力。",
+        "神经发育障碍相关认知与神经活动的非侵入性干预研究。"
+      ],
+      "experience": [
+        "2025 年起：CIBR 博士后。",
+        "2022—2025：CIBR 博士阶段。",
+        "2019—2022：陕西师范大学心理学院硕士。",
+        "2014—2018：太原理工大学计算机学院学士。"
+      ],
+      "publications": [
+        "Li, Z., et al. (2024). Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans. *Brain Stimulation*. DOI"
+      ],
+      "links": [
+        {
+          "label": "崔再续实验室个人页（2025-07-18）",
+          "url": "https://cuilab.cibr.ac.cn/Team/PostdoctoralFellow/f149cc0c2f8c4700a5ab0ba41f4006c2.htm"
+        },
+        {
+          "label": "代表论文 · DOI",
+          "url": "https://doi.org/10.1016/j.brs.2024.11.010"
+        }
+      ],
+      "topics": [],
+      "contributions": []
+    },
+    {
+      "id": "jia-hai",
+      "name": "贾海",
+      "name_en": "Hai Jia",
+      "group": "graduate",
+      "position": "博士研究生",
+      "photo": "",
+      "bio": "贾海，北京脑科学与类脑研究中心（CIBR）与北京师范大学联合培养博士研究生，具有数学与计算数学背景。硕士阶段从事基于深度学习的生物信号解码，并参与在线脑机接口系统设计。",
+      "research": [
+        "个体脑网络引导的经颅电刺激调控与参数优化。",
+        "执行功能相关脑结构与功能网络。",
+        "深度学习、生物信号解码与脑机接口。"
+      ],
+      "experience": [
+        "2024 年起：CIBR 与北京师范大学博士研究生。",
+        "2023—2024：CIBR 科研助理。",
+        "2020—2023：西华大学理学院计算数学硕士。",
+        "2016—2020：成都信息工程大学应用数学学院数学与应用数学学士。"
+      ],
+      "publications": [
+        "Jia, H., et al. (2023). A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification. *IEEE Transactions on Neural Systems and Rehabilitation Engineering*, 31, 1311–1320。书目信息见下方实验室个人页。"
+      ],
+      "links": [
+        {
+          "label": "崔再续实验室个人页（2024-09-05）",
+          "url": "https://cuilab.cibr.ac.cn/Team/GraduateStudents/f22ecff986ab44879be91ef9c2bbf0c0.htm"
+        }
+      ],
+      "topics": [],
+      "contributions": []
+    },
+    {
+      "id": "zhang-long",
+      "name": "张龙",
+      "name_en": "",
+      "group": "members",
+      "position": "团队成员",
+      "photo": "",
+      "bio": "",
+      "research": [],
+      "experience": [],
+      "publications": [],
+      "links": [],
+      "topics": [],
+      "contributions": []
+    },
+    {
+      "id": "li-minghao",
+      "name": "李铭浩",
+      "name_en": "",
+      "group": "members",
+      "position": "团队成员",
+      "photo": "",
+      "bio": "",
+      "research": [],
+      "experience": [],
+      "publications": [],
+      "links": [],
+      "topics": [],
+      "contributions": []
+    }
+  ]
+}

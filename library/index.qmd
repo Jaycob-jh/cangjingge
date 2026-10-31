@@ -26,6 +26,6 @@ listing:
 
 1. 复制 `templates/paper.qmd` 到 `library/papers/` 目录并修改文件名。
 2. 填写文献标题、作者、日期、标签、DOI 和原文链接。
-3. 提交到 GitHub，网站会自动重建，文献出现在列表中。
+3. 运行 `python scripts/build_site.py` 构建并提交 `docs/` 后，文献才会出现在网站列表中。
 
 完整示例参见 [OpenScholar 文献卡片](papers/openscholar.qmd)。**请勿将无权公开传播的 PDF 上传到公开仓库。**

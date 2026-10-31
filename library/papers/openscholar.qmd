@@ -37,3 +37,7 @@ OpenScholar 将学术语料检索、候选重排序和基于证据的生成相�
 ## 局限与后续
 
 本站尚未集成 OpenScholar 或 RAG；这是供未来技术选型参考的研究论文。具体结果和限制应以 [Nature 原文](https://www.nature.com/articles/s41586-025-10072-4) 为准。
+
+## 关联阅读
+
+[文献精读与证据记录规范](../../notes/posts/reading-guide.qmd) · [研究专题索引](../../research/index.qmd)

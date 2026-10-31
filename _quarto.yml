@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
   render:
     - "index.qmd"
     - "people/*.qmd"
@@ -16,7 +16,7 @@ website:
   title: "藏经阁 Cangjingge"
   site-url: https://jaycob-jh.github.io/cangjingge/
   repo-url: https://github.com/Jaycob-jh/cangjingge
-  description: "团队学术知识平台：整理典籍，积累知识，连接研究者。"
+  description: "藏经阁：整理科研文献，沉淀精读笔记，积累可追溯的团队知识。"
   favicon: assets/favicon.svg
   open-graph: true
   navbar:
@@ -25,24 +25,26 @@ website:
     left:
       - text: "首页"
         href: index.qmd
-      - text: "阁中学人"
-        href: people/index.qmd
-      - text: "研究方向"
-        href: research/index.qmd
       - text: "典籍目录"
         href: library/index.qmd
       - text: "研读札记"
         href: notes/index.qmd
-      - text: "学术成果"
-        href: publications/index.qmd
-      - text: "加入我们"
-        href: join/index.qmd
+      - text: "研究专题"
+        href: research/index.qmd
+      - text: "共建者与项目"
+        menu:
+          - text: "阁中学人"
+            href: people/index.qmd
+          - text: "学术成果"
+            href: publications/index.qmd
+          - text: "共建指南"
+            href: join/index.qmd
   search:
     location: navbar
     type: overlay
     limit: 20
   page-footer:
-    left: "© 2026 藏经阁 · 团队学术知识平台"
+    left: "© 2026 藏经阁 · 文献与知识共建"
     right: "Quarto × GitHub Pages · 开放共享、尊重版权"
   back-to-top-navigation: true
 
@@ -50,7 +52,7 @@ format:
   html:
     theme: cosmo
     css: assets/styles.css
-    lang: zh-CN
+    lang: zh
     toc: true
     link-external-newwindow: true
     smooth-scroll: true

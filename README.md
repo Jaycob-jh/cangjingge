@@ -1,135 +1,130 @@
-# 藏经阁 Cangjingge · v0.1
+# 藏经阁 Cangjingge · MVP v0.2
 
-> 零新增软件费用的团队学术门户。Quarto + GitHub Pages，支持五位初始成员资料页、公开文献目录、精读札记、站内搜索、分类筛选和未来团队协作。
+> **核心产品：科研文献整理与知识沉淀平台**。不是“研究团队官网”。成员页面只是协作入口之一。
+>
+> 初期由一人维护、免费部署于 GitHub Pages；后续通过 Pull Request 邀请团队成员共建，真正的私有 PDF 仓储、登录、任务分配与 AI 功能在后续自建。
 
-**重要说明：** 这是可部署的公开静态网站 MVP，不是私有文献数据库。没有账号注册、PDF 私有上传和 RAG 问答。开发计划请见 `ROADMAP.md`。
-
-## 当前站点
+## 当前项目与构建状态
 
 - 网站：https://jaycob-jh.github.io/cangjingge/
 - 仓库：https://github.com/Jaycob-jh/cangjingge
-- 名称统一使用 Cangjingge。成员资料来源见各自个人页。
+- 本地命令：`python scripts/build_site.py`；Pages：Deploy from a branch → `main /docs`。
+- 本轮已执行正式 Quarto 1.10.18 构建；`docs/` 已由正式产物替换，不再使用包内快照。
+- Windows 可使用项目本地 `.tools/quarto/bin/quarto.exe`，构建脚本会自动发现；该工具目录不提交到 Git。其他电脑可按官方说明安装 Quarto。
+- 核验记录：[BUILD_REPORT.md](BUILD_REPORT.md)；开源参考：[DESIGN_REFERENCES.md](DESIGN_REFERENCES.md)。
 
-## 已录入的团队成员
+## 一眼看懂
 
-| 姓名 | 已确认角色 |
-|---|---|
-| 赵晨光 | PI / Principal Investigator |
-| 李智林 | 博士后 |
-| 贾海 | 博士研究生 |
-| 张龙 | 团队成员（具体职务待补充） |
-| 李铭浩 | 团队成员（具体职务待补充） |
+- **主要入口**：典籍目录 → 研读札记 → 研究专题
+- **协作支持**：共建者页面、公开成果、内容提交指南
+- **已有演示数据**：一篇明确标记为“平台方法参考”的 OpenScholar 论文；一篇平台阅读规范。**不是团队成果**
+- **团队成员**：赵晨光（PI）、李智林、贾海、张龙、李铭浩。其余个人资料未确认，不公开虚构信息
+- **成本**：免费 Quarto + GitHub Pages；无需域名、付费 API 或数据库
+- **功能边界**：不提供动态用户注册、私有 PDF 登录权限和 RAG（这些是后续独立模块）
 
-不会推测成员的机构、学历、成果、研究方向、联系方式或照片；请经当事人同意后完善。
+## 第一次部署到 GitHub Pages（完全不配置自定义 GitHub Actions）
 
-## 5 步上线到 GitHub Pages（不需要本地安装 Quarto）
+推荐仓库：公开的 `组织名.github.io`（组织名与仓库前缀一致）。**本项目没有 `.github/workflows/`，不依赖 GitHub Actions 进行网站构建。**
 
-### 第 1 步：创建 GitHub Organization（推荐）
+### 路线 A：先用压缩包内的 `docs/` 发布演示（无需安装 Quarto）
 
-1. 登录 GitHub，访问 <https://github.com/account/organizations/new>。
-2. 选择适合的免费组织计划，创建一个未被占用的组织名，例如 `your-lab`。
-3. 组织建立后，**公开**创建仓库，名称必须精确为 `your-lab.github.io`（把 `your-lab` 换成真实组织名）。
-4. 如果暂时不创建组织，也可以在个人账号中创建 `你的用户名.github.io` 仓库。
+1. 创建 GitHub Organization（或先用个人账号），新建公开仓库 `组织名.github.io`。
+2. 把压缩包中的**全部文件**上传到仓库根目录，包括 `docs/`，保持目录结构，不要额外嵌套文件夹。
+3. 打开 `Settings → Pages → Build and deployment → Source`，选择 **Deploy from a branch**。
+4. 选择 `main` 分支、`/docs` 目录并保存，等待 GitHub Pages 发布。
+5. 访问 `https://组织名.github.io/`。当前 `docs/` 是本次打包附带的**初始静态快照**；首次运行 Quarto 将用正式渲染输出替换它。
 
-> 组织名和 GitHub 用户名由 GitHub 校验是否可用。本项目**没有**替你创建任何线上仓库或邀请成员。
+### 路线 B：修改内容后正式构建（推荐）
 
-### 第 2 步：上传项目文件
-
-把本压缩包中 `cangjingge/` 文件夹的**全部内容**放到仓库根目录；确保 `_quarto.yml` 与 `.github/workflows/publish.yml` 都在根目录相应位置。
-
-推荐用 Git 命令（在电脑上解压后运行）：
+在电脑或 Codex 的 Quarto 环境执行：
 
 ```bash
-cd cangjingge
-git init
-git branch -M main
+python scripts/build_site.py
+# 脚本依次：生成成员页 → 基础校验 → quarto render → 写入 docs/.nojekyll → 校验静态链接
+
 git add .
-git commit -m "Initial Cangjingge academic portal"
-git remote add origin https://github.com/你的组织名/你的组织名.github.io.git
-git push -u origin main
+git commit -m "Update knowledge archive"
+git push origin main
 ```
 
-注意：不要把示例中的“你的组织名”原样运行。提交前可用 `python scripts/validate.py` 快速验证基础文件。
+确保已安装 [Quarto CLI](https://quarto.org/docs/download/)；只需 Python 标准库，无需额外付费服务。Quarto 配置 `project.output-dir: docs`。**不要把 `docs/` 加入 `.gitignore`**。`docs/.nojekyll` 用于防止 GitHub Pages 再运行默认 Jekyll 构建。
 
-### 第 3 步：启用 Pages
+> GitHub 官方仍可能在 Pages 发布历史中显示其平台**内部**的 Pages 部署流程。这与在仓库中创建或运行我们自己的 `.github/workflows/*.yml` 不同；项目本身不使用自定义 GitHub Actions。
 
-仓库 → **Settings → Pages → Build and deployment → Source → GitHub Actions**。
+详细操作见 [`DEPLOY_NO_ACTIONS.md`](DEPLOY_NO_ACTIONS.md)。
 
-本项目已自带 `.github/workflows/publish.yml`：push 到 `main` 后，GitHub 会自动安装 Quarto、生成 HTML 并发布，不需要云服务器、数据库或付费 API。
-
-### 第 4 步：查看构建状态
-
-仓库 → **Actions** → `Publish Cangjingge to GitHub Pages`。
-
-首次上传如 Pages 尚未设置，完成步骤 3 后还可以在 Actions 页手动运行 `Run workflow`。
-
-构建成功后访问：`https://你的组织名.github.io/`（个人仓库则是用户名）。
-
-如果仓库名称不是 `组织名.github.io`，这是项目站点，地址通常会变成 `https://组织名.github.io/仓库名/`；本站相对路径设计能适应这两种部署路径。
-
-### 第 5 步：修改内容
-
-- 修改主页：`index.qmd`
-- 修改导航和网站名称：`_quarto.yml`
-- 修改样式：`assets/styles.css`
-- 修改五位成员资料：`people/` 对应 `.qmd`
-- 新增成员：复制 `templates/member.qmd` 到 `people/`，同时在 `people/index.qmd` 增加成员卡片
-- 添加文献：复制 `templates/paper.qmd` 到 `library/papers/`，改名并填入真实数据
-- 添加札记：复制 `templates/note.qmd` 到 `notes/posts/`，改名并填入内容
-- 添加研究方向：复制 `templates/research-topic.qmd` 到 `research/`，并在 `research/index.qmd` 加链接
-- 添加公开成果：修改 `publications/index.qmd`
-
-只要保存并提交到 GitHub `main`，网页将自动构建更新。**文献目录与札记目录不需要手动添加索引链接**：Quarto Listing 自动生成列表、关键词过滤和分类筛选。
-
-## 本地预览（可选）
-
-安装免费开源的 [Quarto](https://quarto.org/docs/download/) 后：
+### 本地预览
 
 ```bash
+python scripts/build_people.py
+python scripts/validate.py
 quarto preview
 ```
 
-或执行：
+如果尚未安装 Quarto，压缩包里的 `docs/index.html` 也可以直接用浏览器打开查看静态快照。当前制作环境没有 Quarto CLI，因此**尚未执行正式 Quarto 渲染**；可通过 Codex 补做最终渲染验证。
 
-```bash
-quarto render
-python -m http.server 8000 --directory _site
+## 更新什么文件？
+
+| 目标 | 修改位置 | 说明 |
+|---|---|---|
+| 首页 / 内容优先级 | `index.qmd` | 保持典籍、札记、专题为首要入口 |
+| 导航和搜索 | `_quarto.yml` | Quarto 自带站内搜索 |
+| 视觉样式 | `assets/styles.css` | 不使用第三方付费字体或外部 CDN |
+| **团队成员** | **`data/people.json`** | 唯一成员数据源，不直接修改 `people/*.qmd` |
+| 成员页生成模板 | `scripts/build_people.py` | 运行后生成 `people/` 目录中的页面 |
+| 新增文献 | `templates/paper.qmd` → `library/papers/` | 保存 DOI、作者、出处、版本 |
+| 新增札记 | `templates/note.qmd` → `notes/posts/` | 证据与判断分开记录 |
+| 新增专题 | `templates/research-topic.qmd` → `research/` | 在 `research/index.qmd` 增加专题索引链接 |
+| 成员协作说明 | `join/index.qmd` | 当前采用 GitHub PR 审核发布 |
+
+### 如何添加/修改成员
+
+在 `data/people.json` 的 `members` 数组里增加或编辑一条。常用字段：
+
+```json
+{
+  "id": "new-member",
+  "name": "待确认姓名",
+  "name_en": "",
+  "group": "members",
+  "position": "团队成员",
+  "photo": "",
+  "bio": "",
+  "topics": [],
+  "contributions": [],
+  "research": [],
+  "experience": [],
+  "publications": [],
+  "links": []
+}
 ```
 
-浏览器访问 `http://localhost:8000`。
+- `group` 可选 `pi`、`postdoc`、`graduate`、`assistant`、`members`、`alumni` 等。**只有得到真实职务后再修改分组**。
+- `photo` 默认为空，使用清晰的文字占位；如经本人授权提供照片，将文件放入 `assets/people/` 并填写相对路径，例如 `assets/people/new-member.jpg`。
+- `topics` 表示参与的公开研究专题，`contributions` 记录可核验的公开文献、札记或编目贡献；目前均为空。
+- 修改成员数据后，运行 `python scripts/build_people.py`；修改后必须手动运行 `python scripts/build_site.py`，重新生成 `docs/` 并提交。
+- `people/*.qmd` 是生成文件，直接修改会被下次生成覆盖。
 
-## 后续邀请成员协作
+详情见 [`data/PEOPLE_GUIDE.md`](data/PEOPLE_GUIDE.md)。
 
-1. 组织 → **People → Invite member**，根据 GitHub 提示邀请团队成员。
-2. 优先采用“创建分支 → Pull Request → 维护者审核 → 合并”的流程。
-3. 个人履历与照片发布前取得当事人授权。
-4. 保留独立私有仓库（例如 `research-library-private`）管理研究计划和内部笔记。**不要**将个人敏感信息、API Key、未公开实验记录或无权公开的订阅 PDF 放在公开仓库。
-5. GitHub Pages 不提供用户登录或文件访问控制；后续如需“团队登录/上传私有 PDF/阅读任务”，再建设自建后端。
+## 内容与安全边界
 
-## 常见问题
+- 公共网站**仅展示有权公开的内容**，包括书目信息、公开的独立笔记和经许可的个人资料。
+- 版权受限 PDF、未发表结果、内部会议记录、受保密要求限制的数据，不可上传到 Pages 公共仓库。
+- 私有 Zotero 组库、已有机构授权资源或未来自建 Django + PostgreSQL + 文件存储是独立层，不由静态网站公开。
+- GitHub 仓库邀请成员，只代表**维护内容**的权限，不是站内登录系统。
 
-**Q：为什么导入的 Zotero PDF 没直接上传到网站？**  
-A：先保存 DOI、标题、作者和公开链接即可；订阅 PDF 的再传播可能受到许可限制。以后可以独立部署私有存储。
+## 设计参考与边界
 
-**Q：没有购买域名怎么办？**  
-A：直接使用 GitHub Pages 免费二级域名即可。
+- [Cui Lab](https://cuilab.cibr.ac.cn/Team/index.htm)：**只借鉴成员分组、PI 单独展示与详情页层次**，没有使用其代码、照片、品牌或团队内容。
+- [RobertsLab/lab-website](https://github.com/RobertsLab/lab-website)：Quarto 页面组织与团队数据维护思路。
+- [Quarto Listings](https://quarto.org/docs/websites/website-listings.html)：文献和札记条目列表、筛选与分类。
 
-**Q：GitHub Pages 登录功能在哪？**  
-A：静态站点没有用户账户后端。GitHub 账号仅用于编辑仓库/提交 PR，不能直接变成站内的私有登录系统。
+藏经阁的主页、导航、知识流与数据模型独立设计，**不把它改成实验室宣传网站**。
 
-**Q：什么时候能把藏经阁做成内部平台？**  
-A：出现真实团队协作需求后，再按 `ROADMAP.md` 的 P1/P2 阶段开发 Django + PostgreSQL / PDF.js 等模块。
+## 验证和后续
 
-## 成本与限制
-
-- 源码：免费开源工具。GitHub Free 的公开仓库可使用 Pages；额度和服务条款以官方当前说明为准。
-- 默认不购买服务器、域名、数据库托管、AI API。
-- GitHub Actions/Pages 有使用配额和可接受使用政策；不要把网页当作大量 PDF 的网盘。
-- 本仓库的自编模板与示例代码遵循 MIT 许可证；第三方项目、论文与资源保留原许可证。
-
-## 参考文档
-
-- Quarto 官方：<https://quarto.org/docs/websites/>
-- Quarto GitHub Pages：<https://quarto.org/docs/publishing/github-pages.html>
-- Quarto Listings：<https://quarto.org/docs/websites/website-listings.html>
-- GitHub Pages 官方：<https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site>
+- `python scripts/validate.py`：基础内容与站内链接检查。
+- `python scripts/build_site.py`：本地或 Codex 执行 Quarto 渲染，并将静态站点写入可发布的 `docs/`。
+- `docs/`：可直接发布的初始静态网页快照；首轮正式 Quarto 构建会覆盖。`reference/screenshots/` 保留原设计截图供 Codex 参考。
+- `CODEX_START_HERE.md` 和 `AGENTS.md`：交给 Codex 的首要说明；`ROADMAP.md` 为后续能力计划。

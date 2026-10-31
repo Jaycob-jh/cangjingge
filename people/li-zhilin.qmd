@@ -1,34 +1,35 @@
 ---
 title: "李智林"
-subtitle: "Zhilin Li · 博士后"
-toc: true
+subtitle: "博士后"
+toc: false
+page-layout: custom
+title-block-banner: false
+anchor-sections: false
 ---
 
-## 个人简介
-
-李智林，北京脑科学与类脑研究中心（CIBR）崔再续实验室博士后。研究聚焦脑网络引导的经颅光生物调节，探索光刺激引起的神经调控信号如何在大尺度脑网络中传播。
-
-## 研究方向
-
-- 脑网络引导的经颅光生物调节（tPBM）。
-- 光刺激的网络传播机制及其认知调控潜力。
-- 神经发育障碍相关认知与神经活动的非侵入性干预研究。
-
-## 教育与研究经历
-
-- 2025 年起：CIBR 博士后。
-- 2022—2025：CIBR 博士阶段。
-- 2019—2022：陕西师范大学心理学院硕士。
-- 2014—2018：太原理工大学计算机学院学士。
-
-## 代表论文
-
-Li, Z., et al. (2024). Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans. *Brain Stimulation*. [DOI](https://doi.org/10.1016/j.brs.2024.11.010)
-
-## 公开资料来源
-
-[崔再续实验室个人页（2025-07-18）](https://cuilab.cibr.ac.cn/Team/PostdoctoralFellow/f149cc0c2f8c4700a5ab0ba41f4006c2.htm)
-
-资料核对：2026-11-01。
-
-[← 返回阁中学人](index.qmd)
+```{=html}
+<div class="zk-profile-page zk-wide">
+<nav class="zk-crumb" aria-label="面包屑"><a href="index.html">团队成员</a><span>/</span><span>李智林</span></nav>
+<header class="zk-profile-hero">
+  <div class="zk-portrait is-large is-placeholder" aria-label="李智林：尚未上传本人授权照片"><span class="zk-portrait-monogram" aria-hidden="true">李</span><span class="zk-portrait-caption">PHOTO PENDING</span></div>
+  <div class="zk-profile-intro">
+    <span class="zk-eyebrow">KNOWLEDGE CONTRIBUTORS / Postdoctoral Fellows</span>
+    <h1>李智林</h1>
+    <p class="zk-profile-name-en">Zhilin Li</p>
+    <p class="zk-profile-position">博士后</p>
+    <div class="zk-profile-divider"></div>
+    <p class="zk-profile-summary">李智林，北京脑科学与类脑研究中心（CIBR）崔再续实验室博士后。研究聚焦脑网络引导的经颅光生物调节，探索光刺激引起的神经调控信号如何在大尺度脑网络中传播。</p>
+    <a class="zk-text-link" href="index.html">← 返回团队成员</a>
+  </div>
+</header>
+<div class="zk-profile-sections">
+<section class="zk-profile-section"><span class="zk-eyebrow">01 / TOPICS</span><h2>参与的知识专题</h2><p class="zk-field-pending">已建立个人资料页，参与专题待维护者或本人补充。</p></section>
+<section class="zk-profile-section"><span class="zk-eyebrow">02 / CONTRIBUTIONS</span><h2>文献整理与札记</h2><p class="zk-field-pending">文献编目、研读札记与专题维护记录待补充。</p></section>
+<section class="zk-profile-section"><span class="zk-eyebrow">03 / INTERESTS</span><h2>研究兴趣</h2><ul class="zk-profile-list"><li>脑网络引导的经颅光生物调节（tPBM）。</li><li>光刺激的网络传播机制及其认知调控潜力。</li><li>神经发育障碍相关认知与神经活动的非侵入性干预研究。</li></ul></section>
+<section class="zk-profile-section"><span class="zk-eyebrow">04 / BACKGROUND</span><h2>教育与科研经历</h2><ul class="zk-profile-list"><li>2025 年起：CIBR 博士后。</li><li>2022—2025：CIBR 博士阶段。</li><li>2019—2022：陕西师范大学心理学院硕士。</li><li>2014—2018：太原理工大学计算机学院学士。</li></ul></section>
+<section class="zk-profile-section"><span class="zk-eyebrow">05 / PUBLICATIONS</span><h2>公开成果</h2><ul class="zk-profile-list"><li>Li, Z., et al. (2024). Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans. *Brain Stimulation*. DOI</li></ul></section>
+<section class="zk-profile-section"><span class="zk-eyebrow">06 / LINKS</span><h2>学术链接</h2><ul class="zk-profile-list"><li><a href="https://cuilab.cibr.ac.cn/Team/PostdoctoralFellow/f149cc0c2f8c4700a5ab0ba41f4006c2.htm" rel="noopener noreferrer">崔再续实验室个人页（2025-07-18） ↗</a></li><li><a href="https://doi.org/10.1016/j.brs.2024.11.010" rel="noopener noreferrer">代表论文 · DOI ↗</a></li></ul></section>
+</div>
+<div class="zk-profile-notice">资料依据已授权的公开来源整理；原始出处见学术链接，后续更新由本人或维护者核对。</div>
+</div>
+```
