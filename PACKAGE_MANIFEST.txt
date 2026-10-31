@@ -1,4 +1,5 @@
-Zangjingge Codex bundle v0.1 - file list and SHA-256
+Cangjingge - original input bundle file list and SHA-256
+Historical archive manifest: hashes and reference filenames below describe the original ZIP, not the current working tree.
 The ZIP root is the editable Quarto project root.
 
 0ff3546d0e960f809a12ee713365690e1e9619732fa613f5ec7c058b18db5060        1038  .github/workflows/publish.yml
