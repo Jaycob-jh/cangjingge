@@ -1,29 +1,19 @@
-# 成员资料维护规范
+# 成员资料维护
 
-**唯一可修改的数据源**：`data/people.json`。修改后执行：
+成员内容统一保存在 `data/people.json`。运行 `python scripts/build_site.py` 生成个人页、目录和可发布站点。
 
-```bash
-python scripts/build_people.py
-python scripts/validate.py
-```
+## 字段
 
-`people/` 内的 `.qmd` 会由脚本重写，不要手工修改。
+- `id`：稳定的页面标识，修改会影响已有链接。
+- `name`、`name_en`、`position`：姓名与职务。
+- `group`：目录分组，与 `groups` 中的标识对应。
+- `bio`：直接介绍机构、角色与研究方向。
+- `research`、`experience`、`publications`：研究兴趣、教育与科研经历、公开成果。
+- `topics`、`contributions`：专题与内容贡献；有实际条目时再填写。
+- `links`：资料来源与学术链接，在个人页的可展开资料栏中显示。
+- `photo`：本地照片相对路径，例如 `assets/people/jia-hai.jpg`。
+- `photo_source`：照片来源的 `label`、`url`、`image_url` 与 `accessed` 日期。
 
-## 当前确认信息
+没有内容的板块自动隐藏，没有照片的成员使用姓名标识。正文不叙述资料搜索或核查过程；来源链接集中保留在资料栏。
 
-赵晨光（PI），李智林、贾海、张龙、李铭浩（团队成员，具体职务待确认）。
-
-## 字段说明
-
-- `id`：用于 URL 的英文字母标识，保持唯一。
-- `name`：成员显示姓名。
-- `group`：分组标识；仅在成员职务经过本人确认后再移动到博士后、研究生、研究助理等分组。
-- `position`：显示职务。
-- `name_en`、`bio`、`research`、`experience`、`publications`、`links`：公开前确认本人同意。
-- `topics`：该成员负责或参与的公开知识专题。
-- `contributions`：公开的文献索引、精读札记或维护记录，**不是虚构的贡献排行榜**。
-- `photo`：为空使用文字占位；真实照片需本人授权，并存放 `assets/people/`。
-
-最初的个人详情页面以“参与专题”和“文献整理与札记”优先。未确认的履历字段不会提前展示。
-
-> 姓名和成员职务存在重名风险。不要从第三方网页自动抓取同名人员的照片、经历和联系方式，并当作团队成员资料。
+成员照片与来源按官方人员页对应关系维护。已有页面保持稳定的 `id`；仅更新内容和照片时无需更改地址。

@@ -34,12 +34,12 @@ def portrait(member: dict, *, large: bool = False, prefix: str = '../') -> str:
             raise ValueError(f"照片路径不存在：{photo}")
         if not photo.startswith('assets/people/') or '..' in Path(photo).parts:
             raise ValueError(f"照片必须存放在 assets/people/：{photo}")
-        return f'<div class="{cls} has-photo"><img src="{prefix}{esc(photo)}" alt="{name}的成员照片" loading="lazy"></div>'
+        return f'<div class="{cls} has-photo"><img src="{prefix}{esc(photo)}" alt="{name}" loading="lazy"></div>'
     # Distinct from real photographs: a typographic placeholder until permission is granted.
     initial = name[:1]
-    return (f'<div class="{cls} is-placeholder" aria-label="{name}：尚未上传本人授权照片">'
+    return (f'<div class="{cls} is-placeholder" aria-label="{name}姓名标识">'
             f'<span class="zk-portrait-monogram" aria-hidden="true">{initial}</span>'
-            f'<span class="zk-portrait-caption">PHOTO PENDING</span></div>')
+            '</div>')
 
 def render_items(items: list, empty: str) -> str:
     if not items:
@@ -47,25 +47,35 @@ def render_items(items: list, empty: str) -> str:
     return '<ul class="zk-profile-list">' + ''.join(f'<li>{esc(x)}</li>' for x in items) + '</ul>'
 
 def optional_profile_sections(member: dict) -> str:
-    """Keep the knowledge-contribution profile concise until details are confirmed."""
     sections = [
-        ("03 / INTERESTS", "研究兴趣", member.get('research', [])),
-        ("04 / BACKGROUND", "教育与科研经历", member.get('experience', [])),
-        ("05 / PUBLICATIONS", "公开成果", member.get('publications', [])),
+        ("TOPICS", "参与的知识专题", member.get('topics', [])),
+        ("CONTRIBUTIONS", "文献整理与札记", member.get('contributions', [])),
+        ("RESEARCH INTERESTS", "研究兴趣", member.get('research', [])),
+        ("BACKGROUND", "教育与科研经历", member.get('experience', [])),
+        ("PUBLICATIONS", "公开成果", member.get('publications', [])),
     ]
-    out = []
-    for marker, title, items in sections:
-        if items:
-            out.append(f'<section class="zk-profile-section"><span class="zk-eyebrow">{marker}</span><h2>{title}</h2>{render_items(items, "")}</section>')
-    if member.get('links'):
-        out.append(f'<section class="zk-profile-section"><span class="zk-eyebrow">06 / LINKS</span><h2>学术链接</h2>{render_links(member)}</section>')
-    return "\n".join(out)
+    return "\n".join(
+        f'<section class="zk-profile-section"><span class="zk-eyebrow">{marker}</span><h2>{title}</h2>{render_items(items, "")}</section>'
+        for marker, title, items in sections if items
+    )
+
+
+def profile_sources(member: dict) -> str:
+    links = render_links(member) if member.get('links') else ''
+    source = member.get('photo_source')
+    if source:
+        links += f'<p>照片：<a href="{esc(source["url"])}" rel="noopener noreferrer">{esc(source["label"])}</a></p>'
+    if not links:
+        return ''
+    return '<details class="zk-profile-sources"><summary>资料与图片来源</summary>' + links + '</details>'
+
 
 def profile_page(member: dict, group: dict) -> str:
     name, slug = esc(member['name']), member['id']
     pos = esc(member['position'])
     en = esc(member.get('name_en') or '')
-    bio = esc(member.get('bio') or '个人简介待本人确认后发布。')
+    bio = esc(member.get('bio') or '')
+    sections = optional_profile_sections(member)
     photo = portrait(member, large=True)
     position_head = esc(group['subtitle'])
     about = f'''<div class="zk-profile-page zk-wide">
@@ -78,23 +88,19 @@ def profile_page(member: dict, group: dict) -> str:
     {f'<p class="zk-profile-name-en">{en}</p>' if en else ''}
     <p class="zk-profile-position">{pos}</p>
     <div class="zk-profile-divider"></div>
-    <p class="zk-profile-summary">{bio}</p>
+    {f'<p class="zk-profile-summary">{bio}</p>' if bio else ''}
     <a class="zk-text-link" href="index.html">← 返回团队成员</a>
   </div>
 </header>
-<div class="zk-profile-sections">
-<section class="zk-profile-section"><span class="zk-eyebrow">01 / TOPICS</span><h2>参与的知识专题</h2>{render_items(member.get('topics', []), '已建立个人资料页，参与专题待维护者或本人补充。')}</section>
-<section class="zk-profile-section"><span class="zk-eyebrow">02 / CONTRIBUTIONS</span><h2>文献整理与札记</h2>{render_items(member.get('contributions', []), '文献编目、研读札记与专题维护记录待补充。')}</section>
-{optional_profile_sections(member)}
-</div>
-<div class="zk-profile-notice">仅展示已核实的资料；已发布内容的出处见学术链接，未填写项由本人或维护者核对后更新。</div>
+{f'<div class="zk-profile-sections">{sections}</div>' if sections else ''}
+{profile_sources(member)}
 </div>'''
     return frontmatter(member['name'], member['position']) + '```{=html}\n' + about + '\n```\n'
 
 def render_links(member: dict) -> str:
     links = member.get('links', [])
     if not links:
-        return '<p class="zk-field-pending">ORCID、个人主页及其他联系方式待补充。</p>'
+        return ''
     out = []
     for link in links:
         url = str(link.get('url', ''))
@@ -131,7 +137,7 @@ def main() -> None:
         '<header class="zk-team-heading">',
         '  <span class="zk-eyebrow">OUR PEOPLE / 团队成员</span>',
         '  <h1>研究人员与知识共建者</h1>',
-        '  <p>成员参与公开文献整理、研读札记与专题维护。个人简介和既往论文保留公开来源，内容贡献依据实际记录更新。</p>',
+        '  <p>查看藏经阁成员的个人简介、研究兴趣与公开论文。</p>',
         f'  <div class="zk-team-count"><strong>{len(members):02}</strong><span>FOUNDING MEMBERS / 初始成员</span></div>',
         '</header>',
         '<section class="zk-team-group" aria-label="课题组负责人">',
@@ -144,7 +150,7 @@ def main() -> None:
             '  <div class="zk-pi-copy"><span class="zk-pi-overline">PRINCIPAL INVESTIGATOR</span>',
             '  <h3>'+esc(m['name'])+'</h3>',
             '  <p class="zk-pi-position">'+esc(m['position'])+'</p>',
-            '  <p class="zk-pi-summary">'+esc(m.get('bio') or '个人简介、研究方向及学术履历将在确认后更新。')+'</p>',
+            '  <p class="zk-pi-summary">'+esc(m.get('bio') or '')+'</p>',
             '  <span class="zk-pi-link">查看个人主页 <span aria-hidden="true">↗</span></span></div>',
             '</a>',
         ])
@@ -166,10 +172,9 @@ def main() -> None:
         idx += 1
     html_parts.extend([
         '<div class="zk-team-bottom">',
-        '  <div><span class="zk-eyebrow">CONTRIBUTE TO THE ARCHIVE</span><h2>收录文献、研读证据、共建专题</h2><p>团队成员未来可通过 GitHub 提交公开书目、札记与专题页面；未公开科研材料仍保存在私有空间。</p></div>',
+        '  <div><span class="zk-eyebrow">CONTRIBUTE TO THE ARCHIVE</span><h2>收录文献、研读证据、共建专题</h2><p>通过 GitHub 提交文献、札记和专题，参与内容维护与修订。</p></div>',
         '  <a class="zk-outline-link" href="../join/">共建指南 <span aria-hidden="true">↗</span></a>',
         '</div>',
-        '<p class="zk-team-disclaimer">成员信息按已授权的公开资料维护，来源见个人页；尚未提供照片的成员使用文字占位。</p>',
         '</div>',
     ])
     OUT.mkdir(exist_ok=True)

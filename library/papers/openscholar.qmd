@@ -3,13 +3,11 @@ title: "Synthesizing scientific literature with retrieval-augmented language mod
 author: "Asai et al."
 date: 2026-02-04
 categories: ["平台方法参考", "文献检索", "RAG"]
-description: "Nature 论文；介绍 OpenScholar 如何检索学术语料并生成有出处的跨论文回答。属于本站演示文献，不是团队成果。"
+description: "Nature 论文；介绍 OpenScholar 如何检索学术语料并生成有出处的跨论文回答。"
 toc: true
 ---
 
-::: {.zk-page-intro}
-**条目性质：** 平台设计参考文献 / 示例条目。此文献不是本团队发表的成果，录入是为了展示藏经阁的文献结构。
-:::
+
 
 ## 书目信息
 
@@ -34,9 +32,9 @@ OpenScholar 将学术语料检索、候选重排序和基于证据的生成相�
 - AI 问答需要返回原文依据，不应只输出没有出处的总结。
 - 大规模语料索引不是第一阶段 MVP 的必要条件。
 
-## 局限与后续
+## 原文与实现
 
-本站尚未集成 OpenScholar 或 RAG；这是供未来技术选型参考的研究论文。具体结果和限制应以 [Nature 原文](https://www.nature.com/articles/s41586-025-10072-4) 为准。
+[Nature 原文](https://www.nature.com/articles/s41586-025-10072-4) · [OpenScholar 开源实现](https://github.com/AkariAsai/OpenScholar)
 
 ## 关联阅读
 

@@ -44,8 +44,8 @@
       "name_en": "Chenguang Zhao",
       "group": "pi",
       "position": "PI / 团队负责人",
-      "photo": "",
-      "bio": "赵晨光，藏经阁团队负责人。2026 年海南医科大学的学术交流报道介绍其为北京脑科学与类脑研究所副研究员。研究围绕视觉注意、神经血氧耦合与非侵入性神经调控展开。",
+      "photo": "assets/people/zhao-chenguang.jpg",
+      "bio": "赵晨光，北京脑科学与类脑研究所副研究员、藏经阁团队负责人。主要研究视觉注意、神经血氧耦合与经颅光生物调节，结合 EEG–fNIRS 等多模态记录方法探索非侵入性神经调控的作用机制。",
       "research": [
         "视觉注意及其电生理与血氧响应机制。",
         "经颅光生物调节（tPBM）与认知功能调控。",
@@ -54,7 +54,7 @@
       "experience": [
         "2015—2021：北京师范大学基础心理学硕博连续培养。",
         "2011—2015：郑州大学通信工程学士。",
-        "2021 年起曾在北京师范大学从事博士后研究；该段信息来自早期高校个人介绍。"
+        "2021年9月：北京师范大学认知神经工效研究中心博士后。"
       ],
       "publications": [
         "Zhao, C., et al. (2019). Anticipatory alpha oscillation predicts attentional selection and hemodynamic response. Human Brain Mapping.",
@@ -66,7 +66,7 @@
           "url": "https://muhn.edu.cn/lxy/info/1050/19762.htm"
         },
         {
-          "label": "北京师范大学个人介绍（教育与早期经历）",
+          "label": "北京师范大学个人介绍",
           "url": "https://zkgyy.bnu.edu.cn/yjjg/rzsjgxyjzx/rzrcdw/rzrcbshxl/121983.htm"
         },
         {
@@ -83,7 +83,13 @@
         }
       ],
       "topics": [],
-      "contributions": []
+      "contributions": [],
+      "photo_source": {
+        "label": "北京师范大学系统科学学院",
+        "url": "https://sss.bnu.edu.cn/sszdw/sbsh/0b80af9d0aed4264b76d735b74a737d4.htm",
+        "image_url": "https://sss.bnu.edu.cn/images/2025-11/64e1f23f92154218bb4622565a435e7c.jpg",
+        "accessed": "2026-11-02"
+      }
     },
     {
       "id": "li-zhilin",
@@ -91,7 +97,7 @@
       "name_en": "Zhilin Li",
       "group": "postdoc",
       "position": "博士后",
-      "photo": "",
+      "photo": "assets/people/li-zhilin.jpg",
       "bio": "李智林，北京脑科学与类脑研究中心（CIBR）崔再续实验室博士后。研究聚焦脑网络引导的经颅光生物调节，探索光刺激引起的神经调控信号如何在大尺度脑网络中传播。",
       "research": [
         "脑网络引导的经颅光生物调节（tPBM）。",
@@ -118,7 +124,13 @@
         }
       ],
       "topics": [],
-      "contributions": []
+      "contributions": [],
+      "photo_source": {
+        "label": "崔再续实验室成员页",
+        "url": "https://cuilab.cibr.ac.cn/Team/index.htm",
+        "image_url": "https://cuilab.cibr.ac.cn/images/2026-10/18f46374d86540339abb2df4f0e3f0fc.jpg",
+        "accessed": "2026-11-02"
+      }
     },
     {
       "id": "jia-hai",
@@ -126,7 +138,7 @@
       "name_en": "Hai Jia",
       "group": "graduate",
       "position": "博士研究生",
-      "photo": "",
+      "photo": "assets/people/jia-hai.jpg",
       "bio": "贾海，北京脑科学与类脑研究中心（CIBR）与北京师范大学联合培养博士研究生，具有数学与计算数学背景。硕士阶段从事基于深度学习的生物信号解码，并参与在线脑机接口系统设计。",
       "research": [
         "个体脑网络引导的经颅电刺激调控与参数优化。",
@@ -140,7 +152,7 @@
         "2016—2020：成都信息工程大学应用数学学院数学与应用数学学士。"
       ],
       "publications": [
-        "Jia, H., et al. (2023). A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311–1320。书目信息见下方实验室个人页。"
+        "Jia, H., et al. (2023). A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311–1320。"
       ],
       "links": [
         {
@@ -153,7 +165,13 @@
         }
       ],
       "topics": [],
-      "contributions": []
+      "contributions": [],
+      "photo_source": {
+        "label": "崔再续实验室成员页",
+        "url": "https://cuilab.cibr.ac.cn/Team/index.htm",
+        "image_url": "https://cuilab.cibr.ac.cn/images/2024-09/b14217017007464896fd3e3d083bd4fa.jpg",
+        "accessed": "2026-11-02"
+      }
     },
     {
       "id": "zhang-long",

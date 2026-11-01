@@ -11,22 +11,18 @@ anchor-sections: false
 <div class="zk-profile-page zk-wide">
 <nav class="zk-crumb" aria-label="面包屑"><a href="index.html">团队成员</a><span>/</span><span>张龙</span></nav>
 <header class="zk-profile-hero">
-  <div class="zk-portrait is-large is-placeholder" aria-label="张龙：尚未上传本人授权照片"><span class="zk-portrait-monogram" aria-hidden="true">张</span><span class="zk-portrait-caption">PHOTO PENDING</span></div>
+  <div class="zk-portrait is-large is-placeholder" aria-label="张龙姓名标识"><span class="zk-portrait-monogram" aria-hidden="true">张</span></div>
   <div class="zk-profile-intro">
     <span class="zk-eyebrow">KNOWLEDGE CONTRIBUTORS / Team Members</span>
     <h1>张龙</h1>
     
     <p class="zk-profile-position">团队成员</p>
     <div class="zk-profile-divider"></div>
-    <p class="zk-profile-summary">个人简介待本人确认后发布。</p>
+    
     <a class="zk-text-link" href="index.html">← 返回团队成员</a>
   </div>
 </header>
-<div class="zk-profile-sections">
-<section class="zk-profile-section"><span class="zk-eyebrow">01 / TOPICS</span><h2>参与的知识专题</h2><p class="zk-field-pending">已建立个人资料页，参与专题待维护者或本人补充。</p></section>
-<section class="zk-profile-section"><span class="zk-eyebrow">02 / CONTRIBUTIONS</span><h2>文献整理与札记</h2><p class="zk-field-pending">文献编目、研读札记与专题维护记录待补充。</p></section>
 
-</div>
-<div class="zk-profile-notice">仅展示已核实的资料；已发布内容的出处见学术链接，未填写项由本人或维护者核对后更新。</div>
+
 </div>
 ```

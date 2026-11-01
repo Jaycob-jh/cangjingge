@@ -4,13 +4,13 @@ subtitle: "Research · 从科学问题组织知识"
 toc: false
 ---
 
-<div class="zk-page-intro">此页面已经搭好专题结构，但尚未收到团队的具体研究学科与方向。下列内容是栏目模板，不代表团队已经开展的课题。</div>
+<div class="zk-page-intro">围绕科学问题组织核心文献、研究方法与证据比较，建立专题阅读索引。</div>
 
 ## 专题索引
 
-<div class="zk-empty"><strong>研究方向待发布</strong><p>建议初期先确定 2–4 个长期研究主题。每个主题独立设置研究问题、核心文献、研究方法、当前进展和负责人。</p></div>
+<p class="zk-field-pending">专题评述整理中。</p>
 
-## 一份研究专题应包含什么？
+## 专题结构
 
 <div class="zk-step-list">
 <div class="zk-step"><span>1</span><div><strong>核心科学问题</strong><p>用一段话界定问题的边界与重要性。</p></div></div>

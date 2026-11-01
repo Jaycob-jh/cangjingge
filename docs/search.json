@@ -2,77 +2,84 @@
   {
     "objectID": "join/index.html",
     "href": "join/index.html",
-    "title": "加入我们",
+    "title": "共建指南",
     "section": "",
-    "text": "目前由站点维护者统一维护。未来团队成员可以受邀进入 GitHub Organization，围绕网页、文献目录、专题与阅读笔记协作。\n\n\n1\n\n联系站点维护者\n\n确认公开信息范围、使用规范与成员权限。正式联系方式待团队确认后发布。\n\n\n\n\n2\n\n接受 GitHub 邀请\n\n以个人 GitHub 账号加入团队组织，获得相应的仓库访问权限。\n\n\n\n\n3\n\n提交资料与笔记\n\n编辑个人简介或新增文献、专题，使用 Pull Request 提交更改。\n\n\n\n\n4\n\n审核后发布\n\n由维护者审核事实、出处、格式和公开权限，合并后由维护者本地重新构建 docs/ 并提交发布。"
+    "text": "通过 GitHub 提交文献、研读札记、专题建议或页面勘误。可以先在 Issue 中提出建议，也可以直接用 Pull Request 提交修改。\n提出建议或勘误 · 查看项目仓库\n\n\n1\n\n选择内容类型\n\n新增文献卡片、分享研读札记、整理研究专题，或修订已有内容。\n\n\n\n\n2\n\n整理来源与证据\n\n填写作者、发表信息、DOI 和版本，标明关键论述对应的原文位置。\n\n\n\n\n3\n\n提交更改\n\n使用仓库模板编写内容，通过 Pull Request 提交；讨论和勘误也可以发起 Issue。\n\n\n\n\n4\n\n审核与发布\n\n维护者检查内容与格式，合并后本地构建并更新网站。"
   },
   {
-    "objectID": "join/index.html#如何参与藏经阁",
-    "href": "join/index.html#如何参与藏经阁",
-    "title": "加入我们",
+    "objectID": "join/index.html#参与内容共建",
+    "href": "join/index.html#参与内容共建",
+    "title": "共建指南",
     "section": "",
-    "text": "目前由站点维护者统一维护。未来团队成员可以受邀进入 GitHub Organization，围绕网页、文献目录、专题与阅读笔记协作。\n\n\n1\n\n联系站点维护者\n\n确认公开信息范围、使用规范与成员权限。正式联系方式待团队确认后发布。\n\n\n\n\n2\n\n接受 GitHub 邀请\n\n以个人 GitHub 账号加入团队组织，获得相应的仓库访问权限。\n\n\n\n\n3\n\n提交资料与笔记\n\n编辑个人简介或新增文献、专题，使用 Pull Request 提交更改。\n\n\n\n\n4\n\n审核后发布\n\n由维护者审核事实、出处、格式和公开权限，合并后由维护者本地重新构建 docs/ 并提交发布。"
+    "text": "通过 GitHub 提交文献、研读札记、专题建议或页面勘误。可以先在 Issue 中提出建议，也可以直接用 Pull Request 提交修改。\n提出建议或勘误 · 查看项目仓库\n\n\n1\n\n选择内容类型\n\n新增文献卡片、分享研读札记、整理研究专题，或修订已有内容。\n\n\n\n\n2\n\n整理来源与证据\n\n填写作者、发表信息、DOI 和版本，标明关键论述对应的原文位置。\n\n\n\n\n3\n\n提交更改\n\n使用仓库模板编写内容，通过 Pull Request 提交；讨论和勘误也可以发起 Issue。\n\n\n\n\n4\n\n审核与发布\n\n维护者检查内容与格式，合并后本地构建并更新网站。"
   },
   {
-    "objectID": "join/index.html#公开网站与内部资源",
-    "href": "join/index.html#公开网站与内部资源",
-    "title": "加入我们",
-    "section": "公开网站与内部资源",
-    "text": "公开网站与内部资源\n公开站点不具备自助注册、私有 PDF 上传或访问控制。内部科研资料请保存在受授权的私有仓库或 Zotero/后续自建系统中，不要因为 GitHub Pages 已部署就将内部资料推送到公开仓库。\n\n联系方式\n\n暂未公布公开邮箱、单位地址或招募职位。请由团队确认后再补充，避免误导访问者。"
+    "objectID": "join/index.html#内容维护",
+    "href": "join/index.html#内容维护",
+    "title": "共建指南",
+    "section": "内容维护",
+    "text": "内容维护\n\n文献卡片：library/papers/，模板为 templates/paper.qmd。\n研读札记：notes/posts/，模板为 templates/note.qmd。\n研究专题：research/，模板为 templates/research-topic.qmd。\n成员资料：data/people.json，由构建脚本生成个人页。"
+  },
+  {
+    "objectID": "join/index.html#资源管理",
+    "href": "join/index.html#资源管理",
+    "title": "共建指南",
+    "section": "资源管理",
+    "text": "资源管理\n公开书目与笔记通过站点共享；内部全文、实验记录和未发表数据保存在团队私有资源中。"
   },
   {
     "objectID": "notes/posts/reading-guide.html",
     "href": "notes/posts/reading-guide.html",
-    "title": "从文献收藏到知识沉淀：藏经阁阅读规范",
+    "title": "文献精读与证据记录规范",
     "section": "",
-    "text": "这是藏经阁的平台使用说明，不是某位成员的研究成果。"
+    "text": "这份规范用于记录研究问题、方法、关键证据和局限，统一文献精读的结构。"
   },
   {
     "objectID": "notes/posts/reading-guide.html#确认文献来源",
     "href": "notes/posts/reading-guide.html#确认文献来源",
-    "title": "从文献收藏到知识沉淀：藏经阁阅读规范",
+    "title": "文献精读与证据记录规范",
     "section": "1. 确认文献来源",
     "text": "1. 确认文献来源\n优先记录 DOI、arXiv ID、正式发表链接及版本信息，避免只保留一个文件名。"
   },
   {
     "objectID": "notes/posts/reading-guide.html#提炼三个问题",
     "href": "notes/posts/reading-guide.html#提炼三个问题",
-    "title": "从文献收藏到知识沉淀：藏经阁阅读规范",
+    "title": "文献精读与证据记录规范",
     "section": "2. 提炼三个问题",
     "text": "2. 提炼三个问题\n\n论文解决了什么具体问题？\n使用了哪些关键方法、数据和假设？\n哪些主要结论有清晰的证据支持？"
   },
   {
     "objectID": "notes/posts/reading-guide.html#保存可追溯的证据",
     "href": "notes/posts/reading-guide.html#保存可追溯的证据",
-    "title": "从文献收藏到知识沉淀：藏经阁阅读规范",
+    "title": "文献精读与证据记录规范",
     "section": "3. 保存可追溯的证据",
     "text": "3. 保存可追溯的证据\n对于重要事实，写明论文页码、图表编号或章节位置。将研究者自己的推断与论文作者的结论分开。"
   },
   {
     "objectID": "notes/posts/reading-guide.html#记录局限和争议",
     "href": "notes/posts/reading-guide.html#记录局限和争议",
-    "title": "从文献收藏到知识沉淀：藏经阁阅读规范",
+    "title": "文献精读与证据记录规范",
     "section": "4. 记录局限和争议",
     "text": "4. 记录局限和争议\n说明样本大小、研究场景、方法假设与潜在偏差；必要时关联持相反观点的论文。"
   },
   {
     "objectID": "notes/posts/reading-guide.html#经审核后公开",
     "href": "notes/posts/reading-guide.html#经审核后公开",
-    "title": "从文献收藏到知识沉淀：藏经阁阅读规范",
+    "title": "文献精读与证据记录规范",
     "section": "5. 经审核后公开",
-    "text": "5. 经审核后公开\n发表前确认引用准确、没有泄露内部数据、不会未经授权传播受版权保护的全文或图片。"
+    "text": "5. 经审核后公开\n发布前核对引文与原文的一致性，以及材料的公开范围和使用许可。"
   },
   {
     "objectID": "notes/posts/reading-guide.html#建议笔记模板",
     "href": "notes/posts/reading-guide.html#建议笔记模板",
-    "title": "从文献收藏到知识沉淀：藏经阁阅读规范",
+    "title": "文献精读与证据记录规范",
     "section": "建议笔记模板",
     "text": "建议笔记模板\n请复制 templates/note.qmd，按研究专题填写相应信息。编辑时可以保留未完成标记，但正式发布前应删除无效链接。"
   },
   {
     "objectID": "notes/posts/reading-guide.html#关联文献与专题",
     "href": "notes/posts/reading-guide.html#关联文献与专题",
-    "title": "从文献收藏到知识沉淀：藏经阁阅读规范",
+    "title": "文献精读与证据记录规范",
     "section": "关联文献与专题",
     "text": "关联文献与专题\n\nOpenScholar 文献卡片：查看 DOI、版本与公开来源的记录示例。\n研究专题索引：按科学问题组织后续阅读。"
   },
@@ -81,14 +88,14 @@
     "href": "library/papers/openscholar.html",
     "title": "Synthesizing scientific literature with retrieval-augmented language models",
     "section": "",
-    "text": "条目性质： 平台设计参考文献 / 示例条目。此文献不是本团队发表的成果，录入是为了展示藏经阁的文献结构。"
+    "text": "题目： Synthesizing scientific literature with retrieval-augmented language models\n作者： Akari Asai et al.\n期刊： Nature, 650, 857–863 (2026)\n发表日期： 2026-02-04\nDOI： 10.1038/s41586-025-10072-4\n开源实现： OpenScholar GitHub"
   },
   {
     "objectID": "library/papers/openscholar.html#书目信息",
     "href": "library/papers/openscholar.html#书目信息",
     "title": "Synthesizing scientific literature with retrieval-augmented language models",
-    "section": "书目信息",
-    "text": "书目信息\n\n题目： Synthesizing scientific literature with retrieval-augmented language models\n作者： Akari Asai et al.\n期刊： Nature, 650, 857–863 (2026)\n发表日期： 2026-02-04\nDOI： 10.1038/s41586-025-10072-4\n开源实现： OpenScholar GitHub"
+    "section": "",
+    "text": "题目： Synthesizing scientific literature with retrieval-augmented language models\n作者： Akari Asai et al.\n期刊： Nature, 650, 857–863 (2026)\n发表日期： 2026-02-04\nDOI： 10.1038/s41586-025-10072-4\n开源实现： OpenScholar GitHub"
   },
   {
     "objectID": "library/papers/openscholar.html#核心问题",
@@ -112,11 +119,11 @@
     "text": "对藏经阁的启发\n\n文献条目应保留 DOI、作者、发表信息与稳定来源。\nAI 问答需要返回原文依据，不应只输出没有出处的总结。\n大规模语料索引不是第一阶段 MVP 的必要条件。"
   },
   {
-    "objectID": "library/papers/openscholar.html#局限与后续",
-    "href": "library/papers/openscholar.html#局限与后续",
+    "objectID": "library/papers/openscholar.html#原文与实现",
+    "href": "library/papers/openscholar.html#原文与实现",
     "title": "Synthesizing scientific literature with retrieval-augmented language models",
-    "section": "局限与后续",
-    "text": "局限与后续\n本站尚未集成 OpenScholar 或 RAG；这是供未来技术选型参考的研究论文。具体结果和限制应以 Nature 原文 为准。"
+    "section": "原文与实现",
+    "text": "原文与实现\nNature 原文 · OpenScholar 开源实现"
   },
   {
     "objectID": "library/papers/openscholar.html#关联阅读",
@@ -130,21 +137,21 @@
     "href": "research/index.html",
     "title": "研究专题",
     "section": "",
-    "text": "此页面已经搭好专题结构，但尚未收到团队的具体研究学科与方向。下列内容是栏目模板，不代表团队已经开展的课题。"
+    "text": "围绕科学问题组织核心文献、研究方法与证据比较，建立专题阅读索引。"
   },
   {
     "objectID": "research/index.html#专题索引",
     "href": "research/index.html#专题索引",
     "title": "研究专题",
     "section": "专题索引",
-    "text": "专题索引\n\n研究方向待发布\n\n建议初期先确定 2–4 个长期研究主题。每个主题独立设置研究问题、核心文献、研究方法、当前进展和负责人。"
+    "text": "专题索引\n\n专题评述整理中。"
   },
   {
-    "objectID": "research/index.html#一份研究专题应包含什么",
-    "href": "research/index.html#一份研究专题应包含什么",
+    "objectID": "research/index.html#专题结构",
+    "href": "research/index.html#专题结构",
     "title": "研究专题",
-    "section": "一份研究专题应包含什么？",
-    "text": "一份研究专题应包含什么？\n\n\n1\n\n核心科学问题\n\n用一段话界定问题的边界与重要性。\n\n\n\n\n2\n\n研究脉络\n\n列出关键文献、发展阶段、主要证据及尚存争议。\n\n\n\n\n3\n\n方法与资源\n\n维护实验方法、数据资源、代码、分析流程与质量控制措施。\n\n\n\n\n4\n\n团队进展\n\n关联已公开的论文、报告、笔记与可共享成果。\n\n\n\n\n你可以复制 templates/research-topic.qmd 的内容，创建新的 research/topic-name.qmd 页面，并把链接加入本页。"
+    "section": "专题结构",
+    "text": "专题结构\n\n\n1\n\n核心科学问题\n\n用一段话界定问题的边界与重要性。\n\n\n\n\n2\n\n研究脉络\n\n列出关键文献、发展阶段、主要证据及尚存争议。\n\n\n\n\n3\n\n方法与资源\n\n维护实验方法、数据资源、代码、分析流程与质量控制措施。\n\n\n\n\n4\n\n团队进展\n\n关联已公开的论文、报告、笔记与可共享成果。\n\n\n\n\n你可以复制 templates/research-topic.qmd 的内容，创建新的 research/topic-name.qmd 页面，并把链接加入本页。"
   },
   {
     "objectID": "index.html",
@@ -179,7 +186,7 @@
     "href": "library/index.html",
     "title": "典籍目录",
     "section": "",
-    "text": "典籍目录收录公开可引用的文献元数据、研究摘要和原文链接。当前仅有一篇标为“平台方法参考”的真实示例论文；它不是团队学术成果。"
+    "text": "按主题整理科研文献，记录作者、发表信息、DOI、研究摘要与原文链接。"
   },
   {
     "objectID": "library/index.html#文献索引",
@@ -193,21 +200,21 @@
     "href": "library/index.html#如何添加一篇新论文",
     "title": "典籍目录",
     "section": "如何添加一篇新论文？",
-    "text": "如何添加一篇新论文？\n\n复制 templates/paper.qmd 到 library/papers/ 目录并修改文件名。\n填写文献标题、作者、日期、标签、DOI 和原文链接。\n运行 python scripts/build_site.py 构建并提交 docs/ 后，文献才会出现在网站列表中。\n\n完整示例参见 OpenScholar 文献卡片。请勿将无权公开传播的 PDF 上传到公开仓库。"
+    "text": "如何添加一篇新论文？\n\n复制 templates/paper.qmd 到 library/papers/ 目录并修改文件名。\n填写文献标题、作者、日期、标签、DOI 和原文链接。\n运行 python scripts/build_site.py 构建并提交 docs/ 后，文献才会出现在网站列表中。\n\n条目示例：OpenScholar 文献卡片。"
   },
   {
     "objectID": "notes/index.html",
     "href": "notes/index.html",
     "title": "研读札记",
     "section": "",
-    "text": "这里展示可公开的精读札记、方法说明和研究综述。未发表研究成果、实验记录与其他内部资料，应先在私有空间整理，审核后再选择公开。"
+    "text": "整理文献精读、方法说明与专题综述，记录研究问题、证据位置、局限和延伸思考。"
   },
   {
     "objectID": "notes/index.html#最新札记",
     "href": "notes/index.html#最新札记",
     "title": "研读札记",
     "section": "最新札记",
-    "text": "最新札记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n从文献收藏到知识沉淀：藏经阁阅读规范\n\n\n\n平台指南\n\n文献精读\n\n工作流程\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项"
+    "text": "最新札记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n文献精读与证据记录规范\n\n\n\n平台指南\n\n文献精读\n\n工作流程\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项"
   },
   {
     "objectID": "notes/index.html#精读卡片的统一结构",
@@ -221,7 +228,7 @@
     "href": "publications/index.html",
     "title": "学术成果",
     "section": "",
-    "text": "收录成员已公开发表、可核查的论文，保留原始作者署名和发表信息。论文的研究归属以原文为准。"
+    "text": "收录成员公开发表的论文，记录作者、发表信息与 DOI。"
   },
   {
     "objectID": "publications/index.html#公开论文",

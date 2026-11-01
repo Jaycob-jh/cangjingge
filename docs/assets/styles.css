@@ -325,3 +325,9 @@ body:has(.hero-section) #title-block-header { display: none; }
 .publication-entry { border-left: 3px solid #b99865; padding: .2rem 1.3rem 1rem; margin: 1.5rem 0 2rem; overflow-wrap: anywhere; }
 .publication-entry h3 { font-family: var(--zk-serif); font-size: 1.2rem; line-height: 1.5; }
 @media (max-width: 600px) { .hero-section { padding: 1.25rem; } .publication-entry { padding-inline: 1rem; } }
+
+/* Portraits keep a stable frame; sources are available on demand. */
+.zk-portrait.has-photo img { position: absolute; inset: 0; object-position: center 35%; }
+.zk-profile-sources { margin: 1.5rem 0 2rem; padding-top: 1rem; border-top: 1px solid var(--zk-border); font-size: .85rem; color: var(--zk-muted); overflow-wrap: anywhere; }
+.zk-profile-sources summary { cursor: pointer; width: fit-content; }
+.zk-profile-sources .zk-profile-list { font-size: .85rem; margin-top: 1rem; }

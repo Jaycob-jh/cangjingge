@@ -13,7 +13,7 @@ listing:
   page-size: 20
 ---
 
-<div class="zk-page-intro">典籍目录收录公开可引用的文献元数据、研究摘要和原文链接。当前仅有一篇标为“平台方法参考”的真实示例论文；它不是团队学术成果。</div>
+<div class="zk-page-intro">按主题整理科研文献，记录作者、发表信息、DOI、研究摘要与原文链接。</div>
 
 ## 文献索引
 
@@ -28,4 +28,4 @@ listing:
 2. 填写文献标题、作者、日期、标签、DOI 和原文链接。
 3. 运行 `python scripts/build_site.py` 构建并提交 `docs/` 后，文献才会出现在网站列表中。
 
-完整示例参见 [OpenScholar 文献卡片](papers/openscholar.qmd)。**请勿将无权公开传播的 PDF 上传到公开仓库。**
+条目示例：[OpenScholar 文献卡片](papers/openscholar.qmd)。

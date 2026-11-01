@@ -1,6 +1,6 @@
 # 藏经阁 Cangjingge
 
-> **核心产品：科研文献整理与知识沉淀平台**。不是“研究团队官网”。成员页面只是协作入口之一。
+> **核心产品：科研文献库、结构化研读札记与研究专题。** 成员页面提供研究人员与共建者索引。
 >
 > 初期由一人维护、免费部署于 GitHub Pages；后续通过 Pull Request 邀请团队成员共建，真正的私有 PDF 仓储、登录、任务分配与 AI 功能在后续自建。
 
@@ -19,8 +19,8 @@
 
 - **主要入口**：典籍目录 → 研读札记 → 研究专题
 - **协作支持**：共建者页面、公开成果、内容提交指南
-- **已有演示数据**：一篇明确标记为“平台方法参考”的 OpenScholar 论文；一篇平台阅读规范。**不是团队成果**
-- **团队成员**：赵晨光（PI）、李智林、贾海、张龙、李铭浩。其余个人资料未确认，不公开虚构信息
+- **当前内容**：OpenScholar 方法参考、平台阅读规范，以及3篇成员公开论文索引。
+- **团队成员**：赵晨光、李智林、贾海、张龙、李铭浩；简介与照片在个人页维护。
 - **成本**：免费 Quarto + GitHub Pages；无需域名、付费 API 或数据库
 - **功能边界**：不提供动态用户注册、私有 PDF 登录权限和 RAG（这些是后续独立模块）
 
@@ -63,7 +63,7 @@ python scripts/validate.py
 quarto preview
 ```
 
-如果尚未安装 Quarto，压缩包里的 `docs/index.html` 也可以直接用浏览器打开查看静态快照。当前制作环境没有 Quarto CLI，因此**尚未执行正式 Quarto 渲染**；可通过 Codex 补做最终渲染验证。
+`docs/` 是正式 Quarto 构建产物。更新内容后运行 `python scripts/build_site.py`，再提交源码与 `docs/`。
 
 ## 更新什么文件？
 
@@ -102,7 +102,7 @@ quarto preview
 ```
 
 - `group` 可选 `pi`、`postdoc`、`graduate`、`assistant`、`members`、`alumni` 等。**只有得到真实职务后再修改分组**。
-- `photo` 默认为空，使用清晰的文字占位；如经本人授权提供照片，将文件放入 `assets/people/` 并填写相对路径，例如 `assets/people/new-member.jpg`。
+- `photo` 填写 `assets/people/` 下的照片路径；`photo_source` 记录来源页与图片地址。没有照片时使用姓名标识。
 - `topics` 表示参与的公开研究专题，`contributions` 记录可核验的公开文献、札记或编目贡献；目前均为空。
 - 修改成员数据后，运行 `python scripts/build_people.py`；修改后必须手动运行 `python scripts/build_site.py`，重新生成 `docs/` 并提交。
 - `people/*.qmd` 是生成文件，直接修改会被下次生成覆盖。
@@ -118,7 +118,7 @@ quarto preview
 
 ## 设计参考与边界
 
-- [Cui Lab](https://cuilab.cibr.ac.cn/Team/index.htm)：**只借鉴成员分组、PI 单独展示与详情页层次**，没有使用其代码、照片、品牌或团队内容。
+- [Cui Lab](https://cuilab.cibr.ac.cn/Team/index.htm)：**只借鉴成员分组、PI 单独展示与详情页层次**，页面布局独立实现；本次成员照片取自其公开人员页，具体出处见个人页。
 - [RobertsLab/lab-website](https://github.com/RobertsLab/lab-website)：Quarto 页面组织与团队数据维护思路。
 - [Quarto Listings](https://quarto.org/docs/websites/website-listings.html)：文献和札记条目列表、筛选与分类。
 
