@@ -16,7 +16,7 @@ website:
   title: "藏经阁 Cangjingge"
   site-url: https://jaycob-jh.github.io/cangjingge/
   repo-url: https://github.com/Jaycob-jh/cangjingge
-  description: "藏经阁：整理科研文献，沉淀精读笔记，积累可追溯的团队知识。"
+  description: "神经调控与脑连接组学文献、研读札记及可回溯的科研证据索引。"
   favicon: assets/favicon.svg
   open-graph: true
   navbar:
@@ -25,13 +25,13 @@ website:
     left:
       - text: "首页"
         href: index.qmd
-      - text: "典籍目录"
+      - text: "典籍索引"
         href: library/index.qmd
       - text: "研读札记"
         href: notes/index.qmd
-      - text: "研究专题"
+      - text: "专题评述"
         href: research/index.qmd
-      - text: "共建者与项目"
+      - text: "团队与贡献"
         menu:
           - text: "阁中学人"
             href: people/index.qmd
@@ -39,6 +39,10 @@ website:
             href: publications/index.qmd
           - text: "共建指南"
             href: join/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/Jaycob-jh/cangjingge
+        aria-label: GitHub 仓库
   search:
     location: navbar
     type: overlay

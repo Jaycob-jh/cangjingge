@@ -1,8 +1,10 @@
-# 藏经阁 Cangjingge · MVP v0.2
+# 藏经阁 Cangjingge
 
 > **核心产品：科研文献整理与知识沉淀平台**。不是“研究团队官网”。成员页面只是协作入口之一。
 >
 > 初期由一人维护、免费部署于 GitHub Pages；后续通过 Pull Request 邀请团队成员共建，真正的私有 PDF 仓储、登录、任务分配与 AI 功能在后续自建。
+
+本轮学术化改版见 [v3执行记录](REVAMP_V3.md)，文风规范见 [CONTRIBUTING_STYLE.md](CONTRIBUTING_STYLE.md)。基础架构继续使用Quarto与main /docs发布。
 
 ## 当前项目与构建状态
 
@@ -11,7 +13,7 @@
 - 本地命令：`python scripts/build_site.py`；Pages：Deploy from a branch → `main /docs`。
 - 本轮已执行正式 Quarto 1.10.18 构建；`docs/` 已由正式产物替换，不再使用包内快照。
 - Windows 可使用项目本地 `.tools/quarto/bin/quarto.exe`，构建脚本会自动发现；该工具目录不提交到 Git。其他电脑可按官方说明安装 Quarto。
-- 核验记录：[BUILD_REPORT.md](BUILD_REPORT.md)；开源参考：[DESIGN_REFERENCES.md](DESIGN_REFERENCES.md)。
+- 当前改版核验：[REVAMP_V3.md](REVAMP_V3.md)；v0.2构建核验：[BUILD_REPORT.md](BUILD_REPORT.md)；开源参考：[DESIGN_REFERENCES.md](DESIGN_REFERENCES.md)。
 
 ## 一眼看懂
 

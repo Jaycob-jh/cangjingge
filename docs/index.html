@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>藏经阁 – 藏经阁 Cangjingge</title>
+<title>藏经阁 Cangjingge</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -41,6 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -76,11 +77,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="assets/styles.css">
-<meta property="og:title" content="藏经阁 – 藏经阁 Cangjingge">
+<meta property="og:title" content="藏经阁 Cangjingge">
+<meta property="og:description" content="神经调控与脑连接组学文献、研读札记及可回溯的科研证据索引。">
 <meta property="og:site_name" content="藏经阁 Cangjingge">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -103,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./library/index.html"> 
-<span class="menu-text">典籍目录</span></a>
+<span class="menu-text">典籍索引</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./notes/index.html"> 
@@ -111,11 +113,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./research/index.html"> 
-<span class="menu-text">研究专题</span></a>
+<span class="menu-text">专题评述</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">共建者与项目</span>
+ <span class="menu-text">团队与贡献</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
         <li>
@@ -133,6 +135,13 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Jaycob-jh/cangjingge"> <i class="bi bi-github" role="img" aria-label="GitHub 仓库">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
@@ -140,19 +149,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
+    
 <!-- main -->
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">藏经阁</h1>
+<h1 class="title">藏经阁 Cangjingge</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -164,69 +175,75 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="zk-home zk-wide">
-<section class="zk-hero-library" aria-label="藏经阁简介与入口">
-  <div class="zk-hero-main">
-    <div class="zk-eyebrow"><span class="zk-eyebrow-line"></span> CANGJINGGE · 协作式知识整理</div>
-    <h1>让文献可寻，<br><em>让知识可续。</em></h1>
-    <p class="zk-hero-description">藏经阁是一座持续生长的学术知识空间。在这里整理文献、沉淀研读笔记、连接研究问题，并逐步形成团队共同维护的知识脉络。</p>
-    <div class="zk-hero-actions">
-      <a class="zk-primary-link" href="library/">进入典籍目录 <span aria-hidden="true">↗</span></a>
-      <a class="zk-secondary-link" href="notes/">浏览研读札记 <span aria-hidden="true">→</span></a>
-    </div>
-    <p class="zk-hero-note"><span class="zk-status-dot" aria-hidden="true"></span> v0.2 · 零新增付费服务 · 文献知识优先</p>
-  </div>
-  <div class="zk-hero-aside" role="complementary" aria-label="典籍索引示例">
-    <div class="zk-shelf-heading"><span>知识索引 / INDEX</span><span>PUBLIC · 01</span></div>
-    <a class="zk-shelf-paper" href="library/papers/openscholar.html">
-      <div class="zk-shelf-paper-top"><span class="zk-mini-tag">平台方法参考</span><span class="zk-mini-date">NATURE · 2026</span></div>
-      <h2>OpenScholar</h2>
-      <p>Synthesizing scientific literature with retrieval-augmented language models</p>
-      <div class="zk-shelf-paper-foot"><span>文献检索 / RAG / 证据综合</span><span aria-hidden="true">↗</span></div>
-    </a>
-    <div class="zk-shelf-bottom">
-      <a href="notes/posts/reading-guide.html"><span>01</span><strong>文献精读与证据记录规范</strong><span aria-hidden="true">↗</span></a>
-      <a href="research/"><span>02</span><strong>按研究问题组织专题</strong><span aria-hidden="true">↗</span></a>
-      <a href="people/"><span>03</span><strong>共建者与内容贡献</strong><span aria-hidden="true">↗</span></a>
-    </div>
-  </div>
+<section id="结构化文献归档与可回溯科研证据库" class="level1 hero-section">
+<h1>结构化文献归档与可回溯科研证据库</h1>
+<p>围绕神经调控、经颅光生物调节 (tPBM) 与脑连接组学整理公开文献、结构化研读札记和专题评述。每项论述保留来源、证据位置与适用条件，便于检索、比较和引用。</p>
+<p><a href="library/" class="btn btn-primary">进入典籍索引 ↗</a> <a href="notes/" class="btn btn-outline-secondary">浏览研读札记 →</a></p>
+<p>公开文献 · 结构化评注 · 来源可回溯</p>
 </section>
-
-<section class="zk-home-section" aria-label="核心内容入口">
-  <div class="zk-section-headline"><div><span class="zk-eyebrow">EXPLORE THE ARCHIVE</span><h2>从哪里开始？</h2></div><p>从一篇论文，到一个专题，再到可复用的研究认识。</p></div>
-  <div class="zk-portal-grid">
-    <a class="zk-portal-card" href="library/"><span class="zk-portal-icon" aria-hidden="true">01</span><div><p class="zk-portal-sub">LITERATURE / 文献索引</p><h3>典籍目录</h3><p>按主题、作者与关键词查找论文，保留 DOI、版本和原始来源。</p></div><span class="zk-portal-arrow" aria-hidden="true">↗</span></a>
-    <a class="zk-portal-card" href="notes/"><span class="zk-portal-icon" aria-hidden="true">02</span><div><p class="zk-portal-sub">READING / 证据笔记</p><h3>研读札记</h3><p>记录研究问题、方法、关键证据、局限与新的思考，支持回溯出处。</p></div><span class="zk-portal-arrow" aria-hidden="true">↗</span></a>
-    <a class="zk-portal-card" href="research/"><span class="zk-portal-icon" aria-hidden="true">03</span><div><p class="zk-portal-sub">TOPICS / 知识专题</p><h3>研究专题</h3><p>把分散论文聚合成领域脉络、方法比较和待解决的科学问题。</p></div><span class="zk-portal-arrow" aria-hidden="true">↗</span></a>
-  </div>
+<hr>
+<section id="核心索引" class="level2">
+<h2 class="anchored" data-anchor-id="核心索引">核心索引</h2>
+<div class="grid">
+<section id="文献索引-literature" class="level3 g-col-12 g-col-md-4">
+<h3 class="anchored" data-anchor-id="文献索引-literature">01 / 文献索引 (Literature)</h3>
+<p><strong>典籍目录</strong> 规范收录同行评审期刊论文、经典专著与预印本，完整标引 DOI、实验版本与开源资源链接。 <a href="library/">查阅文献索引 ↗</a></p>
 </section>
-
-<section class="zk-home-section zk-workflow" aria-label="知识沉淀流程">
-  <div class="zk-section-headline"><div><span class="zk-eyebrow">HOW KNOWLEDGE GROWS</span><h2>知识如何在这里积累</h2></div><p>先完成可追溯的人工整理，再逐步增加搜索与 AI 能力。</p></div>
-  <div class="zk-workflow-grid">
-    <div class="zk-workflow-item"><span>01 / 收录</span><h3>保存出处</h3><p>DOI、作者、论文版本与合法原文链接</p></div>
-    <div class="zk-workflow-item"><span>02 / 归类</span><h3>组织专题</h3><p>为文献添加研究主题、标签及问题线索</p></div>
-    <div class="zk-workflow-item"><span>03 / 研读</span><h3>提炼证据</h3><p>整理方法、结论、图表和证据位置</p></div>
-    <div class="zk-workflow-item"><span>04 / 连接</span><h3>形成知识</h3><p>比较研究、识别争议，持续更新笔记</p></div>
-  </div>
+<section id="证据笔记-research-notes" class="level3 g-col-12 g-col-md-4">
+<h3 class="anchored" data-anchor-id="证据笔记-research-notes">02 / 证据笔记 (Research Notes)</h3>
+<p><strong>研读札记</strong> 提炼核心方法、效应量、关键证据与局限性，支持结论直接回溯至原文图表。 <a href="notes/">阅读研读笔记 ↗</a></p>
 </section>
-
-<section class="zk-home-section zk-current" aria-label="当前可读内容">
-  <div class="zk-section-headline"><div><span class="zk-eyebrow">CURRENT COLLECTION</span><h2>先从这些内容读起</h2></div><a href="library/" class="zk-inline-link">查看全部典籍 ↗</a></div>
-  <div class="zk-feature-grid">
-    <article class="zk-feature-card"><span class="zk-label">方法参考 · 非团队成果</span><h3><a href="library/papers/openscholar.html">OpenScholar：学术文献检索与证据综合</a></h3><p>一篇用于说明文献索引方式的真实方法论文，演示如何记录来源、研究贡献与方法类别。</p><a class="zk-text-link" href="library/papers/openscholar.html">阅读文献卡片 →</a></article>
-    <article class="zk-feature-card"><span class="zk-label">平台指南 · 文献精读</span><h3><a href="notes/posts/reading-guide.html">从文献收藏到知识沉淀</a></h3><p>统一的阅读规范：记录研究问题、方法、证据、局限和可以继续追问的方向。</p><a class="zk-text-link" href="notes/posts/reading-guide.html">查看精读规范 →</a></article>
-  </div>
+<section id="知识专题-synthesis" class="level3 g-col-12 g-col-md-4">
+<h3 class="anchored" data-anchor-id="知识专题-synthesis">03 / 知识专题 (Synthesis)</h3>
+<p><strong>专题评述</strong> 聚合离散研究，梳理经颅光刺激物理机制、多模态神经影像验证及脑网络靶向干预等核心课题。 <a href="research/">探索研究专题 ↗</a></p>
 </section>
-
-<section class="zk-contribute-band"><div><span class="zk-eyebrow">GROW TOGETHER</span><h2>从个人整理，逐步发展为团队共建。</h2><p>目前由维护者录入和审核公开内容。未来成员可以通过 GitHub 提交文献、笔记和专题；团队身份与成员资料作为协作支持，不喧宾夺主。</p></div><a class="zk-secondary-link" href="join/">共建方式 <span aria-hidden="true">↗</span></a></section>
 </div>
+<hr>
+</section>
+<section id="文献整理与证据评注流程" class="level2">
+<h2 class="anchored" data-anchor-id="文献整理与证据评注流程">文献整理与证据评注流程</h2>
+<div class="grid">
+<section id="原始凭证归档-provenance" class="level4 g-col-12 g-col-md-3">
+<h4 class="anchored" data-anchor-id="原始凭证归档-provenance">01 / 原始凭证归档 (Provenance)</h4>
+<p>完整标引 DOI、作者机构、预印本版本与合法原文路径。</p>
+</section>
+<section id="科学问题映射-taxonomy" class="level4 g-col-12 g-col-md-3">
+<h4 class="anchored" data-anchor-id="科学问题映射-taxonomy">02 / 科学问题映射 (Taxonomy)</h4>
+<p>依据假说与实验范式归纳分类，建立神经干预与脑网络交叉索引。</p>
+</section>
+<section id="方法与证据评注-critique" class="level4 g-col-12 g-col-md-3">
+<h4 class="anchored" data-anchor-id="方法与证据评注-critique">03 / 方法与证据评注 (Critique)</h4>
+<p>提取核心效应量、光剂量参数、刺激靶点及实验边界，定位图表证据。</p>
+</section>
+<section id="证据综合与再现-synthesis" class="level4 g-col-12 g-col-md-3">
+<h4 class="anchored" data-anchor-id="证据综合与再现-synthesis">04 / 证据综合与再现 (Synthesis)</h4>
+<p>对比研究结论，记录重复验证结果、适用条件与尚存争议。</p>
+</section>
+</div>
+<hr>
+</section>
+<section id="基于版本控制的学术共建" class="level2">
+<h2 class="anchored" data-anchor-id="基于版本控制的学术共建">基于版本控制的学术共建</h2>
+<p>文献卡片与研读札记通过 Git 记录修订，维护者审核来源与内容后合并。可以通过 Pull Request 提交新文献、勘误或专题建议。</p>
+<p><a href="join/" class="btn btn-outline-primary">查看共建流程与规范 ↗</a> ## 已收录内容</p>
+<ul>
+<li><a href="./library/papers/openscholar.html">OpenScholar：学术文献检索与证据综合</a>（平台方法参考）。</li>
+<li><a href="./notes/posts/reading-guide.html">文献精读与证据记录规范</a>（平台指南）。</li>
+</ul>
 
 
+</section>
 
-
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> 回到顶部</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

@@ -1,21 +1,37 @@
 ---
 title: "学术成果"
-subtitle: "Publications · 论文、软件与开放资源"
+subtitle: "Publications · 成员公开论文索引"
 toc: false
 ---
 
-<div class="zk-page-intro">此处只发布经核实、确认属于团队成员的学术成果。演示文献已单独放入“典籍目录”，不会冒充团队发表的论文。</div>
+收录成员已公开发表、可核查的论文，保留原始作者署名和发表信息。论文的研究归属以原文为准。
 
-<div class="zk-empty"><strong>团队成果列表待补充</strong><p>建议每条成果至少包含题目、作者、年份、发表渠道、DOI 或稳定 URL，以及与团队的关联。也可以补充公开数据集、开源代码仓库和学术报告。</p></div>
+## 公开论文
 
-## 推荐录入格式
+::: {.publication-entry}
+### Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans
 
-```text
-论文标题（年份）
-作者列表（按论文原文）
-期刊 / 会议 / 预印本平台
-DOI：10.xxxx/xxxxx
-相关代码 / 数据链接（可选）
-```
+Zhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao.  
+*Brain Stimulation*, 17(6), 1307-1316 (2024).
 
-请仅添加已经公开、可核实并获许可展示的成果。
+[DOI: 10.1016/j.brs.2024.11.010](https://doi.org/10.1016/j.brs.2024.11.010) · [成员关联：李智林](../people/li-zhilin.qmd)
+:::
+
+::: {.publication-entry}
+### Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity
+
+Chenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song.  
+*PLOS Biology*, 21(3), e3002014 (2023).
+
+[DOI: 10.1371/journal.pbio.3002014](https://doi.org/10.1371/journal.pbio.3002014) · [成员关联：赵晨光](../people/zhao-chenguang.qmd)
+:::
+
+::: {.publication-entry}
+### A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification
+
+Hai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang.  
+*IEEE Transactions on Neural Systems and Rehabilitation Engineering*, 31, 1311-1320 (2023).
+
+[DOI: 10.1109/tnsre.2023.3243992](https://doi.org/10.1109/tnsre.2023.3243992) · [成员关联：贾海](../people/jia-hai.qmd)
+:::
+

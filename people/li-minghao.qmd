@@ -27,6 +27,6 @@ anchor-sections: false
 <section class="zk-profile-section"><span class="zk-eyebrow">02 / CONTRIBUTIONS</span><h2>文献整理与札记</h2><p class="zk-field-pending">文献编目、研读札记与专题维护记录待补充。</p></section>
 
 </div>
-<div class="zk-profile-notice">资料依据已授权的公开来源整理；原始出处见学术链接，后续更新由本人或维护者核对。</div>
+<div class="zk-profile-notice">仅展示已核实的资料；已发布内容的出处见学术链接，未填写项由本人或维护者核对后更新。</div>
 </div>
 ```

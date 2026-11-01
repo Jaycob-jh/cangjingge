@@ -147,6 +147,34 @@
     "text": "一份研究专题应包含什么？\n\n\n1\n\n核心科学问题\n\n用一段话界定问题的边界与重要性。\n\n\n\n\n2\n\n研究脉络\n\n列出关键文献、发展阶段、主要证据及尚存争议。\n\n\n\n\n3\n\n方法与资源\n\n维护实验方法、数据资源、代码、分析流程与质量控制措施。\n\n\n\n\n4\n\n团队进展\n\n关联已公开的论文、报告、笔记与可共享成果。\n\n\n\n\n你可以复制 templates/research-topic.qmd 的内容，创建新的 research/topic-name.qmd 页面，并把链接加入本页。"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "藏经阁 Cangjingge",
+    "section": "",
+    "text": "围绕神经调控、经颅光生物调节 (tPBM) 与脑连接组学整理公开文献、结构化研读札记和专题评述。每项论述保留来源、证据位置与适用条件，便于检索、比较和引用。\n进入典籍索引 ↗ 浏览研读札记 →\n公开文献 · 结构化评注 · 来源可回溯"
+  },
+  {
+    "objectID": "index.html#核心索引",
+    "href": "index.html#核心索引",
+    "title": "藏经阁 Cangjingge",
+    "section": "核心索引",
+    "text": "核心索引\n\n\n01 / 文献索引 (Literature)\n典籍目录 规范收录同行评审期刊论文、经典专著与预印本，完整标引 DOI、实验版本与开源资源链接。 查阅文献索引 ↗\n\n\n02 / 证据笔记 (Research Notes)\n研读札记 提炼核心方法、效应量、关键证据与局限性，支持结论直接回溯至原文图表。 阅读研读笔记 ↗\n\n\n03 / 知识专题 (Synthesis)\n专题评述 聚合离散研究，梳理经颅光刺激物理机制、多模态神经影像验证及脑网络靶向干预等核心课题。 探索研究专题 ↗"
+  },
+  {
+    "objectID": "index.html#文献整理与证据评注流程",
+    "href": "index.html#文献整理与证据评注流程",
+    "title": "藏经阁 Cangjingge",
+    "section": "文献整理与证据评注流程",
+    "text": "文献整理与证据评注流程\n\n\n01 / 原始凭证归档 (Provenance)\n完整标引 DOI、作者机构、预印本版本与合法原文路径。\n\n\n02 / 科学问题映射 (Taxonomy)\n依据假说与实验范式归纳分类，建立神经干预与脑网络交叉索引。\n\n\n03 / 方法与证据评注 (Critique)\n提取核心效应量、光剂量参数、刺激靶点及实验边界，定位图表证据。\n\n\n04 / 证据综合与再现 (Synthesis)\n对比研究结论，记录重复验证结果、适用条件与尚存争议。"
+  },
+  {
+    "objectID": "index.html#基于版本控制的学术共建",
+    "href": "index.html#基于版本控制的学术共建",
+    "title": "藏经阁 Cangjingge",
+    "section": "基于版本控制的学术共建",
+    "text": "基于版本控制的学术共建\n文献卡片与研读札记通过 Git 记录修订，维护者审核来源与内容后合并。可以通过 Pull Request 提交新文献、勘误或专题建议。\n查看共建流程与规范 ↗ ## 已收录内容\n\nOpenScholar：学术文献检索与证据综合（平台方法参考）。\n文献精读与证据记录规范（平台指南）。"
+  },
+  {
     "objectID": "library/index.html",
     "href": "library/index.html",
     "title": "典籍目录",
@@ -193,13 +221,13 @@
     "href": "publications/index.html",
     "title": "学术成果",
     "section": "",
-    "text": "此处只发布经核实、确认属于团队成员的学术成果。演示文献已单独放入“典籍目录”，不会冒充团队发表的论文。"
+    "text": "收录成员已公开发表、可核查的论文，保留原始作者署名和发表信息。论文的研究归属以原文为准。"
   },
   {
-    "objectID": "publications/index.html#推荐录入格式",
-    "href": "publications/index.html#推荐录入格式",
+    "objectID": "publications/index.html#公开论文",
+    "href": "publications/index.html#公开论文",
     "title": "学术成果",
-    "section": "推荐录入格式",
-    "text": "推荐录入格式\n论文标题（年份）\n作者列表（按论文原文）\n期刊 / 会议 / 预印本平台\nDOI：10.xxxx/xxxxx\n相关代码 / 数据链接（可选）\n请仅添加已经公开、可核实并获许可展示的成果。"
+    "section": "公开论文",
+    "text": "公开论文\n\nTranscranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\nZhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao.\nBrain Stimulation, 17(6), 1307-1316 (2024).\nDOI: 10.1016/j.brs.2024.11.010 · 成员关联：李智林\n\n\nSuppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity\nChenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song.\nPLOS Biology, 21(3), e3002014 (2023).\nDOI: 10.1371/journal.pbio.3002014 · 成员关联：赵晨光\n\n\nA Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification\nHai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang.\nIEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311-1320 (2023).\nDOI: 10.1109/tnsre.2023.3243992 · 成员关联：贾海"
   }
 ]

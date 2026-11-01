@@ -315,3 +315,13 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 
 .zk-shelf-paper h2 { overflow-wrap: anywhere; }
+
+/* v3: academic archive introduction and source-linked publication entries. */
+body:has(.hero-section) #title-block-header { display: none; }
+.hero-section { background: #eff3ef; border-left: 3px solid #8ca28c; padding: clamp(1.4rem, 4vw, 3rem); margin: 1rem 0 2rem; }
+.hero-section h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); line-height: 1.4; }
+.hero-section p { max-width: 58rem; }
+.hero-section .btn { margin: .4rem .6rem .4rem 0; white-space: normal; }
+.publication-entry { border-left: 3px solid #b99865; padding: .2rem 1.3rem 1rem; margin: 1.5rem 0 2rem; overflow-wrap: anywhere; }
+.publication-entry h3 { font-family: var(--zk-serif); font-size: 1.2rem; line-height: 1.5; }
+@media (max-width: 600px) { .hero-section { padding: 1.25rem; } .publication-entry { padding-inline: 1rem; } }

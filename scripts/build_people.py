@@ -87,7 +87,7 @@ def profile_page(member: dict, group: dict) -> str:
 <section class="zk-profile-section"><span class="zk-eyebrow">02 / CONTRIBUTIONS</span><h2>文献整理与札记</h2>{render_items(member.get('contributions', []), '文献编目、研读札记与专题维护记录待补充。')}</section>
 {optional_profile_sections(member)}
 </div>
-<div class="zk-profile-notice">资料依据已授权的公开来源整理；原始出处见学术链接，后续更新由本人或维护者核对。</div>
+<div class="zk-profile-notice">仅展示已核实的资料；已发布内容的出处见学术链接，未填写项由本人或维护者核对后更新。</div>
 </div>'''
     return frontmatter(member['name'], member['position']) + '```{=html}\n' + about + '\n```\n'
 
@@ -130,8 +130,8 @@ def main() -> None:
         '<div class="zk-team-page zk-wide">',
         '<header class="zk-team-heading">',
         '  <span class="zk-eyebrow">OUR PEOPLE / 团队成员</span>',
-        '  <h1>共建者，让知识持续生长。</h1>',
-        '  <p>每位成员可以认领研究专题、维护文献索引、分享研读札记，让知识成果及其贡献长期可追溯。个人履历与其他信息经本人确认后再补充。</p>',
+        '  <h1>研究人员与知识共建者</h1>',
+        '  <p>成员参与公开文献整理、研读札记与专题维护。个人简介和既往论文保留公开来源，内容贡献依据实际记录更新。</p>',
         f'  <div class="zk-team-count"><strong>{len(members):02}</strong><span>FOUNDING MEMBERS / 初始成员</span></div>',
         '</header>',
         '<section class="zk-team-group" aria-label="课题组负责人">',

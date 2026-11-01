@@ -57,8 +57,8 @@
         "2021 年起曾在北京师范大学从事博士后研究；该段信息来自早期高校个人介绍。"
       ],
       "publications": [
-        "Zhao, C., et al. (2019). Anticipatory alpha oscillation predicts attentional selection and hemodynamic response. *Human Brain Mapping*. DOI",
-        "Zhao, C., Kong, Y., et al. (2023). Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity. *PLOS Biology*. 原文"
+        "Zhao, C., et al. (2019). Anticipatory alpha oscillation predicts attentional selection and hemodynamic response. Human Brain Mapping.",
+        "Zhao, C., Kong, Y., et al. (2023). Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity. PLOS Biology."
       ],
       "links": [
         {
@@ -105,7 +105,7 @@
         "2014—2018：太原理工大学计算机学院学士。"
       ],
       "publications": [
-        "Li, Z., et al. (2024). Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans. *Brain Stimulation*. DOI"
+        "Li, Z., et al. (2024). Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans. Brain Stimulation."
       ],
       "links": [
         {
@@ -140,12 +140,16 @@
         "2016—2020：成都信息工程大学应用数学学院数学与应用数学学士。"
       ],
       "publications": [
-        "Jia, H., et al. (2023). A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification. *IEEE Transactions on Neural Systems and Rehabilitation Engineering*, 31, 1311–1320。书目信息见下方实验室个人页。"
+        "Jia, H., et al. (2023). A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311–1320。书目信息见下方实验室个人页。"
       ],
       "links": [
         {
           "label": "崔再续实验室个人页（2024-09-05）",
           "url": "https://cuilab.cibr.ac.cn/Team/GraduateStudents/f22ecff986ab44879be91ef9c2bbf0c0.htm"
+        },
+        {
+          "label": "代表论文 · DOI",
+          "url": "https://doi.org/10.1109/TNSRE.2023.3243992"
         }
       ],
       "topics": [],
