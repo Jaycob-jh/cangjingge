@@ -1,0 +1,38 @@
+---
+title: "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity"
+author: "Chenguang Zhao et al."
+date: "2023"
+date-format: "YYYY"
+reading-status: "已编目"
+categories: ["脑电、脑振荡与源定位", "认知、记忆与执行功能", "已编目"]
+description: "围绕视觉空间线索、预期性 alpha 活动与干扰信息抑制的关系展开研究，收录于脑振荡和注意控制主题。"
+toc: true
+---
+
+## 书目信息
+
+- **作者：** Chenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song
+- **发表信息：** *PLOS Biology*, 21(3), e3002014 (2023)
+- **DOI：** [10.1371/journal.pbio.3002014](https://doi.org/10.1371/journal.pbio.3002014)
+- **阅读进度：** 已编目
+
+## 研究内容
+
+围绕视觉空间线索、预期性 alpha 活动与干扰信息抑制的关系展开研究，收录于脑振荡和注意控制主题。
+
+## 整理依据
+
+依据已核对的题名与书目信息编目；方法、结果和证据评价将在全文研读后补充。
+
+## 关联阅读
+
+- [脑电与认知：振荡、注意和解码](../../research/eeg-cognition.qmd)
+- [成员公开论文索引](../../publications/index.qmd)
+
+<details><summary>来源</summary>
+
+[期刊原文](https://doi.org/10.1371/journal.pbio.3002014)。书目信息经 Crossref 核对；同时收录于成员公开论文索引。
+
+</details>
+
+<!-- generated: build_literature.py -->

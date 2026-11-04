@@ -19,7 +19,8 @@
 
 - **主要入口**：典籍目录 → 研读札记 → 研究专题
 - **协作支持**：共建者页面、公开成果、内容提交指南
-- **当前内容**：OpenScholar 方法参考、平台阅读规范，以及3篇成员公开论文索引。
+- **当前内容**：5 篇文献（含 OpenScholar 方法参考）、一篇摘要阅读札记、阅读规范、三个专题阅读索引；成员论文同时关联文献卡片。
+- **后续提供 PDF / DOI**：按 [文献接收流程](LITERATURE_WORKFLOW.md) 直接查重、归入 ReadCube H 并整理网站；元数据源为 `data/literature.json`。
 - **团队成员**：赵晨光、李智林、贾海、张龙、李铭浩；简介与照片在个人页维护。
 - **成本**：免费 Quarto + GitHub Pages；无需域名、付费 API 或数据库
 - **功能边界**：不提供动态用户注册、私有 PDF 登录权限和 RAG（这些是后续独立模块）
@@ -42,7 +43,7 @@
 
 ```bash
 python scripts/build_site.py
-# 脚本依次：生成成员页 → 基础校验 → quarto render → 写入 docs/.nojekyll → 校验静态链接
+# 脚本依次：生成成员页与文献页 → 基础校验 → quarto render → 写入 docs/.nojekyll → 校验静态链接
 
 git add .
 git commit -m "Update knowledge archive"

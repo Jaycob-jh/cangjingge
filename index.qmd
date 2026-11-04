@@ -78,5 +78,8 @@ title-block-banner: false
 [查看共建流程与规范 ↗](join/){.btn .btn-outline-primary}
 ## 已收录内容
 
+- [1064 nm 经颅光刺激：健康人安全性研究](library/papers/li-2024-tpbm-safety.qmd)。
+- [个体网络靶点与频率：工作记忆神经调控](library/papers/khan-2026-personalized-neuromodulation.qmd)及[摘要阅读札记](notes/posts/personalized-neuromodulation.qmd)。
+- [脑电、注意控制与运动想象解码](research/eeg-cognition.qmd)（专题阅读索引）。
 - [OpenScholar：学术文献检索与证据综合](library/papers/openscholar.qmd)（平台方法参考）。
 - [文献精读与证据记录规范](notes/posts/reading-guide.qmd)（平台指南）。

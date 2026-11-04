@@ -5,6 +5,7 @@ date: 2026-02-04
 categories: ["平台方法参考", "文献检索", "RAG"]
 description: "Nature 论文；介绍 OpenScholar 如何检索学术语料并生成有出处的跨论文回答。"
 toc: true
+reading-status: "方法参考"
 ---
 
 

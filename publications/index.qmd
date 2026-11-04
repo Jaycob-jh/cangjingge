@@ -14,7 +14,7 @@ toc: false
 Zhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao.  
 *Brain Stimulation*, 17(6), 1307-1316 (2024).
 
-[DOI: 10.1016/j.brs.2024.11.010](https://doi.org/10.1016/j.brs.2024.11.010) · [成员关联：李智林](../people/li-zhilin.qmd)
+[文献卡片](../library/papers/li-2024-tpbm-safety.qmd) · [DOI: 10.1016/j.brs.2024.11.010](https://doi.org/10.1016/j.brs.2024.11.010) · [成员关联：李智林](../people/li-zhilin.qmd)
 :::
 
 ::: {.publication-entry}
@@ -23,7 +23,7 @@ Zhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Ta
 Chenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song.  
 *PLOS Biology*, 21(3), e3002014 (2023).
 
-[DOI: 10.1371/journal.pbio.3002014](https://doi.org/10.1371/journal.pbio.3002014) · [成员关联：赵晨光](../people/zhao-chenguang.qmd)
+[文献卡片](../library/papers/zhao-2023-alpha-attention.qmd) · [DOI: 10.1371/journal.pbio.3002014](https://doi.org/10.1371/journal.pbio.3002014) · [成员关联：赵晨光](../people/zhao-chenguang.qmd)
 :::
 
 ::: {.publication-entry}
@@ -32,6 +32,6 @@ Chenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ol
 Hai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang.  
 *IEEE Transactions on Neural Systems and Rehabilitation Engineering*, 31, 1311-1320 (2023).
 
-[DOI: 10.1109/tnsre.2023.3243992](https://doi.org/10.1109/tnsre.2023.3243992) · [成员关联：贾海](../people/jia-hai.qmd)
+[文献卡片](../library/papers/jia-2023-mi-bci.qmd) · [DOI: 10.1109/tnsre.2023.3243992](https://doi.org/10.1109/tnsre.2023.3243992) · [成员关联：贾海](../people/jia-hai.qmd)
 :::
 

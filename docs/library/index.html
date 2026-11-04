@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-date','listing-reading-status',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -213,7 +213,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">分类</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">全部 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU1JUI5JUIzJUU1JThGJUIwJUU2JTk2JUI5JUU2JUIzJTk1JUU1JThGJTgyJUU4JTgwJTgz">平台方法参考 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU2JTk2JTg3JUU3JThDJUFFJUU2JUEzJTgwJUU3JUI0JUEy">文献检索 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UkFH">RAG <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">分类</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">全部 <span class="quarto-category-count">(5)</span></div><div class="category" data-category="JUU4JTg0JTkxJUU3JTk0JUI1JUUzJTgwJTgxJUU4JTg0JTkxJUU2JThDJUFGJUU4JThEJUExJUU0JUI4JThFJUU2JUJBJTkwJUU1JUFFJTlBJUU0JUJEJThE">脑电、脑振荡与源定位 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUU4JTg0JTkxJUU3JUJEJTkxJUU3JUJCJTlDJUU0JUI4JThFJUU4JUJGJTlFJUU2JThFJUE1JUU3JUJCJTg0JUU1JUFEJUE2">脑网络与连接组学 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU4JTg0JTkxJUU1JUJEJUIxJUU1JTgzJThGJUUzJTgwJTgxJUU4JUFFJUExJUU3JUFFJTk3JUU0JUI4JThFJUU2JTk2JUI5JUU2JUIzJTk1">脑影像、计算与方法 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU1JUI5JUIzJUU1JThGJUIwJUU2JTk2JUI5JUU2JUIzJTk1JUU1JThGJTgyJUU4JTgwJTgz">平台方法参考 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU4JUFFJUE0JUU3JTlGJUE1JUUzJTgwJTgxJUU4JUFFJUIwJUU1JUJGJTg2JUU0JUI4JThFJUU2JTg5JUE3JUU4JUExJThDJUU1JThBJTlGJUU4JTgzJUJE">认知、记忆与执行功能 <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUU3JUE1JTlFJUU3JUJCJThGJUU4JUIwJTgzJUU2JThFJUE3JUU0JUI4JThFJUU4JTg0JTkxJUU1JTg4JUJBJUU2JUJGJTgw">神经调控与脑刺激 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUU2JTk2JTg3JUU3JThDJUFFJUU2JUEzJTgwJUU3JUI0JUEy">文献检索 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU1JUI3JUIyJUU3JUJDJTk2JUU3JTlCJUFF">已编目 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUU2JTkxJTk4JUU4JUE2JTgxJUU1JUI3JUIyJUU4JUFGJUJC">摘要已读 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UkFH">RAG <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dFBCTQ==">tPBM <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -242,7 +242,10 @@ window.Quarto = {
 </div>
 <section id="文献索引" class="level2">
 <h2 class="anchored" data-anchor-id="文献索引">文献索引</h2>
-<p>你可以在下方按标题、作者、年份筛选文献，或用页面右上角的搜索按钮检索整个网站内容。</p>
+<p>按主题或阅读进度筛选，也可以用右上角的站内搜索查找作者、DOI 和方法。每篇论文保留一个固定条目，可同时属于多个主题。</p>
+<div class="zk-library-category-mobile">
+<p><label for="library-category-select">主题与阅读进度</label> <select id="library-category-select" class="form-select" aria-label="按主题或阅读进度筛选"><option value="">全部主题与进度</option></select></p>
+</div>
 <div id="listing-papers" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
@@ -251,16 +254,13 @@ window.Quarto = {
       <option value="" disabled="" selected="" hidden="">排序方式</option>
       <option value="index" data-direction="asc">默认</option>
       <option value="listing-date-sort" data-direction="asc">
-        日期 - 日期升序
+        年份 - 日期升序
       </option>
       <option value="listing-date-sort" data-direction="desc">
-        日期 - 日期降序
+        年份 - 日期降序
       </option>
       <option value="listing-title-sort" data-direction="asc">
-        标题
-      </option>
-      <option value="listing-author" data-direction="asc">
-        作者
+        论文
       </option>
     </select>
   </div>
@@ -274,30 +274,82 @@ window.Quarto = {
 <tr>
 
 <th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">日期</a>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">论文</a>
 </th>
 
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">标题</a>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">年份</a>
 </th>
 
 <th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">作者</a>
+阅读进度
 </th>
 
 </tr>
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="JUU1JUI5JUIzJUU1JThGJUIwJUU2JTk2JUI5JUU2JUIzJTk1JUU1JThGJTgyJUU4JTgwJTgzJTJDJUU2JTk2JTg3JUU3JThDJUFFJUU2JUEzJTgwJUU3JUI0JUEyJTJDUkFH" data-listing-date-sort="1770134400000" data-listing-file-modified-sort="1793552694735" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="45" data-listing-title-sort="Synthesizing scientific literature with retrieval-augmented language models" data-listing-filename-sort="openscholar.qmd">
-<td>
-<span class="listing-date">2026年2月4日</span>
-</td>
+<tr data-index="0" data-categories="JUU1JUI5JUIzJUU1JThGJUIwJUU2JTk2JUI5JUU2JUIzJTk1JUU1JThGJTgyJUU4JTgwJTgzJTJDJUU2JTk2JTg3JUU3JThDJUFFJUU2JUEzJTgwJUU3JUI0JUEyJTJDUkFH" data-listing-date-sort="1770134400000" data-listing-file-modified-sort="1793779268645" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="45" data-listing-title-sort="Synthesizing scientific literature with retrieval-augmented language models" data-listing-filename-sort="openscholar.qmd">
 <td>
 <a href="../library/papers/openscholar.html" class="title listing-title">Synthesizing scientific literature with retrieval-augmented language models</a>
 </td>
 <td>
-<span class="listing-author">Asai et al.</span>
+<span class="listing-date">2026</span>
+</td>
+<td>
+<span class="listing-reading-status">方法参考</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="JUU4JTg0JTkxJUU3JUJEJTkxJUU3JUJCJTlDJUU0JUI4JThFJUU4JUJGJTlFJUU2JThFJUE1JUU3JUJCJTg0JUU1JUFEJUE2JTJDJUU3JUE1JTlFJUU3JUJCJThGJUU4JUIwJTgzJUU2JThFJUE3JUU0JUI4JThFJUU4JTg0JTkxJUU1JTg4JUJBJUU2JUJGJTgwJTJDJUU4JUFFJUE0JUU3JTlGJUE1JUUzJTgwJTgxJUU4JUFFJUIwJUU1JUJGJTg2JUU0JUI4JThFJUU2JTg5JUE3JUU4JUExJThDJUU1JThBJTlGJUU4JTgzJUJEJTJDJUU2JTkxJTk4JUU4JUE2JTgxJUU1JUI3JUIyJUU4JUFGJUJC" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1793779681067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72" data-listing-title-sort="Personalized Network‐Guided Neuromodulation Enhances Human Working Memory" data-listing-filename-sort="khan-2026-personalized-neuromodulation.qmd">
+<td>
+<a href="../library/papers/khan-2026-personalized-neuromodulation.html" class="title listing-title">Personalized Network‐Guided Neuromodulation Enhances Human Working Memory</a>
+</td>
+<td>
+<span class="listing-date">2026</span>
+</td>
+<td>
+<span class="listing-reading-status">摘要已读</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="JUU3JUE1JTlFJUU3JUJCJThGJUU4JUIwJTgzJUU2JThFJUE3JUU0JUI4JThFJUU4JTg0JTkxJUU1JTg4JUJBJUU2JUJGJTgwJTJDJUU4JUFFJUE0JUU3JTlGJUE1JUUzJTgwJTgxJUU4JUFFJUIwJUU1JUJGJTg2JUU0JUI4JThFJUU2JTg5JUE3JUU4JUExJThDJUU1JThBJTlGJUU4JTgzJUJEJTJDdFBCTSUyQyVFNiU5MSU5OCVFOCVBNiU4MSVFNSVCNyVCMiVFOCVBRiVCQg==" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1793779681067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67" data-listing-title-sort="Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans" data-listing-filename-sort="li-2024-tpbm-safety.qmd">
+<td>
+<a href="../library/papers/li-2024-tpbm-safety.html" class="title listing-title">Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans</a>
+</td>
+<td>
+<span class="listing-date">2024</span>
+</td>
+<td>
+<span class="listing-reading-status">摘要已读</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="JUU4JTg0JTkxJUU3JTk0JUI1JUUzJTgwJTgxJUU4JTg0JTkxJUU2JThDJUFGJUU4JThEJUExJUU0JUI4JThFJUU2JUJBJTkwJUU1JUFFJTlBJUU0JUJEJThEJTJDJUU4JTg0JTkxJUU1JUJEJUIxJUU1JTgzJThGJUUzJTgwJTgxJUU4JUFFJUExJUU3JUFFJTk3JUU0JUI4JThFJUU2JTk2JUI5JUU2JUIzJTk1JTJDJUU1JUI3JUIyJUU3JUJDJTk2JUU3JTlCJUFF" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1793779681067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53" data-listing-title-sort="A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification" data-listing-filename-sort="jia-2023-mi-bci.qmd">
+<td>
+<a href="../library/papers/jia-2023-mi-bci.html" class="title listing-title">A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification</a>
+</td>
+<td>
+<span class="listing-date">2023</span>
+</td>
+<td>
+<span class="listing-reading-status">已编目</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="JUU4JTg0JTkxJUU3JTk0JUI1JUUzJTgwJTgxJUU4JTg0JTkxJUU2JThDJUFGJUU4JThEJUExJUU0JUI4JThFJUU2JUJBJTkwJUU1JUFFJTlBJUU0JUJEJThEJTJDJUU4JUFFJUE0JUU3JTlGJUE1JUUzJTgwJTgxJUU4JUFFJUIwJUU1JUJGJTg2JUU0JUI4JThFJUU2JTg5JUE3JUU4JUExJThDJUU1JThBJTlGJUU4JTgzJUJEJTJDJUU1JUI3JUIyJUU3JUJDJTk2JUU3JTlCJUFF" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1793779681067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40" data-listing-title-sort="Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity" data-listing-filename-sort="zhao-2023-alpha-attention.qmd">
+<td>
+<a href="../library/papers/zhao-2023-alpha-attention.html" class="title listing-title">Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity</a>
+</td>
+<td>
+<span class="listing-date">2023</span>
+</td>
+<td>
+<span class="listing-reading-status">已编目</span>
 </td>
 
 </tr>
@@ -307,14 +359,11 @@ window.Quarto = {
 <div class="listing-no-matching d-none">无匹配项</div>
 </div>
 </section>
-<section id="如何添加一篇新论文" class="level2">
-<h2 class="anchored" data-anchor-id="如何添加一篇新论文">如何添加一篇新论文？</h2>
-<ol type="1">
-<li>复制 <code>templates/paper.qmd</code> 到 <code>library/papers/</code> 目录并修改文件名。</li>
-<li>填写文献标题、作者、日期、标签、DOI 和原文链接。</li>
-<li>运行 <code>python scripts/build_site.py</code> 构建并提交 <code>docs/</code> 后，文献才会出现在网站列表中。</li>
-</ol>
-<p>条目示例：<a href="../library/papers/openscholar.html">OpenScholar 文献卡片</a>。</p>
+<section id="阅读与归档" class="level2">
+<h2 class="anchored" data-anchor-id="阅读与归档">阅读与归档</h2>
+<p><strong>已编目 → 摘要已读 → 全文已读 → 精读已整理</strong>。进度随实际阅读更新，精读札记关联原文页码或图表。</p>
+<p>PDF 与批注保存在 ReadCube，网站汇集书目信息、阅读摘要和专题索引。新增文献可直接提供 PDF 或 DOI，由维护者查重、归类并更新。</p>
+<script src="../assets/library-filters.js"></script>
 
 
 

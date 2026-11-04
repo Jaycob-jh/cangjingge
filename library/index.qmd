@@ -6,6 +6,12 @@ listing:
   id: papers
   contents: "papers/*.qmd"
   type: table
+  fields: [title, date, reading-status]
+  field-display-names:
+    title: 论文
+    date: 年份
+    reading-status: 阅读进度
+  date-format: "YYYY"
   sort: "date desc"
   sort-ui: [date, title, author]
   filter-ui: true
@@ -17,15 +23,20 @@ listing:
 
 ## 文献索引
 
-你可以在下方按标题、作者、年份筛选文献，或用页面右上角的搜索按钮检索整个网站内容。
+按主题或阅读进度筛选，也可以用右上角的站内搜索查找作者、DOI 和方法。每篇论文保留一个固定条目，可同时属于多个主题。
+
+<div class="zk-library-category-mobile">
+<label for="library-category-select">主题与阅读进度</label>
+<select id="library-category-select" class="form-select" aria-label="按主题或阅读进度筛选"><option value="">全部主题与进度</option></select>
+</div>
 
 :::{#papers}
 :::
 
-## 如何添加一篇新论文？
+## 阅读与归档
 
-1. 复制 `templates/paper.qmd` 到 `library/papers/` 目录并修改文件名。
-2. 填写文献标题、作者、日期、标签、DOI 和原文链接。
-3. 运行 `python scripts/build_site.py` 构建并提交 `docs/` 后，文献才会出现在网站列表中。
+**已编目 → 摘要已读 → 全文已读 → 精读已整理**。进度随实际阅读更新，精读札记关联原文页码或图表。
 
-条目示例：[OpenScholar 文献卡片](papers/openscholar.qmd)。
+PDF 与批注保存在 ReadCube，网站汇集书目信息、阅读摘要和专题索引。新增文献可直接提供 PDF 或 DOI，由维护者查重、归类并更新。
+
+<script src="../assets/library-filters.js"></script>

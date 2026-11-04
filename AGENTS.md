@@ -35,12 +35,10 @@
 ## 开发和测试要求
 
 ```bash
-python scripts/build_people.py
-python scripts/validate.py
-quarto render
+python scripts/build_site.py
 ```
 
-如果环境没有 Quarto，前两项基础测试必须完成；正式渲染只能由本地或 Codex 的 Quarto 环境执行。不要宣称未经执行的渲染已通过。
+如果环境没有 Quarto，须先执行 build_people.py、build_literature.py 和 validate.py；正式渲染只能由本地或 Codex 的 Quarto 环境执行。不要宣称未经执行的渲染已通过。
 
 ### 修改网页须遵守
 
@@ -66,3 +64,11 @@ quarto render
 - 简介直接陈述职务、研究方向和经历；不在正文夹入“某报道介绍其为”“来自早期介绍”等核查过程。
 - 来源集中放在资料栏，核查记录写在维护文档；避免反复出现“仅展示已核实”“不代表”“待本人确认”等提示。
 - 没有内容的成员板块不显示，不虚构内容填充空白；保留必要的科研局限与实际功能说明。
+
+## PDF / DOI 接收（Hai，2026-11-04）
+
+- 后续文章默认按 `LITERATURE_WORKFLOW.md` 执行：识别 → ReadCube H 查重/归类 → 公开卡片 → 按实际阅读更新札记/专题 → 本地构建发布。
+- 沿用既有逐篇接收授权，不重复询问。MCP 写入仍须 dry-run、当前 VERIFIED 状态与独立回读。
+- 一个论文一个稳定卡片，可有多个主题；保留全部已有批注、附件和目录关系。PDF 及私有队列存于仓库外。
+- 新卡片编辑 `data/literature.json`，由 `scripts/build_literature.py` 生成；不要手改标有 generated 的卡片。已有 OpenScholar 手写卡片保留。
+- 区分已编目、摘要已读、全文已读、精读已整理；同步完成和阅读完成分开记录。

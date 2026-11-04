@@ -16,6 +16,7 @@ def run(*cmd):
 
 def main():
     run(sys.executable, 'scripts/build_people.py')
+    run(sys.executable, 'scripts/build_literature.py')
     run(sys.executable, 'scripts/validate.py')
     quarto = shutil.which('quarto')
     portable = ROOT / '.tools' / 'quarto' / 'bin' / ('quarto.exe' if sys.platform == 'win32' else 'quarto')

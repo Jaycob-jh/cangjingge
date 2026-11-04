@@ -331,3 +331,22 @@ body:has(.hero-section) #title-block-header { display: none; }
 .zk-profile-sources { margin: 1.5rem 0 2rem; padding-top: 1rem; border-top: 1px solid var(--zk-border); font-size: .85rem; color: var(--zk-muted); overflow-wrap: anywhere; }
 .zk-profile-sources summary { cursor: pointer; width: fit-content; }
 .zk-profile-sources .zk-profile-list { font-size: .85rem; margin-top: 1rem; }
+
+/* Literature titles get the main column; stage labels stay readable. */
+#listing-papers th:nth-child(n+2),
+#listing-papers td:nth-child(n+2) { white-space: nowrap; }
+.zk-library-category-mobile { display: none; }
+@media (max-width: 991px) {
+  .zk-library-category-mobile { display: block; margin: 1rem 0; }
+  .zk-library-category-mobile label { display: block; margin-bottom: .4rem; font-size: .9rem; }
+}
+@media (max-width: 600px) {
+  #listing-papers table, #listing-papers tbody { display: block; width: 100%; }
+  #listing-papers thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  #listing-papers tbody tr { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; padding: 1rem 0; border-bottom: 1px solid var(--zk-border); }
+  #listing-papers td { display: block; padding: 0; border: 0; min-width: 0; }
+  #listing-papers td:first-child { grid-column: 1 / -1; }
+  #listing-papers td:nth-child(2), #listing-papers td:nth-child(3) { color: var(--zk-muted); font-size: .85rem; }
+  #listing-papers td:nth-child(3) { text-align: right; }
+  #listing-papers td:nth-child(2)::before { content: "年份："; }
+}

@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "assets/library-filters.js"
   render:
     - "index.qmd"
     - "people/*.qmd"

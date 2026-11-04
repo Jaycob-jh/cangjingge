@@ -1,0 +1,38 @@
+---
+title: "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification"
+author: "Hai Jia et al."
+date: "2023"
+date-format: "YYYY"
+reading-status: "已编目"
+categories: ["脑电、脑振荡与源定位", "脑影像、计算与方法", "已编目"]
+description: "提出结合多分支时频 CNN、通道注意力与 LightGBM 的运动想象脑机接口分类模型，收录于 EEG 解码与计算方法主题。"
+toc: true
+---
+
+## 书目信息
+
+- **作者：** Hai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang
+- **发表信息：** *IEEE Transactions on Neural Systems and Rehabilitation Engineering*, 31, 1311-1320 (2023)
+- **DOI：** [10.1109/tnsre.2023.3243992](https://doi.org/10.1109/tnsre.2023.3243992)
+- **阅读进度：** 已编目
+
+## 研究内容
+
+提出结合多分支时频 CNN、通道注意力与 LightGBM 的运动想象脑机接口分类模型，收录于 EEG 解码与计算方法主题。
+
+## 整理依据
+
+依据已核对的题名与书目信息编目；模型性能、数据划分与外部验证将在全文研读后整理。
+
+## 关联阅读
+
+- [脑电与认知：振荡、注意和解码](../../research/eeg-cognition.qmd)
+- [成员公开论文索引](../../publications/index.qmd)
+
+<details><summary>来源</summary>
+
+[期刊原文](https://doi.org/10.1109/tnsre.2023.3243992)。书目信息经 Crossref 核对；同时收录于成员公开论文索引。
+
+</details>
+
+<!-- generated: build_literature.py -->

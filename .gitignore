@@ -9,6 +9,7 @@ Thumbs.db
 .env.*
 !.env.example
 # Do not commit private data, papers or credentials
+*.pdf
 private/
 secrets/
 *.key

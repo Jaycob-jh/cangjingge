@@ -8,7 +8,17 @@ toc: false
 
 ## 专题索引
 
-<p class="zk-field-pending">专题评述整理中。</p>
+- [经颅光刺激：参数与安全性](tpbm.qmd)
+- [个体化脑网络与神经调控](personalized-networks.qmd)
+- [脑电与认知：振荡、注意和解码](eeg-cognition.qmd)
+
+专题从阅读索引开始，随着全文研读逐步补入证据比较与评述。
+
+## 主题体系
+
+与 ReadCube H 的主题对应：脑网络与连接组学；神经调控与脑刺激；脑电、脑振荡与源定位；认知、记忆与执行功能；临床神经精神疾病与康复；脑影像、计算与方法；生命历程、脑状态与转化研究。
+
+一篇文献可以关联多个主题；专题围绕科学问题组织已有文献。
 
 ## 专题结构
 
@@ -19,4 +29,4 @@ toc: false
 <div class="zk-step"><span>4</span><div><strong>团队进展</strong><p>关联已公开的论文、报告、笔记与可共享成果。</p></div></div>
 </div>
 
-你可以复制 `templates/research-topic.qmd` 的内容，创建新的 `research/topic-name.qmd` 页面，并把链接加入本页。
+共建者可按上述结构整理专题，并与对应文献卡片和札记互相链接。

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "khan-2026-personalized-neuromodulation",
+    "doi": "10.1002/advs.202523009",
+    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
+    "authors": [
+      "Ahsan Khan",
+      "Hongming Li",
+      "Camille Blaine",
+      "Julie Grier",
+      "Ethan Hammett",
+      "Almaris Figueroa‐Gonzalez",
+      "Sarai Garcia",
+      "Romain Duprat",
+      "Justin Reber",
+      "Joseph Deluisi",
+      "Christos Davatzikos",
+      "Theodore D. Satterthwaite",
+      "Yong Fan",
+      "Desmond J. Oathes"
+    ],
+    "year": 2026,
+    "journal": "Advanced Science",
+    "citation": "13(49), e23009",
+    "reading_status": "摘要已读",
+    "topics": [
+      "脑网络与连接组学",
+      "神经调控与脑刺激",
+      "认知、记忆与执行功能"
+    ],
+    "summary": "研究将个体功能网络靶点定位与实时脑状态解码结合，利用同步 TMS–fMRI 比较个体在 5、10 和 20 Hz 刺激下的网络响应，并据此选择刺激频率。摘要报告，在多次访视的交叉研究中，所测试频率中表现最好的频率条件改善了工作记忆，且最佳频率存在明显个体差异。",
+    "basis": "已通过 ReadCube H 读取 PDF 第 1–2 页的摘要及引言。这里的“最佳频率”限于测试的 5、10、20 Hz；研究使用 TMS，其结果不能直接作为经颅光刺激的频率证据。样本量、效应量、盲法和统计检验将在全文研读后补充。",
+    "source_note": "题名、作者、DOI 和期刊信息取自 ReadCube H，并与 PDF 首页核对。",
+    "related": [
+      {
+        "title": "个体化脑网络与神经调控",
+        "path": "../../research/personalized-networks.qmd"
+      },
+      {
+        "title": "从靶点个体化到频率个体化：摘要阅读札记",
+        "path": "../../notes/posts/personalized-neuromodulation.qmd"
+      }
+    ]
+  },
+  {
+    "doi": "10.1016/j.brs.2024.11.010",
+    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "authors": [
+      "Zhilin Li",
+      "Yongheng Zhao",
+      "Yiqing Hu",
+      "Yang Li",
+      "Keyao Zhang",
+      "Zhibing Gao",
+      "Lirou Tan",
+      "Hai Jia",
+      "Jing Cong",
+      "Hanli Liu",
+      "Xiaoli Li",
+      "Aihua Cao",
+      "Zaixu Cui",
+      "Chenguang Zhao"
+    ],
+    "year": 2024,
+    "journal": "Brain Stimulation",
+    "citation": "17(6), 1307-1316",
+    "id": "li-2024-tpbm-safety",
+    "reading_status": "摘要已读",
+    "topics": [
+      "神经调控与脑刺激",
+      "认知、记忆与执行功能",
+      "tPBM"
+    ],
+    "summary": "研究结合 MRI、EEG、血液生化指标、执行功能测试与主观耐受问卷，评估健康受试者接受 1064 nm 经颅光生物调节后的变化。摘要报告，在研究所用参数下未发现所评估指标中的脑结构、功能或认知损伤，受试者不适较少；NSE 降低的含义仍需进一步研究。",
+    "basis": "已通过 ReadCube H 读取 PDF 第 1 页摘要。当前卡片概括研究问题、测量维度与摘要结果；安全性结论适用于论文测试的参数和健康人群。刺激剂量、样本量、统计方法和随访窗口留待全文研读时逐项提取。",
+    "source_note": "书目信息经 Crossref 核对，并与 ReadCube H 中 PDF 首页一致。",
+    "related": [
+      {
+        "title": "经颅光刺激：参数与安全性阅读线索",
+        "path": "../../research/tpbm.qmd"
+      },
+      {
+        "title": "成员公开论文索引",
+        "path": "../../publications/index.qmd"
+      }
+    ]
+  },
+  {
+    "doi": "10.1371/journal.pbio.3002014",
+    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
+    "authors": [
+      "Chenguang Zhao",
+      "Yuanjun Kong",
+      "Dongwei Li",
+      "Jing Huang",
+      "Lujiao Kong",
+      "Xiaoli Li",
+      "Ole Jensen",
+      "Yan Song"
+    ],
+    "year": 2023,
+    "journal": "PLOS Biology",
+    "citation": "21(3), e3002014",
+    "id": "zhao-2023-alpha-attention",
+    "reading_status": "已编目",
+    "topics": [
+      "脑电、脑振荡与源定位",
+      "认知、记忆与执行功能"
+    ],
+    "summary": "围绕视觉空间线索、预期性 alpha 活动与干扰信息抑制的关系展开研究，收录于脑振荡和注意控制主题。",
+    "basis": "依据已核对的题名与书目信息编目；方法、结果和证据评价将在全文研读后补充。",
+    "source_note": "书目信息经 Crossref 核对；同时收录于成员公开论文索引。",
+    "related": [
+      {
+        "title": "脑电与认知：振荡、注意和解码",
+        "path": "../../research/eeg-cognition.qmd"
+      },
+      {
+        "title": "成员公开论文索引",
+        "path": "../../publications/index.qmd"
+      }
+    ]
+  },
+  {
+    "doi": "10.1109/tnsre.2023.3243992",
+    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
+    "authors": [
+      "Hai Jia",
+      "Shiqi Yu",
+      "Shunjie Yin",
+      "Lanxin Liu",
+      "Chanlin Yi",
+      "Kaiqing Xue",
+      "Fali Li",
+      "Dezhong Yao",
+      "Peng Xu",
+      "Tao Zhang"
+    ],
+    "year": 2023,
+    "journal": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+    "citation": "31, 1311-1320",
+    "id": "jia-2023-mi-bci",
+    "reading_status": "已编目",
+    "topics": [
+      "脑电、脑振荡与源定位",
+      "脑影像、计算与方法"
+    ],
+    "summary": "提出结合多分支时频 CNN、通道注意力与 LightGBM 的运动想象脑机接口分类模型，收录于 EEG 解码与计算方法主题。",
+    "basis": "依据已核对的题名与书目信息编目；模型性能、数据划分与外部验证将在全文研读后整理。",
+    "source_note": "书目信息经 Crossref 核对；同时收录于成员公开论文索引。",
+    "related": [
+      {
+        "title": "脑电与认知：振荡、注意和解码",
+        "path": "../../research/eeg-cognition.qmd"
+      },
+      {
+        "title": "成员公开论文索引",
+        "path": "../../publications/index.qmd"
+      }
+    ]
+  }
+]

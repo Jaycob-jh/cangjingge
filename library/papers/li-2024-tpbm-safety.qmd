@@ -1,0 +1,38 @@
+---
+title: "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans"
+author: "Zhilin Li et al."
+date: "2024"
+date-format: "YYYY"
+reading-status: "摘要已读"
+categories: ["神经调控与脑刺激", "认知、记忆与执行功能", "tPBM", "摘要已读"]
+description: "研究结合 MRI、EEG、血液生化指标、执行功能测试与主观耐受问卷，评估健康受试者接受 1064 nm 经颅光生物调节后的变化。摘要报告，在研究所用参数下未发现所评估指标中的脑结构、功能或认知损伤，受试者不适较少；NSE 降低的含义仍需进一步研究。"
+toc: true
+---
+
+## 书目信息
+
+- **作者：** Zhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao
+- **发表信息：** *Brain Stimulation*, 17(6), 1307-1316 (2024)
+- **DOI：** [10.1016/j.brs.2024.11.010](https://doi.org/10.1016/j.brs.2024.11.010)
+- **阅读进度：** 摘要已读
+
+## 研究内容
+
+研究结合 MRI、EEG、血液生化指标、执行功能测试与主观耐受问卷，评估健康受试者接受 1064 nm 经颅光生物调节后的变化。摘要报告，在研究所用参数下未发现所评估指标中的脑结构、功能或认知损伤，受试者不适较少；NSE 降低的含义仍需进一步研究。
+
+## 整理依据
+
+已通过 ReadCube H 读取 PDF 第 1 页摘要。当前卡片概括研究问题、测量维度与摘要结果；安全性结论适用于论文测试的参数和健康人群。刺激剂量、样本量、统计方法和随访窗口留待全文研读时逐项提取。
+
+## 关联阅读
+
+- [经颅光刺激：参数与安全性阅读线索](../../research/tpbm.qmd)
+- [成员公开论文索引](../../publications/index.qmd)
+
+<details><summary>来源</summary>
+
+[期刊原文](https://doi.org/10.1016/j.brs.2024.11.010)。书目信息经 Crossref 核对，并与 ReadCube H 中 PDF 首页一致。
+
+</details>
+
+<!-- generated: build_literature.py -->

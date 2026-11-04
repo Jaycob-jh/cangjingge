@@ -1,14 +1,19 @@
 [
   {
-    "listing": "/library/index.html",
+    "listing": "/notes/index.html",
     "items": [
-      "/library/papers/openscholar.html"
+      "/notes/posts/personalized-neuromodulation.html",
+      "/notes/posts/reading-guide.html"
     ]
   },
   {
-    "listing": "/notes/index.html",
+    "listing": "/library/index.html",
     "items": [
-      "/notes/posts/reading-guide.html"
+      "/library/papers/openscholar.html",
+      "/library/papers/khan-2026-personalized-neuromodulation.html",
+      "/library/papers/li-2024-tpbm-safety.html",
+      "/library/papers/jia-2023-mi-bci.html",
+      "/library/papers/zhao-2023-alpha-attention.html"
     ]
   }
 ]
