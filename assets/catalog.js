@@ -32,7 +32,8 @@
       return wrap;
     };
     if (detail) {
-      const record = catalog.records.find(r => r.id === new URLSearchParams(location.search).get("id"));
+      const recordId = new URLSearchParams(location.search).get("id") || location.hash.slice(1);
+      const record = catalog.records.find(r => r.id === recordId);
       detail.replaceChildren();
       if (!record) {
         detail.append(node("p", "未找到这个文献条目，请返回目录检索。"));

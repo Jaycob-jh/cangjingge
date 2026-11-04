@@ -27,6 +27,7 @@ def main():
         sys.exit('错误：当前系统找不到 Quarto。请先安装 https://quarto.org/docs/download/ ，再重试。'
                  ' 压缩包中已附带 docs/ 初始静态快照，可以先用它发布演示。')
     run(quarto,'render')
+    run(sys.executable, 'scripts/build_catalog.py', '--search-index')
     docs=ROOT/'docs'
     if not (docs/'index.html').is_file():
         sys.exit('错误：Quarto 未生成 docs/index.html，请检查 _quarto.yml。')

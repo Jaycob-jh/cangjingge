@@ -60,6 +60,7 @@ python scripts/prepare_intake.py "I:\文章目录\paper.pdf" --doi "10.1016/j.br
 默认同步 ReadCube H 和 Zotero H 的完整文献目录，不以几篇示例代替。2026-11-04读取ReadCube H 1,274条、Zotero H 1,244条源记录；按DOI优先、无DOI时按唯一题名和年份合并，得到1,228条目录记录，保留53个主题分类。
 
 - 完整目录：`data/catalog.json`；`scripts/build_catalog.py` 验证并生成 `assets/catalog.json`。网站支持检索、主题、细分类、来源、阅读进度和分页；未写札记的论文也能查询。
+- 全站搜索：Quarto渲染后运行 `build_catalog.py --search-index`，补入完整目录的书目记录，避免顶部搜索只找到已整理卡片。使用固定书目ID片段，保留搜索跳转后的条目身份。
 - 人工整理卡片：`data/literature.json` 及原有手写QMD。已有页面URL保持不变，完整目录中直接关联；其余论文使用固定书目ID的详情页。
 - 同步：从MCP及其同一只读后端获得H源快照，放在仓库外；执行 `python scripts/sync_catalog.py "I:/Agents-workspace/Workspaces/cangjingge-intake/bulk-20261104"`，再运行 `python scripts/build_site.py`。下次更新先刷新快照，不能把本轮快照当作永久实时状态。
 - 源记录ID、原始目录成员关系、重复来源对照、缺题名或出版信息不足的源条目保存于私有 `merge-report.json`。不在公开目录猜补缺失内容；补全后重新合并。
