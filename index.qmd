@@ -76,6 +76,7 @@ title-block-banner: false
 文献卡片与研读札记通过 Git 记录修订，维护者审核来源与内容后合并。可以通过 Pull Request 提交新文献、勘误或专题建议。
 
 [查看共建流程与规范 ↗](join/){.btn .btn-outline-primary}
+
 ## 已收录内容
 
 [完整文献目录](library/index.qmd)已接入 ReadCube H 与 Zotero H 的现有文献及主题分类。以下为已整理卡片与札记入口。

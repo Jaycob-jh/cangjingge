@@ -11,10 +11,18 @@
   --zk-sans: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
 }
 body { background: #fcfcfa; color: var(--zk-ink); font-family: var(--zk-sans); line-height: 1.75; }
-#quarto-content { min-height: 68vh; }
+#quarto-content { min-height: 68vh; width: 100%; max-width: 1260px; margin-inline: auto; }
+#quarto-content.page-layout-full { max-width: 1440px; }
+#quarto-content.page-layout-full > main.content:has(.hero-section) {
+  grid-column: screen-start-inset / screen-end-inset;
+  width: 100%;
+  max-width: 1360px;
+  justify-self: center;
+}
 a { color: #315b70; text-underline-offset: 3px; }
 a:hover { color: #0d3346; }
 .navbar { box-shadow: 0 1px 0 rgba(0,0,0,.10); padding-top: .76rem; padding-bottom: .76rem; }
+.navbar > .container-fluid { max-width: 1440px; margin-inline: auto; }
 .navbar-brand { font-family: var(--zk-serif); font-weight: 750; letter-spacing: .13em; font-size: 1.32rem; }
 .navbar .nav-link { font-size: .89rem; letter-spacing: .025em; }
 .navbar .nav-link:hover { color: #e8ca9e !important; }
@@ -25,7 +33,6 @@ h1,h2 { font-family: var(--zk-serif); }
 h2 { letter-spacing: .02em; }
 .quarto-title-meta { color: var(--zk-muted); }
 #quarto-margin-sidebar { font-size: .86rem; }
-.page-columns { max-width: 1260px; }
 main.content { padding-top: 2.1rem; }
 .page-footer { background: #f4f5f2; border-top: 1px solid var(--zk-line); color: #6b7783; margin-top: 3rem; }
 /* Home page */
