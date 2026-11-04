@@ -72,3 +72,6 @@ python scripts/build_site.py
 - 一个论文一个稳定卡片，可有多个主题；保留全部已有批注、附件和目录关系。PDF 及私有队列存于仓库外。
 - 新卡片编辑 `data/literature.json`，由 `scripts/build_literature.py` 生成；不要手改标有 generated 的卡片。已有 OpenScholar 手写卡片保留。
 - 区分已编目、摘要已读、全文已读、精读已整理；同步完成和阅读完成分开记录。
+- Hai于2026-11-04纠正：现有ReadCube H与Zotero H必须按完整文库同步，不能再次缩成几篇示例。保留原有多主题分类，先整体编目，再按问题深化研读。
+- 完整目录事实源为data/catalog.json；人工整理卡片仍由data/literature.json生成。同步脚本只合并源元数据和主题，不把软件“已读”标记当作已完成精读。
+- 批量更新先通过MCP核对H目录与总数，再导出同一只读后端的公开书目字段；源ID、私有分类对照和补录清单留在仓库外。编目完整性按源条目覆盖和去重报告核对。

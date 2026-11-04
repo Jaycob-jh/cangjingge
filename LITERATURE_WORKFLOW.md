@@ -55,6 +55,18 @@ python scripts/prepare_intake.py "I:\文章目录\paper.pdf" --doi "10.1016/j.br
 
 ## 本次起步内容（2026-11-04）
 
+### 完整文库接入（Hai纠正后的当前范围）
+
+默认同步 ReadCube H 和 Zotero H 的完整文献目录，不以几篇示例代替。2026-11-04读取ReadCube H 1,274条、Zotero H 1,244条源记录；按DOI优先、无DOI时按唯一题名和年份合并，得到1,228条目录记录，保留53个主题分类。
+
+- 完整目录：`data/catalog.json`；`scripts/build_catalog.py` 验证并生成 `assets/catalog.json`。网站支持检索、主题、细分类、来源、阅读进度和分页；未写札记的论文也能查询。
+- 人工整理卡片：`data/literature.json` 及原有手写QMD。已有页面URL保持不变，完整目录中直接关联；其余论文使用固定书目ID的详情页。
+- 同步：从MCP及其同一只读后端获得H源快照，放在仓库外；执行 `python scripts/sync_catalog.py "I:/Agents-workspace/Workspaces/cangjingge-intake/bulk-20261104"`，再运行 `python scripts/build_site.py`。下次更新先刷新快照，不能把本轮快照当作永久实时状态。
+- 源记录ID、原始目录成员关系、重复来源对照、缺题名或出版信息不足的源条目保存于私有 `merge-report.json`。不在公开目录猜补缺失内容；补全后重新合并。
+- 合并不修改ReadCube或Zotero，不迁移批注，也不自动提升阅读阶段。原有远端分类保持不动，网站将同编码的分类关系合并显示。
+
+### 上一轮首批内容（保留）
+
 - 从 ReadCube H 读取 Khan 2026 个体网络神经调控、Li 2024 tPBM 安全性两篇的 PDF 摘要，建立公开卡片。
 - 将已核对的 Zhao 2023 alpha/注意、Jia 2023 MI-BCI 两篇成员论文纳入文献库，当前为已编目。本次精确 DOI 查询未找到这两篇 H 条目，不声称已在 H 归档。
 - 保留 OpenScholar 手写卡片。新增一篇摘要阅读札记和三个专题阅读索引。

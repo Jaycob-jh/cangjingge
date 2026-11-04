@@ -1,0 +1,10 @@
+---
+title: "文献条目"
+toc: false
+---
+
+<div id="catalog-record" aria-live="polite"><p>正在载入书目信息……</p></div>
+
+[返回完整文献目录](index.qmd)
+
+<script src="../assets/catalog.js"></script>

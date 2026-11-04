@@ -78,6 +78,8 @@ title-block-banner: false
 [查看共建流程与规范 ↗](join/){.btn .btn-outline-primary}
 ## 已收录内容
 
+[完整文献目录](library/index.qmd)已接入 ReadCube H 与 Zotero H 的现有文献及主题分类。以下为已整理卡片与札记入口。
+
 - [1064 nm 经颅光刺激：健康人安全性研究](library/papers/li-2024-tpbm-safety.qmd)。
 - [个体网络靶点与频率：工作记忆神经调控](library/papers/khan-2026-personalized-neuromodulation.qmd)及[摘要阅读札记](notes/posts/personalized-neuromodulation.qmd)。
 - [脑电、注意控制与运动想象解码](research/eeg-cognition.qmd)（专题阅读索引）。

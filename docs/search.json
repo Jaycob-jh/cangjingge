@@ -189,109 +189,39 @@
     "text": "关联阅读\n\n个体化脑网络与神经调控\n从靶点个体化到频率个体化：摘要阅读札记\n\n\n\n来源\n\n期刊原文。题名、作者、DOI 和期刊信息取自 ReadCube H，并与 PDF 首页核对。"
   },
   {
-    "objectID": "library/index.html",
-    "href": "library/index.html",
-    "title": "典籍目录",
+    "objectID": "library/record.html",
+    "href": "library/record.html",
+    "title": "文献条目",
     "section": "",
-    "text": "按主题整理科研文献，记录作者、发表信息、DOI、研究摘要与原文链接。"
+    "text": "正在载入书目信息……\n\n\n返回完整文献目录\n\n\n\n\n 回到顶部"
   },
   {
-    "objectID": "library/index.html#文献索引",
-    "href": "library/index.html#文献索引",
-    "title": "典籍目录",
-    "section": "文献索引",
-    "text": "文献索引\n按主题或阅读进度筛选，也可以用右上角的站内搜索查找作者、DOI 和方法。每篇论文保留一个固定条目，可同时属于多个主题。\n\n主题与阅读进度 全部主题与进度\n\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        年份 - 日期升序\n      \n      \n        年份 - 日期降序\n      \n      \n        论文\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n论文\n\n\n\n年份\n\n\n\n阅读进度\n\n\n\n\n\n\n\n\nSynthesizing scientific literature with retrieval-augmented language models\n\n\n2026\n\n\n方法参考\n\n\n\n\n\n\nPersonalized Network‐Guided Neuromodulation Enhances Human Working Memory\n\n\n2026\n\n\n摘要已读\n\n\n\n\n\n\nTranscranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\n\n\n2024\n\n\n摘要已读\n\n\n\n\n\n\nA Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\nSuppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\n无匹配项"
-  },
-  {
-    "objectID": "library/index.html#阅读与归档",
-    "href": "library/index.html#阅读与归档",
-    "title": "典籍目录",
-    "section": "阅读与归档",
-    "text": "阅读与归档\n已编目 → 摘要已读 → 全文已读 → 精读已整理。进度随实际阅读更新，精读札记关联原文页码或图表。\nPDF 与批注保存在 ReadCube，网站汇集书目信息、阅读摘要和专题索引。新增文献可直接提供 PDF 或 DOI，由维护者查重、归类并更新。"
-  },
-  {
-    "objectID": "research/personalized-networks.html",
-    "href": "research/personalized-networks.html",
-    "title": "个体化脑网络与神经调控",
+    "objectID": "research/tpbm.html",
+    "href": "research/tpbm.html",
+    "title": "经颅光刺激：参数与安全性",
     "section": "",
-    "text": "个体之间的脑网络差异如何用于选择刺激靶点？在固定靶点之后，频率是否也需要按个体选择？"
+    "text": "经颅光刺激在怎样的参数和人群中开展研究？脑影像、脑电、生化指标与受试者耐受分别回答什么问题？"
   },
   {
-    "objectID": "research/personalized-networks.html#阅读问题",
-    "href": "research/personalized-networks.html#阅读问题",
-    "title": "个体化脑网络与神经调控",
+    "objectID": "research/tpbm.html#阅读问题",
+    "href": "research/tpbm.html#阅读问题",
+    "title": "经颅光刺激：参数与安全性",
     "section": "",
-    "text": "个体之间的脑网络差异如何用于选择刺激靶点？在固定靶点之后，频率是否也需要按个体选择？"
+    "text": "经颅光刺激在怎样的参数和人群中开展研究？脑影像、脑电、生化指标与受试者耐受分别回答什么问题？"
   },
   {
-    "objectID": "research/personalized-networks.html#核心文献",
-    "href": "research/personalized-networks.html#核心文献",
-    "title": "个体化脑网络与神经调控",
+    "objectID": "research/tpbm.html#核心文献",
+    "href": "research/tpbm.html#核心文献",
+    "title": "经颅光刺激：参数与安全性",
     "section": "核心文献",
-    "text": "核心文献\nKhan et al., 2026：个体网络引导的工作记忆神经调控将个体靶点定位、同步 TMS–fMRI 和实时解码结合，比较个体在不同频率下的网络响应。\n摘要阅读札记记录其方法思路与全文研读问题。"
+    "text": "核心文献\nLi et al., 2024：1064 nm 经颅光刺激的健康人安全性结合 MRI、EEG、血液生化、执行功能测试和耐受问卷，提供多维度的评估框架。"
   },
   {
-    "objectID": "research/personalized-networks.html#比较维度",
-    "href": "research/personalized-networks.html#比较维度",
-    "title": "个体化脑网络与神经调控",
-    "section": "比较维度",
-    "text": "比较维度\n后续文献按靶点定义、刺激模态、参数搜索范围、状态指标与行为终点比较。TMS、经颅电刺激与经颅光刺激分别记录，再讨论可迁移的方法思路。\n返回研究专题"
-  },
-  {
-    "objectID": "research/eeg-cognition.html",
-    "href": "research/eeg-cognition.html",
-    "title": "脑电与认知：振荡、注意和解码",
-    "section": "",
-    "text": "脑振荡如何参与注意与干扰控制？时频特征如何用于运动想象解码？两类研究分别需要怎样的证据？"
-  },
-  {
-    "objectID": "research/eeg-cognition.html#阅读问题",
-    "href": "research/eeg-cognition.html#阅读问题",
-    "title": "脑电与认知：振荡、注意和解码",
-    "section": "",
-    "text": "脑振荡如何参与注意与干扰控制？时频特征如何用于运动想象解码？两类研究分别需要怎样的证据？"
-  },
-  {
-    "objectID": "research/eeg-cognition.html#阅读索引",
-    "href": "research/eeg-cognition.html#阅读索引",
-    "title": "脑电与认知：振荡、注意和解码",
-    "section": "阅读索引",
-    "text": "阅读索引\n\nZhao et al., 2023：预期性 alpha 活动与干扰抑制。\nJia et al., 2023：多分支时频 CNN、通道注意力与 LightGBM。"
-  },
-  {
-    "objectID": "research/eeg-cognition.html#比较维度",
-    "href": "research/eeg-cognition.html#比较维度",
-    "title": "脑电与认知：振荡、注意和解码",
-    "section": "比较维度",
-    "text": "比较维度\n机制研究重点记录实验操纵、时间窗、频段及行为关联；分类研究重点记录数据集、被试间划分、交叉验证和性能指标。上述两篇目前完成书目编目，全文研读后补入相应证据。\n返回研究专题"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "藏经阁 Cangjingge",
-    "section": "",
-    "text": "围绕神经调控、经颅光生物调节 (tPBM) 与脑连接组学整理公开文献、结构化研读札记和专题评述。每项论述保留来源、证据位置与适用条件，便于检索、比较和引用。\n进入典籍索引 ↗ 浏览研读札记 →\n公开文献 · 结构化评注 · 来源可回溯"
-  },
-  {
-    "objectID": "index.html#核心索引",
-    "href": "index.html#核心索引",
-    "title": "藏经阁 Cangjingge",
-    "section": "核心索引",
-    "text": "核心索引\n\n\n01 / 文献索引 (Literature)\n典籍目录 规范收录同行评审期刊论文、经典专著与预印本，完整标引 DOI、实验版本与开源资源链接。 查阅文献索引 ↗\n\n\n02 / 证据笔记 (Research Notes)\n研读札记 提炼核心方法、效应量、关键证据与局限性，支持结论直接回溯至原文图表。 阅读研读笔记 ↗\n\n\n03 / 知识专题 (Synthesis)\n专题评述 聚合离散研究，梳理经颅光刺激物理机制、多模态神经影像验证及脑网络靶向干预等核心课题。 探索研究专题 ↗"
-  },
-  {
-    "objectID": "index.html#文献整理与证据评注流程",
-    "href": "index.html#文献整理与证据评注流程",
-    "title": "藏经阁 Cangjingge",
-    "section": "文献整理与证据评注流程",
-    "text": "文献整理与证据评注流程\n\n\n01 / 原始凭证归档 (Provenance)\n完整标引 DOI、作者机构、预印本版本与合法原文路径。\n\n\n02 / 科学问题映射 (Taxonomy)\n依据假说与实验范式归纳分类，建立神经干预与脑网络交叉索引。\n\n\n03 / 方法与证据评注 (Critique)\n提取核心效应量、光剂量参数、刺激靶点及实验边界，定位图表证据。\n\n\n04 / 证据综合与再现 (Synthesis)\n对比研究结论，记录重复验证结果、适用条件与尚存争议。"
-  },
-  {
-    "objectID": "index.html#基于版本控制的学术共建",
-    "href": "index.html#基于版本控制的学术共建",
-    "title": "藏经阁 Cangjingge",
-    "section": "基于版本控制的学术共建",
-    "text": "基于版本控制的学术共建\n文献卡片与研读札记通过 Git 记录修订，维护者审核来源与内容后合并。可以通过 Pull Request 提交新文献、勘误或专题建议。\n查看共建流程与规范 ↗ ## 已收录内容\n\n1064 nm 经颅光刺激：健康人安全性研究。\n个体网络靶点与频率：工作记忆神经调控及摘要阅读札记。\n脑电、注意控制与运动想象解码（专题阅读索引）。\nOpenScholar：学术文献检索与证据综合（平台方法参考）。\n文献精读与证据记录规范（平台指南）。"
+    "objectID": "research/tpbm.html#后续整理字段",
+    "href": "research/tpbm.html#后续整理字段",
+    "title": "经颅光刺激：参数与安全性",
+    "section": "后续整理字段",
+    "text": "后续整理字段\n每篇研究提取波长、出光功率与功率密度、光斑面积、刺激部位、时序、总能量、表面温度、对照方式和观察窗口。功率密度需同时注明测量位置，区分头皮入射量与估计脑内剂量。\n安全性结果按实际测量指标和刺激条件汇总；认知效应、机制指标与安全终点分别比较。\n返回研究专题"
   },
   {
     "objectID": "research/index.html",
@@ -322,32 +252,116 @@
     "text": "专题结构\n\n\n1\n\n核心科学问题\n\n用一段话界定问题的边界与重要性。\n\n\n\n\n2\n\n研究脉络\n\n列出关键文献、发展阶段、主要证据及尚存争议。\n\n\n\n\n3\n\n方法与资源\n\n维护实验方法、数据资源、代码、分析流程与质量控制措施。\n\n\n\n\n4\n\n团队进展\n\n关联已公开的论文、报告、笔记与可共享成果。\n\n\n\n\n共建者可按上述结构整理专题，并与对应文献卡片和札记互相链接。"
   },
   {
-    "objectID": "research/tpbm.html",
-    "href": "research/tpbm.html",
-    "title": "经颅光刺激：参数与安全性",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "藏经阁 Cangjingge",
     "section": "",
-    "text": "经颅光刺激在怎样的参数和人群中开展研究？脑影像、脑电、生化指标与受试者耐受分别回答什么问题？"
+    "text": "围绕神经调控、经颅光生物调节 (tPBM) 与脑连接组学整理公开文献、结构化研读札记和专题评述。每项论述保留来源、证据位置与适用条件，便于检索、比较和引用。\n进入典籍索引 ↗ 浏览研读札记 →\n公开文献 · 结构化评注 · 来源可回溯"
   },
   {
-    "objectID": "research/tpbm.html#阅读问题",
-    "href": "research/tpbm.html#阅读问题",
-    "title": "经颅光刺激：参数与安全性",
-    "section": "",
-    "text": "经颅光刺激在怎样的参数和人群中开展研究？脑影像、脑电、生化指标与受试者耐受分别回答什么问题？"
+    "objectID": "index.html#核心索引",
+    "href": "index.html#核心索引",
+    "title": "藏经阁 Cangjingge",
+    "section": "核心索引",
+    "text": "核心索引\n\n\n01 / 文献索引 (Literature)\n典籍目录 规范收录同行评审期刊论文、经典专著与预印本，完整标引 DOI、实验版本与开源资源链接。 查阅文献索引 ↗\n\n\n02 / 证据笔记 (Research Notes)\n研读札记 提炼核心方法、效应量、关键证据与局限性，支持结论直接回溯至原文图表。 阅读研读笔记 ↗\n\n\n03 / 知识专题 (Synthesis)\n专题评述 聚合离散研究，梳理经颅光刺激物理机制、多模态神经影像验证及脑网络靶向干预等核心课题。 探索研究专题 ↗"
   },
   {
-    "objectID": "research/tpbm.html#核心文献",
-    "href": "research/tpbm.html#核心文献",
-    "title": "经颅光刺激：参数与安全性",
+    "objectID": "index.html#文献整理与证据评注流程",
+    "href": "index.html#文献整理与证据评注流程",
+    "title": "藏经阁 Cangjingge",
+    "section": "文献整理与证据评注流程",
+    "text": "文献整理与证据评注流程\n\n\n01 / 原始凭证归档 (Provenance)\n完整标引 DOI、作者机构、预印本版本与合法原文路径。\n\n\n02 / 科学问题映射 (Taxonomy)\n依据假说与实验范式归纳分类，建立神经干预与脑网络交叉索引。\n\n\n03 / 方法与证据评注 (Critique)\n提取核心效应量、光剂量参数、刺激靶点及实验边界，定位图表证据。\n\n\n04 / 证据综合与再现 (Synthesis)\n对比研究结论，记录重复验证结果、适用条件与尚存争议。"
+  },
+  {
+    "objectID": "index.html#基于版本控制的学术共建",
+    "href": "index.html#基于版本控制的学术共建",
+    "title": "藏经阁 Cangjingge",
+    "section": "基于版本控制的学术共建",
+    "text": "基于版本控制的学术共建\n文献卡片与研读札记通过 Git 记录修订，维护者审核来源与内容后合并。可以通过 Pull Request 提交新文献、勘误或专题建议。\n查看共建流程与规范 ↗ ## 已收录内容\n完整文献目录已接入 ReadCube H 与 Zotero H 的现有文献及主题分类。以下为已整理卡片与札记入口。\n\n1064 nm 经颅光刺激：健康人安全性研究。\n个体网络靶点与频率：工作记忆神经调控及摘要阅读札记。\n脑电、注意控制与运动想象解码（专题阅读索引）。\nOpenScholar：学术文献检索与证据综合（平台方法参考）。\n文献精读与证据记录规范（平台指南）。"
+  },
+  {
+    "objectID": "research/eeg-cognition.html",
+    "href": "research/eeg-cognition.html",
+    "title": "脑电与认知：振荡、注意和解码",
+    "section": "",
+    "text": "脑振荡如何参与注意与干扰控制？时频特征如何用于运动想象解码？两类研究分别需要怎样的证据？"
+  },
+  {
+    "objectID": "research/eeg-cognition.html#阅读问题",
+    "href": "research/eeg-cognition.html#阅读问题",
+    "title": "脑电与认知：振荡、注意和解码",
+    "section": "",
+    "text": "脑振荡如何参与注意与干扰控制？时频特征如何用于运动想象解码？两类研究分别需要怎样的证据？"
+  },
+  {
+    "objectID": "research/eeg-cognition.html#阅读索引",
+    "href": "research/eeg-cognition.html#阅读索引",
+    "title": "脑电与认知：振荡、注意和解码",
+    "section": "阅读索引",
+    "text": "阅读索引\n\nZhao et al., 2023：预期性 alpha 活动与干扰抑制。\nJia et al., 2023：多分支时频 CNN、通道注意力与 LightGBM。"
+  },
+  {
+    "objectID": "research/eeg-cognition.html#比较维度",
+    "href": "research/eeg-cognition.html#比较维度",
+    "title": "脑电与认知：振荡、注意和解码",
+    "section": "比较维度",
+    "text": "比较维度\n机制研究重点记录实验操纵、时间窗、频段及行为关联；分类研究重点记录数据集、被试间划分、交叉验证和性能指标。上述两篇目前完成书目编目，全文研读后补入相应证据。\n返回研究专题"
+  },
+  {
+    "objectID": "research/personalized-networks.html",
+    "href": "research/personalized-networks.html",
+    "title": "个体化脑网络与神经调控",
+    "section": "",
+    "text": "个体之间的脑网络差异如何用于选择刺激靶点？在固定靶点之后，频率是否也需要按个体选择？"
+  },
+  {
+    "objectID": "research/personalized-networks.html#阅读问题",
+    "href": "research/personalized-networks.html#阅读问题",
+    "title": "个体化脑网络与神经调控",
+    "section": "",
+    "text": "个体之间的脑网络差异如何用于选择刺激靶点？在固定靶点之后，频率是否也需要按个体选择？"
+  },
+  {
+    "objectID": "research/personalized-networks.html#核心文献",
+    "href": "research/personalized-networks.html#核心文献",
+    "title": "个体化脑网络与神经调控",
     "section": "核心文献",
-    "text": "核心文献\nLi et al., 2024：1064 nm 经颅光刺激的健康人安全性结合 MRI、EEG、血液生化、执行功能测试和耐受问卷，提供多维度的评估框架。"
+    "text": "核心文献\nKhan et al., 2026：个体网络引导的工作记忆神经调控将个体靶点定位、同步 TMS–fMRI 和实时解码结合，比较个体在不同频率下的网络响应。\n摘要阅读札记记录其方法思路与全文研读问题。"
   },
   {
-    "objectID": "research/tpbm.html#后续整理字段",
-    "href": "research/tpbm.html#后续整理字段",
-    "title": "经颅光刺激：参数与安全性",
-    "section": "后续整理字段",
-    "text": "后续整理字段\n每篇研究提取波长、出光功率与功率密度、光斑面积、刺激部位、时序、总能量、表面温度、对照方式和观察窗口。功率密度需同时注明测量位置，区分头皮入射量与估计脑内剂量。\n安全性结果按实际测量指标和刺激条件汇总；认知效应、机制指标与安全终点分别比较。\n返回研究专题"
+    "objectID": "research/personalized-networks.html#比较维度",
+    "href": "research/personalized-networks.html#比较维度",
+    "title": "个体化脑网络与神经调控",
+    "section": "比较维度",
+    "text": "比较维度\n后续文献按靶点定义、刺激模态、参数搜索范围、状态指标与行为终点比较。TMS、经颅电刺激与经颅光刺激分别记录，再讨论可迁移的方法思路。\n返回研究专题"
+  },
+  {
+    "objectID": "library/index.html",
+    "href": "library/index.html",
+    "title": "典籍目录",
+    "section": "",
+    "text": "按主题整理科研文献，记录作者、发表信息、DOI、研究摘要与原文链接。"
+  },
+  {
+    "objectID": "library/index.html#完整文献目录",
+    "href": "library/index.html#完整文献目录",
+    "title": "典籍目录",
+    "section": "完整文献目录",
+    "text": "完整文献目录\n汇集 ReadCube H 与 Zotero H，按 DOI 和书目信息去重，保留文献原有的多主题分类。可检索题名、作者、期刊、年份与 DOI。\n\n正在载入文献目录……\n\n检索文献\n研究方向全部方向\n细分主题全部细分主题\n文献来源全部来源ReadCubeZotero\n阅读进度全部进度已编目摘要已读全文已读精读已整理方法参考\n排序方式年份降序题名字母顺序\n\n\n\n上一页下一页\n完整目录需要 JavaScript；下方可直接浏览已整理卡片。"
+  },
+  {
+    "objectID": "library/index.html#已整理卡片",
+    "href": "library/index.html#已整理卡片",
+    "title": "典籍目录",
+    "section": "已整理卡片",
+    "text": "已整理卡片\n完成摘要整理或人工编目的卡片，同时收录于上方完整目录；研读札记另行关联。\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        年份 - 日期升序\n      \n      \n        年份 - 日期降序\n      \n      \n        论文\n      \n    \n  \n\n\n\n\n\n\n论文\n\n\n\n年份\n\n\n\n阅读进度\n\n\n\n\n\n\n\n\nSynthesizing scientific literature with retrieval-augmented language models\n\n\n2026\n\n\n方法参考\n\n\n\n\n\n\nPersonalized Network‐Guided Neuromodulation Enhances Human Working Memory\n\n\n2026\n\n\n摘要已读\n\n\n\n\n\n\nTranscranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\n\n\n2024\n\n\n摘要已读\n\n\n\n\n\n\nA Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\nSuppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\n无匹配项"
+  },
+  {
+    "objectID": "library/index.html#阅读与归档",
+    "href": "library/index.html#阅读与归档",
+    "title": "典籍目录",
+    "section": "阅读与归档",
+    "text": "阅读与归档\n已编目 → 摘要已读 → 全文已读 → 精读已整理。进度随实际阅读更新，精读札记关联原文页码或图表。\nPDF 与批注保存在 ReadCube，网站汇集书目信息、阅读摘要和专题索引。新增文献可直接提供 PDF 或 DOI，由维护者查重、归类并更新。"
   },
   {
     "objectID": "library/papers/jia-2023-mi-bci.html",

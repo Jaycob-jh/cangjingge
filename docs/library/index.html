@@ -142,7 +142,7 @@ window.Quarto = {
 <meta property="og:site_name" content="藏经阁 Cangjingge">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -212,8 +212,7 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">分类</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">全部 <span class="quarto-category-count">(5)</span></div><div class="category" data-category="JUU4JTg0JTkxJUU3JTk0JUI1JUUzJTgwJTgxJUU4JTg0JTkxJUU2JThDJUFGJUU4JThEJUExJUU0JUI4JThFJUU2JUJBJTkwJUU1JUFFJTlBJUU0JUJEJThE">脑电、脑振荡与源定位 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUU4JTg0JTkxJUU3JUJEJTkxJUU3JUJCJTlDJUU0JUI4JThFJUU4JUJGJTlFJUU2JThFJUE1JUU3JUJCJTg0JUU1JUFEJUE2">脑网络与连接组学 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU4JTg0JTkxJUU1JUJEJUIxJUU1JTgzJThGJUUzJTgwJTgxJUU4JUFFJUExJUU3JUFFJTk3JUU0JUI4JThFJUU2JTk2JUI5JUU2JUIzJTk1">脑影像、计算与方法 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU1JUI5JUIzJUU1JThGJUIwJUU2JTk2JUI5JUU2JUIzJTk1JUU1JThGJTgyJUU4JTgwJTgz">平台方法参考 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU4JUFFJUE0JUU3JTlGJUE1JUUzJTgwJTgxJUU4JUFFJUIwJUU1JUJGJTg2JUU0JUI4JThFJUU2JTg5JUE3JUU4JUExJThDJUU1JThBJTlGJUU4JTgzJUJE">认知、记忆与执行功能 <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JUU3JUE1JTlFJUU3JUJCJThGJUU4JUIwJTgzJUU2JThFJUE3JUU0JUI4JThFJUU4JTg0JTkxJUU1JTg4JUJBJUU2JUJGJTgw">神经调控与脑刺激 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUU2JTk2JTg3JUU3JThDJUFFJUU2JUEzJTgwJUU3JUI0JUEy">文献检索 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JUU1JUI3JUIyJUU3JUJDJTk2JUU3JTlCJUFF">已编目 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JUU2JTkxJTk4JUU4JUE2JTgxJUU1JUI3JUIyJUU4JUFGJUJC">摘要已读 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UkFH">RAG <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dFBCTQ==">tPBM <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -240,12 +239,28 @@ window.Quarto = {
 <div class="zk-page-intro">
 按主题整理科研文献，记录作者、发表信息、DOI、研究摘要与原文链接。
 </div>
-<section id="文献索引" class="level2">
-<h2 class="anchored" data-anchor-id="文献索引">文献索引</h2>
-<p>按主题或阅读进度筛选，也可以用右上角的站内搜索查找作者、DOI 和方法。每篇论文保留一个固定条目，可同时属于多个主题。</p>
-<div class="zk-library-category-mobile">
-<p><label for="library-category-select">主题与阅读进度</label> <select id="library-category-select" class="form-select" aria-label="按主题或阅读进度筛选"><option value="">全部主题与进度</option></select></p>
+<section id="完整文献目录" class="level2">
+<h2 class="anchored" data-anchor-id="完整文献目录">完整文献目录</h2>
+<p>汇集 ReadCube H 与 Zotero H，按 DOI 和书目信息去重，保留文献原有的多主题分类。可检索题名、作者、期刊、年份与 DOI。</p>
+<div id="catalog-browser">
+<p id="catalog-total" class="zk-catalog-total" role="status">正在载入文献目录……</p>
+<div class="zk-catalog-controls">
+<label>检索文献<input id="catalog-query" class="form-control" type="search" placeholder="题名、作者、DOI 或期刊"></label>
+<label>研究方向<select id="catalog-topic" class="form-select"><option value="">全部方向</option></select></label>
+<label>细分主题<select id="catalog-subtopic" class="form-select"><option value="">全部细分主题</option></select></label>
+<label>文献来源<select id="catalog-source" class="form-select"><option value="">全部来源</option><option>ReadCube</option><option>Zotero</option></select></label>
+<label>阅读进度<select id="catalog-stage" class="form-select"><option value="">全部进度</option><option>已编目</option><option>摘要已读</option><option>全文已读</option><option>精读已整理</option><option>方法参考</option></select></label>
+<label>排序方式<select id="catalog-sort" class="form-select"><option value="year">年份降序</option><option value="title">题名字母顺序</option></select></label>
 </div>
+<p id="catalog-count" aria-live="polite"></p>
+<div id="catalog-results"></div>
+<nav class="zk-catalog-pagination" aria-label="文献分页"><button id="catalog-prev" class="btn btn-outline-primary" type="button">上一页</button><span id="catalog-page"></span><button id="catalog-next" class="btn btn-outline-primary" type="button">下一页</button></nav>
+<noscript>完整目录需要 JavaScript；下方可直接浏览已整理卡片。</noscript>
+</div>
+</section>
+<section id="已整理卡片" class="level2">
+<h2 class="anchored" data-anchor-id="已整理卡片">已整理卡片</h2>
+<p>完成摘要整理或人工编目的卡片，同时收录于上方完整目录；研读札记另行关联。</p>
 <div id="listing-papers" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
@@ -264,10 +279,6 @@ window.Quarto = {
       </option>
     </select>
   </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="筛选">
-    </div>
 </div>
 <table class="quarto-listing-table table">
 <thead>
@@ -302,7 +313,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="1" data-categories="JUU4JTg0JTkxJUU3JUJEJTkxJUU3JUJCJTlDJUU0JUI4JThFJUU4JUJGJTlFJUU2JThFJUE1JUU3JUJCJTg0JUU1JUFEJUE2JTJDJUU3JUE1JTlFJUU3JUJCJThGJUU4JUIwJTgzJUU2JThFJUE3JUU0JUI4JThFJUU4JTg0JTkxJUU1JTg4JUJBJUU2JUJGJTgwJTJDJUU4JUFFJUE0JUU3JTlGJUE1JUUzJTgwJTgxJUU4JUFFJUIwJUU1JUJGJTg2JUU0JUI4JThFJUU2JTg5JUE3JUU4JUExJThDJUU1JThBJTlGJUU4JTgzJUJEJTJDJUU2JTkxJTk4JUU4JUE2JTgxJUU1JUI3JUIyJUU4JUFGJUJC" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1793779681067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72" data-listing-title-sort="Personalized Network‐Guided Neuromodulation Enhances Human Working Memory" data-listing-filename-sort="khan-2026-personalized-neuromodulation.qmd">
+<tr data-index="1" data-categories="JUU4JTg0JTkxJUU3JUJEJTkxJUU3JUJCJTlDJUU0JUI4JThFJUU4JUJGJTlFJUU2JThFJUE1JUU3JUJCJTg0JUU1JUFEJUE2JTJDJUU3JUE1JTlFJUU3JUJCJThGJUU4JUIwJTgzJUU2JThFJUE3JUU0JUI4JThFJUU4JTg0JTkxJUU1JTg4JUJBJUU2JUJGJTgwJTJDJUU4JUFFJUE0JUU3JTlGJUE1JUUzJTgwJTgxJUU4JUFFJUIwJUU1JUJGJTg2JUU0JUI4JThFJUU2JTg5JUE3JUU4JUExJThDJUU1JThBJTlGJUU4JTgzJUJEJTJDJUU2JTkxJTk4JUU4JUE2JTgxJUU1JUI3JUIyJUU4JUFGJUJC" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1793785348250" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72" data-listing-title-sort="Personalized Network‐Guided Neuromodulation Enhances Human Working Memory" data-listing-filename-sort="khan-2026-personalized-neuromodulation.qmd">
 <td>
 <a href="../library/papers/khan-2026-personalized-neuromodulation.html" class="title listing-title">Personalized Network‐Guided Neuromodulation Enhances Human Working Memory</a>
 </td>
@@ -315,7 +326,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="2" data-categories="JUU3JUE1JTlFJUU3JUJCJThGJUU4JUIwJTgzJUU2JThFJUE3JUU0JUI4JThFJUU4JTg0JTkxJUU1JTg4JUJBJUU2JUJGJTgwJTJDJUU4JUFFJUE0JUU3JTlGJUE1JUUzJTgwJTgxJUU4JUFFJUIwJUU1JUJGJTg2JUU0JUI4JThFJUU2JTg5JUE3JUU4JUExJThDJUU1JThBJTlGJUU4JTgzJUJEJTJDdFBCTSUyQyVFNiU5MSU5OCVFOCVBNiU4MSVFNSVCNyVCMiVFOCVBRiVCQg==" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1793779681067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67" data-listing-title-sort="Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans" data-listing-filename-sort="li-2024-tpbm-safety.qmd">
+<tr data-index="2" data-categories="JUU3JUE1JTlFJUU3JUJCJThGJUU4JUIwJTgzJUU2JThFJUE3JUU0JUI4JThFJUU4JTg0JTkxJUU1JTg4JUJBJUU2JUJGJTgwJTJDJUU4JUFFJUE0JUU3JTlGJUE1JUUzJTgwJTgxJUU4JUFFJUIwJUU1JUJGJTg2JUU0JUI4JThFJUU2JTg5JUE3JUU4JUExJThDJUU1JThBJTlGJUU4JTgzJUJEJTJDdFBCTSUyQyVFNiU5MSU5OCVFOCVBNiU4MSVFNSVCNyVCMiVFOCVBRiVCQg==" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1793785348250" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="67" data-listing-title-sort="Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans" data-listing-filename-sort="li-2024-tpbm-safety.qmd">
 <td>
 <a href="../library/papers/li-2024-tpbm-safety.html" class="title listing-title">Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans</a>
 </td>
@@ -328,7 +339,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="3" data-categories="JUU4JTg0JTkxJUU3JTk0JUI1JUUzJTgwJTgxJUU4JTg0JTkxJUU2JThDJUFGJUU4JThEJUExJUU0JUI4JThFJUU2JUJBJTkwJUU1JUFFJTlBJUU0JUJEJThEJTJDJUU4JTg0JTkxJUU1JUJEJUIxJUU1JTgzJThGJUUzJTgwJTgxJUU4JUFFJUExJUU3JUFFJTk3JUU0JUI4JThFJUU2JTk2JUI5JUU2JUIzJTk1JTJDJUU1JUI3JUIyJUU3JUJDJTk2JUU3JTlCJUFF" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1793779681067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53" data-listing-title-sort="A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification" data-listing-filename-sort="jia-2023-mi-bci.qmd">
+<tr data-index="3" data-categories="JUU4JTg0JTkxJUU3JTk0JUI1JUUzJTgwJTgxJUU4JTg0JTkxJUU2JThDJUFGJUU4JThEJUExJUU0JUI4JThFJUU2JUJBJTkwJUU1JUFFJTlBJUU0JUJEJThEJTJDJUU4JTg0JTkxJUU1JUJEJUIxJUU1JTgzJThGJUUzJTgwJTgxJUU4JUFFJUExJUU3JUFFJTk3JUU0JUI4JThFJUU2JTk2JUI5JUU2JUIzJTk1JTJDJUU1JUI3JUIyJUU3JUJDJTk2JUU3JTlCJUFF" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1793785348250" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53" data-listing-title-sort="A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification" data-listing-filename-sort="jia-2023-mi-bci.qmd">
 <td>
 <a href="../library/papers/jia-2023-mi-bci.html" class="title listing-title">A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification</a>
 </td>
@@ -341,7 +352,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="4" data-categories="JUU4JTg0JTkxJUU3JTk0JUI1JUUzJTgwJTgxJUU4JTg0JTkxJUU2JThDJUFGJUU4JThEJUExJUU0JUI4JThFJUU2JUJBJTkwJUU1JUFFJTlBJUU0JUJEJThEJTJDJUU4JUFFJUE0JUU3JTlGJUE1JUUzJTgwJTgxJUU4JUFFJUIwJUU1JUJGJTg2JUU0JUI4JThFJUU2JTg5JUE3JUU4JUExJThDJUU1JThBJTlGJUU4JTgzJUJEJTJDJUU1JUI3JUIyJUU3JUJDJTk2JUU3JTlCJUFF" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1793779681067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40" data-listing-title-sort="Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity" data-listing-filename-sort="zhao-2023-alpha-attention.qmd">
+<tr data-index="4" data-categories="JUU4JTg0JTkxJUU3JTk0JUI1JUUzJTgwJTgxJUU4JTg0JTkxJUU2JThDJUFGJUU4JThEJUExJUU0JUI4JThFJUU2JUJBJTkwJUU1JUFFJTlBJUU0JUJEJThEJTJDJUU4JUFFJUE0JUU3JTlGJUE1JUUzJTgwJTgxJUU4JUFFJUIwJUU1JUJGJTg2JUU0JUI4JThFJUU2JTg5JUE3JUU4JUExJThDJUU1JThBJTlGJUU4JTgzJUJEJTJDJUU1JUI3JUIyJUU3JUJDJTk2JUU3JTlCJUFF" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1793785348250" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40" data-listing-title-sort="Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity" data-listing-filename-sort="zhao-2023-alpha-attention.qmd">
 <td>
 <a href="../library/papers/zhao-2023-alpha-attention.html" class="title listing-title">Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity</a>
 </td>
@@ -363,7 +374,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="阅读与归档">阅读与归档</h2>
 <p><strong>已编目 → 摘要已读 → 全文已读 → 精读已整理</strong>。进度随实际阅读更新，精读札记关联原文页码或图表。</p>
 <p>PDF 与批注保存在 ReadCube，网站汇集书目信息、阅读摘要和专题索引。新增文献可直接提供 PDF 或 DOI，由维护者查重、归类并更新。</p>
-<script src="../assets/library-filters.js"></script>
+<script src="../assets/catalog.js"></script>
 
 
 
