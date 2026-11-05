@@ -53,12 +53,11 @@
       detail.append(node("p", [typeName(record.type), "阅读进度：" + record.reading_status].filter(Boolean).join(" · ")), topicLinks(record));
       if (record.summary) detail.append(node("h2", "阅读摘要"), node("p", record.summary));
       if (record.curated_path) detail.append(link("阅读已整理卡片", record.curated_path));
-      detail.append(node("p", "目录来源：" + (record.sources.join("、") || "藏经阁整理"), "zk-catalog-meta"));
       return;
     }
     const get = id => document.getElementById("catalog-" + id);
     const params = new URLSearchParams(location.search);
-    const controls = ["query", "topic", "subtopic", "source", "stage", "sort"];
+    const controls = ["query", "topic", "subtopic", "stage", "sort"];
     const hasTopic = (r, id) => !id || r.topics.some(t => t === id || t.startsWith(id + "."));
     const topicCount = id => catalog.records.filter(r => hasTopic(r, id)).length;
     for (const t of catalog.topics.filter(t => !t.parent)) get("topic").add(new Option(t.name + " (" + topicCount(t.id) + ")", t.id));
@@ -72,13 +71,12 @@
       if ([...get("subtopic").options].some(o => o.value === old)) get("subtopic").value = old;
     };
     get("query").value = params.get("q") || "";
-    for (const id of ["topic", "source", "stage", "sort"]) {
+    for (const id of ["topic", "stage", "sort"]) {
       const value = params.get(id);
       if (value && [...get(id).options].some(o => o.value === value)) get(id).value = value;
     }
     subtopics();
     if (params.get("subtopic")) get("subtopic").value = params.get("subtopic");
-    get("total").textContent = "共 " + catalog.records.length.toLocaleString() + " 条去重文献 · ReadCube H " + catalog.stats.readcube_h_records.toLocaleString() + " 条源记录 · Zotero H " + catalog.stats.zotero_h_records.toLocaleString() + " 条源记录";
     let page = 1;
     const pageSize = 20;
     const fold = s => s.normalize("NFKC").toLocaleLowerCase();
@@ -88,19 +86,20 @@
       let rows = catalog.records.filter(r =>
         terms.every(t => searchable.get(r.id).includes(t)) &&
         hasTopic(r, get("topic").value) && hasTopic(r, get("subtopic").value) &&
-        (!get("source").value || r.sources.includes(get("source").value)) &&
         (!get("stage").value || r.reading_status === get("stage").value));
       if (get("sort").value === "title") rows.sort((a, b) => a.title.localeCompare(b.title));
       const pages = Math.max(1, Math.ceil(rows.length / pageSize));
       page = Math.min(page, pages);
-      get("count").textContent = "匹配 " + rows.length.toLocaleString() + " 条";
+      const filtered = terms.length || ["topic", "subtopic", "stage"].some(id => get(id).value);
+      get("count").textContent = filtered ? "匹配 " + rows.length.toLocaleString() + " 条" : "";
+      get("count").hidden = !filtered;
       const cards = rows.slice((page - 1) * pageSize, page * pageSize).map(r => {
         const card = node("article", undefined, "zk-catalog-card");
         const heading = node("h3");
         heading.append(link(r.title, r.curated_path || "record.html?id=" + encodeURIComponent(r.id)));
         card.append(heading, node("p", r.authors.slice(0, 4).join("; ") + (r.authors.length > 4 ? " et al." : ""), "zk-catalog-authors"), node("p", citation(r), "zk-catalog-meta"));
         const footer = node("div", undefined, "zk-catalog-meta");
-        footer.append(node("span", r.reading_status + " · " + (r.sources.join(" / ") || "藏经阁整理")));
+        footer.append(node("span", r.reading_status));
         if (r.doi) footer.append(link(r.doi, doiUrl(r.doi)));
         card.append(footer, topicLinks(r));
         return card;
@@ -122,7 +121,8 @@
     get("next").addEventListener("click", () => { page++; render(); });
     render();
   } catch (error) {
-    (detail || document.getElementById("catalog-total")).replaceChildren(node("p", "目录载入失败，请刷新页面重试。"));
+    if (detail) detail.replaceChildren(node("p", "目录载入失败，请刷新页面重试。"));
+    else document.getElementById("catalog-count").textContent = "目录载入失败，请刷新页面重试。";
     console.error(error);
   }
 })();

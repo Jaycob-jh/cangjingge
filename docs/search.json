@@ -179,14 +179,14 @@
     "href": "library/papers/khan-2026-personalized-neuromodulation.html#整理依据",
     "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
     "section": "整理依据",
-    "text": "整理依据\n已通过 ReadCube H 读取 PDF 第 1–2 页的摘要及引言。这里的“最佳频率”限于测试的 5、10、20 Hz；研究使用 TMS，其结果不能直接作为经颅光刺激的频率证据。样本量、效应量、盲法和统计检验将在全文研读后补充。"
+    "text": "整理依据\n卡片依据论文第 1–2 页的摘要和引言。这里的“最佳频率”限于测试的 5、10、20 Hz；研究使用 TMS，其结果不能直接作为经颅光刺激的频率证据。样本量、效应量、盲法和统计检验将在全文研读后补充。"
   },
   {
     "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#关联阅读",
     "href": "library/papers/khan-2026-personalized-neuromodulation.html#关联阅读",
     "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
     "section": "关联阅读",
-    "text": "关联阅读\n\n个体化脑网络与神经调控\n从靶点个体化到频率个体化：摘要阅读札记\n\n\n\n来源\n\n期刊原文。题名、作者、DOI 和期刊信息取自 ReadCube H，并与 PDF 首页核对。"
+    "text": "关联阅读\n\n个体化脑网络与神经调控\n从靶点个体化到频率个体化：摘要阅读札记\n\n\n\n来源\n\n期刊原文。书目信息见论文首页。"
   },
   {
     "objectID": "research/tpbm.html",
@@ -235,7 +235,7 @@
     "href": "research/index.html#主题体系",
     "title": "研究专题",
     "section": "主题体系",
-    "text": "主题体系\n与 ReadCube H 的主题对应：脑网络与连接组学；神经调控与脑刺激；脑电、脑振荡与源定位；认知、记忆与执行功能；临床神经精神疾病与康复；脑影像、计算与方法；生命历程、脑状态与转化研究。\n一篇文献可以关联多个主题；专题围绕科学问题组织已有文献。"
+    "text": "主题体系\n文献目录按以下研究方向组织：脑网络与连接组学；神经调控与脑刺激；脑电、脑振荡与源定位；认知、记忆与执行功能；临床神经精神疾病与康复；脑影像、计算与方法；生命历程、脑状态与转化研究。\n一篇文献可以关联多个主题；专题围绕科学问题组织已有文献。"
   },
   {
     "objectID": "research/index.html#专题结构",
@@ -277,7 +277,7 @@
     "href": "index.html#先读这几篇",
     "title": "藏经阁 Cangjingge",
     "section": "先读这几篇",
-    "text": "先读这几篇\n完整文献目录已接入 ReadCube H 与 Zotero H 的现有文献及主题分类。下面是几篇已有整理内容的文章与阅读指南。\n\n1064 nm 经颅光刺激：健康人安全性研究。\n个体网络靶点与频率：工作记忆神经调控及摘要阅读札记。\n脑电、注意控制与运动想象解码（专题阅读索引）。\nOpenScholar：学术文献检索与证据综合（平台方法参考）。\n文献精读与证据记录规范（平台指南）。"
+    "text": "先读这几篇\n完整文献目录可按主题浏览，也可按题名、作者或 DOI 查找。以下是几篇已整理的文章和阅读指南。\n\n1064 nm 经颅光刺激：健康人安全性研究。\n个体网络靶点与频率：工作记忆神经调控及摘要阅读札记。\n脑电、注意控制与运动想象解码（专题阅读索引）。\nOpenScholar：学术文献检索与证据综合（平台方法参考）。\n文献精读与证据记录规范（平台指南）。"
   },
   {
     "objectID": "research/eeg-cognition.html",
@@ -347,7 +347,7 @@
     "href": "library/index.html#完整文献目录",
     "title": "典籍目录",
     "section": "完整文献目录",
-    "text": "完整文献目录\n汇集 ReadCube H 与 Zotero H，按 DOI 和书目信息去重，保留文献原有的多主题分类。可检索题名、作者、期刊、年份与 DOI。\n\n正在载入文献目录……\n\n检索文献\n研究方向全部方向\n细分主题全部细分主题\n文献来源全部来源ReadCubeZotero\n阅读进度全部进度已编目摘要已读全文已读精读已整理方法参考\n排序方式年份降序题名字母顺序\n\n\n\n上一页下一页\n完整目录需要 JavaScript；下方可直接浏览已整理卡片。"
+    "text": "完整文献目录\n按研究方向和细分主题浏览，或用题名、作者、期刊、年份与 DOI 查找文献。\n\n\n检索文献\n研究方向全部方向\n细分主题全部细分主题\n阅读进度全部进度已编目摘要已读全文已读精读已整理方法参考\n排序方式年份降序题名字母顺序\n\n正在载入文献目录……\n\n上一页下一页\n完整目录需要 JavaScript；下方可直接浏览已整理卡片。"
   },
   {
     "objectID": "library/index.html#已整理卡片",
@@ -357,11 +357,11 @@
     "text": "已整理卡片\n完成摘要整理或人工编目的卡片，同时收录于上方完整目录；研读札记另行关联。\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        年份 - 日期升序\n      \n      \n        年份 - 日期降序\n      \n      \n        论文\n      \n    \n  \n\n\n\n\n\n\n论文\n\n\n\n年份\n\n\n\n阅读进度\n\n\n\n\n\n\n\n\nSynthesizing scientific literature with retrieval-augmented language models\n\n\n2026\n\n\n方法参考\n\n\n\n\n\n\nPersonalized Network‐Guided Neuromodulation Enhances Human Working Memory\n\n\n2026\n\n\n摘要已读\n\n\n\n\n\n\nTranscranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\n\n\n2024\n\n\n摘要已读\n\n\n\n\n\n\nA Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\nSuppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\n无匹配项"
   },
   {
-    "objectID": "library/index.html#阅读与归档",
-    "href": "library/index.html#阅读与归档",
+    "objectID": "library/index.html#阅读进度",
+    "href": "library/index.html#阅读进度",
     "title": "典籍目录",
-    "section": "阅读与归档",
-    "text": "阅读与归档\n已编目 → 摘要已读 → 全文已读 → 精读已整理。进度随实际阅读更新，精读札记关联原文页码或图表。\nPDF 与批注保存在 ReadCube，网站汇集书目信息、阅读摘要和专题索引。新增文献可直接提供 PDF 或 DOI，由维护者查重、归类并更新。"
+    "section": "阅读进度",
+    "text": "阅读进度\n已编目 → 摘要已读 → 全文已读 → 精读已整理。进度随实际阅读更新，精读札记关联原文页码或图表。\n推荐新文献时，可提供 DOI 或原文链接。"
   },
   {
     "objectID": "library/papers/jia-2023-mi-bci.html",
@@ -424,14 +424,14 @@
     "href": "library/papers/li-2024-tpbm-safety.html#整理依据",
     "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
     "section": "整理依据",
-    "text": "整理依据\n已通过 ReadCube H 读取 PDF 第 1 页摘要。当前卡片概括研究问题、测量维度与摘要结果；安全性结论适用于论文测试的参数和健康人群。刺激剂量、样本量、统计方法和随访窗口留待全文研读时逐项提取。"
+    "text": "整理依据\n论文摘要见第 1 页。安全性结论适用于论文测试的参数和健康人群。刺激剂量、样本量、统计方法和随访窗口留待全文研读时逐项提取。"
   },
   {
     "objectID": "library/papers/li-2024-tpbm-safety.html#关联阅读",
     "href": "library/papers/li-2024-tpbm-safety.html#关联阅读",
     "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
     "section": "关联阅读",
-    "text": "关联阅读\n\n经颅光刺激：参数与安全性阅读线索\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息经 Crossref 核对，并与 ReadCube H 中 PDF 首页一致。"
+    "text": "关联阅读\n\n经颅光刺激：参数与安全性阅读线索\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息见论文首页。"
   },
   {
     "objectID": "library/papers/zhao-2023-alpha-attention.html",

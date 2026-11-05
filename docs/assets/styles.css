@@ -350,7 +350,6 @@ body:has(.hero-section) #title-block-header { display: none; }
 .zk-catalog-controls { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .8rem 1rem; margin: 1rem 0; }
 .zk-catalog-controls label { font-size: .9rem; min-width: 0; }
 .zk-catalog-controls input, .zk-catalog-controls select { margin-top: .35rem; }
-.zk-catalog-total { color: var(--zk-muted); }
 .zk-catalog-card { padding: 1.25rem 0; border-bottom: 1px solid var(--zk-border); overflow-wrap: anywhere; }
 .zk-catalog-card h3 { font-size: 1.15rem; line-height: 1.5; margin: 0 0 .6rem; }
 .zk-catalog-card p { margin: .35rem 0; }
@@ -369,7 +368,7 @@ main.content h1, main.content h2, main.content h3 { overflow-wrap: anywhere; }
 #专题索引 > ul { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; padding: 0; list-style: none; }
 #专题索引 > ul > li { margin: 0; }
 #专题索引 > ul > li > a { display: block; height: 100%; border: 1px solid var(--zk-line); padding: 1.25rem; background: #f1f4ef; border-radius: .3rem; }
-@media (min-width: 1200px) { .zk-catalog-controls { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+@media (min-width: 1200px) { .zk-catalog-controls { grid-template-columns: repeat(4,minmax(0,1fr)); } }
 @media (max-width: 767px) {
   #专题索引 > ul { grid-template-columns: minmax(0,1fr); }
   .quarto-listing-container-grid .list { row-gap: 1rem; }
