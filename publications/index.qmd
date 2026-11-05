@@ -1,13 +1,9 @@
 ---
 title: "学术成果"
-subtitle: "Publications · 成员公开论文索引"
+subtitle: "成员发表的论文"
 toc: false
 page-layout: full
 ---
-
-收录成员公开发表的论文，记录作者、发表信息与 DOI。
-
-## 公开论文
 
 ::: {.publication-entry}
 ### Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans

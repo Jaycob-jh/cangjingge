@@ -1,30 +1,15 @@
 ---
 title: "共建指南"
-subtitle: "Contribute · 文献、札记与专题协作"
 toc: false
 page-layout: full
 ---
 
-## 参与内容共建
+## 推荐一篇论文
 
-通过 GitHub 提交文献、研读札记、专题建议或页面勘误。可以先在 Issue 中提出建议，也可以直接用 Pull Request 提交修改。
+提供题名、DOI 或公开链接。如果愿意，可以加一句这篇论文值得读的地方。
 
-[提出建议或勘误](https://github.com/Jaycob-jh/cangjingge/issues) · [查看项目仓库](https://github.com/Jaycob-jh/cangjingge)
+## 分享札记或指出错误
 
-<div class="zk-step-list">
-<div class="zk-step"><span>1</span><div><strong>选择内容类型</strong><p>新增文献卡片、分享研读札记、整理研究专题，或修订已有内容。</p></div></div>
-<div class="zk-step"><span>2</span><div><strong>整理来源与证据</strong><p>填写作者、发表信息、DOI 和版本，标明关键论述对应的原文位置。</p></div></div>
-<div class="zk-step"><span>3</span><div><strong>提交更改</strong><p>使用仓库模板编写内容，通过 Pull Request 提交；讨论和勘误也可以发起 Issue。</p></div></div>
-<div class="zk-step"><span>4</span><div><strong>审核与发布</strong><p>维护者检查内容与格式，合并后本地构建并更新网站。</p></div></div>
-</div>
+札记可以从一个结果或一张图开始。写清是哪篇论文，标出原文页码、图号或表号。发现错误时，请附上页面链接和建议改法。
 
-## 内容维护
-
-- 文献卡片：`library/papers/`，模板为 `templates/paper.qmd`。
-- 研读札记：`notes/posts/`，模板为 `templates/note.qmd`。
-- 研究专题：`research/`，模板为 `templates/research-topic.qmd`。
-- 成员资料：`data/people.json`，由构建脚本生成个人页。
-
-## 资源管理
-
-公开书目与笔记通过站点共享；内部全文、实验记录和未发表数据保存在团队私有资源中。
+[在 GitHub 提交建议](https://github.com/Jaycob-jh/cangjingge/issues) · [查看仓库和投稿模板](https://github.com/Jaycob-jh/cangjingge)

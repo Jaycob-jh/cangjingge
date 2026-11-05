@@ -4,28 +4,21 @@
     "href": "join/index.html",
     "title": "共建指南",
     "section": "",
-    "text": "通过 GitHub 提交文献、研读札记、专题建议或页面勘误。可以先在 Issue 中提出建议，也可以直接用 Pull Request 提交修改。\n提出建议或勘误 · 查看项目仓库\n\n\n1\n\n选择内容类型\n\n新增文献卡片、分享研读札记、整理研究专题，或修订已有内容。\n\n\n\n\n2\n\n整理来源与证据\n\n填写作者、发表信息、DOI 和版本，标明关键论述对应的原文位置。\n\n\n\n\n3\n\n提交更改\n\n使用仓库模板编写内容，通过 Pull Request 提交；讨论和勘误也可以发起 Issue。\n\n\n\n\n4\n\n审核与发布\n\n维护者检查内容与格式，合并后本地构建并更新网站。"
+    "text": "提供题名、DOI 或公开链接。如果愿意，可以加一句这篇论文值得读的地方。"
   },
   {
-    "objectID": "join/index.html#参与内容共建",
-    "href": "join/index.html#参与内容共建",
+    "objectID": "join/index.html#推荐一篇论文",
+    "href": "join/index.html#推荐一篇论文",
     "title": "共建指南",
     "section": "",
-    "text": "通过 GitHub 提交文献、研读札记、专题建议或页面勘误。可以先在 Issue 中提出建议，也可以直接用 Pull Request 提交修改。\n提出建议或勘误 · 查看项目仓库\n\n\n1\n\n选择内容类型\n\n新增文献卡片、分享研读札记、整理研究专题，或修订已有内容。\n\n\n\n\n2\n\n整理来源与证据\n\n填写作者、发表信息、DOI 和版本，标明关键论述对应的原文位置。\n\n\n\n\n3\n\n提交更改\n\n使用仓库模板编写内容，通过 Pull Request 提交；讨论和勘误也可以发起 Issue。\n\n\n\n\n4\n\n审核与发布\n\n维护者检查内容与格式，合并后本地构建并更新网站。"
+    "text": "提供题名、DOI 或公开链接。如果愿意，可以加一句这篇论文值得读的地方。"
   },
   {
-    "objectID": "join/index.html#内容维护",
-    "href": "join/index.html#内容维护",
+    "objectID": "join/index.html#分享札记或指出错误",
+    "href": "join/index.html#分享札记或指出错误",
     "title": "共建指南",
-    "section": "内容维护",
-    "text": "内容维护\n\n文献卡片：library/papers/，模板为 templates/paper.qmd。\n研读札记：notes/posts/，模板为 templates/note.qmd。\n研究专题：research/，模板为 templates/research-topic.qmd。\n成员资料：data/people.json，由构建脚本生成个人页。"
-  },
-  {
-    "objectID": "join/index.html#资源管理",
-    "href": "join/index.html#资源管理",
-    "title": "共建指南",
-    "section": "资源管理",
-    "text": "资源管理\n公开书目与笔记通过站点共享；内部全文、实验记录和未发表数据保存在团队私有资源中。"
+    "section": "分享札记或指出错误",
+    "text": "分享札记或指出错误\n札记可以从一个结果或一张图开始。写清是哪篇论文，标出原文页码、图号或表号。发现错误时，请附上页面链接和建议改法。\n在 GitHub 提交建议 · 查看仓库和投稿模板"
   },
   {
     "objectID": "notes/posts/reading-guide.html",
@@ -88,21 +81,14 @@
     "href": "notes/index.html",
     "title": "研读札记",
     "section": "",
-    "text": "整理文献精读、方法说明与专题综述，记录研究问题、证据位置、局限和延伸思考。"
+    "text": "排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
   },
   {
-    "objectID": "notes/index.html#最新札记",
-    "href": "notes/index.html#最新札记",
+    "objectID": "notes/index.html#阅读札记",
+    "href": "notes/index.html#阅读札记",
     "title": "研读札记",
-    "section": "最新札记",
-    "text": "最新札记\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n从靶点个体化到频率个体化\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n文献精读与证据记录规范\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项"
-  },
-  {
-    "objectID": "notes/index.html#精读卡片的统一结构",
-    "href": "notes/index.html#精读卡片的统一结构",
-    "title": "研读札记",
-    "section": "精读卡片的统一结构",
-    "text": "精读卡片的统一结构\n\n\n01\n\n科学问题\n\n\n论文针对何种问题，背景与假设是什么？\n\n\n\n02\n\n方法与证据\n\n\n核心方法、数据来源、研究设计及对应图表。\n\n\n\n03\n\n评价与延伸\n\n\n主要结论、局限、相关研究和进一步问题。\n\n\n\n想分享你的阅读笔记？查看提交材料的方法。"
+    "section": "",
+    "text": "排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
   },
   {
     "objectID": "library/papers/openscholar.html",
@@ -191,93 +177,86 @@
   {
     "objectID": "research/tpbm.html",
     "href": "research/tpbm.html",
-    "title": "经颅光刺激：参数与安全性",
+    "title": "经颅光刺激",
     "section": "",
-    "text": "经颅光刺激在怎样的参数和人群中开展研究？脑影像、脑电、生化指标与受试者耐受分别回答什么问题？"
+    "text": "浏览光刺激文献 · 查看热效应与热安全文献"
   },
   {
-    "objectID": "research/tpbm.html#阅读问题",
-    "href": "research/tpbm.html#阅读问题",
-    "title": "经颅光刺激：参数与安全性",
-    "section": "",
-    "text": "经颅光刺激在怎样的参数和人群中开展研究？脑影像、脑电、生化指标与受试者耐受分别回答什么问题？"
+    "objectID": "research/tpbm.html#光能到达哪里",
+    "href": "research/tpbm.html#光能到达哪里",
+    "title": "经颅光刺激",
+    "section": "光能到达哪里？",
+    "text": "光能到达哪里？\n经颅光刺激中的光传播与升温模拟用头部模型估算 800 nm 光在组织中的分布和温升。读这类论文时，可以先看照射位置，再看模型如何设置组织的光学与热学参数。期刊原文"
   },
   {
-    "objectID": "research/tpbm.html#核心文献",
-    "href": "research/tpbm.html#核心文献",
-    "title": "经颅光刺激：参数与安全性",
-    "section": "核心文献",
-    "text": "核心文献\nLi et al., 2024：1064 nm 经颅光刺激的健康人安全性结合 MRI、EEG、血液生化、执行功能测试和耐受问卷，提供多维度的评估框架。"
+    "objectID": "research/tpbm.html#人体安全性怎么评估",
+    "href": "research/tpbm.html#人体安全性怎么评估",
+    "title": "经颅光刺激",
+    "section": "人体安全性怎么评估？",
+    "text": "人体安全性怎么评估？\n1064 nm 经颅光刺激的健康人安全性研究结合 MRI、EEG、血液生化、执行功能测试和耐受问卷。对照其他人体研究时，留意照射剂量、测量指标和观察时长。"
   },
   {
-    "objectID": "research/tpbm.html#后续整理字段",
-    "href": "research/tpbm.html#后续整理字段",
-    "title": "经颅光刺激：参数与安全性",
-    "section": "后续整理字段",
-    "text": "后续整理字段\n每篇研究提取波长、出光功率与功率密度、光斑面积、刺激部位、时序、总能量、表面温度、对照方式和观察窗口。功率密度需同时注明测量位置，区分头皮入射量与估计脑内剂量。\n安全性结果按实际测量指标和刺激条件汇总；认知效应、机制指标与安全终点分别比较。\n返回研究专题"
+    "objectID": "research/tpbm.html#光刺激与睡眠",
+    "href": "research/tpbm.html#光刺激与睡眠",
+    "title": "经颅光刺激",
+    "section": "光刺激与睡眠",
+    "text": "光刺激与睡眠\n经颅光生物调节与腺苷信号同时包含小鼠实验和人体试验。小鼠实验测了脑内腺苷和睡眠脑电，人体试验评估了失眠症状和入睡时间。期刊原文"
+  },
+  {
+    "objectID": "research/tpbm.html#对照不同论文时看什么",
+    "href": "research/tpbm.html#对照不同论文时看什么",
+    "title": "经颅光刺激",
+    "section": "对照不同论文时看什么？",
+    "text": "对照不同论文时看什么？\n先对照波长、照射位置、光斑面积、功率和照射时间。比较功率密度时，先确认数字指的是头皮入射值，还是模型估算的脑内值。温升、安全性和睡眠结果各用对应的测量指标比较。\n返回研究专题"
   },
   {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "研究专题",
     "section": "",
-    "text": "围绕科学问题组织核心文献、研究方法与证据比较，建立专题阅读索引。"
+    "text": "光怎样进入脑组织？怎么测量升温？睡眠研究用了哪些指标？\n按问题读论文 浏览光刺激文献"
   },
   {
-    "objectID": "research/index.html#专题索引",
-    "href": "research/index.html#专题索引",
+    "objectID": "research/index.html#经颅光刺激",
+    "href": "research/index.html#经颅光刺激",
     "title": "研究专题",
-    "section": "专题索引",
-    "text": "专题索引\n\n经颅光刺激：参数与安全性\n个体化脑网络与神经调控\n脑电与认知：振荡、注意和解码\n\n专题从阅读索引开始，随着全文研读逐步补入证据比较与评述。"
+    "section": "",
+    "text": "光怎样进入脑组织？怎么测量升温？睡眠研究用了哪些指标？\n按问题读论文 浏览光刺激文献"
   },
   {
-    "objectID": "research/index.html#主题体系",
-    "href": "research/index.html#主题体系",
+    "objectID": "research/index.html#其他专题",
+    "href": "research/index.html#其他专题",
     "title": "研究专题",
-    "section": "主题体系",
-    "text": "主题体系\n文献目录按以下研究方向组织：脑网络与连接组学；神经调控与脑刺激；脑电、脑振荡与源定位；认知、记忆与执行功能；临床神经精神疾病与康复；脑影像、计算与方法；生命历程、脑状态与转化研究。\n一篇文献可以关联多个主题；专题围绕科学问题组织已有文献。"
-  },
-  {
-    "objectID": "research/index.html#专题结构",
-    "href": "research/index.html#专题结构",
-    "title": "研究专题",
-    "section": "专题结构",
-    "text": "专题结构\n\n\n1\n\n核心科学问题\n\n用一段话界定问题的边界与重要性。\n\n\n\n\n2\n\n研究脉络\n\n列出关键文献、发展阶段、主要证据及尚存争议。\n\n\n\n\n3\n\n方法与资源\n\n维护实验方法、数据资源、代码、分析流程与质量控制措施。\n\n\n\n\n4\n\n团队进展\n\n关联已公开的论文、报告、笔记与可共享成果。\n\n\n\n\n共建者可按上述结构整理专题，并与对应文献卡片和札记互相链接。"
+    "section": "其他专题",
+    "text": "其他专题\n\n个体化脑网络与神经调控 · 怎么为不同的人选刺激靶点和频率？\n脑电与认知 · 怎样用脑电研究注意和运动想象？\n\n按主题查找更多文献"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "藏经阁 Cangjingge",
     "section": "",
-    "text": "这里收集神经调控、经颅光刺激（tPBM）和脑网络研究的论文。你可以搜索题名、作者或 DOI，按主题浏览文献，查看阅读笔记，再通过原文链接继续阅读。\n查找文献 ↗ 阅读笔记 →\n按主题查找 · 查看书目信息 · 阅读原文与笔记\n试试看：浏览经颅光刺激文献。"
+    "text": "藏经阁以经颅光刺激为主，也收录脑网络、脑电与其他神经调控研究。\n浏览光刺激文献 查全部文献\n\n\n\n1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n这项研究用了哪些指标评估安全性？\n更多光刺激专题阅读"
   },
   {
-    "objectID": "index.html#从这里开始",
-    "href": "index.html#从这里开始",
+    "objectID": "index.html#从一篇论文读起",
+    "href": "index.html#从一篇论文读起",
     "title": "藏经阁 Cangjingge",
-    "section": "从这里开始",
-    "text": "从这里开始\n\n\n01 / 查找论文\n典籍目录 输入题名、作者或 DOI，找到论文的发表信息和原文链接；也可以按研究方向和细分主题筛选。 查阅文献索引 ↗\n\n\n02 / 阅读笔记\n研读札记 查看一篇论文研究了什么、怎么做、发现了什么。笔记记录阅读进度，具体结果对应原文页码或图表。 阅读研读笔记 ↗\n\n\n03 / 按主题阅读\n专题评述 把同一问题下的论文放在一起读，例如经颅光刺激的参数与安全性、个体化脑刺激、脑电与认知。 探索研究专题 ↗"
+    "section": "",
+    "text": "1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n这项研究用了哪些指标评估安全性？\n更多光刺激专题阅读"
   },
   {
-    "objectID": "index.html#一篇文章怎样加入藏经阁",
-    "href": "index.html#一篇文章怎样加入藏经阁",
+    "objectID": "index.html#浏览藏经阁",
+    "href": "index.html#浏览藏经阁",
     "title": "藏经阁 Cangjingge",
-    "section": "一篇文章怎样加入藏经阁",
-    "text": "一篇文章怎样加入藏经阁\n\n\n01 / 提供 PDF 或 DOI\n把 PDF、DOI 或论文题目交给维护者，开始整理。\n\n\n02 / 查重并补全书目\n与现有文库查重，核对作者、年份、期刊和 DOI。\n\n\n03 / 放进相关主题\n沿用文库分类，一篇文章可以同时属于多个主题。\n\n\n04 / 读后补充笔记\n读摘要或全文后，记录主要内容、结果和自己的理解。"
+    "section": "浏览藏经阁",
+    "text": "浏览藏经阁\n\n\n典籍目录\n按题名、作者或 DOI 找论文，也可以按主题筛选。\n\n\n研读札记\n看论文怎么做、发现了什么，以及结果对应的图表。\n\n\n研究专题\n按问题读论文，例如光如何进入脑组织、怎样评估升温。"
   },
   {
-    "objectID": "index.html#一起补充文献和笔记",
-    "href": "index.html#一起补充文献和笔记",
+    "objectID": "index.html#其他方向",
+    "href": "index.html#其他方向",
     "title": "藏经阁 Cangjingge",
-    "section": "一起补充文献和笔记",
-    "text": "一起补充文献和笔记\n欢迎补充论文、分享阅读笔记，或指出书目信息中的错误。可以把材料交给维护者，也可以通过 GitHub 提交修改建议。\n怎样提交材料 ↗"
-  },
-  {
-    "objectID": "index.html#先读这几篇",
-    "href": "index.html#先读这几篇",
-    "title": "藏经阁 Cangjingge",
-    "section": "先读这几篇",
-    "text": "先读这几篇\n完整文献目录可按主题浏览，也可按题名、作者或 DOI 查找。以下是几篇已整理的文章和阅读指南。\n\n1064 nm 经颅光刺激：健康人安全性研究。\n个体网络靶点与频率：工作记忆神经调控及摘要阅读札记。\n脑电、注意控制与运动想象解码（专题阅读索引）。\nOpenScholar：学术文献检索与证据综合（平台方法参考）。\n文献精读与证据记录规范（平台指南）。"
+    "section": "其他方向",
+    "text": "其他方向\n个体化脑网络与神经调控 · 脑电与认知\n有论文、札记或勘误想分享？查看提交方式。"
   },
   {
     "objectID": "research/eeg-cognition.html",
@@ -305,7 +284,7 @@
     "href": "research/eeg-cognition.html#比较维度",
     "title": "脑电与认知：振荡、注意和解码",
     "section": "比较维度",
-    "text": "比较维度\n机制研究重点记录实验操纵、时间窗、频段及行为关联；分类研究重点记录数据集、被试间划分、交叉验证和性能指标。上述两篇目前完成书目编目，全文研读后补入相应证据。\n返回研究专题"
+    "text": "比较维度\n机制研究重点记录实验操纵、时间窗、频段及行为关联；分类研究重点记录数据集、被试间划分、交叉验证和性能指标。\n返回研究专题"
   },
   {
     "objectID": "research/personalized-networks.html",
@@ -340,7 +319,14 @@
     "href": "library/index.html",
     "title": "典籍目录",
     "section": "",
-    "text": "按主题整理科研文献，记录作者、发表信息、DOI、研究摘要与原文链接。"
+    "text": "浏览光刺激文献 · 热效应与热安全 · 专题导读"
+  },
+  {
+    "objectID": "library/index.html#经颅光刺激",
+    "href": "library/index.html#经颅光刺激",
+    "title": "典籍目录",
+    "section": "",
+    "text": "浏览光刺激文献 · 热效应与热安全 · 专题导读"
   },
   {
     "objectID": "library/index.html#完整文献目录",
@@ -354,7 +340,7 @@
     "href": "library/index.html#已整理卡片",
     "title": "典籍目录",
     "section": "已整理卡片",
-    "text": "已整理卡片\n完成摘要整理或人工编目的卡片，同时收录于上方完整目录；研读札记另行关联。\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        年份 - 日期升序\n      \n      \n        年份 - 日期降序\n      \n      \n        论文\n      \n    \n  \n\n\n\n\n\n\n论文\n\n\n\n年份\n\n\n\n阅读进度\n\n\n\n\n\n\n\n\nSynthesizing scientific literature with retrieval-augmented language models\n\n\n2026\n\n\n方法参考\n\n\n\n\n\n\nPersonalized Network‐Guided Neuromodulation Enhances Human Working Memory\n\n\n2026\n\n\n摘要已读\n\n\n\n\n\n\nTranscranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\n\n\n2024\n\n\n摘要已读\n\n\n\n\n\n\nA Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\nSuppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\n无匹配项"
+    "text": "已整理卡片\n这里可以直接打开已整理的论文卡片，查看书目、研究内容和相关札记。\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        年份 - 日期升序\n      \n      \n        年份 - 日期降序\n      \n      \n        论文\n      \n    \n  \n\n\n\n\n\n\n论文\n\n\n\n年份\n\n\n\n阅读进度\n\n\n\n\n\n\n\n\nSynthesizing scientific literature with retrieval-augmented language models\n\n\n2026\n\n\n方法参考\n\n\n\n\n\n\nPersonalized Network‐Guided Neuromodulation Enhances Human Working Memory\n\n\n2026\n\n\n摘要已读\n\n\n\n\n\n\nTranscranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\n\n\n2024\n\n\n摘要已读\n\n\n\n\n\n\nA Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\nSuppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\n无匹配项"
   },
   {
     "objectID": "library/index.html#阅读进度",
@@ -515,14 +501,7 @@
     "href": "publications/index.html",
     "title": "学术成果",
     "section": "",
-    "text": "收录成员公开发表的论文，记录作者、发表信息与 DOI。"
-  },
-  {
-    "objectID": "publications/index.html#公开论文",
-    "href": "publications/index.html#公开论文",
-    "title": "学术成果",
-    "section": "公开论文",
-    "text": "公开论文\n\nTranscranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\nZhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao.\nBrain Stimulation, 17(6), 1307-1316 (2024).\n文献卡片 · DOI: 10.1016/j.brs.2024.11.010 · 成员关联：李智林\n\n\nSuppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity\nChenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song.\nPLOS Biology, 21(3), e3002014 (2023).\n文献卡片 · DOI: 10.1371/journal.pbio.3002014 · 成员关联：赵晨光\n\n\nA Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification\nHai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang.\nIEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311-1320 (2023).\n文献卡片 · DOI: 10.1109/tnsre.2023.3243992 · 成员关联：贾海"
+    "text": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\nZhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao.\nBrain Stimulation, 17(6), 1307-1316 (2024).\n文献卡片 · DOI: 10.1016/j.brs.2024.11.010 · 成员关联：李智林\n\n\nSuppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity\nChenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song.\nPLOS Biology, 21(3), e3002014 (2023).\n文献卡片 · DOI: 10.1371/journal.pbio.3002014 · 成员关联：赵晨光\n\n\nA Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification\nHai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang.\nIEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311-1320 (2023).\n文献卡片 · DOI: 10.1109/tnsre.2023.3243992 · 成员关联：贾海\n\n\n\n\n 回到顶部"
   },
   {
     "objectID": "catalog:paper-5bd46f3d725e81ea",

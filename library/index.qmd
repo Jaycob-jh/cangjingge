@@ -20,7 +20,11 @@ listing:
   page-size: 20
 ---
 
-<div class="zk-page-intro">按主题整理科研文献，记录作者、发表信息、DOI、研究摘要与原文链接。</div>
+::: {.zk-feature-topic}
+## 经颅光刺激
+
+[浏览光刺激文献](index.html?topic=02&subtopic=02.04) · [热效应与热安全](index.html?topic=02&subtopic=02.09) · [专题导读](../research/tpbm.qmd)
+:::
 
 ## 完整文献目录
 
@@ -44,7 +48,7 @@ listing:
 
 ## 已整理卡片
 
-完成摘要整理或人工编目的卡片，同时收录于上方完整目录；研读札记另行关联。
+这里可以直接打开已整理的论文卡片，查看书目、研究内容和相关札记。
 
 :::{#papers}
 :::

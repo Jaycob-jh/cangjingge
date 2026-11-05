@@ -1,6 +1,6 @@
 ---
 title: "研读札记"
-subtitle: "论文摘要、方法梳理与阅读笔记"
+subtitle: "读论文时记下的问题、方法和结果"
 toc: false
 page-layout: full
 listing:
@@ -15,19 +15,9 @@ listing:
   page-size: 12
 ---
 
-<div class="zk-page-intro">整理文献精读、方法说明与专题综述，记录研究问题、证据位置、局限和延伸思考。</div>
-
-## 最新札记
+## 阅读札记
 
 :::{#notes}
 :::
 
-## 精读卡片的统一结构
-
-<div class="zk-grid">
-<div class="zk-card"><span class="zk-number">01</span><h3>科学问题</h3><p>论文针对何种问题，背景与假设是什么？</p></div>
-<div class="zk-card"><span class="zk-number">02</span><h3>方法与证据</h3><p>核心方法、数据来源、研究设计及对应图表。</p></div>
-<div class="zk-card"><span class="zk-number">03</span><h3>评价与延伸</h3><p>主要结论、局限、相关研究和进一步问题。</p></div>
-</div>
-
-想分享你的阅读笔记？查看[提交材料的方法](../join/index.qmd)。
+想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。[查看提交方式](../join/index.qmd)。

@@ -32,7 +32,7 @@ website:
         href: library/index.qmd
       - text: "研读札记"
         href: notes/index.qmd
-      - text: "专题评述"
+      - text: "研究专题"
         href: research/index.qmd
       - text: "团队与贡献"
         menu:

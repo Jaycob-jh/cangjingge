@@ -396,3 +396,29 @@ main.content h1, main.content h2, main.content h3 { overflow-wrap: anywhere; }
   #listing-papers td:nth-child(3) { text-align: right; }
   #listing-papers td:nth-child(2)::before { content: "年份："; }
 }
+
+/* Lead with the featured subject and a concrete reading entry. */
+.hero-section.zk-home-lead {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: clamp(1.25rem, 4vw, 3.5rem);
+  align-items: center;
+  padding: clamp(1.25rem, 4vw, 3rem);
+}
+.zk-home-lead .zk-home-intro h1 { margin-top: 0; line-height: 1.25; }
+.zk-home-intro .btn, .zk-feature-topic .btn { margin-bottom: .35rem; white-space: normal; }
+.zk-home-reading, .zk-feature-topic {
+  background: #fcfcfa;
+  border: 1px solid var(--zk-border);
+  border-radius: .4rem;
+  padding: clamp(1rem, 2.6vw, 1.65rem);
+}
+.zk-home-links .zk-card { min-height: 0; padding: 1.25rem 1.5rem; }
+.zk-home-links .zk-card a { text-decoration: underline; text-underline-offset: .18em; }
+.zk-home-reading h2, .zk-feature-topic h2 { margin-top: 0; }
+.zk-home-reading h2 { font-size: 1.3rem; }
+.zk-home-reading p, .zk-feature-topic p { margin-bottom: .65rem; }
+.zk-home-reading p:last-child, .zk-feature-topic p:last-child { margin-bottom: 0; }
+@media (max-width: 767px) {
+  .hero-section.zk-home-lead { grid-template-columns: minmax(0, 1fr); }
+}

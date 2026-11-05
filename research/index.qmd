@@ -1,33 +1,21 @@
 ---
 title: "研究专题"
-subtitle: "按研究问题查看相关论文和笔记"
 toc: false
 page-layout: full
 ---
 
-<div class="zk-page-intro">围绕科学问题组织核心文献、研究方法与证据比较，建立专题阅读索引。</div>
+::: {.zk-feature-topic}
+## 经颅光刺激
 
-## 专题索引
+光怎样进入脑组织？怎么测量升温？睡眠研究用了哪些指标？
 
-- [经颅光刺激：参数与安全性](tpbm.qmd)
-- [个体化脑网络与神经调控](personalized-networks.qmd)
-- [脑电与认知：振荡、注意和解码](eeg-cognition.qmd)
+[按问题读论文](tpbm.qmd){.btn .btn-primary}
+[浏览光刺激文献](../library/index.html?topic=02&subtopic=02.04){.btn .btn-outline-secondary}
+:::
 
-专题从阅读索引开始，随着全文研读逐步补入证据比较与评述。
+## 其他专题
 
-## 主题体系
+- [个体化脑网络与神经调控](personalized-networks.qmd) · 怎么为不同的人选刺激靶点和频率？
+- [脑电与认知](eeg-cognition.qmd) · 怎样用脑电研究注意和运动想象？
 
-文献目录按以下研究方向组织：脑网络与连接组学；神经调控与脑刺激；脑电、脑振荡与源定位；认知、记忆与执行功能；临床神经精神疾病与康复；脑影像、计算与方法；生命历程、脑状态与转化研究。
-
-一篇文献可以关联多个主题；专题围绕科学问题组织已有文献。
-
-## 专题结构
-
-<div class="zk-step-list">
-<div class="zk-step"><span>1</span><div><strong>核心科学问题</strong><p>用一段话界定问题的边界与重要性。</p></div></div>
-<div class="zk-step"><span>2</span><div><strong>研究脉络</strong><p>列出关键文献、发展阶段、主要证据及尚存争议。</p></div></div>
-<div class="zk-step"><span>3</span><div><strong>方法与资源</strong><p>维护实验方法、数据资源、代码、分析流程与质量控制措施。</p></div></div>
-<div class="zk-step"><span>4</span><div><strong>团队进展</strong><p>关联已公开的论文、报告、笔记与可共享成果。</p></div></div>
-</div>
-
-共建者可按上述结构整理专题，并与对应文献卡片和札记互相链接。
+[按主题查找更多文献](../library/index.qmd)
