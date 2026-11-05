@@ -17,6 +17,29 @@ listing:
 
 ## 最近更新
 
+每天推荐经颅光刺激和 fMRI 脑网络论文。可以按主题筛选，也可以搜索题名。
+
+```{=html}
+<div id="notes-topics" class="d-flex flex-wrap gap-2 mb-3" role="group" aria-label="按主题筛选笔记">
+  <button type="button" class="btn btn-outline-primary" data-topic="" aria-pressed="true">全部</button>
+  <button type="button" class="btn btn-outline-primary" data-topic="经颅光刺激" aria-pressed="false">经颅光刺激</button>
+  <button type="button" class="btn btn-outline-primary" data-topic="fMRI 脑网络" aria-pressed="false">fMRI 脑网络</button>
+</div>
+<script>
+  const noteTopics = document.querySelectorAll("#notes-topics button");
+  const requestedTopic = new URLSearchParams(location.hash.slice(1)).get("category") || "";
+  for (const button of noteTopics) {
+    button.setAttribute("aria-pressed", String(button.dataset.topic === requestedTopic));
+    button.addEventListener("click", () => {
+      window.quartoListingCategory(btoa(encodeURIComponent(button.dataset.topic)));
+      for (const option of noteTopics) {
+        option.setAttribute("aria-pressed", String(option === button));
+      }
+    });
+  }
+</script>
+```
+
 :::{#notes}
 :::
 

@@ -1,0 +1,22 @@
+---
+title: "早期人体光刺激研究怎么测注意和记忆？"
+date: 2026-11-06
+description: "一项早期对照研究用反应时间和正确次数，检验额部近红外刺激后的行为变化。"
+categories: [经颅光刺激]
+---
+
+Barrett 与 Gonzalez-Lima · *Neuroscience* · 2013 · 经典研究 · 摘要阅读
+
+## 怎么做
+
+40 名健康志愿者分入额部近红外激光刺激组和安慰对照组，各 20 人。研究用持续注意任务测反应时间，用延迟匹配任务测记忆提取速度和正确次数。
+
+## 结果怎么读
+
+与对照组相比，刺激组在持续注意任务中的反应时间更短，延迟匹配任务的提取速度和正确次数也有改善。论文还报告了两周随访的自评情绪，属于与认知任务不同的测量。
+
+## 对实验设计有什么用
+
+这是较早把经颅近红外刺激和人体认知任务放在同一对照设计中的研究。做类似实验时，可以预先选定主要指标，再同时看速度和正确率，以便识别被试是否用更快的反应换取了更多错误。
+
+[PubMed 摘要](https://pubmed.ncbi.nlm.nih.gov/23200785/) · [DOI](https://doi.org/10.1016/j.neuroscience.2012.11.016) · [藏经阁书目](../../library/record.html?id=paper-b0415ef3bb9a3fca) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/barrett-2013-light-attention-memory.qmd)

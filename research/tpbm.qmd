@@ -22,9 +22,13 @@ toc: true
 
 [1064 nm 经颅光刺激的健康人安全性研究](../library/papers/li-2024-tpbm-safety.qmd)结合 MRI、EEG、血液生化、执行功能测试和耐受问卷。对照其他人体研究时，留意照射剂量、测量指标和观察时长。
 
+## 注意与记忆怎么测？
+
+[一项早期人体对照研究](../notes/posts/barrett-2013-light-attention-memory.qmd)用持续注意和延迟匹配任务观察刺激前后的表现。读这类论文时，可把反应时间和答对次数分开看。
+
 ## 光刺激与睡眠
 
-[经颅光生物调节与腺苷信号](../library/record.html?id=paper-e1045d0d8bb91a62)同时包含小鼠实验和人体试验。小鼠实验测了脑内腺苷和睡眠脑电，人体试验评估了失眠症状和入睡时间。[期刊原文](https://www.nature.com/articles/s41380-026-03875-y)
+[经颅光生物调节与腺苷信号](../library/record.html?id=paper-e1045d0d8bb91a62)同时包含小鼠实验和人体试验。小鼠实验测了脑内腺苷和睡眠脑电，人体试验评估了失眠症状和入睡时间。[阅读笔记](../notes/posts/jung-2026-light-adenosine-sleep.qmd) · [期刊原文](https://www.nature.com/articles/s41380-026-03875-y)
 
 ## 对照不同论文时看什么？
 
