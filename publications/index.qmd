@@ -2,6 +2,7 @@
 title: "学术成果"
 subtitle: "Publications · 成员公开论文索引"
 toc: false
+page-layout: full
 ---
 
 收录成员公开发表的论文，记录作者、发表信息与 DOI。

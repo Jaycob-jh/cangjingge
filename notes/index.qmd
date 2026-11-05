@@ -2,14 +2,16 @@
 title: "研读札记"
 subtitle: "Notes · 以证据为中心的知识沉淀"
 toc: false
+page-layout: full
 listing:
   id: notes
   contents: "posts/*.qmd"
   type: grid
+  grid-columns: 2
   sort: "date desc"
   sort-ui: [date, title]
   filter-ui: true
-  categories: true
+  categories: false
   page-size: 12
 ---
 

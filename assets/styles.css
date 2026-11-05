@@ -13,6 +13,12 @@
 body { background: #fcfcfa; color: var(--zk-ink); font-family: var(--zk-sans); line-height: 1.75; }
 #quarto-content { min-height: 68vh; width: 100%; max-width: 1260px; margin-inline: auto; }
 #quarto-content.page-layout-full { max-width: 1440px; }
+#quarto-content.page-layout-full > main.content:not(:has(.hero-section)) {
+  grid-column: screen-start-inset / screen-end-inset;
+  width: 100%;
+  max-width: 1200px;
+  justify-self: center;
+}
 #quarto-content.page-layout-full > main.content:has(.hero-section) {
   grid-column: screen-start-inset / screen-end-inset;
   width: 100%;
@@ -353,7 +359,26 @@ body:has(.hero-section) #title-block-header { display: none; }
 .zk-catalog-tags a { background: #edf2ef; border-radius: .2rem; padding: .15rem .4rem; }
 .zk-catalog-pagination { display: flex; align-items: center; justify-content: space-between; gap: .8rem; margin: 1.5rem 0; }
 #catalog-record { overflow-wrap: anywhere; }
-@media (max-width:600px) { .zk-catalog-controls { grid-template-columns: minmax(0,1fr); } }
+/* Shared layouts for indexes; article pages retain their reading column. */
+main.content h1, main.content h2, main.content h3 { overflow-wrap: anywhere; }
+.quarto-listing-container-grid .card { min-width: 0; height: 100%; }
+.quarto-listing-container-grid .card-title { line-height: 1.5; }
+.quarto-listing-container-grid .listing-item-img-placeholder { display: none; }
+.zk-catalog-controls > label:first-child { grid-column: 1 / -1; }
+#专题索引 > ul { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; padding: 0; list-style: none; }
+#专题索引 > ul > li { margin: 0; }
+#专题索引 > ul > li > a { display: block; height: 100%; border: 1px solid var(--zk-line); padding: 1.25rem; background: #f1f4ef; border-radius: .3rem; }
+@media (min-width: 1200px) { .zk-catalog-controls { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+@media (max-width: 767px) {
+  #专题索引 > ul { grid-template-columns: minmax(0,1fr); }
+  .quarto-listing-container-grid .list { row-gap: 1rem; }
+}
+@media (max-width: 600px) {
+  .zk-catalog-controls { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .zk-catalog-controls > label:nth-child(2), .zk-catalog-controls > label:nth-child(3) { grid-column: 1 / -1; }
+  .zk-catalog-controls input, .zk-catalog-controls select { min-height: 44px; }
+  .zk-catalog-pagination button { min-height: 44px; }
+}
 #listing-papers th:nth-child(n+2),
 #listing-papers td:nth-child(n+2) { white-space: nowrap; }
 .zk-library-category-mobile { display: none; }

@@ -2,6 +2,7 @@
 title: "共建指南"
 subtitle: "Contribute · 文献、札记与专题协作"
 toc: false
+page-layout: full
 ---
 
 ## 参与内容共建

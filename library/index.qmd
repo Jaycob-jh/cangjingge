@@ -2,6 +2,7 @@
 title: "典籍目录"
 subtitle: "Library · 开放书目与可追溯的文献索引"
 toc: false
+page-layout: full
 listing:
   id: papers
   contents: "papers/*.qmd"

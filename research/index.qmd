@@ -2,6 +2,7 @@
 title: "研究专题"
 subtitle: "Research · 从科学问题组织知识"
 toc: false
+page-layout: full
 ---
 
 <div class="zk-page-intro">围绕科学问题组织核心文献、研究方法与证据比较，建立专题阅读索引。</div>
