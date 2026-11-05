@@ -28,19 +28,19 @@ website:
     left:
       - text: "首页"
         href: index.qmd
-      - text: "典籍索引"
+      - text: "查文献"
         href: library/index.qmd
-      - text: "研读札记"
+      - text: "论文笔记"
         href: notes/index.qmd
       - text: "研究专题"
         href: research/index.qmd
       - text: "团队与贡献"
         menu:
-          - text: "阁中学人"
+          - text: "成员"
             href: people/index.qmd
           - text: "学术成果"
             href: publications/index.qmd
-          - text: "共建指南"
+          - text: "投稿与勘误"
             href: join/index.qmd
     right:
       - icon: github

@@ -1,5 +1,5 @@
 ---
-title: "研读札记"
+title: "论文笔记"
 subtitle: "读论文时记下的问题、方法和结果"
 toc: false
 page-layout: full
@@ -15,7 +15,7 @@ listing:
   page-size: 12
 ---
 
-## 阅读札记
+## 最近更新
 
 :::{#notes}
 :::

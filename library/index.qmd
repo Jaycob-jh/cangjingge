@@ -23,7 +23,7 @@ listing:
 ::: {.zk-feature-topic}
 ## 经颅光刺激
 
-[浏览光刺激文献](index.html?topic=02&subtopic=02.04) · [热效应与热安全](index.html?topic=02&subtopic=02.09) · [专题导读](../research/tpbm.qmd)
+[按研究问题读论文](../research/tpbm.qmd) · [查看全部光刺激论文](index.html?topic=02&subtopic=02.04) · [查升温与安全研究](index.html?topic=02&subtopic=02.09)
 :::
 
 ## 完整文献目录

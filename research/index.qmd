@@ -7,7 +7,7 @@ page-layout: full
 ::: {.zk-feature-topic}
 ## 经颅光刺激
 
-光怎样进入脑组织？怎么测量升温？睡眠研究用了哪些指标？
+光怎样进入脑组织？波长和脉冲怎么选？怎样测量脑活动、升温和睡眠？
 
 [按问题读论文](tpbm.qmd){.btn .btn-primary}
 [浏览光刺激文献](../library/index.html?topic=02&subtopic=02.04){.btn .btn-outline-secondary}

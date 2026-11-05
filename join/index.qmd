@@ -1,5 +1,5 @@
 ---
-title: "共建指南"
+title: "投稿与勘误"
 toc: false
 page-layout: full
 ---

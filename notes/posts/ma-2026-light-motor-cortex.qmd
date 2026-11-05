@@ -1,0 +1,22 @@
+---
+title: "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？"
+date: 2026-11-06
+description: "22 名健康参与者接受四种主动刺激和一种假刺激，研究比较了运动诱发电位、血氧与手指动作。"
+categories: [经颅光刺激]
+---
+
+Ma 等 · *Journal of NeuroEngineering and Rehabilitation* · 2026 · 摘要阅读
+
+## 怎么做
+
+研究对 22 名健康参与者的左侧运动皮层做近红外刺激。810 nm 和 1064 nm 各配连续光与 40 Hz 脉冲光，再加一个假刺激条件。五种条件按随机顺序完成。
+
+## 结果怎么读
+
+刺激后 30 分钟，1064 nm、40 Hz 脉冲条件的运动诱发电位幅度大于两个连续光条件。与假刺激相比，这一条件下右手对指动作完成的循环次数也更多。运动诱发电位反映运动通路的反应，功能近红外光谱测到的则是血氧变化，两个指标要分开看。
+
+## 对实验设计有什么用
+
+这组比较适合用来设计波长与脉冲方式的对照。结果对应本研究所用的运动皮层靶点、健康人群与观察时段。
+
+[期刊原文与摘要](https://link.springer.com/article/10.1186/s12984-026-02122-3) · [藏经阁书目](../../library/record.html?id=paper-3284eaa3fac63ef7) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/ma-2026-light-motor-cortex.qmd)

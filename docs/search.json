@@ -2,21 +2,21 @@
   {
     "objectID": "join/index.html",
     "href": "join/index.html",
-    "title": "共建指南",
+    "title": "投稿与勘误",
     "section": "",
     "text": "提供题名、DOI 或公开链接。如果愿意，可以加一句这篇论文值得读的地方。"
   },
   {
     "objectID": "join/index.html#推荐一篇论文",
     "href": "join/index.html#推荐一篇论文",
-    "title": "共建指南",
+    "title": "投稿与勘误",
     "section": "",
     "text": "提供题名、DOI 或公开链接。如果愿意，可以加一句这篇论文值得读的地方。"
   },
   {
     "objectID": "join/index.html#分享札记或指出错误",
     "href": "join/index.html#分享札记或指出错误",
-    "title": "共建指南",
+    "title": "投稿与勘误",
     "section": "分享札记或指出错误",
     "text": "分享札记或指出错误\n札记可以从一个结果或一张图开始。写清是哪篇论文，标出原文页码、图号或表号。发现错误时，请附上页面链接和建议改法。\n在 GitHub 提交建议 · 查看仓库和投稿模板"
   },
@@ -77,18 +77,46 @@
     "text": "关联文献与专题\n\nOpenScholar 文献卡片：查看 DOI、版本与公开来源的记录示例。\n研究专题索引：按科学问题组织后续阅读。"
   },
   {
-    "objectID": "notes/index.html",
-    "href": "notes/index.html",
-    "title": "研读札记",
+    "objectID": "notes/posts/ma-2026-light-motor-cortex.html",
+    "href": "notes/posts/ma-2026-light-motor-cortex.html",
+    "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
     "section": "",
-    "text": "排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
+    "text": "Ma 等 · Journal of NeuroEngineering and Rehabilitation · 2026 · 摘要阅读"
   },
   {
-    "objectID": "notes/index.html#阅读札记",
-    "href": "notes/index.html#阅读札记",
-    "title": "研读札记",
+    "objectID": "notes/posts/ma-2026-light-motor-cortex.html#怎么做",
+    "href": "notes/posts/ma-2026-light-motor-cortex.html#怎么做",
+    "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
+    "section": "怎么做",
+    "text": "怎么做\n研究对 22 名健康参与者的左侧运动皮层做近红外刺激。810 nm 和 1064 nm 各配连续光与 40 Hz 脉冲光，再加一个假刺激条件。五种条件按随机顺序完成。"
+  },
+  {
+    "objectID": "notes/posts/ma-2026-light-motor-cortex.html#结果怎么读",
+    "href": "notes/posts/ma-2026-light-motor-cortex.html#结果怎么读",
+    "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
+    "section": "结果怎么读",
+    "text": "结果怎么读\n刺激后 30 分钟，1064 nm、40 Hz 脉冲条件的运动诱发电位幅度大于两个连续光条件。与假刺激相比，这一条件下右手对指动作完成的循环次数也更多。运动诱发电位反映运动通路的反应，功能近红外光谱测到的则是血氧变化，两个指标要分开看。"
+  },
+  {
+    "objectID": "notes/posts/ma-2026-light-motor-cortex.html#对实验设计有什么用",
+    "href": "notes/posts/ma-2026-light-motor-cortex.html#对实验设计有什么用",
+    "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n这组比较适合用来设计波长与脉冲方式的对照。结果对应本研究所用的运动皮层靶点、健康人群与观察时段。\n期刊原文与摘要 · 藏经阁书目 · 编辑这篇笔记"
+  },
+  {
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "论文笔记",
     "section": "",
-    "text": "排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
+    "text": "排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n同一批参与者接受两种磁刺激，研究用静息态 fMRI 分开看平均连接和连接随时间的波动。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n22 名健康参与者接受四种主动刺激和一种假刺激，研究比较了运动诱发电位、血氧与手指动作。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
+  },
+  {
+    "objectID": "notes/index.html#最近更新",
+    "href": "notes/index.html#最近更新",
+    "title": "论文笔记",
+    "section": "",
+    "text": "排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n同一批参与者接受两种磁刺激，研究用静息态 fMRI 分开看平均连接和连接随时间的波动。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n22 名健康参与者接受四种主动刺激和一种假刺激，研究比较了运动诱发电位、血氧与手指动作。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
   },
   {
     "objectID": "library/papers/openscholar.html",
@@ -189,6 +217,20 @@
     "text": "光能到达哪里？\n经颅光刺激中的光传播与升温模拟用头部模型估算 800 nm 光在组织中的分布和温升。读这类论文时，可以先看照射位置，再看模型如何设置组织的光学与热学参数。期刊原文"
   },
   {
+    "objectID": "research/tpbm.html#波长和脉冲怎么选",
+    "href": "research/tpbm.html#波长和脉冲怎么选",
+    "title": "经颅光刺激",
+    "section": "波长和脉冲怎么选？",
+    "text": "波长和脉冲怎么选？\n810 nm 与 1064 nm 的运动皮层研究比较了连续光和 40 Hz 脉冲光。读时可以看研究用了哪些条件，以及不同条件下测到的运动诱发电位变化。"
+  },
+  {
+    "objectID": "research/tpbm.html#怎样观察脑活动",
+    "href": "research/tpbm.html#怎样观察脑活动",
+    "title": "经颅光刺激",
+    "section": "怎样观察脑活动？",
+    "text": "怎样观察脑活动？\n运动诱发电位反映运动通路对刺激的响应，功能近红外光谱（fNIRS）测的是血氧变化。同一项运动皮层实验用这两种指标回答不同问题。"
+  },
+  {
     "objectID": "research/tpbm.html#人体安全性怎么评估",
     "href": "research/tpbm.html#人体安全性怎么评估",
     "title": "经颅光刺激",
@@ -214,14 +256,14 @@
     "href": "research/index.html",
     "title": "研究专题",
     "section": "",
-    "text": "光怎样进入脑组织？怎么测量升温？睡眠研究用了哪些指标？\n按问题读论文 浏览光刺激文献"
+    "text": "光怎样进入脑组织？波长和脉冲怎么选？怎样测量脑活动、升温和睡眠？\n按问题读论文 浏览光刺激文献"
   },
   {
     "objectID": "research/index.html#经颅光刺激",
     "href": "research/index.html#经颅光刺激",
     "title": "研究专题",
     "section": "",
-    "text": "光怎样进入脑组织？怎么测量升温？睡眠研究用了哪些指标？\n按问题读论文 浏览光刺激文献"
+    "text": "光怎样进入脑组织？波长和脉冲怎么选？怎样测量脑活动、升温和睡眠？\n按问题读论文 浏览光刺激文献"
   },
   {
     "objectID": "research/index.html#其他专题",
@@ -235,28 +277,28 @@
     "href": "index.html",
     "title": "藏经阁 Cangjingge",
     "section": "",
-    "text": "藏经阁以经颅光刺激为主，也收录脑网络、脑电与其他神经调控研究。\n浏览光刺激文献 查全部文献\n\n\n\n1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n这项研究用了哪些指标评估安全性？\n更多光刺激专题阅读"
+    "text": "从经颅光、磁、电刺激，到用 fMRI 和脑电观察脑活动。这里可以查论文，也可以按问题读。\n查神经调控论文 查全部文献\n\n\n\n1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读"
   },
   {
-    "objectID": "index.html#从一篇论文读起",
-    "href": "index.html#从一篇论文读起",
+    "objectID": "index.html#经颅光刺激",
+    "href": "index.html#经颅光刺激",
     "title": "藏经阁 Cangjingge",
     "section": "",
-    "text": "1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n这项研究用了哪些指标评估安全性？\n更多光刺激专题阅读"
+    "text": "1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读"
   },
   {
     "objectID": "index.html#浏览藏经阁",
     "href": "index.html#浏览藏经阁",
     "title": "藏经阁 Cangjingge",
     "section": "浏览藏经阁",
-    "text": "浏览藏经阁\n\n\n典籍目录\n按题名、作者或 DOI 找论文，也可以按主题筛选。\n\n\n研读札记\n看论文怎么做、发现了什么，以及结果对应的图表。\n\n\n研究专题\n按问题读论文，例如光如何进入脑组织、怎样评估升温。"
+    "text": "浏览藏经阁\n\n\n查文献\n按题名、作者或 DOI 找论文，也可以按主题筛选。\n\n\n读论文笔记\n看论文怎么做、发现了什么，以及结果对应的图表。\n\n\n研究专题\n按问题读论文，例如光如何进入脑组织、怎样评估升温。"
   },
   {
-    "objectID": "index.html#其他方向",
-    "href": "index.html#其他方向",
+    "objectID": "index.html#按方向浏览",
+    "href": "index.html#按方向浏览",
     "title": "藏经阁 Cangjingge",
-    "section": "其他方向",
-    "text": "其他方向\n个体化脑网络与神经调控 · 脑电与认知\n有论文、札记或勘误想分享？查看提交方式。"
+    "section": "按方向浏览",
+    "text": "按方向浏览\n经颅光刺激 · 经颅磁刺激 · 经颅电刺激 · fMRI 与脑网络 · 脑电与认知\n有论文、札记或勘误想分享？查看提交方式。"
   },
   {
     "objectID": "research/eeg-cognition.html",
@@ -319,14 +361,14 @@
     "href": "library/index.html",
     "title": "典籍目录",
     "section": "",
-    "text": "浏览光刺激文献 · 热效应与热安全 · 专题导读"
+    "text": "按研究问题读论文 · 查看全部光刺激论文 · 查升温与安全研究"
   },
   {
     "objectID": "library/index.html#经颅光刺激",
     "href": "library/index.html#经颅光刺激",
     "title": "典籍目录",
     "section": "",
-    "text": "浏览光刺激文献 · 热效应与热安全 · 专题导读"
+    "text": "按研究问题读论文 · 查看全部光刺激论文 · 查升温与安全研究"
   },
   {
     "objectID": "library/index.html#完整文献目录",
@@ -453,6 +495,34 @@
     "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
     "section": "关联阅读",
     "text": "关联阅读\n\n脑电与认知：振荡、注意和解码\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息经 Crossref 核对；同时收录于成员公开论文索引。"
+  },
+  {
+    "objectID": "notes/posts/li-2026-precuneus-fmri.html",
+    "href": "notes/posts/li-2026-precuneus-fmri.html",
+    "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
+    "section": "",
+    "text": "Li 等 · Brain Topography · 2026 年在线发表 · 摘要阅读"
+  },
+  {
+    "objectID": "notes/posts/li-2026-precuneus-fmri.html#怎么做",
+    "href": "notes/posts/li-2026-precuneus-fmri.html#怎么做",
+    "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
+    "section": "怎么做",
+    "text": "怎么做\n研究纳入 33 名健康成人，比较基线、间歇性和连续性 θ 爆发磁刺激后的静息态 fMRI。作者把右侧楔前叶分成背前、背后和腹侧三个亚区，分别分析连接。"
+  },
+  {
+    "objectID": "notes/posts/li-2026-precuneus-fmri.html#结果怎么读",
+    "href": "notes/posts/li-2026-precuneus-fmri.html#结果怎么读",
+    "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
+    "section": "结果怎么读",
+    "text": "结果怎么读\n静态功能连接把一段扫描概括成平均关联，动态分析看关联如何随时间变化。静态分析中，刺激条件和亚区之间未见显著交互。动态分析则在右侧眶部额下回发现交互，提示不同刺激条件下，三个亚区的连接波动表现有差别。"
+  },
+  {
+    "objectID": "notes/posts/li-2026-precuneus-fmri.html#对实验设计有什么用",
+    "href": "notes/posts/li-2026-precuneus-fmri.html#对实验设计有什么用",
+    "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n可以在分析前定义亚区，并分开设定静态和动态指标。这里测到的是静息态连接变化，研究摘要未报告相应的行为改善。\n期刊原文与摘要 · 编辑这篇笔记"
   },
   {
     "objectID": "notes/posts/personalized-neuromodulation.html",

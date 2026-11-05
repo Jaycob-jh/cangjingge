@@ -7,22 +7,22 @@ title-block-banner: false
 
 ::::: {.hero-section .zk-home-lead}
 ::: {.zk-home-intro}
-# 经颅光刺激文献库
+# 神经调控文献库
 
-藏经阁以经颅光刺激为主，也收录脑网络、脑电与其他神经调控研究。
+从经颅光、磁、电刺激，到用 fMRI 和脑电观察脑活动。这里可以查论文，也可以按问题读。
 
-[浏览光刺激文献](library/index.html?topic=02&subtopic=02.04){.btn .btn-primary}
+[查神经调控论文](library/index.html?topic=02){.btn .btn-primary}
 [查全部文献](library/index.qmd){.btn .btn-outline-secondary}
 :::
 
 ::: {.zk-home-reading}
-## 从一篇论文读起
+## 经颅光刺激
 
 [1064 nm 经颅光刺激的健康人安全性研究](library/papers/li-2024-tpbm-safety.qmd)
 
 Li 等 · *Brain Stimulation* · 2024
 
-这项研究用了哪些指标评估安全性？
+还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。
 
 [更多光刺激专题阅读](research/tpbm.qmd)
 :::
@@ -32,12 +32,12 @@ Li 等 · *Brain Stimulation* · 2024
 
 :::: {.zk-grid .zk-home-links}
 ::: {.zk-card}
-### [典籍目录](library/index.qmd)
+### [查文献](library/index.qmd)
 按题名、作者或 DOI 找论文，也可以按主题筛选。
 :::
 
 ::: {.zk-card}
-### [研读札记](notes/index.qmd)
+### [读论文笔记](notes/index.qmd)
 看论文怎么做、发现了什么，以及结果对应的图表。
 :::
 
@@ -47,8 +47,8 @@ Li 等 · *Brain Stimulation* · 2024
 :::
 ::::
 
-## 其他方向
+## 按方向浏览
 
-[个体化脑网络与神经调控](research/personalized-networks.qmd) · [脑电与认知](research/eeg-cognition.qmd)
+[经颅光刺激](research/tpbm.qmd) · [经颅磁刺激](library/index.html?topic=02&subtopic=02.02) · [经颅电刺激](library/index.html?topic=02&subtopic=02.03) · [fMRI 与脑网络](library/index.html?topic=01) · [脑电与认知](research/eeg-cognition.qmd)
 
 有论文、札记或勘误想分享？[查看提交方式](join/index.qmd)。

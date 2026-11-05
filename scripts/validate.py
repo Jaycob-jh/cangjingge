@@ -32,6 +32,8 @@ for file in files:
         errors.append(f"缺失 YAML 前置信息：{file.relative_to(ROOT)}")
     # Verify Markdown links to local .qmd files.
     for dest in re.findall(r'\]\(([^)]+\.qmd)(?:#[^)]*)?\)', text):
+        if dest.startswith(('https://', 'http://')):
+            continue
         target = (file.parent / dest).resolve()
         if not target.is_file():
             errors.append(f"断开的 QMD 链接：{file.relative_to(ROOT)} -> {dest}")
