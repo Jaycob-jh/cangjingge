@@ -1,6 +1,6 @@
 ---
 title: "研读札记"
-subtitle: "Notes · 以证据为中心的知识沉淀"
+subtitle: "论文摘要、方法梳理与阅读笔记"
 toc: false
 page-layout: full
 listing:
@@ -30,4 +30,4 @@ listing:
 <div class="zk-card"><span class="zk-number">03</span><h3>评价与延伸</h3><p>主要结论、局限、相关研究和进一步问题。</p></div>
 </div>
 
-新增札记时复制 `templates/note.qmd` 到 `notes/posts/` 目录，修改后提交。
+想分享你的阅读笔记？查看[提交材料的方法](../join/index.qmd)。

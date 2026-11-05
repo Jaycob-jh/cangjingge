@@ -15,6 +15,12 @@
     const catalog = await response.json();
     const topics = new Map(catalog.topics.map(t => [t.id, t]));
     const topicName = id => topics.get(id)?.name || id;
+    const typeName = type => ({
+      article: "期刊论文", journalArticle: "期刊论文", "journal-article": "期刊论文",
+      preprint: "预印本", book: "图书", "edited-book": "图书", bookSection: "书籍章节",
+      "book-chapter": "书籍章节", thesis: "学位论文", dissertation: "学位论文",
+      report: "报告", presentation: "课程讲义", manual: "软件手册"
+    })[type] || "";
     const doiUrl = doi => "https://doi.org/" + doi.split("/").map(encodeURIComponent).join("/");
     const citation = r => [r.journal, r.volume && r.volume + (r.issue ? "(" + r.issue + ")" : ""), r.pages, r.year].filter(Boolean).join(" · ");
     const link = (title, href) => {
@@ -33,7 +39,7 @@
     };
     if (detail) {
       const recordId = new URLSearchParams(location.search).get("id") || location.hash.slice(1);
-      const record = catalog.records.find(r => r.id === recordId);
+      const record = catalog.records.find(r => r.id === recordId || r.aliases?.includes(recordId));
       detail.replaceChildren();
       if (!record) {
         detail.append(node("p", "未找到这个文献条目，请返回目录检索。"));
@@ -43,7 +49,8 @@
       document.title = record.title + " – 藏经阁 Cangjingge";
       detail.append(node("p", record.authors.join("; ") || "作者信息整理中"), node("p", citation(record)));
       if (record.doi) detail.append(link("DOI: " + record.doi, doiUrl(record.doi)));
-      detail.append(node("p", "阅读进度：" + record.reading_status), topicLinks(record));
+      else if (record.url) detail.append(link("查看原始资料", record.url));
+      detail.append(node("p", [typeName(record.type), "阅读进度：" + record.reading_status].filter(Boolean).join(" · ")), topicLinks(record));
       if (record.summary) detail.append(node("h2", "阅读摘要"), node("p", record.summary));
       if (record.curated_path) detail.append(link("阅读已整理卡片", record.curated_path));
       detail.append(node("p", "目录来源：" + (record.sources.join("、") || "藏经阁整理"), "zk-catalog-meta"));

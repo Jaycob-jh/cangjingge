@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "stats": {
     "readcube_h_records": 1274,
     "zotero_h_records": 1244,
-    "catalog_records": 1228,
-    "sources_both": 1212,
-    "readcube_only": 12,
-    "zotero_only": 1,
-    "with_doi": 1224,
-    "pending_source_records": 55,
-    "source_duplicates_removed": 1238
+    "catalog_records": 1247,
+    "sources_both": 1242,
+    "readcube_only": 2,
+    "zotero_only": 0,
+    "with_doi": 1237,
+    "pending_source_records": 0,
+    "source_duplicates_removed": 1271
   },
   "topics": [
     {
@@ -3921,12 +3921,12 @@
       "authors": [
         "Ziad Nahas",
         "Robert Hermosillo",
-        "Spencer H Eiting",
+        "Spencer H. Eiting",
         "Tariq Hattab",
         "Maya Hazimeh",
-        "Rachel A Johnson",
+        "Rachel A. Johnson",
         "Thomas Madison",
-        "Kimberly B Weldon",
+        "Kimberly B. Weldon",
         "Seth Koenig",
         "Cash Differding",
         "Ahmed Sakr",
@@ -3934,7 +3934,7 @@
         "Sanju Koirala",
         "Jeremy Chaikind",
         "Eric Waldron",
-        "Nicholas M Arnoudse",
+        "Nicholas M. Arnoudse",
         "Oscar Miranda-Domínguez",
         "Brenden Tervo-Clemmens",
         "Bart Larsen",
@@ -3942,32 +3942,33 @@
         "Eric Feczko",
         "Lucille A Moore",
         "Julia Moser",
-        "Jacob T Lundquist",
+        "Jacob T. Lundquist",
         "Gracie J Grimsrud",
         "Nora Byington",
         "Kristina Hufnagle",
         "Charles Lynch",
         "Conor Liston",
         "Scott Marek",
-        "Evan M Gordon",
+        "Evan M. Gordon",
         "Timothy Laumann",
         "Alexander B Herman",
         "Alik Widge",
-        "Michael C Park",
-        "Nico U F Dosenbach",
+        "Michael C. Park",
+        "Nico U. F. Dosenbach",
         "Steven M Nelson",
         "David P Darrow",
-        "Theoden I Netoff",
+        "Theoden I. Netoff",
         "Damien Fair"
       ],
       "year": 2025,
       "doi": "10.31234/osf.io/5c3ba_v1",
-      "journal": "",
+      "journal": "PsyArXiv（预印本）",
       "volume": "",
       "issue": "",
       "pages": "",
-      "type": "article",
+      "type": "preprint",
       "topics": [
+        "01",
         "01.01",
         "01.07",
         "01.08",
@@ -3975,11 +3976,14 @@
         "02.01",
         "02.07",
         "02.08",
+        "04",
         "04.05",
+        "05",
         "05.01"
       ],
       "sources": [
-        "ReadCube"
+        "ReadCube",
+        "Zotero"
       ],
       "reading_status": "已编目",
       "id": "paper-ac46d94dca7e5425"
@@ -5158,58 +5162,63 @@
     {
       "title": "A precision functional atlas of personalized network topography and probabilities",
       "authors": [
-        "R. J. M. Hermosillo",
-        "L. A. Moore",
-        "E. Feczko",
-        "O. Miranda-Dominguez",
-        "A. Pines",
-        "A. Dworetsky",
-        "G. Conan",
-        "M. A. Mooney",
-        "A. Randolph",
-        "A. Graham",
-        "B. Adeyemo",
-        "E. Earl",
-        "A. Perrone",
-        "C. M. Carrasco",
-        "J. Uriarte-Lopez",
-        "K. Snider",
-        "O. Doyle",
-        "M. Cordova",
-        "S. Koirala",
-        "G. J. Grimsrud",
-        "N. Byington",
-        "S. M. Nelson",
-        "C. Gratton",
-        "S. Petersen",
-        "S. W. Feldstein Ewing",
-        "B. J. Nagel",
-        "N. U. F. Dosenbach",
-        "T. D. Satterthwaite",
-        "D. A. Fair"
+        "Robert J. M. Hermosillo",
+        "Lucille A. Moore",
+        "Eric Feczko",
+        "Óscar Miranda-Domínguez",
+        "Adam Pines",
+        "Ally Dworetsky",
+        "Gregory Conan",
+        "Michael A. Mooney",
+        "Anita Randolph",
+        "Alice Graham",
+        "Babatunde Adeyemo",
+        "Eric Earl",
+        "Anders Perrone",
+        "Cristian Morales Carrasco",
+        "Johnny Uriarte-Lopez",
+        "Kathy Snider",
+        "Olivia Doyle",
+        "Michaela Cordova",
+        "Sanju Koirala",
+        "Gracie J. Grimsrud",
+        "Nora Byington",
+        "Steven M. Nelson",
+        "Caterina Gratton",
+        "Steven Petersen",
+        "Sarah W. Feldstein Ewing",
+        "Bonnie J. Nagel",
+        "Nico U. F. Dosenbach",
+        "Theodore D. Satterthwaite",
+        "Damien A. Fair"
       ],
       "year": 2024,
       "doi": "10.1038/s41593-024-01596-5",
-      "journal": "Nat Neurosci",
+      "journal": "Nature Neuroscience",
       "volume": "27",
       "issue": "5",
       "pages": "1000-1013",
-      "type": "article",
+      "type": "journal-article",
       "topics": [
         "01",
         "01.01",
         "01.05",
         "01.06",
+        "02",
         "02.01",
         "02.07",
+        "04",
         "04.02",
         "04.05",
+        "06",
         "06.05",
+        "07",
         "07.01",
         "07.02"
       ],
       "sources": [
-        "ReadCube"
+        "ReadCube",
+        "Zotero"
       ],
       "reading_status": "已编目",
       "id": "paper-3f3d2eeb205a62c0"
@@ -6689,6 +6698,32 @@
       ],
       "reading_status": "已编目",
       "id": "paper-9e3f2eefddb36baf"
+    },
+    {
+      "title": "Illuminating Neural Pathways: Modulating Motor Cortex and Related Pathways with Photobiomodulation",
+      "authors": [
+        "Emily Jun Yu"
+      ],
+      "year": 2024,
+      "doi": null,
+      "journal": "The Ohio State University",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "type": "thesis",
+      "topics": [
+        "01",
+        "01.05",
+        "02",
+        "02.02",
+        "02.07"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-ccae35bd8cc15d02"
     },
     {
       "title": "Immediate Modulation of the Blood Oxygenation Level-Dependent Signals by Dual-Site Transcranial Alternating Current Stimulation Propagates Across the Whole Brain",
@@ -8898,31 +8933,33 @@
     {
       "title": "Two common and distinct forms of variation in human functional brain networks",
       "authors": [
-        "A. Dworetsky",
-        "B. A. Seitzman",
-        "B. Adeyemo",
-        "A. N. Nielsen",
-        "A. S. Hatoum",
-        "D. M. Smith",
-        "T. E. Nichols",
-        "M. Neta",
-        "S. E. Petersen",
-        "C. Gratton"
+        "Ally Dworetsky",
+        "Benjamin A. Seitzman",
+        "Babatunde Adeyemo",
+        "Ashley N. Nielsen",
+        "Alexander S. Hatoum",
+        "Derek M. Smith",
+        "Thomas E. Nichols",
+        "Maital Neta",
+        "Steven E. Petersen",
+        "Caterina Gratton"
       ],
       "year": 2024,
       "doi": "10.1038/s41593-024-01618-2",
-      "journal": "Nat Neurosci",
+      "journal": "Nature Neuroscience",
       "volume": "27",
       "issue": "6",
       "pages": "1187-1198",
-      "type": "article",
+      "type": "journal-article",
       "topics": [
         "01",
         "01.06",
+        "06",
         "06.04"
       ],
       "sources": [
-        "ReadCube"
+        "ReadCube",
+        "Zotero"
       ],
       "reading_status": "已编目",
       "id": "paper-a92bec5a8427e76f"
@@ -9048,6 +9085,28 @@
       ],
       "reading_status": "已编目",
       "id": "paper-5a3137248692aa65"
+    },
+    {
+      "title": "经颅光生物调节对记忆任务态脑网络拓扑的影响研究",
+      "authors": [
+        "杜钊宁"
+      ],
+      "year": 2024,
+      "doi": null,
+      "journal": "河北大学",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "type": "thesis",
+      "topics": [
+        "02"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-d1fd140b6b947ff2"
     },
     {
       "title": "20 years of the default mode network: A review and synthesis",
@@ -9945,34 +10004,38 @@
     {
       "title": "Communication dynamics in the human connectome shape the cortex-wide propagation of direct electrical stimulation",
       "authors": [
-        "C. Seguin",
-        "M. Jedynak",
-        "O. David",
-        "S. Mansour",
-        "O. Sporns",
-        "A. Zalesky"
+        "Caio Seguin",
+        "Maciej Jedynak",
+        "Olivier David",
+        "Sina Mansour",
+        "Olaf Sporns",
+        "Andrew Zalesky"
       ],
       "year": 2023,
       "doi": "10.1016/j.neuron.2023.01.027",
       "journal": "Neuron",
       "volume": "111",
       "issue": "9",
-      "pages": "1391-1401 e5",
-      "type": "article",
+      "pages": "1391-1401.e5",
+      "type": "journal-article",
       "topics": [
+        "01",
         "01.03",
         "01.04",
         "01.05",
         "01.06",
         "02",
         "02.07",
+        "03",
         "03.01",
+        "06",
         "06.04",
         "06.05",
         "07"
       ],
       "sources": [
-        "ReadCube"
+        "ReadCube",
+        "Zotero"
       ],
       "reading_status": "已编目",
       "id": "paper-b4b8983e3d9e8a49"
@@ -11424,6 +11487,38 @@
       "id": "paper-c6f6e59d6a927f8d"
     },
     {
+      "title": "Improvements in the clinical signs of Parkinson’s disease using photobiomodulation: a 3-year follow-up case series",
+      "authors": [
+        "Ann Liebert",
+        "Brian Bicknell",
+        "E-Liisa Laakso",
+        "Sharon Tilley",
+        "Vincent Pang",
+        "Gillian Heller",
+        "John Mitrofanis",
+        "Geoffrey Herkes",
+        "Hosen Kiat"
+      ],
+      "year": 2023,
+      "doi": "10.18103/mra.v11i3.3690",
+      "journal": "Medical Research Archives",
+      "volume": "11",
+      "issue": "3",
+      "pages": "",
+      "type": "journal-article",
+      "topics": [
+        "02",
+        "05",
+        "05.03"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-e8f1198e1e1f09d3"
+    },
+    {
       "title": "Increased Improvement in Speech-Language Skills After Transcranial Photobiomodulation Plus Speech-Language Therapy, Compared to Speech-Language Therapy Alone: Case Report with Aphasia",
       "authors": [
         "K. Estrada-Rojas",
@@ -11789,18 +11884,21 @@
       ],
       "year": 2023,
       "doi": "10.70675/6d8382bcze00cz4648z8021z0918e5c13a52",
-      "journal": "",
+      "journal": "Sorbonne Université",
       "volume": "",
       "issue": "",
       "pages": "",
-      "type": "article",
+      "type": "thesis",
       "topics": [
         "01",
         "01.07",
+        "04",
         "04.05"
       ],
+      "url": "https://theses.hal.science/tel-04470751",
       "sources": [
-        "ReadCube"
+        "ReadCube",
+        "Zotero"
       ],
       "reading_status": "已编目",
       "id": "paper-6dd13f3b88a8ed3e"
@@ -16191,34 +16289,38 @@
     {
       "title": "Transcranial focused ultrasound-mediated neurochemical and functional connectivity changes in deep cortical regions in humans",
       "authors": [
-        "S. N. Yaakub",
-        "T. A. White",
-        "J. Roberts",
-        "E. Martin",
-        "L. Verhagen",
-        "C. J. Stagg",
-        "S. Hall",
-        "E. F. Fouragnan"
+        "Siti N. Yaakub",
+        "Tristan A. White",
+        "Jamie Roberts",
+        "Eleanor Martin",
+        "Lennart Verhagen",
+        "Charlotte J. Stagg",
+        "Stephen Hall",
+        "Elsa F. Fouragnan"
       ],
       "year": 2023,
       "doi": "10.1038/s41467-023-40998-0",
-      "journal": "Nat Commun",
+      "journal": "Nature Communications",
       "volume": "14",
       "issue": "1",
-      "pages": "5318",
-      "type": "article",
+      "pages": "",
+      "type": "journal-article",
       "topics": [
+        "01",
         "01.05",
         "01.07",
+        "02",
         "02.05",
         "02.06",
         "02.07",
         "06",
         "06.01",
+        "07",
         "07.06"
       ],
       "sources": [
-        "ReadCube"
+        "ReadCube",
+        "Zotero"
       ],
       "reading_status": "已编目",
       "id": "paper-df320224bc6f9e89"
@@ -20170,6 +20272,29 @@
       "id": "paper-441787c8a7a4f764"
     },
     {
+      "title": "Transcranial electrical stimulation effects on neurovascular coupling",
+      "authors": [
+        "Yashika Arora",
+        "Anirban Dutta"
+      ],
+      "year": 2022,
+      "doi": "10.21203/rs.3.rs-1429599/v1",
+      "journal": "Research Square（预印本）",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "type": "preprint",
+      "topics": [
+        "02"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-e90c8f8039ad23ae"
+    },
+    {
       "title": "Transcranial Infrared Laser Stimulation for the Treatment of Traumatic Brain Injury: A Case Series",
       "authors": [
         "E. S. Rindner",
@@ -20210,6 +20335,29 @@
       ],
       "reading_status": "已编目",
       "id": "paper-8165e521186b9cbc"
+    },
+    {
+      "title": "Transcranial Magnetic and Electrical Brain Stimulation for Neurological Disorders",
+      "authors": [
+        "Bahman Zohuri",
+        "Patrick McDaniel"
+      ],
+      "year": 2022,
+      "doi": "10.1016/c2021-0-03032-7",
+      "journal": "Elsevier",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "type": "book",
+      "topics": [
+        "02"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-76d904718e035037"
     },
     {
       "title": "Transcranial magnetic stimulation of the brain: What is stimulated? - A consensus and critical position paper",
@@ -23406,6 +23554,31 @@
       "id": "paper-c390e2481d97d515"
     },
     {
+      "title": "Transcranial Direct Current Stimulation in Neuropsychiatric Disorders",
+      "authors": [
+        "André R. Brunoni（编）",
+        "Michael A. Nitsche（编）",
+        "Colleen K. Loo（编）"
+      ],
+      "year": 2021,
+      "doi": "10.1007/978-3-030-76136-3",
+      "journal": "Springer International Publishing",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "type": "book",
+      "topics": [
+        "02",
+        "02.03"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-ff66a980fad8bb9f"
+    },
+    {
       "title": "Transcranial laser stimulation: Mitochondrial and cerebrovascular effects in younger and older healthy adults",
       "authors": [
         "C. L. Saucedo",
@@ -23790,6 +23963,31 @@
       ],
       "reading_status": "已编目",
       "id": "paper-73eaf45060d681dd"
+    },
+    {
+      "title": "经颅光生物调控技术对中枢神经系统的影响与机制",
+      "authors": [
+        "李海珍",
+        "王朴"
+      ],
+      "year": 2021,
+      "doi": "10.3760/cma.j.issn.0254-1424.2021.04.022",
+      "journal": "中华物理医学与康复杂志",
+      "volume": "43",
+      "issue": "4",
+      "pages": "380-384",
+      "type": "article",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-f49fda5447f56f5b"
     },
     {
       "title": "A cortical hierarchy of localized and distributed processes revealed via dissociation of task activations, connectivity changes, and intrinsic timescales",
@@ -25510,10 +25708,13 @@
     },
     {
       "title": "Non Invasive Brain Stimulation in Psychiatry and Clinical Neurosciences",
-      "authors": [],
+      "authors": [
+        "Bernardo Dell'Osso（编）",
+        "Giorgio Di Lorenzo（编）"
+      ],
       "year": 2020,
       "doi": "10.1007/978-3-030-43356-7",
-      "journal": "",
+      "journal": "Springer International Publishing",
       "volume": "",
       "issue": "",
       "pages": "",
@@ -26849,6 +27050,29 @@
       ],
       "reading_status": "已编目",
       "id": "paper-16efaf9176f3d083"
+    },
+    {
+      "title": "A Battery of Cognitive Tasks for the Assessment of Non-Affective and Affective Executive Functioning",
+      "authors": [
+        "Abdul-Raheem Mohammed"
+      ],
+      "year": 2019,
+      "doi": null,
+      "journal": "The Russian Journal of Cognitive Science",
+      "volume": "6",
+      "issue": "3",
+      "pages": "31-42",
+      "type": "article",
+      "topics": [
+        "04",
+        "04.03"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-9a3c3d5444fe4146"
     },
     {
       "title": "A Human Depression Circuit Derived From Focal Brain Lesions",
@@ -29280,26 +29504,27 @@
     {
       "title": "SimNIBS 2.1: A Comprehensive Pipeline for Individualized Electric Field Modelling for Transcranial Brain Stimulation",
       "authors": [
-        "G. B. Saturnino",
-        "O. Puonti",
-        "J. D. Nielsen",
-        "D. Antonenko",
-        "K. H. Madsen",
-        "A. Thielscher"
+        "Guilherme B. Saturnino",
+        "Oula Puonti",
+        "Jesper D. Nielsen",
+        "Daria Antonenko",
+        "Kristoffer H. Madsen",
+        "Axel Thielscher"
       ],
       "year": 2019,
       "doi": "10.1007/978-3-030-21293-3_1",
-      "journal": "Brain and Human Body Modeling: Computational Human Modeling at EMBC 2018",
+      "journal": "Brain and Human Body Modeling",
       "volume": "",
       "issue": "",
       "pages": "3-25",
-      "type": "article",
+      "type": "book-chapter",
       "topics": [
         "02",
         "02.06"
       ],
       "sources": [
-        "ReadCube"
+        "ReadCube",
+        "Zotero"
       ],
       "reading_status": "已编目",
       "id": "paper-31e56ca8a7434aff"
@@ -29737,6 +29962,38 @@
       ],
       "reading_status": "已编目",
       "id": "paper-5ed83bc771854e7c"
+    },
+    {
+      "title": "Transcranial Near-Infrared Light: Dose-Dependent Effects on EEG Oscillations but not Cerebral Blood Flow",
+      "authors": [
+        "Vincenza Spera",
+        "Tatiana Sitnikova",
+        "Meredith J. Ward",
+        "Parya Farzam",
+        "Jeremy Hughes",
+        "Eric Bui",
+        "Marco Maiello",
+        "Luis De Taboada",
+        "Michael R. Hamblin",
+        "Maria Angela Franceschini",
+        "Paolo Cassano"
+      ],
+      "year": 2019,
+      "doi": "10.1101/837591",
+      "journal": "bioRxiv（预印本）",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "type": "preprint",
+      "topics": [
+        "06"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-6c7037a72f25ff5e"
     },
     {
       "title": "Transcranial near-infrared photobiomodulation could modulate brain electrophysiological features and attentional performance in healthy young adults",
@@ -30942,6 +31199,39 @@
       "id": "paper-285cd0fa08c6dde9"
     },
     {
+      "title": "Individualized non-invasive brain stimulation engages the subgenual anterior cingulate and amygdala",
+      "authors": [
+        "Desmond J Oathes",
+        "Jared Zimmerman",
+        "Romain Duprat",
+        "Seda Cavdaroglu",
+        "Morgan Scully",
+        "Benjamin Rosenberg",
+        "Matthew Flounders",
+        "Hannah Long",
+        "Mark Elliott",
+        "Gavriella Shandler",
+        "Russell T Shinohara",
+        "Kristin A Linn"
+      ],
+      "year": 2018,
+      "doi": "10.1101/503441",
+      "journal": "bioRxiv（预印本）",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "type": "preprint",
+      "topics": [
+        "02"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-05d96929f0d17039"
+    },
+    {
       "title": "Individualized Prediction of Reading Comprehension Ability Using Gray Matter Volume",
       "authors": [
         "Z. Cui",
@@ -32077,14 +32367,15 @@
       "journal": "Science Advances",
       "volume": "4",
       "issue": "9",
-      "pages": "eaar6904",
-      "type": "journalArticle",
+      "pages": "",
+      "type": "journal-article",
       "topics": [
         "01",
         "01.01",
         "02"
       ],
       "sources": [
+        "ReadCube",
         "Zotero"
       ],
       "reading_status": "已编目",
@@ -33605,21 +33896,22 @@
     {
       "title": "MRIQC: Advancing the automatic prediction of image quality in MRI from unseen sites",
       "authors": [
-        "O. Esteban",
-        "D. Birman",
-        "M. Schaer",
-        "O. O. Koyejo",
-        "R. A. Poldrack",
-        "K. J. Gorgolewski"
+        "Oscar Esteban",
+        "Daniel Birman",
+        "Marie Schaer",
+        "Oluwasanmi O. Koyejo",
+        "Russell A. Poldrack",
+        "Krzysztof J. Gorgolewski"
       ],
       "year": 2017,
       "doi": "10.1371/journal.pone.0184661",
-      "journal": "PLoS One",
+      "journal": "PLOS ONE",
       "volume": "12",
       "issue": "9",
       "pages": "e0184661",
-      "type": "article",
+      "type": "journal-article",
       "topics": [
+        "01",
         "01.07",
         "06",
         "06.01",
@@ -33627,7 +33919,8 @@
         "06.05"
       ],
       "sources": [
-        "ReadCube"
+        "ReadCube",
+        "Zotero"
       ],
       "reading_status": "已编目",
       "id": "paper-17b5802d9707b22a"
@@ -35786,6 +36079,32 @@
       ],
       "reading_status": "已编目",
       "id": "paper-a37a25e9bb0320cd"
+    },
+    {
+      "title": "SPM12 Manual（2016-07-20版）",
+      "authors": [
+        "The FIL Methods Group"
+      ],
+      "year": 2016,
+      "doi": null,
+      "journal": "UCL Functional Imaging Laboratory",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "type": "manual",
+      "topics": [
+        "02",
+        "02.04",
+        "06",
+        "06.01"
+      ],
+      "url": "https://www.fil.ion.ucl.ac.uk/spm/doc/",
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-4c177e21b993a291"
     },
     {
       "title": "Superior Intraparietal Sulcus Controls the Variability of Visual Working Memory Precision",
@@ -38544,6 +38863,41 @@
       "id": "paper-84490123a2434b2b"
     },
     {
+      "title": "Neuropharmacological effect of atomoxetine on attention network in children with attention deficit hyperactivity disorder during oddball paradigms as assessed using functional near-infrared spectroscopy",
+      "authors": [
+        "Masako Nagashima",
+        "Yukifumi Monden",
+        "Ippeita Dan",
+        "Haruka Dan",
+        "Tsutomu Mizutani",
+        "Daisuke Tsuzuki",
+        "Yasushi Kyutoku",
+        "Yuji Gunji",
+        "Daisuke Hirano",
+        "Takamichi Taniguchi",
+        "Hideo Shimoizumi",
+        "Mariko Y. Momoi",
+        "Takanori Yamagata",
+        "Eiju Watanabe"
+      ],
+      "year": 2014,
+      "doi": "10.1117/1.nph.1.2.025007",
+      "journal": "Neurophotonics",
+      "volume": "1",
+      "issue": "02",
+      "pages": "1-14",
+      "type": "journal-article",
+      "topics": [
+        "06"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-729e4b878e334d6c"
+    },
+    {
       "title": "Non-invasive brain stimulation in neurorehabilitation: local and distant effects for motor recovery",
       "authors": [
         "S. L. Liew",
@@ -38674,21 +39028,22 @@
     {
       "title": "Resting-state networks link invasive and noninvasive brain stimulation across diverse psychiatric and neurological diseases",
       "authors": [
-        "M. D. Fox",
-        "R. L. Buckner",
-        "H. Liu",
-        "M. M. Chakravarty",
-        "A. M. Lozano",
-        "A. Pascual-Leone"
+        "Michael D. Fox",
+        "Randy L. Buckner",
+        "Hesheng Liu",
+        "M. Mallar Chakravarty",
+        "Andres M. Lozano",
+        "Alvaro Pascual-Leone"
       ],
       "year": 2014,
       "doi": "10.1073/pnas.1405003111",
-      "journal": "Proc Natl Acad Sci U S A",
+      "journal": "Proceedings of the National Academy of Sciences",
       "volume": "111",
       "issue": "41",
-      "pages": "E4367-75",
-      "type": "article",
+      "pages": "E4367-E4375",
+      "type": "journal-article",
       "topics": [
+        "01",
         "01.05",
         "01.06",
         "02",
@@ -38699,12 +39054,14 @@
         "02.06",
         "02.07",
         "02.08",
+        "05",
         "05.01",
         "05.03",
         "05.05"
       ],
       "sources": [
-        "ReadCube"
+        "ReadCube",
+        "Zotero"
       ],
       "reading_status": "已编目",
       "id": "paper-4688f739ad9c8b9a"
@@ -40821,25 +41178,29 @@
     {
       "title": "Transcranial Brain Stimulation",
       "authors": [
-        "Marom Bikson",
-        "Davide Reato",
-        "Asif Rahman"
+        "Carlo Miniussi（编）",
+        "Walter Paulus（编）",
+        "Paolo M. Rossini（编）"
       ],
       "year": 2012,
-      "doi": "10.1201/b14174-5",
-      "journal": "Frontiers in Neuroscience",
-      "volume": "20125361",
+      "doi": "10.1201/b14174",
+      "journal": "CRC Press",
+      "volume": "",
       "issue": "",
-      "pages": "55-91",
-      "type": "article",
+      "pages": "",
+      "type": "book",
       "topics": [
         "02"
       ],
+      "aliases": [
+        "paper-075acd5a60e00fbf"
+      ],
       "sources": [
-        "ReadCube"
+        "ReadCube",
+        "Zotero"
       ],
       "reading_status": "已编目",
-      "id": "paper-075acd5a60e00fbf"
+      "id": "paper-ff96b98363ab8bbb"
     },
     {
       "title": "TRPV4 channels mediate the infrared laser-evoked response in sensory neurons",
@@ -42514,6 +42875,28 @@
       "id": "paper-d84400383abd8642"
     },
     {
+      "title": "Mesh-based Monte Carlo method using fast ray-tracing in Plücker coordinates",
+      "authors": [
+        "Qianqian Fang"
+      ],
+      "year": 2010,
+      "doi": "10.1364/boe.1.000165",
+      "journal": "Biomedical Optics Express",
+      "volume": "1",
+      "issue": "1",
+      "pages": "165",
+      "type": "journal-article",
+      "topics": [
+        "02"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-a98f0a2c1f8cb7b0"
+    },
+    {
       "title": "Monitoring the depth of anaesthesia",
       "authors": [
         "B. Musizza",
@@ -42876,6 +43259,30 @@
       ],
       "reading_status": "已编目",
       "id": "paper-40a907bc46d9dfd2"
+    },
+    {
+      "title": "人脑连接组研究：脑结构网络和脑功能网络",
+      "authors": [
+        "梁夏",
+        "王金辉",
+        "贺永"
+      ],
+      "year": 2010,
+      "doi": "10.1360/972009-2150",
+      "journal": "科学通报",
+      "volume": "55",
+      "issue": "16",
+      "pages": "1565-1583",
+      "type": "article",
+      "topics": [
+        "01"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-44233a27d86535fa"
     },
     {
       "title": "Biphasic dose response in low level light therapy",
@@ -45215,6 +45622,30 @@
       "id": "paper-9d009ebfd8caf52a"
     },
     {
+      "title": "Low Level Laser Therapy (LLLT): Technology Assessment",
+      "authors": [
+        "Grace Wang"
+      ],
+      "year": 2004,
+      "doi": null,
+      "journal": "Washington State Department of Labor and Industries",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "type": "report",
+      "topics": [
+        "02",
+        "02.04"
+      ],
+      "url": "https://www.lni.wa.gov/patient-care/_docs/LLLTTechAssessMay032004.pdf",
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-6f0ec4255ba22eaf"
+    },
+    {
       "title": "Low level laser therapy for treatment of primary and secondary Raynaud’s phenomenon",
       "authors": [
         "Al-Awami",
@@ -45932,6 +46363,30 @@
       "id": "paper-6c2bdda9b9561335"
     },
     {
+      "title": "MCML—Monte Carlo modeling of light transport in multi-layered tissues",
+      "authors": [
+        "Lihong Wang",
+        "Steven L. Jacques",
+        "Liqiong Zheng"
+      ],
+      "year": 1995,
+      "doi": "10.1016/0169-2607(95)01640-f",
+      "journal": "Computer Methods and Programs in Biomedicine",
+      "volume": "47",
+      "issue": "2",
+      "pages": "131-146",
+      "type": "journal-article",
+      "topics": [
+        "02"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-67e69d0b4efbb47d"
+    },
+    {
       "title": "Non-invasive monitoring of the redox state of cytochrome oxidase in living tissue using near-infrared laser lights.",
       "authors": [
         "Masahide Tamura"
@@ -46096,6 +46551,51 @@
       "id": "paper-d0f9c6941ec39462"
     },
     {
+      "title": "The Effects of Light on the Human Body",
+      "authors": [
+        "Richard J. Wurtman"
+      ],
+      "year": 1975,
+      "doi": "10.1038/scientificamerican0775-68",
+      "journal": "Scientific American",
+      "volume": "233",
+      "issue": "1",
+      "pages": "68-77",
+      "type": "journal-article",
+      "topics": [
+        "07",
+        "07.03"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-ab29c2eab87548b6"
+    },
+    {
+      "title": "Stimulated Optical Radiation in Ruby",
+      "authors": [
+        "T. H. MAIMAN"
+      ],
+      "year": 1960,
+      "doi": "10.1038/187493a0",
+      "journal": "Nature",
+      "volume": "187",
+      "issue": "4736",
+      "pages": "493-494",
+      "type": "journal-article",
+      "topics": [
+        "02"
+      ],
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-328fc92d505ee6a2"
+    },
+    {
       "title": "<1962-the-beer-lambert-law.pdf>",
       "authors": [],
       "year": null,
@@ -46114,6 +46614,29 @@
       ],
       "reading_status": "已编目",
       "id": "paper-40a518d53b05c815"
+    },
+    {
+      "title": "Introduction to fMRI Data Analysis: Course Overview",
+      "authors": [
+        "Luke Chang"
+      ],
+      "year": null,
+      "doi": null,
+      "journal": "Dartmouth College",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "type": "presentation",
+      "topics": [
+        "06"
+      ],
+      "url": "https://dartbrains.org/",
+      "sources": [
+        "ReadCube",
+        "Zotero"
+      ],
+      "reading_status": "已编目",
+      "id": "paper-860eb8251ea28a40"
     },
     {
       "title": "Short history of laser development",

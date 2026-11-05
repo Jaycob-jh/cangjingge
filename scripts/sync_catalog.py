@@ -44,6 +44,25 @@ def merge(work):
     for p in ri:
         a=p['article']
         incoming.append({'source':'ReadCube','source_id':p['id'],'title':a.get('title') or '', 'authors':a.get('authors') or [],'year':year_of(a.get('year')),'doi':doi_of(p.get('doi')),'journal':a.get('journal') or '', 'volume':a.get('volume') or '', 'issue':a.get('issue') or '', 'pages':a.get('pagination') or '', 'type':'article','topics':sorted({lookup[('ReadCube',c)] for c in p.get('list_ids',[]) if ('ReadCube',c) in lookup})})
+    # Reviewed corrections live beside the private snapshots, never overwrite sources.
+    repairs_path=work/'repairs.json'
+    repairs=json.loads(repairs_path.read_text(encoding='utf-8')) if repairs_path.exists() else []
+    reviewed={(r['source'],r['source_id']):r for r in repairs}
+    excluded=[]
+    corrected=[]
+    fields={'title','authors','year','doi','journal','volume','issue','pages','type','url','aliases'}
+    for p in incoming:
+        review=reviewed.get((p['source'],p['source_id']))
+        if review:
+            if review.get('action')=='exclude':
+                excluded.append({'source':p['source'],'source_id':p['source_id'],'reason':review['reason']})
+                continue
+            patch=review.get('fields',{})
+            if set(patch)-fields: raise ValueError('Unsupported repair fields')
+            p.update(patch)
+            p['doi']=doi_of(p.get('doi'))
+        corrected.append(p)
+    incoming=corrected
     # Two passes: DOI identity first, then exact normalized title + year for no-DOI copies.
     records={}; provenance=defaultdict(list); pending=[]
     by_title=defaultdict(set)
@@ -58,7 +77,7 @@ def merge(work):
             candidates=by_title.get((title_key(p['title']),p['year']),set())
             key=next(iter(candidates)) if len(candidates)==1 else 'title:'+title_key(p['title'])+':'+str(p['year'])
         # A citation needs a public identifier or publication information.
-        if not key.startswith('doi:') and not (p['journal'] and p['authors'] and p['year']):
+        if not key.startswith('doi:') and not (p['journal'] and p['authors'] and (p['year'] or p.get('url'))):
             pending.append({'source':p['source'],'source_id':p['source_id'],'title':p['title'],'reason':'incomplete_public_citation'}); continue
         provenance[key].append({'source':p['source'],'id':p['source_id']})
         if key not in records:
@@ -69,8 +88,10 @@ def merge(work):
             r=records[key]
             r['sources']=sorted(set(r['sources']+[p['source']]))
             r['topics']=sorted(set(r['topics']+p['topics']))
-            for field in ['doi','title','authors','year','journal','volume','issue','pages']:
-                if not r[field] and p[field]: r[field]=p[field]
+            if p.get('aliases'):
+                r['aliases']=sorted(set(r.get('aliases',[])+p['aliases']))
+            for field in ['doi','title','authors','year','journal','volume','issue','pages','url']:
+                if not r.get(field) and p.get(field): r[field]=p[field]
     curated=json.loads((ROOT/'data/literature.json').read_text(encoding='utf-8'))
     for p in curated:
         key='doi:'+normalize_doi(p['doi'])
@@ -88,7 +109,7 @@ def merge(work):
     stats={'readcube_h_records':len(ri),'zotero_h_records':len(zi),'catalog_records':len(ordered),'sources_both':sum(set(r['sources'])=={'ReadCube','Zotero'} for r in ordered),'readcube_only':sum(r['sources']==['ReadCube'] for r in ordered),'zotero_only':sum(r['sources']==['Zotero'] for r in ordered),'with_doi':sum(bool(r['doi']) for r in ordered),'pending_source_records':len(pending),'source_duplicates_removed':sum(max(0,len(v)-1) for v in provenance.values())}
     catalog={'updated':date.today().isoformat(),'stats':stats,'topics':sorted(topics.values(),key=lambda t:t['id']),'records':ordered}
     (ROOT/'data/catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    private={'stats':stats,'pending':pending,'provenance':{records[k]['id']:v for k,v in provenance.items()}}
+    private={'stats':stats,'pending':pending,'excluded':excluded,'provenance':{records[k]['id']:v for k,v in provenance.items()}}
     (work/'merge-report.json').write_text(json.dumps(private,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(stats,ensure_ascii=False))
 

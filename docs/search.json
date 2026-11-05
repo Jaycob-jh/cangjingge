@@ -102,7 +102,7 @@
     "href": "notes/index.html#精读卡片的统一结构",
     "title": "研读札记",
     "section": "精读卡片的统一结构",
-    "text": "精读卡片的统一结构\n\n\n01\n\n科学问题\n\n\n论文针对何种问题，背景与假设是什么？\n\n\n\n02\n\n方法与证据\n\n\n核心方法、数据来源、研究设计及对应图表。\n\n\n\n03\n\n评价与延伸\n\n\n主要结论、局限、相关研究和进一步问题。\n\n\n\n新增札记时复制 templates/note.qmd 到 notes/posts/ 目录，修改后提交。"
+    "text": "精读卡片的统一结构\n\n\n01\n\n科学问题\n\n\n论文针对何种问题，背景与假设是什么？\n\n\n\n02\n\n方法与证据\n\n\n核心方法、数据来源、研究设计及对应图表。\n\n\n\n03\n\n评价与延伸\n\n\n主要结论、局限、相关研究和进一步问题。\n\n\n\n想分享你的阅读笔记？查看提交材料的方法。"
   },
   {
     "objectID": "library/papers/openscholar.html",
@@ -249,35 +249,35 @@
     "href": "index.html",
     "title": "藏经阁 Cangjingge",
     "section": "",
-    "text": "围绕神经调控、经颅光生物调节 (tPBM) 与脑连接组学整理公开文献、结构化研读札记和专题评述。每项论述保留来源、证据位置与适用条件，便于检索、比较和引用。\n进入典籍索引 ↗ 浏览研读札记 →\n公开文献 · 结构化评注 · 来源可回溯"
+    "text": "这里收集神经调控、经颅光刺激（tPBM）和脑网络研究的论文。你可以搜索题名、作者或 DOI，按主题浏览文献，查看阅读笔记，再通过原文链接继续阅读。\n查找文献 ↗ 阅读笔记 →\n按主题查找 · 查看书目信息 · 阅读原文与笔记\n试试看：浏览经颅光刺激文献。"
   },
   {
-    "objectID": "index.html#核心索引",
-    "href": "index.html#核心索引",
+    "objectID": "index.html#从这里开始",
+    "href": "index.html#从这里开始",
     "title": "藏经阁 Cangjingge",
-    "section": "核心索引",
-    "text": "核心索引\n\n\n01 / 文献索引 (Literature)\n典籍目录 规范收录同行评审期刊论文、经典专著与预印本，完整标引 DOI、实验版本与开源资源链接。 查阅文献索引 ↗\n\n\n02 / 证据笔记 (Research Notes)\n研读札记 提炼核心方法、效应量、关键证据与局限性，支持结论直接回溯至原文图表。 阅读研读笔记 ↗\n\n\n03 / 知识专题 (Synthesis)\n专题评述 聚合离散研究，梳理经颅光刺激物理机制、多模态神经影像验证及脑网络靶向干预等核心课题。 探索研究专题 ↗"
+    "section": "从这里开始",
+    "text": "从这里开始\n\n\n01 / 查找论文\n典籍目录 输入题名、作者或 DOI，找到论文的发表信息和原文链接；也可以按研究方向和细分主题筛选。 查阅文献索引 ↗\n\n\n02 / 阅读笔记\n研读札记 查看一篇论文研究了什么、怎么做、发现了什么。笔记记录阅读进度，具体结果对应原文页码或图表。 阅读研读笔记 ↗\n\n\n03 / 按主题阅读\n专题评述 把同一问题下的论文放在一起读，例如经颅光刺激的参数与安全性、个体化脑刺激、脑电与认知。 探索研究专题 ↗"
   },
   {
-    "objectID": "index.html#文献整理与证据评注流程",
-    "href": "index.html#文献整理与证据评注流程",
+    "objectID": "index.html#一篇文章怎样加入藏经阁",
+    "href": "index.html#一篇文章怎样加入藏经阁",
     "title": "藏经阁 Cangjingge",
-    "section": "文献整理与证据评注流程",
-    "text": "文献整理与证据评注流程\n\n\n01 / 原始凭证归档 (Provenance)\n完整标引 DOI、作者机构、预印本版本与合法原文路径。\n\n\n02 / 科学问题映射 (Taxonomy)\n依据假说与实验范式归纳分类，建立神经干预与脑网络交叉索引。\n\n\n03 / 方法与证据评注 (Critique)\n提取核心效应量、光剂量参数、刺激靶点及实验边界，定位图表证据。\n\n\n04 / 证据综合与再现 (Synthesis)\n对比研究结论，记录重复验证结果、适用条件与尚存争议。"
+    "section": "一篇文章怎样加入藏经阁",
+    "text": "一篇文章怎样加入藏经阁\n\n\n01 / 提供 PDF 或 DOI\n把 PDF、DOI 或论文题目交给维护者，开始整理。\n\n\n02 / 查重并补全书目\n与现有文库查重，核对作者、年份、期刊和 DOI。\n\n\n03 / 放进相关主题\n沿用文库分类，一篇文章可以同时属于多个主题。\n\n\n04 / 读后补充笔记\n读摘要或全文后，记录主要内容、结果和自己的理解。"
   },
   {
-    "objectID": "index.html#基于版本控制的学术共建",
-    "href": "index.html#基于版本控制的学术共建",
+    "objectID": "index.html#一起补充文献和笔记",
+    "href": "index.html#一起补充文献和笔记",
     "title": "藏经阁 Cangjingge",
-    "section": "基于版本控制的学术共建",
-    "text": "基于版本控制的学术共建\n文献卡片与研读札记通过 Git 记录修订，维护者审核来源与内容后合并。可以通过 Pull Request 提交新文献、勘误或专题建议。\n查看共建流程与规范 ↗"
+    "section": "一起补充文献和笔记",
+    "text": "一起补充文献和笔记\n欢迎补充论文、分享阅读笔记，或指出书目信息中的错误。可以把材料交给维护者，也可以通过 GitHub 提交修改建议。\n怎样提交材料 ↗"
   },
   {
-    "objectID": "index.html#已收录内容",
-    "href": "index.html#已收录内容",
+    "objectID": "index.html#先读这几篇",
+    "href": "index.html#先读这几篇",
     "title": "藏经阁 Cangjingge",
-    "section": "已收录内容",
-    "text": "已收录内容\n完整文献目录已接入 ReadCube H 与 Zotero H 的现有文献及主题分类。以下为已整理卡片与札记入口。\n\n1064 nm 经颅光刺激：健康人安全性研究。\n个体网络靶点与频率：工作记忆神经调控及摘要阅读札记。\n脑电、注意控制与运动想象解码（专题阅读索引）。\nOpenScholar：学术文献检索与证据综合（平台方法参考）。\n文献精读与证据记录规范（平台指南）。"
+    "section": "先读这几篇",
+    "text": "先读这几篇\n完整文献目录已接入 ReadCube H 与 Zotero H 的现有文献及主题分类。下面是几篇已有整理内容的文章与阅读指南。\n\n1064 nm 经颅光刺激：健康人安全性研究。\n个体网络靶点与频率：工作记忆神经调控及摘要阅读札记。\n脑电、注意控制与运动想象解码（专题阅读索引）。\nOpenScholar：学术文献检索与证据综合（平台方法参考）。\n文献精读与证据记录规范（平台指南）。"
   },
   {
     "objectID": "research/eeg-cognition.html",
@@ -1201,7 +1201,7 @@
     "href": "library/record.html#paper-ac46d94dca7e5425",
     "title": "Personalized Adaptive Cortical Electro-stimulation (PACE) in Treatment-Resistant Depression",
     "section": "",
-    "text": "Ziad Nahas · Robert Hermosillo · Spencer H Eiting · Tariq Hattab · Maya Hazimeh · Rachel A Johnson · Thomas Madison · Kimberly B Weldon · Seth Koenig · Cash Differding · Ahmed Sakr · Butool Durrani · Sanju Koirala · Jeremy Chaikind · Eric Waldron · Nicholas M Arnoudse · Oscar Miranda-Domínguez · Brenden Tervo-Clemmens · Bart Larsen · Richard Betzel · Eric Feczko · Lucille A Moore · Julia Moser · Jacob T Lundquist · Gracie J Grimsrud · Nora Byington · Kristina Hufnagle · Charles Lynch · Conor Liston · Scott Marek · Evan M Gordon · Timothy Laumann · Alexander B Herman · Alik Widge · Michael C Park · Nico U F Dosenbach · Steven M Nelson · David P Darrow · Theoden I Netoff · Damien Fair · 2025 · 10.31234/osf.io/5c3ba_v1 · 个体化脑网络与脑图谱 · 网络控制与认知控制机制 · 默认模式网络（DMN） · 神经调控与脑刺激 · 调控靶点、闭环与个体化 · 神经调控与脑网络/成像 · 临床疗效与康复 · 认知的网络与脑刺激机制 · 抑郁、焦虑与双相障碍"
+    "text": "Ziad Nahas · Robert Hermosillo · Spencer H. Eiting · Tariq Hattab · Maya Hazimeh · Rachel A. Johnson · Thomas Madison · Kimberly B. Weldon · Seth Koenig · Cash Differding · Ahmed Sakr · Butool Durrani · Sanju Koirala · Jeremy Chaikind · Eric Waldron · Nicholas M. Arnoudse · Oscar Miranda-Domínguez · Brenden Tervo-Clemmens · Bart Larsen · Richard Betzel · Eric Feczko · Lucille A Moore · Julia Moser · Jacob T. Lundquist · Gracie J Grimsrud · Nora Byington · Kristina Hufnagle · Charles Lynch · Conor Liston · Scott Marek · Evan M. Gordon · Timothy Laumann · Alexander B Herman · Alik Widge · Michael C. Park · Nico U. F. Dosenbach · Steven M Nelson · David P Darrow · Theoden I. Netoff · Damien Fair · PsyArXiv（预印本） · 2025 · 10.31234/osf.io/5c3ba_v1 · 脑网络与连接组学 · 个体化脑网络与脑图谱 · 网络控制与认知控制机制 · 默认模式网络（DMN） · 神经调控与脑刺激 · 调控靶点、闭环与个体化 · 神经调控与脑网络/成像 · 临床疗效与康复 · 认知、记忆与执行功能 · 认知的网络与脑刺激机制 · 临床神经精神疾病与康复 · 抑郁、焦虑与双相障碍"
   },
   {
     "objectID": "catalog:paper-c3aae9df637ac069",
@@ -1425,7 +1425,7 @@
     "href": "library/record.html#paper-3f3d2eeb205a62c0",
     "title": "A precision functional atlas of personalized network topography and probabilities",
     "section": "",
-    "text": "R. J. M. Hermosillo · L. A. Moore · E. Feczko · O. Miranda-Dominguez · A. Pines · A. Dworetsky · G. Conan · M. A. Mooney · A. Randolph · A. Graham · B. Adeyemo · E. Earl · A. Perrone · C. M. Carrasco · J. Uriarte-Lopez · K. Snider · O. Doyle · M. Cordova · S. Koirala · G. J. Grimsrud · N. Byington · S. M. Nelson · C. Gratton · S. Petersen · S. W. Feldstein Ewing · B. J. Nagel · N. U. F. Dosenbach · T. D. Satterthwaite · D. A. Fair · Nat Neurosci · 2024 · 10.1038/s41593-024-01596-5 · 脑网络与连接组学 · 个体化脑网络与脑图谱 · 脑网络分析方法 · 脑网络与连接组学专题 · 调控靶点、闭环与个体化 · 神经调控与脑网络/成像 · 执行功能、注意与认知控制 · 认知的网络与脑刺激机制 · 统计、复现性与开放方法 · 儿童、青少年与脑发育 · 衰老与全生命周期"
+    "text": "Robert J. M. Hermosillo · Lucille A. Moore · Eric Feczko · Óscar Miranda-Domínguez · Adam Pines · Ally Dworetsky · Gregory Conan · Michael A. Mooney · Anita Randolph · Alice Graham · Babatunde Adeyemo · Eric Earl · Anders Perrone · Cristian Morales Carrasco · Johnny Uriarte-Lopez · Kathy Snider · Olivia Doyle · Michaela Cordova · Sanju Koirala · Gracie J. Grimsrud · Nora Byington · Steven M. Nelson · Caterina Gratton · Steven Petersen · Sarah W. Feldstein Ewing · Bonnie J. Nagel · Nico U. F. Dosenbach · Theodore D. Satterthwaite · Damien A. Fair · Nature Neuroscience · 2024 · 10.1038/s41593-024-01596-5 · 脑网络与连接组学 · 个体化脑网络与脑图谱 · 脑网络分析方法 · 脑网络与连接组学专题 · 神经调控与脑刺激 · 调控靶点、闭环与个体化 · 神经调控与脑网络/成像 · 认知、记忆与执行功能 · 执行功能、注意与认知控制 · 认知的网络与脑刺激机制 · 脑影像、计算与方法 · 统计、复现性与开放方法 · 生命历程、脑状态与转化研究 · 儿童、青少年与脑发育 · 衰老与全生命周期"
   },
   {
     "objectID": "catalog:paper-dcdda6504fecf9b5",
@@ -1706,6 +1706,13 @@
     "title": "Home-based transcranial direct current stimulation treatment for major depressive disorder: a fully remote phase 2 randomized sham-controlled trial",
     "section": "",
     "text": "Rachel D. Woodham · Sudhakar Selvaraj · Nahed Lajmi · Harriet Hobday · Gabrielle Sheehan · Ali-Reza Ghazi-Noori · Peter J. Lagerberg · Maheen Rizvi · Sarah S. Kwon · Paulette Orhii · David Maislin · Lucia Hernandez · Rodrigo Machado-Vieira · Jair C. Soares · Allan H. Young · Cynthia H. Y. Fu · Nature Medicine · 2024 · 10.1038/s41591-024-03305-y · 脑网络与连接组学 · 网络控制与认知控制机制 · 神经调控与脑刺激 · 经颅电刺激（tDCS/tACS） · 参数、剂量、安全与机制 · 临床疗效与康复 · 临床神经精神疾病与康复 · 抑郁、焦虑与双相障碍 · 脑影像、计算与方法 · MRI采集、预处理与质量控制 · 生命历程、脑状态与转化研究 · 衰老与全生命周期"
+  },
+  {
+    "objectID": "catalog:paper-ccae35bd8cc15d02",
+    "href": "library/record.html#paper-ccae35bd8cc15d02",
+    "title": "Illuminating Neural Pathways: Modulating Motor Cortex and Related Pathways with Photobiomodulation",
+    "section": "",
+    "text": "Emily Jun Yu · The Ohio State University · 2024 · 脑网络与连接组学 · 脑网络分析方法 · 神经调控与脑刺激 · 经颅磁刺激（TMS/TBS） · 神经调控与脑网络/成像"
   },
   {
     "objectID": "catalog:paper-50c421ac0acd77fe",
@@ -2132,7 +2139,7 @@
     "href": "library/record.html#paper-a92bec5a8427e76f",
     "title": "Two common and distinct forms of variation in human functional brain networks",
     "section": "",
-    "text": "A. Dworetsky · B. A. Seitzman · B. Adeyemo · A. N. Nielsen · A. S. Hatoum · D. M. Smith · T. E. Nichols · M. Neta · S. E. Petersen · C. Gratton · Nat Neurosci · 2024 · 10.1038/s41593-024-01618-2 · 脑网络与连接组学 · 脑网络与连接组学专题 · 预测、规范模型与个体差异"
+    "text": "Ally Dworetsky · Benjamin A. Seitzman · Babatunde Adeyemo · Ashley N. Nielsen · Alexander S. Hatoum · Derek M. Smith · Thomas E. Nichols · Maital Neta · Steven E. Petersen · Caterina Gratton · Nature Neuroscience · 2024 · 10.1038/s41593-024-01618-2 · 脑网络与连接组学 · 脑网络与连接组学专题 · 脑影像、计算与方法 · 预测、规范模型与个体差异"
   },
   {
     "objectID": "catalog:paper-3c25c88d68131aea",
@@ -2154,6 +2161,13 @@
     "title": "Working memory enhancement using real-time phase-tuned transcranial alternating current stimulation",
     "section": "",
     "text": "David Haslacher · Alessia Cavallo · Philipp Reber · Anna Kattein · Moritz Thiele · Khaled Nasr · Kimia Hashemi · Rodika Sokoliuk · Gregor Thut · Surjo R. Soekadar · Brain Stimulation · 2024 · 10.1016/j.brs.2024.07.007 · 脑网络与连接组学 · 网络控制与认知控制机制 · 神经调控与脑刺激 · 调控靶点、闭环与个体化 · 经颅电刺激（tDCS/tACS） · 认知、记忆与执行功能 · 记忆、学习与海马 · 执行功能、注意与认知控制 · 认知的网络与脑刺激机制"
+  },
+  {
+    "objectID": "catalog:paper-d1fd140b6b947ff2",
+    "href": "library/record.html#paper-d1fd140b6b947ff2",
+    "title": "经颅光生物调节对记忆任务态脑网络拓扑的影响研究",
+    "section": "",
+    "text": "杜钊宁 · 河北大学 · 2024 · 神经调控与脑刺激"
   },
   {
     "objectID": "catalog:paper-fd9cd6a3bde5214c",
@@ -2321,7 +2335,7 @@
     "href": "library/record.html#paper-b4b8983e3d9e8a49",
     "title": "Communication dynamics in the human connectome shape the cortex-wide propagation of direct electrical stimulation",
     "section": "",
-    "text": "C. Seguin · M. Jedynak · O. David · S. Mansour · O. Sporns · A. Zalesky · Neuron · 2023 · 10.1016/j.neuron.2023.01.027 · 结构-功能耦合 · 脑网络基础 · 脑网络分析方法 · 脑网络与连接组学专题 · 神经调控与脑刺激 · 神经调控与脑网络/成像 · EEG/MEG 数据与预处理 · 预测、规范模型与个体差异 · 统计、复现性与开放方法 · 生命历程、脑状态与转化研究"
+    "text": "Caio Seguin · Maciej Jedynak · Olivier David · Sina Mansour · Olaf Sporns · Andrew Zalesky · Neuron · 2023 · 10.1016/j.neuron.2023.01.027 · 脑网络与连接组学 · 结构-功能耦合 · 脑网络基础 · 脑网络分析方法 · 脑网络与连接组学专题 · 神经调控与脑刺激 · 神经调控与脑网络/成像 · 脑电、脑振荡与源定位 · EEG/MEG 数据与预处理 · 脑影像、计算与方法 · 预测、规范模型与个体差异 · 统计、复现性与开放方法 · 生命历程、脑状态与转化研究"
   },
   {
     "objectID": "catalog:paper-4a47fb8ecef3ac71",
@@ -2597,6 +2611,13 @@
     "text": "Christopher Timmermann · Leor Roseman · Sharad Haridas · Fernando E. Rosas · Lisa Luan · Hannes Kettner · Jonny Martell · David Erritzoe · Enzo Tagliazucchi · Carla Pallavicini · Manesh Girn · Andrea Alamia · Robert Leech · David J. Nutt · Robin L. Carhart-Harris · Proceedings of the National Academy of Sciences · 2023 · 10.1073/pnas.2218949120 · 脑网络与连接组学 · 功能梯度 · 脑网络分析方法 · 网络控制与认知控制机制 · 脑电、脑振荡与源定位 · EEG/MEG 数据与预处理 · 临床神经精神疾病与康复 · 精神分裂症、孤独症与 ADHD · 生命历程、脑状态与转化研究 · 意识、麻醉与静息脑状态"
   },
   {
+    "objectID": "catalog:paper-e8f1198e1e1f09d3",
+    "href": "library/record.html#paper-e8f1198e1e1f09d3",
+    "title": "Improvements in the clinical signs of Parkinson’s disease using photobiomodulation: a 3-year follow-up case series",
+    "section": "",
+    "text": "Ann Liebert · Brian Bicknell · E-Liisa Laakso · Sharon Tilley · Vincent Pang · Gillian Heller · John Mitrofanis · Geoffrey Herkes · Hosen Kiat · Medical Research Archives · 2023 · 10.18103/mra.v11i3.3690 · 神经调控与脑刺激 · 临床神经精神疾病与康复 · 阿尔茨海默病、帕金森病与认知障碍"
+  },
+  {
     "objectID": "catalog:paper-1407db68ad68412d",
     "href": "library/record.html#paper-1407db68ad68412d",
     "title": "Increased Improvement in Speech-Language Skills After Transcranial Photobiomodulation Plus Speech-Language Therapy, Compared to Speech-Language Therapy Alone: Case Report with Aphasia",
@@ -2664,7 +2685,7 @@
     "href": "library/record.html#paper-6dd13f3b88a8ed3e",
     "title": "Low-dimensional controllability of complex networks and applications to the human brain",
     "section": "",
-    "text": "Rémy Ben Messaoud · 2023 · 10.70675/6d8382bcze00cz4648z8021z0918e5c13a52 · 脑网络与连接组学 · 网络控制与认知控制机制 · 认知的网络与脑刺激机制"
+    "text": "Rémy Ben Messaoud · Sorbonne Université · 2023 · 10.70675/6d8382bcze00cz4648z8021z0918e5c13a52 · 脑网络与连接组学 · 网络控制与认知控制机制 · 认知、记忆与执行功能 · 认知的网络与脑刺激机制"
   },
   {
     "objectID": "catalog:paper-b46ecd2bb3285fd6",
@@ -3063,7 +3084,7 @@
     "href": "library/record.html#paper-df320224bc6f9e89",
     "title": "Transcranial focused ultrasound-mediated neurochemical and functional connectivity changes in deep cortical regions in humans",
     "section": "",
-    "text": "S. N. Yaakub · T. A. White · J. Roberts · E. Martin · L. Verhagen · C. J. Stagg · S. Hall · E. F. Fouragnan · Nat Commun · 2023 · 10.1038/s41467-023-40998-0 · 脑网络分析方法 · 网络控制与认知控制机制 · 超声、DBS与其他调控 · 参数、剂量、安全与机制 · 神经调控与脑网络/成像 · 脑影像、计算与方法 · MRI采集、预处理与质量控制 · 动物模型与跨物种转化"
+    "text": "Siti N. Yaakub · Tristan A. White · Jamie Roberts · Eleanor Martin · Lennart Verhagen · Charlotte J. Stagg · Stephen Hall · Elsa F. Fouragnan · Nature Communications · 2023 · 10.1038/s41467-023-40998-0 · 脑网络与连接组学 · 脑网络分析方法 · 网络控制与认知控制机制 · 神经调控与脑刺激 · 超声、DBS与其他调控 · 参数、剂量、安全与机制 · 神经调控与脑网络/成像 · 脑影像、计算与方法 · MRI采集、预处理与质量控制 · 生命历程、脑状态与转化研究 · 动物模型与跨物种转化"
   },
   {
     "objectID": "catalog:paper-620beb05876fc5b4",
@@ -3752,11 +3773,25 @@
     "text": "D. Ershov · M. S. Phan · J. W. Pylvanainen · S. U. Rigaud · L. Le Blanc · A. Charles-Orszag · J. R. W. Conway · R. F. Laine · N. H. Roy · D. Bonazzi · G. Dumenil · G. Jacquemet · J. Y. Tinevez · Nat Methods · 2022 · 10.1038/s41592-022-01507-1 · 神经调控与脑刺激 · 脑影像、计算与方法 · MRI采集、预处理与质量控制"
   },
   {
+    "objectID": "catalog:paper-e90c8f8039ad23ae",
+    "href": "library/record.html#paper-e90c8f8039ad23ae",
+    "title": "Transcranial electrical stimulation effects on neurovascular coupling",
+    "section": "",
+    "text": "Yashika Arora · Anirban Dutta · Research Square（预印本） · 2022 · 10.21203/rs.3.rs-1429599/v1 · 神经调控与脑刺激"
+  },
+  {
     "objectID": "catalog:paper-8165e521186b9cbc",
     "href": "library/record.html#paper-8165e521186b9cbc",
     "title": "Transcranial Infrared Laser Stimulation for the Treatment of Traumatic Brain Injury: A Case Series",
     "section": "",
     "text": "E. S. Rindner · J. M. Haroon · K. G. Jordan · K. D. Mahdavi · J. R. Surya · M. A. Zielinski · B. Habelhah · V. Venkatraman · S. A. Becerra · L. Chan · T. P. Kuhn · S. E. Jordan · J Lasers Med Sci · 2022 · 10.34172/jlms.2022.65 · 脑网络与连接组学 · 网络控制与认知控制机制 · 神经调控与脑刺激 · 调控靶点、闭环与个体化 · 经颅光生物调节（tPBM） · 参数、剂量、安全与机制 · 神经调控与脑网络/成像 · 临床疗效与康复 · 临床神经精神疾病与康复 · 卒中、脑损伤与神经康复"
+  },
+  {
+    "objectID": "catalog:paper-76d904718e035037",
+    "href": "library/record.html#paper-76d904718e035037",
+    "title": "Transcranial Magnetic and Electrical Brain Stimulation for Neurological Disorders",
+    "section": "",
+    "text": "Bahman Zohuri · Patrick McDaniel · Elsevier · 2022 · 10.1016/c2021-0-03032-7 · 神经调控与脑刺激"
   },
   {
     "objectID": "catalog:paper-c025a96e3edd2505",
@@ -4354,6 +4389,13 @@
     "text": "Hannah Brauer · Carolin Breitling-Ziegler · Vera Moliadze · Britta Galling · Alexander Prehn-Kristensen · Prog Brain Res · 2021 · 10.1016/bs.pbr.2021.01.013 · 脑网络与连接组学 · 网络控制与认知控制机制 · 神经调控与脑刺激 · 经颅电刺激（tDCS/tACS） · 参数、剂量、安全与机制 · 临床疗效与康复 · 认知、记忆与执行功能 · 执行功能、注意与认知控制 · 临床神经精神疾病与康复 · 精神分裂症、孤独症与 ADHD · 生命历程、脑状态与转化研究 · 儿童、青少年与脑发育 · 衰老与全生命周期"
   },
   {
+    "objectID": "catalog:paper-ff66a980fad8bb9f",
+    "href": "library/record.html#paper-ff66a980fad8bb9f",
+    "title": "Transcranial Direct Current Stimulation in Neuropsychiatric Disorders",
+    "section": "",
+    "text": "André R. Brunoni（编） · Michael A. Nitsche（编） · Colleen K. Loo（编） · Springer International Publishing · 2021 · 10.1007/978-3-030-76136-3 · 神经调控与脑刺激 · 经颅电刺激（tDCS/tACS）"
+  },
+  {
     "objectID": "catalog:paper-fab42d9d67ad2cbe",
     "href": "library/record.html#paper-fab42d9d67ad2cbe",
     "title": "Transcranial laser stimulation: Mitochondrial and cerebrovascular effects in younger and older healthy adults",
@@ -4422,6 +4464,13 @@
     "title": "Wireless, battery-free, subdermally implantable platforms for transcranial and long-range optogenetics in freely moving animals",
     "section": "",
     "text": "Jokubas Ausra · Mingzheng Wu · Xin Zhang · Abraham Vázquez-Guardado · Patrick Skelton · Roberto Peralta · Raudel Avila · Thomas Murickan · Chad R. Haney · Yonggang Huang · John A. Rogers · Yevgenia Kozorovitskiy · Philipp Gutruf · Proceedings of the National Academy of Sciences · 2021 · 10.1073/pnas.2025775118 · 神经调控与脑刺激 · 超声、DBS与其他调控 · 参数、剂量、安全与机制 · 光刺激热效应与热安全 · 生命历程、脑状态与转化研究 · 动物模型与跨物种转化"
+  },
+  {
+    "objectID": "catalog:paper-f49fda5447f56f5b",
+    "href": "library/record.html#paper-f49fda5447f56f5b",
+    "title": "经颅光生物调控技术对中枢神经系统的影响与机制",
+    "section": "",
+    "text": "李海珍 · 王朴 · 中华物理医学与康复杂志 · 2021 · 10.3760/cma.j.issn.0254-1424.2021.04.022 · 神经调控与脑刺激 · 经颅光生物调节（tPBM） · 参数、剂量、安全与机制"
   },
   {
     "objectID": "catalog:paper-58cf7e2033a9535f",
@@ -4757,7 +4806,7 @@
     "href": "library/record.html#paper-40a597eb2d487cfc",
     "title": "Non Invasive Brain Stimulation in Psychiatry and Clinical Neurosciences",
     "section": "",
-    "text": "2020 · 10.1007/978-3-030-43356-7 · 神经调控与脑刺激"
+    "text": "Bernardo Dell'Osso（编） · Giorgio Di Lorenzo（编） · Springer International Publishing · 2020 · 10.1007/978-3-030-43356-7 · 神经调控与脑刺激"
   },
   {
     "objectID": "catalog:paper-7e8f3a421d3e569d",
@@ -5017,6 +5066,13 @@
     "title": "193. Neurophysiological Enhancements of the Human Brain by Transcranial Photobiomodulation Using 1064-nm Laser",
     "section": "",
     "text": "Xinlong Wang · Hashini Wanniarachchi · Francisco Gonzalez-Lima · Hanli Liu · Biological Psychiatry · 2019 · 10.1016/j.biopsych.2019.03.207 · 神经调控与脑刺激 · 经颅光生物调节（tPBM）"
+  },
+  {
+    "objectID": "catalog:paper-9a3c3d5444fe4146",
+    "href": "library/record.html#paper-9a3c3d5444fe4146",
+    "title": "A Battery of Cognitive Tasks for the Assessment of Non-Affective and Affective Executive Functioning",
+    "section": "",
+    "text": "Abdul-Raheem Mohammed · The Russian Journal of Cognitive Science · 2019 · 认知、记忆与执行功能 · 情绪、奖赏与社会认知"
   },
   {
     "objectID": "catalog:paper-3b380c2998a461ef",
@@ -5478,7 +5534,7 @@
     "href": "library/record.html#paper-31e56ca8a7434aff",
     "title": "SimNIBS 2.1: A Comprehensive Pipeline for Individualized Electric Field Modelling for Transcranial Brain Stimulation",
     "section": "",
-    "text": "G. B. Saturnino · O. Puonti · J. D. Nielsen · D. Antonenko · K. H. Madsen · A. Thielscher · Brain and Human Body Modeling: Computational Human Modeling at EMBC 2018 · 2019 · 10.1007/978-3-030-21293-3_1 · 神经调控与脑刺激 · 参数、剂量、安全与机制"
+    "text": "Guilherme B. Saturnino · Oula Puonti · Jesper D. Nielsen · Daria Antonenko · Kristoffer H. Madsen · Axel Thielscher · Brain and Human Body Modeling · 2019 · 10.1007/978-3-030-21293-3_1 · 神经调控与脑刺激 · 参数、剂量、安全与机制"
   },
   {
     "objectID": "catalog:paper-0554a5ade6bebaaa",
@@ -5570,6 +5626,13 @@
     "title": "Trajectories of Response to Dorsolateral Prefrontal rTMS in Major Depression: A THREE-D Study",
     "section": "",
     "text": "T. S. Kaster · J. Downar · F. Vila-Rodriguez · K. E. Thorpe · K. Feffer · Y. Noda · P. Giacobbe · Y. Knyahnytska · S. H. Kennedy · R. W. Lam · Z. J. Daskalakis · D. M. Blumberger · Am J Psychiatry · 2019 · 10.1176/appi.ajp.2018.18091096 · 神经调控与脑刺激 · 经颅磁刺激（TMS/TBS） · 临床疗效与康复 · 临床神经精神疾病与康复 · 抑郁、焦虑与双相障碍 · 生命历程、脑状态与转化研究 · 衰老与全生命周期"
+  },
+  {
+    "objectID": "catalog:paper-6c7037a72f25ff5e",
+    "href": "library/record.html#paper-6c7037a72f25ff5e",
+    "title": "Transcranial Near-Infrared Light: Dose-Dependent Effects on EEG Oscillations but not Cerebral Blood Flow",
+    "section": "",
+    "text": "Vincenza Spera · Tatiana Sitnikova · Meredith J. Ward · Parya Farzam · Jeremy Hughes · Eric Bui · Marco Maiello · Luis De Taboada · Michael R. Hamblin · Maria Angela Franceschini · Paolo Cassano · bioRxiv（预印本） · 2019 · 10.1101/837591 · 脑影像、计算与方法"
   },
   {
     "objectID": "catalog:paper-f59d64077b2a5a61",
@@ -5808,6 +5871,13 @@
     "title": "Impact of heat on metabolic and hemodynamic changes in transcranial infrared laser stimulation measured by broadband near-infrared spectroscopy",
     "section": "",
     "text": "X. Wang · D. D. Reddy · S. S. Nalawade · S. Pal · F. Gonzalez-Lima · H. Liu · Neurophotonics · 2018 · 10.1117/1.nph.5.1.011004 · 脑网络与连接组学 · 网络控制与认知控制机制 · 神经调控与脑刺激 · 经颅光生物调节（tPBM） · 超声、DBS与其他调控 · 参数、剂量、安全与机制 · 光刺激热效应与热安全 · 认知、记忆与执行功能 · 认知的网络与脑刺激机制"
+  },
+  {
+    "objectID": "catalog:paper-05d96929f0d17039",
+    "href": "library/record.html#paper-05d96929f0d17039",
+    "title": "Individualized non-invasive brain stimulation engages the subgenual anterior cingulate and amygdala",
+    "section": "",
+    "text": "Desmond J Oathes · Jared Zimmerman · Romain Duprat · Seda Cavdaroglu · Morgan Scully · Benjamin Rosenberg · Matthew Flounders · Hannah Long · Mark Elliott · Gavriella Shandler · Russell T Shinohara · Kristin A Linn · bioRxiv（预印本） · 2018 · 10.1101/503441 · 神经调控与脑刺激"
   },
   {
     "objectID": "catalog:paper-877201f388b92b63",
@@ -6367,7 +6437,7 @@
     "href": "library/record.html#paper-17b5802d9707b22a",
     "title": "MRIQC: Advancing the automatic prediction of image quality in MRI from unseen sites",
     "section": "",
-    "text": "O. Esteban · D. Birman · M. Schaer · O. O. Koyejo · R. A. Poldrack · K. J. Gorgolewski · PLoS One · 2017 · 10.1371/journal.pone.0184661 · 网络控制与认知控制机制 · 脑影像、计算与方法 · MRI采集、预处理与质量控制 · 预测、规范模型与个体差异 · 统计、复现性与开放方法"
+    "text": "Oscar Esteban · Daniel Birman · Marie Schaer · Oluwasanmi O. Koyejo · Russell A. Poldrack · Krzysztof J. Gorgolewski · PLOS ONE · 2017 · 10.1371/journal.pone.0184661 · 脑网络与连接组学 · 网络控制与认知控制机制 · 脑影像、计算与方法 · MRI采集、预处理与质量控制 · 预测、规范模型与个体差异 · 统计、复现性与开放方法"
   },
   {
     "objectID": "catalog:paper-008d448f0cdeb266",
@@ -6809,6 +6879,13 @@
     "title": "Spike-timing-dependent plasticity in the human dorso-lateral prefrontal cortex",
     "section": "",
     "text": "Elias Paolo Casula · Maria Concetta Pellicciari · Silvia Picazio · Carlo Caltagirone · Giacomo Koch · NeuroImage · 2016 · 10.1016/j.neuroimage.2016.08.060 · 脑网络与连接组学 · 结构-功能耦合 · 神经调控与脑刺激 · 经颅磁刺激（TMS/TBS） · 参数、剂量、安全与机制 · 神经调控与脑网络/成像 · 临床疗效与康复 · 脑电、脑振荡与源定位 · EEG/MEG 数据与预处理 · 认知、记忆与执行功能 · 认知的网络与脑刺激机制 · 临床神经精神疾病与康复 · 抑郁、焦虑与双相障碍"
+  },
+  {
+    "objectID": "catalog:paper-4c177e21b993a291",
+    "href": "library/record.html#paper-4c177e21b993a291",
+    "title": "SPM12 Manual（2016-07-20版）",
+    "section": "",
+    "text": "The FIL Methods Group · UCL Functional Imaging Laboratory · 2016 · 神经调控与脑刺激 · 经颅光生物调节（tPBM） · 脑影像、计算与方法 · MRI采集、预处理与质量控制"
   },
   {
     "objectID": "catalog:paper-35d33d8be6e842cc",
@@ -7413,6 +7490,13 @@
     "text": "F. Gonzalez-Lima · Bryan R. Barksdale · Julio C. Rojas · Biochemical pharmacology · 2014 · 10.1016/j.bcp.2013.11.010 · 经颅光生物调节（tPBM） · 参数、剂量、安全与机制 · 记忆、学习与海马"
   },
   {
+    "objectID": "catalog:paper-729e4b878e334d6c",
+    "href": "library/record.html#paper-729e4b878e334d6c",
+    "title": "Neuropharmacological effect of atomoxetine on attention network in children with attention deficit hyperactivity disorder during oddball paradigms as assessed using functional near-infrared spectroscopy",
+    "section": "",
+    "text": "Masako Nagashima · Yukifumi Monden · Ippeita Dan · Haruka Dan · Tsutomu Mizutani · Daisuke Tsuzuki · Yasushi Kyutoku · Yuji Gunji · Daisuke Hirano · Takamichi Taniguchi · Hideo Shimoizumi · Mariko Y. Momoi · Takanori Yamagata · Eiju Watanabe · Neurophotonics · 2014 · 10.1117/1.nph.1.2.025007 · 脑影像、计算与方法"
+  },
+  {
     "objectID": "catalog:paper-b4fc24738b8ff563",
     "href": "library/record.html#paper-b4fc24738b8ff563",
     "title": "Non-invasive brain stimulation in neurorehabilitation: local and distant effects for motor recovery",
@@ -7445,7 +7529,7 @@
     "href": "library/record.html#paper-4688f739ad9c8b9a",
     "title": "Resting-state networks link invasive and noninvasive brain stimulation across diverse psychiatric and neurological diseases",
     "section": "",
-    "text": "M. D. Fox · R. L. Buckner · H. Liu · M. M. Chakravarty · A. M. Lozano · A. Pascual-Leone · Proc Natl Acad Sci U S A · 2014 · 10.1073/pnas.1405003111 · 脑网络分析方法 · 脑网络与连接组学专题 · 神经调控与脑刺激 · 调控靶点、闭环与个体化 · 经颅磁刺激（TMS/TBS） · 经颅电刺激（tDCS/tACS） · 超声、DBS与其他调控 · 参数、剂量、安全与机制 · 神经调控与脑网络/成像 · 临床疗效与康复 · 抑郁、焦虑与双相障碍 · 阿尔茨海默病、帕金森病与认知障碍 · 癫痫、疼痛与其他神经疾病"
+    "text": "Michael D. Fox · Randy L. Buckner · Hesheng Liu · M. Mallar Chakravarty · Andres M. Lozano · Alvaro Pascual-Leone · Proceedings of the National Academy of Sciences · 2014 · 10.1073/pnas.1405003111 · 脑网络与连接组学 · 脑网络分析方法 · 脑网络与连接组学专题 · 神经调控与脑刺激 · 调控靶点、闭环与个体化 · 经颅磁刺激（TMS/TBS） · 经颅电刺激（tDCS/tACS） · 超声、DBS与其他调控 · 参数、剂量、安全与机制 · 神经调控与脑网络/成像 · 临床疗效与康复 · 临床神经精神疾病与康复 · 抑郁、焦虑与双相障碍 · 阿尔茨海默病、帕金森病与认知障碍 · 癫痫、疼痛与其他神经疾病"
   },
   {
     "objectID": "catalog:paper-92ba9e63ad698f86",
@@ -7903,11 +7987,11 @@
     "text": "György Buzsáki · Costas A. Anastassiou · Christof Koch · Nature Reviews Neuroscience · 2012 · 10.1038/nrn3241"
   },
   {
-    "objectID": "catalog:paper-075acd5a60e00fbf",
-    "href": "library/record.html#paper-075acd5a60e00fbf",
+    "objectID": "catalog:paper-ff96b98363ab8bbb",
+    "href": "library/record.html#paper-ff96b98363ab8bbb",
     "title": "Transcranial Brain Stimulation",
     "section": "",
-    "text": "Marom Bikson · Davide Reato · Asif Rahman · Frontiers in Neuroscience · 2012 · 10.1201/b14174-5 · 神经调控与脑刺激"
+    "text": "Carlo Miniussi（编） · Walter Paulus（编） · Paolo M. Rossini（编） · CRC Press · 2012 · 10.1201/b14174 · 神经调控与脑刺激"
   },
   {
     "objectID": "catalog:paper-b51de842a787e328",
@@ -8232,6 +8316,13 @@
     "text": "E. Bialystok · Dev Psychol · 2010 · 10.1037/a0015466 · 脑网络与连接组学 · 网络控制与认知控制机制 · 认知、记忆与执行功能 · 语言、语义与阅读 · 生命历程、脑状态与转化研究 · 儿童、青少年与脑发育"
   },
   {
+    "objectID": "catalog:paper-a98f0a2c1f8cb7b0",
+    "href": "library/record.html#paper-a98f0a2c1f8cb7b0",
+    "title": "Mesh-based Monte Carlo method using fast ray-tracing in Plücker coordinates",
+    "section": "",
+    "text": "Qianqian Fang · Biomedical Optics Express · 2010 · 10.1364/boe.1.000165 · 神经调控与脑刺激"
+  },
+  {
     "objectID": "catalog:paper-c225ceece4f7f212",
     "href": "library/record.html#paper-c225ceece4f7f212",
     "title": "Monitoring the depth of anaesthesia",
@@ -8314,6 +8405,13 @@
     "title": "Updating positive and negative stimuli in working memory in depression",
     "section": "",
     "text": "S. M. Levens · I. H. Gotlib · J Exp Psychol Gen · 2010 · 10.1037/a0020283 · 脑网络与连接组学 · 网络控制与认知控制机制 · 认知、记忆与执行功能 · 记忆、学习与海马 · 执行功能、注意与认知控制 · 情绪、奖赏与社会认知 · 临床神经精神疾病与康复 · 抑郁、焦虑与双相障碍 · 脑影像、计算与方法 · 机器学习、深度学习与神经解码"
+  },
+  {
+    "objectID": "catalog:paper-44233a27d86535fa",
+    "href": "library/record.html#paper-44233a27d86535fa",
+    "title": "人脑连接组研究：脑结构网络和脑功能网络",
+    "section": "",
+    "text": "梁夏 · 王金辉 · 贺永 · 科学通报 · 2010 · 10.1360/972009-2150 · 脑网络与连接组学"
   },
   {
     "objectID": "catalog:paper-a2c9a4afc4271a1f",
@@ -8834,6 +8932,13 @@
     "text": "G. Liu · Nat Neurosci · 2004 · 10.1038/nn1206 · 神经调控与脑刺激 · 认知、记忆与执行功能 · 记忆、学习与海马 · 生命历程、脑状态与转化研究 · 动物模型与跨物种转化"
   },
   {
+    "objectID": "catalog:paper-6f0ec4255ba22eaf",
+    "href": "library/record.html#paper-6f0ec4255ba22eaf",
+    "title": "Low Level Laser Therapy (LLLT): Technology Assessment",
+    "section": "",
+    "text": "Grace Wang · Washington State Department of Labor and Industries · 2004 · 神经调控与脑刺激 · 经颅光生物调节（tPBM）"
+  },
+  {
     "objectID": "catalog:paper-37d471a3361d8ec4",
     "href": "library/record.html#paper-37d471a3361d8ec4",
     "title": "Low level laser therapy for treatment of primary and secondary Raynaud’s phenomenon",
@@ -9016,6 +9121,13 @@
     "text": "John Jonides · Eric H. Schumacher · Edward E. Smith · Erick J. Lauber · Edward Awh · Satoshi Minoshima · Robert A. Koeppe · Journal of Cognitive Neuroscience · 1997 · 10.1162/jocn.1997.9.4.462 · 认知、记忆与执行功能 · 记忆、学习与海马 · 执行功能、注意与认知控制 · 情绪、奖赏与社会认知 · 语言、语义与阅读 · 脑影像、计算与方法 · 统计、复现性与开放方法"
   },
   {
+    "objectID": "catalog:paper-67e69d0b4efbb47d",
+    "href": "library/record.html#paper-67e69d0b4efbb47d",
+    "title": "MCML—Monte Carlo modeling of light transport in multi-layered tissues",
+    "section": "",
+    "text": "Lihong Wang · Steven L. Jacques · Liqiong Zheng · Computer Methods and Programs in Biomedicine · 1995 · 10.1016/0169-2607(95)01640-f · 神经调控与脑刺激"
+  },
+  {
     "objectID": "catalog:paper-1bdf800758a2701e",
     "href": "library/record.html#paper-1bdf800758a2701e",
     "title": "Non-invasive monitoring of the redox state of cytochrome oxidase in living tissue using near-infrared laser lights.",
@@ -9065,11 +9177,32 @@
     "text": "William A. Catterall · Science · 1984 · 10.1126/science.6320365 · 神经调控与脑刺激"
   },
   {
+    "objectID": "catalog:paper-ab29c2eab87548b6",
+    "href": "library/record.html#paper-ab29c2eab87548b6",
+    "title": "The Effects of Light on the Human Body",
+    "section": "",
+    "text": "Richard J. Wurtman · Scientific American · 1975 · 10.1038/scientificamerican0775-68 · 生命历程、脑状态与转化研究 · 睡眠与昼夜节律"
+  },
+  {
+    "objectID": "catalog:paper-328fc92d505ee6a2",
+    "href": "library/record.html#paper-328fc92d505ee6a2",
+    "title": "Stimulated Optical Radiation in Ruby",
+    "section": "",
+    "text": "T. H. MAIMAN · Nature · 1960 · 10.1038/187493a0 · 神经调控与脑刺激"
+  },
+  {
     "objectID": "catalog:paper-40a518d53b05c815",
     "href": "library/record.html#paper-40a518d53b05c815",
     "title": "<1962-the-beer-lambert-law.pdf>",
     "section": "",
     "text": "10.1021/ed039p333 · 神经调控与脑刺激"
+  },
+  {
+    "objectID": "catalog:paper-860eb8251ea28a40",
+    "href": "library/record.html#paper-860eb8251ea28a40",
+    "title": "Introduction to fMRI Data Analysis: Course Overview",
+    "section": "",
+    "text": "Luke Chang · Dartmouth College · 脑影像、计算与方法"
   },
   {
     "objectID": "catalog:paper-250d6b89848d9ac8",

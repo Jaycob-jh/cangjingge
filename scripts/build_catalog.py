@@ -6,7 +6,7 @@ from literature_common import normalize_doi
 
 ROOT=Path(__file__).resolve().parents[1]
 FIELDS={'id','title','authors','year','doi','journal','volume','issue','pages','type',
-        'topics','sources','reading_status','summary','curated_path'}
+        'topics','sources','reading_status','summary','curated_path','url','aliases'}
 
 def main():
     catalog=json.loads((ROOT/'data/catalog.json').read_text(encoding='utf-8'))
@@ -20,9 +20,13 @@ def main():
             if doi in dois: raise ValueError('Duplicate DOI: '+doi)
             dois.add(doi)
         if set(r['topics'])-topics: raise ValueError('Unknown topic')
+        if r.get('url') and not r['url'].startswith(('https://','http://')):
+            raise ValueError('Invalid public reference URL')
         if r.get('curated_path') and not (ROOT/'library'/r['curated_path']).with_suffix('.qmd').is_file():
             raise ValueError('Missing curated card')
     if len(ids)!=catalog['stats']['catalog_records']: raise ValueError('Catalog count mismatch')
+    aliases=[a for r in catalog['records'] for a in r.get('aliases',[])]
+    if len(set(aliases))!=len(aliases) or set(aliases)&ids: raise ValueError('Conflicting catalog aliases')
     (ROOT/'assets/catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
     print(f'完整目录验证通过：{len(ids)} 条，{len(topics)} 类；公开字段及 DOI 唯一性通过。')
 

@@ -1,6 +1,6 @@
 ---
 title: "研究专题"
-subtitle: "Research · 从科学问题组织知识"
+subtitle: "按研究问题查看相关论文和笔记"
 toc: false
 page-layout: full
 ---

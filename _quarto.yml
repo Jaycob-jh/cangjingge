@@ -67,3 +67,6 @@ format:
 
 execute:
   freeze: auto
+
+language:
+  search-text-placeholder: "搜索题名、作者或 DOI"

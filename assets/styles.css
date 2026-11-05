@@ -11,6 +11,7 @@
   --zk-sans: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
 }
 body { background: #fcfcfa; color: var(--zk-ink); font-family: var(--zk-sans); line-height: 1.75; }
+.aa-DetachedCancelButton { white-space: nowrap; flex-shrink: 0; min-width: 3.5em; }
 #quarto-content { min-height: 68vh; width: 100%; max-width: 1260px; margin-inline: auto; }
 #quarto-content.page-layout-full { max-width: 1440px; }
 #quarto-content.page-layout-full > main.content:not(:has(.hero-section)) {
