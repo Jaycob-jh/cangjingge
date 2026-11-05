@@ -7,7 +7,7 @@ title-block-banner: false
 
 ::::: {.hero-section .zk-home-lead}
 ::: {.zk-home-intro}
-# 经颅光刺激文献与札记
+# 经颅光刺激文献库
 
 藏经阁以经颅光刺激为主，也收录脑网络、脑电与其他神经调控研究。
 
