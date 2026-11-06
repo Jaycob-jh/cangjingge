@@ -1,0 +1,50 @@
+---
+title: "波长和左右额部位置会改变视觉记忆收益吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Zhao · 2022 · 健康人**
+
+Transcranial photobiomodulation enhances visual working memory capacity in humans
+
+*Science Advances* · [DOI: 10.1126/sciadv.abq3211](https://doi.org/10.1126/sciadv.abq3211) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=zhao-2022) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>4项实验招募90人，排除11人<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec17" target="_blank" rel="noopener">方法·参与者与四项实验</a></dd></div>
+<div><dt>研究设计</dt><dd>各实验内双盲随机主动/假刺激交叉；不同波长和侧别属不同实验样本<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec17" target="_blank" rel="noopener">方法·参与者与四项实验</a></dd></div>
+<div><dt>波长</dt><dd>1064 / 852 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec19" target="_blank" rel="noopener">方法·tPBM protocol</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续光<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec19" target="_blank" rel="noopener">方法·tPBM protocol</a></dd></div>
+<div><dt>照射位置</dt><dd>Fp2内外侧交替；第四实验用Fp1<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec19" target="_blank" rel="noopener">方法·tPBM protocol</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>167 mW/cm²；头皮入射<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec19" target="_blank" rel="noopener">方法·tPBM protocol</a></dd></div>
+<div><dt>光斑</dt><dd>原文13.57 cm²，同时写直径4 cm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec19" target="_blank" rel="noopener">方法·tPBM protocol</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>12分钟；两点每60秒交替；刺激后休息8分钟<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec19" target="_blank" rel="noopener">方法·tPBM protocol</a></dd></div>
+<div><dt>剂量</dt><dd>两波长等光能；累计面剂量未单列<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec19" target="_blank" rel="noopener">方法·tPBM protocol</a></dd></div>
+<div><dt>对照怎么做</dt><dd>开始与结束各30秒出光；总光能约主动的1/12<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec19" target="_blank" rel="noopener">方法·tPBM protocol</a></dd></div>
+<div><dt>观察指标</dt><dd>视觉工作记忆容量K、EEG CDA<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#F1" target="_blank" rel="noopener">图 1–2·记忆与CDA</a></dd></div>
+<div><dt>测量时间</dt><dd>刺激后8分钟开始任务/EEG<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec19" target="_blank" rel="noopener">方法·tPBM protocol</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 右额1064 nm条件下，视觉记忆容量和CDA负荷效应增加。（[图 1–2·记忆与CDA](https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#F1)）
+- 852 nm右额及1064 nm左额实验未出现同样收益。（[图 4–5·波长和位置对照](https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#F4)）
+
+## 对实验设计有什么用
+
+波长和侧别比较跨不同实验人群；不能把单项实验有显著性、另一项没有，直接当成普遍最优参数。光斑面积与直径按原文保留。
+
+## 接着读
+
+- [波长和脉冲怎么选？](../../research/questions/wavelength-pulse.qmd)
+- [注意与记忆改善，应该看哪些指标？](../../research/questions/cognition.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

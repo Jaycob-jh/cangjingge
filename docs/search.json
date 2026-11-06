@@ -168,256 +168,564 @@
     "text": "返回论文笔记\n单篇论文的笔记也可以独立阅读。\n\n  全部\n  刺激参数与剂量\n  脑活动与脑网络\n  认知与睡眠\n  安全与临床转化\n\n\n\n\n\n\n\n刺激后，变的是行为、脑血流，还是脑网络？\n\n\n从反应时间到运动诱发电位、脑灌注和静息态连接：四篇论文各能回答什么？\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n无匹配项\n\n\n\n\n\n 回到顶部"
   },
   {
-    "objectID": "library/papers/zhao-2023-alpha-attention.html",
-    "href": "library/papers/zhao-2023-alpha-attention.html",
-    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
+    "objectID": "research/questions/wavelength-pulse.html",
+    "href": "research/questions/wavelength-pulse.html",
+    "title": "波长和脉冲怎么选？",
     "section": "",
-    "text": "作者： Chenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song\n发表信息： PLOS Biology, 21(3), e3002014 (2023)\nDOI： 10.1371/journal.pbio.3002014\n阅读进度： 已编目"
+    "text": "先看每种条件实际送入多少光，再看波长与脉冲。现有研究提供了可比较的实验条件，但不同条件的能量常常也在变化，不能把全部差异都归给某个波长或频率。\n对比本页研究 · 全部问题"
   },
   {
-    "objectID": "library/papers/zhao-2023-alpha-attention.html#书目信息",
-    "href": "library/papers/zhao-2023-alpha-attention.html#书目信息",
-    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
+    "objectID": "research/questions/wavelength-pulse.html#把研究放在一起看",
+    "href": "research/questions/wavelength-pulse.html#把研究放在一起看",
+    "title": "波长和脉冲怎么选？",
+    "section": "把研究放在一起看",
+    "text": "把研究放在一起看\n\nMa · 2026：同一个人比较四种光照条件\n22 名健康人接受 810 / 1064 nm 与连续 / 40 Hz 三角波的组合及假刺激。1064 nm 脉冲条件在刺激后 30 分钟的运动诱发电位高于两种连续光条件，但没有显示高于 810 nm 脉冲。连续与脉冲条件的辐照度和总能量不同，这项比较没有单独隔离频率的作用。\n研究参数与结果 · 已接收稿PDF第11–12页·参数 · PDF第20页·表1 / 图3\n\n\nZhao · 2022：工作记忆改善是否依赖波长和照射位置？\n右前额 1064 nm 条件下，工作记忆容量与相关脑电指标改善；852 nm 和左额 1064 nm 条件没有出现相同结果。各条件来自不同实验，不能当作同一批受试者的完整波长交叉比较。\n研究参数与结果 · 图 1–2·记忆与CDA · 图 4–5·波长和位置对照\n\n\nZomorrodi · 2019：40 Hz 照射后，脑电功率怎样变化？\n810 nm、40 Hz 光照后，多个脑电频段的功率和连接指标改变。该研究比较真刺激与假刺激，没有连续光条件；它回答的是这套刺激是否影响脑电，尚未回答 40 Hz 是否优于连续光。\n研究参数与结果 · 图 4·频段功率 · 方法·设备"
+  },
+  {
+    "objectID": "research/questions/wavelength-pulse.html#做实验时看什么",
+    "href": "research/questions/wavelength-pulse.html#做实验时看什么",
+    "title": "波长和脉冲怎么选？",
+    "section": "做实验时看什么",
+    "text": "做实验时看什么\n\n波长、波形、峰值功率、平均功率、占空比和总能量分别记录；只写“40 Hz”不够。\n若要比较频率，先明确匹配平均功率还是总能量，并测量设备实际输出。\n把行为结果与脑电、血氧或 MEP 分开分析，预先确定主要终点。"
+  },
+  {
+    "objectID": "research/questions/wavelength-pulse.html#相关研究",
+    "href": "research/questions/wavelength-pulse.html#相关研究",
+    "title": "波长和脉冲怎么选？",
+    "section": "相关研究",
+    "text": "相关研究\n\nMa · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？\nZhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？\nZomorrodi · 2019：40 Hz 经颅加鼻内刺激后，脑电频段如何改变？\nYuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？\n\n修改这页内容"
+  },
+  {
+    "objectID": "research/questions/penetration.html",
+    "href": "research/questions/penetration.html",
+    "title": "相同头皮剂量，进入脑内的光一样多吗？",
     "section": "",
-    "text": "作者： Chenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song\n发表信息： PLOS Biology, 21(3), e3002014 (2023)\nDOI： 10.1371/journal.pbio.3002014\n阅读进度： 已编目"
+    "text": "不一定。头皮入射剂量只是起点，光到达脑组织前还要经过皮肤、颅骨等结构。组织实验和光传播模型可以帮助估计差异，但都需要与活体测量及具体设备条件对应。\n对比本页研究 · 全部问题"
   },
   {
-    "objectID": "library/papers/zhao-2023-alpha-attention.html#研究内容",
-    "href": "library/papers/zhao-2023-alpha-attention.html#研究内容",
-    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
-    "section": "研究内容",
-    "text": "研究内容\n围绕视觉空间线索、预期性 alpha 活动与干扰信息抑制的关系展开研究，收录于脑振荡和注意控制主题。"
+    "objectID": "research/questions/penetration.html#把研究放在一起看",
+    "href": "research/questions/penetration.html#把研究放在一起看",
+    "title": "相同头皮剂量，进入脑内的光一样多吗？",
+    "section": "把研究放在一起看",
+    "text": "把研究放在一起看\n\nJagdeo · 2012：直接测量不同部位的透过光\n研究比较 633 和 830 nm，并测量不同颅骨部位及软组织条件下的透光。样本来自离体组织，材料数量很少；透射率既依赖波长，也依赖位置和实验几何。\n研究参数与结果 · 图 2–3·区域透射比例 · 表 1–2·入射参照和透射值\n\n\nYuan · 2020：用不同年龄头模预测光的分布\n研究使用 18 个年龄模板，比较五种波长和不同额部位置。模型采用固定的组织光学属性，并以目标剂量估算时间；这个目标值是模型设定，不能直接当作人体实验推荐剂量。\n研究参数与结果 · 图 6·波长和年龄 · 方法 §2.4–2.5·光源和模拟\n\n\nTian · 2016：照射位置与双侧反应一起记录\n两项小样本实验分别照射额中和右额，观察双侧血氧。位置比较可以帮助提出靶点问题，但血氧变化并不是脑内光剂量的直接测量。\n研究参数与结果 · 图 3–4·双侧血氧 · 方法·实验流程"
   },
   {
-    "objectID": "library/papers/zhao-2023-alpha-attention.html#整理依据",
-    "href": "library/papers/zhao-2023-alpha-attention.html#整理依据",
-    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
-    "section": "整理依据",
-    "text": "整理依据\n依据已核对的题名与书目信息编目；方法、结果和证据评价将在全文研读后补充。"
+    "objectID": "research/questions/penetration.html#做实验时看什么",
+    "href": "research/questions/penetration.html#做实验时看什么",
+    "title": "相同头皮剂量，进入脑内的光一样多吗？",
+    "section": "做实验时看什么",
+    "text": "做实验时看什么\n\n头皮剂量、模型预测的脑内剂量和实测脑信号分别保存。\n比较设备时记录光斑、接触距离、照射角度和位置；不要只比总功率。\n模型结果附上头模、组织光学属性和目标区域，保留输入条件。"
   },
   {
-    "objectID": "library/papers/zhao-2023-alpha-attention.html#关联阅读",
-    "href": "library/papers/zhao-2023-alpha-attention.html#关联阅读",
-    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
+    "objectID": "research/questions/penetration.html#相关研究",
+    "href": "research/questions/penetration.html#相关研究",
+    "title": "相同头皮剂量，进入脑内的光一样多吗？",
+    "section": "相关研究",
+    "text": "相关研究\n\nJagdeo · 2012：红光与近红外穿过颅骨的比例一样吗？\nYuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？\nTian · 2016：照射额中与右额，双侧血氧怎样变化？\n\n修改这页内容"
+  },
+  {
+    "objectID": "research/questions/cognition.html",
+    "href": "research/questions/cognition.html",
+    "title": "注意与记忆改善，应该看哪些指标？",
+    "section": "",
+    "text": "先看研究预设的任务指标，再看真刺激相对对照的变化。反应更快、答对更多和能记住更多项目是不同结果；只有真刺激组前后显著，还不足以说明它优于对照。\n对比本页研究 · 全部问题"
+  },
+  {
+    "objectID": "research/questions/cognition.html#把研究放在一起看",
+    "href": "research/questions/cognition.html#把研究放在一起看",
+    "title": "注意与记忆改善，应该看哪些指标？",
+    "section": "把研究放在一起看",
+    "text": "把研究放在一起看\n\nBarrett · 2013：早期研究同时测注意和延迟匹配任务\n40 人随机分组。注意反应速度和延迟匹配任务出现部分改善，但延迟匹配准确率的组间变化还涉及对照组下降，反应时分析也有剔除异常值的处理。读图时要把两组轨迹都看完。\n研究参数与结果 · PDF第6页·图3–4\n\n\nHolmes · 2019：不同任务不一定一起改善\n右前额刺激后的延迟匹配任务表现改善，警觉任务没有检出相同效果。该研究使用此前的假刺激数据，行为和血氧对照人数也不同。\n研究参数与结果 · 表 1·任务结果 · 方法·样本与对照来源\n\n\nZhao · 2022：把行为变化与对应脑电指标联系起来\n研究用变化检测任务估计工作记忆容量，并记录对侧延迟活动。右额 1064 nm 条件下两者均出现变化，提供了行为与脑电的联合观察，但脑电相关不等于已经证明完整作用机制。\n研究参数与结果 · 图 1–2·记忆与CDA · 图 4–5·波长和位置对照"
+  },
+  {
+    "objectID": "research/questions/cognition.html#做实验时看什么",
+    "href": "research/questions/cognition.html#做实验时看什么",
+    "title": "注意与记忆改善，应该看哪些指标？",
+    "section": "做实验时看什么",
+    "text": "做实验时看什么\n\n预先选定一个主要行为指标，避免看完结果再挑任务。\n报告两组或各条件的基线、变化和差值，不只列各组的 p 值。\n重复任务需考虑练习、疲劳和测量顺序；交叉设计还要关注残留效应。"
+  },
+  {
+    "objectID": "research/questions/cognition.html#相关研究",
+    "href": "research/questions/cognition.html#相关研究",
+    "title": "注意与记忆改善，应该看哪些指标？",
+    "section": "相关研究",
+    "text": "相关研究\n\nBarrett · 2013：早期人体研究怎样测注意和记忆？\nHolmes · 2019：认知任务表现与前额血氧是否一起改变？\nZhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？\nQu · 2022：连续七天刺激的记忆改善能保持多久？\n\n修改这页内容"
+  },
+  {
+    "objectID": "library/tpbm/zomorrodi-2019.html",
+    "href": "library/tpbm/zomorrodi-2019.html",
+    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
+    "section": "",
+    "text": "Zomorrodi · 2019 · 健康人\nPulsed Near Infrared Transcranial and Intranasal Photobiomodulation Significantly Modulates Neural Oscillations: a pilot exploratory study\nScientific Reports · DOI: 10.1038/s41598-019-42693-x · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/zomorrodi-2019.html#怎么做",
+    "href": "library/tpbm/zomorrodi-2019.html#怎么做",
+    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象20名健康老年人，61–74岁图 1·随机交叉设计\n研究设计双盲随机交叉；访视间隔至少1周图 1·随机交叉设计\n波长810 nm方法·设备\n连续光 / 脉冲40 Hz；50%占空比方法·设备\n照射位置4个头部LED + 1个鼻内LED方法·设备\n辐照度 / 功率正文：前部75、后部100、鼻内25 mW/cm²；与表2列项存在不一致方法·设备\n光斑约1 cm² / LED表 2·设备参数\n照射时间与疗程20分钟方法·设备\n剂量原文合计240 J；不作为单个照射点的剂量表 2·设备参数\n对照怎么做同设备假刺激；主动与假刺激交叉方法·设备\n观察指标静息 EEG 功率与图论指标图 4·频段功率\n测量时间刺激前后各10分钟闭眼静息 EEG方法·设备"
+  },
+  {
+    "objectID": "library/tpbm/zomorrodi-2019.html#结果怎么看",
+    "href": "library/tpbm/zomorrodi-2019.html#结果怎么看",
+    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n相对假刺激，delta/theta功率变化较低，alpha/beta/gamma较高。（图 4·频段功率）\n网络指标的显著差异随频段及稀疏度阈值变化。（图 5–8·网络指标）"
+  },
+  {
+    "objectID": "library/tpbm/zomorrodi-2019.html#对实验设计有什么用",
+    "href": "library/tpbm/zomorrodi-2019.html#对实验设计有什么用",
+    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n组合了经颅与鼻内照射；没有同剂量连续光组，不能单独归因于40 Hz。参数正文和表2不一致，保留原文差异。"
+  },
+  {
+    "objectID": "library/tpbm/zomorrodi-2019.html#接着读",
+    "href": "library/tpbm/zomorrodi-2019.html#接着读",
+    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
+    "section": "接着读",
+    "text": "接着读\n\n波长和脉冲怎么选？\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/yuan-2020.html",
+    "href": "library/tpbm/yuan-2020.html",
+    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
+    "section": "",
+    "text": "Yuan · 2020 · 计算模型\nTranscranial photobiomodulation with near-infrared light from childhood to elderliness: simulation of dosimetry\nNeurophotonics · DOI: 10.1117/1.NPh.7.1.015009 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/yuan-2020.html#怎么做",
+    "href": "library/tpbm/yuan-2020.html#怎么做",
+    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象18个年龄组MRI平均模板，覆盖5–89岁方法 §2.1·年龄模板\n研究设计蒙特卡洛光传播模拟；非人体刺激试验方法 §2.1·年龄模板\n波长670 / 810 / 850 / 980 / 1064 nm方法 §2.4–2.5·光源和模拟\n连续光 / 脉冲稳态光传播模型；不比较脉冲生物效应方法 §2.4–2.5·光源和模拟\n照射位置F3/F4 与 Fpz；对应dlPFC/vmPFC方法 §2.4–2.5·光源和模拟\n辐照度 / 功率30或300 mW/cm²用于疗程时间估算；属于输入设定结果 §3.1·剂量与时长估算\n光斑Fpz 28.4 cm²；F3/F4各28.4 cm²结果 §3.1·剂量与时长估算\n照射时间与疗程估算到达目标剂量所需时长；非实测疗程结果 §3.1·剂量与时长估算\n剂量以目标区第99百分位3 J/cm²为估算条件，不是临床推荐值结果 §3.1·剂量与时长估算\n对照怎么做不同年龄、波长和光源位置模型方法 §2.4–2.5·光源和模拟\n观察指标能量沉积及达到设定剂量的预计时长图 6·波长和年龄\n测量时间不适用：稳态计算方法 §2.4–2.5·光源和模拟"
+  },
+  {
+    "objectID": "library/tpbm/yuan-2020.html#结果怎么看",
+    "href": "library/tpbm/yuan-2020.html#结果怎么看",
+    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n在文中光学参数下，810 nm的目标区沉积较高，并随年龄和照射位置变化。（图 6·波长和年龄）\n颅外组织厚度与能量沉积存在关系。（图 8–9·剂量与组织厚度）"
+  },
+  {
+    "objectID": "library/tpbm/yuan-2020.html#对实验设计有什么用",
+    "href": "library/tpbm/yuan-2020.html#对实验设计有什么用",
+    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n组织光学参数假定不随年龄改变；模拟沉积高不等于认知或临床效果最好。"
+  },
+  {
+    "objectID": "library/tpbm/yuan-2020.html#接着读",
+    "href": "library/tpbm/yuan-2020.html#接着读",
+    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
+    "section": "接着读",
+    "text": "接着读\n\n波长和脉冲怎么选？\n相同头皮剂量，进入脑内的光一样多吗？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/wang-2021-eeg-heat.html",
+    "href": "library/tpbm/wang-2021-eeg-heat.html",
+    "title": "光刺激和皮肤加热的脑电分布一样吗？",
+    "section": "",
+    "text": "Wang · 2021 · 健康人\nTranscranial photobiomodulation and thermal stimulation induce distinct topographies of EEG alpha and beta power changes in healthy humans\nScientific Reports · DOI: 10.1038/s41598-021-97987-w · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/wang-2021-eeg-heat.html#怎么做",
+    "href": "library/tpbm/wang-2021-eeg-heat.html#怎么做",
+    "title": "光刺激和皮肤加热的脑电分布一样吗？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象光组分析46人；热组分析11人（分别招募49和14人）方法·样本与排除\n研究设计各组内随机单盲主动/假刺激交叉；光热为不同人群方法·样本与排除\n波长1064 nm方法与图 1·参数和热对照\n连续光 / 脉冲连续光方法与图 1·参数和热对照\n照射位置右额 Fp2/AF8附近方法与图 1·参数和热对照\n辐照度 / 功率约250 mW/cm²；头皮入射方法与图 1·参数和热对照\n光斑直径4.2 cm方法与图 1·参数和热对照\n照射时间与疗程8分钟方法与图 1·参数和热对照\n剂量总能量1680 J（3.5 W × 480秒）方法与图 1·参数和热对照\n对照怎么做遮光假刺激；热刺激33→41°C，热假刺激33°C方法与图 1·参数和热对照\n观察指标64通道闭眼 EEG 功率图 5·光与热拓扑差异\n测量时间2分钟基线；刺激8分钟；恢复分析2分钟方法与图 1·参数和热对照"
+  },
+  {
+    "objectID": "library/tpbm/wang-2021-eeg-heat.html#结果怎么看",
+    "href": "library/tpbm/wang-2021-eeg-heat.html#结果怎么看",
+    "title": "光刺激和皮肤加热的脑电分布一样吗？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n扣除各自假刺激后，光与热引起的alpha/beta功率空间分布存在差异。（图 5·光与热拓扑差异）"
+  },
+  {
+    "objectID": "library/tpbm/wang-2021-eeg-heat.html#对实验设计有什么用",
+    "href": "library/tpbm/wang-2021-eeg-heat.html#对实验设计有什么用",
+    "title": "光刺激和皮肤加热的脑电分布一样吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n热效应比较为两组人之间的比较。结果支持在脑电实验里设置热对照，不给出通用安全剂量。"
+  },
+  {
+    "objectID": "library/tpbm/wang-2021-eeg-heat.html#接着读",
+    "href": "library/tpbm/wang-2021-eeg-heat.html#接着读",
+    "title": "光刺激和皮肤加热的脑电分布一样吗？",
+    "section": "接着读",
+    "text": "接着读\n\n怎样区分光照与加热效应？\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/truong-2022.html",
+    "href": "library/tpbm/truong-2022.html",
+    "title": "连续光会改变哪些慢频段的血氧网络？",
+    "section": "",
+    "text": "Truong · 2022 · 健康人\nEnhancement of Frequency-Specific Hemodynamic Power and Functional Connectivity by Transcranial Photobiomodulation in Healthy Humans\nFrontiers in Neuroscience · DOI: 10.3389/fnins.2022.896502 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/truong-2022.html#怎么做",
+    "href": "library/tpbm/truong-2022.html#怎么做",
+    "title": "连续光会改变哪些慢频段的血氧网络？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象招募19人，17人纳入fNIRS分析方法 §2.1·受试者\n研究设计随机主动/假刺激交叉；至少间隔1周方法 §2.1·受试者\n波长1064 nm方法 §2.2 / 图 1·协议\n连续光 / 脉冲连续光方法 §2.2 / 图 1·协议\n照射位置右额 Fp2附近方法 §2.2 / 图 1·协议\n辐照度 / 功率250 mW/cm²；头皮入射方法 §2.2 / 图 1·协议\n光斑13.6 cm²方法 §2.2 / 图 1·协议\n照射时间与疗程8分钟方法 §2.2 / 图 1·协议\n剂量总能量1632 J方法 §2.2 / 图 1·协议\n对照怎么做0.1 W档位，黑帽遮光方法 §2.2 / 图 1·协议\n观察指标111通道静息 fNIRS、分频段连接与图论图 6·分频段连接\n测量时间刺激前8分钟、中8分钟、后4分钟方法 §2.2 / 图 1·协议"
+  },
+  {
+    "objectID": "library/tpbm/truong-2022.html#结果怎么看",
+    "href": "library/tpbm/truong-2022.html#结果怎么看",
+    "title": "连续光会改变哪些慢频段的血氧网络？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n连接变化依赖慢频段和测量时段；图6比较内皮源性、肌源性频段在刺激前、中、后的连接，不是一个全脑统一增加的结果。（图 6·分频段连接）\n刺激期间肌源频段的全局/局部效率升高、路径长度缩短；恢复期未见同样显著差异。（图 8·网络效率）"
+  },
+  {
+    "objectID": "library/tpbm/truong-2022.html#对实验设计有什么用",
+    "href": "library/tpbm/truong-2022.html#对实验设计有什么用",
+    "title": "连续光会改变哪些慢频段的血氧网络？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n这里的频段属于血流动力学慢波，不是EEG的alpha/beta；不能把不同测量的“网络效率”混为一谈。"
+  },
+  {
+    "objectID": "library/tpbm/truong-2022.html#接着读",
+    "href": "library/tpbm/truong-2022.html#接着读",
+    "title": "连续光会改变哪些慢频段的血氧网络？",
+    "section": "接着读",
+    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/shahdadian-2022.html",
+    "href": "library/tpbm/shahdadian-2022.html",
+    "title": "脑电功率增加时，网络效率也一定增加吗？",
+    "section": "",
+    "text": "Shahdadian · 2022 · 健康人\nNeuromodulation of brain power topography and network topology by prefrontal transcranial photobiomodulation\nJournal of Neural Engineering · DOI: 10.1088/1741-2552/ac9ede · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/shahdadian-2022.html#怎么做",
+    "href": "library/tpbm/shahdadian-2022.html#怎么做",
+    "title": "脑电功率增加时，网络效率也一定增加吗？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象招募49人，分析45人方法·受试者\n研究设计单盲随机交叉；至少间隔5天方法·受试者\n波长1064 nm表 2·头皮参数\n连续光 / 脉冲连续光表 2·头皮参数\n照射位置右额 Fp2/AF8附近表 2·头皮参数\n辐照度 / 功率250 mW/cm²；头皮入射表 2·头皮参数\n光斑直径4.2 cm表 2·头皮参数\n照射时间与疗程8分钟表 2·头皮参数\n剂量120 J/cm²（头皮）；表列1662 J总量表 2·头皮参数\n对照怎么做0.1 W档位，黑帽遮光方法·实验流程\n观察指标64通道EEG、虚部相干与图论图 4·EEG功率\n测量时间2分钟基线；前4/后4分钟刺激；3分钟恢复方法·实验流程"
+  },
+  {
+    "objectID": "library/tpbm/shahdadian-2022.html#结果怎么看",
+    "href": "library/tpbm/shahdadian-2022.html#结果怎么看",
+    "title": "脑电功率增加时，网络效率也一定增加吗？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\nalpha和beta脑电功率呈刺激相关的空间变化；图4用簇置换检验标出显著位置，不能把整张色彩图都看作显著。（图 4·EEG功率）\nbeta频段的同步、全局效率和小世界性在部分时段/阈值下降。（图 5·全局网络指标）"
+  },
+  {
+    "objectID": "library/tpbm/shahdadian-2022.html#对实验设计有什么用",
+    "href": "library/tpbm/shahdadian-2022.html#对实验设计有什么用",
+    "title": "脑电功率增加时，网络效率也一定增加吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n更大的脑电功率不必对应更高网络效率；图论结果取决于连接定义、频段和阈值。与同组近似样本研究比较时留意队列重叠。"
+  },
+  {
+    "objectID": "library/tpbm/shahdadian-2022.html#接着读",
+    "href": "library/tpbm/shahdadian-2022.html#接着读",
+    "title": "脑电功率增加时，网络效率也一定增加吗？",
+    "section": "接着读",
+    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/qu-2022.html",
+    "href": "library/tpbm/qu-2022.html",
+    "title": "连续七天刺激的记忆改善能保持多久？",
+    "section": "",
+    "text": "Qu · 2022 · 健康人\nRepeated transcranial photobiomodulation improves working memory of healthy older adults: behavioral outcomes of poststimulation including a three-week follow-up\nNeurophotonics · DOI: 10.1117/1.NPh.9.3.035005 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/qu-2022.html#怎么做",
+    "href": "library/tpbm/qu-2022.html#怎么做",
+    "title": "连续七天刺激的记忆改善能保持多久？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象健康老年人：主动61人、对照25人方法 §2.1–2.2·样本和流程\n研究设计主动组基线假刺激后连续主动疗程；另有重复假刺激组方法 §2.1–2.2·样本和流程\n波长1064 nm方法 §2.3·刺激参数\n连续光 / 脉冲连续光方法 §2.3·刺激参数\n照射位置左侧DLPFC方法 §2.3·刺激参数\n辐照度 / 功率250 mW/cm²；头皮入射方法 §2.3·刺激参数\n光斑直径4.16 cm方法 §2.3·刺激参数\n照射时间与疗程12分钟/次；每日1次，共7天方法 §2.3·刺激参数\n剂量本文方法未单列累计面剂量方法 §2.3·刺激参数\n对照怎么做首30秒出光，随后关闭；重复假刺激对照方法 §2.3·刺激参数\n观察指标1/2/3-back正确率与反应时图 2·单次与重复刺激\n测量时间基线、第1/7天；之后每周随访，共3周方法 §2.3·刺激参数"
+  },
+  {
+    "objectID": "library/tpbm/qu-2022.html#结果怎么看",
+    "href": "library/tpbm/qu-2022.html#结果怎么看",
+    "title": "连续七天刺激的记忆改善能保持多久？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n主动组第7天部分任务指标优于单次后；3-back反应时缩短。（图 2·单次与重复刺激）\n图3呈现相对基线的改善持续到三周随访。（图 3·三周随访）"
+  },
+  {
+    "objectID": "library/tpbm/qu-2022.html#对实验设计有什么用",
+    "href": "library/tpbm/qu-2022.html#对实验设计有什么用",
+    "title": "连续七天刺激的记忆改善能保持多久？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n主动组内时间点比较和独立假刺激组的检验应分别阅读；不能把练习与长期疗程效应自动等同。"
+  },
+  {
+    "objectID": "library/tpbm/qu-2022.html#接着读",
+    "href": "library/tpbm/qu-2022.html#接着读",
+    "title": "连续七天刺激的记忆改善能保持多久？",
+    "section": "接着读",
+    "text": "接着读\n\n注意与记忆改善，应该看哪些指标？\n单次与重复照射，哪些变化能持续？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/nizamutdinov-2021.html",
+    "href": "library/tpbm/nizamutdinov-2021.html",
+    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
+    "section": "",
+    "text": "Nizamutdinov · 2021 · 临床\nTranscranial Near Infrared Light Stimulations Improve Cognition in Patients with Dementia\nAging and Disease · DOI: 10.14336/AD.2021.0229 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/nizamutdinov-2021.html#怎么做",
+    "href": "library/tpbm/nizamutdinov-2021.html#怎么做",
+    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象入组60人；57人完成；早中期痴呆方法·随机与设备\n研究设计随机双盲，主动:假刺激=2:1方法·随机与设备\n波长1060–1080 nm方法·头盔与照射安排\n连续光 / 脉冲方法未明确给出连续/脉冲方式方法·头盔与照射安排\n照射位置头部12模块 + 2个眼部模块方法·头盔与照射安排\n辐照度 / 功率23.1 mW/cm²；设备报告值方法·头盔与照射安排\n光斑约650 cm²治疗区域方法·头盔与照射安排\n照射时间与疗程6分钟/次，每日2次，共8周方法·头盔与照射安排\n剂量方法未单列面剂量方法·头盔与照射安排\n对照怎么做外观相同、不发近红外光的头盔方法·头盔与照射安排\n观察指标MMSE等认知量表、照护者日志表 1·认知前后评分\n测量时间治疗前与末次后1天内方法·头盔与照射安排"
+  },
+  {
+    "objectID": "library/tpbm/nizamutdinov-2021.html#结果怎么看",
+    "href": "library/tpbm/nizamutdinov-2021.html#结果怎么看",
+    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n表1主动组MMSE由22.8升至27.6；表中p值是各组内前后检验。（表 1·认知前后评分）"
+  },
+  {
+    "objectID": "library/tpbm/nizamutdinov-2021.html#对实验设计有什么用",
+    "href": "library/tpbm/nizamutdinov-2021.html#对实验设计有什么用",
+    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n组内显著、对照不显著不能替代组间变化检验；睡眠数据来自照护日志，未用睡眠脑电。"
+  },
+  {
+    "objectID": "library/tpbm/nizamutdinov-2021.html#接着读",
+    "href": "library/tpbm/nizamutdinov-2021.html#接着读",
+    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
+    "section": "接着读",
+    "text": "接着读\n\n注意与记忆改善，应该看哪些指标？\n单次与重复照射，哪些变化能持续？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/longo-2020.html",
+    "href": "library/tpbm/longo-2020.html",
+    "title": "急性脑损伤后，影像变化是否伴随症状改善？",
+    "section": "",
+    "text": "Figueiro Longo · 2020 · 临床\nEffect of Transcranial Low-Level Light Therapy vs Sham Therapy Among Patients With Moderate Traumatic Brain Injury\nJAMA Network Open · DOI: 10.1001/jamanetworkopen.2020.17337 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/longo-2020.html#怎么做",
+    "href": "library/tpbm/longo-2020.html#怎么做",
+    "title": "急性脑损伤后，影像变化是否伴随症状改善？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象入组68人；43人有MRI，42人进入定量分析图 1·入组与随访\n研究设计随机双盲假刺激对照，急性TBI图 1·入组与随访\n波长810 nm；带宽30 nm补充材料 2，p.2·波长\n连续光 / 脉冲LED头盔；正文未明确脉冲参数方法·治疗流程\n照射位置头盔18簇，每簇20个LED方法·治疗流程\n辐照度 / 功率36 mW/cm²；头皮入射方法·治疗流程\n光斑正文未给出总照射面积方法·治疗流程\n照射时间与疗程伤后72小时内开始；20分钟/次，共3次；间隔至少12小时方法·治疗流程\n剂量约43.2 J/cm² / 次方法·治疗流程\n对照怎么做同头盔风扇开启，LED关闭方法·治疗流程\n观察指标扩散MRI；Rivermead症状问卷图 2·临床症状\n测量时间急性、2–3周、约3个月MRI；症状随访到6个月方法·治疗流程"
+  },
+  {
+    "objectID": "library/tpbm/longo-2020.html#结果怎么看",
+    "href": "library/tpbm/longo-2020.html#结果怎么看",
+    "title": "急性脑损伤后，影像变化是否伴随症状改善？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n临床症状的治疗效应及治疗×时间交互未达显著。（图 2·临床症状）\n部分扩散指标存在治疗×时间交互。（图 3·扩散参数）"
+  },
+  {
+    "objectID": "library/tpbm/longo-2020.html#对实验设计有什么用",
+    "href": "library/tpbm/longo-2020.html#对实验设计有什么用",
+    "title": "急性脑损伤后，影像变化是否伴随症状改善？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n影像指标变化与症状改善分开报告；失访较多。波长和带宽来自补充材料2，正文与补充材料需一起核对。"
+  },
+  {
+    "objectID": "library/tpbm/longo-2020.html#接着读",
+    "href": "library/tpbm/longo-2020.html#接着读",
+    "title": "急性脑损伤后，影像变化是否伴随症状改善？",
+    "section": "接着读",
+    "text": "接着读\n\n怎样区分光照与加热效应？\n单次与重复照射，哪些变化能持续？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/holmes-2019.html",
+    "href": "library/tpbm/holmes-2019.html",
+    "title": "认知任务表现与前额血氧是否一起改变？",
+    "section": "",
+    "text": "Holmes · 2019 · 健康人\nCognitive Enhancement by Transcranial Photobiomodulation Is Associated With Cerebrovascular Oxygenation of the Prefrontal Cortex\nFrontiers in Neuroscience · DOI: 10.3389/fnins.2019.01129 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/holmes-2019.html#怎么做",
+    "href": "library/tpbm/holmes-2019.html#怎么做",
+    "title": "认知任务表现与前额血氧是否一起改变？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象主动18人；历史假刺激16人（行为7人、血氧9人）方法·样本与对照来源\n研究设计主动组前后测；引用先前实验假刺激数据方法·样本与对照来源\n波长1064 nm方法·激光参数清单\n连续光 / 脉冲连续光方法·激光参数清单\n照射位置右额 Fp2 下方单点方法·激光参数清单\n辐照度 / 功率250 mW/cm²；头皮入射方法·激光参数清单\n光斑13.6 cm²方法·激光参数清单\n照射时间与疗程8分钟方法·激光参数清单\n剂量120 J/cm²方法·激光参数清单\n对照怎么做关灯；行为和血氧对照来自不同历史样本方法·样本与对照来源\n观察指标PVT、DMS及任务 fNIRS表 1·任务结果\n测量时间刺激前后任务测量方法·激光参数清单"
+  },
+  {
+    "objectID": "library/tpbm/holmes-2019.html#结果怎么看",
+    "href": "library/tpbm/holmes-2019.html#结果怎么看",
+    "title": "认知任务表现与前额血氧是否一起改变？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\nDMS正确次数和反应时前后改善；PVT反应时未显著改变（p=0.60）。（表 1·任务结果）\n任务期间前额氧合血红蛋白的前后变化增加。（图 4–5·任务血氧）"
+  },
+  {
+    "objectID": "library/tpbm/holmes-2019.html#对实验设计有什么用",
+    "href": "library/tpbm/holmes-2019.html#对实验设计有什么用",
+    "title": "认知任务表现与前额血氧是否一起改变？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n主动组内改善与历史对照未改善，不等于同期随机试验中的组别×时间交互。"
+  },
+  {
+    "objectID": "library/tpbm/holmes-2019.html#接着读",
+    "href": "library/tpbm/holmes-2019.html#接着读",
+    "title": "认知任务表现与前额血氧是否一起改变？",
+    "section": "接着读",
+    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n注意与记忆改善，应该看哪些指标？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/chao-2020.html",
+    "href": "library/tpbm/chao-2020.html",
+    "title": "脑震荡病例的量表、灌注与连接怎样一起读？",
+    "section": "",
+    "text": "Chao · 2020 · 临床\nChanges in Brain Function and Structure After Self-Administered Home Photobiomodulation Treatment in a Concussion Case\nFrontiers in Neurology · DOI: 10.3389/fneur.2020.00952 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/chao-2020.html#怎么做",
+    "href": "library/tpbm/chao-2020.html#怎么做",
+    "title": "脑震荡病例的量表、灌注与连接怎样一起读？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象1名23岁男性职业冰球运动员；多次脑震荡史方法·单病例与设备\n研究设计单病例治疗前后比较方法·单病例与设备\n波长810 nm方法·设备和疗程\n连续光 / 脉冲10 / 40 Hz；50%占空比；疗程中调整频率方法·设备和疗程\n照射位置4个头部LED + 鼻内方法·设备和疗程\n辐照度 / 功率前部75、后部100、鼻内25 mW/cm²方法·设备和疗程\n光斑约1 cm² / LED方法·设备和疗程\n照射时间与疗程20分钟/次，隔日一次，共8周；按症状调整10/40 Hz方法·设备和疗程\n剂量前部45、后部60、鼻内15 J/cm² / 次方法·设备和疗程\n对照怎么做无同期对照方法·设备和疗程\n观察指标神经心理测验、ASL、静息态fMRI表 2·神经心理测验\n测量时间治疗前与8周后方法·设备和疗程"
+  },
+  {
+    "objectID": "library/tpbm/chao-2020.html#结果怎么看",
+    "href": "library/tpbm/chao-2020.html#结果怎么看",
+    "title": "脑震荡病例的量表、灌注与连接怎样一起读？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n多项神经心理测验分数前后改善。（表 2·神经心理测验）\nACC连接图的分布改变；该病例不适合推断总体疗效。（图 2·ACC功能连接）"
+  },
+  {
+    "objectID": "library/tpbm/chao-2020.html#对实验设计有什么用",
+    "href": "library/tpbm/chao-2020.html#对实验设计有什么用",
+    "title": "脑震荡病例的量表、灌注与连接怎样一起读？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n疗程中因轻度头痛换用10 Hz，随后又调整；频率、恢复时间和干预效应不能独立分离。"
+  },
+  {
+    "objectID": "library/tpbm/chao-2020.html#接着读",
+    "href": "library/tpbm/chao-2020.html#接着读",
+    "title": "脑震荡病例的量表、灌注与连接怎样一起读？",
+    "section": "接着读",
+    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n单次与重复照射，哪些变化能持续？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/barrett-2013.html",
+    "href": "library/tpbm/barrett-2013.html",
+    "title": "早期人体研究怎样测注意和记忆？",
+    "section": "",
+    "text": "Barrett · 2013 · 健康人\nTranscranial infrared laser stimulation produces beneficial cognitive and emotional effects in humans\nNeuroscience · DOI: 10.1016/j.neuroscience.2012.11.016 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/barrett-2013.html#怎么做",
+    "href": "library/tpbm/barrett-2013.html#怎么做",
+    "title": "早期人体研究怎样测注意和记忆？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象40名健康成人，主动20、对照20PDF第3页·随机分组\n研究设计随机平行组；参与者不知分组PDF第3页·随机分组\n波长1064 nmPDF第4页·交替照射与假刺激\n连续光 / 脉冲连续光PDF第4页·交替照射与假刺激\n照射位置右额Fp2内外侧两个点交替PDF第4页·交替照射与假刺激\n辐照度 / 功率250 mW/cm²；头皮入射PDF第4页·交替照射与假刺激\n光斑各点直径4 cmPDF第4页·交替照射与假刺激\n照射时间与疗程总8分钟；每点累计4分钟PDF第4页·交替照射与假刺激\n剂量每点60 J/cm²PDF第4页·交替照射与假刺激\n对照怎么做每分钟出光5秒，其余55秒关闭；能量约主动的1/12PDF第4页·交替照射与假刺激\n观察指标PVT反应时、DMS速度和正确次数PDF第6页·图3–4\n测量时间刺激前后认知任务；两周情绪问卷PDF第4页·交替照射与假刺激"
+  },
+  {
+    "objectID": "library/tpbm/barrett-2013.html#结果怎么看",
+    "href": "library/tpbm/barrett-2013.html#结果怎么看",
+    "title": "早期人体研究怎样测注意和记忆？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\nPVT反应时的组别×时间交互p=0.047；DMS提取速度交互p=0.021（排除1个离群值）。（PDF第6页·图3–4）\nDMS正确次数交互p=0.012，主要由对照组下降推动。（PDF第6页·图3–4）"
+  },
+  {
+    "objectID": "library/tpbm/barrett-2013.html#对实验设计有什么用",
+    "href": "library/tpbm/barrett-2013.html#对实验设计有什么用",
+    "title": "早期人体研究怎样测注意和记忆？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n两个点各4分钟，不能把总8分钟当作每点8分钟来算面剂量。速度和正确率应分别看。"
+  },
+  {
+    "objectID": "library/tpbm/barrett-2013.html#接着读",
+    "href": "library/tpbm/barrett-2013.html#接着读",
+    "title": "早期人体研究怎样测注意和记忆？",
+    "section": "接着读",
+    "text": "接着读\n\n怎样区分光照与加热效应？\n注意与记忆改善，应该看哪些指标？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/papers/openscholar.html",
+    "href": "library/papers/openscholar.html",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "section": "",
+    "text": "题目： Synthesizing scientific literature with retrieval-augmented language models\n作者： Akari Asai et al.\n期刊： Nature, 650, 857–863 (2026)\n发表日期： 2026-02-04\nDOI： 10.1038/s41586-025-10072-4\n开源实现： OpenScholar GitHub"
+  },
+  {
+    "objectID": "library/papers/openscholar.html#书目信息",
+    "href": "library/papers/openscholar.html#书目信息",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "section": "",
+    "text": "题目： Synthesizing scientific literature with retrieval-augmented language models\n作者： Akari Asai et al.\n期刊： Nature, 650, 857–863 (2026)\n发表日期： 2026-02-04\nDOI： 10.1038/s41586-025-10072-4\n开源实现： OpenScholar GitHub"
+  },
+  {
+    "objectID": "library/papers/openscholar.html#核心问题",
+    "href": "library/papers/openscholar.html#核心问题",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "section": "核心问题",
+    "text": "核心问题\n如何让语言模型从大量科学论文中定位证据，并综合多篇文献形成可以追溯来源的回答？"
+  },
+  {
+    "objectID": "library/papers/openscholar.html#方法概览",
+    "href": "library/papers/openscholar.html#方法概览",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "section": "方法概览",
+    "text": "方法概览\nOpenScholar 将学术语料检索、候选重排序和基于证据的生成相结合，并加入自我反馈以改进最终输出。论文介绍的系统以大规模公开获取的论文语料为基础。"
+  },
+  {
+    "objectID": "library/papers/openscholar.html#对藏经阁的启发",
+    "href": "library/papers/openscholar.html#对藏经阁的启发",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "section": "对藏经阁的启发",
+    "text": "对藏经阁的启发\n\n文献条目应保留 DOI、作者、发表信息与稳定来源。\nAI 问答需要返回原文依据，不应只输出没有出处的总结。\n大规模语料索引不是第一阶段 MVP 的必要条件。"
+  },
+  {
+    "objectID": "library/papers/openscholar.html#原文与实现",
+    "href": "library/papers/openscholar.html#原文与实现",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "section": "原文与实现",
+    "text": "原文与实现\nNature 原文 · OpenScholar 开源实现"
+  },
+  {
+    "objectID": "library/papers/openscholar.html#关联阅读",
+    "href": "library/papers/openscholar.html#关联阅读",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
     "section": "关联阅读",
-    "text": "关联阅读\n\n脑电与认知：振荡、注意和解码\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息经 Crossref 核对；同时收录于成员公开论文索引。"
+    "text": "关联阅读\n文献精读与证据记录规范 · 研究专题索引"
   },
   {
-    "objectID": "library/papers/li-2024-tpbm-safety.html",
-    "href": "library/papers/li-2024-tpbm-safety.html",
-    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html",
+    "href": "library/papers/khan-2026-personalized-neuromodulation.html",
+    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
     "section": "",
-    "text": "作者： Zhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao\n发表信息： Brain Stimulation, 17(6), 1307-1316 (2024)\nDOI： 10.1016/j.brs.2024.11.010\n阅读进度： 摘要已读"
+    "text": "作者： Ahsan Khan; Hongming Li; Camille Blaine; Julie Grier; Ethan Hammett; Almaris Figueroa‐Gonzalez; Sarai Garcia; Romain Duprat; Justin Reber; Joseph Deluisi; Christos Davatzikos; Theodore D. Satterthwaite; Yong Fan; Desmond J. Oathes\n发表信息： Advanced Science, 13(49), e23009 (2026)\nDOI： 10.1002/advs.202523009\n阅读进度： 摘要已读"
   },
   {
-    "objectID": "library/papers/li-2024-tpbm-safety.html#书目信息",
-    "href": "library/papers/li-2024-tpbm-safety.html#书目信息",
-    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#书目信息",
+    "href": "library/papers/khan-2026-personalized-neuromodulation.html#书目信息",
+    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
     "section": "",
-    "text": "作者： Zhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao\n发表信息： Brain Stimulation, 17(6), 1307-1316 (2024)\nDOI： 10.1016/j.brs.2024.11.010\n阅读进度： 摘要已读"
+    "text": "作者： Ahsan Khan; Hongming Li; Camille Blaine; Julie Grier; Ethan Hammett; Almaris Figueroa‐Gonzalez; Sarai Garcia; Romain Duprat; Justin Reber; Joseph Deluisi; Christos Davatzikos; Theodore D. Satterthwaite; Yong Fan; Desmond J. Oathes\n发表信息： Advanced Science, 13(49), e23009 (2026)\nDOI： 10.1002/advs.202523009\n阅读进度： 摘要已读"
   },
   {
-    "objectID": "library/papers/li-2024-tpbm-safety.html#研究内容",
-    "href": "library/papers/li-2024-tpbm-safety.html#研究内容",
-    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#研究内容",
+    "href": "library/papers/khan-2026-personalized-neuromodulation.html#研究内容",
+    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
     "section": "研究内容",
-    "text": "研究内容\n研究结合 MRI、EEG、血液生化指标、执行功能测试与主观耐受问卷，评估健康受试者接受 1064 nm 经颅光生物调节后的变化。摘要报告，在研究所用参数下未发现所评估指标中的脑结构、功能或认知损伤，受试者不适较少；NSE 降低的含义仍需进一步研究。"
+    "text": "研究内容\n研究将个体功能网络靶点定位与实时脑状态解码结合，利用同步 TMS–fMRI 比较个体在 5、10 和 20 Hz 刺激下的网络响应，并据此选择刺激频率。摘要报告，在多次访视的交叉研究中，所测试频率中表现最好的频率条件改善了工作记忆，且最佳频率存在明显个体差异。"
   },
   {
-    "objectID": "library/papers/li-2024-tpbm-safety.html#整理依据",
-    "href": "library/papers/li-2024-tpbm-safety.html#整理依据",
-    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#整理依据",
+    "href": "library/papers/khan-2026-personalized-neuromodulation.html#整理依据",
+    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
     "section": "整理依据",
-    "text": "整理依据\n论文摘要见第 1 页。安全性结论适用于论文测试的参数和健康人群。刺激剂量、样本量、统计方法和随访窗口留待全文研读时逐项提取。"
+    "text": "整理依据\n卡片依据论文第 1–2 页的摘要和引言。这里的“最佳频率”限于测试的 5、10、20 Hz；研究使用 TMS，其结果不能直接作为经颅光刺激的频率证据。样本量、效应量、盲法和统计检验将在全文研读后补充。"
   },
   {
-    "objectID": "library/papers/li-2024-tpbm-safety.html#关联阅读",
-    "href": "library/papers/li-2024-tpbm-safety.html#关联阅读",
-    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#关联阅读",
+    "href": "library/papers/khan-2026-personalized-neuromodulation.html#关联阅读",
+    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
     "section": "关联阅读",
-    "text": "关联阅读\n\n经颅光刺激：参数与安全性阅读线索\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息见论文首页。"
-  },
-  {
-    "objectID": "library/papers/jia-2023-mi-bci.html",
-    "href": "library/papers/jia-2023-mi-bci.html",
-    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
-    "section": "",
-    "text": "作者： Hai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang\n发表信息： IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311-1320 (2023)\nDOI： 10.1109/tnsre.2023.3243992\n阅读进度： 已编目"
-  },
-  {
-    "objectID": "library/papers/jia-2023-mi-bci.html#书目信息",
-    "href": "library/papers/jia-2023-mi-bci.html#书目信息",
-    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
-    "section": "",
-    "text": "作者： Hai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang\n发表信息： IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311-1320 (2023)\nDOI： 10.1109/tnsre.2023.3243992\n阅读进度： 已编目"
-  },
-  {
-    "objectID": "library/papers/jia-2023-mi-bci.html#研究内容",
-    "href": "library/papers/jia-2023-mi-bci.html#研究内容",
-    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
-    "section": "研究内容",
-    "text": "研究内容\n提出结合多分支时频 CNN、通道注意力与 LightGBM 的运动想象脑机接口分类模型，收录于 EEG 解码与计算方法主题。"
-  },
-  {
-    "objectID": "library/papers/jia-2023-mi-bci.html#整理依据",
-    "href": "library/papers/jia-2023-mi-bci.html#整理依据",
-    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
-    "section": "整理依据",
-    "text": "整理依据\n依据已核对的题名与书目信息编目；模型性能、数据划分与外部验证将在全文研读后整理。"
-  },
-  {
-    "objectID": "library/papers/jia-2023-mi-bci.html#关联阅读",
-    "href": "library/papers/jia-2023-mi-bci.html#关联阅读",
-    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
-    "section": "关联阅读",
-    "text": "关联阅读\n\n脑电与认知：振荡、注意和解码\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息经 Crossref 核对；同时收录于成员公开论文索引。"
-  },
-  {
-    "objectID": "library/index.html",
-    "href": "library/index.html",
-    "title": "典籍目录",
-    "section": "",
-    "text": "按研究问题读论文 · 查看全部光刺激论文 · 查升温与安全研究"
-  },
-  {
-    "objectID": "library/index.html#经颅光刺激",
-    "href": "library/index.html#经颅光刺激",
-    "title": "典籍目录",
-    "section": "",
-    "text": "按研究问题读论文 · 查看全部光刺激论文 · 查升温与安全研究"
-  },
-  {
-    "objectID": "library/index.html#完整文献目录",
-    "href": "library/index.html#完整文献目录",
-    "title": "典籍目录",
-    "section": "完整文献目录",
-    "text": "完整文献目录\n按研究方向和细分主题浏览，或用题名、作者、期刊、年份与 DOI 查找文献。\n\n\n检索文献\n研究方向全部方向\n细分主题全部细分主题\n阅读进度全部进度已编目摘要已读全文已读精读已整理方法参考\n排序方式年份降序题名字母顺序\n\n正在载入文献目录……\n\n上一页下一页\n完整目录需要 JavaScript；下方可直接浏览已整理卡片。"
-  },
-  {
-    "objectID": "library/index.html#已整理卡片",
-    "href": "library/index.html#已整理卡片",
-    "title": "典籍目录",
-    "section": "已整理卡片",
-    "text": "已整理卡片\n这里可以直接打开已整理的论文卡片，查看书目、研究内容和相关札记。\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        年份 - 日期升序\n      \n      \n        年份 - 日期降序\n      \n      \n        论文\n      \n    \n  \n\n\n\n\n\n\n论文\n\n\n\n年份\n\n\n\n阅读进度\n\n\n\n\n\n\n\n\nSynthesizing scientific literature with retrieval-augmented language models\n\n\n2026\n\n\n方法参考\n\n\n\n\n\n\nPersonalized Network‐Guided Neuromodulation Enhances Human Working Memory\n\n\n2026\n\n\n摘要已读\n\n\n\n\n\n\nTranscranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\n\n\n2024\n\n\n摘要已读\n\n\n\n\n\n\nA Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\nSuppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\n无匹配项"
-  },
-  {
-    "objectID": "library/index.html#阅读进度",
-    "href": "library/index.html#阅读进度",
-    "title": "典籍目录",
-    "section": "阅读进度",
-    "text": "阅读进度\n已编目 → 摘要已读 → 全文已读 → 精读已整理。进度随实际阅读更新，精读札记关联原文页码或图表。\n推荐新文献时，可提供 DOI 或原文链接。"
-  },
-  {
-    "objectID": "research/personalized-networks.html",
-    "href": "research/personalized-networks.html",
-    "title": "个体化脑网络与神经调控",
-    "section": "",
-    "text": "个体之间的脑网络差异如何用于选择刺激靶点？在固定靶点之后，频率是否也需要按个体选择？"
-  },
-  {
-    "objectID": "research/personalized-networks.html#阅读问题",
-    "href": "research/personalized-networks.html#阅读问题",
-    "title": "个体化脑网络与神经调控",
-    "section": "",
-    "text": "个体之间的脑网络差异如何用于选择刺激靶点？在固定靶点之后，频率是否也需要按个体选择？"
-  },
-  {
-    "objectID": "research/personalized-networks.html#核心文献",
-    "href": "research/personalized-networks.html#核心文献",
-    "title": "个体化脑网络与神经调控",
-    "section": "核心文献",
-    "text": "核心文献\nKhan et al., 2026：个体网络引导的工作记忆神经调控将个体靶点定位、同步 TMS–fMRI 和实时解码结合，比较个体在不同频率下的网络响应。\n摘要阅读札记记录其方法思路与全文研读问题。"
-  },
-  {
-    "objectID": "research/personalized-networks.html#比较维度",
-    "href": "research/personalized-networks.html#比较维度",
-    "title": "个体化脑网络与神经调控",
-    "section": "比较维度",
-    "text": "比较维度\n后续文献按靶点定义、刺激模态、参数搜索范围、状态指标与行为终点比较。TMS、经颅电刺激与经颅光刺激分别记录，再讨论可迁移的方法思路。\n返回研究专题"
-  },
-  {
-    "objectID": "research/eeg-cognition.html",
-    "href": "research/eeg-cognition.html",
-    "title": "脑电与认知：振荡、注意和解码",
-    "section": "",
-    "text": "脑振荡如何参与注意与干扰控制？时频特征如何用于运动想象解码？两类研究分别需要怎样的证据？"
-  },
-  {
-    "objectID": "research/eeg-cognition.html#阅读问题",
-    "href": "research/eeg-cognition.html#阅读问题",
-    "title": "脑电与认知：振荡、注意和解码",
-    "section": "",
-    "text": "脑振荡如何参与注意与干扰控制？时频特征如何用于运动想象解码？两类研究分别需要怎样的证据？"
-  },
-  {
-    "objectID": "research/eeg-cognition.html#阅读索引",
-    "href": "research/eeg-cognition.html#阅读索引",
-    "title": "脑电与认知：振荡、注意和解码",
-    "section": "阅读索引",
-    "text": "阅读索引\n\nZhao et al., 2023：预期性 alpha 活动与干扰抑制。\nJia et al., 2023：多分支时频 CNN、通道注意力与 LightGBM。"
-  },
-  {
-    "objectID": "research/eeg-cognition.html#比较维度",
-    "href": "research/eeg-cognition.html#比较维度",
-    "title": "脑电与认知：振荡、注意和解码",
-    "section": "比较维度",
-    "text": "比较维度\n机制研究重点记录实验操纵、时间窗、频段及行为关联；分类研究重点记录数据集、被试间划分、交叉验证和性能指标。\n返回研究专题"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "藏经阁 Cangjingge",
-    "section": "",
-    "text": "从经颅光、磁、电刺激，到用 fMRI 和脑电观察脑活动。这里可以查论文，也可以按问题读。\n查神经调控论文 查全部文献\n\n\n\n1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读"
-  },
-  {
-    "objectID": "index.html#经颅光刺激",
-    "href": "index.html#经颅光刺激",
-    "title": "藏经阁 Cangjingge",
-    "section": "",
-    "text": "1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读"
-  },
-  {
-    "objectID": "index.html#浏览藏经阁",
-    "href": "index.html#浏览藏经阁",
-    "title": "藏经阁 Cangjingge",
-    "section": "浏览藏经阁",
-    "text": "浏览藏经阁\n\n\n查文献\n按题名、作者或 DOI 找论文，也可以按主题筛选。\n\n\n读论文笔记\n看论文怎么做、发现了什么，以及结果对应的图表。\n\n\n研究专题\n按问题读论文，例如光如何进入脑组织、怎样评估升温。"
-  },
-  {
-    "objectID": "index.html#按方向浏览",
-    "href": "index.html#按方向浏览",
-    "title": "藏经阁 Cangjingge",
-    "section": "按方向浏览",
-    "text": "按方向浏览\n经颅光刺激 · 经颅磁刺激 · 经颅电刺激 · fMRI 与脑网络 · 脑电与认知\n有论文、札记或勘误想分享？查看提交方式。"
-  },
-  {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "研究专题",
-    "section": "",
-    "text": "光怎样进入脑组织？波长和脉冲怎么选？怎样测量脑活动、升温和睡眠？\n按问题读论文 浏览光刺激文献"
-  },
-  {
-    "objectID": "research/index.html#经颅光刺激",
-    "href": "research/index.html#经颅光刺激",
-    "title": "研究专题",
-    "section": "",
-    "text": "光怎样进入脑组织？波长和脉冲怎么选？怎样测量脑活动、升温和睡眠？\n按问题读论文 浏览光刺激文献"
-  },
-  {
-    "objectID": "research/index.html#其他专题",
-    "href": "research/index.html#其他专题",
-    "title": "研究专题",
-    "section": "其他专题",
-    "text": "其他专题\n\n个体化脑网络与神经调控 · 怎么为不同的人选刺激靶点和频率？\n脑电与认知 · 怎样用脑电研究注意和运动想象？\n\n按主题查找更多文献"
+    "text": "关联阅读\n\n个体化脑网络与神经调控\n从靶点个体化到频率个体化：摘要阅读札记\n\n\n\n来源\n\n期刊原文。书目信息见论文首页。"
   },
   {
     "objectID": "research/tpbm.html",
     "href": "research/tpbm.html",
     "title": "经颅光刺激",
     "section": "",
-    "text": "浏览光刺激文献 · 查看热效应与热安全文献"
+    "text": "浏览光刺激文献 · 查看热效应与热安全文献\n打开研究对比台 按具体问题读全文\n把波长、剂量、假刺激和结果放在一起比较，每项都可以回到原文方法或图表。"
   },
   {
     "objectID": "research/tpbm.html#光能到达哪里",
@@ -469,88 +777,704 @@
     "text": "对照不同论文时看什么？\n先对照波长、照射位置、光斑面积、功率和照射时间。比较功率密度时，先确认数字指的是头皮入射值，还是模型估算的脑内值。温升、安全性和睡眠结果各用对应的测量指标比较。\n返回研究专题"
   },
   {
-    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html",
-    "href": "library/papers/khan-2026-personalized-neuromodulation.html",
-    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
+    "objectID": "research/tpbm-compare.html",
+    "href": "research/tpbm-compare.html",
+    "title": "经颅光刺激研究对比台",
     "section": "",
-    "text": "作者： Ahsan Khan; Hongming Li; Camille Blaine; Julie Grier; Ethan Hammett; Almaris Figueroa‐Gonzalez; Sarai Garcia; Romain Duprat; Justin Reber; Joseph Deluisi; Christos Davatzikos; Theodore D. Satterthwaite; Yong Fan; Desmond J. Oathes\n发表信息： Advanced Science, 13(49), e23009 (2026)\nDOI： 10.1002/advs.202523009\n阅读进度： 摘要已读"
+    "text": "选几篇研究，逐项比较照射参数、实验设计和结果。每个数据旁的链接可回到原文方法或图表。\n不知道先读哪篇？按问题开始\n\n\n\n\n\n\n注记指标怎么读？\n\n\n\n\n\nEEG 看脑电活动；fNIRS 看血氧变化；bbNIRS 还可以观察氧化型细胞色素 c 氧化酶（oxCCO），用于研究代谢变化；fMRI 看磁共振信号及其相关性；ASL 测脑灌注；MEP 是运动诱发电位，用来观察运动通路的响应。它们测量的对象不同，不能直接互换。\n\n\n\n\n  正在载入研究……\n\n交互对比需要 JavaScript。也可以打开下方的研究目录，阅读每篇的参数和原文图表。\n\n\n\n全部研究 · 文字目录\n\n\nMa · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？\nQu · 2022：连续七天刺激的记忆改善能保持多久？\nZhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？\nTruong · 2022：连续光会改变哪些慢频段的血氧网络？\nShahdadian · 2022：脑电功率增加时，网络效率也一定增加吗？\nWang · 2022：血氧同步与氧化代谢同步会同向改变吗？\nWang · 2021：光刺激和皮肤加热的脑电分布一样吗？\nNizamutdinov · 2021：居家头盔照射八周后，痴呆患者的认知评分如何？\nPruitt · 2020：年轻人与老年人的血氧和氧化代谢反应一样吗？\nDmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？\nChao · 2020：脑震荡病例的量表、灌注与连接怎样一起读？\nFigueiro Longo · 2020：急性脑损伤后，影像变化是否伴随症状改善？\nYuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？\nHolmes · 2019：认知任务表现与前额血氧是否一起改变？\nZomorrodi · 2019：40 Hz 经颅加鼻内刺激后，脑电频段如何改变？\nWang · 2017：把皮肤加热，能复现光刺激的代谢与血氧反应吗？\nSaltmarche · 2017：经颅加鼻内疗程结束后，认知评分怎样变化？\nTian · 2016：照射额中与右额，双侧血氧怎样变化？\nCassano · 2015：早期抑郁试验怎样安排照射和假刺激？\nBarrett · 2013：早期人体研究怎样测注意和记忆？\nJagdeo · 2012：红光与近红外穿过颅骨的比例一样吗？\n\n\n\n\n\n 回到顶部"
   },
   {
-    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#书目信息",
-    "href": "library/papers/khan-2026-personalized-neuromodulation.html#书目信息",
-    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "研究专题",
     "section": "",
-    "text": "作者： Ahsan Khan; Hongming Li; Camille Blaine; Julie Grier; Ethan Hammett; Almaris Figueroa‐Gonzalez; Sarai Garcia; Romain Duprat; Justin Reber; Joseph Deluisi; Christos Davatzikos; Theodore D. Satterthwaite; Yong Fan; Desmond J. Oathes\n发表信息： Advanced Science, 13(49), e23009 (2026)\nDOI： 10.1002/advs.202523009\n阅读进度： 摘要已读"
+    "text": "光怎样进入脑组织？波长和脉冲怎么选？怎样测量脑活动、升温和睡眠？\n按问题读论文 浏览光刺激文献"
   },
   {
-    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#研究内容",
-    "href": "library/papers/khan-2026-personalized-neuromodulation.html#研究内容",
-    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
+    "objectID": "research/index.html#经颅光刺激",
+    "href": "research/index.html#经颅光刺激",
+    "title": "研究专题",
+    "section": "",
+    "text": "光怎样进入脑组织？波长和脉冲怎么选？怎样测量脑活动、升温和睡眠？\n按问题读论文 浏览光刺激文献"
+  },
+  {
+    "objectID": "research/index.html#其他专题",
+    "href": "research/index.html#其他专题",
+    "title": "研究专题",
+    "section": "其他专题",
+    "text": "其他专题\n\n个体化脑网络与神经调控 · 怎么为不同的人选刺激靶点和频率？\n脑电与认知 · 怎样用脑电研究注意和运动想象？\n\n按主题查找更多文献"
+  },
+  {
+    "objectID": "research/index.html#比较经颅光刺激研究",
+    "href": "research/index.html#比较经颅光刺激研究",
+    "title": "研究专题",
+    "section": "比较经颅光刺激研究",
+    "text": "比较经颅光刺激研究\n研究对比台 · 波长、热效应、脑活动与疗程：按问题读"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "藏经阁 Cangjingge",
+    "section": "",
+    "text": "从经颅光、磁、电刺激，到用 fMRI 和脑电观察脑活动。这里可以查论文，也可以按问题读。\n查神经调控论文 查全部文献\n\n\n\n1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读\n研究对比台 · 从具体问题开始"
+  },
+  {
+    "objectID": "index.html#经颅光刺激",
+    "href": "index.html#经颅光刺激",
+    "title": "藏经阁 Cangjingge",
+    "section": "",
+    "text": "1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读\n研究对比台 · 从具体问题开始"
+  },
+  {
+    "objectID": "index.html#浏览藏经阁",
+    "href": "index.html#浏览藏经阁",
+    "title": "藏经阁 Cangjingge",
+    "section": "浏览藏经阁",
+    "text": "浏览藏经阁\n\n\n查文献\n按题名、作者或 DOI 找论文，也可以按主题筛选。\n\n\n读论文笔记\n看论文怎么做、发现了什么，以及结果对应的图表。\n\n\n研究专题\n按问题读论文，例如光如何进入脑组织、怎样评估升温。"
+  },
+  {
+    "objectID": "index.html#按方向浏览",
+    "href": "index.html#按方向浏览",
+    "title": "藏经阁 Cangjingge",
+    "section": "按方向浏览",
+    "text": "按方向浏览\n经颅光刺激 · 经颅磁刺激 · 经颅电刺激 · fMRI 与脑网络 · 脑电与认知\n有论文、札记或勘误想分享？查看提交方式。"
+  },
+  {
+    "objectID": "research/eeg-cognition.html",
+    "href": "research/eeg-cognition.html",
+    "title": "脑电与认知：振荡、注意和解码",
+    "section": "",
+    "text": "脑振荡如何参与注意与干扰控制？时频特征如何用于运动想象解码？两类研究分别需要怎样的证据？"
+  },
+  {
+    "objectID": "research/eeg-cognition.html#阅读问题",
+    "href": "research/eeg-cognition.html#阅读问题",
+    "title": "脑电与认知：振荡、注意和解码",
+    "section": "",
+    "text": "脑振荡如何参与注意与干扰控制？时频特征如何用于运动想象解码？两类研究分别需要怎样的证据？"
+  },
+  {
+    "objectID": "research/eeg-cognition.html#阅读索引",
+    "href": "research/eeg-cognition.html#阅读索引",
+    "title": "脑电与认知：振荡、注意和解码",
+    "section": "阅读索引",
+    "text": "阅读索引\n\nZhao et al., 2023：预期性 alpha 活动与干扰抑制。\nJia et al., 2023：多分支时频 CNN、通道注意力与 LightGBM。"
+  },
+  {
+    "objectID": "research/eeg-cognition.html#比较维度",
+    "href": "research/eeg-cognition.html#比较维度",
+    "title": "脑电与认知：振荡、注意和解码",
+    "section": "比较维度",
+    "text": "比较维度\n机制研究重点记录实验操纵、时间窗、频段及行为关联；分类研究重点记录数据集、被试间划分、交叉验证和性能指标。\n返回研究专题"
+  },
+  {
+    "objectID": "research/personalized-networks.html",
+    "href": "research/personalized-networks.html",
+    "title": "个体化脑网络与神经调控",
+    "section": "",
+    "text": "个体之间的脑网络差异如何用于选择刺激靶点？在固定靶点之后，频率是否也需要按个体选择？"
+  },
+  {
+    "objectID": "research/personalized-networks.html#阅读问题",
+    "href": "research/personalized-networks.html#阅读问题",
+    "title": "个体化脑网络与神经调控",
+    "section": "",
+    "text": "个体之间的脑网络差异如何用于选择刺激靶点？在固定靶点之后，频率是否也需要按个体选择？"
+  },
+  {
+    "objectID": "research/personalized-networks.html#核心文献",
+    "href": "research/personalized-networks.html#核心文献",
+    "title": "个体化脑网络与神经调控",
+    "section": "核心文献",
+    "text": "核心文献\nKhan et al., 2026：个体网络引导的工作记忆神经调控将个体靶点定位、同步 TMS–fMRI 和实时解码结合，比较个体在不同频率下的网络响应。\n摘要阅读札记记录其方法思路与全文研读问题。"
+  },
+  {
+    "objectID": "research/personalized-networks.html#比较维度",
+    "href": "research/personalized-networks.html#比较维度",
+    "title": "个体化脑网络与神经调控",
+    "section": "比较维度",
+    "text": "比较维度\n后续文献按靶点定义、刺激模态、参数搜索范围、状态指标与行为终点比较。TMS、经颅电刺激与经颅光刺激分别记录，再讨论可迁移的方法思路。\n返回研究专题"
+  },
+  {
+    "objectID": "research/tpbm-questions.html",
+    "href": "research/tpbm-questions.html",
+    "title": "经颅光刺激：按问题读",
+    "section": "",
+    "text": "从一个实验问题出发，把经典研究和后续进展放在一起读。每篇研究保留原文方法、图表和参数。\n打开研究对比台\n\n\n波长和脉冲怎么选？\n分清波长、频率、平均功率和总能量，才能解释不同条件的效果。\n\n\n怎样区分光照与加热效应？\n比较升温轨迹、假刺激和测量位置，而不只看设备是否发热。\n\n\n脑电、血氧和功能连接为什么会给出不同结果？\n同样叫“连接”，不同仪器、频段和计算方法可能回答不同问题。\n\n\n注意与记忆改善，应该看哪些指标？\n看反应速度、准确率和容量，也看练习效应及对照组如何变化。\n\n\n单次与重复照射，哪些变化能持续？\n把刺激当时、疗程结束和停用后随访分开看。\n\n\n相同头皮剂量，进入脑内的光一样多吗？\n波长、照射部位和头部结构都会影响光的分布。\n\n\n\n\n\n 回到顶部"
+  },
+  {
+    "objectID": "library/index.html",
+    "href": "library/index.html",
+    "title": "典籍目录",
+    "section": "",
+    "text": "按研究问题读论文 · 查看全部光刺激论文 · 查升温与安全研究"
+  },
+  {
+    "objectID": "library/index.html#经颅光刺激",
+    "href": "library/index.html#经颅光刺激",
+    "title": "典籍目录",
+    "section": "",
+    "text": "按研究问题读论文 · 查看全部光刺激论文 · 查升温与安全研究"
+  },
+  {
+    "objectID": "library/index.html#完整文献目录",
+    "href": "library/index.html#完整文献目录",
+    "title": "典籍目录",
+    "section": "完整文献目录",
+    "text": "完整文献目录\n按研究方向和细分主题浏览，或用题名、作者、期刊、年份与 DOI 查找文献。\n\n\n检索文献\n研究方向全部方向\n细分主题全部细分主题\n阅读进度全部进度已编目摘要已读全文已读精读已整理方法参考\n排序方式年份降序题名字母顺序\n\n正在载入文献目录……\n\n上一页下一页\n完整目录需要 JavaScript；下方可直接浏览已整理卡片。"
+  },
+  {
+    "objectID": "library/index.html#已整理卡片",
+    "href": "library/index.html#已整理卡片",
+    "title": "典籍目录",
+    "section": "已整理卡片",
+    "text": "已整理卡片\n这里可以直接打开已整理的论文卡片，查看书目、研究内容和相关札记。\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        年份 - 日期升序\n      \n      \n        年份 - 日期降序\n      \n      \n        论文\n      \n    \n  \n\n\n\n\n\n\n论文\n\n\n\n年份\n\n\n\n阅读进度\n\n\n\n\n\n\n\n\nSynthesizing scientific literature with retrieval-augmented language models\n\n\n2026\n\n\n方法参考\n\n\n\n\n\n\nPersonalized Network‐Guided Neuromodulation Enhances Human Working Memory\n\n\n2026\n\n\n摘要已读\n\n\n\n\n\n\nTranscranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\n\n\n2024\n\n\n摘要已读\n\n\n\n\n\n\nA Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\nSuppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\n无匹配项"
+  },
+  {
+    "objectID": "library/index.html#阅读进度",
+    "href": "library/index.html#阅读进度",
+    "title": "典籍目录",
+    "section": "阅读进度",
+    "text": "阅读进度\n已编目 → 摘要已读 → 全文已读 → 精读已整理。进度随实际阅读更新，精读札记关联原文页码或图表。\n推荐新文献时，可提供 DOI 或原文链接。"
+  },
+  {
+    "objectID": "library/papers/jia-2023-mi-bci.html",
+    "href": "library/papers/jia-2023-mi-bci.html",
+    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
+    "section": "",
+    "text": "作者： Hai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang\n发表信息： IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311-1320 (2023)\nDOI： 10.1109/tnsre.2023.3243992\n阅读进度： 已编目"
+  },
+  {
+    "objectID": "library/papers/jia-2023-mi-bci.html#书目信息",
+    "href": "library/papers/jia-2023-mi-bci.html#书目信息",
+    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
+    "section": "",
+    "text": "作者： Hai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang\n发表信息： IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311-1320 (2023)\nDOI： 10.1109/tnsre.2023.3243992\n阅读进度： 已编目"
+  },
+  {
+    "objectID": "library/papers/jia-2023-mi-bci.html#研究内容",
+    "href": "library/papers/jia-2023-mi-bci.html#研究内容",
+    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
     "section": "研究内容",
-    "text": "研究内容\n研究将个体功能网络靶点定位与实时脑状态解码结合，利用同步 TMS–fMRI 比较个体在 5、10 和 20 Hz 刺激下的网络响应，并据此选择刺激频率。摘要报告，在多次访视的交叉研究中，所测试频率中表现最好的频率条件改善了工作记忆，且最佳频率存在明显个体差异。"
+    "text": "研究内容\n提出结合多分支时频 CNN、通道注意力与 LightGBM 的运动想象脑机接口分类模型，收录于 EEG 解码与计算方法主题。"
   },
   {
-    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#整理依据",
-    "href": "library/papers/khan-2026-personalized-neuromodulation.html#整理依据",
-    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
+    "objectID": "library/papers/jia-2023-mi-bci.html#整理依据",
+    "href": "library/papers/jia-2023-mi-bci.html#整理依据",
+    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
     "section": "整理依据",
-    "text": "整理依据\n卡片依据论文第 1–2 页的摘要和引言。这里的“最佳频率”限于测试的 5、10、20 Hz；研究使用 TMS，其结果不能直接作为经颅光刺激的频率证据。样本量、效应量、盲法和统计检验将在全文研读后补充。"
+    "text": "整理依据\n依据已核对的题名与书目信息编目；模型性能、数据划分与外部验证将在全文研读后整理。"
   },
   {
-    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#关联阅读",
-    "href": "library/papers/khan-2026-personalized-neuromodulation.html#关联阅读",
-    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
+    "objectID": "library/papers/jia-2023-mi-bci.html#关联阅读",
+    "href": "library/papers/jia-2023-mi-bci.html#关联阅读",
+    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
     "section": "关联阅读",
-    "text": "关联阅读\n\n个体化脑网络与神经调控\n从靶点个体化到频率个体化：摘要阅读札记\n\n\n\n来源\n\n期刊原文。书目信息见论文首页。"
+    "text": "关联阅读\n\n脑电与认知：振荡、注意和解码\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息经 Crossref 核对；同时收录于成员公开论文索引。"
   },
   {
-    "objectID": "library/papers/openscholar.html",
-    "href": "library/papers/openscholar.html",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "objectID": "library/papers/li-2024-tpbm-safety.html",
+    "href": "library/papers/li-2024-tpbm-safety.html",
+    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
     "section": "",
-    "text": "题目： Synthesizing scientific literature with retrieval-augmented language models\n作者： Akari Asai et al.\n期刊： Nature, 650, 857–863 (2026)\n发表日期： 2026-02-04\nDOI： 10.1038/s41586-025-10072-4\n开源实现： OpenScholar GitHub"
+    "text": "作者： Zhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao\n发表信息： Brain Stimulation, 17(6), 1307-1316 (2024)\nDOI： 10.1016/j.brs.2024.11.010\n阅读进度： 摘要已读"
   },
   {
-    "objectID": "library/papers/openscholar.html#书目信息",
-    "href": "library/papers/openscholar.html#书目信息",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "objectID": "library/papers/li-2024-tpbm-safety.html#书目信息",
+    "href": "library/papers/li-2024-tpbm-safety.html#书目信息",
+    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
     "section": "",
-    "text": "题目： Synthesizing scientific literature with retrieval-augmented language models\n作者： Akari Asai et al.\n期刊： Nature, 650, 857–863 (2026)\n发表日期： 2026-02-04\nDOI： 10.1038/s41586-025-10072-4\n开源实现： OpenScholar GitHub"
+    "text": "作者： Zhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao\n发表信息： Brain Stimulation, 17(6), 1307-1316 (2024)\nDOI： 10.1016/j.brs.2024.11.010\n阅读进度： 摘要已读"
   },
   {
-    "objectID": "library/papers/openscholar.html#核心问题",
-    "href": "library/papers/openscholar.html#核心问题",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
-    "section": "核心问题",
-    "text": "核心问题\n如何让语言模型从大量科学论文中定位证据，并综合多篇文献形成可以追溯来源的回答？"
+    "objectID": "library/papers/li-2024-tpbm-safety.html#研究内容",
+    "href": "library/papers/li-2024-tpbm-safety.html#研究内容",
+    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "section": "研究内容",
+    "text": "研究内容\n研究结合 MRI、EEG、血液生化指标、执行功能测试与主观耐受问卷，评估健康受试者接受 1064 nm 经颅光生物调节后的变化。摘要报告，在研究所用参数下未发现所评估指标中的脑结构、功能或认知损伤，受试者不适较少；NSE 降低的含义仍需进一步研究。"
   },
   {
-    "objectID": "library/papers/openscholar.html#方法概览",
-    "href": "library/papers/openscholar.html#方法概览",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
-    "section": "方法概览",
-    "text": "方法概览\nOpenScholar 将学术语料检索、候选重排序和基于证据的生成相结合，并加入自我反馈以改进最终输出。论文介绍的系统以大规模公开获取的论文语料为基础。"
+    "objectID": "library/papers/li-2024-tpbm-safety.html#整理依据",
+    "href": "library/papers/li-2024-tpbm-safety.html#整理依据",
+    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "section": "整理依据",
+    "text": "整理依据\n论文摘要见第 1 页。安全性结论适用于论文测试的参数和健康人群。刺激剂量、样本量、统计方法和随访窗口留待全文研读时逐项提取。"
   },
   {
-    "objectID": "library/papers/openscholar.html#对藏经阁的启发",
-    "href": "library/papers/openscholar.html#对藏经阁的启发",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
-    "section": "对藏经阁的启发",
-    "text": "对藏经阁的启发\n\n文献条目应保留 DOI、作者、发表信息与稳定来源。\nAI 问答需要返回原文依据，不应只输出没有出处的总结。\n大规模语料索引不是第一阶段 MVP 的必要条件。"
-  },
-  {
-    "objectID": "library/papers/openscholar.html#原文与实现",
-    "href": "library/papers/openscholar.html#原文与实现",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
-    "section": "原文与实现",
-    "text": "原文与实现\nNature 原文 · OpenScholar 开源实现"
-  },
-  {
-    "objectID": "library/papers/openscholar.html#关联阅读",
-    "href": "library/papers/openscholar.html#关联阅读",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "objectID": "library/papers/li-2024-tpbm-safety.html#关联阅读",
+    "href": "library/papers/li-2024-tpbm-safety.html#关联阅读",
+    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
     "section": "关联阅读",
-    "text": "关联阅读\n文献精读与证据记录规范 · 研究专题索引"
+    "text": "关联阅读\n\n经颅光刺激：参数与安全性阅读线索\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息见论文首页。"
+  },
+  {
+    "objectID": "library/papers/zhao-2023-alpha-attention.html",
+    "href": "library/papers/zhao-2023-alpha-attention.html",
+    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
+    "section": "",
+    "text": "作者： Chenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song\n发表信息： PLOS Biology, 21(3), e3002014 (2023)\nDOI： 10.1371/journal.pbio.3002014\n阅读进度： 已编目"
+  },
+  {
+    "objectID": "library/papers/zhao-2023-alpha-attention.html#书目信息",
+    "href": "library/papers/zhao-2023-alpha-attention.html#书目信息",
+    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
+    "section": "",
+    "text": "作者： Chenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song\n发表信息： PLOS Biology, 21(3), e3002014 (2023)\nDOI： 10.1371/journal.pbio.3002014\n阅读进度： 已编目"
+  },
+  {
+    "objectID": "library/papers/zhao-2023-alpha-attention.html#研究内容",
+    "href": "library/papers/zhao-2023-alpha-attention.html#研究内容",
+    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
+    "section": "研究内容",
+    "text": "研究内容\n围绕视觉空间线索、预期性 alpha 活动与干扰信息抑制的关系展开研究，收录于脑振荡和注意控制主题。"
+  },
+  {
+    "objectID": "library/papers/zhao-2023-alpha-attention.html#整理依据",
+    "href": "library/papers/zhao-2023-alpha-attention.html#整理依据",
+    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
+    "section": "整理依据",
+    "text": "整理依据\n依据已核对的题名与书目信息编目；方法、结果和证据评价将在全文研读后补充。"
+  },
+  {
+    "objectID": "library/papers/zhao-2023-alpha-attention.html#关联阅读",
+    "href": "library/papers/zhao-2023-alpha-attention.html#关联阅读",
+    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
+    "section": "关联阅读",
+    "text": "关联阅读\n\n脑电与认知：振荡、注意和解码\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息经 Crossref 核对；同时收录于成员公开论文索引。"
+  },
+  {
+    "objectID": "library/tpbm/cassano-2015.html",
+    "href": "library/tpbm/cassano-2015.html",
+    "title": "早期抑郁试验怎样安排照射和假刺激？",
+    "section": "",
+    "text": "Cassano · 2015 · 临床\nNear-Infrared Transcranial Radiation for Major Depressive Disorder: Proof of Concept Study\nPsychiatry Journal · DOI: 10.1155/2015/352979 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/cassano-2015.html#怎么做",
+    "href": "library/tpbm/cassano-2015.html#怎么做",
+    "title": "早期抑郁试验怎样安排照射和假刺激？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象重性抑郁障碍；4名完成者方法·交叉试验\n研究设计计划随机双盲交叉；4名完成者均先主动后假刺激方法·交叉试验\n波长808 ± 10 nm方法·四点照射与冷却\n连续光 / 脉冲连续光方法·四点照射与冷却\n照射位置双侧前额4个不重叠点方法·四点照射与冷却\n辐照度 / 功率约700 mW/cm²；接触式，主动冷却方法·四点照射与冷却\n光斑每点7.1 cm²（直径3 cm）方法·四点照射与冷却\n照射时间与疗程2分钟/点；每周2次，主动疗程3周方法·四点照射与冷却\n剂量84 J/cm² / 点；总2.40 kJ / 次方法·四点照射与冷却\n对照怎么做同设备主动冷却及相同声光界面，假刺激不出光方法·四点照射与冷却\n观察指标HAM-D17图 2·个体HAM-D轨迹\n测量时间每周评估，末次到第8周方法·四点照射与冷却"
+  },
+  {
+    "objectID": "library/tpbm/cassano-2015.html#结果怎么看",
+    "href": "library/tpbm/cassano-2015.html#结果怎么看",
+    "title": "早期抑郁试验怎样安排照射和假刺激？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n4名完成者的HAM-D下降；个体和均值轨迹见图2，部分缓解未持续。（图 2·个体HAM-D轨迹）"
+  },
+  {
+    "objectID": "library/tpbm/cassano-2015.html#对实验设计有什么用",
+    "href": "library/tpbm/cassano-2015.html#对实验设计有什么用",
+    "title": "早期抑郁试验怎样安排照射和假刺激？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n完成者极少，且全部同一治疗顺序；适合了解可行性和设计，不能作为稳定疗效估计。"
+  },
+  {
+    "objectID": "library/tpbm/cassano-2015.html#接着读",
+    "href": "library/tpbm/cassano-2015.html#接着读",
+    "title": "早期抑郁试验怎样安排照射和假刺激？",
+    "section": "接着读",
+    "text": "接着读\n\n单次与重复照射，哪些变化能持续？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/dmochowski-2020.html",
+    "href": "library/tpbm/dmochowski-2020.html",
+    "title": "照射时功能连接增加，MRI能测到升温吗？",
+    "section": "",
+    "text": "Dmochowski · 2020 · 健康人\nNear-Infrared Light Increases Functional Connectivity with a Non-thermal Mechanism\nCerebral Cortex Communications · DOI: 10.1093/texcom/tgaa004 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/dmochowski-2020.html#怎么做",
+    "href": "library/tpbm/dmochowski-2020.html#怎么做",
+    "title": "照射时功能连接增加，MRI能测到升温吗？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象BOLD组20人；另20人测温（2人因伪影剔除）方法·BOLD实验\n研究设计BOLD前中后测；独立测温组随机顺序主动/假刺激交叉方法·BOLD实验\n波长808 nm方法·tPBM参数\n连续光 / 脉冲激光持续照射方法·tPBM参数\n照射位置右额 Fp2方法·tPBM参数\n辐照度 / 功率318 mW/cm²；头皮入射方法·tPBM参数\n光斑直径1 cm方法·tPBM参数\n照射时间与疗程10分钟方法·tPBM参数\n剂量总入射能量150 J方法·tPBM参数\n对照怎么做BOLD无同期假刺激；测温实验有关闭激光对照方法·独立测温实验\n观察指标多回波BOLD功能连接；另组MR测温图 4·全脑功能连接\n测量时间30分钟BOLD扫描中间10分钟照射方法·tPBM参数"
+  },
+  {
+    "objectID": "library/tpbm/dmochowski-2020.html#结果怎么看",
+    "href": "library/tpbm/dmochowski-2020.html#结果怎么看",
+    "title": "照射时功能连接增加，MRI能测到升温吗？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n照射中广泛功能连接增加，照射后显著连接数量减少。（图 4·全脑功能连接）\n该测温实验未检出主动与假刺激的显著脑温差。（图 7·MR测温）"
+  },
+  {
+    "objectID": "library/tpbm/dmochowski-2020.html#对实验设计有什么用",
+    "href": "library/tpbm/dmochowski-2020.html#对实验设计有什么用",
+    "title": "照射时功能连接增加，MRI能测到升温吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n连接与温度来自不同队列；未检出脑温差取决于测温灵敏度，BOLD前后比较也可能含时间效应。"
+  },
+  {
+    "objectID": "library/tpbm/dmochowski-2020.html#接着读",
+    "href": "library/tpbm/dmochowski-2020.html#接着读",
+    "title": "照射时功能连接增加，MRI能测到升温吗？",
+    "section": "接着读",
+    "text": "接着读\n\n怎样区分光照与加热效应？\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/jagdeo-2012.html",
+    "href": "library/tpbm/jagdeo-2012.html",
+    "title": "红光与近红外穿过颅骨的比例一样吗？",
+    "section": "",
+    "text": "Jagdeo · 2012 · 离体组织\nTranscranial Red and Near Infrared Light Transmission in a Cadaveric Model\nPLoS ONE · DOI: 10.1371/journal.pone.0047460 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/jagdeo-2012.html#怎么做",
+    "href": "library/tpbm/jagdeo-2012.html#怎么做",
+    "title": "红光与近红外穿过颅骨的比例一样吗？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象2个冠状切开颅骨，另1个保留软组织的矢状切开头部方法·颅骨样本与光源\n研究设计离体透射测量，按位置和波长比较方法·颅骨样本与光源\n波长633 / 830 nm表 1–2·入射参照和透射值\n连续光 / 脉冲LED；本文未单列脉冲方式表 1–2·入射参照和透射值\n照射位置额、顶、颞、枕部组织表 1–2·入射参照和透射值\n辐照度 / 功率空气参照：5 mm处830为35.1、633为72.6 mW/cm²表 1–2·入射参照和透射值\n光斑出光口4.7 × 6.1 cm；探头直径1.5 cm方法·颅骨样本与光源\n照射时间与疗程透射测量；无治疗疗程表 1–2·入射参照和透射值\n剂量不适用：非干预剂量试验表 1–2·入射参照和透射值\n对照怎么做空气、血液及介质对照表 1–2·入射参照和透射值\n观察指标透射光强与相对透射比例图 2–3·区域透射比例\n测量时间即时光学测量表 1–2·入射参照和透射值"
+  },
+  {
+    "objectID": "library/tpbm/jagdeo-2012.html#结果怎么看",
+    "href": "library/tpbm/jagdeo-2012.html#结果怎么看",
+    "title": "红光与近红外穿过颅骨的比例一样吗？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n830 nm光可测得穿过颅骨及带软组织的样本，633 nm透过更少；透射还随部位和软组织条件变化。（图 2–3·区域透射比例）"
+  },
+  {
+    "objectID": "library/tpbm/jagdeo-2012.html#对实验设计有什么用",
+    "href": "library/tpbm/jagdeo-2012.html#对实验设计有什么用",
+    "title": "红光与近红外穿过颅骨的比例一样吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n离体、固定处理及测量几何会影响透射；不能把一个百分比直接作为所有人体的入脑剂量。"
+  },
+  {
+    "objectID": "library/tpbm/jagdeo-2012.html#接着读",
+    "href": "library/tpbm/jagdeo-2012.html#接着读",
+    "title": "红光与近红外穿过颅骨的比例一样吗？",
+    "section": "接着读",
+    "text": "接着读\n\n波长和脉冲怎么选？\n相同头皮剂量，进入脑内的光一样多吗？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/ma-2026.html",
+    "href": "library/tpbm/ma-2026.html",
+    "title": "810/1064 nm与连续/40 Hz光对运动皮层的作用？",
+    "section": "",
+    "text": "Ma · 2026 · 健康人\nA specific transcranial near-infrared stimulation parameter combination targeting the motor cortex improves cortical excitability and hemodynamics\nJournal of NeuroEngineering and Rehabilitation（已接收稿） · DOI: 10.1186/s12984-026-02122-3 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/ma-2026.html#怎么做",
+    "href": "library/tpbm/ma-2026.html#怎么做",
+    "title": "810/1064 nm与连续/40 Hz光对运动皮层的作用？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象22名健康参与者已接收稿PDF第9–10页·设计\n研究设计随机单盲交叉，四种主动条件+假刺激；至少间隔3天已接收稿PDF第9–10页·设计\n波长810 / 1064 nm已接收稿PDF第11–12页·参数\n连续光 / 脉冲连续光 / 40 Hz三角脉冲；占空比未明确报告已接收稿PDF第11–12页·参数\n照射位置左M1，右拇短展肌运动热点已接收稿PDF第11–12页·参数\n辐照度 / 功率连续300；脉冲120 mW/cm²（原文报告值）已接收稿PDF第11–12页·参数\n光斑0.24 cm²已接收稿PDF第11–12页·参数\n照射时间与疗程20分钟已接收稿PDF第11–12页·参数\n剂量原文名义总能量：连续96 J、脉冲48 J；另报告实测上限≤90 / ≤40 J已接收稿PDF第11–12页·参数\n对照怎么做外观相同设备，不发近红外光已接收稿PDF第11–12页·参数\n观察指标MEP、对指动作、任务fNIRSPDF第20页·表1 / 图3\n测量时间刺激后0/10/20/30分钟MEP；前后行为及fNIRS已接收稿PDF第11–12页·参数"
+  },
+  {
+    "objectID": "library/tpbm/ma-2026.html#结果怎么看",
+    "href": "library/tpbm/ma-2026.html#结果怎么看",
+    "title": "810/1064 nm与连续/40 Hz光对运动皮层的作用？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n30分钟时1064 nm/40 Hz的MEP变化高于两种连续光；未显示优于810 nm/40 Hz。（PDF第20页·表1 / 图3）\n1064 nm/40 Hz右手动作增量高于假刺激；左手任务血氧为刺激前后比较。（PDF第22–23页·图5–6）"
+  },
+  {
+    "objectID": "library/tpbm/ma-2026.html#对实验设计有什么用",
+    "href": "library/tpbm/ma-2026.html#对实验设计有什么用",
+    "title": "810/1064 nm与连续/40 Hz光对运动皮层的作用？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n连续与脉冲条件的辐照度及能量不同，不能把差异仅归因于40 Hz。该版本为已接收稿，保留名义值与实测上限，不替作者统一。"
+  },
+  {
+    "objectID": "library/tpbm/ma-2026.html#接着读",
+    "href": "library/tpbm/ma-2026.html#接着读",
+    "title": "810/1064 nm与连续/40 Hz光对运动皮层的作用？",
+    "section": "接着读",
+    "text": "接着读\n\n波长和脉冲怎么选？\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/pruitt-2020.html",
+    "href": "library/tpbm/pruitt-2020.html",
+    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
+    "section": "",
+    "text": "Pruitt · 2020 · 健康人\nTranscranial Photobiomodulation (tPBM) With 1,064‐nm Laser to Improve Cerebral Metabolism of the Human Brain In Vivo\nLasers in Surgery and Medicine · DOI: 10.1002/lsm.23232 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/pruitt-2020.html#怎么做",
+    "href": "library/tpbm/pruitt-2020.html#怎么做",
+    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象本研究20人：年轻15、老年5；另比较既往11名年轻人方法·受试者\n研究设计随机顺序主动/假刺激交叉；另做历史样本复现方法·受试者\n波长1064 nm方法·1064 nm 参数\n连续光 / 脉冲连续光；每分钟暂停5秒测 bbNIRS方法·1064 nm 参数\n照射位置右额方法·1064 nm 参数\n辐照度 / 功率250 mW/cm²；头皮入射方法·1064 nm 参数\n光斑13.6 cm²方法·1064 nm 参数\n照射时间与疗程8分钟周期内间歇出光图 1·交替采集流程\n剂量本文未单列累计面剂量方法·1064 nm 参数\n对照怎么做0.1 W档位 + 黑帽遮光方法·1064 nm 参数\n观察指标HbO 与氧化态 CCO图 3–4·年龄组比较\n测量时间2分钟基线、8分钟刺激、5分钟恢复图 1·交替采集流程"
+  },
+  {
+    "objectID": "library/tpbm/pruitt-2020.html#结果怎么看",
+    "href": "library/tpbm/pruitt-2020.html#结果怎么看",
+    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n图3显示两年龄组原始反应差异，图4扣除假刺激后未检出年龄组差异。（图 3–4·年龄组比较）"
+  },
+  {
+    "objectID": "library/tpbm/pruitt-2020.html#对实验设计有什么用",
+    "href": "library/tpbm/pruitt-2020.html#对实验设计有什么用",
+    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n老年组仅5人；未检出差异不能据此认定年龄不影响反应。历史11人并非新增独立样本。"
+  },
+  {
+    "objectID": "library/tpbm/pruitt-2020.html#接着读",
+    "href": "library/tpbm/pruitt-2020.html#接着读",
+    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
+    "section": "接着读",
+    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/saltmarche-2017.html",
+    "href": "library/tpbm/saltmarche-2017.html",
+    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
+    "section": "",
+    "text": "Saltmarche · 2017 · 临床\nSignificant Improvement in Cognition in Mild to Moderately Severe Dementia Cases Treated with Transcranial Plus Intranasal Photobiomodulation: Case Series Report\nPhotomedicine and Laser Surgery · DOI: 10.1089/pho.2016.4227 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/saltmarche-2017.html#怎么做",
+    "href": "library/tpbm/saltmarche-2017.html#怎么做",
+    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象5例痴呆/阿尔茨海默病，72–90岁方法·病例\n研究设计开放病例系列；12周治疗后4周停治方法·病例\n波长810 nm表 2·两种设备参数\n连续光 / 脉冲10 Hz；50%占空比表 2·两种设备参数\n照射位置头部4处 + 鼻内；另用鼻内单独设备表 2·两种设备参数\n辐照度 / 功率Neuro：经颅41、鼻内23 mW/cm²；鼻内单机14.2 mW/cm²表 2·两种设备参数\n光斑约1 cm² / LED表 2·两种设备参数\n照射时间与疗程经颅+鼻内20分钟/次，前2周每周2次，其后每周1次；其余日鼻内25分钟方法·治疗与居家安排\n剂量Neuro：每LED经颅24.6、鼻内13.8 J/cm²；鼻内单机10.65 J/cm²表 2·两种设备参数\n对照怎么做无假刺激组；停治随访方法·治疗与居家安排\n观察指标MMSE、ADAS-cog表 3 / 图 2–3·认知评分\n测量时间基线、第6/12周及停治4周表 3 / 图 2–3·认知评分"
+  },
+  {
+    "objectID": "library/tpbm/saltmarche-2017.html#结果怎么看",
+    "href": "library/tpbm/saltmarche-2017.html#结果怎么看",
+    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n12周MMSE均值增加2.60分，ADAS-cog下降6.73分；停治时1例退出。（表 3 / 图 2–3·认知评分）"
+  },
+  {
+    "objectID": "library/tpbm/saltmarche-2017.html#对实验设计有什么用",
+    "href": "library/tpbm/saltmarche-2017.html#对实验设计有什么用",
+    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n组合治疗、病例数少、无同期对照，且随访缺失；不能区分经颅和鼻内的各自贡献。"
+  },
+  {
+    "objectID": "library/tpbm/saltmarche-2017.html#接着读",
+    "href": "library/tpbm/saltmarche-2017.html#接着读",
+    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
+    "section": "接着读",
+    "text": "接着读\n\n单次与重复照射，哪些变化能持续？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/tian-2016.html",
+    "href": "library/tpbm/tian-2016.html",
+    "title": "照射额中与右额，双侧血氧怎样变化？",
+    "section": "",
+    "text": "Tian · 2016 · 健康人\nTranscranial laser stimulation improves human cerebral oxygenation\nLasers in Surgery and Medicine · DOI: 10.1002/lsm.22471 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/tian-2016.html#怎么做",
+    "href": "library/tpbm/tian-2016.html#怎么做",
+    "title": "照射额中与右额，双侧血氧怎样变化？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象两项实验各9人，6人重复参与结果·受试者\n研究设计前后测；比较额中与右额照射，无独立假刺激组结果·受试者\n波长1064 nm方法·仪器与照射\n连续光 / 脉冲连续光；每分钟55秒开、5秒关方法·仪器与照射\n照射位置额中 / 右额（分两项实验）方法·仪器与照射\n辐照度 / 功率250 mW/cm²；头皮入射方法·仪器与照射\n光斑13.6 cm²（直径4.16 cm）方法·仪器与照射\n照射时间与疗程10个一分钟周期；每周期出光55秒方法·实验流程\n剂量13.75 J/cm² / 周期方法·实验流程\n对照怎么做自身照射前基线方法·实验流程\n观察指标双侧 fNIRS：HbO、HHb、HbT图 3–4·双侧血氧\n测量时间照射前1分钟、照射中、照射后6分钟方法·实验流程"
+  },
+  {
+    "objectID": "library/tpbm/tian-2016.html#结果怎么看",
+    "href": "library/tpbm/tian-2016.html#结果怎么看",
+    "title": "照射额中与右额，双侧血氧怎样变化？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n两种照射位置均观察到双侧氧合血红蛋白增加、脱氧血红蛋白下降；恢复期仍可见变化。（图 3–4·双侧血氧）"
+  },
+  {
+    "objectID": "library/tpbm/tian-2016.html#对实验设计有什么用",
+    "href": "library/tpbm/tian-2016.html#对实验设计有什么用",
+    "title": "照射额中与右额，双侧血氧怎样变化？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n左右半球血氧响应相近；该设计说明时间变化，不能排除无假刺激对照下的时间因素。"
+  },
+  {
+    "objectID": "library/tpbm/tian-2016.html#接着读",
+    "href": "library/tpbm/tian-2016.html#接着读",
+    "title": "照射额中与右额，双侧血氧怎样变化？",
+    "section": "接着读",
+    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n相同头皮剂量，进入脑内的光一样多吗？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/wang-2017-heat.html",
+    "href": "library/tpbm/wang-2017-heat.html",
+    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
+    "section": "",
+    "text": "Wang · 2017 · 健康人\nImpact of heat on metabolic and hemodynamic changes in transcranial infrared laser stimulation measured by broadband near-infrared spectroscopy\nNeurophotonics · DOI: 10.1117/1.NPh.5.1.011004 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/wang-2017-heat.html#怎么做",
+    "href": "library/tpbm/wang-2017-heat.html#怎么做",
+    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象11人；光与热实验来自同一批受试者方法 §2.2·受试者\n研究设计分次访视；光刺激结果与温度匹配的热刺激比较方法 §2.2·受试者\n波长1064 nm方法 §2.1·光参数\n连续光 / 脉冲连续光；每分钟55秒开、5秒关方法 §2.1·光参数\n照射位置右额方法 §2.1·光参数\n辐照度 / 功率250 mW/cm²；头皮入射方法 §2.1·光参数\n光斑13.6 cm²方法 §2.1·光参数\n照射时间与疗程8分钟；每分钟出光55秒方法 §2.1·光参数\n剂量13.75 J/cm² / 周期方法 §2.1·光参数\n对照怎么做热刺激从32°C升至41°C；另有遮光假刺激描述图 4–5·温度与热对照\n观察指标bbNIRS：CCO及血红蛋白；皮温图 6·光与热的直接比较\n测量时间刺激前2分钟、刺激8分钟、恢复5分钟方法 §2.1·光参数"
+  },
+  {
+    "objectID": "library/tpbm/wang-2017-heat.html#结果怎么看",
+    "href": "library/tpbm/wang-2017-heat.html#结果怎么看",
+    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n热刺激与光刺激的 CCO、HbO 等时间曲线不同；图6给出校正后的时点比较。（图 6·光与热的直接比较）"
+  },
+  {
+    "objectID": "library/tpbm/wang-2017-heat.html#对实验设计有什么用",
+    "href": "library/tpbm/wang-2017-heat.html#对实验设计有什么用",
+    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n热对照匹配的是额部皮温轨迹；不等于已经匹配脑内温度。光数据来自此前实验，需留意访视与顺序。"
+  },
+  {
+    "objectID": "library/tpbm/wang-2017-heat.html#接着读",
+    "href": "library/tpbm/wang-2017-heat.html#接着读",
+    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
+    "section": "接着读",
+    "text": "接着读\n\n怎样区分光照与加热效应？\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/wang-2022-metabolism.html",
+    "href": "library/tpbm/wang-2022-metabolism.html",
+    "title": "血氧同步与氧化代谢同步会同向改变吗？",
+    "section": "",
+    "text": "Wang · 2022 · 健康人\nMetabolic Connectivity and Hemodynamic-Metabolic Coherence of Human Prefrontal Cortex at Rest and Post Photobiomodulation Assessed by Dual-Channel Broadband NIRS\nMetabolites · DOI: 10.3390/metabo12010042 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/wang-2022-metabolism.html#怎么做",
+    "href": "library/tpbm/wang-2022-metabolism.html#怎么做",
+    "title": "血氧同步与氧化代谢同步会同向改变吗？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象12名健康人，各完成2次访视；24次记录不是24名独立受试者方法 §4.1·受试者\n研究设计随机顺序、参与者盲法、主动/假刺激交叉；间隔14天方法 §4.1·受试者\n波长1064 nm方法 §4.3·照射\n连续光 / 脉冲连续光方法 §4.3·照射\n照射位置右额眉毛与发际之间方法 §4.3·照射\n辐照度 / 功率250 mW/cm²；头皮入射方法 §4.3·照射\n光斑13.6 cm²方法 §4.3·照射\n照射时间与疗程8分钟方法 §4.3·照射\n剂量方法未单列面剂量方法 §4.3·照射\n对照怎么做0.1 W档位 + 黑帽遮光；非接触约2 cm方法 §4.3·照射\n观察指标双侧bbNIRS：HbO与oxCCO慢波相干图 4·相干性变化\n测量时间6分钟基线、8分钟刺激、6分钟恢复；后段4分钟用于相干分析图 5·记录安排"
+  },
+  {
+    "objectID": "library/tpbm/wang-2022-metabolism.html#结果怎么看",
+    "href": "library/tpbm/wang-2022-metabolism.html#结果怎么看",
+    "title": "血氧同步与氧化代谢同步会同向改变吗？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n部分频段双侧HbO相干下降，双侧oxCCO相干则在神经源频段增加。（图 4·相干性变化）"
+  },
+  {
+    "objectID": "library/tpbm/wang-2022-metabolism.html#对实验设计有什么用",
+    "href": "library/tpbm/wang-2022-metabolism.html#对实验设计有什么用",
+    "title": "血氧同步与氧化代谢同步会同向改变吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n相同受试者的两次记录不可当作独立样本；血氧和氧化代谢是不同信号，变化方向也可能不同。"
+  },
+  {
+    "objectID": "library/tpbm/wang-2022-metabolism.html#接着读",
+    "href": "library/tpbm/wang-2022-metabolism.html#接着读",
+    "title": "血氧同步与氧化代谢同步会同向改变吗？",
+    "section": "接着读",
+    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/zhao-2022.html",
+    "href": "library/tpbm/zhao-2022.html",
+    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
+    "section": "",
+    "text": "Zhao · 2022 · 健康人\nTranscranial photobiomodulation enhances visual working memory capacity in humans\nScience Advances · DOI: 10.1126/sciadv.abq3211 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/zhao-2022.html#怎么做",
+    "href": "library/tpbm/zhao-2022.html#怎么做",
+    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象4项实验招募90人，排除11人方法·参与者与四项实验\n研究设计各实验内双盲随机主动/假刺激交叉；不同波长和侧别属不同实验样本方法·参与者与四项实验\n波长1064 / 852 nm方法·tPBM protocol\n连续光 / 脉冲连续光方法·tPBM protocol\n照射位置Fp2内外侧交替；第四实验用Fp1方法·tPBM protocol\n辐照度 / 功率167 mW/cm²；头皮入射方法·tPBM protocol\n光斑原文13.57 cm²，同时写直径4 cm方法·tPBM protocol\n照射时间与疗程12分钟；两点每60秒交替；刺激后休息8分钟方法·tPBM protocol\n剂量两波长等光能；累计面剂量未单列方法·tPBM protocol\n对照怎么做开始与结束各30秒出光；总光能约主动的1/12方法·tPBM protocol\n观察指标视觉工作记忆容量K、EEG CDA图 1–2·记忆与CDA\n测量时间刺激后8分钟开始任务/EEG方法·tPBM protocol"
+  },
+  {
+    "objectID": "library/tpbm/zhao-2022.html#结果怎么看",
+    "href": "library/tpbm/zhao-2022.html#结果怎么看",
+    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\n右额1064 nm条件下，视觉记忆容量和CDA负荷效应增加。（图 1–2·记忆与CDA）\n852 nm右额及1064 nm左额实验未出现同样收益。（图 4–5·波长和位置对照）"
+  },
+  {
+    "objectID": "library/tpbm/zhao-2022.html#对实验设计有什么用",
+    "href": "library/tpbm/zhao-2022.html#对实验设计有什么用",
+    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n波长和侧别比较跨不同实验人群；不能把单项实验有显著性、另一项没有，直接当成普遍最优参数。光斑面积与直径按原文保留。"
+  },
+  {
+    "objectID": "library/tpbm/zhao-2022.html#接着读",
+    "href": "library/tpbm/zhao-2022.html#接着读",
+    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
+    "section": "接着读",
+    "text": "接着读\n\n波长和脉冲怎么选？\n注意与记忆改善，应该看哪些指标？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "research/questions/brain-signals.html",
+    "href": "research/questions/brain-signals.html",
+    "title": "脑电、血氧和功能连接为什么会给出不同结果？",
+    "section": "",
+    "text": "这些指标测量的对象和时间尺度不同。脑电功率增加、血氧连接增强和脑网络效率变化，可以同时出现，也可能方向不同。比较时先对齐信号、频段、分析方法和测量时段。\n对比本页研究 · 全部问题"
+  },
+  {
+    "objectID": "research/questions/brain-signals.html#把研究放在一起看",
+    "href": "research/questions/brain-signals.html#把研究放在一起看",
+    "title": "脑电、血氧和功能连接为什么会给出不同结果？",
+    "section": "把研究放在一起看",
+    "text": "把研究放在一起看\n\nWang · 2022：同一次照射，血氧与代谢信号的连接方向不同\n研究同时记录 HbO 与氧化型细胞色素 c 氧化酶。部分低频范围内，HbO 相干性下降，而代谢信号的相干性上升。把二者统称“脑连接增强”会丢掉关键结果。\n研究参数与结果 · 图 4·相干性变化 · 方法 §4.3·照射\n\n\nTruong · 2022：fNIRS 连接变化依赖频段与时间\n研究用多通道 fNIRS 分析低频血流动力学振荡。肌源性频段的部分网络指标在刺激期间改变，刺激后没有持续出现相同变化。这里的“频段”不是 EEG 的 alpha 或 beta 频段。\n研究参数与结果 · 图 6·分频段连接 · 图 8·网络效率\n\n\nShahdadian · 2022：功率上升不等于同步和网络效率上升\n脑电虚部相干性分析显示，beta 频段的同步及部分图论指标下降。它与另一些报告脑电功率增加的研究测量不同，不能只按“增加 / 减少”判断是否矛盾。\n研究参数与结果 · 图 4·EEG功率 · 图 5·全局网络指标"
+  },
+  {
+    "objectID": "research/questions/brain-signals.html#做实验时看什么",
+    "href": "research/questions/brain-signals.html#做实验时看什么",
+    "title": "脑电、血氧和功能连接为什么会给出不同结果？",
+    "section": "做实验时看什么",
+    "text": "做实验时看什么\n\n每个结果写明：测什么信号、什么频段、哪个脑区、刺激中还是刺激后。\n连接分析同时报告节点定义、连接估计方式和阈值处理。\n同一招募样本的多篇分析不自动视作独立重复验证。"
+  },
+  {
+    "objectID": "research/questions/brain-signals.html#相关研究",
+    "href": "research/questions/brain-signals.html#相关研究",
+    "title": "脑电、血氧和功能连接为什么会给出不同结果？",
+    "section": "相关研究",
+    "text": "相关研究\n\nTian · 2016：照射额中与右额，双侧血氧怎样变化？\nPruitt · 2020：年轻人与老年人的血氧和氧化代谢反应一样吗？\nWang · 2021：光刺激和皮肤加热的脑电分布一样吗？\nWang · 2022：血氧同步与氧化代谢同步会同向改变吗？\nTruong · 2022：连续光会改变哪些慢频段的血氧网络？\nShahdadian · 2022：脑电功率增加时，网络效率也一定增加吗？\nDmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？\nMa · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？\n\n修改这页内容"
+  },
+  {
+    "objectID": "research/questions/heat-control.html",
+    "href": "research/questions/heat-control.html",
+    "title": "怎样区分光照与加热效应？",
+    "section": "",
+    "text": "需要把光照和匹配的加热条件直接比较，并同时记录温度和脑信号。现有研究发现二者的部分反应不同；结论的范围取决于加热是否匹配、测在哪里，以及测量能分辨多小的变化。\n对比本页研究 · 全部问题"
+  },
+  {
+    "objectID": "research/questions/heat-control.html#把研究放在一起看",
+    "href": "research/questions/heat-control.html#把研究放在一起看",
+    "title": "怎样区分光照与加热效应？",
+    "section": "把研究放在一起看",
+    "text": "把研究放在一起看\n\nWang · 2017：光照与皮肤加热的血氧反应并不相同\n11 人接受单独的前额加热，并与同一批人此前的激光实验比较。光照与加热引起的氧合血红蛋白、氧化型细胞色素 c 氧化酶变化不同。这个结果支持进一步分离热与光的作用，但两种处理不在同一次随机交叉实验里。\n研究参数与结果 · 图 6·光与热的直接比较 · 方法 §2.1·光参数\n\n\nWang · 2021：脑电的空间分布也值得比较\n激光和加热各自与假刺激交叉比较，来自两个不同样本。两者的 alpha、beta 变化分布不同；设计下一步实验时，可以保留这个空间指标，同时在同一批人中比较。\n研究参数与结果 · 图 5·光与热拓扑差异 · 方法·样本与排除\n\n\nDmochowski · 2020：温度与功能连接来自独立实验\n研究报告照射时 fMRI 功能连接改变；另一个样本进行了 MR 测温，未检出显著温度差异。温度实验有假刺激，而功能连接实验没有，不能把两部分合成“已排除热效应的连接改变”。\n研究参数与结果 · 图 4·全脑功能连接 · 方法·独立测温实验"
+  },
+  {
+    "objectID": "research/questions/heat-control.html#做实验时看什么",
+    "href": "research/questions/heat-control.html#做实验时看什么",
+    "title": "怎样区分光照与加热效应？",
+    "section": "做实验时看什么",
+    "text": "做实验时看什么\n\n记录温度随时间的变化、测点与测量精度，不只报刺激前后各一个温度。\n假刺激的光照时长、皮肤感觉、风扇和声音都需要写清。早期部分假刺激仍含短时光照。\n把直接热对照、假刺激和无对照研究分开阅读。"
+  },
+  {
+    "objectID": "research/questions/heat-control.html#相关研究",
+    "href": "research/questions/heat-control.html#相关研究",
+    "title": "怎样区分光照与加热效应？",
+    "section": "相关研究",
+    "text": "相关研究\n\nWang · 2017：把皮肤加热，能复现光刺激的代谢与血氧反应吗？\nWang · 2021：光刺激和皮肤加热的脑电分布一样吗？\nDmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？\nBarrett · 2013：早期人体研究怎样测注意和记忆？\n\n修改这页内容"
+  },
+  {
+    "objectID": "research/questions/repeated-clinical.html",
+    "href": "research/questions/repeated-clinical.html",
+    "title": "单次与重复照射，哪些变化能持续？",
+    "section": "",
+    "text": "持续时间需要靠停用后的测量回答。健康人重复照射研究和临床研究提供了不同长度的随访，但样本、疾病、对照和终点差异很大，不能把所有改善合并成一种疗效。\n对比本页研究 · 全部问题"
+  },
+  {
+    "objectID": "research/questions/repeated-clinical.html#把研究放在一起看",
+    "href": "research/questions/repeated-clinical.html#把研究放在一起看",
+    "title": "单次与重复照射，哪些变化能持续？",
+    "section": "把研究放在一起看",
+    "text": "把研究放在一起看\n\nQu · 2022：重复照射后继续追踪工作记忆\n老年人研究安排连续 7 天照射，并在后续数周测试工作记忆。阅读时需要同时看真刺激与对照的时间轨迹，以及假刺激最初仍有 30 秒光照这一细节。\n研究参数与结果 · 图 2·单次与重复刺激 · 方法 §2.3·刺激参数\n\n\nFigueiro Longo · 2020：影像改变与临床症状改善是两回事\n中度创伤性脑损伤随机试验发现部分弥散影像指标随处理改变，但临床症状没有显示相应的显著组别与时间交互。影像结果值得追踪，不能直接写成已经改善临床恢复。\n研究参数与结果 · 图 2·临床症状 · 图 3·扩散参数\n\n\nSaltmarche · 2017：停用后的变化能提出问题，但病例系列不能确认疗效\n5 名痴呆患者接受头部与鼻内照射，12 周后停用并随访。量表变化和部分停用后回落提出了持续疗程的问题；由于没有对照，后续需要用对照设计验证。\n研究参数与结果 · 表 3 / 图 2–3·认知评分 · 表 2·两种设备参数\n\n\nNizamutdinov · 2021：检查统计检验到底比较了什么\n研究有真刺激与假刺激分组，报告的认知表格包含组内前后检验。不能因为真刺激组显著、假刺激组不显著，就自动得出两组变化存在显著差异。\n研究参数与结果 · 表 1·认知前后评分 · 方法·随机与设备"
+  },
+  {
+    "objectID": "research/questions/repeated-clinical.html#做实验时看什么",
+    "href": "research/questions/repeated-clinical.html#做实验时看什么",
+    "title": "单次与重复照射，哪些变化能持续？",
+    "section": "做实验时看什么",
+    "text": "做实验时看什么\n\n把即时反应、疗程末结果和停用后保持分别设定测量时间。\n症状量表、行为任务和影像结果分开报告，明确哪个是主要终点。\n病例报告适合发现值得检验的问题；对照试验用于比较治疗效果。"
+  },
+  {
+    "objectID": "research/questions/repeated-clinical.html#相关研究",
+    "href": "research/questions/repeated-clinical.html#相关研究",
+    "title": "单次与重复照射，哪些变化能持续？",
+    "section": "相关研究",
+    "text": "相关研究\n\nQu · 2022：连续七天刺激的记忆改善能保持多久？\nCassano · 2015：早期抑郁试验怎样安排照射和假刺激？\nSaltmarche · 2017：经颅加鼻内疗程结束后，认知评分怎样变化？\nChao · 2020：脑震荡病例的量表、灌注与连接怎样一起读？\nNizamutdinov · 2021：居家头盔照射八周后，痴呆患者的认知评分如何？\nFigueiro Longo · 2020：急性脑损伤后，影像变化是否伴随症状改善？\n\n修改这页内容"
   },
   {
     "objectID": "notes/index.html",

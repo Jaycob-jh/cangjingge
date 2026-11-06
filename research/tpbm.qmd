@@ -6,6 +6,10 @@ toc: true
 
 [浏览光刺激文献](../library/index.html?topic=02&subtopic=02.04) · [查看热效应与热安全文献](../library/index.html?topic=02&subtopic=02.09)
 
+[打开研究对比台](tpbm-compare.qmd){.btn .btn-primary} [按具体问题读全文](tpbm-questions.qmd){.btn .btn-outline-secondary}
+
+把波长、剂量、假刺激和结果放在一起比较，每项都可以回到原文方法或图表。
+
 ## 光能到达哪里？
 
 [经颅光刺激中的光传播与升温模拟](../library/record.html?id=paper-a0638dd939dd0976)用头部模型估算 800 nm 光在组织中的分布和温升。读这类论文时，可以先看照射位置，再看模型如何设置组织的光学与热学参数。[期刊原文](https://www.sciencedirect.com/science/article/pii/S1094715925002284)

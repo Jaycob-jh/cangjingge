@@ -1,0 +1,48 @@
+---
+title: "经颅加鼻内疗程结束后，认知评分怎样变化？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Saltmarche · 2017 · 临床**
+
+Significant Improvement in Cognition in Mild to Moderately Severe Dementia Cases Treated with Transcranial Plus Intranasal Photobiomodulation: Case Series Report
+
+*Photomedicine and Laser Surgery* · [DOI: 10.1089/pho.2016.4227](https://doi.org/10.1089/pho.2016.4227) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=saltmarche-2017) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>5例痴呆/阿尔茨海默病，72–90岁<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#s003" target="_blank" rel="noopener">方法·病例</a></dd></div>
+<div><dt>研究设计</dt><dd>开放病例系列；12周治疗后4周停治<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#s003" target="_blank" rel="noopener">方法·病例</a></dd></div>
+<div><dt>波长</dt><dd>810 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T2" target="_blank" rel="noopener">表 2·两种设备参数</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>10 Hz；50%占空比<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T2" target="_blank" rel="noopener">表 2·两种设备参数</a></dd></div>
+<div><dt>照射位置</dt><dd>头部4处 + 鼻内；另用鼻内单独设备<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T2" target="_blank" rel="noopener">表 2·两种设备参数</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>Neuro：经颅41、鼻内23 mW/cm²；鼻内单机14.2 mW/cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T2" target="_blank" rel="noopener">表 2·两种设备参数</a></dd></div>
+<div><dt>光斑</dt><dd>约1 cm² / LED<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T2" target="_blank" rel="noopener">表 2·两种设备参数</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>经颅+鼻内20分钟/次，前2周每周2次，其后每周1次；其余日鼻内25分钟<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#s006" target="_blank" rel="noopener">方法·治疗与居家安排</a></dd></div>
+<div><dt>剂量</dt><dd>Neuro：每LED经颅24.6、鼻内13.8 J/cm²；鼻内单机10.65 J/cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T2" target="_blank" rel="noopener">表 2·两种设备参数</a></dd></div>
+<div><dt>对照怎么做</dt><dd>无假刺激组；停治随访<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#s006" target="_blank" rel="noopener">方法·治疗与居家安排</a></dd></div>
+<div><dt>观察指标</dt><dd>MMSE、ADAS-cog<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T3" target="_blank" rel="noopener">表 3 / 图 2–3·认知评分</a></dd></div>
+<div><dt>测量时间</dt><dd>基线、第6/12周及停治4周<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T3" target="_blank" rel="noopener">表 3 / 图 2–3·认知评分</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 12周MMSE均值增加2.60分，ADAS-cog下降6.73分；停治时1例退出。（[表 3 / 图 2–3·认知评分](https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T3)）
+
+## 对实验设计有什么用
+
+组合治疗、病例数少、无同期对照，且随访缺失；不能区分经颅和鼻内的各自贡献。
+
+## 接着读
+
+- [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

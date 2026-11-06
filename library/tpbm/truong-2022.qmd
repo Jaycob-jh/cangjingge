@@ -1,0 +1,49 @@
+---
+title: "连续光会改变哪些慢频段的血氧网络？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Truong · 2022 · 健康人**
+
+Enhancement of Frequency-Specific Hemodynamic Power and Functional Connectivity by Transcranial Photobiomodulation in Healthy Humans
+
+*Frontiers in Neuroscience* · [DOI: 10.3389/fnins.2022.896502](https://doi.org/10.3389/fnins.2022.896502) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=truong-2022) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>招募19人，17人纳入fNIRS分析<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#:~:text=2.1.%20Participants" target="_blank" rel="noopener">方法 §2.1·受试者</a></dd></div>
+<div><dt>研究设计</dt><dd>随机主动/假刺激交叉；至少间隔1周<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#:~:text=2.1.%20Participants" target="_blank" rel="noopener">方法 §2.1·受试者</a></dd></div>
+<div><dt>波长</dt><dd>1064 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F1" target="_blank" rel="noopener">方法 §2.2 / 图 1·协议</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续光<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F1" target="_blank" rel="noopener">方法 §2.2 / 图 1·协议</a></dd></div>
+<div><dt>照射位置</dt><dd>右额 Fp2附近<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F1" target="_blank" rel="noopener">方法 §2.2 / 图 1·协议</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>250 mW/cm²；头皮入射<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F1" target="_blank" rel="noopener">方法 §2.2 / 图 1·协议</a></dd></div>
+<div><dt>光斑</dt><dd>13.6 cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F1" target="_blank" rel="noopener">方法 §2.2 / 图 1·协议</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>8分钟<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F1" target="_blank" rel="noopener">方法 §2.2 / 图 1·协议</a></dd></div>
+<div><dt>剂量</dt><dd>总能量1632 J<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F1" target="_blank" rel="noopener">方法 §2.2 / 图 1·协议</a></dd></div>
+<div><dt>对照怎么做</dt><dd>0.1 W档位，黑帽遮光<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F1" target="_blank" rel="noopener">方法 §2.2 / 图 1·协议</a></dd></div>
+<div><dt>观察指标</dt><dd>111通道静息 fNIRS、分频段连接与图论<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F6" target="_blank" rel="noopener">图 6·分频段连接</a></dd></div>
+<div><dt>测量时间</dt><dd>刺激前8分钟、中8分钟、后4分钟<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F1" target="_blank" rel="noopener">方法 §2.2 / 图 1·协议</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 连接变化依赖慢频段和测量时段；图6比较内皮源性、肌源性频段在刺激前、中、后的连接，不是一个全脑统一增加的结果。（[图 6·分频段连接](https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F6)）
+- 刺激期间肌源频段的全局/局部效率升高、路径长度缩短；恢复期未见同样显著差异。（[图 8·网络效率](https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F8)）
+
+## 对实验设计有什么用
+
+这里的频段属于血流动力学慢波，不是EEG的alpha/beta；不能把不同测量的“网络效率”混为一谈。
+
+## 接着读
+
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

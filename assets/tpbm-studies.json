@@ -1,0 +1,2127 @@
+{
+  "version": 1,
+  "updated": "2026-11-06",
+  "studies": [
+    {
+      "id": "tian-2016",
+      "short": "Tian · 2016",
+      "year": 2016,
+      "title": "Transcranial laser stimulation improves human cerebral oxygenation",
+      "title_zh": "照射额中与右额，双侧血氧怎样变化？",
+      "doi": "10.1002/lsm.22471",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/",
+      "journal": "Lasers in Surgery and Medicine",
+      "kind": "健康人",
+      "questions": [
+        "brain-signals",
+        "penetration"
+      ],
+      "measures": [
+        "fNIRS"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "结果·受试者",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0012"
+        },
+        "p": {
+          "label": "方法·仪器与照射",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0008"
+        },
+        "protocol": {
+          "label": "方法·实验流程",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0009"
+        },
+        "r": {
+          "label": "图 3–4·双侧血氧",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-fig-0003"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "两项实验各9人，6人重复参与",
+          "source": "d"
+        },
+        "design": {
+          "value": "前后测；比较额中与右额照射，无独立假刺激组",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光；每分钟55秒开、5秒关",
+          "source": "p"
+        },
+        "target": {
+          "value": "额中 / 右额（分两项实验）",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "250 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "13.6 cm²（直径4.16 cm）",
+          "source": "p"
+        },
+        "duration": {
+          "value": "10个一分钟周期；每周期出光55秒",
+          "source": "protocol"
+        },
+        "dose": {
+          "value": "13.75 J/cm² / 周期",
+          "source": "protocol"
+        },
+        "control": {
+          "value": "自身照射前基线",
+          "source": "protocol"
+        },
+        "readout": {
+          "value": "双侧 fNIRS：HbO、HHb、HbT",
+          "source": "r"
+        },
+        "timing": {
+          "value": "照射前1分钟、照射中、照射后6分钟",
+          "source": "protocol"
+        }
+      },
+      "results": [
+        {
+          "text": "两种照射位置均观察到双侧氧合血红蛋白增加、脱氧血红蛋白下降；恢复期仍可见变化。",
+          "source": "r"
+        }
+      ],
+      "interpretation": "左右半球血氧响应相近；该设计说明时间变化，不能排除无假刺激对照下的时间因素。"
+    },
+    {
+      "id": "wang-2017-heat",
+      "short": "Wang · 2017",
+      "year": 2017,
+      "title": "Impact of heat on metabolic and hemodynamic changes in transcranial infrared laser stimulation measured by broadband near-infrared spectroscopy",
+      "title_zh": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
+      "doi": "10.1117/1.NPh.5.1.011004",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/",
+      "journal": "Neurophotonics",
+      "kind": "健康人",
+      "questions": [
+        "heat-control",
+        "brain-signals"
+      ],
+      "measures": [
+        "bbNIRS",
+        "皮温"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法 §2.2·受试者",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/#sec2.2"
+        },
+        "p": {
+          "label": "方法 §2.1·光参数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/#sec2.1"
+        },
+        "heat": {
+          "label": "图 4–5·温度与热对照",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/#f4"
+        },
+        "r": {
+          "label": "图 6·光与热的直接比较",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/#f6"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "11人；光与热实验来自同一批受试者",
+          "source": "d"
+        },
+        "design": {
+          "value": "分次访视；光刺激结果与温度匹配的热刺激比较",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光；每分钟55秒开、5秒关",
+          "source": "p"
+        },
+        "target": {
+          "value": "右额",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "250 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "13.6 cm²",
+          "source": "p"
+        },
+        "duration": {
+          "value": "8分钟；每分钟出光55秒",
+          "source": "p"
+        },
+        "dose": {
+          "value": "13.75 J/cm² / 周期",
+          "source": "p"
+        },
+        "control": {
+          "value": "热刺激从32°C升至41°C；另有遮光假刺激描述",
+          "source": "heat"
+        },
+        "readout": {
+          "value": "bbNIRS：CCO及血红蛋白；皮温",
+          "source": "r"
+        },
+        "timing": {
+          "value": "刺激前2分钟、刺激8分钟、恢复5分钟",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "热刺激与光刺激的 CCO、HbO 等时间曲线不同；图6给出校正后的时点比较。",
+          "source": "r"
+        }
+      ],
+      "interpretation": "热对照匹配的是额部皮温轨迹；不等于已经匹配脑内温度。光数据来自此前实验，需留意访视与顺序。"
+    },
+    {
+      "id": "holmes-2019",
+      "short": "Holmes · 2019",
+      "year": 2019,
+      "title": "Cognitive Enhancement by Transcranial Photobiomodulation Is Associated With Cerebrovascular Oxygenation of the Prefrontal Cortex",
+      "title_zh": "认知任务表现与前额血氧是否一起改变？",
+      "doi": "10.3389/fnins.2019.01129",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6813459/",
+      "journal": "Frontiers in Neuroscience",
+      "kind": "健康人",
+      "questions": [
+        "cognition",
+        "brain-signals"
+      ],
+      "measures": [
+        "行为",
+        "fNIRS"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法·样本与对照来源",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6813459/#S2.SS1"
+        },
+        "p": {
+          "label": "方法·激光参数清单",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6813459/#S2.SS3"
+        },
+        "r": {
+          "label": "表 1·任务结果",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6813459/#T1"
+        },
+        "r2": {
+          "label": "图 4–5·任务血氧",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6813459/#F4"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "主动18人；历史假刺激16人（行为7人、血氧9人）",
+          "source": "d"
+        },
+        "design": {
+          "value": "主动组前后测；引用先前实验假刺激数据",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "p"
+        },
+        "target": {
+          "value": "右额 Fp2 下方单点",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "250 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "13.6 cm²",
+          "source": "p"
+        },
+        "duration": {
+          "value": "8分钟",
+          "source": "p"
+        },
+        "dose": {
+          "value": "120 J/cm²",
+          "source": "p"
+        },
+        "control": {
+          "value": "关灯；行为和血氧对照来自不同历史样本",
+          "source": "d"
+        },
+        "readout": {
+          "value": "PVT、DMS及任务 fNIRS",
+          "source": "r"
+        },
+        "timing": {
+          "value": "刺激前后任务测量",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "DMS正确次数和反应时前后改善；PVT反应时未显著改变（p=0.60）。",
+          "source": "r"
+        },
+        {
+          "text": "任务期间前额氧合血红蛋白的前后变化增加。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "主动组内改善与历史对照未改善，不等于同期随机试验中的组别×时间交互。"
+    },
+    {
+      "id": "zomorrodi-2019",
+      "short": "Zomorrodi · 2019",
+      "year": 2019,
+      "title": "Pulsed Near Infrared Transcranial and Intranasal Photobiomodulation Significantly Modulates Neural Oscillations: a pilot exploratory study",
+      "title_zh": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
+      "doi": "10.1038/s41598-019-42693-x",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/",
+      "journal": "Scientific Reports",
+      "kind": "健康人",
+      "questions": [
+        "wavelength-pulse",
+        "brain-signals"
+      ],
+      "measures": [
+        "EEG"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "图 1·随机交叉设计",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Fig1"
+        },
+        "p": {
+          "label": "方法·设备",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Sec6"
+        },
+        "table": {
+          "label": "表 2·设备参数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Tab2"
+        },
+        "r": {
+          "label": "图 4·频段功率",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Fig4"
+        },
+        "r2": {
+          "label": "图 5–8·网络指标",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Fig5"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "20名健康老年人，61–74岁",
+          "source": "d"
+        },
+        "design": {
+          "value": "双盲随机交叉；访视间隔至少1周",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "40 Hz；50%占空比",
+          "source": "p"
+        },
+        "target": {
+          "value": "4个头部LED + 1个鼻内LED",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "正文：前部75、后部100、鼻内25 mW/cm²；与表2列项存在不一致",
+          "source": "p"
+        },
+        "spot": {
+          "value": "约1 cm² / LED",
+          "source": "table"
+        },
+        "duration": {
+          "value": "20分钟",
+          "source": "p"
+        },
+        "dose": {
+          "value": "原文合计240 J；不作为单个照射点的剂量",
+          "source": "table"
+        },
+        "control": {
+          "value": "同设备假刺激；主动与假刺激交叉",
+          "source": "p"
+        },
+        "readout": {
+          "value": "静息 EEG 功率与图论指标",
+          "source": "r"
+        },
+        "timing": {
+          "value": "刺激前后各10分钟闭眼静息 EEG",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "相对假刺激，delta/theta功率变化较低，alpha/beta/gamma较高。",
+          "source": "r"
+        },
+        {
+          "text": "网络指标的显著差异随频段及稀疏度阈值变化。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "组合了经颅与鼻内照射；没有同剂量连续光组，不能单独归因于40 Hz。参数正文和表2不一致，保留原文差异。"
+    },
+    {
+      "id": "pruitt-2020",
+      "short": "Pruitt · 2020",
+      "year": 2020,
+      "title": "Transcranial Photobiomodulation (tPBM) With 1,064‐nm Laser to Improve Cerebral Metabolism of the Human Brain In Vivo",
+      "title_zh": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
+      "doi": "10.1002/lsm.23232",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/",
+      "journal": "Lasers in Surgery and Medicine",
+      "kind": "健康人",
+      "questions": [
+        "brain-signals"
+      ],
+      "measures": [
+        "bbNIRS"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法·受试者",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-sec-0070"
+        },
+        "p": {
+          "label": "方法·1064 nm 参数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-sec-0090"
+        },
+        "protocol": {
+          "label": "图 1·交替采集流程",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-fig-0001"
+        },
+        "r": {
+          "label": "图 3–4·年龄组比较",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-fig-0003"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "本研究20人：年轻15、老年5；另比较既往11名年轻人",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机顺序主动/假刺激交叉；另做历史样本复现",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光；每分钟暂停5秒测 bbNIRS",
+          "source": "p"
+        },
+        "target": {
+          "value": "右额",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "250 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "13.6 cm²",
+          "source": "p"
+        },
+        "duration": {
+          "value": "8分钟周期内间歇出光",
+          "source": "protocol"
+        },
+        "dose": {
+          "value": "本文未单列累计面剂量",
+          "source": "p"
+        },
+        "control": {
+          "value": "0.1 W档位 + 黑帽遮光",
+          "source": "p"
+        },
+        "readout": {
+          "value": "HbO 与氧化态 CCO",
+          "source": "r"
+        },
+        "timing": {
+          "value": "2分钟基线、8分钟刺激、5分钟恢复",
+          "source": "protocol"
+        }
+      },
+      "results": [
+        {
+          "text": "图3显示两年龄组原始反应差异，图4扣除假刺激后未检出年龄组差异。",
+          "source": "r"
+        }
+      ],
+      "interpretation": "老年组仅5人；未检出差异不能据此认定年龄不影响反应。历史11人并非新增独立样本。"
+    },
+    {
+      "id": "wang-2021-eeg-heat",
+      "short": "Wang · 2021",
+      "year": 2021,
+      "title": "Transcranial photobiomodulation and thermal stimulation induce distinct topographies of EEG alpha and beta power changes in healthy humans",
+      "title_zh": "光刺激和皮肤加热的脑电分布一样吗？",
+      "doi": "10.1038/s41598-021-97987-w",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/",
+      "journal": "Scientific Reports",
+      "kind": "健康人",
+      "questions": [
+        "heat-control",
+        "brain-signals"
+      ],
+      "measures": [
+        "EEG",
+        "皮温"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法·样本与排除",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec3"
+        },
+        "p": {
+          "label": "方法与图 1·参数和热对照",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec4"
+        },
+        "r": {
+          "label": "图 5·光与热拓扑差异",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Fig5"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "光组分析46人；热组分析11人（分别招募49和14人）",
+          "source": "d"
+        },
+        "design": {
+          "value": "各组内随机单盲主动/假刺激交叉；光热为不同人群",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "p"
+        },
+        "target": {
+          "value": "右额 Fp2/AF8附近",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "约250 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "直径4.2 cm",
+          "source": "p"
+        },
+        "duration": {
+          "value": "8分钟",
+          "source": "p"
+        },
+        "dose": {
+          "value": "总能量1680 J（3.5 W × 480秒）",
+          "source": "p"
+        },
+        "control": {
+          "value": "遮光假刺激；热刺激33→41°C，热假刺激33°C",
+          "source": "p"
+        },
+        "readout": {
+          "value": "64通道闭眼 EEG 功率",
+          "source": "r"
+        },
+        "timing": {
+          "value": "2分钟基线；刺激8分钟；恢复分析2分钟",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "扣除各自假刺激后，光与热引起的alpha/beta功率空间分布存在差异。",
+          "source": "r"
+        }
+      ],
+      "interpretation": "热效应比较为两组人之间的比较。结果支持在脑电实验里设置热对照，不给出通用安全剂量。"
+    },
+    {
+      "id": "dmochowski-2020",
+      "short": "Dmochowski · 2020",
+      "year": 2020,
+      "title": "Near-Infrared Light Increases Functional Connectivity with a Non-thermal Mechanism",
+      "title_zh": "照射时功能连接增加，MRI能测到升温吗？",
+      "doi": "10.1093/texcom/tgaa004",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/",
+      "journal": "Cerebral Cortex Communications",
+      "kind": "健康人",
+      "questions": [
+        "heat-control",
+        "brain-signals"
+      ],
+      "measures": [
+        "fMRI",
+        "MR测温"
+      ],
+      "wavelengths": [
+        "808"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法·BOLD实验",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec5"
+        },
+        "p": {
+          "label": "方法·tPBM参数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec7"
+        },
+        "temp": {
+          "label": "方法·独立测温实验",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec6"
+        },
+        "r": {
+          "label": "图 4·全脑功能连接",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#f4"
+        },
+        "r2": {
+          "label": "图 7·MR测温",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#f7"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "BOLD组20人；另20人测温（2人因伪影剔除）",
+          "source": "d"
+        },
+        "design": {
+          "value": "BOLD前中后测；独立测温组随机顺序主动/假刺激交叉",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "808 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "激光持续照射",
+          "source": "p"
+        },
+        "target": {
+          "value": "右额 Fp2",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "318 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "直径1 cm",
+          "source": "p"
+        },
+        "duration": {
+          "value": "10分钟",
+          "source": "p"
+        },
+        "dose": {
+          "value": "总入射能量150 J",
+          "source": "p"
+        },
+        "control": {
+          "value": "BOLD无同期假刺激；测温实验有关闭激光对照",
+          "source": "temp"
+        },
+        "readout": {
+          "value": "多回波BOLD功能连接；另组MR测温",
+          "source": "r"
+        },
+        "timing": {
+          "value": "30分钟BOLD扫描中间10分钟照射",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "照射中广泛功能连接增加，照射后显著连接数量减少。",
+          "source": "r"
+        },
+        {
+          "text": "该测温实验未检出主动与假刺激的显著脑温差。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "连接与温度来自不同队列；未检出脑温差取决于测温灵敏度，BOLD前后比较也可能含时间效应。"
+    },
+    {
+      "id": "qu-2022",
+      "short": "Qu · 2022",
+      "year": 2022,
+      "title": "Repeated transcranial photobiomodulation improves working memory of healthy older adults: behavioral outcomes of poststimulation including a three-week follow-up",
+      "title_zh": "连续七天刺激的记忆改善能保持多久？",
+      "doi": "10.1117/1.NPh.9.3.035005",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/",
+      "journal": "Neurophotonics",
+      "kind": "健康人",
+      "questions": [
+        "cognition",
+        "repeated-clinical"
+      ],
+      "measures": [
+        "行为"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法 §2.1–2.2·样本和流程",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.2"
+        },
+        "p": {
+          "label": "方法 §2.3·刺激参数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.3"
+        },
+        "r": {
+          "label": "图 2·单次与重复刺激",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#f2"
+        },
+        "r2": {
+          "label": "图 3·三周随访",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#f3"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "健康老年人：主动61人、对照25人",
+          "source": "d"
+        },
+        "design": {
+          "value": "主动组基线假刺激后连续主动疗程；另有重复假刺激组",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "p"
+        },
+        "target": {
+          "value": "左侧DLPFC",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "250 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "直径4.16 cm",
+          "source": "p"
+        },
+        "duration": {
+          "value": "12分钟/次；每日1次，共7天",
+          "source": "p"
+        },
+        "dose": {
+          "value": "本文方法未单列累计面剂量",
+          "source": "p"
+        },
+        "control": {
+          "value": "首30秒出光，随后关闭；重复假刺激对照",
+          "source": "p"
+        },
+        "readout": {
+          "value": "1/2/3-back正确率与反应时",
+          "source": "r"
+        },
+        "timing": {
+          "value": "基线、第1/7天；之后每周随访，共3周",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "主动组第7天部分任务指标优于单次后；3-back反应时缩短。",
+          "source": "r"
+        },
+        {
+          "text": "图3呈现相对基线的改善持续到三周随访。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "主动组内时间点比较和独立假刺激组的检验应分别阅读；不能把练习与长期疗程效应自动等同。"
+    },
+    {
+      "id": "zhao-2022",
+      "short": "Zhao · 2022",
+      "year": 2022,
+      "title": "Transcranial photobiomodulation enhances visual working memory capacity in humans",
+      "title_zh": "波长和左右额部位置会改变视觉记忆收益吗？",
+      "doi": "10.1126/sciadv.abq3211",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/",
+      "journal": "Science Advances",
+      "kind": "健康人",
+      "questions": [
+        "wavelength-pulse",
+        "cognition"
+      ],
+      "measures": [
+        "行为",
+        "EEG"
+      ],
+      "wavelengths": [
+        "852",
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法·参与者与四项实验",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec17"
+        },
+        "p": {
+          "label": "方法·tPBM protocol",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#sec19"
+        },
+        "r": {
+          "label": "图 1–2·记忆与CDA",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#F1"
+        },
+        "r2": {
+          "label": "图 4–5·波长和位置对照",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#F4"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "4项实验招募90人，排除11人",
+          "source": "d"
+        },
+        "design": {
+          "value": "各实验内双盲随机主动/假刺激交叉；不同波长和侧别属不同实验样本",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 / 852 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "p"
+        },
+        "target": {
+          "value": "Fp2内外侧交替；第四实验用Fp1",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "167 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "原文13.57 cm²，同时写直径4 cm",
+          "source": "p"
+        },
+        "duration": {
+          "value": "12分钟；两点每60秒交替；刺激后休息8分钟",
+          "source": "p"
+        },
+        "dose": {
+          "value": "两波长等光能；累计面剂量未单列",
+          "source": "p"
+        },
+        "control": {
+          "value": "开始与结束各30秒出光；总光能约主动的1/12",
+          "source": "p"
+        },
+        "readout": {
+          "value": "视觉工作记忆容量K、EEG CDA",
+          "source": "r"
+        },
+        "timing": {
+          "value": "刺激后8分钟开始任务/EEG",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "右额1064 nm条件下，视觉记忆容量和CDA负荷效应增加。",
+          "source": "r"
+        },
+        {
+          "text": "852 nm右额及1064 nm左额实验未出现同样收益。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "波长和侧别比较跨不同实验人群；不能把单项实验有显著性、另一项没有，直接当成普遍最优参数。光斑面积与直径按原文保留。"
+    },
+    {
+      "id": "cassano-2015",
+      "short": "Cassano · 2015",
+      "year": 2015,
+      "title": "Near-Infrared Transcranial Radiation for Major Depressive Disorder: Proof of Concept Study",
+      "title_zh": "早期抑郁试验怎样安排照射和假刺激？",
+      "doi": "10.1155/2015/352979",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4556873/",
+      "journal": "Psychiatry Journal",
+      "kind": "临床",
+      "questions": [
+        "repeated-clinical"
+      ],
+      "measures": [
+        "量表"
+      ],
+      "wavelengths": [
+        "808"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法·交叉试验",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4556873/#sec2"
+        },
+        "p": {
+          "label": "方法·四点照射与冷却",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4556873/#sec2"
+        },
+        "r": {
+          "label": "图 2·个体HAM-D轨迹",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4556873/#fig2"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "重性抑郁障碍；4名完成者",
+          "source": "d"
+        },
+        "design": {
+          "value": "计划随机双盲交叉；4名完成者均先主动后假刺激",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "808 ± 10 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "p"
+        },
+        "target": {
+          "value": "双侧前额4个不重叠点",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "约700 mW/cm²；接触式，主动冷却",
+          "source": "p"
+        },
+        "spot": {
+          "value": "每点7.1 cm²（直径3 cm）",
+          "source": "p"
+        },
+        "duration": {
+          "value": "2分钟/点；每周2次，主动疗程3周",
+          "source": "p"
+        },
+        "dose": {
+          "value": "84 J/cm² / 点；总2.40 kJ / 次",
+          "source": "p"
+        },
+        "control": {
+          "value": "同设备主动冷却及相同声光界面，假刺激不出光",
+          "source": "p"
+        },
+        "readout": {
+          "value": "HAM-D17",
+          "source": "r"
+        },
+        "timing": {
+          "value": "每周评估，末次到第8周",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "4名完成者的HAM-D下降；个体和均值轨迹见图2，部分缓解未持续。",
+          "source": "r"
+        }
+      ],
+      "interpretation": "完成者极少，且全部同一治疗顺序；适合了解可行性和设计，不能作为稳定疗效估计。"
+    },
+    {
+      "id": "saltmarche-2017",
+      "short": "Saltmarche · 2017",
+      "year": 2017,
+      "title": "Significant Improvement in Cognition in Mild to Moderately Severe Dementia Cases Treated with Transcranial Plus Intranasal Photobiomodulation: Case Series Report",
+      "title_zh": "经颅加鼻内疗程结束后，认知评分怎样变化？",
+      "doi": "10.1089/pho.2016.4227",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/",
+      "journal": "Photomedicine and Laser Surgery",
+      "kind": "临床",
+      "questions": [
+        "repeated-clinical"
+      ],
+      "measures": [
+        "量表"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法·病例",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#s003"
+        },
+        "p": {
+          "label": "表 2·两种设备参数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T2"
+        },
+        "schedule": {
+          "label": "方法·治疗与居家安排",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#s006"
+        },
+        "r": {
+          "label": "表 3 / 图 2–3·认知评分",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T3"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "5例痴呆/阿尔茨海默病，72–90岁",
+          "source": "d"
+        },
+        "design": {
+          "value": "开放病例系列；12周治疗后4周停治",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "10 Hz；50%占空比",
+          "source": "p"
+        },
+        "target": {
+          "value": "头部4处 + 鼻内；另用鼻内单独设备",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "Neuro：经颅41、鼻内23 mW/cm²；鼻内单机14.2 mW/cm²",
+          "source": "p"
+        },
+        "spot": {
+          "value": "约1 cm² / LED",
+          "source": "p"
+        },
+        "duration": {
+          "value": "经颅+鼻内20分钟/次，前2周每周2次，其后每周1次；其余日鼻内25分钟",
+          "source": "schedule"
+        },
+        "dose": {
+          "value": "Neuro：每LED经颅24.6、鼻内13.8 J/cm²；鼻内单机10.65 J/cm²",
+          "source": "p"
+        },
+        "control": {
+          "value": "无假刺激组；停治随访",
+          "source": "schedule"
+        },
+        "readout": {
+          "value": "MMSE、ADAS-cog",
+          "source": "r"
+        },
+        "timing": {
+          "value": "基线、第6/12周及停治4周",
+          "source": "r"
+        }
+      },
+      "results": [
+        {
+          "text": "12周MMSE均值增加2.60分，ADAS-cog下降6.73分；停治时1例退出。",
+          "source": "r"
+        }
+      ],
+      "interpretation": "组合治疗、病例数少、无同期对照，且随访缺失；不能区分经颅和鼻内的各自贡献。"
+    },
+    {
+      "id": "chao-2020",
+      "short": "Chao · 2020",
+      "year": 2020,
+      "title": "Changes in Brain Function and Structure After Self-Administered Home Photobiomodulation Treatment in a Concussion Case",
+      "title_zh": "脑震荡病例的量表、灌注与连接怎样一起读？",
+      "doi": "10.3389/fneur.2020.00952",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/",
+      "journal": "Frontiers in Neurology",
+      "kind": "临床",
+      "questions": [
+        "brain-signals",
+        "repeated-clinical"
+      ],
+      "measures": [
+        "fMRI",
+        "ASL",
+        "行为"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法·单病例与设备",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2"
+        },
+        "p": {
+          "label": "方法·设备和疗程",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2"
+        },
+        "r": {
+          "label": "表 2·神经心理测验",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#T2"
+        },
+        "r2": {
+          "label": "图 2·ACC功能连接",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#F2"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "1名23岁男性职业冰球运动员；多次脑震荡史",
+          "source": "d"
+        },
+        "design": {
+          "value": "单病例治疗前后比较",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "10 / 40 Hz；50%占空比；疗程中调整频率",
+          "source": "p"
+        },
+        "target": {
+          "value": "4个头部LED + 鼻内",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "前部75、后部100、鼻内25 mW/cm²",
+          "source": "p"
+        },
+        "spot": {
+          "value": "约1 cm² / LED",
+          "source": "p"
+        },
+        "duration": {
+          "value": "20分钟/次，隔日一次，共8周；按症状调整10/40 Hz",
+          "source": "p"
+        },
+        "dose": {
+          "value": "前部45、后部60、鼻内15 J/cm² / 次",
+          "source": "p"
+        },
+        "control": {
+          "value": "无同期对照",
+          "source": "p"
+        },
+        "readout": {
+          "value": "神经心理测验、ASL、静息态fMRI",
+          "source": "r"
+        },
+        "timing": {
+          "value": "治疗前与8周后",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "多项神经心理测验分数前后改善。",
+          "source": "r"
+        },
+        {
+          "text": "ACC连接图的分布改变；该病例不适合推断总体疗效。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "疗程中因轻度头痛换用10 Hz，随后又调整；频率、恢复时间和干预效应不能独立分离。"
+    },
+    {
+      "id": "nizamutdinov-2021",
+      "short": "Nizamutdinov · 2021",
+      "year": 2021,
+      "title": "Transcranial Near Infrared Light Stimulations Improve Cognition in Patients with Dementia",
+      "title_zh": "居家头盔照射八周后，痴呆患者的认知评分如何？",
+      "doi": "10.14336/AD.2021.0229",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/",
+      "journal": "Aging and Disease",
+      "kind": "临床",
+      "questions": [
+        "repeated-clinical",
+        "cognition"
+      ],
+      "measures": [
+        "量表"
+      ],
+      "wavelengths": [
+        "1060–1080"
+      ],
+      "mode_filter": "未明确",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法·随机与设备",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/#:~:text=MATERIALS%20AND%20METHODS"
+        },
+        "p": {
+          "label": "方法·头盔与照射安排",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/#:~:text=Both%20active%20and%20sham"
+        },
+        "r": {
+          "label": "表 1·认知前后评分",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/#T1-ad-12-4-954"
+        },
+        "r2": {
+          "label": "图 1·画钟与连线",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/#F1-ad-12-4-954"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "入组60人；57人完成；早中期痴呆",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机双盲，主动:假刺激=2:1",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1060–1080 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "方法未明确给出连续/脉冲方式",
+          "source": "p"
+        },
+        "target": {
+          "value": "头部12模块 + 2个眼部模块",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "23.1 mW/cm²；设备报告值",
+          "source": "p"
+        },
+        "spot": {
+          "value": "约650 cm²治疗区域",
+          "source": "p"
+        },
+        "duration": {
+          "value": "6分钟/次，每日2次，共8周",
+          "source": "p"
+        },
+        "dose": {
+          "value": "方法未单列面剂量",
+          "source": "p"
+        },
+        "control": {
+          "value": "外观相同、不发近红外光的头盔",
+          "source": "p"
+        },
+        "readout": {
+          "value": "MMSE等认知量表、照护者日志",
+          "source": "r"
+        },
+        "timing": {
+          "value": "治疗前与末次后1天内",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "表1主动组MMSE由22.8升至27.6；表中p值是各组内前后检验。",
+          "source": "r"
+        }
+      ],
+      "interpretation": "组内显著、对照不显著不能替代组间变化检验；睡眠数据来自照护日志，未用睡眠脑电。"
+    },
+    {
+      "id": "longo-2020",
+      "short": "Figueiro Longo · 2020",
+      "year": 2020,
+      "title": "Effect of Transcranial Low-Level Light Therapy vs Sham Therapy Among Patients With Moderate Traumatic Brain Injury",
+      "title_zh": "急性脑损伤后，影像变化是否伴随症状改善？",
+      "doi": "10.1001/jamanetworkopen.2020.17337",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/",
+      "journal": "JAMA Network Open",
+      "kind": "临床",
+      "questions": [
+        "repeated-clinical",
+        "heat-control"
+      ],
+      "measures": [
+        "扩散MRI",
+        "量表"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "未明确",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "图 1·入组与随访",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#zoi200627f1"
+        },
+        "p": {
+          "label": "方法·治疗流程",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627"
+        },
+        "r": {
+          "label": "图 2·临床症状",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#zoi200627f2"
+        },
+        "r2": {
+          "label": "图 3·扩散参数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#zoi200627f3"
+        },
+        "supp": {
+          "label": "补充材料 2，p.2·波长",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#supplementary-material2"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "入组68人；43人有MRI，42人进入定量分析",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机双盲假刺激对照，急性TBI",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 nm；带宽30 nm",
+          "source": "supp"
+        },
+        "mode": {
+          "value": "LED头盔；正文未明确脉冲参数",
+          "source": "p"
+        },
+        "target": {
+          "value": "头盔18簇，每簇20个LED",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "36 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "正文未给出总照射面积",
+          "source": "p"
+        },
+        "duration": {
+          "value": "伤后72小时内开始；20分钟/次，共3次；间隔至少12小时",
+          "source": "p"
+        },
+        "dose": {
+          "value": "约43.2 J/cm² / 次",
+          "source": "p"
+        },
+        "control": {
+          "value": "同头盔风扇开启，LED关闭",
+          "source": "p"
+        },
+        "readout": {
+          "value": "扩散MRI；Rivermead症状问卷",
+          "source": "r"
+        },
+        "timing": {
+          "value": "急性、2–3周、约3个月MRI；症状随访到6个月",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "临床症状的治疗效应及治疗×时间交互未达显著。",
+          "source": "r"
+        },
+        {
+          "text": "部分扩散指标存在治疗×时间交互。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "影像指标变化与症状改善分开报告；失访较多。波长和带宽来自补充材料2，正文与补充材料需一起核对。"
+    },
+    {
+      "id": "truong-2022",
+      "short": "Truong · 2022",
+      "year": 2022,
+      "title": "Enhancement of Frequency-Specific Hemodynamic Power and Functional Connectivity by Transcranial Photobiomodulation in Healthy Humans",
+      "title_zh": "连续光会改变哪些慢频段的血氧网络？",
+      "doi": "10.3389/fnins.2022.896502",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/",
+      "journal": "Frontiers in Neuroscience",
+      "kind": "健康人",
+      "questions": [
+        "brain-signals"
+      ],
+      "measures": [
+        "fNIRS"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法 §2.1·受试者",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#:~:text=2.1.%20Participants"
+        },
+        "p": {
+          "label": "方法 §2.2 / 图 1·协议",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F1"
+        },
+        "r": {
+          "label": "图 6·分频段连接",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F6"
+        },
+        "r2": {
+          "label": "图 8·网络效率",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F8"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "招募19人，17人纳入fNIRS分析",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机主动/假刺激交叉；至少间隔1周",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "p"
+        },
+        "target": {
+          "value": "右额 Fp2附近",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "250 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "13.6 cm²",
+          "source": "p"
+        },
+        "duration": {
+          "value": "8分钟",
+          "source": "p"
+        },
+        "dose": {
+          "value": "总能量1632 J",
+          "source": "p"
+        },
+        "control": {
+          "value": "0.1 W档位，黑帽遮光",
+          "source": "p"
+        },
+        "readout": {
+          "value": "111通道静息 fNIRS、分频段连接与图论",
+          "source": "r"
+        },
+        "timing": {
+          "value": "刺激前8分钟、中8分钟、后4分钟",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "连接变化依赖慢频段和测量时段；图6比较内皮源性、肌源性频段在刺激前、中、后的连接，不是一个全脑统一增加的结果。",
+          "source": "r"
+        },
+        {
+          "text": "刺激期间肌源频段的全局/局部效率升高、路径长度缩短；恢复期未见同样显著差异。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "这里的频段属于血流动力学慢波，不是EEG的alpha/beta；不能把不同测量的“网络效率”混为一谈。"
+    },
+    {
+      "id": "shahdadian-2022",
+      "short": "Shahdadian · 2022",
+      "year": 2022,
+      "title": "Neuromodulation of brain power topography and network topology by prefrontal transcranial photobiomodulation",
+      "title_zh": "脑电功率增加时，网络效率也一定增加吗？",
+      "doi": "10.1088/1741-2552/ac9ede",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9795815/",
+      "journal": "Journal of Neural Engineering",
+      "kind": "健康人",
+      "questions": [
+        "brain-signals"
+      ],
+      "measures": [
+        "EEG"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法·受试者",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9795815/#jneac9edes2-1"
+        },
+        "p": {
+          "label": "表 2·头皮参数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9795815/#jneac9edet2"
+        },
+        "protocol": {
+          "label": "方法·实验流程",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9795815/#jneac9edes2-2"
+        },
+        "r": {
+          "label": "图 4·EEG功率",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9795815/#jneac9edef4"
+        },
+        "r2": {
+          "label": "图 5·全局网络指标",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9795815/#jneac9edef5"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "招募49人，分析45人",
+          "source": "d"
+        },
+        "design": {
+          "value": "单盲随机交叉；至少间隔5天",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "p"
+        },
+        "target": {
+          "value": "右额 Fp2/AF8附近",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "250 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "直径4.2 cm",
+          "source": "p"
+        },
+        "duration": {
+          "value": "8分钟",
+          "source": "p"
+        },
+        "dose": {
+          "value": "120 J/cm²（头皮）；表列1662 J总量",
+          "source": "p"
+        },
+        "control": {
+          "value": "0.1 W档位，黑帽遮光",
+          "source": "protocol"
+        },
+        "readout": {
+          "value": "64通道EEG、虚部相干与图论",
+          "source": "r"
+        },
+        "timing": {
+          "value": "2分钟基线；前4/后4分钟刺激；3分钟恢复",
+          "source": "protocol"
+        }
+      },
+      "results": [
+        {
+          "text": "alpha和beta脑电功率呈刺激相关的空间变化；图4用簇置换检验标出显著位置，不能把整张色彩图都看作显著。",
+          "source": "r"
+        },
+        {
+          "text": "beta频段的同步、全局效率和小世界性在部分时段/阈值下降。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "更大的脑电功率不必对应更高网络效率；图论结果取决于连接定义、频段和阈值。与同组近似样本研究比较时留意队列重叠。"
+    },
+    {
+      "id": "wang-2022-metabolism",
+      "short": "Wang · 2022",
+      "year": 2022,
+      "title": "Metabolic Connectivity and Hemodynamic-Metabolic Coherence of Human Prefrontal Cortex at Rest and Post Photobiomodulation Assessed by Dual-Channel Broadband NIRS",
+      "title_zh": "血氧同步与氧化代谢同步会同向改变吗？",
+      "doi": "10.3390/metabo12010042",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8778041/",
+      "journal": "Metabolites",
+      "kind": "健康人",
+      "questions": [
+        "brain-signals"
+      ],
+      "measures": [
+        "bbNIRS"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法 §4.1·受试者",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8778041/#sec4dot1-metabolites-12-00042"
+        },
+        "p": {
+          "label": "方法 §4.3·照射",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8778041/#sec4dot3-metabolites-12-00042"
+        },
+        "protocol": {
+          "label": "图 5·记录安排",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8778041/#metabolites-12-00042-f005"
+        },
+        "r": {
+          "label": "图 4·相干性变化",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8778041/#metabolites-12-00042-f004"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "12名健康人，各完成2次访视；24次记录不是24名独立受试者",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机顺序、参与者盲法、主动/假刺激交叉；间隔14天",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "p"
+        },
+        "target": {
+          "value": "右额眉毛与发际之间",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "250 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "13.6 cm²",
+          "source": "p"
+        },
+        "duration": {
+          "value": "8分钟",
+          "source": "p"
+        },
+        "dose": {
+          "value": "方法未单列面剂量",
+          "source": "p"
+        },
+        "control": {
+          "value": "0.1 W档位 + 黑帽遮光；非接触约2 cm",
+          "source": "p"
+        },
+        "readout": {
+          "value": "双侧bbNIRS：HbO与oxCCO慢波相干",
+          "source": "r"
+        },
+        "timing": {
+          "value": "6分钟基线、8分钟刺激、6分钟恢复；后段4分钟用于相干分析",
+          "source": "protocol"
+        }
+      },
+      "results": [
+        {
+          "text": "部分频段双侧HbO相干下降，双侧oxCCO相干则在神经源频段增加。",
+          "source": "r"
+        }
+      ],
+      "interpretation": "相同受试者的两次记录不可当作独立样本；血氧和氧化代谢是不同信号，变化方向也可能不同。"
+    },
+    {
+      "id": "jagdeo-2012",
+      "short": "Jagdeo · 2012",
+      "year": 2012,
+      "title": "Transcranial Red and Near Infrared Light Transmission in a Cadaveric Model",
+      "title_zh": "红光与近红外穿过颅骨的比例一样吗？",
+      "doi": "10.1371/journal.pone.0047460",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/",
+      "journal": "PLoS ONE",
+      "kind": "离体组织",
+      "questions": [
+        "penetration",
+        "wavelength-pulse"
+      ],
+      "measures": [
+        "透射测量"
+      ],
+      "wavelengths": [
+        "633",
+        "830"
+      ],
+      "mode_filter": "未明确",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法·颅骨样本与光源",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#s2b"
+        },
+        "p": {
+          "label": "表 1–2·入射参照和透射值",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-t001"
+        },
+        "r": {
+          "label": "图 2–3·区域透射比例",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-g002"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "2个冠状切开颅骨，另1个保留软组织的矢状切开头部",
+          "source": "d"
+        },
+        "design": {
+          "value": "离体透射测量，按位置和波长比较",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "633 / 830 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "LED；本文未单列脉冲方式",
+          "source": "p"
+        },
+        "target": {
+          "value": "额、顶、颞、枕部组织",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "空气参照：5 mm处830为35.1、633为72.6 mW/cm²",
+          "source": "p"
+        },
+        "spot": {
+          "value": "出光口4.7 × 6.1 cm；探头直径1.5 cm",
+          "source": "d"
+        },
+        "duration": {
+          "value": "透射测量；无治疗疗程",
+          "source": "p"
+        },
+        "dose": {
+          "value": "不适用：非干预剂量试验",
+          "source": "p"
+        },
+        "control": {
+          "value": "空气、血液及介质对照",
+          "source": "p"
+        },
+        "readout": {
+          "value": "透射光强与相对透射比例",
+          "source": "r"
+        },
+        "timing": {
+          "value": "即时光学测量",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "830 nm光可测得穿过颅骨及带软组织的样本，633 nm透过更少；透射还随部位和软组织条件变化。",
+          "source": "r"
+        }
+      ],
+      "interpretation": "离体、固定处理及测量几何会影响透射；不能把一个百分比直接作为所有人体的入脑剂量。"
+    },
+    {
+      "id": "yuan-2020",
+      "short": "Yuan · 2020",
+      "year": 2020,
+      "title": "Transcranial photobiomodulation with near-infrared light from childhood to elderliness: simulation of dosimetry",
+      "title_zh": "相同头皮照射，不同年龄的脑内剂量一样吗？",
+      "doi": "10.1117/1.NPh.7.1.015009",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/",
+      "journal": "Neurophotonics",
+      "kind": "计算模型",
+      "questions": [
+        "penetration",
+        "wavelength-pulse"
+      ],
+      "measures": [
+        "光传播模拟"
+      ],
+      "wavelengths": [
+        "670",
+        "810",
+        "850",
+        "980",
+        "1064"
+      ],
+      "mode_filter": "模型",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "方法 §2.1·年龄模板",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec2.1"
+        },
+        "p": {
+          "label": "方法 §2.4–2.5·光源和模拟",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec2.5"
+        },
+        "dose": {
+          "label": "结果 §3.1·剂量与时长估算",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec3.1"
+        },
+        "r": {
+          "label": "图 6·波长和年龄",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#f6"
+        },
+        "r2": {
+          "label": "图 8–9·剂量与组织厚度",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#f8"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "18个年龄组MRI平均模板，覆盖5–89岁",
+          "source": "d"
+        },
+        "design": {
+          "value": "蒙特卡洛光传播模拟；非人体刺激试验",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "670 / 810 / 850 / 980 / 1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "稳态光传播模型；不比较脉冲生物效应",
+          "source": "p"
+        },
+        "target": {
+          "value": "F3/F4 与 Fpz；对应dlPFC/vmPFC",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "30或300 mW/cm²用于疗程时间估算；属于输入设定",
+          "source": "dose"
+        },
+        "spot": {
+          "value": "Fpz 28.4 cm²；F3/F4各28.4 cm²",
+          "source": "dose"
+        },
+        "duration": {
+          "value": "估算到达目标剂量所需时长；非实测疗程",
+          "source": "dose"
+        },
+        "dose": {
+          "value": "以目标区第99百分位3 J/cm²为估算条件，不是临床推荐值",
+          "source": "dose"
+        },
+        "control": {
+          "value": "不同年龄、波长和光源位置模型",
+          "source": "p"
+        },
+        "readout": {
+          "value": "能量沉积及达到设定剂量的预计时长",
+          "source": "r"
+        },
+        "timing": {
+          "value": "不适用：稳态计算",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "在文中光学参数下，810 nm的目标区沉积较高，并随年龄和照射位置变化。",
+          "source": "r"
+        },
+        {
+          "text": "颅外组织厚度与能量沉积存在关系。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "组织光学参数假定不随年龄改变；模拟沉积高不等于认知或临床效果最好。"
+    },
+    {
+      "id": "barrett-2013",
+      "short": "Barrett · 2013",
+      "year": 2013,
+      "title": "Transcranial infrared laser stimulation produces beneficial cognitive and emotional effects in humans",
+      "title_zh": "早期人体研究怎样测注意和记忆？",
+      "doi": "10.1016/j.neuroscience.2012.11.016",
+      "fulltext": "https://gwern.net/doc/nootropic/2013-barrett.pdf",
+      "journal": "Neuroscience",
+      "kind": "健康人",
+      "questions": [
+        "cognition",
+        "heat-control"
+      ],
+      "measures": [
+        "行为"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "PDF第3页·随机分组",
+          "url": "https://gwern.net/doc/nootropic/2013-barrett.pdf#page=3"
+        },
+        "p": {
+          "label": "PDF第4页·交替照射与假刺激",
+          "url": "https://gwern.net/doc/nootropic/2013-barrett.pdf#page=4"
+        },
+        "r": {
+          "label": "PDF第6页·图3–4",
+          "url": "https://gwern.net/doc/nootropic/2013-barrett.pdf#page=6"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "40名健康成人，主动20、对照20",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机平行组；参与者不知分组",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "p"
+        },
+        "target": {
+          "value": "右额Fp2内外侧两个点交替",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "250 mW/cm²；头皮入射",
+          "source": "p"
+        },
+        "spot": {
+          "value": "各点直径4 cm",
+          "source": "p"
+        },
+        "duration": {
+          "value": "总8分钟；每点累计4分钟",
+          "source": "p"
+        },
+        "dose": {
+          "value": "每点60 J/cm²",
+          "source": "p"
+        },
+        "control": {
+          "value": "每分钟出光5秒，其余55秒关闭；能量约主动的1/12",
+          "source": "p"
+        },
+        "readout": {
+          "value": "PVT反应时、DMS速度和正确次数",
+          "source": "r"
+        },
+        "timing": {
+          "value": "刺激前后认知任务；两周情绪问卷",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "PVT反应时的组别×时间交互p=0.047；DMS提取速度交互p=0.021（排除1个离群值）。",
+          "source": "r"
+        },
+        {
+          "text": "DMS正确次数交互p=0.012，主要由对照组下降推动。",
+          "source": "r"
+        }
+      ],
+      "interpretation": "两个点各4分钟，不能把总8分钟当作每点8分钟来算面剂量。速度和正确率应分别看。"
+    },
+    {
+      "id": "ma-2026",
+      "short": "Ma · 2026",
+      "year": 2026,
+      "title": "A specific transcranial near-infrared stimulation parameter combination targeting the motor cortex improves cortical excitability and hemodynamics",
+      "title_zh": "810/1064 nm与连续/40 Hz光对运动皮层的作用？",
+      "doi": "10.1186/s12984-026-02122-3",
+      "fulltext": "https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf",
+      "journal": "Journal of NeuroEngineering and Rehabilitation（已接收稿）",
+      "kind": "健康人",
+      "questions": [
+        "wavelength-pulse",
+        "brain-signals"
+      ],
+      "measures": [
+        "MEP",
+        "fNIRS",
+        "行为"
+      ],
+      "wavelengths": [
+        "810",
+        "1064"
+      ],
+      "mode_filter": "连续+脉冲",
+      "reading": "全文方法、结果与图表",
+      "sources": {
+        "d": {
+          "label": "已接收稿PDF第9–10页·设计",
+          "url": "https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=9"
+        },
+        "p": {
+          "label": "已接收稿PDF第11–12页·参数",
+          "url": "https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11"
+        },
+        "r": {
+          "label": "PDF第20页·表1 / 图3",
+          "url": "https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=20"
+        },
+        "r2": {
+          "label": "PDF第22–23页·图5–6",
+          "url": "https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=22"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "22名健康参与者",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机单盲交叉，四种主动条件+假刺激；至少间隔3天",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 / 1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光 / 40 Hz三角脉冲；占空比未明确报告",
+          "source": "p"
+        },
+        "target": {
+          "value": "左M1，右拇短展肌运动热点",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "连续300；脉冲120 mW/cm²（原文报告值）",
+          "source": "p"
+        },
+        "spot": {
+          "value": "0.24 cm²",
+          "source": "p"
+        },
+        "duration": {
+          "value": "20分钟",
+          "source": "p"
+        },
+        "dose": {
+          "value": "原文名义总能量：连续96 J、脉冲48 J；另报告实测上限≤90 / ≤40 J",
+          "source": "p"
+        },
+        "control": {
+          "value": "外观相同设备，不发近红外光",
+          "source": "p"
+        },
+        "readout": {
+          "value": "MEP、对指动作、任务fNIRS",
+          "source": "r"
+        },
+        "timing": {
+          "value": "刺激后0/10/20/30分钟MEP；前后行为及fNIRS",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "30分钟时1064 nm/40 Hz的MEP变化高于两种连续光；未显示优于810 nm/40 Hz。",
+          "source": "r"
+        },
+        {
+          "text": "1064 nm/40 Hz右手动作增量高于假刺激；左手任务血氧为刺激前后比较。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "连续与脉冲条件的辐照度及能量不同，不能把差异仅归因于40 Hz。该版本为已接收稿，保留名义值与实测上限，不替作者统一。"
+    }
+  ]
+}

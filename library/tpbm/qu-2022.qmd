@@ -1,0 +1,50 @@
+---
+title: "连续七天刺激的记忆改善能保持多久？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Qu · 2022 · 健康人**
+
+Repeated transcranial photobiomodulation improves working memory of healthy older adults: behavioral outcomes of poststimulation including a three-week follow-up
+
+*Neurophotonics* · [DOI: 10.1117/1.NPh.9.3.035005](https://doi.org/10.1117/1.NPh.9.3.035005) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=qu-2022) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>健康老年人：主动61人、对照25人<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.2" target="_blank" rel="noopener">方法 §2.1–2.2·样本和流程</a></dd></div>
+<div><dt>研究设计</dt><dd>主动组基线假刺激后连续主动疗程；另有重复假刺激组<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.2" target="_blank" rel="noopener">方法 §2.1–2.2·样本和流程</a></dd></div>
+<div><dt>波长</dt><dd>1064 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.3" target="_blank" rel="noopener">方法 §2.3·刺激参数</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续光<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.3" target="_blank" rel="noopener">方法 §2.3·刺激参数</a></dd></div>
+<div><dt>照射位置</dt><dd>左侧DLPFC<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.3" target="_blank" rel="noopener">方法 §2.3·刺激参数</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>250 mW/cm²；头皮入射<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.3" target="_blank" rel="noopener">方法 §2.3·刺激参数</a></dd></div>
+<div><dt>光斑</dt><dd>直径4.16 cm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.3" target="_blank" rel="noopener">方法 §2.3·刺激参数</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>12分钟/次；每日1次，共7天<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.3" target="_blank" rel="noopener">方法 §2.3·刺激参数</a></dd></div>
+<div><dt>剂量</dt><dd>本文方法未单列累计面剂量<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.3" target="_blank" rel="noopener">方法 §2.3·刺激参数</a></dd></div>
+<div><dt>对照怎么做</dt><dd>首30秒出光，随后关闭；重复假刺激对照<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.3" target="_blank" rel="noopener">方法 §2.3·刺激参数</a></dd></div>
+<div><dt>观察指标</dt><dd>1/2/3-back正确率与反应时<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#f2" target="_blank" rel="noopener">图 2·单次与重复刺激</a></dd></div>
+<div><dt>测量时间</dt><dd>基线、第1/7天；之后每周随访，共3周<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.3" target="_blank" rel="noopener">方法 §2.3·刺激参数</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 主动组第7天部分任务指标优于单次后；3-back反应时缩短。（[图 2·单次与重复刺激](https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#f2)）
+- 图3呈现相对基线的改善持续到三周随访。（[图 3·三周随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#f3)）
+
+## 对实验设计有什么用
+
+主动组内时间点比较和独立假刺激组的检验应分别阅读；不能把练习与长期疗程效应自动等同。
+
+## 接着读
+
+- [注意与记忆改善，应该看哪些指标？](../../research/questions/cognition.qmd)
+- [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

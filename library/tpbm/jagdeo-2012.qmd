@@ -1,0 +1,49 @@
+---
+title: "红光与近红外穿过颅骨的比例一样吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Jagdeo · 2012 · 离体组织**
+
+Transcranial Red and Near Infrared Light Transmission in a Cadaveric Model
+
+*PLoS ONE* · [DOI: 10.1371/journal.pone.0047460](https://doi.org/10.1371/journal.pone.0047460) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=jagdeo-2012) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>2个冠状切开颅骨，另1个保留软组织的矢状切开头部<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#s2b" target="_blank" rel="noopener">方法·颅骨样本与光源</a></dd></div>
+<div><dt>研究设计</dt><dd>离体透射测量，按位置和波长比较<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#s2b" target="_blank" rel="noopener">方法·颅骨样本与光源</a></dd></div>
+<div><dt>波长</dt><dd>633 / 830 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-t001" target="_blank" rel="noopener">表 1–2·入射参照和透射值</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>LED；本文未单列脉冲方式<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-t001" target="_blank" rel="noopener">表 1–2·入射参照和透射值</a></dd></div>
+<div><dt>照射位置</dt><dd>额、顶、颞、枕部组织<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-t001" target="_blank" rel="noopener">表 1–2·入射参照和透射值</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>空气参照：5 mm处830为35.1、633为72.6 mW/cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-t001" target="_blank" rel="noopener">表 1–2·入射参照和透射值</a></dd></div>
+<div><dt>光斑</dt><dd>出光口4.7 × 6.1 cm；探头直径1.5 cm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#s2b" target="_blank" rel="noopener">方法·颅骨样本与光源</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>透射测量；无治疗疗程<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-t001" target="_blank" rel="noopener">表 1–2·入射参照和透射值</a></dd></div>
+<div><dt>剂量</dt><dd>不适用：非干预剂量试验<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-t001" target="_blank" rel="noopener">表 1–2·入射参照和透射值</a></dd></div>
+<div><dt>对照怎么做</dt><dd>空气、血液及介质对照<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-t001" target="_blank" rel="noopener">表 1–2·入射参照和透射值</a></dd></div>
+<div><dt>观察指标</dt><dd>透射光强与相对透射比例<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-g002" target="_blank" rel="noopener">图 2–3·区域透射比例</a></dd></div>
+<div><dt>测量时间</dt><dd>即时光学测量<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-t001" target="_blank" rel="noopener">表 1–2·入射参照和透射值</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 830 nm光可测得穿过颅骨及带软组织的样本，633 nm透过更少；透射还随部位和软组织条件变化。（[图 2–3·区域透射比例](https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-g002)）
+
+## 对实验设计有什么用
+
+离体、固定处理及测量几何会影响透射；不能把一个百分比直接作为所有人体的入脑剂量。
+
+## 接着读
+
+- [波长和脉冲怎么选？](../../research/questions/wavelength-pulse.qmd)
+- [相同头皮剂量，进入脑内的光一样多吗？](../../research/questions/penetration.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

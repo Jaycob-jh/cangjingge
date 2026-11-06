@@ -1,0 +1,51 @@
+---
+title: "单次与重复照射，哪些变化能持续？"
+toc: true
+---
+
+持续时间需要靠停用后的测量回答。健康人重复照射研究和临床研究提供了不同长度的随访，但样本、疾病、对照和终点差异很大，不能把所有改善合并成一种疗效。
+
+[对比本页研究](../tpbm-compare.html?question=repeated-clinical) · [全部问题](../tpbm-questions.qmd)
+
+## 把研究放在一起看
+
+### Qu · 2022：重复照射后继续追踪工作记忆
+
+老年人研究安排连续 7 天照射，并在后续数周测试工作记忆。阅读时需要同时看真刺激与对照的时间轨迹，以及假刺激最初仍有 30 秒光照这一细节。
+
+[研究参数与结果](../../library/tpbm/qu-2022.qmd) · [图 2·单次与重复刺激](https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#f2) · [方法 §2.3·刺激参数](https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.3)
+
+### Figueiro Longo · 2020：影像改变与临床症状改善是两回事
+
+中度创伤性脑损伤随机试验发现部分弥散影像指标随处理改变，但临床症状没有显示相应的显著组别与时间交互。影像结果值得追踪，不能直接写成已经改善临床恢复。
+
+[研究参数与结果](../../library/tpbm/longo-2020.qmd) · [图 2·临床症状](https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#zoi200627f2) · [图 3·扩散参数](https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#zoi200627f3)
+
+### Saltmarche · 2017：停用后的变化能提出问题，但病例系列不能确认疗效
+
+5 名痴呆患者接受头部与鼻内照射，12 周后停用并随访。量表变化和部分停用后回落提出了持续疗程的问题；由于没有对照，后续需要用对照设计验证。
+
+[研究参数与结果](../../library/tpbm/saltmarche-2017.qmd) · [表 3 / 图 2–3·认知评分](https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T3) · [表 2·两种设备参数](https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T2)
+
+### Nizamutdinov · 2021：检查统计检验到底比较了什么
+
+研究有真刺激与假刺激分组，报告的认知表格包含组内前后检验。不能因为真刺激组显著、假刺激组不显著，就自动得出两组变化存在显著差异。
+
+[研究参数与结果](../../library/tpbm/nizamutdinov-2021.qmd) · [表 1·认知前后评分](https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/#T1-ad-12-4-954) · [方法·随机与设备](https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/#:~:text=MATERIALS%20AND%20METHODS)
+
+## 做实验时看什么
+
+- 把即时反应、疗程末结果和停用后保持分别设定测量时间。
+- 症状量表、行为任务和影像结果分开报告，明确哪个是主要终点。
+- 病例报告适合发现值得检验的问题；对照试验用于比较治疗效果。
+
+## 相关研究
+
+- [Qu · 2022：连续七天刺激的记忆改善能保持多久？](../../library/tpbm/qu-2022.qmd)
+- [Cassano · 2015：早期抑郁试验怎样安排照射和假刺激？](../../library/tpbm/cassano-2015.qmd)
+- [Saltmarche · 2017：经颅加鼻内疗程结束后，认知评分怎样变化？](../../library/tpbm/saltmarche-2017.qmd)
+- [Chao · 2020：脑震荡病例的量表、灌注与连接怎样一起读？](../../library/tpbm/chao-2020.qmd)
+- [Nizamutdinov · 2021：居家头盔照射八周后，痴呆患者的认知评分如何？](../../library/tpbm/nizamutdinov-2021.qmd)
+- [Figueiro Longo · 2020：急性脑损伤后，影像变化是否伴随症状改善？](../../library/tpbm/longo-2020.qmd)
+
+[修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

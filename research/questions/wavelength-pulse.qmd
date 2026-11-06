@@ -1,0 +1,43 @@
+---
+title: "波长和脉冲怎么选？"
+toc: true
+---
+
+先看每种条件实际送入多少光，再看波长与脉冲。现有研究提供了可比较的实验条件，但不同条件的能量常常也在变化，不能把全部差异都归给某个波长或频率。
+
+[对比本页研究](../tpbm-compare.html?question=wavelength-pulse) · [全部问题](../tpbm-questions.qmd)
+
+## 把研究放在一起看
+
+### Ma · 2026：同一个人比较四种光照条件
+
+22 名健康人接受 810 / 1064 nm 与连续 / 40 Hz 三角波的组合及假刺激。1064 nm 脉冲条件在刺激后 30 分钟的运动诱发电位高于两种连续光条件，但没有显示高于 810 nm 脉冲。连续与脉冲条件的辐照度和总能量不同，这项比较没有单独隔离频率的作用。
+
+[研究参数与结果](../../library/tpbm/ma-2026.qmd) · [已接收稿PDF第11–12页·参数](https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11) · [PDF第20页·表1 / 图3](https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=20)
+
+### Zhao · 2022：工作记忆改善是否依赖波长和照射位置？
+
+右前额 1064 nm 条件下，工作记忆容量与相关脑电指标改善；852 nm 和左额 1064 nm 条件没有出现相同结果。各条件来自不同实验，不能当作同一批受试者的完整波长交叉比较。
+
+[研究参数与结果](../../library/tpbm/zhao-2022.qmd) · [图 1–2·记忆与CDA](https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#F1) · [图 4–5·波长和位置对照](https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#F4)
+
+### Zomorrodi · 2019：40 Hz 照射后，脑电功率怎样变化？
+
+810 nm、40 Hz 光照后，多个脑电频段的功率和连接指标改变。该研究比较真刺激与假刺激，没有连续光条件；它回答的是这套刺激是否影响脑电，尚未回答 40 Hz 是否优于连续光。
+
+[研究参数与结果](../../library/tpbm/zomorrodi-2019.qmd) · [图 4·频段功率](https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Fig4) · [方法·设备](https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Sec6)
+
+## 做实验时看什么
+
+- 波长、波形、峰值功率、平均功率、占空比和总能量分别记录；只写“40 Hz”不够。
+- 若要比较频率，先明确匹配平均功率还是总能量，并测量设备实际输出。
+- 把行为结果与脑电、血氧或 MEP 分开分析，预先确定主要终点。
+
+## 相关研究
+
+- [Ma · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？](../../library/tpbm/ma-2026.qmd)
+- [Zhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？](../../library/tpbm/zhao-2022.qmd)
+- [Zomorrodi · 2019：40 Hz 经颅加鼻内刺激后，脑电频段如何改变？](../../library/tpbm/zomorrodi-2019.qmd)
+- [Yuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？](../../library/tpbm/yuan-2020.qmd)
+
+[修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

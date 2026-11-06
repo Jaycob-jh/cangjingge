@@ -1,0 +1,49 @@
+---
+title: "照射额中与右额，双侧血氧怎样变化？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Tian · 2016 · 健康人**
+
+Transcranial laser stimulation improves human cerebral oxygenation
+
+*Lasers in Surgery and Medicine* · [DOI: 10.1002/lsm.22471](https://doi.org/10.1002/lsm.22471) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=tian-2016) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>两项实验各9人，6人重复参与<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0012" target="_blank" rel="noopener">结果·受试者</a></dd></div>
+<div><dt>研究设计</dt><dd>前后测；比较额中与右额照射，无独立假刺激组<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0012" target="_blank" rel="noopener">结果·受试者</a></dd></div>
+<div><dt>波长</dt><dd>1064 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0008" target="_blank" rel="noopener">方法·仪器与照射</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续光；每分钟55秒开、5秒关<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0008" target="_blank" rel="noopener">方法·仪器与照射</a></dd></div>
+<div><dt>照射位置</dt><dd>额中 / 右额（分两项实验）<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0008" target="_blank" rel="noopener">方法·仪器与照射</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>250 mW/cm²；头皮入射<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0008" target="_blank" rel="noopener">方法·仪器与照射</a></dd></div>
+<div><dt>光斑</dt><dd>13.6 cm²（直径4.16 cm）<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0008" target="_blank" rel="noopener">方法·仪器与照射</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>10个一分钟周期；每周期出光55秒<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0009" target="_blank" rel="noopener">方法·实验流程</a></dd></div>
+<div><dt>剂量</dt><dd>13.75 J/cm² / 周期<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0009" target="_blank" rel="noopener">方法·实验流程</a></dd></div>
+<div><dt>对照怎么做</dt><dd>自身照射前基线<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0009" target="_blank" rel="noopener">方法·实验流程</a></dd></div>
+<div><dt>观察指标</dt><dd>双侧 fNIRS：HbO、HHb、HbT<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-fig-0003" target="_blank" rel="noopener">图 3–4·双侧血氧</a></dd></div>
+<div><dt>测量时间</dt><dd>照射前1分钟、照射中、照射后6分钟<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-sec-0009" target="_blank" rel="noopener">方法·实验流程</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 两种照射位置均观察到双侧氧合血红蛋白增加、脱氧血红蛋白下降；恢复期仍可见变化。（[图 3–4·双侧血氧](https://pmc.ncbi.nlm.nih.gov/articles/PMC5066697/#lsm22471-fig-0003)）
+
+## 对实验设计有什么用
+
+左右半球血氧响应相近；该设计说明时间变化，不能排除无假刺激对照下的时间因素。
+
+## 接着读
+
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+- [相同头皮剂量，进入脑内的光一样多吗？](../../research/questions/penetration.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

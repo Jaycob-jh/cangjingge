@@ -1,0 +1,42 @@
+---
+title: "经颅光刺激：按问题读"
+toc: false
+page-layout: full
+---
+
+从一个实验问题出发，把经典研究和后续进展放在一起读。每篇研究保留原文方法、图表和参数。
+
+[打开研究对比台](tpbm-compare.qmd){.btn .btn-primary}
+
+::: {.zk-grid}
+::: {.zk-card}
+### [波长和脉冲怎么选？](questions/wavelength-pulse.qmd)
+分清波长、频率、平均功率和总能量，才能解释不同条件的效果。
+:::
+
+::: {.zk-card}
+### [怎样区分光照与加热效应？](questions/heat-control.qmd)
+比较升温轨迹、假刺激和测量位置，而不只看设备是否发热。
+:::
+
+::: {.zk-card}
+### [脑电、血氧和功能连接为什么会给出不同结果？](questions/brain-signals.qmd)
+同样叫“连接”，不同仪器、频段和计算方法可能回答不同问题。
+:::
+
+::: {.zk-card}
+### [注意与记忆改善，应该看哪些指标？](questions/cognition.qmd)
+看反应速度、准确率和容量，也看练习效应及对照组如何变化。
+:::
+
+::: {.zk-card}
+### [单次与重复照射，哪些变化能持续？](questions/repeated-clinical.qmd)
+把刺激当时、疗程结束和停用后随访分开看。
+:::
+
+::: {.zk-card}
+### [相同头皮剂量，进入脑内的光一样多吗？](questions/penetration.qmd)
+波长、照射部位和头部结构都会影响光的分布。
+:::
+
+:::

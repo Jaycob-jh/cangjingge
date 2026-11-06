@@ -1,0 +1,50 @@
+---
+title: "急性脑损伤后，影像变化是否伴随症状改善？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Figueiro Longo · 2020 · 临床**
+
+Effect of Transcranial Low-Level Light Therapy vs Sham Therapy Among Patients With Moderate Traumatic Brain Injury
+
+*JAMA Network Open* · [DOI: 10.1001/jamanetworkopen.2020.17337](https://doi.org/10.1001/jamanetworkopen.2020.17337) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=longo-2020) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>入组68人；43人有MRI，42人进入定量分析<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#zoi200627f1" target="_blank" rel="noopener">图 1·入组与随访</a></dd></div>
+<div><dt>研究设计</dt><dd>随机双盲假刺激对照，急性TBI<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#zoi200627f1" target="_blank" rel="noopener">图 1·入组与随访</a></dd></div>
+<div><dt>波长</dt><dd>810 nm；带宽30 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#supplementary-material2" target="_blank" rel="noopener">补充材料 2，p.2·波长</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>LED头盔；正文未明确脉冲参数<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627" target="_blank" rel="noopener">方法·治疗流程</a></dd></div>
+<div><dt>照射位置</dt><dd>头盔18簇，每簇20个LED<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627" target="_blank" rel="noopener">方法·治疗流程</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>36 mW/cm²；头皮入射<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627" target="_blank" rel="noopener">方法·治疗流程</a></dd></div>
+<div><dt>光斑</dt><dd>正文未给出总照射面积<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627" target="_blank" rel="noopener">方法·治疗流程</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>伤后72小时内开始；20分钟/次，共3次；间隔至少12小时<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627" target="_blank" rel="noopener">方法·治疗流程</a></dd></div>
+<div><dt>剂量</dt><dd>约43.2 J/cm² / 次<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627" target="_blank" rel="noopener">方法·治疗流程</a></dd></div>
+<div><dt>对照怎么做</dt><dd>同头盔风扇开启，LED关闭<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627" target="_blank" rel="noopener">方法·治疗流程</a></dd></div>
+<div><dt>观察指标</dt><dd>扩散MRI；Rivermead症状问卷<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#zoi200627f2" target="_blank" rel="noopener">图 2·临床症状</a></dd></div>
+<div><dt>测量时间</dt><dd>急性、2–3周、约3个月MRI；症状随访到6个月<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627" target="_blank" rel="noopener">方法·治疗流程</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 临床症状的治疗效应及治疗×时间交互未达显著。（[图 2·临床症状](https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#zoi200627f2)）
+- 部分扩散指标存在治疗×时间交互。（[图 3·扩散参数](https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#zoi200627f3)）
+
+## 对实验设计有什么用
+
+影像指标变化与症状改善分开报告；失访较多。波长和带宽来自补充材料2，正文与补充材料需一起核对。
+
+## 接着读
+
+- [怎样区分光照与加热效应？](../../research/questions/heat-control.qmd)
+- [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

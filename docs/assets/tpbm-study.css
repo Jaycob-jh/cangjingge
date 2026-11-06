@@ -1,0 +1,7 @@
+.tp-study-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.85rem;margin:1.5rem 0}
+.tp-study-fields>div{padding:1rem;background:#f0f5f3;border:1px solid #d5e0dc;border-radius:8px;min-width:0}
+.tp-study-fields dt{color:#31585b;margin-bottom:.35rem;font-size:.9rem}
+.tp-study-fields dd{margin:0;line-height:1.7;overflow-wrap:anywhere}
+.tp-study-fields a{font-size:.85rem}
+main a{overflow-wrap:anywhere}
+@media(max-width:600px){.tp-study-fields{grid-template-columns:1fr}}

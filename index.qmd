@@ -25,6 +25,8 @@ Li 等 · *Brain Stimulation* · 2024
 还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。
 
 [更多光刺激专题阅读](research/tpbm.qmd)
+
+[研究对比台](research/tpbm-compare.qmd) · [从具体问题开始](research/tpbm-questions.qmd)
 :::
 :::::
 

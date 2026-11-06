@@ -1,0 +1,50 @@
+---
+title: "相同头皮照射，不同年龄的脑内剂量一样吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Yuan · 2020 · 计算模型**
+
+Transcranial photobiomodulation with near-infrared light from childhood to elderliness: simulation of dosimetry
+
+*Neurophotonics* · [DOI: 10.1117/1.NPh.7.1.015009](https://doi.org/10.1117/1.NPh.7.1.015009) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=yuan-2020) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>18个年龄组MRI平均模板，覆盖5–89岁<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec2.1" target="_blank" rel="noopener">方法 §2.1·年龄模板</a></dd></div>
+<div><dt>研究设计</dt><dd>蒙特卡洛光传播模拟；非人体刺激试验<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec2.1" target="_blank" rel="noopener">方法 §2.1·年龄模板</a></dd></div>
+<div><dt>波长</dt><dd>670 / 810 / 850 / 980 / 1064 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec2.5" target="_blank" rel="noopener">方法 §2.4–2.5·光源和模拟</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>稳态光传播模型；不比较脉冲生物效应<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec2.5" target="_blank" rel="noopener">方法 §2.4–2.5·光源和模拟</a></dd></div>
+<div><dt>照射位置</dt><dd>F3/F4 与 Fpz；对应dlPFC/vmPFC<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec2.5" target="_blank" rel="noopener">方法 §2.4–2.5·光源和模拟</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>30或300 mW/cm²用于疗程时间估算；属于输入设定<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec3.1" target="_blank" rel="noopener">结果 §3.1·剂量与时长估算</a></dd></div>
+<div><dt>光斑</dt><dd>Fpz 28.4 cm²；F3/F4各28.4 cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec3.1" target="_blank" rel="noopener">结果 §3.1·剂量与时长估算</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>估算到达目标剂量所需时长；非实测疗程<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec3.1" target="_blank" rel="noopener">结果 §3.1·剂量与时长估算</a></dd></div>
+<div><dt>剂量</dt><dd>以目标区第99百分位3 J/cm²为估算条件，不是临床推荐值<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec3.1" target="_blank" rel="noopener">结果 §3.1·剂量与时长估算</a></dd></div>
+<div><dt>对照怎么做</dt><dd>不同年龄、波长和光源位置模型<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec2.5" target="_blank" rel="noopener">方法 §2.4–2.5·光源和模拟</a></dd></div>
+<div><dt>观察指标</dt><dd>能量沉积及达到设定剂量的预计时长<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#f6" target="_blank" rel="noopener">图 6·波长和年龄</a></dd></div>
+<div><dt>测量时间</dt><dd>不适用：稳态计算<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#sec2.5" target="_blank" rel="noopener">方法 §2.4–2.5·光源和模拟</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 在文中光学参数下，810 nm的目标区沉积较高，并随年龄和照射位置变化。（[图 6·波长和年龄](https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#f6)）
+- 颅外组织厚度与能量沉积存在关系。（[图 8–9·剂量与组织厚度](https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#f8)）
+
+## 对实验设计有什么用
+
+组织光学参数假定不随年龄改变；模拟沉积高不等于认知或临床效果最好。
+
+## 接着读
+
+- [波长和脉冲怎么选？](../../research/questions/wavelength-pulse.qmd)
+- [相同头皮剂量，进入脑内的光一样多吗？](../../research/questions/penetration.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

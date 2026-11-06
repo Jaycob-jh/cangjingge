@@ -1,0 +1,50 @@
+---
+title: "脑震荡病例的量表、灌注与连接怎样一起读？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Chao · 2020 · 临床**
+
+Changes in Brain Function and Structure After Self-Administered Home Photobiomodulation Treatment in a Concussion Case
+
+*Frontiers in Neurology* · [DOI: 10.3389/fneur.2020.00952](https://doi.org/10.3389/fneur.2020.00952) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=chao-2020) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>1名23岁男性职业冰球运动员；多次脑震荡史<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2" target="_blank" rel="noopener">方法·单病例与设备</a></dd></div>
+<div><dt>研究设计</dt><dd>单病例治疗前后比较<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2" target="_blank" rel="noopener">方法·单病例与设备</a></dd></div>
+<div><dt>波长</dt><dd>810 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2" target="_blank" rel="noopener">方法·设备和疗程</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>10 / 40 Hz；50%占空比；疗程中调整频率<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2" target="_blank" rel="noopener">方法·设备和疗程</a></dd></div>
+<div><dt>照射位置</dt><dd>4个头部LED + 鼻内<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2" target="_blank" rel="noopener">方法·设备和疗程</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>前部75、后部100、鼻内25 mW/cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2" target="_blank" rel="noopener">方法·设备和疗程</a></dd></div>
+<div><dt>光斑</dt><dd>约1 cm² / LED<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2" target="_blank" rel="noopener">方法·设备和疗程</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>20分钟/次，隔日一次，共8周；按症状调整10/40 Hz<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2" target="_blank" rel="noopener">方法·设备和疗程</a></dd></div>
+<div><dt>剂量</dt><dd>前部45、后部60、鼻内15 J/cm² / 次<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2" target="_blank" rel="noopener">方法·设备和疗程</a></dd></div>
+<div><dt>对照怎么做</dt><dd>无同期对照<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2" target="_blank" rel="noopener">方法·设备和疗程</a></dd></div>
+<div><dt>观察指标</dt><dd>神经心理测验、ASL、静息态fMRI<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#T2" target="_blank" rel="noopener">表 2·神经心理测验</a></dd></div>
+<div><dt>测量时间</dt><dd>治疗前与8周后<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#s2" target="_blank" rel="noopener">方法·设备和疗程</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 多项神经心理测验分数前后改善。（[表 2·神经心理测验](https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#T2)）
+- ACC连接图的分布改变；该病例不适合推断总体疗效。（[图 2·ACC功能连接](https://pmc.ncbi.nlm.nih.gov/articles/PMC7509409/#F2)）
+
+## 对实验设计有什么用
+
+疗程中因轻度头痛换用10 Hz，随后又调整；频率、恢复时间和干预效应不能独立分离。
+
+## 接着读
+
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+- [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

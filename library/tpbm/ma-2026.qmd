@@ -1,0 +1,50 @@
+---
+title: "810/1064 nm与连续/40 Hz光对运动皮层的作用？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Ma · 2026 · 健康人**
+
+A specific transcranial near-infrared stimulation parameter combination targeting the motor cortex improves cortical excitability and hemodynamics
+
+*Journal of NeuroEngineering and Rehabilitation（已接收稿）* · [DOI: 10.1186/s12984-026-02122-3](https://doi.org/10.1186/s12984-026-02122-3) · [阅读全文](https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=ma-2026) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>22名健康参与者<br><a href="https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=9" target="_blank" rel="noopener">已接收稿PDF第9–10页·设计</a></dd></div>
+<div><dt>研究设计</dt><dd>随机单盲交叉，四种主动条件+假刺激；至少间隔3天<br><a href="https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=9" target="_blank" rel="noopener">已接收稿PDF第9–10页·设计</a></dd></div>
+<div><dt>波长</dt><dd>810 / 1064 nm<br><a href="https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11" target="_blank" rel="noopener">已接收稿PDF第11–12页·参数</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续光 / 40 Hz三角脉冲；占空比未明确报告<br><a href="https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11" target="_blank" rel="noopener">已接收稿PDF第11–12页·参数</a></dd></div>
+<div><dt>照射位置</dt><dd>左M1，右拇短展肌运动热点<br><a href="https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11" target="_blank" rel="noopener">已接收稿PDF第11–12页·参数</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>连续300；脉冲120 mW/cm²（原文报告值）<br><a href="https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11" target="_blank" rel="noopener">已接收稿PDF第11–12页·参数</a></dd></div>
+<div><dt>光斑</dt><dd>0.24 cm²<br><a href="https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11" target="_blank" rel="noopener">已接收稿PDF第11–12页·参数</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>20分钟<br><a href="https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11" target="_blank" rel="noopener">已接收稿PDF第11–12页·参数</a></dd></div>
+<div><dt>剂量</dt><dd>原文名义总能量：连续96 J、脉冲48 J；另报告实测上限≤90 / ≤40 J<br><a href="https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11" target="_blank" rel="noopener">已接收稿PDF第11–12页·参数</a></dd></div>
+<div><dt>对照怎么做</dt><dd>外观相同设备，不发近红外光<br><a href="https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11" target="_blank" rel="noopener">已接收稿PDF第11–12页·参数</a></dd></div>
+<div><dt>观察指标</dt><dd>MEP、对指动作、任务fNIRS<br><a href="https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=20" target="_blank" rel="noopener">PDF第20页·表1 / 图3</a></dd></div>
+<div><dt>测量时间</dt><dd>刺激后0/10/20/30分钟MEP；前后行为及fNIRS<br><a href="https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11" target="_blank" rel="noopener">已接收稿PDF第11–12页·参数</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 30分钟时1064 nm/40 Hz的MEP变化高于两种连续光；未显示优于810 nm/40 Hz。（[PDF第20页·表1 / 图3](https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=20)）
+- 1064 nm/40 Hz右手动作增量高于假刺激；左手任务血氧为刺激前后比较。（[PDF第22–23页·图5–6](https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=22)）
+
+## 对实验设计有什么用
+
+连续与脉冲条件的辐照度及能量不同，不能把差异仅归因于40 Hz。该版本为已接收稿，保留名义值与实测上限，不替作者统一。
+
+## 接着读
+
+- [波长和脉冲怎么选？](../../research/questions/wavelength-pulse.qmd)
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

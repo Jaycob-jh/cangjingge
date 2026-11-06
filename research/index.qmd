@@ -19,3 +19,7 @@ page-layout: full
 - [脑电与认知](eeg-cognition.qmd) · 怎样用脑电研究注意和运动想象？
 
 [按主题查找更多文献](../library/index.qmd)
+
+## 比较经颅光刺激研究
+
+[研究对比台](tpbm-compare.qmd) · [波长、热效应、脑活动与疗程：按问题读](tpbm-questions.qmd)

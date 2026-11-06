@@ -4,12 +4,16 @@ project:
   resources:
     - "assets/catalog.js"
     - "assets/catalog.json"
+    - "assets/tpbm-compare.js"
+    - "assets/tpbm-studies.json"
   render:
     - "index.qmd"
     - "people/*.qmd"
     - "research/*.qmd"
     - "library/*.qmd"
     - "library/papers/*.qmd"
+    - "library/tpbm/*.qmd"
+    - "research/questions/*.qmd"
     - "notes/*.qmd"
     - "notes/posts/*.qmd"
     - "notes/issues/*.qmd"

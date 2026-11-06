@@ -1,0 +1,43 @@
+---
+title: "怎样区分光照与加热效应？"
+toc: true
+---
+
+需要把光照和匹配的加热条件直接比较，并同时记录温度和脑信号。现有研究发现二者的部分反应不同；结论的范围取决于加热是否匹配、测在哪里，以及测量能分辨多小的变化。
+
+[对比本页研究](../tpbm-compare.html?question=heat-control) · [全部问题](../tpbm-questions.qmd)
+
+## 把研究放在一起看
+
+### Wang · 2017：光照与皮肤加热的血氧反应并不相同
+
+11 人接受单独的前额加热，并与同一批人此前的激光实验比较。光照与加热引起的氧合血红蛋白、氧化型细胞色素 c 氧化酶变化不同。这个结果支持进一步分离热与光的作用，但两种处理不在同一次随机交叉实验里。
+
+[研究参数与结果](../../library/tpbm/wang-2017-heat.qmd) · [图 6·光与热的直接比较](https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/#f6) · [方法 §2.1·光参数](https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/#sec2.1)
+
+### Wang · 2021：脑电的空间分布也值得比较
+
+激光和加热各自与假刺激交叉比较，来自两个不同样本。两者的 alpha、beta 变化分布不同；设计下一步实验时，可以保留这个空间指标，同时在同一批人中比较。
+
+[研究参数与结果](../../library/tpbm/wang-2021-eeg-heat.qmd) · [图 5·光与热拓扑差异](https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Fig5) · [方法·样本与排除](https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec3)
+
+### Dmochowski · 2020：温度与功能连接来自独立实验
+
+研究报告照射时 fMRI 功能连接改变；另一个样本进行了 MR 测温，未检出显著温度差异。温度实验有假刺激，而功能连接实验没有，不能把两部分合成“已排除热效应的连接改变”。
+
+[研究参数与结果](../../library/tpbm/dmochowski-2020.qmd) · [图 4·全脑功能连接](https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#f4) · [方法·独立测温实验](https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec6)
+
+## 做实验时看什么
+
+- 记录温度随时间的变化、测点与测量精度，不只报刺激前后各一个温度。
+- 假刺激的光照时长、皮肤感觉、风扇和声音都需要写清。早期部分假刺激仍含短时光照。
+- 把直接热对照、假刺激和无对照研究分开阅读。
+
+## 相关研究
+
+- [Wang · 2017：把皮肤加热，能复现光刺激的代谢与血氧反应吗？](../../library/tpbm/wang-2017-heat.qmd)
+- [Wang · 2021：光刺激和皮肤加热的脑电分布一样吗？](../../library/tpbm/wang-2021-eeg-heat.qmd)
+- [Dmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？](../../library/tpbm/dmochowski-2020.qmd)
+- [Barrett · 2013：早期人体研究怎样测注意和记忆？](../../library/tpbm/barrett-2013.qmd)
+
+[修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

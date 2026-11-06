@@ -1,0 +1,47 @@
+---
+title: "脑电、血氧和功能连接为什么会给出不同结果？"
+toc: true
+---
+
+这些指标测量的对象和时间尺度不同。脑电功率增加、血氧连接增强和脑网络效率变化，可以同时出现，也可能方向不同。比较时先对齐信号、频段、分析方法和测量时段。
+
+[对比本页研究](../tpbm-compare.html?question=brain-signals) · [全部问题](../tpbm-questions.qmd)
+
+## 把研究放在一起看
+
+### Wang · 2022：同一次照射，血氧与代谢信号的连接方向不同
+
+研究同时记录 HbO 与氧化型细胞色素 c 氧化酶。部分低频范围内，HbO 相干性下降，而代谢信号的相干性上升。把二者统称“脑连接增强”会丢掉关键结果。
+
+[研究参数与结果](../../library/tpbm/wang-2022-metabolism.qmd) · [图 4·相干性变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC8778041/#metabolites-12-00042-f004) · [方法 §4.3·照射](https://pmc.ncbi.nlm.nih.gov/articles/PMC8778041/#sec4dot3-metabolites-12-00042)
+
+### Truong · 2022：fNIRS 连接变化依赖频段与时间
+
+研究用多通道 fNIRS 分析低频血流动力学振荡。肌源性频段的部分网络指标在刺激期间改变，刺激后没有持续出现相同变化。这里的“频段”不是 EEG 的 alpha 或 beta 频段。
+
+[研究参数与结果](../../library/tpbm/truong-2022.qmd) · [图 6·分频段连接](https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F6) · [图 8·网络效率](https://pmc.ncbi.nlm.nih.gov/articles/PMC9226485/#F8)
+
+### Shahdadian · 2022：功率上升不等于同步和网络效率上升
+
+脑电虚部相干性分析显示，beta 频段的同步及部分图论指标下降。它与另一些报告脑电功率增加的研究测量不同，不能只按“增加 / 减少”判断是否矛盾。
+
+[研究参数与结果](../../library/tpbm/shahdadian-2022.qmd) · [图 4·EEG功率](https://pmc.ncbi.nlm.nih.gov/articles/PMC9795815/#jneac9edef4) · [图 5·全局网络指标](https://pmc.ncbi.nlm.nih.gov/articles/PMC9795815/#jneac9edef5)
+
+## 做实验时看什么
+
+- 每个结果写明：测什么信号、什么频段、哪个脑区、刺激中还是刺激后。
+- 连接分析同时报告节点定义、连接估计方式和阈值处理。
+- 同一招募样本的多篇分析不自动视作独立重复验证。
+
+## 相关研究
+
+- [Tian · 2016：照射额中与右额，双侧血氧怎样变化？](../../library/tpbm/tian-2016.qmd)
+- [Pruitt · 2020：年轻人与老年人的血氧和氧化代谢反应一样吗？](../../library/tpbm/pruitt-2020.qmd)
+- [Wang · 2021：光刺激和皮肤加热的脑电分布一样吗？](../../library/tpbm/wang-2021-eeg-heat.qmd)
+- [Wang · 2022：血氧同步与氧化代谢同步会同向改变吗？](../../library/tpbm/wang-2022-metabolism.qmd)
+- [Truong · 2022：连续光会改变哪些慢频段的血氧网络？](../../library/tpbm/truong-2022.qmd)
+- [Shahdadian · 2022：脑电功率增加时，网络效率也一定增加吗？](../../library/tpbm/shahdadian-2022.qmd)
+- [Dmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？](../../library/tpbm/dmochowski-2020.qmd)
+- [Ma · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？](../../library/tpbm/ma-2026.qmd)
+
+[修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

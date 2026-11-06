@@ -1,0 +1,48 @@
+---
+title: "年轻人与老年人的血氧和氧化代谢反应一样吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Pruitt · 2020 · 健康人**
+
+Transcranial Photobiomodulation (tPBM) With 1,064‐nm Laser to Improve Cerebral Metabolism of the Human Brain In Vivo
+
+*Lasers in Surgery and Medicine* · [DOI: 10.1002/lsm.23232](https://doi.org/10.1002/lsm.23232) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=pruitt-2020) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>本研究20人：年轻15、老年5；另比较既往11名年轻人<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-sec-0070" target="_blank" rel="noopener">方法·受试者</a></dd></div>
+<div><dt>研究设计</dt><dd>随机顺序主动/假刺激交叉；另做历史样本复现<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-sec-0070" target="_blank" rel="noopener">方法·受试者</a></dd></div>
+<div><dt>波长</dt><dd>1064 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-sec-0090" target="_blank" rel="noopener">方法·1064 nm 参数</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续光；每分钟暂停5秒测 bbNIRS<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-sec-0090" target="_blank" rel="noopener">方法·1064 nm 参数</a></dd></div>
+<div><dt>照射位置</dt><dd>右额<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-sec-0090" target="_blank" rel="noopener">方法·1064 nm 参数</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>250 mW/cm²；头皮入射<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-sec-0090" target="_blank" rel="noopener">方法·1064 nm 参数</a></dd></div>
+<div><dt>光斑</dt><dd>13.6 cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-sec-0090" target="_blank" rel="noopener">方法·1064 nm 参数</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>8分钟周期内间歇出光<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-fig-0001" target="_blank" rel="noopener">图 1·交替采集流程</a></dd></div>
+<div><dt>剂量</dt><dd>本文未单列累计面剂量<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-sec-0090" target="_blank" rel="noopener">方法·1064 nm 参数</a></dd></div>
+<div><dt>对照怎么做</dt><dd>0.1 W档位 + 黑帽遮光<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-sec-0090" target="_blank" rel="noopener">方法·1064 nm 参数</a></dd></div>
+<div><dt>观察指标</dt><dd>HbO 与氧化态 CCO<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-fig-0003" target="_blank" rel="noopener">图 3–4·年龄组比较</a></dd></div>
+<div><dt>测量时间</dt><dd>2分钟基线、8分钟刺激、5分钟恢复<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-fig-0001" target="_blank" rel="noopener">图 1·交替采集流程</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 图3显示两年龄组原始反应差异，图4扣除假刺激后未检出年龄组差异。（[图 3–4·年龄组比较](https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-fig-0003)）
+
+## 对实验设计有什么用
+
+老年组仅5人；未检出差异不能据此认定年龄不影响反应。历史11人并非新增独立样本。
+
+## 接着读
+
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

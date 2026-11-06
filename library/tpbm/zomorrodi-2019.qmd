@@ -1,0 +1,50 @@
+---
+title: "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Zomorrodi · 2019 · 健康人**
+
+Pulsed Near Infrared Transcranial and Intranasal Photobiomodulation Significantly Modulates Neural Oscillations: a pilot exploratory study
+
+*Scientific Reports* · [DOI: 10.1038/s41598-019-42693-x](https://doi.org/10.1038/s41598-019-42693-x) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=zomorrodi-2019) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>20名健康老年人，61–74岁<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Fig1" target="_blank" rel="noopener">图 1·随机交叉设计</a></dd></div>
+<div><dt>研究设计</dt><dd>双盲随机交叉；访视间隔至少1周<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Fig1" target="_blank" rel="noopener">图 1·随机交叉设计</a></dd></div>
+<div><dt>波长</dt><dd>810 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Sec6" target="_blank" rel="noopener">方法·设备</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>40 Hz；50%占空比<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Sec6" target="_blank" rel="noopener">方法·设备</a></dd></div>
+<div><dt>照射位置</dt><dd>4个头部LED + 1个鼻内LED<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Sec6" target="_blank" rel="noopener">方法·设备</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>正文：前部75、后部100、鼻内25 mW/cm²；与表2列项存在不一致<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Sec6" target="_blank" rel="noopener">方法·设备</a></dd></div>
+<div><dt>光斑</dt><dd>约1 cm² / LED<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Tab2" target="_blank" rel="noopener">表 2·设备参数</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>20分钟<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Sec6" target="_blank" rel="noopener">方法·设备</a></dd></div>
+<div><dt>剂量</dt><dd>原文合计240 J；不作为单个照射点的剂量<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Tab2" target="_blank" rel="noopener">表 2·设备参数</a></dd></div>
+<div><dt>对照怎么做</dt><dd>同设备假刺激；主动与假刺激交叉<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Sec6" target="_blank" rel="noopener">方法·设备</a></dd></div>
+<div><dt>观察指标</dt><dd>静息 EEG 功率与图论指标<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Fig4" target="_blank" rel="noopener">图 4·频段功率</a></dd></div>
+<div><dt>测量时间</dt><dd>刺激前后各10分钟闭眼静息 EEG<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Sec6" target="_blank" rel="noopener">方法·设备</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 相对假刺激，delta/theta功率变化较低，alpha/beta/gamma较高。（[图 4·频段功率](https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Fig4)）
+- 网络指标的显著差异随频段及稀疏度阈值变化。（[图 5–8·网络指标](https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Fig5)）
+
+## 对实验设计有什么用
+
+组合了经颅与鼻内照射；没有同剂量连续光组，不能单独归因于40 Hz。参数正文和表2不一致，保留原文差异。
+
+## 接着读
+
+- [波长和脉冲怎么选？](../../research/questions/wavelength-pulse.qmd)
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

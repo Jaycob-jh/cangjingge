@@ -1,0 +1,49 @@
+---
+title: "光刺激和皮肤加热的脑电分布一样吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Wang · 2021 · 健康人**
+
+Transcranial photobiomodulation and thermal stimulation induce distinct topographies of EEG alpha and beta power changes in healthy humans
+
+*Scientific Reports* · [DOI: 10.1038/s41598-021-97987-w](https://doi.org/10.1038/s41598-021-97987-w) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=wang-2021-eeg-heat) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>光组分析46人；热组分析11人（分别招募49和14人）<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec3" target="_blank" rel="noopener">方法·样本与排除</a></dd></div>
+<div><dt>研究设计</dt><dd>各组内随机单盲主动/假刺激交叉；光热为不同人群<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec3" target="_blank" rel="noopener">方法·样本与排除</a></dd></div>
+<div><dt>波长</dt><dd>1064 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec4" target="_blank" rel="noopener">方法与图 1·参数和热对照</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续光<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec4" target="_blank" rel="noopener">方法与图 1·参数和热对照</a></dd></div>
+<div><dt>照射位置</dt><dd>右额 Fp2/AF8附近<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec4" target="_blank" rel="noopener">方法与图 1·参数和热对照</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>约250 mW/cm²；头皮入射<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec4" target="_blank" rel="noopener">方法与图 1·参数和热对照</a></dd></div>
+<div><dt>光斑</dt><dd>直径4.2 cm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec4" target="_blank" rel="noopener">方法与图 1·参数和热对照</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>8分钟<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec4" target="_blank" rel="noopener">方法与图 1·参数和热对照</a></dd></div>
+<div><dt>剂量</dt><dd>总能量1680 J（3.5 W × 480秒）<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec4" target="_blank" rel="noopener">方法与图 1·参数和热对照</a></dd></div>
+<div><dt>对照怎么做</dt><dd>遮光假刺激；热刺激33→41°C，热假刺激33°C<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec4" target="_blank" rel="noopener">方法与图 1·参数和热对照</a></dd></div>
+<div><dt>观察指标</dt><dd>64通道闭眼 EEG 功率<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Fig5" target="_blank" rel="noopener">图 5·光与热拓扑差异</a></dd></div>
+<div><dt>测量时间</dt><dd>2分钟基线；刺激8分钟；恢复分析2分钟<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec4" target="_blank" rel="noopener">方法与图 1·参数和热对照</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 扣除各自假刺激后，光与热引起的alpha/beta功率空间分布存在差异。（[图 5·光与热拓扑差异](https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Fig5)）
+
+## 对实验设计有什么用
+
+热效应比较为两组人之间的比较。结果支持在脑电实验里设置热对照，不给出通用安全剂量。
+
+## 接着读
+
+- [怎样区分光照与加热效应？](../../research/questions/heat-control.qmd)
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

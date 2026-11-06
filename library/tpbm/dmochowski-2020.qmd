@@ -1,0 +1,50 @@
+---
+title: "照射时功能连接增加，MRI能测到升温吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Dmochowski · 2020 · 健康人**
+
+Near-Infrared Light Increases Functional Connectivity with a Non-thermal Mechanism
+
+*Cerebral Cortex Communications* · [DOI: 10.1093/texcom/tgaa004](https://doi.org/10.1093/texcom/tgaa004) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/)
+
+阅读范围：全文方法、结果与图表。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=dmochowski-2020) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>BOLD组20人；另20人测温（2人因伪影剔除）<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec5" target="_blank" rel="noopener">方法·BOLD实验</a></dd></div>
+<div><dt>研究设计</dt><dd>BOLD前中后测；独立测温组随机顺序主动/假刺激交叉<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec5" target="_blank" rel="noopener">方法·BOLD实验</a></dd></div>
+<div><dt>波长</dt><dd>808 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec7" target="_blank" rel="noopener">方法·tPBM参数</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>激光持续照射<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec7" target="_blank" rel="noopener">方法·tPBM参数</a></dd></div>
+<div><dt>照射位置</dt><dd>右额 Fp2<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec7" target="_blank" rel="noopener">方法·tPBM参数</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>318 mW/cm²；头皮入射<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec7" target="_blank" rel="noopener">方法·tPBM参数</a></dd></div>
+<div><dt>光斑</dt><dd>直径1 cm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec7" target="_blank" rel="noopener">方法·tPBM参数</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>10分钟<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec7" target="_blank" rel="noopener">方法·tPBM参数</a></dd></div>
+<div><dt>剂量</dt><dd>总入射能量150 J<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec7" target="_blank" rel="noopener">方法·tPBM参数</a></dd></div>
+<div><dt>对照怎么做</dt><dd>BOLD无同期假刺激；测温实验有关闭激光对照<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec6" target="_blank" rel="noopener">方法·独立测温实验</a></dd></div>
+<div><dt>观察指标</dt><dd>多回波BOLD功能连接；另组MR测温<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#f4" target="_blank" rel="noopener">图 4·全脑功能连接</a></dd></div>
+<div><dt>测量时间</dt><dd>30分钟BOLD扫描中间10分钟照射<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec7" target="_blank" rel="noopener">方法·tPBM参数</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 照射中广泛功能连接增加，照射后显著连接数量减少。（[图 4·全脑功能连接](https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#f4)）
+- 该测温实验未检出主动与假刺激的显著脑温差。（[图 7·MR测温](https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#f7)）
+
+## 对实验设计有什么用
+
+连接与温度来自不同队列；未检出脑温差取决于测温灵敏度，BOLD前后比较也可能含时间效应。
+
+## 接着读
+
+- [怎样区分光照与加热效应？](../../research/questions/heat-control.qmd)
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

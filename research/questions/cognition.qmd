@@ -1,0 +1,43 @@
+---
+title: "注意与记忆改善，应该看哪些指标？"
+toc: true
+---
+
+先看研究预设的任务指标，再看真刺激相对对照的变化。反应更快、答对更多和能记住更多项目是不同结果；只有真刺激组前后显著，还不足以说明它优于对照。
+
+[对比本页研究](../tpbm-compare.html?question=cognition) · [全部问题](../tpbm-questions.qmd)
+
+## 把研究放在一起看
+
+### Barrett · 2013：早期研究同时测注意和延迟匹配任务
+
+40 人随机分组。注意反应速度和延迟匹配任务出现部分改善，但延迟匹配准确率的组间变化还涉及对照组下降，反应时分析也有剔除异常值的处理。读图时要把两组轨迹都看完。
+
+[研究参数与结果](../../library/tpbm/barrett-2013.qmd) · [PDF第6页·图3–4](https://gwern.net/doc/nootropic/2013-barrett.pdf#page=6)
+
+### Holmes · 2019：不同任务不一定一起改善
+
+右前额刺激后的延迟匹配任务表现改善，警觉任务没有检出相同效果。该研究使用此前的假刺激数据，行为和血氧对照人数也不同。
+
+[研究参数与结果](../../library/tpbm/holmes-2019.qmd) · [表 1·任务结果](https://pmc.ncbi.nlm.nih.gov/articles/PMC6813459/#T1) · [方法·样本与对照来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC6813459/#S2.SS1)
+
+### Zhao · 2022：把行为变化与对应脑电指标联系起来
+
+研究用变化检测任务估计工作记忆容量，并记录对侧延迟活动。右额 1064 nm 条件下两者均出现变化，提供了行为与脑电的联合观察，但脑电相关不等于已经证明完整作用机制。
+
+[研究参数与结果](../../library/tpbm/zhao-2022.qmd) · [图 1–2·记忆与CDA](https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#F1) · [图 4–5·波长和位置对照](https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#F4)
+
+## 做实验时看什么
+
+- 预先选定一个主要行为指标，避免看完结果再挑任务。
+- 报告两组或各条件的基线、变化和差值，不只列各组的 p 值。
+- 重复任务需考虑练习、疲劳和测量顺序；交叉设计还要关注残留效应。
+
+## 相关研究
+
+- [Barrett · 2013：早期人体研究怎样测注意和记忆？](../../library/tpbm/barrett-2013.qmd)
+- [Holmes · 2019：认知任务表现与前额血氧是否一起改变？](../../library/tpbm/holmes-2019.qmd)
+- [Zhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？](../../library/tpbm/zhao-2022.qmd)
+- [Qu · 2022：连续七天刺激的记忆改善能保持多久？](../../library/tpbm/qu-2022.qmd)
+
+[修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)
