@@ -79,9 +79,12 @@
     if (params.get("subtopic")) get("subtopic").value = params.get("subtopic");
     let page = 1;
     const pageSize = 20;
+    const viewTitle = document.querySelector("#catalog-view-title > h2");
     const fold = s => s.normalize("NFKC").toLocaleLowerCase();
     const searchable = new Map(catalog.records.map(r => [r.id, fold([r.title, ...r.authors, r.doi || "", r.journal, r.year || ""].join(" "))]));
     const render = () => {
+      const selectedTopic = get("subtopic").value || get("topic").value;
+      if (viewTitle) viewTitle.textContent = selectedTopic ? topicName(selectedTopic) + "文献" : "完整文献目录";
       const terms = fold(get("query").value.trim()).split(/\s+/).filter(Boolean);
       let rows = catalog.records.filter(r =>
         terms.every(t => searchable.get(r.id).includes(t)) &&

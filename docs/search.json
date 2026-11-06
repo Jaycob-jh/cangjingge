@@ -935,21 +935,21 @@
     "href": "library/index.html",
     "title": "典籍目录",
     "section": "",
-    "text": "按研究问题读论文 · 查看全部光刺激论文 · 查升温与安全研究"
+    "text": "按研究问题读论文 · 筛选经颅光刺激文献 · 筛选光刺激热安全文献"
   },
   {
-    "objectID": "library/index.html#经颅光刺激",
-    "href": "library/index.html#经颅光刺激",
+    "objectID": "library/index.html#经颅光刺激专题入口",
+    "href": "library/index.html#经颅光刺激专题入口",
     "title": "典籍目录",
     "section": "",
-    "text": "按研究问题读论文 · 查看全部光刺激论文 · 查升温与安全研究"
+    "text": "按研究问题读论文 · 筛选经颅光刺激文献 · 筛选光刺激热安全文献"
   },
   {
-    "objectID": "library/index.html#完整文献目录",
-    "href": "library/index.html#完整文献目录",
+    "objectID": "library/index.html#catalog-view-title",
+    "href": "library/index.html#catalog-view-title",
     "title": "典籍目录",
     "section": "完整文献目录",
-    "text": "完整文献目录\n按研究方向和细分主题浏览，或用题名、作者、期刊、年份与 DOI 查找文献。\n\n\n检索文献\n研究方向全部方向\n细分主题全部细分主题\n阅读进度全部进度已编目摘要已读全文已读精读已整理方法参考\n排序方式年份降序题名字母顺序\n\n正在载入文献目录……\n\n上一页下一页\n完整目录需要 JavaScript；下方可直接浏览已整理卡片。"
+    "text": "完整文献目录\n这里默认列出所有方向的文献。选择研究方向或细分主题可缩小范围，也可以按题名、作者、期刊、年份与 DOI 检索。\n\n\n检索文献\n研究方向全部方向\n细分主题全部细分主题\n阅读进度全部进度已编目摘要已读全文已读精读已整理方法参考\n排序方式年份降序题名字母顺序\n\n正在载入文献目录……\n\n上一页下一页\n完整目录需要 JavaScript；下方可直接浏览已整理卡片。"
   },
   {
     "objectID": "library/index.html#已整理卡片",
@@ -1705,7 +1705,7 @@
     "href": "library/record.html#paper-5bd46f3d725e81ea",
     "title": "40 Hz biparietal transcranial alternating current stimulation for Alzheimer's disease: a prospective study",
     "section": "",
-    "text": "X. Ma · M. Yuan · Y. Gao · Z. Guo · J. Liang · F. Yan · S. Wang · H. Qiu · S. He · Y. Li · Y. Wang · BMC Med · 2026 · 10.1186/s12916-026-04983-w · 脑网络与连接组学 · 脑网络分析方法 · 脑网络与连接组学专题 · 默认模式网络（DMN） · 神经调控与脑刺激 · 经颅磁刺激（TMS/TBS） · 经颅电刺激（tDCS/tACS） · 参数、剂量、安全与机制 · 神经调控与脑网络/成像 · 临床疗效与康复 · 脑电、脑振荡与源定位 · EEG/MEG 数据与预处理 · 神经振荡与频谱 · 认知、记忆与执行功能 · 记忆、学习与海马 · 执行功能、注意与认知控制 · 情绪、奖赏与社会认知 · 语言、语义与阅读 · 认知的网络与脑刺激机制 · 临床神经精神疾病与康复 · 阿尔茨海默病、帕金森病与认知障碍 · 脑影像、计算与方法 · MRI采集、预处理与质量控制"
+    "text": "X. Ma · M. Yuan · Y. Gao · Z. Guo · J. Liang · F. Yan · S. Wang · H. Qiu · S. He · Y. Li · Y. Wang · BMC Med · 2026 · 10.1186/s12916-026-04983-w · 脑网络与连接组学 · 脑网络分析方法 · 脑网络与连接组学专题 · 默认模式网络（DMN） · 神经调控与脑刺激 · 经颅电刺激（tDCS/tACS） · 参数、剂量、安全与机制 · 神经调控与脑网络/成像 · 临床疗效与康复 · 脑电、脑振荡与源定位 · EEG/MEG 数据与预处理 · 神经振荡与频谱 · 认知、记忆与执行功能 · 记忆、学习与海马 · 执行功能、注意与认知控制 · 情绪、奖赏与社会认知 · 语言、语义与阅读 · 认知的网络与脑刺激机制 · 临床神经精神疾病与康复 · 阿尔茨海默病、帕金森病与认知障碍 · 脑影像、计算与方法 · MRI采集、预处理与质量控制"
   },
   {
     "objectID": "catalog:paper-b351821b00883ce6",
@@ -2937,7 +2937,7 @@
     "href": "library/record.html#paper-93d4348504dfce0c",
     "title": "Instantaneous effects of prefrontal transcranial magnetic stimulation on brain oxygenation: A systematic review",
     "section": "",
-    "text": "A. W. L. Xia · M. Jin · P. P. I. Qin · R. L. D. Kan · B. B. B. Zhang · C. G. Giron · T. T. Z. Lin · A. S. M. Li · G. S. Kranz · Neuroimage · 2024 · 10.1016/j.neuroimage.2024.120618 · 脑网络与连接组学 · 个体化脑网络与脑图谱 · 默认模式网络（DMN） · 神经调控与脑刺激 · 调控靶点、闭环与个体化 · 经颅磁刺激（TMS/TBS） · 经颅光生物调节（tPBM） · 参数、剂量、安全与机制 · 神经调控与脑网络/成像 · 临床疗效与康复 · 认知、记忆与执行功能 · 认知的网络与脑刺激机制"
+    "text": "A. W. L. Xia · M. Jin · P. P. I. Qin · R. L. D. Kan · B. B. B. Zhang · C. G. Giron · T. T. Z. Lin · A. S. M. Li · G. S. Kranz · Neuroimage · 2024 · 10.1016/j.neuroimage.2024.120618 · 脑网络与连接组学 · 个体化脑网络与脑图谱 · 默认模式网络（DMN） · 神经调控与脑刺激 · 调控靶点、闭环与个体化 · 经颅磁刺激（TMS/TBS） · 参数、剂量、安全与机制 · 神经调控与脑网络/成像 · 临床疗效与康复 · 认知、记忆与执行功能 · 认知的网络与脑刺激机制"
   },
   {
     "objectID": "catalog:paper-30b7853fac01b3a7",
@@ -3182,7 +3182,7 @@
     "href": "library/record.html#paper-73faeffe50c18888",
     "title": "The effect of tDCS on inhibitory control and its transfer effect on sustained attention in children with autism spectrum disorder: An fNIRS study",
     "section": "",
-    "text": "L. Chen · B. Du · K. Li · K. Li · T. Hou · F. Jia · L. Li · Brain Stimul · 2024 · 10.1016/j.brs.2024.04.019 · 脑网络与连接组学 · 网络控制与认知控制机制 · 神经调控与脑刺激 · 经颅电刺激（tDCS/tACS） · 经颅光生物调节（tPBM） · 临床疗效与康复 · 认知、记忆与执行功能 · 执行功能、注意与认知控制 · 临床神经精神疾病与康复 · 精神分裂症、孤独症与 ADHD · 生命历程、脑状态与转化研究 · 儿童、青少年与脑发育 · 动物模型与跨物种转化"
+    "text": "L. Chen · B. Du · K. Li · K. Li · T. Hou · F. Jia · L. Li · Brain Stimul · 2024 · 10.1016/j.brs.2024.04.019 · 脑网络与连接组学 · 网络控制与认知控制机制 · 神经调控与脑刺激 · 经颅电刺激（tDCS/tACS） · 临床疗效与康复 · 认知、记忆与执行功能 · 执行功能、注意与认知控制 · 临床神经精神疾病与康复 · 精神分裂症、孤独症与 ADHD · 生命历程、脑状态与转化研究 · 儿童、青少年与脑发育 · 动物模型与跨物种转化"
   },
   {
     "objectID": "catalog:paper-c59aa6853504d23a",

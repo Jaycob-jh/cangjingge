@@ -21,14 +21,14 @@ listing:
 ---
 
 ::: {.zk-feature-topic}
-## 经颅光刺激
+## 经颅光刺激专题入口
 
-[按研究问题读论文](../research/tpbm.qmd) · [查看全部光刺激论文](index.html?topic=02&subtopic=02.04) · [查升温与安全研究](index.html?topic=02&subtopic=02.09)
+[按研究问题读论文](../research/tpbm-questions.qmd) · [筛选经颅光刺激文献](index.html?topic=02&subtopic=02.04) · [筛选光刺激热安全文献](index.html?topic=02&subtopic=02.09)
 :::
 
-## 完整文献目录
+## 完整文献目录 {#catalog-view-title}
 
-按研究方向和细分主题浏览，或用题名、作者、期刊、年份与 DOI 查找文献。
+这里默认列出所有方向的文献。选择研究方向或细分主题可缩小范围，也可以按题名、作者、期刊、年份与 DOI 检索。
 
 ```{=html}
 <div id="catalog-browser">
