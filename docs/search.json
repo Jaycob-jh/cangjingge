@@ -21,67 +21,95 @@
     "text": "分享札记或指出错误\n札记可以从一个结果或一张图开始。写清是哪篇论文，标出原文页码、图号或表号。发现错误时，请附上页面链接和建议改法。\n在 GitHub 提交建议 · 查看仓库和投稿模板"
   },
   {
-    "objectID": "notes/posts/reading-guide.html",
-    "href": "notes/posts/reading-guide.html",
-    "title": "文献精读与证据记录规范",
+    "objectID": "notes/issues/2026-11-06-stimulation-measures.html",
+    "href": "notes/issues/2026-11-06-stimulation-measures.html",
+    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
     "section": "",
-    "text": "这份规范用于记录研究问题、方法、关键证据和局限，统一文献精读的结构。"
+    "text": "全部荐读 · 按问题浏览\n同样是“刺激后有变化”，反应更快、局部血流改变、脑区之间的连接波动，分别回答不同的问题。这一期从行为读到生理指标，再用一项磁刺激研究看 fMRI 网络指标该怎么选。"
   },
   {
-    "objectID": "notes/posts/reading-guide.html#确认文献来源",
-    "href": "notes/posts/reading-guide.html#确认文献来源",
-    "title": "文献精读与证据记录规范",
-    "section": "1. 确认文献来源",
-    "text": "1. 确认文献来源\n优先记录 DOI、arXiv ID、正式发表链接及版本信息，避免只保留一个文件名。"
+    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#经典反应更快记忆也更准吗",
+    "href": "notes/issues/2026-11-06-stimulation-measures.html#经典反应更快记忆也更准吗",
+    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
+    "section": "经典｜反应更快，记忆也更准吗？",
+    "text": "经典｜反应更快，记忆也更准吗？\nBarrett 与 Gonzalez-Lima，2013 · 40 名健康志愿者 · 全文阅读\n额部 1064 nm 刺激前后，作者用持续注意和记忆任务测行为。图 3 的纵轴是反应时间，数值越低越快：刺激组的前后变化与对照组不同。图 4 要把速度和正确次数分开看：提取速度有组别与时间的交互，正确次数的组间变化差异则主要来自对照组下降。可以说刺激后部分行为指标变了，不能据此定位哪个脑区或网络变了。全文与图表"
   },
   {
-    "objectID": "notes/posts/reading-guide.html#提炼三个问题",
-    "href": "notes/posts/reading-guide.html#提炼三个问题",
-    "title": "文献精读与证据记录规范",
-    "section": "2. 提炼三个问题",
-    "text": "2. 提炼三个问题\n\n论文解决了什么具体问题？\n使用了哪些关键方法、数据和假设？\n哪些主要结论有清晰的证据支持？"
+    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#代表研究同一批人电生理动作和血氧给出同一个答案吗",
+    "href": "notes/issues/2026-11-06-stimulation-measures.html#代表研究同一批人电生理动作和血氧给出同一个答案吗",
+    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
+    "section": "代表研究｜同一批人，电生理、动作和血氧给出同一个答案吗？",
+    "text": "代表研究｜同一批人，电生理、动作和血氧给出同一个答案吗？\nMa 等，2026 · 22 名健康参与者 · 已接收稿全文阅读\n同一批人分别接受四种光刺激和假刺激。图 3 横轴是刺激后的时间，纵轴是相对基线的运动诱发电位（MEP）变化；30 分钟时，1064 nm、40 Hz 脉冲条件高于两种连续光条件。图 5 的右手动作次数增加是与假刺激相比，图 6 的血氧变化则出现在左手任务中，是同一条件刺激前后的比较。这三项结果各有自己的对照和时间点，不能拼成“血氧下降使动作变快”。期刊与已接收稿"
   },
   {
-    "objectID": "notes/posts/reading-guide.html#保存可追溯的证据",
-    "href": "notes/posts/reading-guide.html#保存可追溯的证据",
-    "title": "文献精读与证据记录规范",
-    "section": "3. 保存可追溯的证据",
-    "text": "3. 保存可追溯的证据\n对于重要事实，写明论文页码、图表编号或章节位置。将研究者自己的推断与论文作者的结论分开。"
+    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#最新进展第一次刺激后的灌注变化六周后还一样吗",
+    "href": "notes/issues/2026-11-06-stimulation-measures.html#最新进展第一次刺激后的灌注变化六周后还一样吗",
+    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
+    "section": "最新进展｜第一次刺激后的灌注变化，六周后还一样吗？",
+    "text": "最新进展｜第一次刺激后的灌注变化，六周后还一样吗？\nNawrocik-Madrid 等，2026 · 29 名处于缓解期的双相障碍参与者 · 摘要阅读 · 10 月 23 日在线\n研究用动脉自旋标记（ASL）MRI 测区域脑血流，在基线、首次及第六次刺激后采集。摘要报告，左侧额上回和眶额皮层灌注首次刺激后升高，到第六次后相对首次降低。这个比较没有说明第六次后是否低于基线。若研究单次效应和多次疗程，两个时间点应当都测。PubMed 摘要"
   },
   {
-    "objectID": "notes/posts/reading-guide.html#记录局限和争议",
-    "href": "notes/posts/reading-guide.html#记录局限和争议",
-    "title": "文献精读与证据记录规范",
-    "section": "4. 记录局限和争议",
-    "text": "4. 记录局限和争议\n说明样本大小、研究场景、方法假设与潜在偏差；必要时关联持相反观点的论文。"
+    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#fmri-脑网络平均连接差不多连接波动还能变吗",
+    "href": "notes/issues/2026-11-06-stimulation-measures.html#fmri-脑网络平均连接差不多连接波动还能变吗",
+    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
+    "section": "fMRI 脑网络｜平均连接差不多，连接波动还能变吗？",
+    "text": "fMRI 脑网络｜平均连接差不多，连接波动还能变吗？\nLi 等，2026 · 33 名健康成人 · 摘要与公开图表\n这篇用的是磁刺激，值得借鉴的是读图和分析方法。图 3 把一段静息态扫描概括为平均连接，未见刺激条件与楔前叶亚区交互；图 4 看连接随时间的波动，在右侧眶部额下回发现两种刺激下的亚区差异方向不同。做光刺激的 fMRI 实验时，也可以把“平均连接变没变”和“波动变没变”分开检验。期刊摘要与图表"
   },
   {
-    "objectID": "notes/posts/reading-guide.html#经审核后公开",
-    "href": "notes/posts/reading-guide.html#经审核后公开",
-    "title": "文献精读与证据记录规范",
-    "section": "5. 经审核后公开",
-    "text": "5. 经审核后公开\n发布前核对引文与原文的一致性，以及材料的公开范围和使用许可。"
+    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#怎么用到实验里",
+    "href": "notes/issues/2026-11-06-stimulation-measures.html#怎么用到实验里",
+    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
+    "section": "怎么用到实验里",
+    "text": "怎么用到实验里\n先定主要问题，再选测量。问任务做得怎么样，就同时看速度和正确率；问局部脑血流，就用 ASL 一类的灌注指标；问脑区之间的协同，就事先定义种子区，并说明检验平均连接还是波动。若想判断这些变化是否相互解释，最好在同一批人、可比较的对照和时间点下测量，再直接检验它们的关系。\n编辑本期"
   },
   {
-    "objectID": "notes/posts/reading-guide.html#建议笔记模板",
-    "href": "notes/posts/reading-guide.html#建议笔记模板",
-    "title": "文献精读与证据记录规范",
-    "section": "建议笔记模板",
-    "text": "建议笔记模板\n请复制 templates/note.qmd，按研究专题填写相应信息。编辑时可以保留未完成标记，但正式发布前应删除无效链接。"
+    "objectID": "notes/posts/personalized-neuromodulation.html",
+    "href": "notes/posts/personalized-neuromodulation.html",
+    "title": "从靶点个体化到频率个体化",
+    "section": "",
+    "text": "按个体功能网络选择靶点之后，是否还需要按个体选择刺激频率？"
   },
   {
-    "objectID": "notes/posts/reading-guide.html#关联文献与专题",
-    "href": "notes/posts/reading-guide.html#关联文献与专题",
-    "title": "文献精读与证据记录规范",
-    "section": "关联文献与专题",
-    "text": "关联文献与专题\n\nOpenScholar 文献卡片：查看 DOI、版本与公开来源的记录示例。\n研究专题索引：按科学问题组织后续阅读。"
+    "objectID": "notes/posts/personalized-neuromodulation.html#核心问题",
+    "href": "notes/posts/personalized-neuromodulation.html#核心问题",
+    "title": "从靶点个体化到频率个体化",
+    "section": "",
+    "text": "按个体功能网络选择靶点之后，是否还需要按个体选择刺激频率？"
+  },
+  {
+    "objectID": "notes/posts/personalized-neuromodulation.html#论文思路",
+    "href": "notes/posts/personalized-neuromodulation.html#论文思路",
+    "title": "从靶点个体化到频率个体化",
+    "section": "论文思路",
+    "text": "论文思路\n这项研究先用同步 TMS–fMRI 定位个体网络及刺激靶点，再通过实时解码比较 5、10、20 Hz 所诱发的脑状态。随后在多次访视的交叉研究中比较个体最优与次优频率。\n摘要报告，只有所测试频率中表现最好的频率条件显著改善工作记忆，解码器输出能够预测行为收益；个体之间的最佳频率并不一致。\n证据位置：原文 PDF 第 1 页摘要；第 1–2 页引言。本札记基于上述部分，全文研读后再补样本量、效应量及图表比较。"
+  },
+  {
+    "objectID": "notes/posts/personalized-neuromodulation.html#对后续阅读的启发",
+    "href": "notes/posts/personalized-neuromodulation.html#对后续阅读的启发",
+    "title": "从靶点个体化到频率个体化",
+    "section": "对后续阅读的启发",
+    "text": "对后续阅读的启发\n可以把“靶点是否合适”和“刺激参数是否合适”作为两个相互联系的问题。比较文献时，除刺激坐标外，还应记录参数搜索范围、用于选参的脑状态指标，以及选参数据和验证数据如何划分。\n这篇论文的频率选择发生在 TMS 的 5、10、20 Hz 范围内。对经颅光刺激，值得借鉴的是个体网络定位与参数验证的研究思路。"
+  },
+  {
+    "objectID": "notes/posts/personalized-neuromodulation.html#全文研读问题",
+    "href": "notes/posts/personalized-neuromodulation.html#全文研读问题",
+    "title": "从靶点个体化到频率个体化",
+    "section": "全文研读问题",
+    "text": "全文研读问题\n\n定位、选频与行为验证各包含多少被试和访视？数据是否独立？\n最优和次优频率如何确定，是否设置假刺激、盲法和顺序平衡？\n工作记忆改善的效应量、持续时间与多重比较处理如何？\n解码指标能否跨访视泛化，是否在独立样本验证？"
+  },
+  {
+    "objectID": "notes/posts/personalized-neuromodulation.html#关联条目",
+    "href": "notes/posts/personalized-neuromodulation.html#关联条目",
+    "title": "从靶点个体化到频率个体化",
+    "section": "关联条目",
+    "text": "关联条目\n文献卡片 · 个体化脑网络与神经调控专题"
   },
   {
     "objectID": "notes/posts/ma-2026-light-motor-cortex.html",
     "href": "notes/posts/ma-2026-light-motor-cortex.html",
     "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
     "section": "",
-    "text": "Ma 等 · Journal of NeuroEngineering and Rehabilitation · 2026 · 摘要阅读"
+    "text": "Ma 等 · Journal of NeuroEngineering and Rehabilitation · 2026 · 已接收稿全文阅读\n回到本期：刺激后，变的是行为、脑血流，还是脑网络？"
   },
   {
     "objectID": "notes/posts/ma-2026-light-motor-cortex.html#怎么做",
@@ -95,14 +123,14 @@
     "href": "notes/posts/ma-2026-light-motor-cortex.html#结果怎么读",
     "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n刺激后 30 分钟，1064 nm、40 Hz 脉冲条件的运动诱发电位幅度大于两个连续光条件。与假刺激相比，这一条件下右手对指动作完成的循环次数也更多。运动诱发电位反映运动通路的反应，功能近红外光谱测到的则是血氧变化，两个指标要分开看。"
+    "text": "结果怎么读\n图 3 横轴是刺激后 0、10、20、30 分钟，纵轴是运动诱发电位（MEP）较基线的变化百分比。四种主动条件在这些时间点均高于假刺激。30 分钟时，1064 nm、40 Hz 脉冲条件高于两种连续光条件；这组比较并未显示它优于 810 nm、40 Hz 脉冲。\n图 5 画的是对指动作循环次数的前后差。1064 nm、40 Hz 脉冲条件下，右手次数的增量大于假刺激（校正后 p = 0.035）。图 6 画的是功能近红外光谱（fNIRS）的任务血氧响应：同一条件下，左手任务的 11 个通道刺激后响应降低（FDR 校正）。两张图的任务用手和参照条件都不同，不能直接用后者解释前者。"
   },
   {
     "objectID": "notes/posts/ma-2026-light-motor-cortex.html#对实验设计有什么用",
     "href": "notes/posts/ma-2026-light-motor-cortex.html#对实验设计有什么用",
     "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n这组比较适合用来设计波长与脉冲方式的对照。结果对应本研究所用的运动皮层靶点、健康人群与观察时段。\n期刊原文与摘要 · 藏经阁书目 · 编辑这篇笔记"
+    "text": "对实验设计有什么用\n这组比较适合用来设计波长与脉冲方式的对照。结果对应本研究所用的运动皮层靶点、健康人群与观察时段。\n期刊与已接收稿（含图 3–6） · 藏经阁书目 · 编辑这篇笔记"
   },
   {
     "objectID": "notes/posts/jung-2026-light-adenosine-sleep.html",
@@ -133,102 +161,256 @@
     "text": "对实验设计有什么用\n设计光刺激睡眠实验时，可以分别设定机制指标和睡眠终点。比如用脑电区分睡眠阶段，用入睡潜伏期描述多久入睡，并明确主观量表和客观测量各回答什么问题。\n期刊原文 · PubMed 摘要 · 藏经阁书目 · 编辑这篇笔记"
   },
   {
-    "objectID": "notes/index.html",
-    "href": "notes/index.html",
-    "title": "论文笔记",
+    "objectID": "notes/questions.html",
+    "href": "notes/questions.html",
+    "title": "按问题读",
     "section": "",
-    "text": "每天推荐经颅光刺激和 fMRI 脑网络论文。可以按主题筛选，也可以搜索题名。\n\n  全部\n  经颅光刺激\n  fMRI 脑网络\n\n\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n一项早期对照研究用反应时间和正确次数，检验额部近红外刺激后的行为变化。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n小鼠实验测脑内腺苷和睡眠脑电，人体试验看失眠症状和入睡时间。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同一批参与者接受两种磁刺激，研究用静息态 fMRI 分开看平均连接和连接随时间的波动。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n22 名健康参与者接受四种主动刺激和一种假刺激，研究比较了运动诱发电位、血氧与手指动作。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
+    "text": "返回论文笔记\n单篇论文的笔记也可以独立阅读。\n\n  全部\n  刺激参数与剂量\n  脑活动与脑网络\n  认知与睡眠\n  安全与临床转化\n\n\n\n\n\n\n\n刺激后，变的是行为、脑血流，还是脑网络？\n\n\n从反应时间到运动诱发电位、脑灌注和静息态连接：四篇论文各能回答什么？\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n无匹配项\n\n\n\n\n\n 回到顶部"
   },
   {
-    "objectID": "notes/index.html#最近更新",
-    "href": "notes/index.html#最近更新",
-    "title": "论文笔记",
+    "objectID": "library/papers/zhao-2023-alpha-attention.html",
+    "href": "library/papers/zhao-2023-alpha-attention.html",
+    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
     "section": "",
-    "text": "每天推荐经颅光刺激和 fMRI 脑网络论文。可以按主题筛选，也可以搜索题名。\n\n  全部\n  经颅光刺激\n  fMRI 脑网络\n\n\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n一项早期对照研究用反应时间和正确次数，检验额部近红外刺激后的行为变化。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n小鼠实验测脑内腺苷和睡眠脑电，人体试验看失眠症状和入睡时间。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同一批参与者接受两种磁刺激，研究用静息态 fMRI 分开看平均连接和连接随时间的波动。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n22 名健康参与者接受四种主动刺激和一种假刺激，研究比较了运动诱发电位、血氧与手指动作。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
+    "text": "作者： Chenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song\n发表信息： PLOS Biology, 21(3), e3002014 (2023)\nDOI： 10.1371/journal.pbio.3002014\n阅读进度： 已编目"
   },
   {
-    "objectID": "library/papers/openscholar.html",
-    "href": "library/papers/openscholar.html",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "objectID": "library/papers/zhao-2023-alpha-attention.html#书目信息",
+    "href": "library/papers/zhao-2023-alpha-attention.html#书目信息",
+    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
     "section": "",
-    "text": "题目： Synthesizing scientific literature with retrieval-augmented language models\n作者： Akari Asai et al.\n期刊： Nature, 650, 857–863 (2026)\n发表日期： 2026-02-04\nDOI： 10.1038/s41586-025-10072-4\n开源实现： OpenScholar GitHub"
+    "text": "作者： Chenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song\n发表信息： PLOS Biology, 21(3), e3002014 (2023)\nDOI： 10.1371/journal.pbio.3002014\n阅读进度： 已编目"
   },
   {
-    "objectID": "library/papers/openscholar.html#书目信息",
-    "href": "library/papers/openscholar.html#书目信息",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
-    "section": "",
-    "text": "题目： Synthesizing scientific literature with retrieval-augmented language models\n作者： Akari Asai et al.\n期刊： Nature, 650, 857–863 (2026)\n发表日期： 2026-02-04\nDOI： 10.1038/s41586-025-10072-4\n开源实现： OpenScholar GitHub"
-  },
-  {
-    "objectID": "library/papers/openscholar.html#核心问题",
-    "href": "library/papers/openscholar.html#核心问题",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
-    "section": "核心问题",
-    "text": "核心问题\n如何让语言模型从大量科学论文中定位证据，并综合多篇文献形成可以追溯来源的回答？"
-  },
-  {
-    "objectID": "library/papers/openscholar.html#方法概览",
-    "href": "library/papers/openscholar.html#方法概览",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
-    "section": "方法概览",
-    "text": "方法概览\nOpenScholar 将学术语料检索、候选重排序和基于证据的生成相结合，并加入自我反馈以改进最终输出。论文介绍的系统以大规模公开获取的论文语料为基础。"
-  },
-  {
-    "objectID": "library/papers/openscholar.html#对藏经阁的启发",
-    "href": "library/papers/openscholar.html#对藏经阁的启发",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
-    "section": "对藏经阁的启发",
-    "text": "对藏经阁的启发\n\n文献条目应保留 DOI、作者、发表信息与稳定来源。\nAI 问答需要返回原文依据，不应只输出没有出处的总结。\n大规模语料索引不是第一阶段 MVP 的必要条件。"
-  },
-  {
-    "objectID": "library/papers/openscholar.html#原文与实现",
-    "href": "library/papers/openscholar.html#原文与实现",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
-    "section": "原文与实现",
-    "text": "原文与实现\nNature 原文 · OpenScholar 开源实现"
-  },
-  {
-    "objectID": "library/papers/openscholar.html#关联阅读",
-    "href": "library/papers/openscholar.html#关联阅读",
-    "title": "Synthesizing scientific literature with retrieval-augmented language models",
-    "section": "关联阅读",
-    "text": "关联阅读\n文献精读与证据记录规范 · 研究专题索引"
-  },
-  {
-    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html",
-    "href": "library/papers/khan-2026-personalized-neuromodulation.html",
-    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
-    "section": "",
-    "text": "作者： Ahsan Khan; Hongming Li; Camille Blaine; Julie Grier; Ethan Hammett; Almaris Figueroa‐Gonzalez; Sarai Garcia; Romain Duprat; Justin Reber; Joseph Deluisi; Christos Davatzikos; Theodore D. Satterthwaite; Yong Fan; Desmond J. Oathes\n发表信息： Advanced Science, 13(49), e23009 (2026)\nDOI： 10.1002/advs.202523009\n阅读进度： 摘要已读"
-  },
-  {
-    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#书目信息",
-    "href": "library/papers/khan-2026-personalized-neuromodulation.html#书目信息",
-    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
-    "section": "",
-    "text": "作者： Ahsan Khan; Hongming Li; Camille Blaine; Julie Grier; Ethan Hammett; Almaris Figueroa‐Gonzalez; Sarai Garcia; Romain Duprat; Justin Reber; Joseph Deluisi; Christos Davatzikos; Theodore D. Satterthwaite; Yong Fan; Desmond J. Oathes\n发表信息： Advanced Science, 13(49), e23009 (2026)\nDOI： 10.1002/advs.202523009\n阅读进度： 摘要已读"
-  },
-  {
-    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#研究内容",
-    "href": "library/papers/khan-2026-personalized-neuromodulation.html#研究内容",
-    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
+    "objectID": "library/papers/zhao-2023-alpha-attention.html#研究内容",
+    "href": "library/papers/zhao-2023-alpha-attention.html#研究内容",
+    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
     "section": "研究内容",
-    "text": "研究内容\n研究将个体功能网络靶点定位与实时脑状态解码结合，利用同步 TMS–fMRI 比较个体在 5、10 和 20 Hz 刺激下的网络响应，并据此选择刺激频率。摘要报告，在多次访视的交叉研究中，所测试频率中表现最好的频率条件改善了工作记忆，且最佳频率存在明显个体差异。"
+    "text": "研究内容\n围绕视觉空间线索、预期性 alpha 活动与干扰信息抑制的关系展开研究，收录于脑振荡和注意控制主题。"
   },
   {
-    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#整理依据",
-    "href": "library/papers/khan-2026-personalized-neuromodulation.html#整理依据",
-    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
+    "objectID": "library/papers/zhao-2023-alpha-attention.html#整理依据",
+    "href": "library/papers/zhao-2023-alpha-attention.html#整理依据",
+    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
     "section": "整理依据",
-    "text": "整理依据\n卡片依据论文第 1–2 页的摘要和引言。这里的“最佳频率”限于测试的 5、10、20 Hz；研究使用 TMS，其结果不能直接作为经颅光刺激的频率证据。样本量、效应量、盲法和统计检验将在全文研读后补充。"
+    "text": "整理依据\n依据已核对的题名与书目信息编目；方法、结果和证据评价将在全文研读后补充。"
   },
   {
-    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#关联阅读",
-    "href": "library/papers/khan-2026-personalized-neuromodulation.html#关联阅读",
-    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
+    "objectID": "library/papers/zhao-2023-alpha-attention.html#关联阅读",
+    "href": "library/papers/zhao-2023-alpha-attention.html#关联阅读",
+    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
     "section": "关联阅读",
-    "text": "关联阅读\n\n个体化脑网络与神经调控\n从靶点个体化到频率个体化：摘要阅读札记\n\n\n\n来源\n\n期刊原文。书目信息见论文首页。"
+    "text": "关联阅读\n\n脑电与认知：振荡、注意和解码\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息经 Crossref 核对；同时收录于成员公开论文索引。"
+  },
+  {
+    "objectID": "library/papers/li-2024-tpbm-safety.html",
+    "href": "library/papers/li-2024-tpbm-safety.html",
+    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "section": "",
+    "text": "作者： Zhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao\n发表信息： Brain Stimulation, 17(6), 1307-1316 (2024)\nDOI： 10.1016/j.brs.2024.11.010\n阅读进度： 摘要已读"
+  },
+  {
+    "objectID": "library/papers/li-2024-tpbm-safety.html#书目信息",
+    "href": "library/papers/li-2024-tpbm-safety.html#书目信息",
+    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "section": "",
+    "text": "作者： Zhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao\n发表信息： Brain Stimulation, 17(6), 1307-1316 (2024)\nDOI： 10.1016/j.brs.2024.11.010\n阅读进度： 摘要已读"
+  },
+  {
+    "objectID": "library/papers/li-2024-tpbm-safety.html#研究内容",
+    "href": "library/papers/li-2024-tpbm-safety.html#研究内容",
+    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "section": "研究内容",
+    "text": "研究内容\n研究结合 MRI、EEG、血液生化指标、执行功能测试与主观耐受问卷，评估健康受试者接受 1064 nm 经颅光生物调节后的变化。摘要报告，在研究所用参数下未发现所评估指标中的脑结构、功能或认知损伤，受试者不适较少；NSE 降低的含义仍需进一步研究。"
+  },
+  {
+    "objectID": "library/papers/li-2024-tpbm-safety.html#整理依据",
+    "href": "library/papers/li-2024-tpbm-safety.html#整理依据",
+    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "section": "整理依据",
+    "text": "整理依据\n论文摘要见第 1 页。安全性结论适用于论文测试的参数和健康人群。刺激剂量、样本量、统计方法和随访窗口留待全文研读时逐项提取。"
+  },
+  {
+    "objectID": "library/papers/li-2024-tpbm-safety.html#关联阅读",
+    "href": "library/papers/li-2024-tpbm-safety.html#关联阅读",
+    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "section": "关联阅读",
+    "text": "关联阅读\n\n经颅光刺激：参数与安全性阅读线索\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息见论文首页。"
+  },
+  {
+    "objectID": "library/papers/jia-2023-mi-bci.html",
+    "href": "library/papers/jia-2023-mi-bci.html",
+    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
+    "section": "",
+    "text": "作者： Hai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang\n发表信息： IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311-1320 (2023)\nDOI： 10.1109/tnsre.2023.3243992\n阅读进度： 已编目"
+  },
+  {
+    "objectID": "library/papers/jia-2023-mi-bci.html#书目信息",
+    "href": "library/papers/jia-2023-mi-bci.html#书目信息",
+    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
+    "section": "",
+    "text": "作者： Hai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang\n发表信息： IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311-1320 (2023)\nDOI： 10.1109/tnsre.2023.3243992\n阅读进度： 已编目"
+  },
+  {
+    "objectID": "library/papers/jia-2023-mi-bci.html#研究内容",
+    "href": "library/papers/jia-2023-mi-bci.html#研究内容",
+    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
+    "section": "研究内容",
+    "text": "研究内容\n提出结合多分支时频 CNN、通道注意力与 LightGBM 的运动想象脑机接口分类模型，收录于 EEG 解码与计算方法主题。"
+  },
+  {
+    "objectID": "library/papers/jia-2023-mi-bci.html#整理依据",
+    "href": "library/papers/jia-2023-mi-bci.html#整理依据",
+    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
+    "section": "整理依据",
+    "text": "整理依据\n依据已核对的题名与书目信息编目；模型性能、数据划分与外部验证将在全文研读后整理。"
+  },
+  {
+    "objectID": "library/papers/jia-2023-mi-bci.html#关联阅读",
+    "href": "library/papers/jia-2023-mi-bci.html#关联阅读",
+    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
+    "section": "关联阅读",
+    "text": "关联阅读\n\n脑电与认知：振荡、注意和解码\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息经 Crossref 核对；同时收录于成员公开论文索引。"
+  },
+  {
+    "objectID": "library/index.html",
+    "href": "library/index.html",
+    "title": "典籍目录",
+    "section": "",
+    "text": "按研究问题读论文 · 查看全部光刺激论文 · 查升温与安全研究"
+  },
+  {
+    "objectID": "library/index.html#经颅光刺激",
+    "href": "library/index.html#经颅光刺激",
+    "title": "典籍目录",
+    "section": "",
+    "text": "按研究问题读论文 · 查看全部光刺激论文 · 查升温与安全研究"
+  },
+  {
+    "objectID": "library/index.html#完整文献目录",
+    "href": "library/index.html#完整文献目录",
+    "title": "典籍目录",
+    "section": "完整文献目录",
+    "text": "完整文献目录\n按研究方向和细分主题浏览，或用题名、作者、期刊、年份与 DOI 查找文献。\n\n\n检索文献\n研究方向全部方向\n细分主题全部细分主题\n阅读进度全部进度已编目摘要已读全文已读精读已整理方法参考\n排序方式年份降序题名字母顺序\n\n正在载入文献目录……\n\n上一页下一页\n完整目录需要 JavaScript；下方可直接浏览已整理卡片。"
+  },
+  {
+    "objectID": "library/index.html#已整理卡片",
+    "href": "library/index.html#已整理卡片",
+    "title": "典籍目录",
+    "section": "已整理卡片",
+    "text": "已整理卡片\n这里可以直接打开已整理的论文卡片，查看书目、研究内容和相关札记。\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        年份 - 日期升序\n      \n      \n        年份 - 日期降序\n      \n      \n        论文\n      \n    \n  \n\n\n\n\n\n\n论文\n\n\n\n年份\n\n\n\n阅读进度\n\n\n\n\n\n\n\n\nSynthesizing scientific literature with retrieval-augmented language models\n\n\n2026\n\n\n方法参考\n\n\n\n\n\n\nPersonalized Network‐Guided Neuromodulation Enhances Human Working Memory\n\n\n2026\n\n\n摘要已读\n\n\n\n\n\n\nTranscranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\n\n\n2024\n\n\n摘要已读\n\n\n\n\n\n\nA Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\nSuppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\n无匹配项"
+  },
+  {
+    "objectID": "library/index.html#阅读进度",
+    "href": "library/index.html#阅读进度",
+    "title": "典籍目录",
+    "section": "阅读进度",
+    "text": "阅读进度\n已编目 → 摘要已读 → 全文已读 → 精读已整理。进度随实际阅读更新，精读札记关联原文页码或图表。\n推荐新文献时，可提供 DOI 或原文链接。"
+  },
+  {
+    "objectID": "research/personalized-networks.html",
+    "href": "research/personalized-networks.html",
+    "title": "个体化脑网络与神经调控",
+    "section": "",
+    "text": "个体之间的脑网络差异如何用于选择刺激靶点？在固定靶点之后，频率是否也需要按个体选择？"
+  },
+  {
+    "objectID": "research/personalized-networks.html#阅读问题",
+    "href": "research/personalized-networks.html#阅读问题",
+    "title": "个体化脑网络与神经调控",
+    "section": "",
+    "text": "个体之间的脑网络差异如何用于选择刺激靶点？在固定靶点之后，频率是否也需要按个体选择？"
+  },
+  {
+    "objectID": "research/personalized-networks.html#核心文献",
+    "href": "research/personalized-networks.html#核心文献",
+    "title": "个体化脑网络与神经调控",
+    "section": "核心文献",
+    "text": "核心文献\nKhan et al., 2026：个体网络引导的工作记忆神经调控将个体靶点定位、同步 TMS–fMRI 和实时解码结合，比较个体在不同频率下的网络响应。\n摘要阅读札记记录其方法思路与全文研读问题。"
+  },
+  {
+    "objectID": "research/personalized-networks.html#比较维度",
+    "href": "research/personalized-networks.html#比较维度",
+    "title": "个体化脑网络与神经调控",
+    "section": "比较维度",
+    "text": "比较维度\n后续文献按靶点定义、刺激模态、参数搜索范围、状态指标与行为终点比较。TMS、经颅电刺激与经颅光刺激分别记录，再讨论可迁移的方法思路。\n返回研究专题"
+  },
+  {
+    "objectID": "research/eeg-cognition.html",
+    "href": "research/eeg-cognition.html",
+    "title": "脑电与认知：振荡、注意和解码",
+    "section": "",
+    "text": "脑振荡如何参与注意与干扰控制？时频特征如何用于运动想象解码？两类研究分别需要怎样的证据？"
+  },
+  {
+    "objectID": "research/eeg-cognition.html#阅读问题",
+    "href": "research/eeg-cognition.html#阅读问题",
+    "title": "脑电与认知：振荡、注意和解码",
+    "section": "",
+    "text": "脑振荡如何参与注意与干扰控制？时频特征如何用于运动想象解码？两类研究分别需要怎样的证据？"
+  },
+  {
+    "objectID": "research/eeg-cognition.html#阅读索引",
+    "href": "research/eeg-cognition.html#阅读索引",
+    "title": "脑电与认知：振荡、注意和解码",
+    "section": "阅读索引",
+    "text": "阅读索引\n\nZhao et al., 2023：预期性 alpha 活动与干扰抑制。\nJia et al., 2023：多分支时频 CNN、通道注意力与 LightGBM。"
+  },
+  {
+    "objectID": "research/eeg-cognition.html#比较维度",
+    "href": "research/eeg-cognition.html#比较维度",
+    "title": "脑电与认知：振荡、注意和解码",
+    "section": "比较维度",
+    "text": "比较维度\n机制研究重点记录实验操纵、时间窗、频段及行为关联；分类研究重点记录数据集、被试间划分、交叉验证和性能指标。\n返回研究专题"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "藏经阁 Cangjingge",
+    "section": "",
+    "text": "从经颅光、磁、电刺激，到用 fMRI 和脑电观察脑活动。这里可以查论文，也可以按问题读。\n查神经调控论文 查全部文献\n\n\n\n1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读"
+  },
+  {
+    "objectID": "index.html#经颅光刺激",
+    "href": "index.html#经颅光刺激",
+    "title": "藏经阁 Cangjingge",
+    "section": "",
+    "text": "1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读"
+  },
+  {
+    "objectID": "index.html#浏览藏经阁",
+    "href": "index.html#浏览藏经阁",
+    "title": "藏经阁 Cangjingge",
+    "section": "浏览藏经阁",
+    "text": "浏览藏经阁\n\n\n查文献\n按题名、作者或 DOI 找论文，也可以按主题筛选。\n\n\n读论文笔记\n看论文怎么做、发现了什么，以及结果对应的图表。\n\n\n研究专题\n按问题读论文，例如光如何进入脑组织、怎样评估升温。"
+  },
+  {
+    "objectID": "index.html#按方向浏览",
+    "href": "index.html#按方向浏览",
+    "title": "藏经阁 Cangjingge",
+    "section": "按方向浏览",
+    "text": "按方向浏览\n经颅光刺激 · 经颅磁刺激 · 经颅电刺激 · fMRI 与脑网络 · 脑电与认知\n有论文、札记或勘误想分享？查看提交方式。"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "研究专题",
+    "section": "",
+    "text": "光怎样进入脑组织？波长和脉冲怎么选？怎样测量脑活动、升温和睡眠？\n按问题读论文 浏览光刺激文献"
+  },
+  {
+    "objectID": "research/index.html#经颅光刺激",
+    "href": "research/index.html#经颅光刺激",
+    "title": "研究专题",
+    "section": "",
+    "text": "光怎样进入脑组织？波长和脉冲怎么选？怎样测量脑活动、升温和睡眠？\n按问题读论文 浏览光刺激文献"
+  },
+  {
+    "objectID": "research/index.html#其他专题",
+    "href": "research/index.html#其他专题",
+    "title": "研究专题",
+    "section": "其他专题",
+    "text": "其他专题\n\n个体化脑网络与神经调控 · 怎么为不同的人选刺激靶点和频率？\n脑电与认知 · 怎样用脑电研究注意和运动想象？\n\n按主题查找更多文献"
   },
   {
     "objectID": "research/tpbm.html",
@@ -287,284 +469,137 @@
     "text": "对照不同论文时看什么？\n先对照波长、照射位置、光斑面积、功率和照射时间。比较功率密度时，先确认数字指的是头皮入射值，还是模型估算的脑内值。温升、安全性和睡眠结果各用对应的测量指标比较。\n返回研究专题"
   },
   {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "研究专题",
+    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html",
+    "href": "library/papers/khan-2026-personalized-neuromodulation.html",
+    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
     "section": "",
-    "text": "光怎样进入脑组织？波长和脉冲怎么选？怎样测量脑活动、升温和睡眠？\n按问题读论文 浏览光刺激文献"
+    "text": "作者： Ahsan Khan; Hongming Li; Camille Blaine; Julie Grier; Ethan Hammett; Almaris Figueroa‐Gonzalez; Sarai Garcia; Romain Duprat; Justin Reber; Joseph Deluisi; Christos Davatzikos; Theodore D. Satterthwaite; Yong Fan; Desmond J. Oathes\n发表信息： Advanced Science, 13(49), e23009 (2026)\nDOI： 10.1002/advs.202523009\n阅读进度： 摘要已读"
   },
   {
-    "objectID": "research/index.html#经颅光刺激",
-    "href": "research/index.html#经颅光刺激",
-    "title": "研究专题",
+    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#书目信息",
+    "href": "library/papers/khan-2026-personalized-neuromodulation.html#书目信息",
+    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
     "section": "",
-    "text": "光怎样进入脑组织？波长和脉冲怎么选？怎样测量脑活动、升温和睡眠？\n按问题读论文 浏览光刺激文献"
+    "text": "作者： Ahsan Khan; Hongming Li; Camille Blaine; Julie Grier; Ethan Hammett; Almaris Figueroa‐Gonzalez; Sarai Garcia; Romain Duprat; Justin Reber; Joseph Deluisi; Christos Davatzikos; Theodore D. Satterthwaite; Yong Fan; Desmond J. Oathes\n发表信息： Advanced Science, 13(49), e23009 (2026)\nDOI： 10.1002/advs.202523009\n阅读进度： 摘要已读"
   },
   {
-    "objectID": "research/index.html#其他专题",
-    "href": "research/index.html#其他专题",
-    "title": "研究专题",
-    "section": "其他专题",
-    "text": "其他专题\n\n个体化脑网络与神经调控 · 怎么为不同的人选刺激靶点和频率？\n脑电与认知 · 怎样用脑电研究注意和运动想象？\n\n按主题查找更多文献"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "藏经阁 Cangjingge",
-    "section": "",
-    "text": "从经颅光、磁、电刺激，到用 fMRI 和脑电观察脑活动。这里可以查论文，也可以按问题读。\n查神经调控论文 查全部文献\n\n\n\n1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读"
-  },
-  {
-    "objectID": "index.html#经颅光刺激",
-    "href": "index.html#经颅光刺激",
-    "title": "藏经阁 Cangjingge",
-    "section": "",
-    "text": "1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读"
-  },
-  {
-    "objectID": "index.html#浏览藏经阁",
-    "href": "index.html#浏览藏经阁",
-    "title": "藏经阁 Cangjingge",
-    "section": "浏览藏经阁",
-    "text": "浏览藏经阁\n\n\n查文献\n按题名、作者或 DOI 找论文，也可以按主题筛选。\n\n\n读论文笔记\n看论文怎么做、发现了什么，以及结果对应的图表。\n\n\n研究专题\n按问题读论文，例如光如何进入脑组织、怎样评估升温。"
-  },
-  {
-    "objectID": "index.html#按方向浏览",
-    "href": "index.html#按方向浏览",
-    "title": "藏经阁 Cangjingge",
-    "section": "按方向浏览",
-    "text": "按方向浏览\n经颅光刺激 · 经颅磁刺激 · 经颅电刺激 · fMRI 与脑网络 · 脑电与认知\n有论文、札记或勘误想分享？查看提交方式。"
-  },
-  {
-    "objectID": "research/eeg-cognition.html",
-    "href": "research/eeg-cognition.html",
-    "title": "脑电与认知：振荡、注意和解码",
-    "section": "",
-    "text": "脑振荡如何参与注意与干扰控制？时频特征如何用于运动想象解码？两类研究分别需要怎样的证据？"
-  },
-  {
-    "objectID": "research/eeg-cognition.html#阅读问题",
-    "href": "research/eeg-cognition.html#阅读问题",
-    "title": "脑电与认知：振荡、注意和解码",
-    "section": "",
-    "text": "脑振荡如何参与注意与干扰控制？时频特征如何用于运动想象解码？两类研究分别需要怎样的证据？"
-  },
-  {
-    "objectID": "research/eeg-cognition.html#阅读索引",
-    "href": "research/eeg-cognition.html#阅读索引",
-    "title": "脑电与认知：振荡、注意和解码",
-    "section": "阅读索引",
-    "text": "阅读索引\n\nZhao et al., 2023：预期性 alpha 活动与干扰抑制。\nJia et al., 2023：多分支时频 CNN、通道注意力与 LightGBM。"
-  },
-  {
-    "objectID": "research/eeg-cognition.html#比较维度",
-    "href": "research/eeg-cognition.html#比较维度",
-    "title": "脑电与认知：振荡、注意和解码",
-    "section": "比较维度",
-    "text": "比较维度\n机制研究重点记录实验操纵、时间窗、频段及行为关联；分类研究重点记录数据集、被试间划分、交叉验证和性能指标。\n返回研究专题"
-  },
-  {
-    "objectID": "research/personalized-networks.html",
-    "href": "research/personalized-networks.html",
-    "title": "个体化脑网络与神经调控",
-    "section": "",
-    "text": "个体之间的脑网络差异如何用于选择刺激靶点？在固定靶点之后，频率是否也需要按个体选择？"
-  },
-  {
-    "objectID": "research/personalized-networks.html#阅读问题",
-    "href": "research/personalized-networks.html#阅读问题",
-    "title": "个体化脑网络与神经调控",
-    "section": "",
-    "text": "个体之间的脑网络差异如何用于选择刺激靶点？在固定靶点之后，频率是否也需要按个体选择？"
-  },
-  {
-    "objectID": "research/personalized-networks.html#核心文献",
-    "href": "research/personalized-networks.html#核心文献",
-    "title": "个体化脑网络与神经调控",
-    "section": "核心文献",
-    "text": "核心文献\nKhan et al., 2026：个体网络引导的工作记忆神经调控将个体靶点定位、同步 TMS–fMRI 和实时解码结合，比较个体在不同频率下的网络响应。\n摘要阅读札记记录其方法思路与全文研读问题。"
-  },
-  {
-    "objectID": "research/personalized-networks.html#比较维度",
-    "href": "research/personalized-networks.html#比较维度",
-    "title": "个体化脑网络与神经调控",
-    "section": "比较维度",
-    "text": "比较维度\n后续文献按靶点定义、刺激模态、参数搜索范围、状态指标与行为终点比较。TMS、经颅电刺激与经颅光刺激分别记录，再讨论可迁移的方法思路。\n返回研究专题"
-  },
-  {
-    "objectID": "library/index.html",
-    "href": "library/index.html",
-    "title": "典籍目录",
-    "section": "",
-    "text": "按研究问题读论文 · 查看全部光刺激论文 · 查升温与安全研究"
-  },
-  {
-    "objectID": "library/index.html#经颅光刺激",
-    "href": "library/index.html#经颅光刺激",
-    "title": "典籍目录",
-    "section": "",
-    "text": "按研究问题读论文 · 查看全部光刺激论文 · 查升温与安全研究"
-  },
-  {
-    "objectID": "library/index.html#完整文献目录",
-    "href": "library/index.html#完整文献目录",
-    "title": "典籍目录",
-    "section": "完整文献目录",
-    "text": "完整文献目录\n按研究方向和细分主题浏览，或用题名、作者、期刊、年份与 DOI 查找文献。\n\n\n检索文献\n研究方向全部方向\n细分主题全部细分主题\n阅读进度全部进度已编目摘要已读全文已读精读已整理方法参考\n排序方式年份降序题名字母顺序\n\n正在载入文献目录……\n\n上一页下一页\n完整目录需要 JavaScript；下方可直接浏览已整理卡片。"
-  },
-  {
-    "objectID": "library/index.html#已整理卡片",
-    "href": "library/index.html#已整理卡片",
-    "title": "典籍目录",
-    "section": "已整理卡片",
-    "text": "已整理卡片\n这里可以直接打开已整理的论文卡片，查看书目、研究内容和相关札记。\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        年份 - 日期升序\n      \n      \n        年份 - 日期降序\n      \n      \n        论文\n      \n    \n  \n\n\n\n\n\n\n论文\n\n\n\n年份\n\n\n\n阅读进度\n\n\n\n\n\n\n\n\nSynthesizing scientific literature with retrieval-augmented language models\n\n\n2026\n\n\n方法参考\n\n\n\n\n\n\nPersonalized Network‐Guided Neuromodulation Enhances Human Working Memory\n\n\n2026\n\n\n摘要已读\n\n\n\n\n\n\nTranscranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\n\n\n2024\n\n\n摘要已读\n\n\n\n\n\n\nA Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\nSuppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity\n\n\n2023\n\n\n已编目\n\n\n\n\n\n\n无匹配项"
-  },
-  {
-    "objectID": "library/index.html#阅读进度",
-    "href": "library/index.html#阅读进度",
-    "title": "典籍目录",
-    "section": "阅读进度",
-    "text": "阅读进度\n已编目 → 摘要已读 → 全文已读 → 精读已整理。进度随实际阅读更新，精读札记关联原文页码或图表。\n推荐新文献时，可提供 DOI 或原文链接。"
-  },
-  {
-    "objectID": "library/papers/jia-2023-mi-bci.html",
-    "href": "library/papers/jia-2023-mi-bci.html",
-    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
-    "section": "",
-    "text": "作者： Hai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang\n发表信息： IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311-1320 (2023)\nDOI： 10.1109/tnsre.2023.3243992\n阅读进度： 已编目"
-  },
-  {
-    "objectID": "library/papers/jia-2023-mi-bci.html#书目信息",
-    "href": "library/papers/jia-2023-mi-bci.html#书目信息",
-    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
-    "section": "",
-    "text": "作者： Hai Jia; Shiqi Yu; Shunjie Yin; Lanxin Liu; Chanlin Yi; Kaiqing Xue; Fali Li; Dezhong Yao; Peng Xu; Tao Zhang\n发表信息： IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 1311-1320 (2023)\nDOI： 10.1109/tnsre.2023.3243992\n阅读进度： 已编目"
-  },
-  {
-    "objectID": "library/papers/jia-2023-mi-bci.html#研究内容",
-    "href": "library/papers/jia-2023-mi-bci.html#研究内容",
-    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
+    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#研究内容",
+    "href": "library/papers/khan-2026-personalized-neuromodulation.html#研究内容",
+    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
     "section": "研究内容",
-    "text": "研究内容\n提出结合多分支时频 CNN、通道注意力与 LightGBM 的运动想象脑机接口分类模型，收录于 EEG 解码与计算方法主题。"
+    "text": "研究内容\n研究将个体功能网络靶点定位与实时脑状态解码结合，利用同步 TMS–fMRI 比较个体在 5、10 和 20 Hz 刺激下的网络响应，并据此选择刺激频率。摘要报告，在多次访视的交叉研究中，所测试频率中表现最好的频率条件改善了工作记忆，且最佳频率存在明显个体差异。"
   },
   {
-    "objectID": "library/papers/jia-2023-mi-bci.html#整理依据",
-    "href": "library/papers/jia-2023-mi-bci.html#整理依据",
-    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
+    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#整理依据",
+    "href": "library/papers/khan-2026-personalized-neuromodulation.html#整理依据",
+    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
     "section": "整理依据",
-    "text": "整理依据\n依据已核对的题名与书目信息编目；模型性能、数据划分与外部验证将在全文研读后整理。"
+    "text": "整理依据\n卡片依据论文第 1–2 页的摘要和引言。这里的“最佳频率”限于测试的 5、10、20 Hz；研究使用 TMS，其结果不能直接作为经颅光刺激的频率证据。样本量、效应量、盲法和统计检验将在全文研读后补充。"
   },
   {
-    "objectID": "library/papers/jia-2023-mi-bci.html#关联阅读",
-    "href": "library/papers/jia-2023-mi-bci.html#关联阅读",
-    "title": "A Model Combining Multi Branch Spectral-Temporal CNN, Efficient Channel Attention, and LightGBM for MI-BCI Classification",
+    "objectID": "library/papers/khan-2026-personalized-neuromodulation.html#关联阅读",
+    "href": "library/papers/khan-2026-personalized-neuromodulation.html#关联阅读",
+    "title": "Personalized Network‐Guided Neuromodulation Enhances Human Working Memory",
     "section": "关联阅读",
-    "text": "关联阅读\n\n脑电与认知：振荡、注意和解码\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息经 Crossref 核对；同时收录于成员公开论文索引。"
+    "text": "关联阅读\n\n个体化脑网络与神经调控\n从靶点个体化到频率个体化：摘要阅读札记\n\n\n\n来源\n\n期刊原文。书目信息见论文首页。"
   },
   {
-    "objectID": "library/papers/li-2024-tpbm-safety.html",
-    "href": "library/papers/li-2024-tpbm-safety.html",
-    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "objectID": "library/papers/openscholar.html",
+    "href": "library/papers/openscholar.html",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
     "section": "",
-    "text": "作者： Zhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao\n发表信息： Brain Stimulation, 17(6), 1307-1316 (2024)\nDOI： 10.1016/j.brs.2024.11.010\n阅读进度： 摘要已读"
+    "text": "题目： Synthesizing scientific literature with retrieval-augmented language models\n作者： Akari Asai et al.\n期刊： Nature, 650, 857–863 (2026)\n发表日期： 2026-02-04\nDOI： 10.1038/s41586-025-10072-4\n开源实现： OpenScholar GitHub"
   },
   {
-    "objectID": "library/papers/li-2024-tpbm-safety.html#书目信息",
-    "href": "library/papers/li-2024-tpbm-safety.html#书目信息",
-    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "objectID": "library/papers/openscholar.html#书目信息",
+    "href": "library/papers/openscholar.html#书目信息",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
     "section": "",
-    "text": "作者： Zhilin Li; Yongheng Zhao; Yiqing Hu; Yang Li; Keyao Zhang; Zhibing Gao; Lirou Tan; Hai Jia; Jing Cong; Hanli Liu; Xiaoli Li; Aihua Cao; Zaixu Cui; Chenguang Zhao\n发表信息： Brain Stimulation, 17(6), 1307-1316 (2024)\nDOI： 10.1016/j.brs.2024.11.010\n阅读进度： 摘要已读"
+    "text": "题目： Synthesizing scientific literature with retrieval-augmented language models\n作者： Akari Asai et al.\n期刊： Nature, 650, 857–863 (2026)\n发表日期： 2026-02-04\nDOI： 10.1038/s41586-025-10072-4\n开源实现： OpenScholar GitHub"
   },
   {
-    "objectID": "library/papers/li-2024-tpbm-safety.html#研究内容",
-    "href": "library/papers/li-2024-tpbm-safety.html#研究内容",
-    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
-    "section": "研究内容",
-    "text": "研究内容\n研究结合 MRI、EEG、血液生化指标、执行功能测试与主观耐受问卷，评估健康受试者接受 1064 nm 经颅光生物调节后的变化。摘要报告，在研究所用参数下未发现所评估指标中的脑结构、功能或认知损伤，受试者不适较少；NSE 降低的含义仍需进一步研究。"
+    "objectID": "library/papers/openscholar.html#核心问题",
+    "href": "library/papers/openscholar.html#核心问题",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "section": "核心问题",
+    "text": "核心问题\n如何让语言模型从大量科学论文中定位证据，并综合多篇文献形成可以追溯来源的回答？"
   },
   {
-    "objectID": "library/papers/li-2024-tpbm-safety.html#整理依据",
-    "href": "library/papers/li-2024-tpbm-safety.html#整理依据",
-    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
-    "section": "整理依据",
-    "text": "整理依据\n论文摘要见第 1 页。安全性结论适用于论文测试的参数和健康人群。刺激剂量、样本量、统计方法和随访窗口留待全文研读时逐项提取。"
+    "objectID": "library/papers/openscholar.html#方法概览",
+    "href": "library/papers/openscholar.html#方法概览",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "section": "方法概览",
+    "text": "方法概览\nOpenScholar 将学术语料检索、候选重排序和基于证据的生成相结合，并加入自我反馈以改进最终输出。论文介绍的系统以大规模公开获取的论文语料为基础。"
   },
   {
-    "objectID": "library/papers/li-2024-tpbm-safety.html#关联阅读",
-    "href": "library/papers/li-2024-tpbm-safety.html#关联阅读",
-    "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+    "objectID": "library/papers/openscholar.html#对藏经阁的启发",
+    "href": "library/papers/openscholar.html#对藏经阁的启发",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "section": "对藏经阁的启发",
+    "text": "对藏经阁的启发\n\n文献条目应保留 DOI、作者、发表信息与稳定来源。\nAI 问答需要返回原文依据，不应只输出没有出处的总结。\n大规模语料索引不是第一阶段 MVP 的必要条件。"
+  },
+  {
+    "objectID": "library/papers/openscholar.html#原文与实现",
+    "href": "library/papers/openscholar.html#原文与实现",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
+    "section": "原文与实现",
+    "text": "原文与实现\nNature 原文 · OpenScholar 开源实现"
+  },
+  {
+    "objectID": "library/papers/openscholar.html#关联阅读",
+    "href": "library/papers/openscholar.html#关联阅读",
+    "title": "Synthesizing scientific literature with retrieval-augmented language models",
     "section": "关联阅读",
-    "text": "关联阅读\n\n经颅光刺激：参数与安全性阅读线索\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息见论文首页。"
+    "text": "关联阅读\n文献精读与证据记录规范 · 研究专题索引"
   },
   {
-    "objectID": "library/papers/zhao-2023-alpha-attention.html",
-    "href": "library/papers/zhao-2023-alpha-attention.html",
-    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "论文笔记",
     "section": "",
-    "text": "作者： Chenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song\n发表信息： PLOS Biology, 21(3), e3002014 (2023)\nDOI： 10.1371/journal.pbio.3002014\n阅读进度： 已编目"
+    "text": "每天围绕一个问题，读三篇经颅光刺激论文和一篇相关的 fMRI 脑网络论文。按问题读 → 也可在下方筛选单篇笔记。\n\n  全部\n  经颅光刺激\n  fMRI 脑网络\n\n\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n一项早期对照研究用反应时间和正确次数，检验额部近红外刺激后的行为变化。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n小鼠实验测脑内腺苷和睡眠脑电，人体试验看失眠症状和入睡时间。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同一批参与者接受两种磁刺激，研究用静息态 fMRI 分开看平均连接和连接随时间的波动。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n22 名健康参与者接受四种主动刺激和一种假刺激，研究比较了运动诱发电位、血氧与手指动作。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n用 ASL MRI 对照基线、首次和第六次刺激后的脑灌注。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
   },
   {
-    "objectID": "library/papers/zhao-2023-alpha-attention.html#书目信息",
-    "href": "library/papers/zhao-2023-alpha-attention.html#书目信息",
-    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
+    "objectID": "notes/index.html#最近更新",
+    "href": "notes/index.html#最近更新",
+    "title": "论文笔记",
     "section": "",
-    "text": "作者： Chenguang Zhao; Yuanjun Kong; Dongwei Li; Jing Huang; Lujiao Kong; Xiaoli Li; Ole Jensen; Yan Song\n发表信息： PLOS Biology, 21(3), e3002014 (2023)\nDOI： 10.1371/journal.pbio.3002014\n阅读进度： 已编目"
-  },
-  {
-    "objectID": "library/papers/zhao-2023-alpha-attention.html#研究内容",
-    "href": "library/papers/zhao-2023-alpha-attention.html#研究内容",
-    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
-    "section": "研究内容",
-    "text": "研究内容\n围绕视觉空间线索、预期性 alpha 活动与干扰信息抑制的关系展开研究，收录于脑振荡和注意控制主题。"
-  },
-  {
-    "objectID": "library/papers/zhao-2023-alpha-attention.html#整理依据",
-    "href": "library/papers/zhao-2023-alpha-attention.html#整理依据",
-    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
-    "section": "整理依据",
-    "text": "整理依据\n依据已核对的题名与书目信息编目；方法、结果和证据评价将在全文研读后补充。"
-  },
-  {
-    "objectID": "library/papers/zhao-2023-alpha-attention.html#关联阅读",
-    "href": "library/papers/zhao-2023-alpha-attention.html#关联阅读",
-    "title": "Suppression of distracting inputs by visual-spatial cues is driven by anticipatory alpha activity",
-    "section": "关联阅读",
-    "text": "关联阅读\n\n脑电与认知：振荡、注意和解码\n成员公开论文索引\n\n\n\n来源\n\n期刊原文。书目信息经 Crossref 核对；同时收录于成员公开论文索引。"
+    "text": "每天围绕一个问题，读三篇经颅光刺激论文和一篇相关的 fMRI 脑网络论文。按问题读 → 也可在下方筛选单篇笔记。\n\n  全部\n  经颅光刺激\n  fMRI 脑网络\n\n\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n一项早期对照研究用反应时间和正确次数，检验额部近红外刺激后的行为变化。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n小鼠实验测脑内腺苷和睡眠脑电，人体试验看失眠症状和入睡时间。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同一批参与者接受两种磁刺激，研究用静息态 fMRI 分开看平均连接和连接随时间的波动。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n22 名健康参与者接受四种主动刺激和一种假刺激，研究比较了运动诱发电位、血氧与手指动作。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n用 ASL MRI 对照基线、首次和第六次刺激后的脑灌注。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
   },
   {
     "objectID": "notes/posts/barrett-2013-light-attention-memory.html",
     "href": "notes/posts/barrett-2013-light-attention-memory.html",
     "title": "早期人体光刺激研究怎么测注意和记忆？",
     "section": "",
-    "text": "Barrett 与 Gonzalez-Lima · Neuroscience · 2013 · 经典研究 · 摘要阅读"
+    "text": "Barrett 与 Gonzalez-Lima · Neuroscience · 2013 · 经典研究 · 全文阅读\n回到本期：刺激后，变的是行为、脑血流，还是脑网络？"
   },
   {
     "objectID": "notes/posts/barrett-2013-light-attention-memory.html#怎么做",
     "href": "notes/posts/barrett-2013-light-attention-memory.html#怎么做",
     "title": "早期人体光刺激研究怎么测注意和记忆？",
     "section": "怎么做",
-    "text": "怎么做\n40 名健康志愿者分入额部近红外激光刺激组和安慰对照组，各 20 人。研究用持续注意任务测反应时间，用延迟匹配任务测记忆提取速度和正确次数。"
+    "text": "怎么做\n40 名健康志愿者分入额部 1064 nm 近红外激光刺激组和安慰对照组，各 20 人。研究用持续注意任务测反应时间，用延迟匹配任务测记忆提取速度和正确次数。"
   },
   {
     "objectID": "notes/posts/barrett-2013-light-attention-memory.html#结果怎么读",
     "href": "notes/posts/barrett-2013-light-attention-memory.html#结果怎么读",
     "title": "早期人体光刺激研究怎么测注意和记忆？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n与对照组相比，刺激组在持续注意任务中的反应时间更短，延迟匹配任务的提取速度和正确次数也有改善。论文还报告了两周随访的自评情绪，属于与认知任务不同的测量。"
+    "text": "结果怎么读\n图 3 比较两组刺激前后的反应时间。纵轴越低，反应越快；组别与时间的交互为 p = 0.047。图 4 把记忆提取速度和正确次数分开画：提取速度的交互在排除一个离群值后为 p = 0.021，正确次数的交互为 p = 0.012，主要来自对照组下降。"
   },
   {
     "objectID": "notes/posts/barrett-2013-light-attention-memory.html#对实验设计有什么用",
     "href": "notes/posts/barrett-2013-light-attention-memory.html#对实验设计有什么用",
     "title": "早期人体光刺激研究怎么测注意和记忆？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n这是较早把经颅近红外刺激和人体认知任务放在同一对照设计中的研究。做类似实验时，可以预先选定主要指标，再同时看速度和正确率，以便识别被试是否用更快的反应换取了更多错误。\nPubMed 摘要 · DOI · 藏经阁书目 · 编辑这篇笔记"
+    "text": "对实验设计有什么用\n这是较早把经颅近红外刺激和人体认知任务放在同一对照设计中的研究。做类似实验时，可以预先选定主要指标，再同时看速度和正确率，以便识别被试是否用更快的反应换取了更多错误。\n公开全文与图表 · PubMed 摘要 · DOI · 藏经阁书目 · 编辑这篇笔记"
   },
   {
     "objectID": "notes/posts/li-2026-precuneus-fmri.html",
     "href": "notes/posts/li-2026-precuneus-fmri.html",
     "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
     "section": "",
-    "text": "Li 等 · Brain Topography · 2026 年在线发表 · 摘要阅读"
+    "text": "Li 等 · Brain Topography · 2026 年在线发表 · 摘要与公开图表\n回到本期：刺激后，变的是行为、脑血流，还是脑网络？"
   },
   {
     "objectID": "notes/posts/li-2026-precuneus-fmri.html#怎么做",
@@ -578,56 +613,98 @@
     "href": "notes/posts/li-2026-precuneus-fmri.html#结果怎么读",
     "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n静态功能连接把一段扫描概括成平均关联，动态分析看关联如何随时间变化。静态分析中，刺激条件和亚区之间未见显著交互。动态分析则在右侧眶部额下回发现交互，提示不同刺激条件下，三个亚区的连接波动表现有差别。"
+    "text": "结果怎么读\n图 3 用静态功能连接概括一段扫描中的平均关联，刺激条件和楔前叶亚区之间未见显著交互。\n图 4 看的是连接随时间的波动，交互出现在右侧眶部额下回。间歇性磁刺激后，腹侧楔前叶的连接波动高于背前亚区；连续性磁刺激后，背前、背后亚区的波动都高于腹侧。两张图检验的是不同指标，可以分别设为研究问题。"
   },
   {
     "objectID": "notes/posts/li-2026-precuneus-fmri.html#对实验设计有什么用",
     "href": "notes/posts/li-2026-precuneus-fmri.html#对实验设计有什么用",
     "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n可以在分析前定义亚区，并分开设定静态和动态指标。这里测到的是静息态连接变化，研究摘要未报告相应的行为改善。\n期刊原文与摘要 · 编辑这篇笔记"
+    "text": "对实验设计有什么用\n可以在分析前定义亚区，并分开设定静态和动态指标。这里测到的是静息态连接变化，研究摘要未报告相应的行为改善。\n期刊摘要与公开图表 · 编辑这篇笔记"
   },
   {
-    "objectID": "notes/posts/personalized-neuromodulation.html",
-    "href": "notes/posts/personalized-neuromodulation.html",
-    "title": "从靶点个体化到频率个体化",
+    "objectID": "notes/posts/nawrocik-madrid-2026-light-asl.html",
+    "href": "notes/posts/nawrocik-madrid-2026-light-asl.html",
+    "title": "额部光刺激后，第一次和第六次的脑血流一样吗？",
     "section": "",
-    "text": "按个体功能网络选择靶点之后，是否还需要按个体选择刺激频率？"
+    "text": "Nawrocik-Madrid 等 · Psychiatry Research · 2026 年 10 月 23 日在线 · 摘要阅读\n回到本期：刺激后，变的是行为、脑血流，还是脑网络？"
   },
   {
-    "objectID": "notes/posts/personalized-neuromodulation.html#核心问题",
-    "href": "notes/posts/personalized-neuromodulation.html#核心问题",
-    "title": "从靶点个体化到频率个体化",
+    "objectID": "notes/posts/nawrocik-madrid-2026-light-asl.html#怎么做",
+    "href": "notes/posts/nawrocik-madrid-2026-light-asl.html#怎么做",
+    "title": "额部光刺激后，第一次和第六次的脑血流一样吗？",
+    "section": "怎么做",
+    "text": "怎么做\n29 名处于缓解期的双相障碍参与者接受六次经颅光生物调节，每周一次，靶点是双侧额极（BA10）。研究在基线、首次和第六次刺激后 24 小时内采集动脉自旋标记（ASL）MRI，用血液中的水作为示踪物估算脑灌注。"
+  },
+  {
+    "objectID": "notes/posts/nawrocik-madrid-2026-light-asl.html#结果怎么读",
+    "href": "notes/posts/nawrocik-madrid-2026-light-asl.html#结果怎么读",
+    "title": "额部光刺激后，第一次和第六次的脑血流一样吗？",
+    "section": "结果怎么读",
+    "text": "结果怎么读\n首次刺激后，左侧额上回（BA10）和左侧眶额皮层（BA11）的灌注较基线升高。到第六次刺激后，这两个区域及右侧前扣带皮层（BA32）的灌注较首次刺激后降低。“较首次降低”不等于“低于基线”。摘要报告的是区域灌注，也未描述假刺激对照。"
+  },
+  {
+    "objectID": "notes/posts/nawrocik-madrid-2026-light-asl.html#对实验设计有什么用",
+    "href": "notes/posts/nawrocik-madrid-2026-light-asl.html#对实验设计有什么用",
+    "title": "额部光刺激后，第一次和第六次的脑血流一样吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n想比较单次反应和多次疗程，可在首次和末次刺激后各加一次扫描，并统一刺激结束到扫描的间隔。分析时分别报告“首次后对基线”“末次后对首次后”和“末次后对基线”。如果要判断变化是否来自刺激，加入平行的假刺激比较。\nPubMed 摘要（PMID 42956654） · DOI · 编辑这篇笔记"
+  },
+  {
+    "objectID": "notes/posts/reading-guide.html",
+    "href": "notes/posts/reading-guide.html",
+    "title": "文献精读与证据记录规范",
     "section": "",
-    "text": "按个体功能网络选择靶点之后，是否还需要按个体选择刺激频率？"
+    "text": "这份规范用于记录研究问题、方法、关键证据和局限，统一文献精读的结构。"
   },
   {
-    "objectID": "notes/posts/personalized-neuromodulation.html#论文思路",
-    "href": "notes/posts/personalized-neuromodulation.html#论文思路",
-    "title": "从靶点个体化到频率个体化",
-    "section": "论文思路",
-    "text": "论文思路\n这项研究先用同步 TMS–fMRI 定位个体网络及刺激靶点，再通过实时解码比较 5、10、20 Hz 所诱发的脑状态。随后在多次访视的交叉研究中比较个体最优与次优频率。\n摘要报告，只有所测试频率中表现最好的频率条件显著改善工作记忆，解码器输出能够预测行为收益；个体之间的最佳频率并不一致。\n证据位置：原文 PDF 第 1 页摘要；第 1–2 页引言。本札记基于上述部分，全文研读后再补样本量、效应量及图表比较。"
+    "objectID": "notes/posts/reading-guide.html#确认文献来源",
+    "href": "notes/posts/reading-guide.html#确认文献来源",
+    "title": "文献精读与证据记录规范",
+    "section": "1. 确认文献来源",
+    "text": "1. 确认文献来源\n优先记录 DOI、arXiv ID、正式发表链接及版本信息，避免只保留一个文件名。"
   },
   {
-    "objectID": "notes/posts/personalized-neuromodulation.html#对后续阅读的启发",
-    "href": "notes/posts/personalized-neuromodulation.html#对后续阅读的启发",
-    "title": "从靶点个体化到频率个体化",
-    "section": "对后续阅读的启发",
-    "text": "对后续阅读的启发\n可以把“靶点是否合适”和“刺激参数是否合适”作为两个相互联系的问题。比较文献时，除刺激坐标外，还应记录参数搜索范围、用于选参的脑状态指标，以及选参数据和验证数据如何划分。\n这篇论文的频率选择发生在 TMS 的 5、10、20 Hz 范围内。对经颅光刺激，值得借鉴的是个体网络定位与参数验证的研究思路。"
+    "objectID": "notes/posts/reading-guide.html#提炼三个问题",
+    "href": "notes/posts/reading-guide.html#提炼三个问题",
+    "title": "文献精读与证据记录规范",
+    "section": "2. 提炼三个问题",
+    "text": "2. 提炼三个问题\n\n论文解决了什么具体问题？\n使用了哪些关键方法、数据和假设？\n哪些主要结论有清晰的证据支持？"
   },
   {
-    "objectID": "notes/posts/personalized-neuromodulation.html#全文研读问题",
-    "href": "notes/posts/personalized-neuromodulation.html#全文研读问题",
-    "title": "从靶点个体化到频率个体化",
-    "section": "全文研读问题",
-    "text": "全文研读问题\n\n定位、选频与行为验证各包含多少被试和访视？数据是否独立？\n最优和次优频率如何确定，是否设置假刺激、盲法和顺序平衡？\n工作记忆改善的效应量、持续时间与多重比较处理如何？\n解码指标能否跨访视泛化，是否在独立样本验证？"
+    "objectID": "notes/posts/reading-guide.html#保存可追溯的证据",
+    "href": "notes/posts/reading-guide.html#保存可追溯的证据",
+    "title": "文献精读与证据记录规范",
+    "section": "3. 保存可追溯的证据",
+    "text": "3. 保存可追溯的证据\n对于重要事实，写明论文页码、图表编号或章节位置。将研究者自己的推断与论文作者的结论分开。"
   },
   {
-    "objectID": "notes/posts/personalized-neuromodulation.html#关联条目",
-    "href": "notes/posts/personalized-neuromodulation.html#关联条目",
-    "title": "从靶点个体化到频率个体化",
-    "section": "关联条目",
-    "text": "关联条目\n文献卡片 · 个体化脑网络与神经调控专题"
+    "objectID": "notes/posts/reading-guide.html#记录局限和争议",
+    "href": "notes/posts/reading-guide.html#记录局限和争议",
+    "title": "文献精读与证据记录规范",
+    "section": "4. 记录局限和争议",
+    "text": "4. 记录局限和争议\n说明样本大小、研究场景、方法假设与潜在偏差；必要时关联持相反观点的论文。"
+  },
+  {
+    "objectID": "notes/posts/reading-guide.html#经审核后公开",
+    "href": "notes/posts/reading-guide.html#经审核后公开",
+    "title": "文献精读与证据记录规范",
+    "section": "5. 经审核后公开",
+    "text": "5. 经审核后公开\n发布前核对引文与原文的一致性，以及材料的公开范围和使用许可。"
+  },
+  {
+    "objectID": "notes/posts/reading-guide.html#建议笔记模板",
+    "href": "notes/posts/reading-guide.html#建议笔记模板",
+    "title": "文献精读与证据记录规范",
+    "section": "建议笔记模板",
+    "text": "建议笔记模板\n请复制 templates/note.qmd，按研究专题填写相应信息。编辑时可以保留未完成标记，但正式发布前应删除无效链接。"
+  },
+  {
+    "objectID": "notes/posts/reading-guide.html#关联文献与专题",
+    "href": "notes/posts/reading-guide.html#关联文献与专题",
+    "title": "文献精读与证据记录规范",
+    "section": "关联文献与专题",
+    "text": "关联文献与专题\n\nOpenScholar 文献卡片：查看 DOI、版本与公开来源的记录示例。\n研究专题索引：按科学问题组织后续阅读。"
   },
   {
     "objectID": "publications/index.html",

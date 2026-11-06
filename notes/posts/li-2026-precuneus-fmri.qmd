@@ -5,7 +5,9 @@ description: "同一批参与者接受两种磁刺激，研究用静息态 fMRI 
 categories: [fMRI 脑网络]
 ---
 
-Li 等 · *Brain Topography* · 2026 年在线发表 · 摘要阅读
+Li 等 · *Brain Topography* · 2026 年在线发表 · 摘要与公开图表
+
+[回到本期：刺激后，变的是行为、脑血流，还是脑网络？](../issues/2026-11-06-stimulation-measures.qmd)
 
 ## 怎么做
 
@@ -13,10 +15,12 @@ Li 等 · *Brain Topography* · 2026 年在线发表 · 摘要阅读
 
 ## 结果怎么读
 
-静态功能连接把一段扫描概括成平均关联，动态分析看关联如何随时间变化。静态分析中，刺激条件和亚区之间未见显著交互。动态分析则在右侧眶部额下回发现交互，提示不同刺激条件下，三个亚区的连接波动表现有差别。
+**图 3** 用静态功能连接概括一段扫描中的平均关联，刺激条件和楔前叶亚区之间未见显著交互。
+
+**图 4** 看的是连接随时间的波动，交互出现在右侧眶部额下回。间歇性磁刺激后，腹侧楔前叶的连接波动高于背前亚区；连续性磁刺激后，背前、背后亚区的波动都高于腹侧。两张图检验的是不同指标，可以分别设为研究问题。
 
 ## 对实验设计有什么用
 
 可以在分析前定义亚区，并分开设定静态和动态指标。这里测到的是静息态连接变化，研究摘要未报告相应的行为改善。
 
-[期刊原文与摘要](https://link.springer.com/article/10.1007/s10548-026-01270-y) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/li-2026-precuneus-fmri.qmd)
+[期刊摘要与公开图表](https://link.springer.com/article/10.1007/s10548-026-01270-y) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/li-2026-precuneus-fmri.qmd)

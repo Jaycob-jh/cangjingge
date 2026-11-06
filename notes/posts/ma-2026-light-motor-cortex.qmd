@@ -5,7 +5,9 @@ description: "22 名健康参与者接受四种主动刺激和一种假刺激，
 categories: [经颅光刺激]
 ---
 
-Ma 等 · *Journal of NeuroEngineering and Rehabilitation* · 2026 · 摘要阅读
+Ma 等 · *Journal of NeuroEngineering and Rehabilitation* · 2026 · 已接收稿全文阅读
+
+[回到本期：刺激后，变的是行为、脑血流，还是脑网络？](../issues/2026-11-06-stimulation-measures.qmd)
 
 ## 怎么做
 
@@ -13,10 +15,12 @@ Ma 等 · *Journal of NeuroEngineering and Rehabilitation* · 2026 · 摘要阅�
 
 ## 结果怎么读
 
-刺激后 30 分钟，1064 nm、40 Hz 脉冲条件的运动诱发电位幅度大于两个连续光条件。与假刺激相比，这一条件下右手对指动作完成的循环次数也更多。运动诱发电位反映运动通路的反应，功能近红外光谱测到的则是血氧变化，两个指标要分开看。
+**图 3** 横轴是刺激后 0、10、20、30 分钟，纵轴是运动诱发电位（MEP）较基线的变化百分比。四种主动条件在这些时间点均高于假刺激。30 分钟时，1064 nm、40 Hz 脉冲条件高于两种连续光条件；这组比较并未显示它优于 810 nm、40 Hz 脉冲。
+
+**图 5** 画的是对指动作循环次数的前后差。1064 nm、40 Hz 脉冲条件下，右手次数的增量大于假刺激（校正后 p = 0.035）。**图 6** 画的是功能近红外光谱（fNIRS）的任务血氧响应：同一条件下，左手任务的 11 个通道刺激后响应降低（FDR 校正）。两张图的任务用手和参照条件都不同，不能直接用后者解释前者。
 
 ## 对实验设计有什么用
 
 这组比较适合用来设计波长与脉冲方式的对照。结果对应本研究所用的运动皮层靶点、健康人群与观察时段。
 
-[期刊原文与摘要](https://link.springer.com/article/10.1186/s12984-026-02122-3) · [藏经阁书目](../../library/record.html?id=paper-3284eaa3fac63ef7) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/ma-2026-light-motor-cortex.qmd)
+[期刊与已接收稿（含图 3–6）](https://link.springer.com/article/10.1186/s12984-026-02122-3) · [藏经阁书目](../../library/record.html?id=paper-3284eaa3fac63ef7) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/ma-2026-light-motor-cortex.qmd)

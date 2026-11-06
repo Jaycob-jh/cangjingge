@@ -423,7 +423,7 @@ main.content h1, main.content h2, main.content h3 { overflow-wrap: anywhere; }
   .hero-section.zk-home-lead { grid-template-columns: minmax(0, 1fr); }
 }
 
-#notes-topics .btn[aria-pressed="true"] {
+:is(#notes-topics, #question-topics) .btn[aria-pressed="true"] {
   color: var(--bs-btn-active-color);
   background-color: var(--bs-btn-active-bg);
   border-color: var(--bs-btn-active-border-color);

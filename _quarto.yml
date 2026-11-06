@@ -12,6 +12,7 @@ project:
     - "library/papers/*.qmd"
     - "notes/*.qmd"
     - "notes/posts/*.qmd"
+    - "notes/issues/*.qmd"
     - "publications/*.qmd"
     - "join/*.qmd"
 

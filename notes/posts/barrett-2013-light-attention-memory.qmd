@@ -5,18 +5,20 @@ description: "一项早期对照研究用反应时间和正确次数，检验额
 categories: [经颅光刺激]
 ---
 
-Barrett 与 Gonzalez-Lima · *Neuroscience* · 2013 · 经典研究 · 摘要阅读
+Barrett 与 Gonzalez-Lima · *Neuroscience* · 2013 · 经典研究 · 全文阅读
+
+[回到本期：刺激后，变的是行为、脑血流，还是脑网络？](../issues/2026-11-06-stimulation-measures.qmd)
 
 ## 怎么做
 
-40 名健康志愿者分入额部近红外激光刺激组和安慰对照组，各 20 人。研究用持续注意任务测反应时间，用延迟匹配任务测记忆提取速度和正确次数。
+40 名健康志愿者分入额部 1064 nm 近红外激光刺激组和安慰对照组，各 20 人。研究用持续注意任务测反应时间，用延迟匹配任务测记忆提取速度和正确次数。
 
 ## 结果怎么读
 
-与对照组相比，刺激组在持续注意任务中的反应时间更短，延迟匹配任务的提取速度和正确次数也有改善。论文还报告了两周随访的自评情绪，属于与认知任务不同的测量。
+图 3 比较两组刺激前后的反应时间。纵轴越低，反应越快；组别与时间的交互为 p = 0.047。图 4 把记忆提取速度和正确次数分开画：提取速度的交互在排除一个离群值后为 p = 0.021，正确次数的交互为 p = 0.012，主要来自对照组下降。
 
 ## 对实验设计有什么用
 
 这是较早把经颅近红外刺激和人体认知任务放在同一对照设计中的研究。做类似实验时，可以预先选定主要指标，再同时看速度和正确率，以便识别被试是否用更快的反应换取了更多错误。
 
-[PubMed 摘要](https://pubmed.ncbi.nlm.nih.gov/23200785/) · [DOI](https://doi.org/10.1016/j.neuroscience.2012.11.016) · [藏经阁书目](../../library/record.html?id=paper-b0415ef3bb9a3fca) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/barrett-2013-light-attention-memory.qmd)
+[公开全文与图表](https://gwern.net/doc/nootropic/2013-barrett.pdf) · [PubMed 摘要](https://pubmed.ncbi.nlm.nih.gov/23200785/) · [DOI](https://doi.org/10.1016/j.neuroscience.2012.11.016) · [藏经阁书目](../../library/record.html?id=paper-b0415ef3bb9a3fca) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/barrett-2013-light-attention-memory.qmd)

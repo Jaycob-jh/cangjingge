@@ -1,0 +1,44 @@
+---
+title: "按问题读"
+subtitle: "每期围绕一个实验问题，串读三篇经颅光刺激论文和一篇相关的 fMRI 脑网络论文。"
+toc: false
+page-layout: full
+listing:
+  id: reading-issues
+  contents: "issues/*.qmd"
+  type: default
+  fields: [date, title, description]
+  sort: "date desc"
+  categories: false
+  page-size: 12
+---
+
+[返回论文笔记](index.qmd)
+
+单篇论文的笔记也可以独立阅读。
+
+```{=html}
+<div id="question-topics" class="d-flex flex-wrap gap-2 mb-3" role="group" aria-label="按问题分类筛选荐读">
+  <button type="button" class="btn btn-outline-primary" data-topic="" aria-pressed="true">全部</button>
+  <button type="button" class="btn btn-outline-primary" data-topic="刺激参数与剂量" aria-pressed="false">刺激参数与剂量</button>
+  <button type="button" class="btn btn-outline-primary" data-topic="脑活动与脑网络" aria-pressed="false">脑活动与脑网络</button>
+  <button type="button" class="btn btn-outline-primary" data-topic="认知与睡眠" aria-pressed="false">认知与睡眠</button>
+  <button type="button" class="btn btn-outline-primary" data-topic="安全与临床转化" aria-pressed="false">安全与临床转化</button>
+</div>
+<script>
+  const questionTopics = document.querySelectorAll("#question-topics button");
+  const selectedQuestionTopic = new URLSearchParams(location.hash.slice(1)).get("category") || "";
+  for (const button of questionTopics) {
+    button.setAttribute("aria-pressed", String(button.dataset.topic === selectedQuestionTopic));
+    button.addEventListener("click", () => {
+      window.quartoListingCategory(btoa(encodeURIComponent(button.dataset.topic)));
+      for (const option of questionTopics) {
+        option.setAttribute("aria-pressed", String(option === button));
+      }
+    });
+  }
+</script>
+```
+
+:::{#reading-issues}
+:::

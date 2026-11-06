@@ -1,13 +1,8 @@
 [
   {
-    "listing": "/notes/index.html",
+    "listing": "/notes/questions.html",
     "items": [
-      "/notes/posts/barrett-2013-light-attention-memory.html",
-      "/notes/posts/jung-2026-light-adenosine-sleep.html",
-      "/notes/posts/li-2026-precuneus-fmri.html",
-      "/notes/posts/ma-2026-light-motor-cortex.html",
-      "/notes/posts/personalized-neuromodulation.html",
-      "/notes/posts/reading-guide.html"
+      "/notes/issues/2026-11-06-stimulation-measures.html"
     ]
   },
   {
@@ -18,6 +13,18 @@
       "/library/papers/li-2024-tpbm-safety.html",
       "/library/papers/jia-2023-mi-bci.html",
       "/library/papers/zhao-2023-alpha-attention.html"
+    ]
+  },
+  {
+    "listing": "/notes/index.html",
+    "items": [
+      "/notes/posts/barrett-2013-light-attention-memory.html",
+      "/notes/posts/jung-2026-light-adenosine-sleep.html",
+      "/notes/posts/li-2026-precuneus-fmri.html",
+      "/notes/posts/ma-2026-light-motor-cortex.html",
+      "/notes/posts/nawrocik-madrid-2026-light-asl.html",
+      "/notes/posts/personalized-neuromodulation.html",
+      "/notes/posts/reading-guide.html"
     ]
   }
 ]

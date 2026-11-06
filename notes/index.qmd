@@ -17,7 +17,7 @@ listing:
 
 ## 最近更新
 
-每天推荐经颅光刺激和 fMRI 脑网络论文。可以按主题筛选，也可以搜索题名。
+每天围绕一个问题，读三篇经颅光刺激论文和一篇相关的 fMRI 脑网络论文。[按问题读 →](questions.qmd) 也可在下方筛选单篇笔记。
 
 ```{=html}
 <div id="notes-topics" class="d-flex flex-wrap gap-2 mb-3" role="group" aria-label="按主题筛选笔记">
