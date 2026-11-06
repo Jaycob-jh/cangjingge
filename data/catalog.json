@@ -358,7 +358,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "06",
         "07",
         "07.03",
@@ -1203,7 +1202,6 @@
         "02",
         "02.01",
         "02.04",
-        "02.05",
         "02.06",
         "02.07",
         "02.09",
@@ -1849,7 +1847,8 @@
       "topics": [
         "02.06",
         "04.01",
-        "07.06"
+        "07.06",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-a83bafd1e3ae4edd"
@@ -2620,7 +2619,8 @@
       "type": "journalArticle",
       "topics": [
         "02.06",
-        "07.06"
+        "07.06",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-01a7feba49c7fa4a"
@@ -2734,7 +2734,9 @@
       "issue": "",
       "pages": "1542462",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目",
       "id": "paper-7eec1d9e53ff2b4d"
     },
@@ -4337,7 +4339,9 @@
       "issue": "1",
       "pages": "1-7",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目",
       "id": "paper-0bc54ad47e0694a2"
     },
@@ -4713,7 +4717,9 @@
       "issue": "",
       "pages": "1427462",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目",
       "id": "paper-dcdda6504fecf9b5"
     },
@@ -5410,7 +5416,9 @@
       "issue": "1",
       "pages": "76",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目",
       "id": "paper-5a3409516e94d617"
     },
@@ -5629,7 +5637,8 @@
         "04",
         "04.05",
         "07",
-        "07.02"
+        "07.02",
+        "02.05"
       ],
       "reading_status": "已编目",
       "id": "paper-5111919cdc1e542f"
@@ -6553,7 +6562,9 @@
       "issue": "2",
       "pages": "261-275",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目",
       "id": "paper-eb02fc3ecd4bc536"
     },
@@ -6852,7 +6863,10 @@
         "02",
         "02.01",
         "02.03",
-        "02.06"
+        "02.06",
+        "02.02",
+        "02.04",
+        "02.05"
       ],
       "reading_status": "已编目",
       "id": "paper-eadd4ea94f306643"
@@ -7306,7 +7320,8 @@
         "04",
         "04.01",
         "05",
-        "05.01"
+        "05.01",
+        "02.02"
       ],
       "reading_status": "已编目",
       "id": "paper-e915111b19c8fdd5"
@@ -7773,8 +7788,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.02",
-        "02.03",
         "02.04",
         "02.06",
         "02.08",
@@ -8051,7 +8064,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "02.05",
         "07",
         "07.06"
@@ -8383,7 +8395,6 @@
         "01.07",
         "01.08",
         "02",
-        "02.02",
         "02.04",
         "02.06",
         "02.07",
@@ -8427,7 +8438,6 @@
         "02",
         "02.01",
         "02.02",
-        "02.03",
         "02.07",
         "02.08",
         "05",
@@ -8716,7 +8726,6 @@
         "01.05",
         "01.06",
         "02",
-        "02.05",
         "04",
         "04.05",
         "06",
@@ -8749,7 +8758,9 @@
       "issue": "4",
       "pages": "3221",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目",
       "id": "paper-8817d13613db48de"
     },
@@ -10171,7 +10182,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.02",
         "02.04",
         "02.06",
         "05",
@@ -10296,7 +10306,8 @@
       "topics": [
         "02",
         "05",
-        "05.03"
+        "05.03",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-e8f1198e1e1f09d3"
@@ -13566,14 +13577,13 @@
       "topics": [
         "02",
         "02.01",
-        "02.02",
-        "02.05",
         "02.07",
         "02.08",
         "04",
         "04.01",
         "07",
-        "07.06"
+        "07.06",
+        "02.03"
       ],
       "reading_status": "已编目",
       "id": "paper-14d1d997a6dab788"
@@ -13765,7 +13775,9 @@
       "issue": "2",
       "pages": "331-348",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目",
       "id": "paper-14c8eab4b7ae0fa8"
     },
@@ -15972,7 +15984,6 @@
         "02",
         "02.01",
         "02.02",
-        "02.03",
         "02.06",
         "02.07",
         "02.08",
@@ -16248,7 +16259,9 @@
       "issue": "3",
       "pages": "823-832",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目",
       "id": "paper-620a47c9e4dc2aac"
     },
@@ -16336,7 +16349,8 @@
         "04.02",
         "04.03",
         "05",
-        "05.02"
+        "05.02",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-06abb64e10a2e88c"
@@ -16568,7 +16582,8 @@
         "01.07",
         "02",
         "02.01",
-        "02.07"
+        "02.07",
+        "02.05"
       ],
       "reading_status": "已编目",
       "id": "paper-bb9b671fa91d08ad"
@@ -16664,7 +16679,6 @@
         "01.06",
         "01.07",
         "02",
-        "02.04",
         "03",
         "03.01",
         "03.02",
@@ -18407,7 +18421,8 @@
       "pages": "",
       "type": "preprint",
       "topics": [
-        "02"
+        "02",
+        "02.03"
       ],
       "reading_status": "已编目",
       "id": "paper-e90c8f8039ad23ae"
@@ -18731,7 +18746,6 @@
         "02",
         "02.01",
         "02.02",
-        "02.05",
         "02.06",
         "02.07",
         "02.08",
@@ -18855,7 +18869,8 @@
         "06.04",
         "07",
         "07.01",
-        "07.02"
+        "07.02",
+        "02.05"
       ],
       "reading_status": "已编目",
       "id": "paper-82cbea76dcd17250"
@@ -19650,7 +19665,8 @@
         "02.01",
         "04",
         "04.01",
-        "04.03"
+        "04.03",
+        "02.03"
       ],
       "reading_status": "已编目",
       "id": "paper-9ad22efb60ed3d46"
@@ -19769,7 +19785,10 @@
       "issue": "2",
       "pages": "195-225",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03"
+      ],
       "reading_status": "已编目",
       "id": "paper-dd616ab683e897a0"
     },
@@ -20051,7 +20070,9 @@
       "issue": "",
       "pages": "117698",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目",
       "id": "paper-ca4a10b030b3be74"
     },
@@ -21895,7 +21916,6 @@
         "01.07",
         "02",
         "02.01",
-        "02.02",
         "02.03",
         "02.05",
         "02.06",
@@ -22202,7 +22222,6 @@
         "01.02",
         "02",
         "02.01",
-        "02.02",
         "02.03",
         "02.06",
         "02.07",
@@ -22753,7 +22772,6 @@
         "01",
         "01.01",
         "02",
-        "02.04",
         "06",
         "06.01"
       ],
@@ -22828,7 +22846,6 @@
         "01",
         "01.01",
         "02",
-        "02.03",
         "04",
         "04.01",
         "04.02",
@@ -24274,7 +24291,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.02",
         "02.04",
         "02.06"
       ],
@@ -25678,10 +25694,10 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "02.06",
         "07",
-        "07.06"
+        "07.06",
+        "02.05"
       ],
       "reading_status": "已编目",
       "id": "paper-f379744d73fcb07e"
@@ -26089,7 +26105,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.03",
         "02.04",
         "02.08",
         "04",
@@ -26979,7 +26994,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "02.05",
         "02.06",
         "02.07",
@@ -27048,7 +27062,8 @@
       "pages": "",
       "type": "preprint",
       "topics": [
-        "06"
+        "06",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-6c7037a72f25ff5e"
@@ -28144,7 +28159,8 @@
       "pages": "",
       "type": "preprint",
       "topics": [
-        "02"
+        "02",
+        "02.02"
       ],
       "reading_status": "已编目",
       "id": "paper-05d96929f0d17039"
@@ -28492,7 +28508,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "02.05",
         "02.06",
         "02.08",
@@ -29482,7 +29497,9 @@
       "issue": "",
       "pages": "934-951",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目",
       "id": "paper-f6116ecf1c4c8286"
     },
@@ -30280,7 +30297,8 @@
         "06.01",
         "07",
         "07.02",
-        "07.06"
+        "07.06",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-2553e3630e08f1b3"
@@ -30629,7 +30647,10 @@
       "issue": "1",
       "pages": "1-18",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03"
+      ],
       "reading_status": "已编目",
       "id": "paper-2514067412670d3f"
     },
@@ -30655,7 +30676,8 @@
       "type": "journalArticle",
       "topics": [
         "02.06",
-        "07.06"
+        "07.06",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-5415a9c2b3c642bc"
@@ -30685,7 +30707,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.02",
         "02.03",
         "02.05",
         "02.06",
@@ -30913,7 +30934,10 @@
       "issue": "11",
       "pages": "2318-2329",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03"
+      ],
       "reading_status": "已编目",
       "id": "paper-8d78c5030b0367cc"
     },
@@ -31438,7 +31462,8 @@
         "04",
         "04.01",
         "04.02",
-        "04.05"
+        "04.05",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-9b0173248fd16760"
@@ -32440,7 +32465,6 @@
       "type": "manual",
       "topics": [
         "02",
-        "02.04",
         "06",
         "06.01"
       ],
@@ -32590,7 +32614,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "02.06",
         "02.09"
       ],
@@ -32719,7 +32742,8 @@
         "04.02",
         "04.05",
         "05",
-        "05.01"
+        "05.01",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-d91593e46ae4015d"
@@ -33372,7 +33396,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "04"
       ],
       "reading_status": "已编目",
@@ -33402,7 +33425,6 @@
         "01",
         "01.07",
         "02",
-        "02.04",
         "02.05"
       ],
       "reading_status": "已编目",
@@ -33452,7 +33474,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.02",
         "02.04",
         "02.06",
         "04",
@@ -33571,7 +33592,6 @@
       "topics": [
         "02",
         "02.01",
-        "02.04",
         "02.05",
         "04",
         "04.01",
@@ -33811,7 +33831,8 @@
         "02",
         "02.06",
         "04",
-        "04.05"
+        "04.05",
+        "02.05"
       ],
       "reading_status": "已编目",
       "id": "paper-00783a75cda86792"
@@ -34761,7 +34782,8 @@
         "04",
         "04.03",
         "07",
-        "07.06"
+        "07.06",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-dc24bf84579acf05"
@@ -35127,7 +35149,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.02",
         "02.03",
         "02.06",
         "02.07",
@@ -35393,7 +35414,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.02",
         "02.03",
         "02.06",
         "05",
@@ -36150,7 +36170,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.02",
         "02.04",
         "02.06",
         "02.08",
@@ -36214,7 +36233,8 @@
       "topics": [
         "02",
         "05",
-        "05.04"
+        "05.04",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-9e555dfdffee3aaa"
@@ -37258,7 +37278,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "06",
         "06.05"
       ],
@@ -38006,7 +38025,6 @@
         "01",
         "01.07",
         "02",
-        "02.04",
         "07",
         "07.02"
       ],
@@ -38138,7 +38156,9 @@
       "issue": "2",
       "pages": "590-596",
       "type": "journalArticle",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目",
       "id": "paper-38534a01f1a8efe2"
     },
@@ -38497,7 +38517,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.02",
         "02.03",
         "02.06",
         "04",
@@ -38870,7 +38889,8 @@
         "04",
         "04.01",
         "07",
-        "07.06"
+        "07.06",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-1e14ae3a59fe2b16"
@@ -38903,7 +38923,8 @@
         "05",
         "05.04",
         "07",
-        "07.06"
+        "07.06",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-8c258ba0c3f386df"
@@ -39364,7 +39385,8 @@
         "05.05",
         "07",
         "07.04",
-        "07.06"
+        "07.06",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-d5fdeff7b46b1331"
@@ -39547,7 +39569,8 @@
         "05",
         "05.01",
         "06",
-        "06.01"
+        "06.01",
+        "02.03"
       ],
       "reading_status": "已编目",
       "id": "paper-004661ecc5e1c23b"
@@ -39822,7 +39845,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "05",
         "05.01",
         "05.02",
@@ -39996,7 +40018,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "06",
         "06.04",
         "06.05"
@@ -40366,8 +40387,6 @@
         "01",
         "01.04",
         "02",
-        "02.02",
-        "02.04",
         "02.07",
         "02.08"
       ],
@@ -40491,7 +40510,6 @@
         "01",
         "01.07",
         "02",
-        "02.04",
         "07",
         "07.06"
       ],
@@ -40595,7 +40613,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "06",
         "06.01",
         "06.03",
@@ -40808,8 +40825,7 @@
       "pages": "",
       "type": "report",
       "topics": [
-        "02",
-        "02.04"
+        "02"
       ],
       "url": "https://www.lni.wa.gov/patient-care/_docs/LLLTTechAssessMay032004.pdf",
       "reading_status": "已编目",
@@ -40907,8 +40923,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.02",
-        "02.04",
         "02.07",
         "03",
         "03.01",
@@ -40939,7 +40953,8 @@
         "04",
         "04.03",
         "05",
-        "05.04"
+        "05.04",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-8d93e61e588075da"
@@ -41136,7 +41151,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "06"
       ],
       "reading_status": "已编目",
@@ -41322,7 +41336,6 @@
       "type": "journalArticle",
       "topics": [
         "02",
-        "02.04",
         "04",
         "04.03",
         "06",
@@ -41392,8 +41405,7 @@
       "pages": "735-735",
       "type": "journalArticle",
       "topics": [
-        "02",
-        "02.04"
+        "02"
       ],
       "reading_status": "已编目",
       "id": "paper-9a3ed956360fb5d5"
@@ -41704,7 +41716,9 @@
       "issue": "5",
       "pages": "",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.05"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -41828,7 +41842,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -41997,7 +42013,9 @@
       "issue": "9",
       "pages": "1000",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42015,7 +42033,9 @@
       "issue": "",
       "pages": "kvag010",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42078,7 +42098,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42101,7 +42123,9 @@
       "issue": "1958",
       "pages": "20240466",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42122,7 +42146,9 @@
       "issue": "",
       "pages": "121908",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42148,7 +42174,9 @@
       "issue": "",
       "pages": "3913-3923",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42170,7 +42198,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42202,7 +42232,9 @@
       "issue": "",
       "pages": "0313",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42221,7 +42253,9 @@
       "issue": "1",
       "pages": "31",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42244,7 +42278,9 @@
       "issue": "",
       "pages": "",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42264,7 +42300,9 @@
       "issue": "5",
       "pages": "26m04219",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42435,7 +42473,9 @@
       "issue": "",
       "pages": "15500594261487817",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42535,7 +42575,10 @@
       "issue": "9",
       "pages": "117250",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42556,7 +42599,11 @@
       "issue": "1",
       "pages": "161",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03",
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42579,7 +42626,10 @@
       "issue": "",
       "pages": "1853609",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42632,7 +42682,9 @@
       "issue": "",
       "pages": "122515",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42658,7 +42710,9 @@
       "issue": "",
       "pages": "626976",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42676,7 +42730,9 @@
       "issue": "3",
       "pages": "103094",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42826,7 +42882,9 @@
       "issue": "4",
       "pages": "",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42850,7 +42908,9 @@
       "issue": "9",
       "pages": "e2636032",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42869,7 +42929,9 @@
       "issue": "",
       "pages": "271678X261479524",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42926,7 +42988,9 @@
       "issue": "5",
       "pages": "",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42945,7 +43009,9 @@
       "issue": "Pt B",
       "pages": "120413",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -42993,7 +43059,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43018,7 +43086,9 @@
       "issue": "9",
       "pages": "997",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43048,7 +43118,9 @@
       "issue": "18",
       "pages": "6992",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43140,7 +43212,9 @@
       "issue": "8",
       "pages": "e0356611",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43166,7 +43240,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43187,7 +43263,9 @@
       "issue": "11",
       "pages": "e71808",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43208,7 +43286,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43228,7 +43308,9 @@
       "issue": "5",
       "pages": "e70311",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43291,7 +43373,9 @@
       "issue": "5",
       "pages": "2041",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43316,7 +43400,9 @@
       "issue": "",
       "pages": "205-236",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43364,7 +43450,9 @@
       "issue": "3",
       "pages": "3441-3464",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43443,7 +43531,9 @@
       "issue": "",
       "pages": "122274",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43466,7 +43556,9 @@
       "issue": "",
       "pages": "13872877261492561",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43506,7 +43598,9 @@
       "issue": "",
       "pages": "237-259",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43568,7 +43662,9 @@
       "issue": "",
       "pages": "134-144",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43647,7 +43743,9 @@
       "issue": "8",
       "pages": "e0349740",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43677,7 +43775,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43741,7 +43841,9 @@
       "issue": "",
       "pages": "20494637261487997",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43809,7 +43911,9 @@
       "issue": "1",
       "pages": "77-91",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -43826,7 +43930,9 @@
       "issue": "",
       "pages": "1872276",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44056,7 +44162,9 @@
       "issue": "",
       "pages": "115582",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44101,7 +44209,9 @@
       "issue": "1",
       "pages": "41",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44123,7 +44233,9 @@
       "issue": "1",
       "pages": "2",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44148,7 +44260,9 @@
       "issue": "5",
       "pages": "",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44203,7 +44317,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44225,7 +44341,9 @@
       "issue": "6",
       "pages": "7545-7560",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44242,7 +44360,10 @@
       "issue": "1",
       "pages": "618",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44263,7 +44384,10 @@
       "issue": "",
       "pages": "1-13",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44282,7 +44406,11 @@
       "issue": "",
       "pages": "1842455",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03",
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44298,7 +44426,9 @@
       "issue": "",
       "pages": "1-33",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44319,7 +44449,9 @@
       "issue": "2",
       "pages": "IB25014",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44449,7 +44581,9 @@
       "issue": "",
       "pages": "e304",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44470,7 +44604,9 @@
       "issue": "5",
       "pages": "103199",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.05"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44590,7 +44726,9 @@
       "issue": "11-12",
       "pages": "674-686",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44636,7 +44774,9 @@
       "issue": "",
       "pages": "115135",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44662,7 +44802,9 @@
       "issue": "",
       "pages": "103730",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44703,7 +44845,9 @@
       "issue": "",
       "pages": "105-139",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44745,7 +44889,9 @@
       "issue": "14",
       "pages": "6080-6103",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44769,7 +44915,9 @@
       "issue": "",
       "pages": "19-30",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44811,7 +44959,9 @@
       "issue": "17",
       "pages": "7834",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44854,7 +45004,9 @@
       "issue": "",
       "pages": "169-173",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44952,7 +45104,9 @@
       "issue": "9",
       "pages": "901",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -44998,7 +45152,9 @@
       "issue": "",
       "pages": "",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45029,7 +45185,9 @@
       "issue": "",
       "pages": "",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45102,7 +45260,9 @@
       "issue": "5",
       "pages": "fcag346",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45142,7 +45302,9 @@
       "issue": "",
       "pages": "3983-3992",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45174,7 +45336,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45210,7 +45374,9 @@
       "issue": "",
       "pages": "106981",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45230,7 +45396,10 @@
       "issue": "",
       "pages": "15459683261477086",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45251,7 +45420,9 @@
       "issue": "9",
       "pages": "913",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.05"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45353,7 +45524,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45372,7 +45545,9 @@
       "issue": "5",
       "pages": "136",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45396,7 +45571,9 @@
       "issue": "1",
       "pages": "1368",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45422,7 +45599,9 @@
       "issue": "",
       "pages": "1437",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.05"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45442,7 +45621,9 @@
       "issue": "1",
       "pages": "2722430",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45485,7 +45666,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45526,7 +45709,9 @@
       "issue": "9",
       "pages": "1424",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45547,7 +45732,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45573,7 +45760,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45600,7 +45789,9 @@
       "issue": "",
       "pages": "",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45639,7 +45830,10 @@
       "issue": "4",
       "pages": "1511-1522",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03",
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45701,7 +45895,9 @@
       "issue": "",
       "pages": "NOL.a.285",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45725,7 +45921,9 @@
       "issue": "",
       "pages": "zpag116",
       "type": "journal-article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45744,7 +45942,9 @@
       "issue": "4",
       "pages": "1489-1497",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45768,7 +45968,9 @@
       "issue": "17",
       "pages": "6831",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -45811,7 +46013,9 @@
       "issue": "1",
       "pages": "e00780",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -46136,7 +46340,9 @@
       "issue": "",
       "pages": "",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.05"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -46159,7 +46365,9 @@
       "issue": "2",
       "pages": "705-715",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -46323,7 +46531,9 @@
       "issue": "12",
       "pages": "e70261",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -46345,7 +46555,9 @@
       "issue": "2",
       "pages": "67",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -46541,7 +46753,9 @@
       "issue": "",
       "pages": "e64",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -46659,7 +46873,9 @@
       "issue": "36",
       "pages": "eadx2106",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -47180,7 +47396,8 @@
       "type": "article",
       "topics": [
         "02",
-        "02.04"
+        "02.04",
+        "02.03"
       ],
       "reading_status": "已编目"
     },
@@ -47289,7 +47506,9 @@
       "issue": "1",
       "pages": "502",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -48165,7 +48384,9 @@
       "issue": "",
       "pages": "113086",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -48231,7 +48452,9 @@
       "issue": "1",
       "pages": "26",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -48339,7 +48562,9 @@
       "issue": "12",
       "pages": "5118-5134",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -48361,7 +48586,11 @@
       "issue": "4",
       "pages": "297-312",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03",
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -48414,7 +48643,8 @@
       "type": "article",
       "topics": [
         "02",
-        "02.04"
+        "02.04",
+        "02.02"
       ],
       "reading_status": "已编目"
     },
@@ -48434,7 +48664,9 @@
       "issue": "1",
       "pages": "9171",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -48478,7 +48710,9 @@
       "issue": "10",
       "pages": "441-456",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -48520,7 +48754,9 @@
       "issue": "",
       "pages": "1726805",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -48545,7 +48781,9 @@
       "issue": "1",
       "pages": "141",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -48588,7 +48826,9 @@
       "issue": "1",
       "pages": "278",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -48612,7 +48852,10 @@
       "issue": "",
       "pages": "1514087",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -48680,7 +48923,9 @@
       "issue": "1",
       "pages": "50-58.e4",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -48735,7 +48980,9 @@
       "issue": "",
       "pages": "100194",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -49247,7 +49494,9 @@
       "issue": "1",
       "pages": "159",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -49275,7 +49524,9 @@
       "issue": "",
       "pages": "104712",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -49368,7 +49619,9 @@
       "issue": "",
       "pages": "CD012426",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -49390,7 +49643,9 @@
       "issue": "6",
       "pages": "112633",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -49849,7 +50104,9 @@
       "issue": "11",
       "pages": "2231-2239",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -50179,7 +50436,9 @@
       "issue": "",
       "pages": "imag-2-00349",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -50216,7 +50475,9 @@
       "issue": "6",
       "pages": "545-552",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -50275,7 +50536,9 @@
       "issue": "2",
       "pages": "403-413",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -50493,7 +50756,9 @@
       "issue": "10",
       "pages": "3004-3014",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.05"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -50647,7 +50912,9 @@
       "issue": "12",
       "pages": "3789-3801",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51226,7 +51493,9 @@
       "issue": "",
       "pages": "3710-3718",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51280,7 +51549,9 @@
       "issue": "3",
       "pages": "573-586",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.05"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51322,7 +51593,9 @@
       "issue": "",
       "pages": "1407785",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51544,7 +51817,10 @@
       "issue": "",
       "pages": "282-292",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51562,7 +51838,9 @@
       "issue": "1",
       "pages": "112",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51656,7 +51934,9 @@
       "issue": "1",
       "pages": "114",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51674,7 +51954,9 @@
       "issue": "6",
       "pages": "6583-6623",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51693,7 +51975,9 @@
       "issue": "1",
       "pages": "26",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51717,7 +52001,9 @@
       "issue": "6",
       "pages": "633",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51742,7 +52028,9 @@
       "issue": "2",
       "pages": "e202300343",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51767,7 +52055,9 @@
       "issue": "",
       "pages": "112998",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51786,7 +52076,9 @@
       "issue": "11",
       "pages": "966",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51806,7 +52098,9 @@
       "issue": "5",
       "pages": "92",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -51841,7 +52135,9 @@
       "issue": "208",
       "pages": "",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -52213,7 +52509,9 @@
       "issue": "",
       "pages": "1465621",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -52365,7 +52663,9 @@
       "issue": "",
       "pages": "297-309",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -52417,7 +52717,9 @@
       "issue": "",
       "pages": "195-200",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -52524,7 +52826,9 @@
       "issue": "",
       "pages": "149022",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -52841,7 +53145,9 @@
       "issue": "",
       "pages": "110682",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -53272,7 +53578,9 @@
       "issue": "9",
       "pages": "2366-2374",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.05"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -53562,7 +53870,9 @@
       "issue": "1",
       "pages": "237",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -53600,7 +53910,9 @@
       "issue": "7",
       "pages": "1490",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -53684,7 +53996,9 @@
       "issue": "12",
       "pages": "5402-5410",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -53859,7 +54173,9 @@
       "issue": "",
       "pages": "1243527",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54040,7 +54356,9 @@
       "issue": "7",
       "pages": "1423-1426",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54178,7 +54496,9 @@
       "issue": "",
       "pages": "120331",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54231,7 +54551,9 @@
       "issue": "8",
       "pages": "e202300012",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54258,7 +54580,9 @@
       "issue": "3",
       "pages": "e10496",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54279,7 +54603,11 @@
       "issue": "1",
       "pages": "16-31",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03",
+        "02.05"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54302,7 +54630,9 @@
       "issue": "",
       "pages": "1237712",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54345,7 +54675,9 @@
       "issue": "1",
       "pages": "39",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54364,7 +54696,9 @@
       "issue": "3",
       "pages": "124-141",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54386,7 +54720,9 @@
       "issue": "3-4",
       "pages": "210-227",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54409,7 +54745,9 @@
       "issue": "",
       "pages": "105464",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54457,7 +54795,9 @@
       "issue": "1",
       "pages": "45",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54481,7 +54821,9 @@
       "issue": "13",
       "pages": "10946",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54518,7 +54860,9 @@
       "issue": "",
       "pages": "1268955",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54583,7 +54927,9 @@
       "issue": "11",
       "pages": "9272",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54606,7 +54952,9 @@
       "issue": "",
       "pages": "112643",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54678,7 +55026,9 @@
       "issue": "6",
       "pages": "854-862",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -54862,7 +55212,9 @@
       "issue": "2",
       "pages": "pgad032",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.05"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -55075,7 +55427,9 @@
       "issue": "10",
       "pages": "1981-1998",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -55291,7 +55645,9 @@
       "issue": "9",
       "pages": "e2724",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -55551,7 +55907,11 @@
       "issue": "",
       "pages": "104743",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03",
+        "02.05"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -55591,7 +55951,9 @@
       "issue": "5",
       "pages": "315-324",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -55767,7 +56129,9 @@
       "issue": "",
       "pages": "455-464",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -55802,7 +56166,9 @@
       "issue": "",
       "pages": "986374",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -55822,7 +56188,9 @@
       "issue": "6",
       "pages": "2717-2725",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -56021,7 +56389,9 @@
       "issue": "6",
       "pages": "1475-1485",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -56127,7 +56497,9 @@
       "issue": "6",
       "pages": "1875-1886",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -56271,7 +56643,9 @@
       "issue": "4",
       "pages": "884-893",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -56335,7 +56709,9 @@
       "issue": "9",
       "pages": "1237-1246",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -56487,7 +56863,9 @@
       "issue": "1",
       "pages": "84",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -56525,7 +56903,9 @@
       "issue": "",
       "pages": "897225",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -56549,7 +56929,9 @@
       "issue": "5",
       "pages": "2205-2231",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -56638,7 +57020,9 @@
       "issue": "1",
       "pages": "e12249",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -56676,7 +57060,9 @@
       "issue": "",
       "pages": "1006031",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -56696,7 +57082,9 @@
       "issue": "1",
       "pages": "420-428",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -56716,7 +57104,9 @@
       "issue": "",
       "pages": "818005",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -56769,7 +57159,9 @@
       "issue": "1",
       "pages": "253",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -57035,7 +57427,9 @@
       "issue": "",
       "pages": "903531",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -57076,7 +57470,9 @@
       "issue": "6",
       "pages": "1541-1551",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -57099,7 +57495,9 @@
       "issue": "5",
       "pages": "1380-1392",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -57227,7 +57625,9 @@
       "issue": "10",
       "pages": "1272",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -57249,7 +57649,9 @@
       "issue": "9",
       "pages": "632-638",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -57485,7 +57887,9 @@
       "issue": "2",
       "pages": "153-166",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -57543,7 +57947,9 @@
       "issue": "",
       "pages": "822545",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -57890,7 +58296,10 @@
       "issue": "5",
       "pages": "1018-1024",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03",
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -57915,7 +58324,9 @@
       "issue": "3",
       "pages": "554-567",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58052,7 +58463,9 @@
       "issue": "12",
       "pages": "7544-7555",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58138,7 +58551,9 @@
       "issue": "4",
       "pages": "e24191",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58160,7 +58575,9 @@
       "issue": "4",
       "pages": "1513-1519",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58222,7 +58639,9 @@
       "issue": "4",
       "pages": "1399-1413",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58246,7 +58665,9 @@
       "issue": "7",
       "pages": "e16188",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58289,7 +58710,9 @@
       "issue": "1",
       "pages": "256",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58435,7 +58858,9 @@
       "issue": "4",
       "pages": "803-810",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58554,7 +58979,9 @@
       "issue": "",
       "pages": "113164",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58599,7 +59026,9 @@
       "issue": "10",
       "pages": "5383-5395",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58636,7 +59065,10 @@
       "issue": "1",
       "pages": "E14-E33",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58678,7 +59110,9 @@
       "issue": "1",
       "pages": "345",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58699,7 +59133,9 @@
       "issue": "",
       "pages": "113291",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58717,7 +59153,9 @@
       "issue": "",
       "pages": "101415",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58741,7 +59179,9 @@
       "issue": "11",
       "pages": "6666-6679",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58764,7 +59204,9 @@
       "issue": "",
       "pages": "731855",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58783,7 +59225,9 @@
       "issue": "",
       "pages": "6678276",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58805,7 +59249,9 @@
       "issue": "4",
       "pages": "1415-1429",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -58823,7 +59269,9 @@
       "issue": "4",
       "pages": "1431-1452",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -59037,7 +59485,9 @@
       "issue": "",
       "pages": "248-256",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -59300,7 +59750,9 @@
       "issue": "6",
       "pages": "e202000500",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -59459,7 +59911,9 @@
       "issue": "11",
       "pages": "3595-3614",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -59610,7 +60064,9 @@
       "issue": "1",
       "pages": "e13054",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -59681,7 +60137,7 @@
       "type": "article",
       "topics": [
         "02",
-        "02.04"
+        "02.05"
       ],
       "reading_status": "已编目"
     },
@@ -59906,7 +60362,9 @@
       "issue": "4",
       "pages": "045011",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -59954,7 +60412,9 @@
       "issue": "36",
       "pages": "eaaz2747",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -60271,7 +60731,9 @@
       "issue": "14",
       "pages": "8115-8125",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -60393,7 +60855,9 @@
       "issue": "1",
       "pages": "19",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -60412,7 +60876,9 @@
       "issue": "",
       "pages": "89",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -60482,7 +60948,9 @@
       "issue": "4",
       "pages": "833-844",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -60500,7 +60968,9 @@
       "issue": "",
       "pages": "101777",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -60581,7 +61051,9 @@
       "issue": "4",
       "pages": "E610",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -60609,7 +61081,9 @@
       "issue": "2",
       "pages": "e201960117",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -60702,7 +61176,10 @@
       "issue": "3",
       "pages": "565-575",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -60760,7 +61237,9 @@
       "issue": "35",
       "pages": "6770-6778",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -61047,7 +61526,9 @@
       "issue": "1",
       "pages": "11994",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -61398,7 +61879,9 @@
       "issue": "",
       "pages": "108-113",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -61686,7 +62169,9 @@
       "issue": "8",
       "pages": "884-893",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -61755,7 +62240,9 @@
       "issue": "1",
       "pages": "17667",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -61800,7 +62287,9 @@
       "issue": "10",
       "pages": "581-595",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -61849,7 +62338,9 @@
       "issue": "",
       "pages": "74",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -61870,7 +62361,9 @@
       "issue": "3",
       "pages": "1852-1869",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -61895,7 +62388,9 @@
       "issue": "6",
       "pages": "e201800359",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -61916,7 +62411,9 @@
       "issue": "",
       "pages": "146300",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -61937,7 +62434,9 @@
       "issue": "",
       "pages": "85-97",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -62243,7 +62742,9 @@
       "issue": "4",
       "pages": "e0215095",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -62352,7 +62853,9 @@
       "issue": "10",
       "pages": "623-634",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -62428,7 +62931,9 @@
       "issue": "2",
       "pages": "e201800173",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -62597,7 +63102,10 @@
       "issue": "",
       "pages": "877",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02",
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -62615,7 +63123,9 @@
       "issue": "6",
       "pages": "917-930",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -62914,7 +63424,9 @@
       "issue": "1",
       "pages": "249",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -63136,7 +63648,9 @@
       "issue": "1",
       "pages": "3481",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -63210,7 +63724,9 @@
       "issue": "",
       "pages": "211",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -63231,7 +63747,9 @@
       "issue": "",
       "pages": "560-567",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -63253,7 +63771,9 @@
       "issue": "12",
       "pages": "e201800141",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -63275,7 +63795,9 @@
       "issue": "4",
       "pages": "514-526",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -63299,7 +63821,9 @@
       "issue": "Pt A",
       "pages": "86-96",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -63323,7 +63847,9 @@
       "issue": "1",
       "pages": "17",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -63620,7 +64146,9 @@
       "issue": "3",
       "pages": "e2005348",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -63721,7 +64249,9 @@
       "issue": "3",
       "pages": "E97",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -64271,7 +64801,9 @@
       "issue": "6",
       "pages": "4551-4559",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -64296,7 +64828,9 @@
       "issue": "",
       "pages": "165-182",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -64477,7 +65011,9 @@
       "issue": "11",
       "pages": "604-615",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -64647,7 +65183,9 @@
       "issue": "",
       "pages": "149-155",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -64800,7 +65338,9 @@
       "issue": "6",
       "pages": "1151-1160",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -65011,7 +65551,9 @@
       "issue": "",
       "pages": "205-209",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -65119,7 +65661,9 @@
       "issue": "12",
       "pages": "1513-1521",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -65353,7 +65897,9 @@
       "issue": "7",
       "pages": "695-705",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -65395,7 +65941,9 @@
       "issue": "1",
       "pages": "94-121",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -65412,7 +65960,9 @@
       "issue": "12",
       "pages": "587-598",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -65433,7 +65983,9 @@
       "issue": "1",
       "pages": "015003",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -65512,7 +66064,9 @@
       "issue": "4",
       "pages": "240-248",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.05"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -65765,7 +66319,9 @@
       "issue": "6",
       "pages": "502-511",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -66069,7 +66625,9 @@
       "issue": "12",
       "pages": "742-753",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -66184,7 +66742,9 @@
       "issue": "8",
       "pages": "1391-1401",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -66307,7 +66867,9 @@
       "issue": "7",
       "pages": "950-955",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -66372,7 +66934,9 @@
       "issue": "1",
       "pages": "2",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -66641,7 +67205,9 @@
       "issue": "11",
       "pages": "3187-3193",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -66660,7 +67226,9 @@
       "issue": "10",
       "pages": "108003",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -66925,7 +67493,9 @@
       "issue": "4",
       "pages": "1085-1089",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -67050,7 +67620,9 @@
       "issue": "7",
       "pages": "075001",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -67240,7 +67812,9 @@
       "issue": "",
       "pages": "317",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -67261,7 +67835,9 @@
       "issue": "7",
       "pages": "2025-2027",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -67377,7 +67953,9 @@
       "issue": "5",
       "pages": "858-882",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -67547,7 +68125,9 @@
       "issue": "3",
       "pages": "218-226",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -67565,7 +68145,9 @@
       "issue": "",
       "pages": "219",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -67585,7 +68167,9 @@
       "issue": "9",
       "pages": "523-529",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -67606,7 +68190,9 @@
       "issue": "3",
       "pages": "227-232",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -67724,7 +68310,9 @@
       "issue": "14",
       "pages": "1314-1318",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -67779,7 +68367,9 @@
       "issue": "11-12",
       "pages": "827-837",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -67932,7 +68522,9 @@
       "issue": "",
       "pages": "49-67",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -68605,7 +69197,9 @@
       "issue": "4",
       "pages": "651-656",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -68824,7 +69418,9 @@
       "issue": "1",
       "pages": "23-30",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -68923,7 +69519,9 @@
       "issue": "6",
       "pages": "4761-4771",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -69510,7 +70108,9 @@
       "issue": "5",
       "pages": "423-434",
       "type": "article",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -69717,7 +70317,9 @@
       "issue": "",
       "pages": "",
       "type": "posted-content",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -69742,7 +70344,9 @@
       "issue": "",
       "pages": "",
       "type": "posted-content",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -69764,7 +70368,9 @@
       "issue": "",
       "pages": "",
       "type": "posted-content",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -69857,7 +70463,9 @@
       "issue": "",
       "pages": "",
       "type": "posted-content",
-      "topics": [],
+      "topics": [
+        "02.04"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -69898,7 +70506,9 @@
       "issue": "",
       "pages": "",
       "type": "posted-content",
-      "topics": [],
+      "topics": [
+        "02.03"
+      ],
       "reading_status": "已编目"
     },
     {
@@ -70164,7 +70774,9 @@
       "issue": "",
       "pages": "",
       "type": "posted-content",
-      "topics": [],
+      "topics": [
+        "02.02"
+      ],
       "reading_status": "已编目"
     },
     {
