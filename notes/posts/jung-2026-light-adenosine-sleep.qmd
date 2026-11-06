@@ -5,7 +5,7 @@ description: "小鼠实验测脑内腺苷和睡眠脑电，人体试验看失眠
 categories: [经颅光刺激]
 ---
 
-Jung 等 · *Molecular Psychiatry* · 2026 年 9 月 · 近期研究 · 摘要阅读
+Jung 等 · *Molecular Psychiatry* · 2026 年 9 月 · 近期研究 · 全文核对
 
 ## 怎么做
 
@@ -13,10 +13,12 @@ Jung 等 · *Molecular Psychiatry* · 2026 年 9 月 · 近期研究 · 摘要�
 
 ## 结果怎么读
 
-与假刺激相比，小鼠在刺激期间及之后的非快速眼动睡眠增多，额叶腺苷水平升高。人体部分报告失眠症状减轻、入睡时间缩短。腺苷结果来自小鼠实验，人体试验回答的是睡眠表现有没有变化。
+与假刺激相比，小鼠在刺激期间及之后的非快速眼动睡眠增多。暗期末照射的实验还观察到额叶腺苷和睡眠脑电 δ 功率升高（图 3）。人体部分的失眠严重度和睡眠质量量表改善（表 2）。从佩戴设备到入睡的时间在意向治疗分析中无显著组间差异，按方案分析中未调整比较显示缩短（表 3）。
 
 ## 对实验设计有什么用
 
 设计光刺激睡眠实验时，可以分别设定机制指标和睡眠终点。比如用脑电区分睡眠阶段，用入睡潜伏期描述多久入睡，并明确主观量表和客观测量各回答什么问题。
 
 [期刊原文](https://www.nature.com/articles/s41380-026-03875-y) · [PubMed 摘要](https://pubmed.ncbi.nlm.nih.gov/42744976/) · [藏经阁书目](../../library/record.html?id=paper-e1045d0d8bb91a62) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/jung-2026-light-adenosine-sleep.qmd)
+
+[查看照射参数及图表位置](../../library/tpbm/jung-2026.qmd) · [主观睡眠与脑电指标是否同步变化？](../../research/questions/sleep-homeostasis.qmd)

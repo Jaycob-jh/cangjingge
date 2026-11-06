@@ -17,7 +17,7 @@
     const topicName = id => topics.get(id)?.name || id;
     const typeName = type => ({
       article: "期刊论文", journalArticle: "期刊论文", "journal-article": "期刊论文",
-      preprint: "预印本", book: "图书", "edited-book": "图书", bookSection: "书籍章节",
+      preprint: "预印本", "posted-content": "预印本", book: "图书", "edited-book": "图书", bookSection: "书籍章节",
       "book-chapter": "书籍章节", thesis: "学位论文", dissertation: "学位论文",
       report: "报告", presentation: "课程讲义", manual: "软件手册"
     })[type] || "";

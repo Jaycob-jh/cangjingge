@@ -5,7 +5,7 @@
   const scriptURL = document.currentScript.src;
   const base = new URL('../', scriptURL);
   const labels = {population:'研究对象',design:'研究设计',wavelength:'波长',mode:'连续光 / 脉冲',target:'照射位置',irradiance:'辐照度 / 功率',spot:'光斑',duration:'时间与疗程',dose:'剂量',control:'对照怎么做',readout:'观察指标',timing:'测量时间',results:'主要结果',interpretation:'比较时注意'};
-  const questions = {'wavelength-pulse':'波长与脉冲','heat-control':'热效应与对照','brain-signals':'脑活动与连接',cognition:'注意与记忆','repeated-clinical':'疗程与临床','penetration':'光怎样进入脑内'};
+  const questions = {'wavelength-pulse':'波长与脉冲','heat-control':'热效应与对照','brain-signals':'脑活动与连接',cognition:'注意与记忆','repeated-clinical':'疗程与临床','penetration':'光怎样进入脑内','sleep-homeostasis':'睡眠与腺苷'};
   const node = (tag, text, cls) => { const n=document.createElement(tag); if(text!==undefined)n.textContent=text; if(cls)n.className=cls; return n; };
   const button = (label, action, cls='') => {const b=node('button',label,cls);b.type='button';b.addEventListener('click',action);return b;};
   const link = (label,url) => {const a=node('a',label);a.href=url;return a;};

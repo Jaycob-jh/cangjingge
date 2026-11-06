@@ -2122,6 +2122,124 @@
         }
       ],
       "interpretation": "连续与脉冲条件的辐照度及能量不同，不能把差异仅归因于40 Hz。该版本为已接收稿，保留名义值与实测上限，不替作者统一。"
+    },
+    {
+      "id": "jung-2026",
+      "short": "Jung · 2026",
+      "year": 2026,
+      "title": "Transcranial photobiomodulation to enhance sleep by elevating adenosine signaling: a translational study",
+      "title_zh": "额部近红外光能改善睡眠吗？",
+      "doi": "10.1038/s41380-026-03875-y",
+      "fulltext": "https://www.nature.com/articles/s41380-026-03875-y",
+      "journal": "Molecular Psychiatry",
+      "kind": "临床",
+      "questions": [
+        "sleep-homeostasis",
+        "repeated-clinical"
+      ],
+      "measures": [
+        "睡眠脑电",
+        "体动记录",
+        "睡眠量表",
+        "腺苷"
+      ],
+      "wavelengths": [
+        "850",
+        "810"
+      ],
+      "mode_filter": "连续光",
+      "reading": "原刊 15 页全文，核对图 1–5、表 1–3。人体与小鼠参数分别记录",
+      "sources": {
+        "design": {
+          "label": "图 5 / PDF 第 10 页 · 随机分组与流程",
+          "url": "https://www.nature.com/articles/s41380-026-03875-y#Fig5"
+        },
+        "human": {
+          "label": "方法 A pilot clinical trial / PDF 第 12–13 页",
+          "url": "https://www.nature.com/articles/s41380-026-03875-y#:~:text=A%20pilot%20clinical%20trial"
+        },
+        "mouse": {
+          "label": "图 1a–b / PDF 第 3 页 · 小鼠参数与时序",
+          "url": "https://www.nature.com/articles/s41380-026-03875-y#Fig1"
+        },
+        "mechanism": {
+          "label": "图 3 / PDF 第 5 页 · 腺苷、CCO 与 δ 功率",
+          "url": "https://www.nature.com/articles/s41380-026-03875-y#Fig3"
+        },
+        "sleep": {
+          "label": "表 2 / PDF 第 8 页 · 量表、日记与体动",
+          "url": "https://www.nature.com/articles/s41380-026-03875-y#Tab2"
+        },
+        "latency": {
+          "label": "表 3 / PDF 第 9 页 · 入睡时间与依从分析",
+          "url": "https://www.nature.com/articles/s41380-026-03875-y#Tab3"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "40 名 19–54 岁、有失眠症状的成人，随机各 20 人。小鼠实验使用 16 只雄性 C57BL/6，每个时序实验 8 只。",
+          "source": "design"
+        },
+        "design": {
+          "value": "人体为 1:1 双盲随机试验，意向治疗分析纳入 40 人，按方案分析为 34 人。小鼠为自身对照，不同时序使用不同批次。",
+          "source": "design"
+        },
+        "wavelength": {
+          "value": "人体头带 850 nm。小鼠 810 nm 滤光。",
+          "source": "human"
+        },
+        "mode": {
+          "value": "人体为连续光，32 枚 LED。小鼠使用连续宽带光源经 810 nm 滤光。",
+          "source": "human"
+        },
+        "target": {
+          "value": "人体头带广覆盖前额。小鼠用固定于颅骨表面的光纤套管照射额叶。",
+          "source": "mouse"
+        },
+        "irradiance": {
+          "value": "人体设备 3.97 mW/cm²。小鼠照射 12.15 ± 0.52 mW/cm²（图 1a）。",
+          "source": "human"
+        },
+        "spot": {
+          "value": "人体 LED 阵列 4 × 8，照射区域约 12 × 2.5 cm（约 30 cm²）。",
+          "source": "human"
+        },
+        "duration": {
+          "value": "人体 2 周基线，随后连续 1 周，每晚使用 1 次、最长 1 小时。小鼠每次照射 3 小时。",
+          "source": "human"
+        },
+        "dose": {
+          "value": "人体最长 1 小时对应 14.29 J/cm²（原文标称值）。小鼠方案 131.22 ± 5.62 J/cm²。分别按原文照射条件记录。",
+          "source": "human"
+        },
+        "control": {
+          "value": "人体假刺激设备外观和使用方法相同，关闭治疗用近红外光。论文未做正式热匹配。小鼠假刺激沿用同一装置及对应时段，不出近红外光。",
+          "source": "human"
+        },
+        "readout": {
+          "value": "人体记录失眠严重度（ISI）、匹兹堡睡眠质量指数（PSQI）、睡眠日记和腕式体动。小鼠用 EEG/EMG 分期并以微透析测额叶细胞外腺苷。",
+          "source": "design"
+        },
+        "timing": {
+          "value": "人体每周评估量表，三周连续记录腕式体动与日记。小鼠在明期开始或暗期末照射，分别记录刺激后 3 或 6 小时。",
+          "source": "design"
+        }
+      },
+      "results": [
+        {
+          "text": "人体意向治疗分析中，ISI 与 PSQI 的时间×组别交互分别为 p=0.022 和 p=0.005。治疗组 ISI 从 10.77 降至 7.95，PSQI 从 6.75 降至 4.75。体动记录的总睡眠时间、入睡时钟时间等未显示显著组别×时间交互。",
+          "source": "sleep"
+        },
+        {
+          "text": "从戴上装置到入睡的间隔，在意向治疗分析中无显著组间差异（调整后 p=0.754）。按方案分析中主动组 1.54 小时、假刺激组 2.20 小时，未调整 p=0.008，调整后 p=0.050。",
+          "source": "latency"
+        },
+        {
+          "text": "小鼠在暗期末接受刺激时，刺激及随后 3 小时合并测得额叶细胞外腺苷 0.25 对 0.23 μM（p=0.040），同期 NREM δ 功率升高。明期开始照射的实验未见显著 δ 功率差异（图 1q）。",
+          "source": "mechanism"
+        }
+      ],
+      "interpretation": "人体证据来自一周的先导试验，主要变化见于主观量表。小鼠结果可用于设定照射时相、采样窗口和睡眠脑电终点。动物腺苷与脑电同期变化，人体部分未直接测量腺苷。"
     }
   ]
 }

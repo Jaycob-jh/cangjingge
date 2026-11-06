@@ -21,4 +21,4 @@ Nawrocik-Madrid 等 · *Psychiatry Research* · 2026 年 10 月 23 日在线 · 
 
 想比较单次反应和多次疗程，可在首次和末次刺激后各加一次扫描，并统一刺激结束到扫描的间隔。分析时分别报告“首次后对基线”“末次后对首次后”和“末次后对基线”。如果要判断变化是否来自刺激，加入平行的假刺激比较。
 
-[PubMed 摘要（PMID 42956654）](https://pubmed.ncbi.nlm.nih.gov/42956654/) · [DOI](https://doi.org/10.1016/j.psychres.2026.117552) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/nawrocik-madrid-2026-light-asl.qmd)
+[PubMed 摘要（PMID 42956654）](https://pubmed.ncbi.nlm.nih.gov/42956654/) · [DOI](https://doi.org/10.1016/j.psychres.2026.117552) · [藏经阁书目](../../library/record.html?id=paper-f90bffbf7ff4cc24) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/nawrocik-madrid-2026-light-asl.qmd)

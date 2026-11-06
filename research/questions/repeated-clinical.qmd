@@ -33,6 +33,12 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/nizamutdinov-2021.qmd) · [表 1·认知前后评分](https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/#T1-ad-12-4-954) · [方法·随机与设备](https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/#:~:text=MATERIALS%20AND%20METHODS)
 
+### Jung · 2026：连续一周照射后，主观与体动结果分开读
+
+40 人双盲随机试验中，失眠严重度与睡眠质量量表有时间×组别交互。腕式体动的总睡眠时间未见显著交互。表 3 中，从佩戴设备到入睡的间隔在意向治疗样本中无显著组间差异。
+
+[研究参数与结果](../../library/tpbm/jung-2026.qmd) · [图 5 / PDF 第 10 页 · 随机分组与流程](https://www.nature.com/articles/s41380-026-03875-y#Fig5) · [表 2 / PDF 第 8 页 · 量表、日记与体动](https://www.nature.com/articles/s41380-026-03875-y#Tab2) · [表 3 / PDF 第 9 页 · 入睡时间与依从分析](https://www.nature.com/articles/s41380-026-03875-y#Tab3)
+
 ## 做实验时看什么
 
 - 把即时反应、疗程末结果和停用后保持分别设定测量时间。
@@ -47,5 +53,6 @@ toc: true
 - [Chao · 2020：脑震荡病例的量表、灌注与连接怎样一起读？](../../library/tpbm/chao-2020.qmd)
 - [Nizamutdinov · 2021：居家头盔照射八周后，痴呆患者的认知评分如何？](../../library/tpbm/nizamutdinov-2021.qmd)
 - [Figueiro Longo · 2020：急性脑损伤后，影像变化是否伴随症状改善？](../../library/tpbm/longo-2020.qmd)
+- [Jung · 2026：额部近红外光能改善睡眠吗？](../../library/tpbm/jung-2026.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)
