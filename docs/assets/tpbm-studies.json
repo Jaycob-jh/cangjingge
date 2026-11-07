@@ -2240,6 +2240,249 @@
         }
       ],
       "interpretation": "人体证据来自一周的先导试验，主要变化见于主观量表。小鼠结果可用于设定照射时相、采样窗口和睡眠脑电终点。动物腺苷与脑电同期变化，人体部分未直接测量腺苷。"
+    },
+    {
+      "id": "van-lankveld-2026",
+      "short": "Van Lankveld · 2026",
+      "year": 2026,
+      "title": "Dose dependence and neurovascular mechanisms of the fMRI response to pulsed photobiomodulation in humans",
+      "title_zh": "相同波长的 BOLD 和脑血流反应一致吗？",
+      "doi": "10.1177/0271678X261479524",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/",
+      "journal": "Journal of Cerebral Blood Flow & Metabolism",
+      "kind": "健康人",
+      "questions": [
+        "brain-signals",
+        "wavelength-pulse"
+      ],
+      "measures": [
+        "fMRI",
+        "ASL",
+        "MR测温"
+      ],
+      "wavelengths": [
+        "808",
+        "1064"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "期刊在线全文，核对方法、表 1–2 及图 2–4",
+      "sources": {
+        "d": {
+          "label": "方法·参与者",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#section3-0271678X261479524"
+        },
+        "p": {
+          "label": "表 1·参数组合",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#table1-0271678X261479524"
+        },
+        "setup": {
+          "label": "图 2·装置与时序",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#fig2-0271678X261479524"
+        },
+        "optic": {
+          "label": "方法·照射装置",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#section4-0271678X261479524"
+        },
+        "mri": {
+          "label": "方法·MRI 采集",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#section5-0271678X261479524"
+        },
+        "r": {
+          "label": "表 2·脑血流与 BOLD 对照",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#table2-0271678X261479524"
+        },
+        "r2": {
+          "label": "图 4·BOLD 与脑血流关系",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#fig4-0271678X261479524"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "45 名健康成人，20–32 岁",
+          "source": "d"
+        },
+        "design": {
+          "value": "三个分配协议，每人完成四种主动参数条件",
+          "source": "p"
+        },
+        "wavelength": {
+          "value": "808 和 1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "10 或 40 Hz 脉冲；表 1 未列占空比",
+          "source": "p"
+        },
+        "target": {
+          "value": "右额，靶向右前额叶",
+          "source": "setup"
+        },
+        "irradiance": {
+          "value": "100、150 或 200 mW/cm²（表 1 设置值）",
+          "source": "p"
+        },
+        "spot": {
+          "value": "方法报告传输光纤直径 400 μm，未据此换算头皮光斑",
+          "source": "optic"
+        },
+        "duration": {
+          "value": "单次开光 4 分钟",
+          "source": "setup"
+        },
+        "dose": {
+          "value": "表 1 未列头皮 J/cm² 或脑内光剂量",
+          "source": "p"
+        },
+        "control": {
+          "value": "同次扫描开光前关光基线；未设独立假刺激",
+          "source": "setup"
+        },
+        "readout": {
+          "value": "双回波 pCASL 提取 BOLD 与 CBF；部分条件做 MR 测温",
+          "source": "mri"
+        },
+        "timing": {
+          "value": "关 4 分钟、开 4 分钟、关 4 分钟",
+          "source": "setup"
+        }
+      },
+      "results": [
+        {
+          "text": "照射区 CBF 对 808 nm 的响应高于 1064 nm（FDR 校正 p = 0.048）。膝下区/伏隔核刺激中 BOLD 的波长对比方向相反（1064 nm 更高，p = 0.006）。",
+          "source": "r"
+        },
+        {
+          "text": "不同时间窗的 BOLD–CBF 斜率变化，模型估计的耗氧相关读数也随时间变化。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "比较两种波长前，先写清主脑区、主时段和主读数。这里每次扫描以自身关光期作基线。若要估计相对假刺激的效果，需要另设匹配对照。把 BOLD 和 CBF 分开报告，也别用一处 BOLD 的幅度估算入脑剂量。"
+    },
+    {
+      "id": "enam-2026",
+      "short": "Enam · 2026",
+      "year": 2026,
+      "title": "Micro-CT-informed Monte Carlo and experimental dosimetry of transcranial photobiomodulation devices",
+      "title_zh": "波长相近的头盔，透过组织后差多少？",
+      "doi": "10.1038/s41598-026-75995-y",
+      "fulltext": "https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf",
+      "journal": "Scientific Reports",
+      "kind": "离体组织",
+      "questions": [
+        "penetration",
+        "wavelength-pulse"
+      ],
+      "measures": [
+        "光传输模型",
+        "透射测量",
+        "温度"
+      ],
+      "wavelengths": [
+        "810",
+        "1064",
+        "1070"
+      ],
+      "mode_filter": "模型",
+      "reading": "2026-10-25 已接收稿全文，核对图 1、3、8–10 与表 2",
+      "sources": {
+        "d": {
+          "label": "已接收稿 PDF 第 4–5 页·微 CT 模型",
+          "url": "https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=4"
+        },
+        "p": {
+          "label": "已接收稿 PDF 第 7 页·表 2 厂商标称参数",
+          "url": "https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=7"
+        },
+        "geometry": {
+          "label": "已接收稿 PDF 第 6 页·光源与探测孔径",
+          "url": "https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=6"
+        },
+        "phantom": {
+          "label": "已接收稿 PDF 第 8 页·图 3 体模与测点",
+          "url": "https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=8"
+        },
+        "dose": {
+          "label": "已接收稿 PDF 第 9 页·透射率及累计能量",
+          "url": "https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=9"
+        },
+        "r": {
+          "label": "已接收稿 PDF 第 14 页·图 8 模拟透射",
+          "url": "https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=14"
+        },
+        "r2": {
+          "label": "已接收稿 PDF 第 16 页·图 10 体模透射",
+          "url": "https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=16"
+        },
+        "r3": {
+          "label": "已接收稿 PDF 第 15 页·图 9 实测光谱",
+          "url": "https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=15"
+        },
+        "heat": {
+          "label": "已接收稿 PDF 第 20 页·图 13 设备自发热",
+          "url": "https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=20"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "两套人颅骨微 CT；猪皮、离体人颅骨和人工脑脊液明胶叠层",
+          "source": "phantom"
+        },
+        "design": {
+          "value": "固定几何的蒙特卡罗模型及三台头盔的离体实测",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "模拟 610–1267 nm；头盔实测峰约 810、1057、1069 nm",
+          "source": "r3"
+        },
+        "mode": {
+          "value": "三台设备均可调脉冲；表 2 为厂商规格范围",
+          "source": "p"
+        },
+        "target": {
+          "value": "体模前额、左顶、右顶及枕部，每区 3 点",
+          "source": "phantom"
+        },
+        "irradiance": {
+          "value": "跨设备比较采用叠层后实测 mW/cm²；设备标称另列",
+          "source": "r2"
+        },
+        "spot": {
+          "value": "模拟圆盘光源外半径 1.8 mm，探测器半径 1.8 mm；头盔为多发光单元",
+          "source": "geometry"
+        },
+        "duration": {
+          "value": "文中配对换算采用 810 nm 3 分钟和长波设备 10 分钟",
+          "source": "dose"
+        },
+        "dose": {
+          "value": "叠层后累计能量由透过辐照度乘照射时间换算，单位 J/cm²",
+          "source": "dose"
+        },
+        "control": {
+          "value": "组织叠层、相同源探测距离的设备空测、设备关闭背景",
+          "source": "dose"
+        },
+        "readout": {
+          "value": "有限孔径模拟透射率及体模区域实测透射率、辐照度",
+          "source": "r2"
+        },
+        "timing": {
+          "value": "按区域测透过光；另在设备运行 0、1、5、10 分钟做热像",
+          "source": "heat"
+        }
+      },
+      "results": [
+        {
+          "text": "固定几何的模拟在约 1064–1070 nm 一带常有较高透射；结果是有限孔径的读数。",
+          "source": "r"
+        },
+        {
+          "text": "810 nm 头盔通过组织叠层后，右顶约 0.918 mW/cm²、枕部约 0.130 mW/cm²。区域和设备的排名受源布局与几何影响。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "分别记录设备在入射面实测的功率密度、体模透过后的功率密度和随照射时间累计的能量。只有光源、探测几何和组织条件对齐时，才适合把差别主要归给波长。"
     }
   ]
 }

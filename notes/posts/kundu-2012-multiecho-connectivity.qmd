@@ -1,0 +1,30 @@
+---
+title: "换一个回波时间，连接图为什么会变？"
+date: 2026-11-07
+description: "Kundu 等的研究设计、图表和实验启发。"
+categories: [fMRI 脑网络]
+---
+
+Kundu 等 · *NeuroImage* · 2011-12-23 首发，2012 年刊期 · 公开作者稿全文
+
+Differentiating BOLD and non-BOLD signals in fMRI time series using multi-echo EPI
+
+[DOI 10.1016/j.neuroimage.2011.12.028](https://doi.org/10.1016/j.neuroimage.2011.12.028) · [PMID 22209809](https://pubmed.ncbi.nlm.nih.gov/22209809/)
+
+[回到本期 · 光照进去多少，能从 fMRI 信号倒推吗？](../issues/2026-11-07-dose-and-fmri.qmd)
+
+## 怎么做
+
+**研究对象**　9 名右利手健康志愿者。
+
+采集多回波静息态 fMRI，将信号分解成独立成分，分别衡量每个成分随回波时间（TE）变化的程度和与基线信号变化模型的符合程度。研究再比较去噪前后的种子相关图。
+
+## 结果怎么读
+
+**图 3** 对比 15、39、63 ms 三个回波。额顶灰质的示例成分随 TE 增强，BOLD 拟合分数 κ = 184，基线变化分数 ρ = 15。脑缘示例在三个回波中幅度近似不变，κ = 22、ρ = 90。**图 6** 还展示了与呼吸变化相关、带 BOLD 特征的边界成分。
+
+## 对实验设计有什么用
+
+光刺激同步 fMRI 可以借用多回波分解检查非 BOLD 成分是否影响连接结果。呼吸和血管变化也可能表现为 BOLD，最好同时记录呼吸和脉搏，并结合假刺激与独立血流读数。
+
+[原文与图表](https://pmc.ncbi.nlm.nih.gov/articles/PMC3350785/#F3) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/kundu-2012-multiecho-connectivity.qmd)

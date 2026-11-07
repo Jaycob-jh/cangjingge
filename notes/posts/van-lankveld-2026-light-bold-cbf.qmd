@@ -1,0 +1,30 @@
+---
+title: "波长换了，血流和 BOLD 同向变吗？"
+date: 2026-11-07
+description: "Van Lankveld 等的研究设计、图表和实验启发。"
+categories: [经颅光刺激]
+---
+
+Van Lankveld 等 · *Journal of Cerebral Blood Flow & Metabolism* · 2026-08-12 · 期刊在线全文
+
+Dose dependence and neurovascular mechanisms of the fMRI response to pulsed photobiomodulation in humans
+
+[DOI 10.1177/0271678X261479524](https://doi.org/10.1177/0271678X261479524) · [PMID 42590890](https://pubmed.ncbi.nlm.nih.gov/42590890/)
+
+[回到本期 · 光照进去多少，能从 fMRI 信号倒推吗？](../issues/2026-11-07-dose-and-fmri.qmd)
+
+## 怎么做
+
+**研究对象**　45 名健康年轻成人。
+
+用 MRI 兼容光纤照右额。每人完成分配协议内的四种主动参数组合。表 1 包含 808/1064 nm、100/150/200 mW/cm² 和 10/40 Hz，每次为关光、开光、关光各 4 分钟。双回波动脉自旋标记同时提供 BOLD 与脑血流（CBF）读数。
+
+## 结果怎么读
+
+**表 2** 中，照射区的 CBF 对 808 nm 的响应大于 1064 nm（FDR 校正 p = 0.048）。BOLD 的波长方向随区域和比较时段变化。膝下区/伏隔核在照射中是 1064 nm 较高（p = 0.006），后扣带区域在照射后则是 808 nm 较高（p = 0.033）。**图 4B** 比较不同时间窗的 BOLD–CBF 斜率，斜率随时间变化。耗氧由模型估计。
+
+## 对实验设计有什么用
+
+比较两种波长前，先写清主脑区、主时段和主读数。这里每次扫描以自身关光期作基线。若要估计相对假刺激的效果，需要另设匹配对照。把 BOLD 和 CBF 分开报告，也别用一处 BOLD 的幅度估算入脑剂量。
+
+[原文与图表](https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#table2-0271678X261479524) · [对比台研究卡](../../library/tpbm/van-lankveld-2026.qmd) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/van-lankveld-2026-light-bold-cbf.qmd)

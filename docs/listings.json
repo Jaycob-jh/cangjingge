@@ -1,8 +1,18 @@
 [
   {
-    "listing": "/notes/questions.html",
+    "listing": "/notes/index.html",
     "items": [
-      "/notes/issues/2026-11-06-stimulation-measures.html"
+      "/notes/posts/dmochowski-2020-light-fmri.html",
+      "/notes/posts/enam-2026-light-device-dosimetry.html",
+      "/notes/posts/kundu-2012-multiecho-connectivity.html",
+      "/notes/posts/van-lankveld-2026-light-bold-cbf.html",
+      "/notes/posts/barrett-2013-light-attention-memory.html",
+      "/notes/posts/jung-2026-light-adenosine-sleep.html",
+      "/notes/posts/li-2026-precuneus-fmri.html",
+      "/notes/posts/ma-2026-light-motor-cortex.html",
+      "/notes/posts/nawrocik-madrid-2026-light-asl.html",
+      "/notes/posts/personalized-neuromodulation.html",
+      "/notes/posts/reading-guide.html"
     ]
   },
   {
@@ -16,15 +26,10 @@
     ]
   },
   {
-    "listing": "/notes/index.html",
+    "listing": "/notes/questions.html",
     "items": [
-      "/notes/posts/barrett-2013-light-attention-memory.html",
-      "/notes/posts/jung-2026-light-adenosine-sleep.html",
-      "/notes/posts/li-2026-precuneus-fmri.html",
-      "/notes/posts/ma-2026-light-motor-cortex.html",
-      "/notes/posts/nawrocik-madrid-2026-light-asl.html",
-      "/notes/posts/personalized-neuromodulation.html",
-      "/notes/posts/reading-guide.html"
+      "/notes/issues/2026-11-07-dose-and-fmri.html",
+      "/notes/issues/2026-11-06-stimulation-measures.html"
     ]
   }
 ]

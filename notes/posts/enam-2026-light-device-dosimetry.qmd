@@ -1,0 +1,30 @@
+---
+title: "模拟透过率和头盔实测为什么会反过来？"
+date: 2026-11-07
+description: "Enam 等的研究设计、图表和实验启发。"
+categories: [经颅光刺激]
+---
+
+Enam 等 · *Scientific Reports* · 2026-10-25 · 原刊已接收稿全文
+
+Micro-CT-informed Monte Carlo and experimental dosimetry of transcranial photobiomodulation devices
+
+[DOI 10.1038/s41598-026-75995-y](https://doi.org/10.1038/s41598-026-75995-y)
+
+[回到本期 · 光照进去多少，能从 fMRI 信号倒推吗？](../issues/2026-11-07-dose-and-fmri.qmd)
+
+## 怎么做
+
+**研究对象**　两套人颅骨微 CT 模型及猪皮—离体人颅骨—人工脑脊液明胶体模。
+
+模拟固定出光与探测几何，扫过 610–1267 nm 的 23 个波长。体模实验另测三台商业头盔，在四个头部区域各取三个位置，对比有无组织叠层及设备关闭时的背景读数。
+
+## 结果怎么读
+
+**图 8（PDF 第 14 页）** 的纵轴是有限探测孔径内的透射率。固定几何时，约 1064–1070 nm 一带通常较高，增加骨厚或脑脊液厚度时读数降低。**图 10（第 16 页）** 换成实际设备和体模。810 nm 头盔在右顶和枕部的透过辐照度分别约为 0.918 和 0.130 mW/cm²。设备的出光布局、功率和接触几何也变了，两组结果回答的是不同问题。
+
+## 对实验设计有什么用
+
+分别记录设备在入射面实测的功率密度、体模透过后的功率密度和随照射时间累计的能量。只有光源、探测几何和组织条件对齐时，才适合把差别主要归给波长。
+
+[原文与图表](https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=16) · [对比台研究卡](../../library/tpbm/enam-2026.qmd) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/enam-2026-light-device-dosimetry.qmd)

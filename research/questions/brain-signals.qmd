@@ -27,6 +27,12 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/shahdadian-2022.qmd) · [图 4·EEG功率](https://pmc.ncbi.nlm.nih.gov/articles/PMC9795815/#jneac9edef4) · [图 5·全局网络指标](https://pmc.ncbi.nlm.nih.gov/articles/PMC9795815/#jneac9edef5)
 
+### Van Lankveld · 2026：同一波长对比，BOLD 与脑血流的方向可以不同
+
+照射区的脑血流对 808 nm 响应更高，而膝下区/伏隔核的照射中 BOLD 对 1064 nm 响应更高。区域、指标和时段需要分别写清。
+
+[研究参数与结果](../../library/tpbm/van-lankveld-2026.qmd) · [表 2·脑血流与 BOLD 对照](https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#table2-0271678X261479524) · [图 4·BOLD 与脑血流关系](https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#fig4-0271678X261479524)
+
 ## 做实验时看什么
 
 - 每个结果写明：测什么信号、什么频段、哪个脑区、刺激中还是刺激后。
@@ -43,5 +49,6 @@ toc: true
 - [Shahdadian · 2022：脑电功率增加时，网络效率也一定增加吗？](../../library/tpbm/shahdadian-2022.qmd)
 - [Dmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？](../../library/tpbm/dmochowski-2020.qmd)
 - [Ma · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？](../../library/tpbm/ma-2026.qmd)
+- [Van Lankveld · 2026：相同波长的 BOLD 和脑血流反应一致吗？](../../library/tpbm/van-lankveld-2026.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

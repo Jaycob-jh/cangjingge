@@ -1,0 +1,30 @@
+---
+title: "照射中看到连接变化，能说明什么？"
+date: 2026-11-07
+description: "Dmochowski 等的研究设计、图表和实验启发。"
+categories: [经颅光刺激]
+---
+
+Dmochowski 等 · *Cerebral Cortex Communications* · 2020-03-19 · 正式版全文
+
+Near-Infrared Light Increases Functional Connectivity with a Non-thermal Mechanism
+
+[DOI 10.1093/texcom/tgaa004](https://doi.org/10.1093/texcom/tgaa004) · [PMID 34296085](https://pubmed.ncbi.nlm.nih.gov/34296085/)
+
+[回到本期 · 光照进去多少，能从 fMRI 信号倒推吗？](../issues/2026-11-07-dose-and-fmri.qmd)
+
+## 怎么做
+
+**研究对象**　20 名健康参与者做 fMRI，另招 20 名健康参与者测温。
+
+右额 Fp2 用 808 nm 连续激光照射 10 分钟，头皮入射辐照度 318 mW/cm²。fMRI 在同一次扫描中比较开光前、中、后的相关性。独立的测温队列做了开光与全程关光对照。
+
+## 结果怎么读
+
+**图 2C–D** 比的是受照区与左右半球皮层的相关性。第三回波下，两侧各有 19/75 条连接在照射时相对基线显著增强（FDR 0.05）。**图 3A** 的两分钟滑动窗显示，增强大约在开光后一分钟出现。**图 7** 的独立测温比较未检出显著脑温差。连接结果仍可能包含随扫描时间变化的生理效应，因为这组 fMRI 没有独立假刺激。
+
+## 对实验设计有什么用
+
+预留开光前、中、后的采集窗，并在随机假刺激下复现同样的时间分析。先估计刺激相对于假刺激的连接变化，再讨论血流、耗氧和神经活动可能怎样参与。
+
+[原文与图表](https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#f2) · [对比台研究卡](../../library/tpbm/dmochowski-2020.qmd) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/dmochowski-2020-light-fmri.qmd)

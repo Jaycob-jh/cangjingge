@@ -27,6 +27,18 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/zomorrodi-2019.qmd) · [图 4·频段功率](https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Fig4) · [方法·设备](https://pmc.ncbi.nlm.nih.gov/articles/PMC6474892/#Sec6)
 
+### Van Lankveld · 2026：波长效果随区域和时段而变
+
+不同区域的 BOLD 波长效应方向不一致。表 1 记录各组的四次扫描条件，表 2 给出相应区域和时段的比较。
+
+[研究参数与结果](../../library/tpbm/van-lankveld-2026.qmd) · [表 1·参数组合](https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#table1-0271678X261479524) · [表 2·脑血流与 BOLD 对照](https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#table2-0271678X261479524)
+
+### Enam · 2026：模拟波长比较与实际设备比较分开做
+
+模拟固定光源和探测几何。头盔实测同时改变光谱、发光布局与设备输出，因此应按设备比较。
+
+[研究参数与结果](../../library/tpbm/enam-2026.qmd) · [已接收稿 PDF 第 14 页·图 8 模拟透射](https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=14) · [已接收稿 PDF 第 16 页·图 10 体模透射](https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=16)
+
 ## 做实验时看什么
 
 - 波长、波形、峰值功率、平均功率、占空比和总能量分别记录；只写“40 Hz”不够。
@@ -39,5 +51,7 @@ toc: true
 - [Zhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？](../../library/tpbm/zhao-2022.qmd)
 - [Zomorrodi · 2019：40 Hz 经颅加鼻内刺激后，脑电频段如何改变？](../../library/tpbm/zomorrodi-2019.qmd)
 - [Yuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？](../../library/tpbm/yuan-2020.qmd)
+- [Van Lankveld · 2026：相同波长的 BOLD 和脑血流反应一致吗？](../../library/tpbm/van-lankveld-2026.qmd)
+- [Enam · 2026：波长相近的头盔，透过组织后差多少？](../../library/tpbm/enam-2026.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)
