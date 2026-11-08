@@ -1,0 +1,30 @@
+---
+title: "连续四天照 SMA，非优势手会更快也更准吗？"
+date: 2026-11-08
+description: "Iravani 等的设计、主要比较与实验启发。"
+categories: [经颅光刺激]
+---
+
+Iravani 等 · *Clinical EEG and Neuroscience* · 2026-10-12 · 期刊 OnlineFirst 摘要，全文待补
+
+Effects of Transcranial Photobiomodulation on Motor Functions in Healthy Individuals: A Randomized Controlled Trial
+
+[DOI 10.1177/15500594261492462](https://doi.org/10.1177/15500594261492462) · [PMID 42862742](https://pubmed.ncbi.nlm.nih.gov/42862742/)
+
+[回到本期 · 光刺激后手指敲得更快，说明学会了动作序列吗？](../issues/2026-11-08-motor-performance-learning.qmd)
+
+## 怎么做
+
+**研究对象**　60 名右利手健康成人。
+
+随机双盲比较主动照射与假刺激，连续四天针对辅助运动区（SMA）。摘要列出 850 nm、60 mW/cm²、36 J/cm²。双手均测序列敲击，并采集静息脑电。
+
+## 结果怎么读
+
+摘要报告，相对假刺激，非优势手的反应时间和动作总时间缩短，准确率提高，三项 Bonferroni 校正后均 p < 0.001。主动组 C3/C4 的 alpha 与 beta 功率升高。摘要未给出效应量、延迟保留或未练序列的结果，脑电功率也不能直接说明序列学习的机制。
+
+## 对实验设计有什么用
+
+把反应时间、动作总时间和准确率设为不同指标。增加延迟复测，并同时测试练过和未练过的序列，才能把测试当时的改善与序列特异的学习分开。
+
+[原文](https://journals.sagepub.com/doi/10.1177/15500594261492462) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/iravani-2026-light-sma-sequence.qmd)

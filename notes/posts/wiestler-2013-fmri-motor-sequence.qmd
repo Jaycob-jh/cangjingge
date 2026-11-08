@@ -1,0 +1,30 @@
+---
+title: "练过的序列，在脑里能分得更清吗？"
+date: 2026-11-08
+description: "Wiestler 与 Diedrichsen的设计、主要比较与实验启发。"
+categories: [fMRI 脑网络]
+---
+
+Wiestler 与 Diedrichsen · *eLife* · 2013-07-09 · 期刊正式版全文
+
+Skill learning strengthens cortical representations of motor sequences
+
+[DOI 10.7554/eLife.00801](https://doi.org/10.7554/eLife.00801) · [PMID 23853714](https://pubmed.ncbi.nlm.nih.gov/23853714/)
+
+[回到本期 · 光刺激后手指敲得更快，说明学会了动作序列吗？](../issues/2026-11-08-motor-performance-learning.qmd)
+
+## 怎么做
+
+**研究对象**　16 名健康右利手志愿者。
+
+左手练习四条五指按键序列四天。训练后，两次任务 fMRI 分别完成四条练过与四条未练过的序列。研究用体素空间模式分类来区分同一类条件内的四条序列，并将结果与平均 BOLD 对照。
+
+## 结果怎么读
+
+**图 2C** 中四天练习后动作时间约减半，未练序列也出现一定提速。**图 3C–D** 中，额顶运动区域的平均分类准确率从未练序列的 34.2% 到练过序列的 38.4%（四分类机会水平 25%）。全皮层多重校正后的差异集中在左侧 SMA/pre-SMA，**图 5C** 约为 36% 对 46%。这篇比较的是任务表征，未施加光刺激。
+
+## 对实验设计有什么用
+
+可以把同样的练过与未练过序列对照搬进刺激实验，同时跟踪速度、用力与错误。预先区分“某一区域整体反应更强”与“这一组体素能更好区分动作序列”两种假设。
+
+[原文](https://elifesciences.org/articles/00801#fig3) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/wiestler-2013-fmri-motor-sequence.qmd)

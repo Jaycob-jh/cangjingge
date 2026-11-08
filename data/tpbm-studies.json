@@ -2483,6 +2483,225 @@
         }
       ],
       "interpretation": "分别记录设备在入射面实测的功率密度、体模透过后的功率密度和随照射时间累计的能量。只有光源、探测几何和组织条件对齐时，才适合把差别主要归给波长。"
+    },
+    {
+      "id": "fekri-2019",
+      "short": "Fekri · 2019",
+      "year": 2019,
+      "title": "Short-term Effects of Transcranial Near-Infrared Photobiomodulation on Motor Performance in Healthy Human Subjects: An Experimental SingleBlind Randomized Clinical Trial",
+      "title_zh": "单次 808 nm 照射后的双手敲击速度",
+      "doi": "10.15171/jlms.2019.51",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6885909/",
+      "journal": "Journal of Lasers in Medical Sciences",
+      "kind": "健康人",
+      "questions": [
+        "brain-signals"
+      ],
+      "measures": [
+        "行为"
+      ],
+      "wavelengths": [
+        "808"
+      ],
+      "mode_filter": "连续光",
+      "reading": "期刊正式版全文，核对照射方法、图 1–3 和表 2",
+      "sources": {
+        "d": {
+          "label": "方法·参与者",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6885909/#s2"
+        },
+        "p": {
+          "label": "方法·照射参数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6885909/#s2-0-1"
+        },
+        "task": {
+          "label": "方法·敲击任务",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6885909/#s2-0-2"
+        },
+        "r": {
+          "label": "图 2·C3 照射的敲击数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6885909/#F2"
+        },
+        "r2": {
+          "label": "表 2·各组敲击数增幅",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6885909/#T2"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "56 名右利手健康青年，18–30 岁",
+          "source": "d"
+        },
+        "design": {
+          "value": "四组单盲随机，C3 和 C4 各设主动及假刺激，每组 14 人",
+          "source": "p"
+        },
+        "wavelength": {
+          "value": "808 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续激光",
+          "source": "p"
+        },
+        "target": {
+          "value": "头皮 C3 或 C4，对应左或右 M1",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "200 mW/cm²；输出 628 mW",
+          "source": "p"
+        },
+        "spot": {
+          "value": "圆形截面 3.14 cm²",
+          "source": "p"
+        },
+        "duration": {
+          "value": "单次 5 分钟",
+          "source": "p"
+        },
+        "dose": {
+          "value": "主动组入射 60 J/cm²",
+          "source": "p"
+        },
+        "control": {
+          "value": "相同位置和操作，中间放挡光滤片",
+          "source": "p"
+        },
+        "readout": {
+          "value": "双手各做单指敲击，取 5 次 10 秒试次的平均次数",
+          "source": "task"
+        },
+        "timing": {
+          "value": "照射即刻前后",
+          "source": "task"
+        }
+      },
+      "results": [
+        {
+          "text": "C3 的刺激条件 × 时间交互 p = 0.02；C4 对应交互未见显著。",
+          "source": "r"
+        },
+        {
+          "text": "C3 主动、假刺激组的右手敲击数分别增加 4.69% 和 1.62%。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "把前后差与假刺激组的前后差直接比较。单指敲击数适合测即刻动作速度；如果问题是序列学习，需要另外测序列准确率和延迟保留。"
+    },
+    {
+      "id": "bibb-2025",
+      "short": "Bibb · 2025",
+      "year": 2025,
+      "title": "Pilot study comparing effects of infrared neuromodulation and transcranial magnetic stimulation using magnetic resonance imaging",
+      "title_zh": "主动光、磁刺激与各自假刺激下的运动区 fMRI",
+      "doi": "10.3389/fnhum.2025.1514087",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/",
+      "journal": "Frontiers in Human Neuroscience",
+      "kind": "健康人",
+      "questions": [
+        "brain-signals"
+      ],
+      "measures": [
+        "fMRI",
+        "扩散MRI"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "期刊正式版全文，核对方法、图 1–3 和表 1",
+      "sources": {
+        "d": {
+          "label": "方法 2.1·参与者",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS1"
+        },
+        "p": {
+          "label": "方法 2.2·主动与假刺激设置",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS2"
+        },
+        "setup": {
+          "label": "图 1·照射位置",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#F1"
+        },
+        "task": {
+          "label": "方法 2.4·任务设计",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS4"
+        },
+        "mri": {
+          "label": "方法 2.3·MRI 采集",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS3"
+        },
+        "r": {
+          "label": "图 2·任务 BOLD",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#F2"
+        },
+        "r2": {
+          "label": "图 3·静息态及扩散连接",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#F3"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "招募 10 名健康成人，8 名完成",
+          "source": "d"
+        },
+        "design": {
+          "value": "受试者内四次访视：主动光、假光、主动磁刺激、假磁刺激，顺序平衡",
+          "source": "p"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续激光",
+          "source": "p"
+        },
+        "target": {
+          "value": "头顶 Cz；研究关注双侧运动感觉区",
+          "source": "setup"
+        },
+        "irradiance": {
+          "value": "主动光输出 0.6 W；方法未给出 mW/cm²",
+          "source": "p"
+        },
+        "spot": {
+          "value": "圆形光束；方法未报告光斑面积",
+          "source": "p"
+        },
+        "duration": {
+          "value": "单次 11 分钟",
+          "source": "p"
+        },
+        "dose": {
+          "value": "主动光总输出能量 396 J；未换算脑内剂量",
+          "source": "p"
+        },
+        "control": {
+          "value": "假光输出 0.1 W，光路以黑色电工胶带遮挡；另设主动及假 TMS",
+          "source": "p"
+        },
+        "readout": {
+          "value": "任务 BOLD、静息态连接和扩散 MRI；右手按提示约 1 Hz 敲击",
+          "source": "task"
+        },
+        "timing": {
+          "value": "每次刺激前、后采 MRI；两次访视间隔 2–64 天",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "光条件下左侧运动感觉区任务 BOLD 相对假光的变化 p = 0.058。",
+          "source": "r"
+        },
+        {
+          "text": "左侧 M1–丘脑静息连接相对假光的变化 p = 0.0432；光与磁的直接比较 p = 0.11。",
+          "source": "r2"
+        }
+      ],
+      "interpretation": "按固定节奏做扫描任务，可以比较相似动作下的脑信号；另设自定速度的行为测试，才能检验刺激是否提高运动表现。小样本探索结果适合用来预设靶区和验证指标。"
     }
   ]
 }

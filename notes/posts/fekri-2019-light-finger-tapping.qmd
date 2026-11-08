@@ -1,0 +1,30 @@
+---
+title: "一次 M1 照射，单指能多敲几下？"
+date: 2026-11-08
+description: "Fekri 等的设计、主要比较与实验启发。"
+categories: [经颅光刺激]
+---
+
+Fekri 等 · *Journal of Lasers in Medical Sciences* · 2019-10-01 · 期刊正式版全文
+
+Short-term Effects of Transcranial Near-Infrared Photobiomodulation on Motor Performance in Healthy Human Subjects: An Experimental SingleBlind Randomized Clinical Trial
+
+[DOI 10.15171/jlms.2019.51](https://doi.org/10.15171/jlms.2019.51)
+
+[回到本期 · 光刺激后手指敲得更快，说明学会了动作序列吗？](../issues/2026-11-08-motor-performance-learning.qmd)
+
+## 怎么做
+
+**研究对象**　56 名右利手健康青年。
+
+单盲随机分为四组，每组 14 人。C3 和 C4 各有主动与挡光假刺激组。主动照射为 808 nm 连续光、200 mW/cm²、5 分钟、60 J/cm²。照射前后分别测左右手单指 10 秒内的敲击数。
+
+## 结果怎么读
+
+**图 2 和表 2** 显示，C3 主动组的右手敲击数提高 4.69%，假刺激组提高 1.62%。C3 的刺激条件与时间交互为 p = 0.02。C4 对应比较未见显著交互。作者分开检验两个位置，因此这组结果没有直接比较 C3 和 C4 的刺激效应大小。
+
+## 对实验设计有什么用
+
+把前后差与假刺激组的前后差直接比较。单指敲击数适合测即刻动作速度；如果问题是序列学习，需要另外测序列准确率和延迟保留。
+
+[原文](https://pmc.ncbi.nlm.nih.gov/articles/PMC6885909/#T2) · [研究对比卡](../../library/tpbm/fekri-2019.qmd) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/fekri-2019-light-finger-tapping.qmd)

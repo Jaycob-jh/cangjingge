@@ -1,0 +1,30 @@
+---
+title: "运动区连得更强，能说明动作变快吗？"
+date: 2026-11-08
+description: "Bibb 等的设计、主要比较与实验启发。"
+categories: [经颅光刺激]
+---
+
+Bibb 等 · *Frontiers in Human Neuroscience* · 2025-03-13 · 期刊正式版全文
+
+Pilot study comparing effects of infrared neuromodulation and transcranial magnetic stimulation using magnetic resonance imaging
+
+[DOI 10.3389/fnhum.2025.1514087](https://doi.org/10.3389/fnhum.2025.1514087) · [PMID 40183072](https://pubmed.ncbi.nlm.nih.gov/40183072/)
+
+[回到本期 · 光刺激后手指敲得更快，说明学会了动作序列吗？](../issues/2026-11-08-motor-performance-learning.qmd)
+
+## 怎么做
+
+**研究对象**　8 名完成研究的健康成人。
+
+每人参加四次实验，分别接受主动光、假光、主动磁刺激或假磁刺激。主动光从头顶 Cz 送入 1064 nm 连续激光，输出 0.6 W、11 分钟。干预前后采集静息态和右手按提示以 1 Hz 敲击的任务 fMRI。
+
+## 结果怎么读
+
+**图 3C** 的左侧 M1–丘脑静息连接在主动光相对假光的变化中达到 p = 0.0432，光与磁的直接比较为 p = 0.11。**图 2B** 的左侧运动感觉区任务 BOLD 在光条件下为 p = 0.058。研究未量化敲击速度等行为成绩，影像差异对应的是连接或激活。
+
+## 对实验设计有什么用
+
+按固定节奏做扫描任务，可以比较相似动作下的脑信号；另设自定速度的行为测试，才能检验刺激是否提高运动表现。小样本探索结果适合用来预设靶区和验证指标。
+
+[原文](https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#F3) · [研究对比卡](../../library/tpbm/bibb-2025.qmd) · [编辑这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/bibb-2025-light-somatomotor-fmri.qmd)

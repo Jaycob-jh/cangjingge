@@ -33,6 +33,18 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/van-lankveld-2026.qmd) · [表 2·脑血流与 BOLD 对照](https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#table2-0271678X261479524) · [图 4·BOLD 与脑血流关系](https://pmc.ncbi.nlm.nih.gov/articles/PMC13646193/#fig4-0271678X261479524)
 
+### Fekri · 2019：动作速度用单指敲击数测量
+
+C3 主动照射与假刺激的敲击数变化不同。这个设计给出即刻行为读数；要回答脑活动和序列学习的问题，需要另加生理指标与延迟测试。
+
+[研究参数与结果](../../library/tpbm/fekri-2019.qmd) · [方法·敲击任务](https://pmc.ncbi.nlm.nih.gov/articles/PMC6885909/#s2-0-2) · [图 2·C3 照射的敲击数](https://pmc.ncbi.nlm.nih.gov/articles/PMC6885909/#F2) · [表 2·各组敲击数增幅](https://pmc.ncbi.nlm.nih.gov/articles/PMC6885909/#T2)
+
+### Bibb · 2025：固定速度的任务激活和静息连接分开读
+
+主动光后左侧 M1–丘脑连接相对假光有变化，但光与磁的直接比较未达显著。研究没有量化敲击表现，连接结果应按影像指标解释。
+
+[研究参数与结果](../../library/tpbm/bibb-2025.qmd) · [方法 2.4·任务设计](https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS4) · [图 2·任务 BOLD](https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#F2) · [图 3·静息态及扩散连接](https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#F3)
+
 ## 做实验时看什么
 
 - 每个结果写明：测什么信号、什么频段、哪个脑区、刺激中还是刺激后。
@@ -50,5 +62,7 @@ toc: true
 - [Dmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？](../../library/tpbm/dmochowski-2020.qmd)
 - [Ma · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？](../../library/tpbm/ma-2026.qmd)
 - [Van Lankveld · 2026：相同波长的 BOLD 和脑血流反应一致吗？](../../library/tpbm/van-lankveld-2026.qmd)
+- [Fekri · 2019：单次 808 nm 照射后的双手敲击速度](../../library/tpbm/fekri-2019.qmd)
+- [Bibb · 2025：主动光、磁刺激与各自假刺激下的运动区 fMRI](../../library/tpbm/bibb-2025.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

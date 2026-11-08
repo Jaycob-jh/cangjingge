@@ -1,0 +1,49 @@
+---
+title: "主动光、磁刺激与各自假刺激下的运动区 fMRI"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Bibb · 2025 · 健康人**
+
+Pilot study comparing effects of infrared neuromodulation and transcranial magnetic stimulation using magnetic resonance imaging
+
+*Frontiers in Human Neuroscience* · [DOI: 10.3389/fnhum.2025.1514087](https://doi.org/10.3389/fnhum.2025.1514087) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/)
+
+阅读范围：期刊正式版全文，核对方法、图 1–3 和表 1。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=bibb-2025) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>招募 10 名健康成人，8 名完成<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS1" target="_blank" rel="noopener">方法 2.1·参与者</a></dd></div>
+<div><dt>研究设计</dt><dd>受试者内四次访视：主动光、假光、主动磁刺激、假磁刺激，顺序平衡<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS2" target="_blank" rel="noopener">方法 2.2·主动与假刺激设置</a></dd></div>
+<div><dt>波长</dt><dd>1064 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS2" target="_blank" rel="noopener">方法 2.2·主动与假刺激设置</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续激光<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS2" target="_blank" rel="noopener">方法 2.2·主动与假刺激设置</a></dd></div>
+<div><dt>照射位置</dt><dd>头顶 Cz；研究关注双侧运动感觉区<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#F1" target="_blank" rel="noopener">图 1·照射位置</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>主动光输出 0.6 W；方法未给出 mW/cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS2" target="_blank" rel="noopener">方法 2.2·主动与假刺激设置</a></dd></div>
+<div><dt>光斑</dt><dd>圆形光束；方法未报告光斑面积<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS2" target="_blank" rel="noopener">方法 2.2·主动与假刺激设置</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>单次 11 分钟<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS2" target="_blank" rel="noopener">方法 2.2·主动与假刺激设置</a></dd></div>
+<div><dt>剂量</dt><dd>主动光总输出能量 396 J；未换算脑内剂量<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS2" target="_blank" rel="noopener">方法 2.2·主动与假刺激设置</a></dd></div>
+<div><dt>对照怎么做</dt><dd>假光输出 0.1 W，光路以黑色电工胶带遮挡；另设主动及假 TMS<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS2" target="_blank" rel="noopener">方法 2.2·主动与假刺激设置</a></dd></div>
+<div><dt>观察指标</dt><dd>任务 BOLD、静息态连接和扩散 MRI；右手按提示约 1 Hz 敲击<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS4" target="_blank" rel="noopener">方法 2.4·任务设计</a></dd></div>
+<div><dt>测量时间</dt><dd>每次刺激前、后采 MRI；两次访视间隔 2–64 天<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#S2.SS2" target="_blank" rel="noopener">方法 2.2·主动与假刺激设置</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 光条件下左侧运动感觉区任务 BOLD 相对假光的变化 p = 0.058。（[图 2·任务 BOLD](https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#F2)）
+- 左侧 M1–丘脑静息连接相对假光的变化 p = 0.0432；光与磁的直接比较 p = 0.11。（[图 3·静息态及扩散连接](https://pmc.ncbi.nlm.nih.gov/articles/PMC11966418/#F3)）
+
+## 对实验设计有什么用
+
+按固定节奏做扫描任务，可以比较相似动作下的脑信号；另设自定速度的行为测试，才能检验刺激是否提高运动表现。小样本探索结果适合用来预设靶区和验证指标。
+
+## 接着读
+
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)
