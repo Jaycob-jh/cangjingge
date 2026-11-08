@@ -1,0 +1,423 @@
+---
+title: "脑功能网络的发现史"
+subtitle: "从局部定位、分布式环路到现代全脑网络"
+description: "从 1861 年失语症病例到 2023 年 SCAN，沿原始文献追踪脑网络的提出、验证和分区。"
+toc: true
+toc-depth: 2
+---
+
+[研究发展史](history.qmd) · [直达各脑网络的起源判定表](#network-origins) · [个体化脑网络与神经调控](personalized-networks.qmd)
+
+**一份按历史逻辑组织的原始文献与关键综述阅读笔记**\
+更新：2026-10-13｜覆盖：1861—2023｜研究对象：语言、视觉、注意、记忆、奖赏、社会认知、感觉运动、默认模式、显著性、认知控制、全脑连接组及新近网络。
+
+> **核心问题**：每一个脑网络最早是因为什么科学难题而被提出的？研究者如何从意外现象、临床病例、解剖学或认知理论中想到它？又是如何用实验或功能连接将它变成一个被接受的科学概念？
+>
+> **重要限定**：下文的“首次”分为**思想前身**、**明确提出系统/模型**、**首次或早期的连接证据**、**后续命名与标准图谱化**。并非所有今天叫作“网络”的东西，都有唯一无争议的首篇论文。书籍和综述会明确标注，不会伪装成网络的首次实验发现。
+
+---
+
+## 先回答几个问题
+
+**1. 默认模式网络（DMN）是最早的脑网络吗？** 不是。19世纪已经有语言区与区际连接的模型；20世纪有情绪环路、视觉通路和分布式注意系统。就**静息态fMRI功能连接**而言，Biswal等人的感觉运动连接研究（1995）也早于Raichle等人提出默认模式（2001）。但DMN确实是现代**高阶认知相关的静息态网络**研究中最具转折意义的早期概念之一。
+
+**2. 为什么一些网络的“首次”年份不一样？** 因为一个系统常有几个不同起点。例如DMN有1997年的共同任务负激活、2001年的默认模式概念、2003年的静息态网络证据；FPN有2000年前后的认知控制理论前史、2007年的双控制网络划分、2008年独立额顶控制系统的进一步论证。
+
+**3. 网络都是从静息态数据中聚类得到的吗？** 不是。至少有五种历史上反复出现的路线：
+
+- **病损/临床症状 → 解剖联系 → 功能系统假设**：语言连接模型、注意网络、记忆系统、显著性网络的临床启发。
+- **神经解剖/动物实验 → 分布式环路 → 功能解释**：Papez环路、视觉通路、奖赏研究。
+- **任务态反常现象 → 理论重新解释 → 静息态验证**：默认模式网络。
+- **任务态共同激活 → 按控制信号分解 → 功能连接区分子系统**：FPN、CON、MD系统。
+- **大样本连接数据 → 全脑分区/个体图谱 → 跨任务、跨模态和临床解释**：Yeo、Power、Glasser、精准个体网络研究。
+
+**4. Yeo七网络、Power网络与前人的单个网络发现是什么关系？** 前者主要是**全脑分区框架**，不是一次性首次发现视觉、运动、注意、默认模式等所有网络。不同图谱中的名称及边界也不能直接一一等同。
+
+---
+
+## 一、1861—1965：从单一区域的功能定位，走向“连接和环路也会产生认知功能”
+
+这一时期还没有现代意义上的静息态大尺度功能连接网络，但已经提出了其最根本的思想：**复杂行为依赖多个相互联系的神经结构；损伤一个节点或切断连接，都可能改变认知。**
+
+### 01. [Remarques sur le siège de la faculté du langage articulé, suivies d'une observation d'aphémie ↗](https://psychclassics.yorku.ca/Broca/aphemie.htm)
+**Broca · 1861 · *Bulletin de la Société Anatomique*｜临床定位的历史前身**
+
+通过失语症病例和病理观察，Broca将语言表达功能与左额叶特定区域联系起来。它并非“语言网络”的首次提出，而是提供了一个起点：**某种认知行为似乎能够与脑区损伤建立系统关系**。后来研究者才需要解释，为什么不同脑区以及区际连接的损伤，也会引起不同语言障碍。
+
+### 02. [Der aphasische Symptomencomplex: Eine psychologische Studie auf anatomischer Basis ↗](https://wellcomecollection.org/works/dwv5w9rw)
+**Wernicke · 1874 · 专著（原始扫描）｜语言连接模型的思想前身**
+
+Wernicke尝试根据语言理解和语言表达障碍的差异，建立涉及多个语言加工区域及其联络通路的模型。重要转变是从“哪一个脑区负责语言”转向“语言的不同运算环节如何通过连接协作”。**注意：这是一部1874年的专著，不是现代rs-fMRI论文。**
+
+### 03. [On Aphasia ↗](https://doi.org/10.1093/brain/7.4.433)
+**Lichtheim · 1885 · *Brain*｜语言连接模型的系统化**
+
+在临床失语类型与语言加工理论之间建立更完整的关联，推动经典的Wernicke–Lichtheim式模型。其意义在于：一个语言症状不必只由某一独立中心受损解释，也可能来自系统内的**连接中断**。
+
+### 04. [A Proposed Mechanism of Emotion ↗](https://doi.org/10.1001/archneurpsyc.1937.02260220069003)
+**Papez · 1937 · *Archives of Neurology and Psychiatry*｜情绪环路的经典概念论文**
+
+**问题**：情绪如何在下丘脑、丘脑、海马与扣带等结构之间实现？Papez基于当时的解剖、生理与临床证据，提出这些结构通过闭合环路参与情绪加工。其原始功能解释随后受到大量修正，但这篇论文展示了早期网络创新的一种典型方式：**先由解剖连接提出跨脑区的功能性假说**。
+
+### 05. [Positive Reinforcement Produced by Electrical Stimulation of Septal Area and Other Regions of Rat Brain ↗](https://doi.org/10.1037/h0058775)
+**Olds & Milner · 1954 · *Journal of Comparative and Physiological Psychology*｜奖赏环路研究的重要实验前史**
+
+研究者发现，刺激某些脑部位可以强化动物行为。这推动了对奖赏与强化机制的分布式神经回路研究。**它不是今天fMRI“奖赏网络”的命名论文**，而是后者相关理论的一个实验来源。
+
+### 06. [Loss of Recent Memory after Bilateral Hippocampal Lesions ↗](https://doi.org/10.1136/jnnp.20.1.11)
+**Scoville & Milner · 1957 · *Journal of Neurology, Neurosurgery & Psychiatry*｜记忆系统的关键病损证据**
+
+内侧颞叶双侧损伤导致严重而持续的近事记忆障碍，迫使研究者把“记忆”从一个笼统心理能力细分为依赖不同脑结构的过程。这里的突破首先是**发现特定脑结构对记忆形成的必要性**，而非已经完成一个现代记忆网络的功能连接分区。
+
+### 07. [Disconnexion Syndromes in Animals and Man. I ↗](https://doi.org/10.1093/brain/88.2.237) · [Part II ↗](https://doi.org/10.1093/brain/88.3.585)
+**Geschwind · 1965 · *Brain*｜连接障碍理论的重要复兴**
+
+Geschwind整理动物、脑损伤及神经心理学证据，强调许多高级功能障碍可以由大脑区域之间的连接中断解释。**真正改变的问题是：不能只问“哪个中心坏了”，还要问“哪个功能过程因为通路中断而无法完成”。**
+
+**本阶段的历史逻辑：** 病例和脑损伤 → 功能定位 → 解释不了的复杂症状 → 联络纤维、分布式环路和连接障碍的理论。
+
+---
+
+## 二、1981—1995：大型认知系统被明确构想为“网络”
+
+这阶段最关键的不是静息态技术，而是**如何把复杂认知加工重新写成多个脑区及其相互作用的模型**。
+
+### 08. [A Cortical Network for Directed Attention and Unilateral Neglect ↗](https://doi.org/10.1002/ana.410100402)
+**Mesulam · 1981 · *Annals of Neurology*｜分布式注意网络的标志性概念论文**
+
+**问题**：为什么不同部位的脑损伤都可能引起空间忽略？Mesulam综合人和猴的神经心理学与解剖学资料，认为定向注意依赖多个承担不同角色的皮层区域所构成的网络。它是“先有临床异常，再提出网络解释”的清晰典型案例。
+
+### 09. [The Attention System of the Human Brain ↗](https://doi.org/10.1146/annurev.ne.13.030190.000325)
+**Posner & Petersen · 1990 · *Annual Review of Neuroscience*｜注意系统的认知—神经理论框架（综述）**
+
+提出可以从不同注意操作和神经机制来研究注意系统，而不能把注意视为单一能力。后来关于警觉、定向及执行注意的研究，沿着这条思想路线发展。**这里的“注意系统”不能直接等同于现代rs-fMRI图谱的DAN或VAN。**
+
+### 10. [Large-scale Neurocognitive Networks and Distributed Processing for Attention, Language, and Memory ↗](https://doi.org/10.1002/ana.410280502)
+**Mesulam · 1990 · *Annals of Neurology*｜大尺度神经认知网络思想的纲领性论文**
+
+这是一篇必须优先读的历史论文。Mesulam已明确把注意、语言和记忆视为在相互连接的多个区域之间完成的分布式加工。它清楚表明：**“大尺度认知网络”的概念并非DMN出现之后才产生**。
+
+### 11. [Distributed Hierarchical Processing in the Primate Cerebral Cortex ↗](https://doi.org/10.1093/cercor/1.1.1-a)
+**Felleman & Van Essen · 1991 · *Cerebral Cortex*｜视觉系统解剖连接和层级组织**
+
+利用灵长类皮层区域及投射连接信息，把视觉皮层表述为多区域、多层级且具有反馈连接的分布式系统。**核心创新**：不再用一条简单的线性处理链描述视觉，而是研究多个区域之间的结构拓扑和处理层级。
+
+### 12. [Separate Visual Pathways for Perception and Action ↗](https://doi.org/10.1016/0166-2236(92)90344-8)
+**Goodale & Milner · 1992 · *Trends in Neurosciences*｜视觉双通路理论（综述/理论）**
+
+**问题**：为什么识别物体与根据视觉信息实施抓取动作会受到不同形式的脑损伤影响？作者基于神经心理学和行为等证据，提出腹侧通路更多参与知觉识别，背侧通路更多参与视觉引导动作。它体现了**从功能性分离，推演并比较不同神经通路**的发现思路。
+
+### 13. [Other Minds in the Brain: A Functional Imaging Study of “Theory of Mind” in Story Comprehension ↗](https://doi.org/10.1016/0010-0277(95)00692-R)
+**Fletcher et al. · 1995 · *Cognition*｜心理理论/社会认知系统的早期脑成像证据**
+
+**问题**：理解他人信念和意图时，大脑是否动用特定神经机制？研究利用PET比较需要心理状态推断的故事理解任务与对照任务。这是**社会认知网络的成像前史**，不是后来所有“社会脑网络”版本的唯一首次命名。
+
+**本阶段的历史逻辑：** 一个复杂心理功能 → 不同临床损害或任务操作揭示功能分离 → 推断多个协作节点 → 构建大尺度认知网络理论。
+
+---
+
+## 三、1995—2003：静息态功能连接与默认模式出现——现代功能网络研究转向
+
+这一阶段存在两条交汇的发现路线：一条从**自发BOLD信号**出发，一条从**任务态和认知理论**出发。
+
+### 14. [Functional Connectivity in the Motor Cortex of Resting Human Brain Using Echo-planar MRI ↗](https://doi.org/10.1002/mrm.1910340409)
+**Biswal et al. · 1995 · *Magnetic Resonance in Medicine*｜静息态感觉运动功能连接的里程碑**
+
+**最初观察**：被试不运动时，感觉运动脑区的低频BOLD信号仍然呈现时间相关。作者将这种相关性解释为功能连接的表现。**历史地位**：比2001年DMN更早地证明，可以在没有明确任务时研究脑区之间的功能耦合。
+
+### 15. [Common Blood Flow Changes across Visual Tasks: II. Decreases in Cerebral Cortex ↗](https://doi.org/10.1162/jocn.1997.9.5.648)
+**Shulman et al. · 1997 · *Journal of Cognitive Neuroscience*｜DMN的重要实验前身**
+
+重新分析9项PET视觉任务，发现多个内侧和顶叶区域在执行不同任务时**反复降低**活动。关键问题随之出现：如果不同任务都会“关低”这些区域，那么静息或基线状态究竟意味着什么？这篇论文在逻辑上直接推动了默认模式概念的出现。
+
+### 16. [Common Regions of the Human Frontal Lobe Recruited by Diverse Cognitive Demands ↗](https://doi.org/10.1016/S0166-2236(00)01633-7)
+**Duncan & Owen · 2000 · *Trends in Neurosciences*｜多重需求（MD）系统的理论前史（综述）**
+
+不同认知任务经常激活相似的额叶区域。作者据此讨论是否存在跨任务的共同控制资源。**它为之后的MD系统和额顶控制研究提供了问题和理论基础，但不是2007年FPN/CON静息态双网络划分本身。**
+
+### 17. [A Default Mode of Brain Function ↗](https://doi.org/10.1073/pnas.98.2.676)
+**Raichle et al. · 2001 · *PNAS*｜默认模式概念的标志性提出**
+
+**关键困惑**：把静息态当作实验“零点”可能是错误的，因为多个区域在静息/注视条件下呈现有组织的活动。作者结合PET的氧提取分数等生理证据，提出大脑存在一种具有规律性的**默认活动模式**。**注意**：2001年首先明确提出的是“default mode”，后续研究进一步把相关区域界定为内在功能连接网络。
+
+### 18. [Control of Goal-directed and Stimulus-driven Attention in the Brain ↗](https://doi.org/10.1038/nrn755)
+**Corbetta & Shulman · 2002 · *Nature Reviews Neuroscience*｜背侧/腹侧注意系统的关键双网络模型（综述）**
+
+**问题**：目标引导的注意定向，为什么与突发行为相关刺激引发的注意重定向具有不同脑机制？作者综合任务态成像与损伤研究，提出相对区分的背侧与腹侧注意控制系统。现代DAN/VAN研究的重要概念来源之一；不是说该论文已给出了今天标准图谱上的全部边界。
+
+### 19. [Testing the Efficiency and Independence of Attentional Networks ↗](https://doi.org/10.1162/089892902317361886)
+**Fan et al. · 2002 · *Journal of Cognitive Neuroscience*｜警觉、定向、执行注意的行为操作化**
+
+通过注意网络测验（ANT）量化不同注意过程，推动把注意系统模型转变为可以比较和重复测量的实验框架。它对应的是**心理认知层面的网络功能划分**，与静息态脑网络的空间分区并不一一对应。
+
+### 20. [Functional Connectivity in the Resting Brain: A Network Analysis of the Default Mode Hypothesis ↗](https://doi.org/10.1073/pnas.0135058100)
+**Greicius et al. · 2003 · *PNAS*｜DMN早期静息态网络验证**
+
+从任务态下降区域出发，研究它们在静息状态中的功能连接。**关键进步**：将“在不同任务中共同降低活动的一组区域”推进为“在无任务状态下具有相互关联活动的网络”。这也是**提出概念**与**验证连接结构**需要区分的经典案例。
+
+### 21. [People Thinking about Thinking People: The Role of the Temporo-parietal Junction in “Theory of Mind” ↗](https://doi.org/10.1016/S1053-8119(03)00230-1)
+**Saxe & Kanwisher · 2003 · *NeuroImage*｜社会认知网络的关键区域与功能证据**
+
+研究者进一步问：颞顶联合区的反应究竟只是与人物信息相关，还是与**推断他人的心理内容**特异相关？通过任务对照强调了心理状态推断中的特定区域作用。它是社会认知网络研究的重要机制化步骤，而不是一次全脑静息态“网络发现”。
+
+**本阶段的历史逻辑：** 静息时仍有同步BOLD波动；多任务中存在反复负激活；复杂认知任务有稳定的分布式系统。于是研究者开始认识到：**任务态与静息态可能是同一潜在网络组织的不同表现。**
+
+---
+
+## 四、2005—2008：多个内在网络被区分，控制系统发生“分裂”
+
+真正重要的变化是：**从研究单个脑区的激活，走向用功能连接判定哪些脑区属于同一系统、哪些属于相邻但不同的系统。**
+
+### 22. [Investigations into Resting-state Connectivity Using Independent Component Analysis ↗](https://doi.org/10.1098/rstb.2005.1634)
+**Beckmann et al. · 2005 · *Philosophical Transactions of the Royal Society B*｜ICA多网络识别的关键方法论文**
+
+相比只研究预选种子，独立成分分析可以从数据中识别多组相对独立的时间和空间模式。它推动研究者从“验证一个假设网络”转向“在同一批静息态数据中并行观察多个网络”。
+
+### 23. [The Human Brain Is Intrinsically Organized into Dynamic, Anticorrelated Functional Networks ↗](https://doi.org/10.1073/pnas.0504136102)
+**Fox et al. · 2005 · *PNAS*｜任务正向/负向系统的静息态关系**
+
+作者发现与外部任务有关的区域和与默认活动相关的区域在静息态中表现出不同的功能连接模式，包括负相关关系。这支持了**内在脑组织并非由任务临时创造**的认识。需要注意，负相关估计会受信号预处理方法影响，不能把所有负相关都视为直接的神经抑制关系。
+
+### 24. [The Human Connectome: A Structural Description of the Human Brain ↗](https://doi.org/10.1371/journal.pcbi.0010042)
+**Sporns, Tononi & Kötter · 2005 · *PLoS Computational Biology*｜人类连接组研究纲领**
+
+此论文提出系统绘制人脑连接矩阵的研究目标。它与某种认知网络的首次命名不同：**研究对象从某个特定功能系统转为全脑节点和连接构成的整体结构**。后来图论、枢纽、模块化、全脑网络分区等工作的思想背景与此密切相关。
+
+### 25. [A Core System for the Implementation of Task Sets ↗](https://doi.org/10.1016/j.neuron.2006.04.031)
+**Dosenbach et al. · 2006 · *Neuron*｜CON/FPN双网络区分的直接前史**
+
+**研究问题**：不同任务中持续出现的控制脑区到底共同处理什么？团队整合多种任务的任务开始、任务维持与错误相关活动，识别出跨任务的控制核心。**关键创新不是简单归类激活脑区，而是按控制信号的时间特性区分功能。**
+
+### 26. [Spontaneous Neuronal Activity Distinguishes Human Dorsal and Ventral Attention Systems ↗](https://doi.org/10.1073/pnas.0604187103)
+**Fox et al. · 2006 · *PNAS*｜DAN/VAN任务模型的静息态连接证据**
+
+以先前的双注意系统理论为出发点，在静息态检验背侧与腹侧注意系统是否表现为不同连接组织。它示范了一条重要路线：**先由任务和行为理论定义候选网络，再利用静息态研究它们是否具有相对独立的内在组织。**
+
+### 27. [Consistent Resting-state Networks across Healthy Subjects ↗](https://doi.org/10.1073/pnas.0601417103)
+**Damoiseaux et al. · 2006 · *PNAS*｜多个静息态网络的跨被试可重复性**
+
+在被试之间重复识别多组静息态功能连接模式，帮助确立了“多个大尺度内在网络具有稳定空间组织”这一方法学事实。**它属于多网络复现与识别，而不是所有被识别网络的首次命名论文。**
+
+### 28. [Dissociable Intrinsic Connectivity Networks for Salience Processing and Executive Control ↗](https://doi.org/10.1523/JNEUROSCI.5587-06.2007)
+**Seeley et al. · 2007年2月 · *Journal of Neuroscience*｜显著性网络（SN）的关键原始论文**
+
+**最初问题**与临床有关：为什么额颞叶痴呆的社会情绪、自主神经及行为改变常与额岛和前扣带异常联系在一起？研究者受到临床病理、von Economo神经元分布等线索启发，再用无任务功能连接识别出一个与显著性加工相关的网络，并将其与执行控制网络区分开。**这里是“从临床难题产生网络假说，再由连接证据检验”的代表。**
+
+### 29. [The Cortical Organization of Speech Processing ↗](https://doi.org/10.1038/nrn2113)
+**Hickok & Poeppel · 2007年4月 · *Nature Reviews Neuroscience*｜语言/语音双流模型的系统性阐述（综述）**
+
+**问题**：言语听觉理解与将语音映射到发音动作，是否通过同一条通路完成？作者整合失语、脑成像等证据提出腹侧理解通路与背侧听觉—运动映射通路。这说明“语言网络”的历史不能只停留在Wernicke时代，它持续经由新数据而被重构。
+
+### 30. [Distinct Brain Networks for Adaptive and Stable Task Control in Humans ↗](https://doi.org/10.1073/pnas.0704320104)
+**Dosenbach et al. · 2007年6月 · *PNAS*｜FPN与CON双控制网络模型的关键原始论文**
+
+团队将任务态识别的控制区域与静息态功能连接、网络分析结合，发现原先相似的控制区域可分成两个相对不同的系统：**额顶网络（frontoparietal）**与**扣带—岛盖网络（cingulo-opercular）**。当时提出的解释是：前者更多支持试次层面的适应性调整，后者更多支持较稳定的任务集合维持。**这是研究者因“控制信号为什么在不同时间尺度运作”而提出网络划分，不是随意给聚类结果命名。**
+
+### 31. [Evidence for a Frontoparietal Control System Revealed by Intrinsic Functional Connectivity ↗](https://doi.org/10.1152/jn.90355.2008)
+**Vincent et al. · 2008 · *Journal of Neurophysiology*｜FPN的另一条独立论证路径**
+
+**问题**：外部注意系统与内部记忆相关系统之间，是否存在一个能够协调信息的控制系统？作者通过多组静息态数据识别一个空间上位于两类系统之间的独立额顶控制系统。**2008年不是额顶控制思想的唯一首发时间**；它的独特贡献是对该系统的独立性与潜在整合作用进行连接组学论证。
+
+### 32. [A Dual-networks Architecture of Top-down Control ↗](https://doi.org/10.1016/j.tics.2008.01.001)
+**Dosenbach et al. · 2008 · *Trends in Cognitive Sciences*｜FPN/CON双网络控制理论的总结（理论综述）**
+
+把2006—2007年的发现整合为可讨论、可预测的顶层认知控制架构。阅读这篇有助于分清**“发现两个连接网络”**和**“如何解释两者不同的控制功能”**这两个论证步骤。
+
+**本阶段的历史逻辑：** 任务识别候选脑区 → 静息态检验连接关系 → 发现跨任务可重复的多个子系统 → 提出不同时间尺度和功能分工的网络理论。
+
+---
+
+## 五、2009—2011：从“一个个网络”转向全脑多网络图谱
+
+### 33. [Correspondence of the Brain's Functional Architecture during Activation and Rest ↗](https://doi.org/10.1073/pnas.0905267106)
+**Smith et al. · 2009 · *PNAS*｜任务态与静息态网络的系统性对应**
+
+将大量任务激活数据与静息态独立成分进行比较，发现两类方法识别出的功能系统高度对应。**核心意义**：任务理论与静息态网络不是彼此孤立的两套研究，它们能够互相提供解释线索。
+
+### 34. [Complex Brain Networks: Graph Theoretical Analysis of Structural and Functional Systems ↗](https://doi.org/10.1038/nrn2575)
+**Bullmore & Sporns · 2009 · *Nature Reviews Neuroscience*｜图论脑网络分析的重要方法综述**
+
+系统引入并梳理模块化、枢纽、小世界性质及结构与功能网络等概念。这里研究的是**网络整体拓扑**，而不只是在皮层表面给某个系统划线。
+
+### 35. [Saliency, Switching, Attention and Control: A Network Model of Insula Function ↗](https://doi.org/10.1007/s00429-010-0262-0)
+**Menon & Uddin · 2010 · *Brain Structure and Function*｜显著性网络参与系统切换的模型（理论）**
+
+**问题**：前岛叶为何同时涉及内感受、情绪和认知控制？作者提出前岛叶可能参与检测重要事件，并调节与外部任务、内部自发认知有关的大尺度网络之间的转换。它把研究重点推进到**网络之间如何交互**，但这是一种机制模型，并不等于每个环节已被证明。
+
+### 36. [The Multiple-demand (MD) System of the Primate Brain: Mental Programs for Intelligent Behaviour ↗](https://doi.org/10.1016/j.tics.2010.01.004)
+**Duncan · 2010 · *Trends in Cognitive Sciences*｜MD系统的理论综合（综述）**
+
+为什么一组额顶区域会在工作记忆、推理、问题解决等不同任务中被反复招募？MD理论从灵活的目标与子任务编排来解释这种跨任务共性。**MD和静息态FPN有显著联系，但不是严格等同的概念。**
+
+### 37. [New Method for fMRI Investigations of Language: Defining ROIs Functionally in Individual Subjects ↗](https://doi.org/10.1152/jn.00032.2010)
+**Fedorenko et al. · 2010 · *Journal of Neurophysiology*｜个体语言功能系统定位的方法转向**
+
+**问题**：群体平均的“语言脑区”为什么会产生较大定位差异？作者提出使用个体内功能定位器定义语言敏感区域，使语言研究能够更准确地研究跨个体对应关系与功能特异性。它不是语言系统的首发现象，而是**网络如何被更可靠地测量**的创新。
+
+### 38. [The Organization of the Human Cerebral Cortex Estimated by Intrinsic Functional Connectivity ↗](https://doi.org/10.1152/jn.00338.2011)
+**Yeo et al. · 2011 · *Journal of Neurophysiology*｜七网络/十七网络皮层分区**
+
+基于1000名被试的内在功能连接提出常用的7网络与17网络皮层分区。**关键历史变化**：从不同实验室各自提出特定网络，转向面向整个皮层、可复现的数据驱动网络图谱。**它不是DMN、视觉网络或DAN等系统的首次发现论文。**
+
+### 39. [Functional Network Organization of the Human Brain ↗](https://doi.org/10.1016/j.neuron.2011.09.006)
+**Power et al. · 2011 · *Neuron*｜基于节点连接的全脑功能网络体系**
+
+利用全脑节点和功能连接分析多个系统的关系，推进网络模块、空间分布和图论研究。与Yeo论文一起阅读，能够理解为什么不同图谱会产生**相近但并非完全一致**的系统数量、边界和命名。
+
+**本阶段的历史逻辑：** 单一网络假说 → 多网络间关系 → 大样本全脑分区 → “脑功能系统究竟怎样组成整体”成为可直接研究的问题。
+
+---
+
+## 六、2011—2013：功能网络延伸到皮层下与小脑，并出现新的机制解释
+
+### 40. [The Organization of the Human Cerebellum Estimated by Intrinsic Functional Connectivity ↗](https://doi.org/10.1152/jn.00339.2011)
+**Buckner et al. · 2011 · *Journal of Neurophysiology*｜小脑的皮层网络对应图谱**
+
+将小脑体素的连接模式映射到大脑皮层功能网络，揭示了运动系统之外广泛的小脑—关联皮层联系。**贡献**不在于首次发现小脑参与认知，而在于展示皮层全脑网络框架如何延伸到小脑。
+
+### 41. [The Organization of the Human Striatum Estimated by Intrinsic Functional Connectivity ↗](https://doi.org/10.1152/jn.00270.2012)
+**Choi, Yeo & Buckner · 2012 · *Journal of Neurophysiology*｜纹状体与皮层网络的对应分区**
+
+从已有皮层网络分区出发，研究纹状体不同区域与哪些皮层系统最强地联系。**历史意义**：把“皮层有多个功能网络”的结论推进到**皮层—基底节环路的系统组织**。
+
+### 42. [Two Cortical Systems for Memory-guided Behaviour ↗](https://doi.org/10.1038/nrn3338)
+**Ranganath & Ritchey · 2012 · *Nature Reviews Neuroscience*｜记忆相关的双皮层系统理论（综述）**
+
+作者整合内嗅、海马旁、后扣带相关区域等解剖及功能研究，区分围绕不同记忆与认知功能组织的皮层系统。它强调“记忆网络”并不是DMN的简单同义词，也不是只有海马一个核心。
+
+### 43. [Multi-task Connectivity Reveals Flexible Hubs for Adaptive Task Control ↗](https://doi.org/10.1038/nn.3470)
+**Cole et al. · 2013 · *Nature Neuroscience*｜FPN灵活枢纽模型的实验证据**
+
+**问题**：如果FPN支持灵活控制，它的网络连接应该在不同任务之间保持不变，还是随任务重新配置？研究观察到额顶网络的跨系统功能连接随任务变化的程度较大，支持“灵活枢纽”的机制设想。**从描述网络在哪里，走向检验网络如何执行控制。**
+
+---
+
+## 七、2015—2023：个体化网络、跨模态边界与新网络的发现
+
+### 44. [Functional System and Areal Organization of a Highly Sampled Individual Human Brain ↗](https://doi.org/10.1016/j.neuron.2015.06.037)
+**Laumann et al. · 2015 · *Neuron*｜高密度个体功能网络研究**
+
+**问题**：群体平均图谱是否掩盖了某个人独特而稳定的脑组织？研究者对单个被试进行长期、多次扫描，发现个体内可重复识别的区域与系统组织。**重点从“平均大脑有多少网络”变为“每个人的网络真实边界在哪里”。**
+
+### 45. [A Multi-modal Parcellation of Human Cerebral Cortex ↗](https://doi.org/10.1038/nature18933)
+**Glasser et al. · 2016 · *Nature*｜多模态皮层分区**
+
+整合结构、髓鞘化、任务与功能连接等MRI信息，提出每半球180个皮层区域。**重要区别：180个皮层区域不等于180个宏观功能网络**。这篇体现出网络研究与精细脑区分区之间的互补关系。
+
+### 46. [Precision Functional Mapping of Individual Human Brains ↗](https://doi.org/10.1016/j.neuron.2017.07.011)
+**Gordon et al. · 2017 · *Neuron*｜个体网络精细绘图**
+
+研究者利用足够长时间的高密度个体扫描，发现一些群体平均图谱不能准确捕捉的网络特征。**科学问题改变**：不只是确定共性的网络类别，还要研究可靠的个体差异及其是否影响认知与临床解释。
+
+### 47. [Towards a Universal Taxonomy of Macro-scale Functional Human Brain Networks ↗](https://doi.org/10.1007/s10548-019-00744-6)
+**Uddin, Yeo & Spreng · 2019 · *Brain Topography*｜功能网络命名与分类的系统讨论（综述）**
+
+**问题**：为什么不同研究的“salience”“ventral attention”“cingulo-opercular”“frontoparietal”等名称和区域边界不完全一致？作者讨论什么才算一个网络、怎样命名及比较图谱。这篇是研究“哪篇算首次提出”时的**方法论必读文章**。
+
+### 48. [A Somato-cognitive Action Network Alternates with Effector Regions in Motor Cortex ↗](https://doi.org/10.1038/s41586-023-05964-2)
+**Gordon et al. · 2023 · *Nature*｜躯体—认知动作网络（SCAN）的代表性新发现**
+
+传统运动皮层“运动小人”模型暗示不同身体效应器沿皮层连续排列；高精度功能连接与任务研究却发现，手、脚、口相关运动区域之间存在与动作调节相关、连接模式不同的间隔区域。团队将其描述为**somato-cognitive action network（SCAN）**，并进行多数据集等验证。**这是现代条件下“旧图谱解释不了的新连接现象 → 新网络假说”的好案例**；它也不能被简单当作Yeo七网络之外一个同层级的全脑网络。
+
+**本阶段的历史逻辑：** 群体平均网络 → 个体级可复现的连接边界 → 多模态、跨物种及发育验证 → 在经典理论无法解释的精细结构上重新提出网络。
+
+---
+
+## 八、最值得精读的“发现者亲述”：直接回答“当年怎么想到的？”
+
+如果你的重点不只是“谁最早发”，而是研究**一个新概念究竟怎样诞生**，建议把下面三篇排在阅读优先级最前面。
+
+### A. [A Default Mode of Brain Function: A Brief History of an Evolving Idea ↗](https://doi.org/10.1016/j.neuroimage.2007.02.041)
+**Raichle & Snyder · 2007 · *NeuroImage*｜DMN理论提出者回顾**
+
+解释为什么任务负激活起初并未得到应有重视，为什么将静息条件看作“基线”会带来概念困难，以及研究团队如何通过生理测量推进默认模式的构想。**适合回答“DMN的科学问题是怎样形成的”。**
+
+### B. [The Serendipitous Discovery of the Brain's Default Network ↗](https://doi.org/10.1016/j.neuroimage.2011.10.035)
+**Buckner · 2012 · *NeuroImage*｜DMN发现史的个人回顾**
+
+从发现者视角说明默认网络为何最初被忽略，甚至曾被视作潜在的实验混淆，后来又如何成为脑科学的重要概念。**最适合理解意外现象如何挑战研究者对“基线”的默认预设。**
+
+### C. [The Salience Network: A Neural System for Perceiving and Responding to Homeostatic Demands ↗](https://doi.org/10.1523/JNEUROSCI.1138-17.2019)
+**Seeley · 2019 · *Journal of Neuroscience*｜SN发现、概念化及命名的亲述**
+
+直接回顾从额颞叶痴呆临床观察、von Economo神经元相关线索，到功能连接实验和网络命名的过程，并讨论SN和CON的历史关系。**最适合理解“临床病理 → 细胞解剖 → 可检验的网络假说 → 命名”的全过程。**
+
+---
+
+## 九、各脑网络的起源判定表 {#network-origins}
+
+::: {.table-responsive}
+
+| 今天讨论的系统/网络 | 应优先追溯的概念或证据 | 判定时需要区分 |
+|---|---|---|
+| 语言网络 | Wernicke（1874）、Lichtheim（1885）、Geschwind（1965）、Hickok & Poeppel（2007） | 经典失语连接模型 ≠ 现代语言fMRI功能网络 |
+| 情绪/边缘环路 | Papez（1937） | 早期解剖—情绪假说 ≠ 某个现代静息态“limbic network”分区 |
+| 奖赏相关回路 | Olds & Milner（1954） | 强化实验的回路证据 ≠ 奖赏网络的完整现代图谱 |
+| 海马—记忆系统 | Scoville & Milner（1957）、Ranganath & Ritchey（2012） | 关键损伤证据 ≠ 记忆相关网络的完整提出 |
+| 分布式注意网络 | Mesulam（1981）、Posner & Petersen（1990） | 经典注意网络 ≠ 直接对应DAN/VAN/ANT三系统 |
+| 视觉双流/视觉网络 | Felleman & Van Essen（1991）、Goodale & Milner（1992） | 解剖视觉通路 ≠ 静息态视觉网络单一分区 |
+| 社会认知/心理理论系统 | Fletcher et al.（1995）、Saxe & Kanwisher（2003） | 任务相关系统 ≠ 一个边界固定的单一全脑rs网络 |
+| 静息态感觉运动网络 | Biswal et al.（1995） | 静息态连接方法早期奠基证据 |
+| 默认模式网络（DMN） | Shulman et al.（1997）→ Raichle et al.（2001）→ Greicius et al.（2003） | 观察负激活 → 提出默认模式 → 用静息态连接证实网络 |
+| 多重需求系统（MD） | Duncan & Owen（2000）→ Duncan（2010） | 多任务功能系统 ≠ 完全等同于静息态FPN |
+| 背侧/腹侧注意网络（DAN/VAN） | Corbetta & Shulman（2002）→ Fox et al.（2006） | 认知任务模型 → 静息态内在网络区分 |
+| 显著性网络（SN） | Seeley et al.（2007）→ Seeley（2019回顾） | 早期SN与CON既有重叠，也有定义与节点差异 |
+| 扣带—岛盖网络（CON） | Dosenbach et al.（2006）→ Dosenbach et al.（2007） | 任务控制核心 → 稳定控制网络模型 |
+| 额顶控制网络（FPN） | Duncan & Owen（2000）→ Seeley（2007，执行控制网络）／Dosenbach（2007）→ Vincent（2008） | 相近名称代表不同研究传统；不可指定唯一无争议“首发” |
+| 多网络全脑功能分区 | Yeo et al.（2011）、Power et al.（2011） | 多网络的系统化分区 ≠ 每个网络的原创论文 |
+| 小脑、纹状体网络组织 | Buckner et al.（2011）、Choi et al.（2012） | 将皮层连接图谱延伸至皮层下/小脑 |
+| 个体化网络 | Laumann et al.（2015）、Gordon et al.（2017） | 解决群体图谱掩盖个体差异的问题 |
+| 躯体—认知动作网络（SCAN） | Gordon et al.（2023） | 高精度测量揭示传统运动皮层模型未充分描述的区域 |
+
+:::
+
+**特别提醒：**“salience network”“cingulo-opercular network”“ventral attention network”在不同图谱和研究传统中存在部分重叠及边界差异；不能凭名称一致性或共享前岛叶、前扣带节点，就断言完全同一，也不能简单断言永远严格分离。阅读原始定义和具体网络分区方法非常重要。
+
+---
+
+## 十、整段历史的一条“逻辑进程”
+
+```text
+19世纪：临床病例与局部定位
+  ↓  为什么不同病损会造成相关但不相同的认知障碍？
+1874—1965：连接模型、解剖环路与断连综合征
+  ↓  单一区域不够解释复杂功能，必须理解节点之间的联系
+1981—1995：注意、视觉、语言、社会认知等分布式功能系统
+  ↓  根据任务、损伤和认知理论，明确构想“大尺度网络”
+1995—2003：静息态功能连接 + DMN默认模式
+  ↓  发现无任务状态也存在有组织的自发功能耦合
+2005—2008：ICA、多网络复现、SN、FPN、CON
+  ↓  原本看似统一的任务控制脑区可以分解成不同网络
+2009—2011：任务与静息态网络对应 + Connectomics + 全脑图谱
+  ↓  从“研究一个网络”走向“研究全脑系统组织”
+2011—2017：皮层下/小脑映射、网络机制、个体精细分区
+  ↓  从网络名称与位置推进到机制、个体边界及跨模态验证
+2019—2023：网络命名争论、精准网络定位及新网络提出
+  ↓  面对旧模型难以解释的连接/功能现象，继续提出可检验的新系统
+```
+
+**核心认识：脑网络研究的演进，并不是“一项聚类技术依次发现越来越多网络”，而是神经科学不断在临床、解剖、认知理论和连接数据之间往返，用新证据纠正旧的系统划分。**
+
+---
+
+## 十一、如果要进一步做一项“脑网络首次发现史”研究
+
+对每个待研究网络，建议建立统一的5列证据卡：
+
+| 要记录的证据 | 要回答的问题 |
+|---|---|
+| **前史（precursor）** | 在正式命名前，哪些病例、脑区、连接或任务现象已经被观察到？ |
+| **概念提出（conceptual proposal）** | 哪篇论文第一次明确提出“这是一个功能系统/网络”？原文使用了什么名称？ |
+| **操作性定义（operational definition）** | 研究者依据任务对比、功能连接、示踪、ICA还是聚类确定网络边界？ |
+| **独立验证（independent validation）** | 其他团队何时用不同样本、任务、模态或物种确认该系统？ |
+| **后续修订（revision）** | 今天的网络边界和功能解释，与最初定义是否一致？有哪些命名冲突？ |
+
+如果要优先精读，建议按以下顺序：**Mesulam（1981、1990）→ Biswal（1995）→ Shulman（1997）→ Raichle（2001）→ Greicius（2003）→ Corbetta & Shulman（2002）→ Dosenbach（2006、2007）→ Seeley（2007）→ Yeo/Power（2011）→ Buckner（2012）/Seeley（2019）→ Gordon（2023）**。
+
+这样能最直接地看到四个历史转折：
+
+**脑损伤指向分布式系统 → 静息态信号显露内在网络 → 同一认知功能分解为不同网络 → 全脑/个体图谱反过来挑战经典理论。**
+
+---
+
+*文献说明：文章题目原则上使用原始英文题目；链接优先选DOI或提供原件的学术馆藏；英文论文与法德文历史著作混排时已注明资料类型。年份按论文的正式卷期或通用出版年份标注，部分论文的网络首发主张存在概念争议，已作区分。本文是精选历史脉络，不代表穷尽全部网络、全部早期论文或确定了无争议的唯一“首篇”。*
