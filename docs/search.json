@@ -1064,32 +1064,95 @@
     "text": "比较经颅光刺激研究\n研究对比台 · 波长、热效应、脑活动与疗程：按问题读"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "藏经阁 Cangjingge",
+    "objectID": "research/index.html#研究发展史",
+    "href": "research/index.html#研究发展史",
+    "title": "研究专题",
+    "section": "研究发展史",
+    "text": "研究发展史\n按时间读研究 · 经颅光刺激、经颅电刺激、经颅磁刺激与睡眠脑电"
+  },
+  {
+    "objectID": "research/history-tpbm.html",
+    "href": "research/history-tpbm.html",
+    "title": "经颅光刺激史：从组织光反应到脑内剂量",
     "section": "",
-    "text": "从经颅光、磁、电刺激，到用 fMRI 和脑电观察脑活动。这里可以查论文，也可以按问题读。\n查神经调控论文 查全部文献\n\n\n\n1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读\n研究对比台 · 从具体问题开始"
+    "text": "研究发展史 · 经颅光刺激专题 · 研究对比台\n核心问题　头皮照光能改变哪些脑功能？怎样把设备输出、进入组织的光和人体反应连起来？"
   },
   {
-    "objectID": "index.html#经颅光刺激",
-    "href": "index.html#经颅光刺激",
-    "title": "藏经阁 Cangjingge",
+    "objectID": "research/history-tpbm.html#组织可以对低强度光作出反应",
+    "href": "research/history-tpbm.html#组织可以对低强度光作出反应",
+    "title": "经颅光刺激史：从组织光反应到脑内剂量",
+    "section": "1968–1971｜组织可以对低强度光作出反应",
+    "text": "1968–1971｜组织可以对低强度光作出反应\nMester 团队的鼠毛生长研究和伤口研究提供了早期组织效应证据。这一阶段改变的是人们对低强度光的认识。经颅应用还要解决另一道题：光经过头皮和颅骨后，在目标处还剩多少？ 1968 年鼠毛研究 · 1971 年伤口研究"
+  },
+  {
+    "objectID": "research/history-tpbm.html#从临床信号走到随机验证",
+    "href": "research/history-tpbm.html#从临床信号走到随机验证",
+    "title": "经颅光刺激史：从组织光反应到脑内剂量",
+    "section": "2007–2014｜从临床信号走到随机验证",
+    "text": "2007–2014｜从临床信号走到随机验证\nNEST-1 将经颅激光用于急性缺血性卒中，比较主动治疗和对照的 90 天结局，报告了初步获益。随后 III 期 NEST-3 因无效性判断提前停止，未能确认该方案的临床获益。这条线说明，早期疗效信号必须经更大规模试验和预设结局复核。 NEST-1 · NEST-3"
+  },
+  {
+    "objectID": "research/history-tpbm.html#从行为表现转向可检验的脑指标",
+    "href": "research/history-tpbm.html#从行为表现转向可检验的脑指标",
+    "title": "经颅光刺激史：从组织光反应到脑内剂量",
+    "section": "2013–2022｜从行为表现转向可检验的脑指标",
+    "text": "2013–2022｜从行为表现转向可检验的脑指标\nBarrett 与 Gonzalez-Lima 用额部 1064 nm 光刺激和对照比较注意与记忆任务表现。Dmochowski 等把照光放进 fMRI 扫描，在另一组人做主动与假刺激的磁共振测温。Zhao 等进一步把视觉工作记忆容量与脑电延迟活动放在同一设计中，并比较波长和照射位置。三项研究分别推进了行为、血流动力学和电生理证据，所用对照与结论需要分别读。 Barrett 札记 · Dmochowski 全文 · Zhao 全文"
+  },
+  {
+    "objectID": "research/history-tpbm.html#把光剂量和影像反应分开校准",
+    "href": "research/history-tpbm.html#把光剂量和影像反应分开校准",
+    "title": "经颅光刺激史：从组织光反应到脑内剂量",
+    "section": "2026｜把光剂量和影像反应分开校准",
+    "text": "2026｜把光剂量和影像反应分开校准\nVan Lankveld 等在不同波长、辐照度和频率下同时测 BOLD 与脑血流，两类读数的波长效应依脑区和时段而变。Enam 等用微 CT 光传输模拟与离体体模测量，展示了固定几何的波长排序与商业设备排序为何会不同。下一步是把入射面测量、目标区剂量估计和同一条件下的生理读数配对。 人体研究卡 · 剂量学研究卡"
+  },
+  {
+    "objectID": "research/history-tpbm.html#今天怎么用",
+    "href": "research/history-tpbm.html#今天怎么用",
+    "title": "经颅光刺激史：从组织光反应到脑内剂量",
+    "section": "今天怎么用",
+    "text": "今天怎么用\n先定问题究竟是透光、急性脑反应、持续学习还是临床获益。比较参数时，记录头皮辐照度、光斑、照射时间、占空比、出光几何和假刺激条件，并单列温度和脑内剂量的测量或估计方法。"
+  },
+  {
+    "objectID": "research/history-tes.html",
+    "href": "research/history-tes.html",
+    "title": "经颅电刺激史：从皮层兴奋性到节律和电场靶向",
     "section": "",
-    "text": "1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读\n研究对比台 · 从具体问题开始"
+    "text": "研究发展史 · 经颅电刺激文献\n核心问题　头皮电极施加的电流怎样改变脑活动？我们能否预先指定受到影响的节律或脑区？"
   },
   {
-    "objectID": "index.html#浏览藏经阁",
-    "href": "index.html#浏览藏经阁",
-    "title": "藏经阁 Cangjingge",
-    "section": "浏览藏经阁",
-    "text": "浏览藏经阁\n\n\n查文献\n按题名、作者或 DOI 找论文，也可以按主题筛选。\n\n\n读论文笔记\n看论文怎么做、发现了什么，以及结果对应的图表。\n\n\n研究专题\n按问题读论文，例如光如何进入脑组织、怎样评估升温。"
+    "objectID": "research/history-tes.html#把弱直流效应变成可测量的问题",
+    "href": "research/history-tes.html#把弱直流效应变成可测量的问题",
+    "title": "经颅电刺激史：从皮层兴奋性到节律和电场靶向",
+    "section": "2000｜把弱直流效应变成可测量的问题",
+    "text": "2000｜把弱直流效应变成可测量的问题\nNitsche 与 Paulus 在人类运动皮层上施加弱直流，用 TMS 诱发的运动电位评估兴奋性，发现所测变化与极性和刺激条件有关。这为现代 tDCS 提供了一个可重复检验的范式。这里的读数是特定运动通路的兴奋性，跨靶区或行为任务仍需实测。 原文"
   },
   {
-    "objectID": "index.html#按方向浏览",
-    "href": "index.html#按方向浏览",
-    "title": "藏经阁 Cangjingge",
-    "section": "按方向浏览",
-    "text": "按方向浏览\n经颅光刺激 · 经颅磁刺激 · 经颅电刺激 · fMRI 与脑网络 · 脑电与认知\n有论文、札记或勘误想分享？查看提交方式。"
+    "objectID": "research/history-tes.html#把刺激频率变成实验变量",
+    "href": "research/history-tes.html#把刺激频率变成实验变量",
+    "title": "经颅电刺激史：从皮层兴奋性到节律和电场靶向",
+    "section": "2008｜把刺激频率变成实验变量",
+    "text": "2008｜把刺激频率变成实验变量\nKanai 等在不同频率和照明条件下记录交流刺激诱发的光幻视，提出频率效应与当时的视觉状态有关。后续研究用电极位置和感知特征检验视网膜解释。由此形成一个今天仍重要的对照问题：刺激频率、外周感觉和皮层节律必须分别测量。 Kanai 原文 · 视网膜来源实验"
+  },
+  {
+    "objectID": "research/history-tes.html#从电极电流走向颅内电场测量",
+    "href": "research/history-tes.html#从电极电流走向颅内电场测量",
+    "title": "经颅电刺激史：从皮层兴奋性到节律和电场靶向",
+    "section": "2017｜从电极电流走向颅内电场测量",
+    "text": "2017｜从电极电流走向颅内电场测量\nHuang 等结合人体颅内电极测量与头模型，检验头皮施加的电流在脑内产生什么电场。可比较的剂量因此多了一层：除了设备电流，还可以报告目标区场强和方向，并说明模型经过怎样的验证。 颅内测量原文"
+  },
+  {
+    "objectID": "research/history-tes.html#时间干涉从小鼠实验走到人体检验",
+    "href": "research/history-tes.html#时间干涉从小鼠实验走到人体检验",
+    "title": "经颅电刺激史：从皮层兴奋性到节律和电场靶向",
+    "section": "2017–2023｜时间干涉从小鼠实验走到人体检验",
+    "text": "2017–2023｜时间干涉从小鼠实验走到人体检验\nGrossman 等用两个频率相近的高频电场构造低频包络，在活体小鼠验证深部刺激。Violante 等随后在人体海马研究中结合模型、颅内测量验证与 fMRI、行为，检验这种递送方案。动物神经元记录和人体影像证据的空间尺度与解释各有边界。 小鼠原文 · 人体原文"
+  },
+  {
+    "objectID": "research/history-tes.html#今天怎么用",
+    "href": "research/history-tes.html#今天怎么用",
+    "title": "经颅电刺激史：从皮层兴奋性到节律和电场靶向",
+    "section": "今天怎么用",
+    "text": "今天怎么用\n将 tDCS、tACS 和时间干涉按各自假设设计对照。记录电极布置、电流、波形和目标场强，同时核对皮肤感觉与盲法。声称“节律被带动”时，需要能把真实节律变化与刺激伪迹区分开的读数。"
   },
   {
     "objectID": "research/eeg-cognition.html",
@@ -1118,6 +1181,125 @@
     "title": "脑电与认知：振荡、注意和解码",
     "section": "比较维度",
     "text": "比较维度\n机制研究重点记录实验操纵、时间窗、频段及行为关联；分类研究重点记录数据集、被试间划分、交叉验证和性能指标。\n返回研究专题"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "藏经阁 Cangjingge",
+    "section": "",
+    "text": "从经颅光、磁、电刺激，到用 fMRI 和脑电观察脑活动。这里可以查论文，也可以按问题读。\n查神经调控论文 查全部文献\n\n\n\n1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读\n研究对比台 · 从具体问题开始"
+  },
+  {
+    "objectID": "index.html#经颅光刺激",
+    "href": "index.html#经颅光刺激",
+    "title": "藏经阁 Cangjingge",
+    "section": "",
+    "text": "1064 nm 经颅光刺激的健康人安全性研究\nLi 等 · Brain Stimulation · 2024\n还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。\n更多光刺激专题阅读\n研究对比台 · 从具体问题开始"
+  },
+  {
+    "objectID": "index.html#浏览藏经阁",
+    "href": "index.html#浏览藏经阁",
+    "title": "藏经阁 Cangjingge",
+    "section": "浏览藏经阁",
+    "text": "浏览藏经阁\n\n\n查文献\n按题名、作者或 DOI 找论文，也可以按主题筛选。\n\n\n读论文笔记\n看论文怎么做、发现了什么，以及结果对应的图表。\n\n\n研究专题\n按问题读论文，例如光如何进入脑组织、怎样评估升温。"
+  },
+  {
+    "objectID": "index.html#按方向浏览",
+    "href": "index.html#按方向浏览",
+    "title": "藏经阁 Cangjingge",
+    "section": "按方向浏览",
+    "text": "按方向浏览\n经颅光刺激 · 经颅磁刺激 · 经颅电刺激 · fMRI 与脑网络 · 脑电与认知\n有论文、札记或勘误想分享？查看提交方式。"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html",
+    "href": "research/history-sleep-eeg.html",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "",
+    "text": "研究发展史 · 脑电与认知 · 睡眠与腺苷\n核心问题　脑电怎样把睡眠分成可测量的状态？识别出睡眠节律后，怎样判断改变它会带来什么结果？"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html#在头皮记录到人类脑电",
+    "href": "research/history-sleep-eeg.html#在头皮记录到人类脑电",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "1929｜在头皮记录到人类脑电",
+    "text": "1929｜在头皮记录到人类脑电\nBerger 发表人类脑电记录，使研究者可以观察脑活动随状态变化的时间过程。后来睡眠实验所依赖的，正是这种能连续记录、又能与眼动和肌电同步对照的方法。 Berger 原文"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html#从睡着了到区分睡眠状态",
+    "href": "research/history-sleep-eeg.html#从睡着了到区分睡眠状态",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "1953｜从“睡着了”到区分睡眠状态",
+    "text": "1953｜从“睡着了”到区分睡眠状态\nAserinsky 与 Kleitman 记录到睡眠中反复出现的快速眼动，并将它与脑电及唤醒后的报告联系起来。这项观察为 REM 睡眠建立了可追踪的实验线索，后来分期把脑电、眼动和肌电放在一起判断。 原文"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html#从头皮波形追到细胞活动",
+    "href": "research/history-sleep-eeg.html#从头皮波形追到细胞活动",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "1993｜从头皮波形追到细胞活动",
+    "text": "1993｜从头皮波形追到细胞活动\nSteriade 等在动物皮层做活体细胞内记录，描述小于 1 Hz 的慢振荡及交替出现的去极化和超极化成分。这为解释慢波提供了细胞层面的证据。人体头皮慢波仍是许多神经源共同贡献的信号。 原文"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html#从观察节律走向按时间干预",
+    "href": "research/history-sleep-eeg.html#从观察节律走向按时间干预",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "2006–2013｜从观察节律走向按时间干预",
+    "text": "2006–2013｜从观察节律走向按时间干预\nMarshall 等在早夜非快速眼动睡眠中使用慢振荡电刺激，并测睡眠脑电和后续陈述性记忆。Ngo 等用实时脑电识别慢振荡的时机，按相位播放声音，比较慢振荡、纺锤波活动与记忆结果。闭环实验的关键是每次刺激何时到达，以及相位对照如何设置。 电刺激原文 · 声音闭环原文"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html#今天怎么用",
+    "href": "research/history-sleep-eeg.html#今天怎么用",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "今天怎么用",
+    "text": "今天怎么用\n做睡眠光刺激研究时，先区分入睡潜伏期、睡眠分期、慢波活动与次日表现。闭环方案还要记录触发次数、检测延迟、实际相位和觉醒反应。电刺激和声音研究可借鉴时序与对照，光刺激是否产生类似效应需要专门验证。"
+  },
+  {
+    "objectID": "research/history-tms.html",
+    "href": "research/history-tms.html",
+    "title": "经颅磁刺激史：从运动诱发电位到脑网络靶点",
+    "section": "",
+    "text": "研究发展史 · 经颅磁刺激文献 · 个体化脑网络与神经调控\n核心问题　线圈怎样在人体引出可测的皮层反应？重复刺激的效果如何从局部通路延伸到临床和网络？"
+  },
+  {
+    "objectID": "research/history-tms.html#用单脉冲触发可重复测量的运动反应",
+    "href": "research/history-tms.html#用单脉冲触发可重复测量的运动反应",
+    "title": "经颅磁刺激史：从运动诱发电位到脑网络靶点",
+    "section": "1985｜用单脉冲触发可重复测量的运动反应",
+    "text": "1985｜用单脉冲触发可重复测量的运动反应\nBarker、Jalinous 与 Freeston 展示了非侵入性磁刺激人类运动皮层。线圈快速改变磁场，在组织中感应电场；刺激运动皮层后可在外周肌肉记录反应。这个实验让研究者可以用运动诱发电位检验皮层到肌肉通路的反应。 Barker 原文"
+  },
+  {
+    "objectID": "research/history-tms.html#年代2005从测一个脉冲到比较不同脉冲序列",
+    "href": "research/history-tms.html#年代2005从测一个脉冲到比较不同脉冲序列",
+    "title": "经颅磁刺激史：从运动诱发电位到脑网络靶点",
+    "section": "1990 年代–2005｜从测一个脉冲到比较不同脉冲序列",
+    "text": "1990 年代–2005｜从测一个脉冲到比较不同脉冲序列\n重复刺激将问题从“能否触发反应”转向“脉冲结束后还有没有效应”。Huang 等在人类运动皮层比较连续与间歇 theta burst stimulation（TBS），用刺激后的运动诱发电位追踪效应。两种时序在原实验中表现出不同方向的平均变化，个体效应仍需验证。 Huang 原文"
+  },
+  {
+    "objectID": "research/history-tms.html#临床试验检验完整方案",
+    "href": "research/history-tms.html#临床试验检验完整方案",
+    "title": "经颅磁刺激史：从运动诱发电位到脑网络靶点",
+    "section": "2007–2018｜临床试验检验完整方案",
+    "text": "2007–2018｜临床试验检验完整方案\nO’Reardon 等对抑郁症患者进行多中心主动与假刺激试验，把结局从实验室运动电位转到症状量表。THREE-D 后来比较间歇 TBS 和 10 Hz rTMS，按预设界值检验非劣效，显示单次耗时更短的 iTBS可以达到试验设定的比较标准。两项试验回答的是各自受试者和方案的临床问题。 O’Reardon 原文 · THREE-D 原文"
+  },
+  {
+    "objectID": "research/history-tms.html#起用网络连接提出靶点假设",
+    "href": "research/history-tms.html#起用网络连接提出靶点假设",
+    "title": "经颅磁刺激史：从运动诱发电位到脑网络靶点",
+    "section": "2012 起｜用网络连接提出靶点假设",
+    "text": "2012 起｜用网络连接提出靶点假设\nFox 等发现，文献中效果较好的左侧背外侧前额叶刺激点，与膝下扣带的静息功能连接更负。这为用连接组挑选靶点提供了线索。原研究比较的是已有靶点及其估计疗效，个体化定位能否提高疗效还需要前瞻性比较。 Fox 原文"
+  },
+  {
+    "objectID": "research/history-tms.html#今天怎么用",
+    "href": "research/history-tms.html#今天怎么用",
+    "title": "经颅磁刺激史：从运动诱发电位到脑网络靶点",
+    "section": "今天怎么用",
+    "text": "今天怎么用\n写清 TMS 在设计里的角色。用于测量运动诱发电位时，它是探针；作为重复刺激施加时，它是干预。比较靶点时分别记录坐标、线圈朝向、刺激参数、预计电场、网络连接和结果指标。"
+  },
+  {
+    "objectID": "research/history.html",
+    "href": "research/history.html",
+    "title": "研究发展史",
+    "section": "",
+    "text": "返回研究专题\n每篇选取几个能改变研究问题或实验设计的节点，区分技术前史、原始证据与后续验证。\n\n经颅光刺激 · 从组织光反应，到人体脑反应和目标剂量。\n经颅电刺激 · 从直流兴奋性，到节律和深部电场靶向。\n经颅磁刺激 · 从运动诱发电位，到重复刺激和网络靶点。\n睡眠脑电 · 从识别 REM 和慢振荡，到按相位干预。\n\n\n\n\n 回到顶部"
   },
   {
     "objectID": "research/personalized-networks.html",

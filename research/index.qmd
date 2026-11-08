@@ -23,3 +23,7 @@ page-layout: full
 ## 比较经颅光刺激研究
 
 [研究对比台](tpbm-compare.qmd) · [波长、热效应、脑活动与疗程：按问题读](tpbm-questions.qmd)
+
+## 研究发展史
+
+[按时间读研究](history.qmd) · 经颅光刺激、经颅电刺激、经颅磁刺激与睡眠脑电
