@@ -1,0 +1,54 @@
+---
+title: "脑活动与网络效应｜照射后变的是局部读数，还是网络？"
+description: "从认知行为和血氧，走到静息连接、EEG 和联合 BOLD／ASL。"
+toc: true
+toc-depth: 2
+---
+
+[返回本主题总览](history-tpbm.qmd) · [全部研究发展史](history.qmd)
+
+从认知行为和血氧，走到静息连接、EEG 和联合 BOLD／ASL。
+
+## 关键实验时间线
+
+### 2013 刊期｜Barrett 与 Gonzalez-Lima｜行为起点
+
+在健康志愿者中比较额部 1064 nm 照射和对照，测注意、记忆和情绪指标。行为测量给出功能线索，脑区及网络变化要另测。
+
+- [Transcranial infrared laser stimulation produces beneficial cognitive and emotional effects in humans](<https://doi.org/10.1016/j.neuroscience.2012.11.016>)
+
+### 2019｜Holmes 等｜行为与局部血氧
+
+在认知任务中同步记录前额叶血氧，将照射后行为与局部血流动力学放到同一实验。两类读数一起变化并不足以确定中介路径。
+
+- [Cognitive Enhancement by Transcranial Photobiomodulation Is Associated With Cerebrovascular Oxygenation of the Prefrontal Cortex](<https://doi.org/10.3389/fnins.2019.01129>)
+
+### 2020｜Urquhart 等｜全头 fNIRS
+
+用 111 通道 fNIRS 估计多区域血氧相关和网络指标。宽覆盖扩展了局部测量，头皮信号和全身生理波动仍需处理。
+
+- [Transcranial photobiomodulation-induced changes in human brain functional connectivity and network metrics mapped by whole-head functional near-infrared spectroscopy in vivo](<https://doi.org/10.1364/BOE.402047>)
+
+### 2020｜Dmochowski 等｜在线 fMRI
+
+在 808 nm 照射前、中、后比较功能连接。独立队列有主动与假刺激测温，但连接实验本身没有同期假刺激。
+
+- [Near-Infrared Light Increases Functional Connectivity with a Non-thermal Mechanism](<https://doi.org/10.1093/texcom/tgaa004>)
+
+### 2022｜Zhao 等｜EEG 与视觉记忆
+
+比较照射条件，测视觉工作记忆容量及相关的脑电延迟活动。EEG 时序与行为能互相补充，仍应区分脑电成分和 fMRI 网络。
+
+- [Transcranial photobiomodulation enhances visual working memory capacity in humans](<https://doi.org/10.1126/sciadv.abq3211>)
+
+### 2026｜Van Lankveld 等｜BOLD 与脑血流
+
+用双回波 ASL 同时测 BOLD 和脑血流。波长效应随读数、脑区和时段而变，影像幅度无法直接换算脑内光剂量。
+
+- [Dose dependence and neurovascular mechanisms of the fMRI response to pulsed photobiomodulation in humans](<https://doi.org/10.1177/0271678X261479524>)
+
+## 对实验设计有什么用
+
+预注册信号类型、主靶区、分析窗和假刺激。分别分析局部幅度、区域间连接与行为，并用独立对照检验它们之间的关系。
+
+[脑活动与连接问题页](questions/brain-signals.qmd) · [Van Lankveld 研究卡](../library/tpbm/van-lankveld-2026.qmd)

@@ -1,0 +1,54 @@
+---
+title: "临床转化｜哪些早期信号经得起临床验证？"
+description: "并列卒中、脑外伤和抑郁的原始研究，区分试验阶段和适应证。"
+toc: true
+toc-depth: 2
+---
+
+[返回本主题总览](history-tpbm.qmd) · [全部研究发展史](history.qmd)
+
+并列卒中、脑外伤和抑郁的原始研究，区分试验阶段和适应证。
+
+## 关键实验时间线
+
+### 2006｜De Taboada 等｜大鼠卒中模型
+
+在实验性卒中后给予经颅激光，跟踪神经功能结局，为人体试验提供前临床线索。物种、头部尺度和治疗时间窗会影响转化。
+
+- [Transcranial application of low‐energy laser irradiation improves neurological deficits in rats following acute stroke](<https://doi.org/10.1002/lsm.20256>)
+
+### 2007｜Lampl 等｜NEST-1
+
+在急性缺血性卒中中随机比较主动与对照并随访 90 天，报告初步临床信号。
+
+- [Infrared Laser Therapy for Ischemic Stroke: A New Treatment Strategy](<https://doi.org/10.1161/STROKEAHA.106.478230>)
+
+### 2009｜Zivin 等｜NEST-2
+
+扩展随机试验规模，主要疗效结局未达到统计显著。亚组线索需要独立试验验证。
+
+- [Effectiveness and Safety of Transcranial Laser Therapy for Acute Ischemic Stroke](<https://doi.org/10.1161/STROKEAHA.109.547547>)
+
+### 2011｜Naeser 等｜慢性脑外伤病例
+
+两例慢性脑外伤患者接受 LED 照射并报告认知变化。病例资料可用于确定观察指标，无法分离治疗、练习和自然波动。
+
+- [Improved Cognitive Function After Transcranial, Light-Emitting Diode Treatments in Chronic, Traumatic Brain Injury: Two Case Reports](<https://doi.org/10.1089/pho.2010.2814>)
+
+### 2014｜Hacke 等｜NEST-3
+
+III 期卒中试验因无效性判断提前停止。该结果界定了这套急性卒中方案的证据，也说明不能用早期试验替代正式验证。
+
+- [Transcranial Laser Therapy in Acute Stroke Treatment](<https://doi.org/10.1161/STROKEAHA.114.005795>)
+
+### 2018｜Cassano 等｜ELATED-2
+
+在重性抑郁障碍患者中开展小规模双盲假刺激对照，试探短期症状变化和可行性。疾病、疗程和主要结局均与卒中试验不同。
+
+- [Transcranial Photobiomodulation for the Treatment of Major Depressive Disorder. The ELATED-2 Pilot Trial](<https://doi.org/10.1089/pho.2018.4490>)
+
+## 对实验设计有什么用
+
+按适应证建证据链，分开读病例、探索试验和正式随机试验。优先核对预设结局、盲法、失访及长期随访。
+
+[疗程与临床问题页](questions/repeated-clinical.qmd)

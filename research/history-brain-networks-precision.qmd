@@ -1,0 +1,42 @@
+---
+title: "个体化连接组与 SCAN｜群体平均会漏掉哪些个体网络？"
+description: "从高密度个体采样、连接指纹到运动皮层新分区。"
+toc: true
+toc-depth: 2
+---
+
+[返回本主题总览](history-brain-networks.qmd) · [全部研究发展史](history.qmd)
+
+从高密度个体采样、连接指纹到运动皮层新分区。
+
+## 关键实验时间线
+
+### 2015｜Laumann 等｜高密度个体
+
+对同一人长期重复采样，检查个体内功能区和网络组织的稳定性。
+
+- [Functional System and Areal Organization of a Highly Sampled Individual Human Brain](<https://doi.org/10.1016/j.neuron.2015.06.037>)
+
+### 2015｜Finn 等｜连接指纹
+
+用连接图谱在不同扫描间识别个体。能够识别人和能够稳定定位某一细小靶区是两个不同的验证目标。
+
+- [Functional connectome fingerprinting: identifying individuals using patterns of brain connectivity](<https://doi.org/10.1038/nn.4135>)
+
+### 2017｜Gordon 等｜精准功能绘图
+
+在多人中密集采样并比较任务、结构及连接，观察个体特有的网络特征。
+
+- [Precision Functional Mapping of Individual Human Brains](<https://doi.org/10.1016/j.neuron.2017.07.011>)
+
+### 2023｜Gordon 等｜SCAN
+
+用精细个体映射描述运动皮层中与效应器区域交替出现的躯体—认知动作网络。群体坐标适合提出候选点，个人覆盖和边界仍需检查。
+
+- [A somato-cognitive action network alternates with effector regions in motor cortex](<https://doi.org/10.1038/s41586-023-05964-2>)
+
+## 对实验设计有什么用
+
+用独立扫描或数据拆分估计边界稳定性。把群体模板、个体功能网络和实际刺激位置分层记录。
+
+[个体化脑网络与神经调控](personalized-networks.qmd)

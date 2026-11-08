@@ -1,0 +1,34 @@
+---
+title: "临床靶点与网络｜同一区域的不同刺激点，疗效为何不同？"
+description: "从假刺激试验，到连接预测与随机验证。"
+toc: true
+toc-depth: 2
+---
+
+[返回本主题总览](history-tms.qmd) · [全部研究发展史](history.qmd)
+
+从假刺激试验，到连接预测与随机验证。
+
+## 关键实验时间线
+
+### 2007｜O’Reardon 等｜多中心随机试验
+
+用主动与假刺激检验抑郁症状结局，建立特定前额叶 rTMS 方案的临床对照证据。
+
+- [Efficacy and Safety of Transcranial Magnetic Stimulation in the Acute Treatment of Major Depression: A Multisite Randomized Controlled Trial](<https://doi.org/10.1016/j.biopsych.2007.01.018>)
+
+### 2012｜Fox 等｜网络靶点假设
+
+比较文献中已有的刺激位置，发现估计疗效与位置到膝下扣带的功能连接有关。
+
+- [Efficacy of Transcranial Magnetic Stimulation Targets for Depression Is Related to Intrinsic Functional Connectivity with the Subgenual Cingulate](<https://doi.org/10.1016/j.biopsych.2012.04.028>)
+
+### 2018｜Weigand 等｜前瞻性预测检验
+
+记录患者接受刺激的位置，前瞻性检验与膝下扣带的连接是否预测症状变化。预测有效和按预测规则分配靶点的获益需要不同设计。
+
+- [Prospective Validation That Subgenual Connectivity Predicts Antidepressant Efficacy of Transcranial Magnetic Stimulation Sites](<https://pubmed.ncbi.nlm.nih.gov/29274805/>)
+
+## 对实验设计有什么用
+
+把候选点与对照点写进前瞻性方案，记录个体电场和网络估计的重复性，再评估是否增加临床收益。

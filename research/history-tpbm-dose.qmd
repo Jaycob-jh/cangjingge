@@ -1,0 +1,42 @@
+---
+title: "光传输与剂量｜头皮的光到脑内还剩多少？"
+description: "从离体透射、组织内衰减到设备级体模与人体热安全。"
+toc: true
+toc-depth: 2
+---
+
+[返回本主题总览](history-tpbm.qmd) · [全部研究发展史](history.qmd)
+
+从离体透射、组织内衰减到设备级体模与人体热安全。
+
+## 关键实验时间线
+
+### 2012｜Jagdeo 等｜离体头部组织
+
+比较红光与近红外光穿过人尸头部不同部位和组织条件后的信号。测得的透射取决于组织组成与测量几何。
+
+- [Transcranial Red and Near Infrared Light Transmission in a Cadaveric Model](<https://doi.org/10.1371/journal.pone.0047460>)
+
+### 2015｜Tedford 等｜组织内光衰减
+
+在人尸头部定量不同波长的透射，并测 808 nm 光在脑实质内随深度的衰减。探测器能检出光的深度与达到生物效应所需的剂量是两个需要分别测量的量。
+
+- [Quantitative analysis of transcranial and intraparenchymal light penetration in human cadaver brain tissue](<https://doi.org/10.1002/lsm.22343>)
+
+### 2024｜Li 等｜人体安全读数
+
+以健康人 1064 nm 照射为对象，结合耐受、MRI、EEG 和血液指标检验研究条件下的安全性。外推时须对齐剂量、靶点、受试者和观察期。
+
+- [Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans](<https://doi.org/10.1016/j.brs.2024.11.010>)
+
+### 2026｜Enam 等｜波长与实际设备
+
+用微 CT 头骨光传输模拟和离体叠层体模比较波长与商业设备。固定几何下的波长排序，与更换整个设备后的透过光排序不同。
+
+- [Micro-CT-informed Monte Carlo and experimental dosimetry of transcranial photobiomodulation devices](<https://doi.org/10.1038/s41598-026-75995-y>)
+
+## 对实验设计有什么用
+
+同一张表分列设备输出、头皮入射量、目标区估计量和温度。离体或仿真结果附上几何、组织参数和探测面。
+
+[按问题对比入脑剂量](questions/penetration.qmd) · [Enam 研究卡](../library/tpbm/enam-2026.qmd)

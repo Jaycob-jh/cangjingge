@@ -1,0 +1,47 @@
+---
+title: "交流节律与时间干涉｜外加频率怎样与脑活动发生关系？"
+description: "从感知、EEG 与颅内记录，走到两路高频场的差频包络。"
+toc: true
+toc-depth: 2
+---
+
+[返回本主题总览](history-tes.qmd) · [全部研究发展史](history.qmd)
+
+从感知、EEG 与颅内记录，走到两路高频场的差频包络。
+
+## 关键实验时间线
+
+### 2008｜Kanai 等｜光幻视频率
+
+交流刺激诱发的光幻视依频率和照明条件变化，建立了可操作的频率比较。
+
+- [Frequency-Dependent Electrical Stimulation of the Visual Cortex](<https://doi.org/10.1016/j.cub.2008.10.027>)
+
+### 2012｜Kar 与 Krekelberg｜外周来源
+
+变换电极布置并比较光幻视，支持视网膜来源解释。感觉结果与皮层节律要用不同读数验证。
+
+- [Transcranial electrical stimulation over visual cortex evokes phosphenes with a retinal origin](<https://doi.org/10.1152/jn.00505.2012>)
+
+### 2014｜Helfrich 等｜同步 EEG
+
+用同步 EEG 检验交流刺激与内源振荡的关系。设计需要证明刺激伪迹处理不会制造与刺激同频的结果。
+
+- [Entrainment of Brain Oscillations by Transcranial Alternating Current Stimulation](<https://doi.org/10.1016/j.cub.2013.12.041>)
+
+### 2017｜Lafon 等｜颅内检验
+
+低频 tACS 在人体颅内记录中未稳定带动睡眠纺锤功率或清醒 theta。该阴性结果对应特定刺激条件。
+
+- [Low frequency transcranial electrical stimulation does not entrain sleep rhythms measured by human intracranial recordings](<https://doi.org/10.1038/s41467-017-01045-x>)
+
+### 2017–2023｜Grossman、Violante 等｜时间干涉
+
+时间干涉以相近载波构成差频包络。小鼠的神经元反应和人体海马研究的场模型、影像及行为各提供不同层级的证据。
+
+- [Noninvasive Deep Brain Stimulation via Temporally Interfering Electric Fields](<https://doi.org/10.1016/j.cell.2017.05.024>)
+- [Non-invasive temporal interference electrical stimulation of the human hippocampus](<https://doi.org/10.1038/s41593-023-01456-8>)
+
+## 对实验设计有什么用
+
+分别写清载波、差频、外周感觉与预期神经指标。普通 tACS 与时间干涉的递送方式和实验对照各自定义。

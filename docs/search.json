@@ -1078,6 +1078,13 @@
     "text": "研究发展史 · 经颅光刺激专题 · 研究对比台\n核心问题　头皮照光能改变哪些脑功能？怎样把设备输出、进入组织的光和人体反应连起来？"
   },
   {
+    "objectID": "research/history-tpbm.html#按分支读时间线",
+    "href": "research/history-tpbm.html#按分支读时间线",
+    "title": "经颅光刺激史：从组织光反应到脑内剂量",
+    "section": "按分支读时间线",
+    "text": "按分支读时间线\n\n细胞机制 · 从细胞 ATP、受损神经元到人体氧化型 CCO 的光谱读数。\n光传输与剂量 · 从离体透射、组织内衰减到设备级体模与人体热安全。\n临床转化 · 并列卒中、脑外伤和抑郁的原始研究，区分试验阶段和适应证。\n脑活动与网络效应 · 从认知行为和血氧，走到静息连接、EEG 和联合 BOLD／ASL。"
+  },
+  {
     "objectID": "research/history-tpbm.html#组织可以对低强度光作出反应",
     "href": "research/history-tpbm.html#组织可以对低强度光作出反应",
     "title": "经颅光刺激史：从组织光反应到脑内剂量",
@@ -1113,11 +1120,81 @@
     "text": "今天怎么用\n先定问题究竟是透光、急性脑反应、持续学习还是临床获益。比较参数时，记录头皮辐照度、光斑、照射时间、占空比、出光几何和假刺激条件，并单列温度和脑内剂量的测量或估计方法。"
   },
   {
+    "objectID": "research/history-tpbm-dose.html",
+    "href": "research/history-tpbm-dose.html",
+    "title": "光传输与剂量｜头皮的光到脑内还剩多少？",
+    "section": "",
+    "text": "返回本主题总览 · 全部研究发展史\n从离体透射、组织内衰减到设备级体模与人体热安全。"
+  },
+  {
+    "objectID": "research/history-tpbm-dose.html#关键实验时间线",
+    "href": "research/history-tpbm-dose.html#关键实验时间线",
+    "title": "光传输与剂量｜头皮的光到脑内还剩多少？",
+    "section": "关键实验时间线",
+    "text": "关键实验时间线\n\n2012｜Jagdeo 等｜离体头部组织\n比较红光与近红外光穿过人尸头部不同部位和组织条件后的信号。测得的透射取决于组织组成与测量几何。\n\nTranscranial Red and Near Infrared Light Transmission in a Cadaveric Model\n\n\n\n2015｜Tedford 等｜组织内光衰减\n在人尸头部定量不同波长的透射，并测 808 nm 光在脑实质内随深度的衰减。探测器能检出光的深度与达到生物效应所需的剂量是两个需要分别测量的量。\n\nQuantitative analysis of transcranial and intraparenchymal light penetration in human cadaver brain tissue\n\n\n\n2024｜Li 等｜人体安全读数\n以健康人 1064 nm 照射为对象，结合耐受、MRI、EEG 和血液指标检验研究条件下的安全性。外推时须对齐剂量、靶点、受试者和观察期。\n\nTranscranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans\n\n\n\n2026｜Enam 等｜波长与实际设备\n用微 CT 头骨光传输模拟和离体叠层体模比较波长与商业设备。固定几何下的波长排序，与更换整个设备后的透过光排序不同。\n\nMicro-CT-informed Monte Carlo and experimental dosimetry of transcranial photobiomodulation devices"
+  },
+  {
+    "objectID": "research/history-tpbm-dose.html#对实验设计有什么用",
+    "href": "research/history-tpbm-dose.html#对实验设计有什么用",
+    "title": "光传输与剂量｜头皮的光到脑内还剩多少？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n同一张表分列设备输出、头皮入射量、目标区估计量和温度。离体或仿真结果附上几何、组织参数和探测面。\n按问题对比入脑剂量 · Enam 研究卡"
+  },
+  {
+    "objectID": "research/history-tpbm-cell.html",
+    "href": "research/history-tpbm-cell.html",
+    "title": "细胞机制｜光怎样改变细胞供能？",
+    "section": "",
+    "text": "返回本主题总览 · 全部研究发展史\n从细胞 ATP、受损神经元到人体氧化型 CCO 的光谱读数。"
+  },
+  {
+    "objectID": "research/history-tpbm-cell.html#关键实验时间线",
+    "href": "research/history-tpbm-cell.html#关键实验时间线",
+    "title": "细胞机制｜光怎样改变细胞供能？",
+    "section": "关键实验时间线",
+    "text": "关键实验时间线\n\n1995｜Karu 等｜细胞 ATP\n氦氖激光直接照射培养细胞后测 ATP。实验把早期组织反应推进到可定量的细胞供能指标。培养皿里的入射光和经颅照射到脑组织的剂量需要分别确定。\n\nIrradiation with HeNe laser increases ATP level in cells cultivated in vitro\n\n\n\n2003｜Eells 等｜受损视网膜\n在甲醇诱发的视网膜损伤动物模型中，用红光照射并观察视网膜功能与形态。它提供了神经组织的保护线索，照射路径和成年人的经颅递送不同。\n\nTherapeutic photobiomodulation for methanol-induced retinal toxicity\n\n\n\n2005｜Wong-Riley 等｜受损神经元\n在培养神经元中比较毒素损伤与光照条件，测细胞色素 c 氧化酶（CCO）活性等指标。这个设计可以直接检验呼吸链受抑后光照是否改变细胞反应。\n\nPhotobiomodulation Directly Benefits Primary Neurons Functionally Inactivated by Toxins\n\n\n\n2017 刊期｜Wang 等｜活体人体光谱\n额部照射后用宽带近红外光谱估计氧化型 CCO 与血红蛋白变化。光谱估计把机制假说带进活体，但还需处理组织深度、血流和光谱成分分离。\n\nUp-regulation of cerebral cytochrome-c-oxidase and hemodynamics by transcranial infrared laser stimulation: A broadband near-infrared spectroscopy study\n\n\n\n2021｜Saucedo 等｜年龄与生理读数\n在年轻与年长健康成人中比较照射相关的氧化型 CCO 和脑血管信号。研究把机制问题扩到年龄条件，光谱读数仍与离体酶活测定分属不同证据层。\n\nTranscranial laser stimulation: Mitochondrial and cerebrovascular effects in younger and older healthy adults"
+  },
+  {
+    "objectID": "research/history-tpbm-cell.html#对实验设计有什么用",
+    "href": "research/history-tpbm-cell.html#对实验设计有什么用",
+    "title": "细胞机制｜光怎样改变细胞供能？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n实验上分别记录分子指标、细胞结果和整脑读数。若要检验某个光受体是否必要，需要操纵该机制并检查剂量、热效应和下游通路。\n阅读人体代谢与血氧研究"
+  },
+  {
+    "objectID": "research/history-tms-targets.html",
+    "href": "research/history-tms-targets.html",
+    "title": "临床靶点与网络｜同一区域的不同刺激点，疗效为何不同？",
+    "section": "",
+    "text": "返回本主题总览 · 全部研究发展史\n从假刺激试验，到连接预测与随机验证。"
+  },
+  {
+    "objectID": "research/history-tms-targets.html#关键实验时间线",
+    "href": "research/history-tms-targets.html#关键实验时间线",
+    "title": "临床靶点与网络｜同一区域的不同刺激点，疗效为何不同？",
+    "section": "关键实验时间线",
+    "text": "关键实验时间线\n\n2007｜O’Reardon 等｜多中心随机试验\n用主动与假刺激检验抑郁症状结局，建立特定前额叶 rTMS 方案的临床对照证据。\n\nEfficacy and Safety of Transcranial Magnetic Stimulation in the Acute Treatment of Major Depression: A Multisite Randomized Controlled Trial\n\n\n\n2012｜Fox 等｜网络靶点假设\n比较文献中已有的刺激位置，发现估计疗效与位置到膝下扣带的功能连接有关。\n\nEfficacy of Transcranial Magnetic Stimulation Targets for Depression Is Related to Intrinsic Functional Connectivity with the Subgenual Cingulate\n\n\n\n2018｜Weigand 等｜前瞻性预测检验\n记录患者接受刺激的位置，前瞻性检验与膝下扣带的连接是否预测症状变化。预测有效和按预测规则分配靶点的获益需要不同设计。\n\nProspective Validation That Subgenual Connectivity Predicts Antidepressant Efficacy of Transcranial Magnetic Stimulation Sites"
+  },
+  {
+    "objectID": "research/history-tms-targets.html#对实验设计有什么用",
+    "href": "research/history-tms-targets.html#对实验设计有什么用",
+    "title": "临床靶点与网络｜同一区域的不同刺激点，疗效为何不同？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n把候选点与对照点写进前瞻性方案，记录个体电场和网络估计的重复性，再评估是否增加临床收益。"
+  },
+  {
     "objectID": "research/history-tes.html",
     "href": "research/history-tes.html",
     "title": "经颅电刺激史：从皮层兴奋性到节律和电场靶向",
     "section": "",
     "text": "研究发展史 · 经颅电刺激文献\n核心问题　头皮电极施加的电流怎样改变脑活动？我们能否预先指定受到影响的节律或脑区？"
+  },
+  {
+    "objectID": "research/history-tes.html#按分支读时间线",
+    "href": "research/history-tes.html#按分支读时间线",
+    "title": "经颅电刺激史：从皮层兴奋性到节律和电场靶向",
+    "section": "按分支读时间线",
+    "text": "按分支读时间线\n\n直流刺激与剂量 · 从运动诱发电位、非线性剂量到人体电场测量。\n交流节律与时间干涉 · 从感知、EEG 与颅内记录，走到两路高频场的差频包络。"
   },
   {
     "objectID": "research/history-tes.html#把弱直流效应变成可测量的问题",
@@ -1155,11 +1232,88 @@
     "text": "今天怎么用\n将 tDCS、tACS 和时间干涉按各自假设设计对照。记录电极布置、电流、波形和目标场强，同时核对皮肤感觉与盲法。声称“节律被带动”时，需要能把真实节律变化与刺激伪迹区分开的读数。"
   },
   {
+    "objectID": "research/history-tes-ac.html",
+    "href": "research/history-tes-ac.html",
+    "title": "交流节律与时间干涉｜外加频率怎样与脑活动发生关系？",
+    "section": "",
+    "text": "返回本主题总览 · 全部研究发展史\n从感知、EEG 与颅内记录，走到两路高频场的差频包络。"
+  },
+  {
+    "objectID": "research/history-tes-ac.html#关键实验时间线",
+    "href": "research/history-tes-ac.html#关键实验时间线",
+    "title": "交流节律与时间干涉｜外加频率怎样与脑活动发生关系？",
+    "section": "关键实验时间线",
+    "text": "关键实验时间线\n\n2008｜Kanai 等｜光幻视频率\n交流刺激诱发的光幻视依频率和照明条件变化，建立了可操作的频率比较。\n\nFrequency-Dependent Electrical Stimulation of the Visual Cortex\n\n\n\n2012｜Kar 与 Krekelberg｜外周来源\n变换电极布置并比较光幻视，支持视网膜来源解释。感觉结果与皮层节律要用不同读数验证。\n\nTranscranial electrical stimulation over visual cortex evokes phosphenes with a retinal origin\n\n\n\n2014｜Helfrich 等｜同步 EEG\n用同步 EEG 检验交流刺激与内源振荡的关系。设计需要证明刺激伪迹处理不会制造与刺激同频的结果。\n\nEntrainment of Brain Oscillations by Transcranial Alternating Current Stimulation\n\n\n\n2017｜Lafon 等｜颅内检验\n低频 tACS 在人体颅内记录中未稳定带动睡眠纺锤功率或清醒 theta。该阴性结果对应特定刺激条件。\n\nLow frequency transcranial electrical stimulation does not entrain sleep rhythms measured by human intracranial recordings\n\n\n\n2017–2023｜Grossman、Violante 等｜时间干涉\n时间干涉以相近载波构成差频包络。小鼠的神经元反应和人体海马研究的场模型、影像及行为各提供不同层级的证据。\n\nNoninvasive Deep Brain Stimulation via Temporally Interfering Electric Fields\nNon-invasive temporal interference electrical stimulation of the human hippocampus"
+  },
+  {
+    "objectID": "research/history-tes-ac.html#对实验设计有什么用",
+    "href": "research/history-tes-ac.html#对实验设计有什么用",
+    "title": "交流节律与时间干涉｜外加频率怎样与脑活动发生关系？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n分别写清载波、差频、外周感觉与预期神经指标。普通 tACS 与时间干涉的递送方式和实验对照各自定义。"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html",
+    "href": "research/history-sleep-eeg.html",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "",
+    "text": "研究发展史 · 脑电与认知 · 睡眠与腺苷\n核心问题　脑电怎样把睡眠分成可测量的状态？识别出睡眠节律后，怎样判断改变它会带来什么结果？"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html#按分支读时间线",
+    "href": "research/history-sleep-eeg.html#按分支读时间线",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "按分支读时间线",
+    "text": "按分支读时间线\n\n睡眠分期与多导记录 · 从脑电和快速眼动，到可重复的评分规则。\n慢振荡与闭环干预 · 从细胞机制到闭环相位，再看神经读数和记忆是否同步。"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html#在头皮记录到人类脑电",
+    "href": "research/history-sleep-eeg.html#在头皮记录到人类脑电",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "1929｜在头皮记录到人类脑电",
+    "text": "1929｜在头皮记录到人类脑电\nBerger 发表人类脑电记录，使研究者可以观察脑活动随状态变化的时间过程。后来睡眠实验所依赖的，正是这种能连续记录、又能与眼动和肌电同步对照的方法。 Berger 原文"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html#从睡着了到区分睡眠状态",
+    "href": "research/history-sleep-eeg.html#从睡着了到区分睡眠状态",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "1953｜从“睡着了”到区分睡眠状态",
+    "text": "1953｜从“睡着了”到区分睡眠状态\nAserinsky 与 Kleitman 记录到睡眠中反复出现的快速眼动，并将它与脑电及唤醒后的报告联系起来。这项观察为 REM 睡眠建立了可追踪的实验线索，后来分期把脑电、眼动和肌电放在一起判断。 原文"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html#从头皮波形追到细胞活动",
+    "href": "research/history-sleep-eeg.html#从头皮波形追到细胞活动",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "1993｜从头皮波形追到细胞活动",
+    "text": "1993｜从头皮波形追到细胞活动\nSteriade 等在动物皮层做活体细胞内记录，描述小于 1 Hz 的慢振荡及交替出现的去极化和超极化成分。这为解释慢波提供了细胞层面的证据。人体头皮慢波仍是许多神经源共同贡献的信号。 原文"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html#从观察节律走向按时间干预",
+    "href": "research/history-sleep-eeg.html#从观察节律走向按时间干预",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "2006–2013｜从观察节律走向按时间干预",
+    "text": "2006–2013｜从观察节律走向按时间干预\nMarshall 等在早夜非快速眼动睡眠中使用慢振荡电刺激，并测睡眠脑电和后续陈述性记忆。Ngo 等用实时脑电识别慢振荡的时机，按相位播放声音，比较慢振荡、纺锤波活动与记忆结果。闭环实验的关键是每次刺激何时到达，以及相位对照如何设置。 电刺激原文 · 声音闭环原文"
+  },
+  {
+    "objectID": "research/history-sleep-eeg.html#今天怎么用",
+    "href": "research/history-sleep-eeg.html#今天怎么用",
+    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "section": "今天怎么用",
+    "text": "今天怎么用\n做睡眠光刺激研究时，先区分入睡潜伏期、睡眠分期、慢波活动与次日表现。闭环方案还要记录触发次数、检测延迟、实际相位和觉醒反应。电刺激和声音研究可借鉴时序与对照，光刺激是否产生类似效应需要专门验证。"
+  },
+  {
     "objectID": "research/history-brain-networks.html",
     "href": "research/history-brain-networks.html",
     "title": "脑功能网络的发现史",
     "section": "",
     "text": "研究发展史 · 直达各脑网络的起源判定表 · 个体化脑网络与神经调控\n一份按历史逻辑组织的原始文献与关键综述阅读笔记\n更新：2026-10-13｜覆盖：1861—2023｜研究对象：语言、视觉、注意、记忆、奖赏、社会认知、感觉运动、默认模式、显著性、认知控制、全脑连接组及新近网络。"
+  },
+  {
+    "objectID": "research/history-brain-networks.html#按分支读时间线",
+    "href": "research/history-brain-networks.html#按分支读时间线",
+    "title": "脑功能网络的发现史",
+    "section": "按分支读时间线",
+    "text": "按分支读时间线\n\n静息连接、默认模式与全脑分区 · 区分自发同步、默认模式概念、连接验证与多网络分区。\n个体化连接组与 SCAN · 从高密度个体采样、连接指纹到运动皮层新分区。"
   },
   {
     "objectID": "research/history-brain-networks.html#先回答几个问题",
@@ -1246,6 +1400,27 @@
     "text": "十一、如果要进一步做一项“脑网络首次发现史”研究\n对每个待研究网络，建议建立统一的5列证据卡：\n\n\n\n\n\n\n\n要记录的证据\n要回答的问题\n\n\n\n\n前史（precursor）\n在正式命名前，哪些病例、脑区、连接或任务现象已经被观察到？\n\n\n概念提出（conceptual proposal）\n哪篇论文第一次明确提出“这是一个功能系统/网络”？原文使用了什么名称？\n\n\n操作性定义（operational definition）\n研究者依据任务对比、功能连接、示踪、ICA还是聚类确定网络边界？\n\n\n独立验证（independent validation）\n其他团队何时用不同样本、任务、模态或物种确认该系统？\n\n\n后续修订（revision）\n今天的网络边界和功能解释，与最初定义是否一致？有哪些命名冲突？\n\n\n\n如果要优先精读，建议按以下顺序：Mesulam（1981、1990）→ Biswal（1995）→ Shulman（1997）→ Raichle（2001）→ Greicius（2003）→ Corbetta & Shulman（2002）→ Dosenbach（2006、2007）→ Seeley（2007）→ Yeo/Power（2011）→ Buckner（2012）/Seeley（2019）→ Gordon（2023）。\n这样能最直接地看到四个历史转折：\n脑损伤指向分布式系统 → 静息态信号显露内在网络 → 同一认知功能分解为不同网络 → 全脑/个体图谱反过来挑战经典理论。\n\n文献说明：文章题目原则上使用原始英文题目；链接优先选DOI或提供原件的学术馆藏；英文论文与法德文历史著作混排时已注明资料类型。年份按论文的正式卷期或通用出版年份标注，部分论文的网络首发主张存在概念争议，已作区分。本文是精选历史脉络，不代表穷尽全部网络、全部早期论文或确定了无争议的唯一“首篇”。"
   },
   {
+    "objectID": "research/history-brain-networks-precision.html",
+    "href": "research/history-brain-networks-precision.html",
+    "title": "个体化连接组与 SCAN｜群体平均会漏掉哪些个体网络？",
+    "section": "",
+    "text": "返回本主题总览 · 全部研究发展史\n从高密度个体采样、连接指纹到运动皮层新分区。"
+  },
+  {
+    "objectID": "research/history-brain-networks-precision.html#关键实验时间线",
+    "href": "research/history-brain-networks-precision.html#关键实验时间线",
+    "title": "个体化连接组与 SCAN｜群体平均会漏掉哪些个体网络？",
+    "section": "关键实验时间线",
+    "text": "关键实验时间线\n\n2015｜Laumann 等｜高密度个体\n对同一人长期重复采样，检查个体内功能区和网络组织的稳定性。\n\nFunctional System and Areal Organization of a Highly Sampled Individual Human Brain\n\n\n\n2015｜Finn 等｜连接指纹\n用连接图谱在不同扫描间识别个体。能够识别人和能够稳定定位某一细小靶区是两个不同的验证目标。\n\nFunctional connectome fingerprinting: identifying individuals using patterns of brain connectivity\n\n\n\n2017｜Gordon 等｜精准功能绘图\n在多人中密集采样并比较任务、结构及连接，观察个体特有的网络特征。\n\nPrecision Functional Mapping of Individual Human Brains\n\n\n\n2023｜Gordon 等｜SCAN\n用精细个体映射描述运动皮层中与效应器区域交替出现的躯体—认知动作网络。群体坐标适合提出候选点，个人覆盖和边界仍需检查。\n\nA somato-cognitive action network alternates with effector regions in motor cortex"
+  },
+  {
+    "objectID": "research/history-brain-networks-precision.html#对实验设计有什么用",
+    "href": "research/history-brain-networks-precision.html#对实验设计有什么用",
+    "title": "个体化连接组与 SCAN｜群体平均会漏掉哪些个体网络？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n用独立扫描或数据拆分估计边界稳定性。把群体模板、个体功能网络和实际刺激位置分层记录。\n个体化脑网络与神经调控"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "藏经阁 Cangjingge",
@@ -1302,46 +1477,109 @@
     "text": "比较维度\n机制研究重点记录实验操纵、时间窗、频段及行为关联；分类研究重点记录数据集、被试间划分、交叉验证和性能指标。\n返回研究专题"
   },
   {
-    "objectID": "research/history-sleep-eeg.html",
-    "href": "research/history-sleep-eeg.html",
-    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
+    "objectID": "research/history-brain-networks-rest.html",
+    "href": "research/history-brain-networks-rest.html",
+    "title": "静息连接、默认模式与全脑分区｜无任务时的同步如何变成网络图谱？",
     "section": "",
-    "text": "研究发展史 · 脑电与认知 · 睡眠与腺苷\n核心问题　脑电怎样把睡眠分成可测量的状态？识别出睡眠节律后，怎样判断改变它会带来什么结果？"
+    "text": "返回本主题总览 · 全部研究发展史\n区分自发同步、默认模式概念、连接验证与多网络分区。"
   },
   {
-    "objectID": "research/history-sleep-eeg.html#在头皮记录到人类脑电",
-    "href": "research/history-sleep-eeg.html#在头皮记录到人类脑电",
-    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
-    "section": "1929｜在头皮记录到人类脑电",
-    "text": "1929｜在头皮记录到人类脑电\nBerger 发表人类脑电记录，使研究者可以观察脑活动随状态变化的时间过程。后来睡眠实验所依赖的，正是这种能连续记录、又能与眼动和肌电同步对照的方法。 Berger 原文"
+    "objectID": "research/history-brain-networks-rest.html#关键实验时间线",
+    "href": "research/history-brain-networks-rest.html#关键实验时间线",
+    "title": "静息连接、默认模式与全脑分区｜无任务时的同步如何变成网络图谱？",
+    "section": "关键实验时间线",
+    "text": "关键实验时间线\n\n1995｜Biswal 等｜静息运动连接\n用运动皮层的低频 BOLD 波动建立静息相关图，显示无需显式运动也能观察到分布式耦合。\n\nFunctional connectivity in the motor cortex of resting human brain using echo‐planar mri\n\n\n\n2001｜Raichle 等｜默认模式\n以任务中的一致性下降及基线生理证据提出脑功能默认模式的解释。\n\nA default mode of brain function\n\n\n\n2003｜Greicius 等｜静息网络证据\n以功能连接检验默认模式相关区域之间的静息耦合，使概念可被连接分析操作化。\n\nFunctional connectivity in the resting brain: A network analysis of the default mode hypothesis\n\n\n\n2011｜Yeo、Power 等｜全脑分区\n以不同方法建立多网络组织图谱。分区定义依赖数据、空间单元和算法，共同名称不保证边界完全相同。\n\nThe organization of the human cerebral cortex estimated by intrinsic functional connectivity\nFunctional Network Organization of the Human Brain"
   },
   {
-    "objectID": "research/history-sleep-eeg.html#从睡着了到区分睡眠状态",
-    "href": "research/history-sleep-eeg.html#从睡着了到区分睡眠状态",
-    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
-    "section": "1953｜从“睡着了”到区分睡眠状态",
-    "text": "1953｜从“睡着了”到区分睡眠状态\nAserinsky 与 Kleitman 记录到睡眠中反复出现的快速眼动，并将它与脑电及唤醒后的报告联系起来。这项观察为 REM 睡眠建立了可追踪的实验线索，后来分期把脑电、眼动和肌电放在一起判断。 原文"
+    "objectID": "research/history-brain-networks-rest.html#对实验设计有什么用",
+    "href": "research/history-brain-networks-rest.html#对实验设计有什么用",
+    "title": "静息连接、默认模式与全脑分区｜无任务时的同步如何变成网络图谱？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n复用图谱时说明版本、分区尺度与覆盖范围，并用个体数据确认目标是否在预期网络。\n回到各脑网络的起源判定表"
   },
   {
-    "objectID": "research/history-sleep-eeg.html#从头皮波形追到细胞活动",
-    "href": "research/history-sleep-eeg.html#从头皮波形追到细胞活动",
-    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
-    "section": "1993｜从头皮波形追到细胞活动",
-    "text": "1993｜从头皮波形追到细胞活动\nSteriade 等在动物皮层做活体细胞内记录，描述小于 1 Hz 的慢振荡及交替出现的去极化和超极化成分。这为解释慢波提供了细胞层面的证据。人体头皮慢波仍是许多神经源共同贡献的信号。 原文"
+    "objectID": "research/history-sleep-closed-loop.html",
+    "href": "research/history-sleep-closed-loop.html",
+    "title": "慢振荡与闭环干预｜改变慢振荡就会改变记忆吗？",
+    "section": "",
+    "text": "返回本主题总览 · 全部研究发展史\n从细胞机制到闭环相位，再看神经读数和记忆是否同步。"
   },
   {
-    "objectID": "research/history-sleep-eeg.html#从观察节律走向按时间干预",
-    "href": "research/history-sleep-eeg.html#从观察节律走向按时间干预",
-    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
-    "section": "2006–2013｜从观察节律走向按时间干预",
-    "text": "2006–2013｜从观察节律走向按时间干预\nMarshall 等在早夜非快速眼动睡眠中使用慢振荡电刺激，并测睡眠脑电和后续陈述性记忆。Ngo 等用实时脑电识别慢振荡的时机，按相位播放声音，比较慢振荡、纺锤波活动与记忆结果。闭环实验的关键是每次刺激何时到达，以及相位对照如何设置。 电刺激原文 · 声音闭环原文"
+    "objectID": "research/history-sleep-closed-loop.html#关键实验时间线",
+    "href": "research/history-sleep-closed-loop.html#关键实验时间线",
+    "title": "慢振荡与闭环干预｜改变慢振荡就会改变记忆吗？",
+    "section": "关键实验时间线",
+    "text": "关键实验时间线\n\n1993｜Steriade 等｜慢振荡细胞证据\n用动物皮层细胞内记录描述慢于 1 Hz 的去极化与超极化交替。\n\nA novel slow (&lt; 1 Hz) oscillation of neocortical neurons in vivo: depolarizing and hyperpolarizing components\n\n\n\n2006｜Marshall 等｜刺激慢振荡\n在早夜睡眠施加慢振荡电刺激并比较脑电与记忆，建立联合测量的范式。\n\nBoosting slow oscillations during sleep potentiates memory\n\n\n\n2013｜Ngo 等｜按相位播放声音\n用实时脑电触发听觉刺激，比较睡眠振荡及随后记忆。相位和时序是实验操作的一部分。\n\nAuditory Closed-Loop Stimulation of the Sleep Slow Oscillation Enhances Memory\n\n\n\n2019｜Henin 等｜神经和行为结果分离\n重复相关听觉闭环设计，发现睡眠振荡增强但未观察到记忆表现获益。\n\nClosed-Loop Acoustic Stimulation Enhances Sleep Oscillations But Not Memory Performance"
   },
   {
-    "objectID": "research/history-sleep-eeg.html#今天怎么用",
-    "href": "research/history-sleep-eeg.html#今天怎么用",
-    "title": "睡眠脑电史：从识别睡眠状态到按相位干预",
-    "section": "今天怎么用",
-    "text": "今天怎么用\n做睡眠光刺激研究时，先区分入睡潜伏期、睡眠分期、慢波活动与次日表现。闭环方案还要记录触发次数、检测延迟、实际相位和觉醒反应。电刺激和声音研究可借鉴时序与对照，光刺激是否产生类似效应需要专门验证。"
+    "objectID": "research/history-sleep-closed-loop.html#对实验设计有什么用",
+    "href": "research/history-sleep-closed-loop.html#对实验设计有什么用",
+    "title": "慢振荡与闭环干预｜改变慢振荡就会改变记忆吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n记录每次触发的实际相位、延迟、漏触发与觉醒。先定义神经指标和行为指标各自的主要检验。"
+  },
+  {
+    "objectID": "research/history-sleep-staging.html",
+    "href": "research/history-sleep-staging.html",
+    "title": "睡眠分期与多导记录｜如何把一夜睡眠分成可复核的状态？",
+    "section": "",
+    "text": "返回本主题总览 · 全部研究发展史\n从脑电和快速眼动，到可重复的评分规则。"
+  },
+  {
+    "objectID": "research/history-sleep-staging.html#关键实验时间线",
+    "href": "research/history-sleep-staging.html#关键实验时间线",
+    "title": "睡眠分期与多导记录｜如何把一夜睡眠分成可复核的状态？",
+    "section": "关键实验时间线",
+    "text": "关键实验时间线\n\n1929｜Berger｜人类脑电\n人类头皮脑电让持续的状态变化成为可记录的时间过程。\n\nÜber das Elektrenkephalogramm des Menschen\n\n\n\n1953｜Aserinsky 与 Kleitman｜快速眼动\n在睡眠记录中识别周期性出现的快速眼动，结合脑电和唤醒报告形成新的实验对照。\n\nRegularly Occurring Periods of Eye Motility, and Concomitant Phenomena, During Sleep\n\n\n\n1957｜Dement 与 Kleitman｜睡眠与报告\n在不同眼动条件下唤醒被试，比较做梦报告。将状态识别和主观报告联系起来，同时保留两类数据。\n\nThe relation of eye movements during sleep to dream activity: An objective method for the study of dreaming.\n\n\n\n1968｜Rechtschaffen 与 Kales｜评分手册\n将人类睡眠记录的术语、技术和分期规则整理成标准化手册。这是评分规范的历史节点。\n\n睡眠分期手册馆藏条目"
+  },
+  {
+    "objectID": "research/history-sleep-staging.html#对实验设计有什么用",
+    "href": "research/history-sleep-staging.html#对实验设计有什么用",
+    "title": "睡眠分期与多导记录｜如何把一夜睡眠分成可复核的状态？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n跨实验比较时写清导联、判分规则和评分者一致性。分期标签、频谱功率与主观报告分开保存。"
+  },
+  {
+    "objectID": "research/history-tes-dc.html",
+    "href": "research/history-tes-dc.html",
+    "title": "直流刺激与剂量｜电流加倍，效应会加倍吗？",
+    "section": "",
+    "text": "返回本主题总览 · 全部研究发展史\n从运动诱发电位、非线性剂量到人体电场测量。"
+  },
+  {
+    "objectID": "research/history-tes-dc.html#关键实验时间线",
+    "href": "research/history-tes-dc.html#关键实验时间线",
+    "title": "直流刺激与剂量｜电流加倍，效应会加倍吗？",
+    "section": "关键实验时间线",
+    "text": "关键实验时间线\n\n2000｜Nitsche 与 Paulus｜弱直流\n用 TMS 运动诱发电位检验经颅弱直流对运动皮层兴奋性的影响，比较极性、强度与时长。\n\nExcitability changes induced in the human motor cortex by weak transcranial direct current stimulation\n\n\n\n2013｜Batsikadze 等｜剂量非线性\n比较直流刺激强度，观察到阴极刺激在不同强度下的后效应可不同向。极性标签不能单独预测效应。\n\nPartially non‐linear stimulation intensity‐dependent effects of direct current stimulation on motor cortex excitability in humans\n\n\n\n2017｜Huang 等｜颅内电场\n结合人体颅内记录和个体头模型，比较预测与实测电场。设备电流与目标区场强需要分开报告。\n\nMeasurements and models of electric fields in the in vivo human brain during transcranial electric stimulation"
+  },
+  {
+    "objectID": "research/history-tes-dc.html#对实验设计有什么用",
+    "href": "research/history-tes-dc.html#对实验设计有什么用",
+    "title": "直流刺激与剂量｜电流加倍，效应会加倍吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n同时记录电极布局、电流和场方向。把效应随强度或时长变化当成要检验的关系。"
+  },
+  {
+    "objectID": "research/history-tms-pulses.html",
+    "href": "research/history-tms-pulses.html",
+    "title": "单脉冲、重复刺激与 TBS｜从触发一次反应到改变刺激后的兴奋性",
+    "section": "",
+    "text": "返回本主题总览 · 全部研究发展史\n按脉冲时序追踪运动皮层实验。"
+  },
+  {
+    "objectID": "research/history-tms-pulses.html#关键实验时间线",
+    "href": "research/history-tms-pulses.html#关键实验时间线",
+    "title": "单脉冲、重复刺激与 TBS｜从触发一次反应到改变刺激后的兴奋性",
+    "section": "关键实验时间线",
+    "text": "关键实验时间线\n\n1985｜Barker 等｜单脉冲\n以非侵入磁刺激引出运动反应，建立人体皮层运动通路的探测手段。\n\nNON-INVASIVE MAGNETIC STIMULATION OF HUMAN MOTOR CORTEX\n\n\n\n1994｜Pascual-Leone 等｜重复脉冲\n在人运动皮层比较快速重复刺激时的肌电和运动诱发电位，观察频率、强度依赖的变化。\n\nResponses to rapid-rate transcranial magnetic stimulation of the human motor cortex\n\n\n\n2005｜Huang 等｜TBS\n比较间歇与连续短阵模式，用刺激后运动诱发电位检验不同序列的后效应。\n\nTheta Burst Stimulation of the Human Motor Cortex\n\n\n\n2018｜Blumberger 等｜THREE-D\n临床试验比较间歇 TBS 和 10 Hz rTMS，检验抑郁症状结局的非劣效。临床量表与运动诱发电位回答不同问题。\n\nEffectiveness of theta burst versus high-frequency repetitive transcranial magnetic stimulation in patients with depression (THREE-D): a randomised non-inferiority trial"
+  },
+  {
+    "objectID": "research/history-tms-pulses.html#对实验设计有什么用",
+    "href": "research/history-tms-pulses.html#对实验设计有什么用",
+    "title": "单脉冲、重复刺激与 TBS｜从触发一次反应到改变刺激后的兴奋性",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n记录脉冲结构、运动阈值、作用部位和读数时间。区分 TMS 作为干预还是作为探针。"
   },
   {
     "objectID": "research/history-tms.html",
@@ -1349,6 +1587,13 @@
     "title": "经颅磁刺激史：从运动诱发电位到脑网络靶点",
     "section": "",
     "text": "研究发展史 · 经颅磁刺激文献 · 个体化脑网络与神经调控\n核心问题　线圈怎样在人体引出可测的皮层反应？重复刺激的效果如何从局部通路延伸到临床和网络？"
+  },
+  {
+    "objectID": "research/history-tms.html#按分支读时间线",
+    "href": "research/history-tms.html#按分支读时间线",
+    "title": "经颅磁刺激史：从运动诱发电位到脑网络靶点",
+    "section": "按分支读时间线",
+    "text": "按分支读时间线\n\n单脉冲、重复刺激与 TBS · 按脉冲时序追踪运动皮层实验。\n临床靶点与网络 · 从假刺激试验，到连接预测与随机验证。"
   },
   {
     "objectID": "research/history-tms.html#用单脉冲触发可重复测量的运动反应",
@@ -1386,11 +1631,53 @@
     "text": "今天怎么用\n写清 TMS 在设计里的角色。用于测量运动诱发电位时，它是探针；作为重复刺激施加时，它是干预。比较靶点时分别记录坐标、线圈朝向、刺激参数、预计电场、网络连接和结果指标。"
   },
   {
+    "objectID": "research/history-tpbm-clinical.html",
+    "href": "research/history-tpbm-clinical.html",
+    "title": "临床转化｜哪些早期信号经得起临床验证？",
+    "section": "",
+    "text": "返回本主题总览 · 全部研究发展史\n并列卒中、脑外伤和抑郁的原始研究，区分试验阶段和适应证。"
+  },
+  {
+    "objectID": "research/history-tpbm-clinical.html#关键实验时间线",
+    "href": "research/history-tpbm-clinical.html#关键实验时间线",
+    "title": "临床转化｜哪些早期信号经得起临床验证？",
+    "section": "关键实验时间线",
+    "text": "关键实验时间线\n\n2006｜De Taboada 等｜大鼠卒中模型\n在实验性卒中后给予经颅激光，跟踪神经功能结局，为人体试验提供前临床线索。物种、头部尺度和治疗时间窗会影响转化。\n\nTranscranial application of low‐energy laser irradiation improves neurological deficits in rats following acute stroke\n\n\n\n2007｜Lampl 等｜NEST-1\n在急性缺血性卒中中随机比较主动与对照并随访 90 天，报告初步临床信号。\n\nInfrared Laser Therapy for Ischemic Stroke: A New Treatment Strategy\n\n\n\n2009｜Zivin 等｜NEST-2\n扩展随机试验规模，主要疗效结局未达到统计显著。亚组线索需要独立试验验证。\n\nEffectiveness and Safety of Transcranial Laser Therapy for Acute Ischemic Stroke\n\n\n\n2011｜Naeser 等｜慢性脑外伤病例\n两例慢性脑外伤患者接受 LED 照射并报告认知变化。病例资料可用于确定观察指标，无法分离治疗、练习和自然波动。\n\nImproved Cognitive Function After Transcranial, Light-Emitting Diode Treatments in Chronic, Traumatic Brain Injury: Two Case Reports\n\n\n\n2014｜Hacke 等｜NEST-3\nIII 期卒中试验因无效性判断提前停止。该结果界定了这套急性卒中方案的证据，也说明不能用早期试验替代正式验证。\n\nTranscranial Laser Therapy in Acute Stroke Treatment\n\n\n\n2018｜Cassano 等｜ELATED-2\n在重性抑郁障碍患者中开展小规模双盲假刺激对照，试探短期症状变化和可行性。疾病、疗程和主要结局均与卒中试验不同。\n\nTranscranial Photobiomodulation for the Treatment of Major Depressive Disorder. The ELATED-2 Pilot Trial"
+  },
+  {
+    "objectID": "research/history-tpbm-clinical.html#对实验设计有什么用",
+    "href": "research/history-tpbm-clinical.html#对实验设计有什么用",
+    "title": "临床转化｜哪些早期信号经得起临床验证？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n按适应证建证据链，分开读病例、探索试验和正式随机试验。优先核对预设结局、盲法、失访及长期随访。\n疗程与临床问题页"
+  },
+  {
+    "objectID": "research/history-tpbm-networks.html",
+    "href": "research/history-tpbm-networks.html",
+    "title": "脑活动与网络效应｜照射后变的是局部读数，还是网络？",
+    "section": "",
+    "text": "返回本主题总览 · 全部研究发展史\n从认知行为和血氧，走到静息连接、EEG 和联合 BOLD／ASL。"
+  },
+  {
+    "objectID": "research/history-tpbm-networks.html#关键实验时间线",
+    "href": "research/history-tpbm-networks.html#关键实验时间线",
+    "title": "脑活动与网络效应｜照射后变的是局部读数，还是网络？",
+    "section": "关键实验时间线",
+    "text": "关键实验时间线\n\n2013 刊期｜Barrett 与 Gonzalez-Lima｜行为起点\n在健康志愿者中比较额部 1064 nm 照射和对照，测注意、记忆和情绪指标。行为测量给出功能线索，脑区及网络变化要另测。\n\nTranscranial infrared laser stimulation produces beneficial cognitive and emotional effects in humans\n\n\n\n2019｜Holmes 等｜行为与局部血氧\n在认知任务中同步记录前额叶血氧，将照射后行为与局部血流动力学放到同一实验。两类读数一起变化并不足以确定中介路径。\n\nCognitive Enhancement by Transcranial Photobiomodulation Is Associated With Cerebrovascular Oxygenation of the Prefrontal Cortex\n\n\n\n2020｜Urquhart 等｜全头 fNIRS\n用 111 通道 fNIRS 估计多区域血氧相关和网络指标。宽覆盖扩展了局部测量，头皮信号和全身生理波动仍需处理。\n\nTranscranial photobiomodulation-induced changes in human brain functional connectivity and network metrics mapped by whole-head functional near-infrared spectroscopy in vivo\n\n\n\n2020｜Dmochowski 等｜在线 fMRI\n在 808 nm 照射前、中、后比较功能连接。独立队列有主动与假刺激测温，但连接实验本身没有同期假刺激。\n\nNear-Infrared Light Increases Functional Connectivity with a Non-thermal Mechanism\n\n\n\n2022｜Zhao 等｜EEG 与视觉记忆\n比较照射条件，测视觉工作记忆容量及相关的脑电延迟活动。EEG 时序与行为能互相补充，仍应区分脑电成分和 fMRI 网络。\n\nTranscranial photobiomodulation enhances visual working memory capacity in humans\n\n\n\n2026｜Van Lankveld 等｜BOLD 与脑血流\n用双回波 ASL 同时测 BOLD 和脑血流。波长效应随读数、脑区和时段而变，影像幅度无法直接换算脑内光剂量。\n\nDose dependence and neurovascular mechanisms of the fMRI response to pulsed photobiomodulation in humans"
+  },
+  {
+    "objectID": "research/history-tpbm-networks.html#对实验设计有什么用",
+    "href": "research/history-tpbm-networks.html#对实验设计有什么用",
+    "title": "脑活动与网络效应｜照射后变的是局部读数，还是网络？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n预注册信号类型、主靶区、分析窗和假刺激。分别分析局部幅度、区域间连接与行为，并用独立对照检验它们之间的关系。\n脑活动与连接问题页 · Van Lankveld 研究卡"
+  },
+  {
     "objectID": "research/history.html",
     "href": "research/history.html",
     "title": "研究发展史",
     "section": "",
-    "text": "返回研究专题\n每篇选取几个能改变研究问题或实验设计的节点，区分技术前史、原始证据与后续验证。\n\n经颅光刺激 · 从组织光反应，到人体脑反应和目标剂量。\n经颅电刺激 · 从直流兴奋性，到节律和深部电场靶向。\n经颅磁刺激 · 从运动诱发电位，到重复刺激和网络靶点。\n睡眠脑电 · 从识别 REM 和慢振荡，到按相位干预。\n脑功能网络 · 从局部定位、分布式环路，到全脑与个体功能分区。\n\n\n\n\n 回到顶部"
+    "text": "返回研究专题\n每篇选取几个能改变研究问题或实验设计的节点，区分技术前史、原始证据与后续验证。\n\n经颅光刺激 · 从组织光反应，到人体脑反应和目标剂量。\n经颅电刺激 · 从直流兴奋性，到节律和深部电场靶向。\n经颅磁刺激 · 从运动诱发电位，到重复刺激和网络靶点。\n睡眠脑电 · 从识别 REM 和慢振荡，到按相位干预。\n脑功能网络 · 从局部定位、分布式环路，到全脑与个体功能分区。\n\n每个主题总览都可以继续进入独立的分支时间线。\n\n\n\n 回到顶部"
   },
   {
     "objectID": "research/personalized-networks.html",

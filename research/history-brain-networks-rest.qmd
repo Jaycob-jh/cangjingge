@@ -1,0 +1,43 @@
+---
+title: "静息连接、默认模式与全脑分区｜无任务时的同步如何变成网络图谱？"
+description: "区分自发同步、默认模式概念、连接验证与多网络分区。"
+toc: true
+toc-depth: 2
+---
+
+[返回本主题总览](history-brain-networks.qmd) · [全部研究发展史](history.qmd)
+
+区分自发同步、默认模式概念、连接验证与多网络分区。
+
+## 关键实验时间线
+
+### 1995｜Biswal 等｜静息运动连接
+
+用运动皮层的低频 BOLD 波动建立静息相关图，显示无需显式运动也能观察到分布式耦合。
+
+- [Functional connectivity in the motor cortex of resting human brain using echo‐planar mri](<https://doi.org/10.1002/mrm.1910340409>)
+
+### 2001｜Raichle 等｜默认模式
+
+以任务中的一致性下降及基线生理证据提出脑功能默认模式的解释。
+
+- [A default mode of brain function](<https://doi.org/10.1073/pnas.98.2.676>)
+
+### 2003｜Greicius 等｜静息网络证据
+
+以功能连接检验默认模式相关区域之间的静息耦合，使概念可被连接分析操作化。
+
+- [Functional connectivity in the resting brain: A network analysis of the default mode hypothesis](<https://doi.org/10.1073/pnas.0135058100>)
+
+### 2011｜Yeo、Power 等｜全脑分区
+
+以不同方法建立多网络组织图谱。分区定义依赖数据、空间单元和算法，共同名称不保证边界完全相同。
+
+- [The organization of the human cerebral cortex estimated by intrinsic functional connectivity](<https://doi.org/10.1152/jn.00338.2011>)
+- [Functional Network Organization of the Human Brain](<https://doi.org/10.1016/j.neuron.2011.09.006>)
+
+## 对实验设计有什么用
+
+复用图谱时说明版本、分区尺度与覆盖范围，并用个体数据确认目标是否在预期网络。
+
+[回到各脑网络的起源判定表](history-brain-networks.qmd#network-origins)

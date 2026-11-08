@@ -1,0 +1,40 @@
+---
+title: "慢振荡与闭环干预｜改变慢振荡就会改变记忆吗？"
+description: "从细胞机制到闭环相位，再看神经读数和记忆是否同步。"
+toc: true
+toc-depth: 2
+---
+
+[返回本主题总览](history-sleep-eeg.qmd) · [全部研究发展史](history.qmd)
+
+从细胞机制到闭环相位，再看神经读数和记忆是否同步。
+
+## 关键实验时间线
+
+### 1993｜Steriade 等｜慢振荡细胞证据
+
+用动物皮层细胞内记录描述慢于 1 Hz 的去极化与超极化交替。
+
+- [A novel slow (< 1 Hz) oscillation of neocortical neurons in vivo: depolarizing and hyperpolarizing components](<https://doi.org/10.1523/JNEUROSCI.13-08-03252.1993>)
+
+### 2006｜Marshall 等｜刺激慢振荡
+
+在早夜睡眠施加慢振荡电刺激并比较脑电与记忆，建立联合测量的范式。
+
+- [Boosting slow oscillations during sleep potentiates memory](<https://doi.org/10.1038/nature05278>)
+
+### 2013｜Ngo 等｜按相位播放声音
+
+用实时脑电触发听觉刺激，比较睡眠振荡及随后记忆。相位和时序是实验操作的一部分。
+
+- [Auditory Closed-Loop Stimulation of the Sleep Slow Oscillation Enhances Memory](<https://doi.org/10.1016/j.neuron.2013.03.006>)
+
+### 2019｜Henin 等｜神经和行为结果分离
+
+重复相关听觉闭环设计，发现睡眠振荡增强但未观察到记忆表现获益。
+
+- [Closed-Loop Acoustic Stimulation Enhances Sleep Oscillations But Not Memory Performance](<https://pmc.ncbi.nlm.nih.gov/articles/PMC6831893/>)
+
+## 对实验设计有什么用
+
+记录每次触发的实际相位、延迟、漏触发与觉醒。先定义神经指标和行为指标各自的主要检验。

@@ -1,0 +1,40 @@
+---
+title: "睡眠分期与多导记录｜如何把一夜睡眠分成可复核的状态？"
+description: "从脑电和快速眼动，到可重复的评分规则。"
+toc: true
+toc-depth: 2
+---
+
+[返回本主题总览](history-sleep-eeg.qmd) · [全部研究发展史](history.qmd)
+
+从脑电和快速眼动，到可重复的评分规则。
+
+## 关键实验时间线
+
+### 1929｜Berger｜人类脑电
+
+人类头皮脑电让持续的状态变化成为可记录的时间过程。
+
+- [Über das Elektrenkephalogramm des Menschen](<https://doi.org/10.1007/BF01797193>)
+
+### 1953｜Aserinsky 与 Kleitman｜快速眼动
+
+在睡眠记录中识别周期性出现的快速眼动，结合脑电和唤醒报告形成新的实验对照。
+
+- [Regularly Occurring Periods of Eye Motility, and Concomitant Phenomena, During Sleep](<https://doi.org/10.1126/science.118.3062.273>)
+
+### 1957｜Dement 与 Kleitman｜睡眠与报告
+
+在不同眼动条件下唤醒被试，比较做梦报告。将状态识别和主观报告联系起来，同时保留两类数据。
+
+- [The relation of eye movements during sleep to dream activity: An objective method for the study of dreaming.](<https://doi.org/10.1037/h0048189>)
+
+### 1968｜Rechtschaffen 与 Kales｜评分手册
+
+将人类睡眠记录的术语、技术和分期规则整理成标准化手册。这是评分规范的历史节点。
+
+- [睡眠分期手册馆藏条目](<https://www.ncbi.nlm.nih.gov/nlmcatalog/173471>)
+
+## 对实验设计有什么用
+
+跨实验比较时写清导联、判分规则和评分者一致性。分期标签、频谱功率与主观报告分开保存。

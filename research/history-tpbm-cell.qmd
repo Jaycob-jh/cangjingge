@@ -1,0 +1,48 @@
+---
+title: "细胞机制｜光怎样改变细胞供能？"
+description: "从细胞 ATP、受损神经元到人体氧化型 CCO 的光谱读数。"
+toc: true
+toc-depth: 2
+---
+
+[返回本主题总览](history-tpbm.qmd) · [全部研究发展史](history.qmd)
+
+从细胞 ATP、受损神经元到人体氧化型 CCO 的光谱读数。
+
+## 关键实验时间线
+
+### 1995｜Karu 等｜细胞 ATP
+
+氦氖激光直接照射培养细胞后测 ATP。实验把早期组织反应推进到可定量的细胞供能指标。培养皿里的入射光和经颅照射到脑组织的剂量需要分别确定。
+
+- [Irradiation with HeNe laser increases ATP level in cells cultivated in vitro](<https://doi.org/10.1016/1011-1344(94)07078-3>)
+
+### 2003｜Eells 等｜受损视网膜
+
+在甲醇诱发的视网膜损伤动物模型中，用红光照射并观察视网膜功能与形态。它提供了神经组织的保护线索，照射路径和成年人的经颅递送不同。
+
+- [Therapeutic photobiomodulation for methanol-induced retinal toxicity](<https://doi.org/10.1073/pnas.0534746100>)
+
+### 2005｜Wong-Riley 等｜受损神经元
+
+在培养神经元中比较毒素损伤与光照条件，测细胞色素 c 氧化酶（CCO）活性等指标。这个设计可以直接检验呼吸链受抑后光照是否改变细胞反应。
+
+- [Photobiomodulation Directly Benefits Primary Neurons Functionally Inactivated by Toxins](<https://doi.org/10.1074/jbc.M409650200>)
+
+### 2017 刊期｜Wang 等｜活体人体光谱
+
+额部照射后用宽带近红外光谱估计氧化型 CCO 与血红蛋白变化。光谱估计把机制假说带进活体，但还需处理组织深度、血流和光谱成分分离。
+
+- [Up-regulation of cerebral cytochrome-c-oxidase and hemodynamics by transcranial infrared laser stimulation: A broadband near-infrared spectroscopy study](<https://doi.org/10.1177/0271678X17691783>)
+
+### 2021｜Saucedo 等｜年龄与生理读数
+
+在年轻与年长健康成人中比较照射相关的氧化型 CCO 和脑血管信号。研究把机制问题扩到年龄条件，光谱读数仍与离体酶活测定分属不同证据层。
+
+- [Transcranial laser stimulation: Mitochondrial and cerebrovascular effects in younger and older healthy adults](<https://doi.org/10.1016/j.brs.2021.02.011>)
+
+## 对实验设计有什么用
+
+实验上分别记录分子指标、细胞结果和整脑读数。若要检验某个光受体是否必要，需要操纵该机制并检查剂量、热效应和下游通路。
+
+[阅读人体代谢与血氧研究](../library/tpbm/wang-2022-metabolism.qmd)

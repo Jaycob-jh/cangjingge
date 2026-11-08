@@ -1,0 +1,40 @@
+---
+title: "单脉冲、重复刺激与 TBS｜从触发一次反应到改变刺激后的兴奋性"
+description: "按脉冲时序追踪运动皮层实验。"
+toc: true
+toc-depth: 2
+---
+
+[返回本主题总览](history-tms.qmd) · [全部研究发展史](history.qmd)
+
+按脉冲时序追踪运动皮层实验。
+
+## 关键实验时间线
+
+### 1985｜Barker 等｜单脉冲
+
+以非侵入磁刺激引出运动反应，建立人体皮层运动通路的探测手段。
+
+- [NON-INVASIVE MAGNETIC STIMULATION OF HUMAN MOTOR CORTEX](<https://doi.org/10.1016/S0140-6736(85)92413-4>)
+
+### 1994｜Pascual-Leone 等｜重复脉冲
+
+在人运动皮层比较快速重复刺激时的肌电和运动诱发电位，观察频率、强度依赖的变化。
+
+- [Responses to rapid-rate transcranial magnetic stimulation of the human motor cortex](<https://doi.org/10.1093/brain/117.4.847>)
+
+### 2005｜Huang 等｜TBS
+
+比较间歇与连续短阵模式，用刺激后运动诱发电位检验不同序列的后效应。
+
+- [Theta Burst Stimulation of the Human Motor Cortex](<https://doi.org/10.1016/j.neuron.2004.12.033>)
+
+### 2018｜Blumberger 等｜THREE-D
+
+临床试验比较间歇 TBS 和 10 Hz rTMS，检验抑郁症状结局的非劣效。临床量表与运动诱发电位回答不同问题。
+
+- [Effectiveness of theta burst versus high-frequency repetitive transcranial magnetic stimulation in patients with depression (THREE-D): a randomised non-inferiority trial](<https://doi.org/10.1016/S0140-6736(18)30295-2>)
+
+## 对实验设计有什么用
+
+记录脉冲结构、运动阈值、作用部位和读数时间。区分 TMS 作为干预还是作为探针。
