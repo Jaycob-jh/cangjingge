@@ -1,25 +1,11 @@
 [
   {
-    "listing": "/notes/questions.html",
-    "items": [
-      "/notes/issues/2026-11-08-motor-performance-learning.html",
-      "/notes/issues/2026-11-07-dose-and-fmri.html",
-      "/notes/issues/2026-11-06-stimulation-measures.html"
-    ]
-  },
-  {
-    "listing": "/library/index.html",
-    "items": [
-      "/library/papers/openscholar.html",
-      "/library/papers/khan-2026-personalized-neuromodulation.html",
-      "/library/papers/li-2024-tpbm-safety.html",
-      "/library/papers/jia-2023-mi-bci.html",
-      "/library/papers/zhao-2023-alpha-attention.html"
-    ]
-  },
-  {
     "listing": "/notes/index.html",
     "items": [
+      "/notes/posts/coelho-2025-depression-mrs.html",
+      "/notes/posts/kazmi-2026-microgravity-mood.html",
+      "/notes/posts/schiffer-2009-mood.html",
+      "/notes/posts/weigand-2018-subgenual-prediction.html",
       "/notes/posts/bibb-2025-light-somatomotor-fmri.html",
       "/notes/posts/fekri-2019-light-finger-tapping.html",
       "/notes/posts/iravani-2026-light-sma-sequence.html",
@@ -35,6 +21,25 @@
       "/notes/posts/nawrocik-madrid-2026-light-asl.html",
       "/notes/posts/personalized-neuromodulation.html",
       "/notes/posts/reading-guide.html"
+    ]
+  },
+  {
+    "listing": "/library/index.html",
+    "items": [
+      "/library/papers/openscholar.html",
+      "/library/papers/khan-2026-personalized-neuromodulation.html",
+      "/library/papers/li-2024-tpbm-safety.html",
+      "/library/papers/jia-2023-mi-bci.html",
+      "/library/papers/zhao-2023-alpha-attention.html"
+    ]
+  },
+  {
+    "listing": "/notes/questions.html",
+    "items": [
+      "/notes/issues/2026-11-09-mood-mechanism.html",
+      "/notes/issues/2026-11-08-motor-performance-learning.html",
+      "/notes/issues/2026-11-07-dose-and-fmri.html",
+      "/notes/issues/2026-11-06-stimulation-measures.html"
     ]
   }
 ]

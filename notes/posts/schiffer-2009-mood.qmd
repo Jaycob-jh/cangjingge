@@ -1,0 +1,25 @@
+---
+title: "单次照光后，症状变化维持多久？"
+date: 2026-11-09
+categories: [经颅光刺激]
+---
+
+Schiffer 等，2009-12-08 · 10 名抑郁患者 · 正式版全文
+
+[DOI 10.1186/1744-9081-5-46](https://doi.org/10.1186/1744-9081-5-46) · PMID 19995444
+
+[回到本期](../issues/2026-11-09-mood-mechanism.qmd)
+
+## 怎么做
+
+同一天在 F3、F4 分别进行 810 nm LED 照射及关灯对照，照射每点 4 分钟。前额近红外光谱测总血红蛋白，症状在基线、两周和四周评估。
+
+## 结果怎么读
+
+图 3 与表 4（PDF 第 9 页）显示 HAM-D 较基线平均下降 13.2 分和 6.5 分。急性光谱的开灯与关灯差异未达显著（图 2，p = 0.16）。长期症状随访没有独立假刺激组。
+
+## 对实验设计有什么用
+
+把即刻生理对照与独立、等时程的症状对照分别设计，预先规定随访时点。
+
+[原文定位](https://dash.harvard.edu/server/api/core/bitstreams/7312037c-71e1-6bd4-e053-0100007fdf3b/content#page=9) · [研究对比卡](../../library/tpbm/schiffer-2009.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/schiffer-2009-mood.qmd)

@@ -1,0 +1,48 @@
+---
+title: "量表改善和脑指标一起变化，怎样判断机制？"
+date: 2026-11-09
+description: "从情绪量表、前额叶代谢和动物生化到独立网络预测。"
+categories: [安全与临床转化]
+---
+
+[全部荐读](../questions.qmd)
+
+量表改善、脑代谢变化、功能连接预测是三个不同的问题。本期把前后观察、随机剂量比较、动物生化和跨队列预测放到一起，看看每种证据能走多远。
+
+## 经典｜单次照光后，症状变化维持多久？
+
+[Schiffer 等，2009-12-08](../posts/schiffer-2009-mood.qmd) · 10 名抑郁患者 · 正式版全文
+
+图 3 与表 4（PDF 第 9 页）显示 HAM-D 较基线平均下降 13.2 分和 6.5 分。急性光谱的开灯与关灯差异未达显著（图 2，p = 0.16）。长期症状随访没有独立假刺激组。
+
+[原文定位](https://dash.harvard.edu/server/api/core/bitstreams/7312037c-71e1-6bd4-e053-0100007fdf3b/content#page=9)
+
+## 代表研究｜代谢物升高，有特定剂量效应吗？
+
+[Coelho 等，2025-05-13](../posts/coelho-2025-depression-mrs.qmd) · 33 名重性抑郁障碍成人 · 正式版全文
+
+图 6A（PDF 第 9 页结果）报告单次分析的 NAA 由 7.52 到 8.12 mmol/L（p = 0.0007），但不同条件间未见显著差异。部分多访视分析使用刺激前波谱，不能与即刻前后比较混读。
+
+[原文定位](https://mdpi-res.com/d_attachment/jcm/jcm-14-03402/article_deploy/jcm-14-03402.pdf#page=9)
+
+## 最新进展｜分子和行为一起变化，说明谁在起作用？
+
+[Kazmi 等，2026-10-25 首发](../posts/kazmi-2026-microgravity-mood.qmd) · 雄性小鼠 · 期刊预校样摘要与亮点，全文待补
+
+摘要报告，与卸载组相比，照光组的焦虑和抑郁样行为及若干线粒体、氧化应激和炎症指标向对照方向变化。该设计提供动物机制线索，摘要未给出可核对的效应量或独立阻断实验。
+
+[原文定位](https://www.sciencedirect.com/science/article/abs/pii/S1011134426002307)
+
+## fMRI 方法｜基线连接能不能预测临床反应？
+
+[Weigand 等，2017-11-10 在线，2018 刊期](../posts/weigand-2018-subgenual-prediction.qmd) · 接受 rTMS 的抑郁患者队列 · PubMed 摘要与公开图注
+
+PubMed 图注报告，第二队列的主动刺激中，连接与症状改善的相关为 r = −0.52，单侧 p < 0.05；假刺激中未见同样的预测证据。这是磁刺激靶点预测研究。
+
+[原文定位](https://pubmed.ncbi.nlm.nih.gov/29274805/)
+
+## 怎么用到实验里
+
+预先区分临床主要结局、早期脑指标和基线预测量。先确认主动组相对于假刺激的差异，再用时间顺序和独立验证检验机制或预测，避免用组内前后差替代组间证据。
+
+[疗程与临床问题页](../../research/questions/repeated-clinical.qmd) · [编辑本期](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/issues/2026-11-09-mood-mechanism.qmd)

@@ -2702,6 +2702,210 @@
         }
       ],
       "interpretation": "按固定节奏做扫描任务，可以比较相似动作下的脑信号；另设自定速度的行为测试，才能检验刺激是否提高运动表现。小样本探索结果适合用来预设靶区和验证指标。"
+    },
+    {
+      "id": "schiffer-2009",
+      "short": "Schiffer · 2009",
+      "year": 2009,
+      "title": "Psychological benefits 2 and 4 weeks after a single treatment with near infrared light to the forehead",
+      "title_zh": "单次照光后，症状变化维持多久？",
+      "doi": "10.1186/1744-9081-5-46",
+      "fulltext": "https://dash.harvard.edu/server/api/core/bitstreams/7312037c-71e1-6bd4-e053-0100007fdf3b/content",
+      "journal": "Behavioral and Brain Functions",
+      "kind": "临床",
+      "questions": [
+        "repeated-clinical"
+      ],
+      "measures": [
+        "fNIRS",
+        "量表"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "未明确",
+      "reading": "正式版全文",
+      "sources": {
+        "m": {
+          "label": "PDF 第 4 页｜照射参数与表 1",
+          "url": "https://dash.harvard.edu/server/api/core/bitstreams/7312037c-71e1-6bd4-e053-0100007fdf3b/content#page=4"
+        },
+        "d": {
+          "label": "PDF 第 5–6 页｜设计与图 1",
+          "url": "https://dash.harvard.edu/server/api/core/bitstreams/7312037c-71e1-6bd4-e053-0100007fdf3b/content#page=5"
+        },
+        "r": {
+          "label": "PDF 第 9 页｜图 3、表 4",
+          "url": "https://dash.harvard.edu/server/api/core/bitstreams/7312037c-71e1-6bd4-e053-0100007fdf3b/content#page=9"
+        },
+        "n": {
+          "label": "PDF 第 8 页｜图 2",
+          "url": "https://dash.harvard.edu/server/api/core/bitstreams/7312037c-71e1-6bd4-e053-0100007fdf3b/content#page=8"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "10 名抑郁患者",
+          "source": "m"
+        },
+        "design": {
+          "value": "同次主动/关灯生理对照，症状为单组随访",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 nm 峰值，半高宽 40 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "LED；照射时序见方法",
+          "source": "d"
+        },
+        "target": {
+          "value": "前额 F3、F4",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "距皮肤 4 mm 时 250 mW/cm²",
+          "source": "m"
+        },
+        "spot": {
+          "value": "方法说明距皮肤 4 mm；本表不换算光斑",
+          "source": "m"
+        },
+        "duration": {
+          "value": "每点 4 分钟",
+          "source": "m"
+        },
+        "dose": {
+          "value": "每点入射 60 J/cm²",
+          "source": "m"
+        },
+        "control": {
+          "value": "急性光谱同部位关灯；随访无独立假刺激组",
+          "source": "d"
+        },
+        "readout": {
+          "value": "前额总血红蛋白；HAM-D 与 HAM-A",
+          "source": "d"
+        },
+        "timing": {
+          "value": "光谱于刺激中；症状基线、2、4 周",
+          "source": "d"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "HAM-D 平均较基线下降 13.2 和 6.5 分。"
+        },
+        {
+          "source": "n",
+          "text": "双侧平均总血红蛋白开灯相对关灯差 0.032 相对单位，p = 0.16。"
+        }
+      ],
+      "interpretation": "把即刻生理对照与独立、等时程的症状对照分别设计，预先规定随访时点。"
+    },
+    {
+      "id": "coelho-2025",
+      "short": "Coelho · 2025",
+      "year": 2025,
+      "title": "Neurometabolite Changes After Transcranial Photobiomodulation in Major Depressive Disorder",
+      "title_zh": "代谢物升高，有特定剂量效应吗？",
+      "doi": "10.3390/jcm14103402",
+      "fulltext": "https://mdpi-res.com/d_attachment/jcm/jcm-14-03402/article_deploy/jcm-14-03402.pdf",
+      "journal": "Journal of Clinical Medicine",
+      "kind": "临床",
+      "questions": [
+        "repeated-clinical"
+      ],
+      "measures": [
+        "MRS",
+        "量表"
+      ],
+      "wavelengths": [
+        "808"
+      ],
+      "mode_filter": "连续+脉冲",
+      "reading": "正式版全文",
+      "sources": {
+        "d": {
+          "label": "PDF 第 1 页｜样本与设计",
+          "url": "https://mdpi-res.com/d_attachment/jcm/jcm-14-03402/article_deploy/jcm-14-03402.pdf#page=1"
+        },
+        "m": {
+          "label": "PDF 第 3 页｜表 1",
+          "url": "https://mdpi-res.com/d_attachment/jcm/jcm-14-03402/article_deploy/jcm-14-03402.pdf#page=3"
+        },
+        "c": {
+          "label": "PDF 第 3 页｜假刺激与盲法",
+          "url": "https://mdpi-res.com/d_attachment/jcm/jcm-14-03402/article_deploy/jcm-14-03402.pdf#page=3"
+        },
+        "mrs": {
+          "label": "PDF 第 4 页｜MRS 采集",
+          "url": "https://mdpi-res.com/d_attachment/jcm/jcm-14-03402/article_deploy/jcm-14-03402.pdf#page=4"
+        },
+        "r": {
+          "label": "PDF 第 9 页｜单次 NAA 分析",
+          "url": "https://mdpi-res.com/d_attachment/jcm/jcm-14-03402/article_deploy/jcm-14-03402.pdf#page=9"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "33 名重性抑郁障碍成人",
+          "source": "d"
+        },
+        "design": {
+          "value": "四条件随机交叉，约间隔一周",
+          "source": "m"
+        },
+        "wavelength": {
+          "value": "808 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "低、中为连续；高档约 40 Hz、33% 占空比",
+          "source": "m"
+        },
+        "target": {
+          "value": "双侧背外侧前额叶 F3、F4",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "平均约 50、300、300 mW/cm²；高档峰值约 850",
+          "source": "m"
+        },
+        "spot": {
+          "value": "表 1 照射面积 24 cm²",
+          "source": "m"
+        },
+        "duration": {
+          "value": "表 1 有效照射 1200、333、600 秒",
+          "source": "m"
+        },
+        "dose": {
+          "value": "约 60、100、180 J/cm²",
+          "source": "m"
+        },
+        "control": {
+          "value": "设备待机、可见指示光，无近红外照射",
+          "source": "c"
+        },
+        "readout": {
+          "value": "左额质子波谱 NAA、Cho、Cr；MADRS、SDQ",
+          "source": "mrs"
+        },
+        "timing": {
+          "value": "刺激前与刺激后约 15 分钟；另比较多次访视前波谱",
+          "source": "mrs"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "单次分析 NAA 从 7.52 到 8.12 mmol/L，但变化未显示条件间显著差异。"
+        }
+      ],
+      "interpretation": "先检验主动对假刺激的变化差，再判断脑指标能否解释症状变化。不同档位同时改变了时间、辐照度或脉冲方式。"
     }
   ]
 }

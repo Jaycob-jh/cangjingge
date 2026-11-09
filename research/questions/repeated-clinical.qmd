@@ -39,6 +39,18 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/jung-2026.qmd) · [图 5 / PDF 第 10 页 · 随机分组与流程](https://www.nature.com/articles/s41380-026-03875-y#Fig5) · [表 2 / PDF 第 8 页 · 量表、日记与体动](https://www.nature.com/articles/s41380-026-03875-y#Tab2) · [表 3 / PDF 第 9 页 · 入睡时间与依从分析](https://www.nature.com/articles/s41380-026-03875-y#Tab3)
 
+### Schiffer · 2009：区分单组随访与急性关灯对照
+
+HAM-D 平均较基线下降 13.2 和 6.5 分。 把即刻生理对照与独立、等时程的症状对照分别设计，预先规定随访时点。
+
+[研究参数与结果](../../library/tpbm/schiffer-2009.qmd) · [PDF 第 9 页｜图 3、表 4](https://dash.harvard.edu/server/api/core/bitstreams/7312037c-71e1-6bd4-e053-0100007fdf3b/content#page=9) · [PDF 第 4 页｜照射参数与表 1](https://dash.harvard.edu/server/api/core/bitstreams/7312037c-71e1-6bd4-e053-0100007fdf3b/content#page=4)
+
+### Coelho · 2025：代谢物前后差与剂量效应分别检验
+
+单次分析 NAA 从 7.52 到 8.12 mmol/L，但变化未显示条件间显著差异。 先检验主动对假刺激的变化差，再判断脑指标能否解释症状变化。不同档位同时改变了时间、辐照度或脉冲方式。
+
+[研究参数与结果](../../library/tpbm/coelho-2025.qmd) · [PDF 第 9 页｜单次 NAA 分析](https://mdpi-res.com/d_attachment/jcm/jcm-14-03402/article_deploy/jcm-14-03402.pdf#page=9) · [PDF 第 3 页｜表 1](https://mdpi-res.com/d_attachment/jcm/jcm-14-03402/article_deploy/jcm-14-03402.pdf#page=3)
+
 ## 做实验时看什么
 
 - 把即时反应、疗程末结果和停用后保持分别设定测量时间。
@@ -54,5 +66,7 @@ toc: true
 - [Nizamutdinov · 2021：居家头盔照射八周后，痴呆患者的认知评分如何？](../../library/tpbm/nizamutdinov-2021.qmd)
 - [Figueiro Longo · 2020：急性脑损伤后，影像变化是否伴随症状改善？](../../library/tpbm/longo-2020.qmd)
 - [Jung · 2026：额部近红外光能改善睡眠吗？](../../library/tpbm/jung-2026.qmd)
+- [Schiffer · 2009：单次照光后，症状变化维持多久？](../../library/tpbm/schiffer-2009.qmd)
+- [Coelho · 2025：代谢物升高，有特定剂量效应吗？](../../library/tpbm/coelho-2025.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

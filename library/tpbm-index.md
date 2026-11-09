@@ -3,6 +3,7 @@
 - [Van Lankveld · 2026：相同波长的 BOLD 和脑血流反应一致吗？](../library/tpbm/van-lankveld-2026.qmd)
 - [Enam · 2026：波长相近的头盔，透过组织后差多少？](../library/tpbm/enam-2026.qmd)
 - [Bibb · 2025：主动光、磁刺激与各自假刺激下的运动区 fMRI](../library/tpbm/bibb-2025.qmd)
+- [Coelho · 2025：代谢物升高，有特定剂量效应吗？](../library/tpbm/coelho-2025.qmd)
 - [Qu · 2022：连续七天刺激的记忆改善能保持多久？](../library/tpbm/qu-2022.qmd)
 - [Zhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？](../library/tpbm/zhao-2022.qmd)
 - [Truong · 2022：连续光会改变哪些慢频段的血氧网络？](../library/tpbm/truong-2022.qmd)
@@ -24,3 +25,4 @@
 - [Cassano · 2015：早期抑郁试验怎样安排照射和假刺激？](../library/tpbm/cassano-2015.qmd)
 - [Barrett · 2013：早期人体研究怎样测注意和记忆？](../library/tpbm/barrett-2013.qmd)
 - [Jagdeo · 2012：红光与近红外穿过颅骨的比例一样吗？](../library/tpbm/jagdeo-2012.qmd)
+- [Schiffer · 2009：单次照光后，症状变化维持多久？](../library/tpbm/schiffer-2009.qmd)

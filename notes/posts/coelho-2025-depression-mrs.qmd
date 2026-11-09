@@ -1,0 +1,25 @@
+---
+title: "代谢物升高，有特定剂量效应吗？"
+date: 2026-11-09
+categories: [经颅光刺激]
+---
+
+Coelho 等，2025-05-13 · 33 名重性抑郁障碍成人 · 正式版全文
+
+[DOI 10.3390/jcm14103402](https://doi.org/10.3390/jcm14103402)
+
+[回到本期](../issues/2026-11-09-mood-mechanism.qmd)
+
+## 怎么做
+
+808 nm 光照双侧背外侧前额叶，随机交叉比较低、中、高和假刺激，磁共振波谱测左额 NAA、胆碱和肌酸。表 1 列出三档照射约 60、100、180 J/cm²。
+
+## 结果怎么读
+
+图 6A（PDF 第 9 页结果）报告单次分析的 NAA 由 7.52 到 8.12 mmol/L（p = 0.0007），但不同条件间未见显著差异。部分多访视分析使用刺激前波谱，不能与即刻前后比较混读。
+
+## 对实验设计有什么用
+
+先检验主动对假刺激的变化差，再判断脑指标能否解释症状变化。不同档位同时改变了时间、辐照度或脉冲方式。
+
+[原文定位](https://mdpi-res.com/d_attachment/jcm/jcm-14-03402/article_deploy/jcm-14-03402.pdf#page=9) · [研究对比卡](../../library/tpbm/coelho-2025.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/coelho-2025-depression-mrs.qmd)

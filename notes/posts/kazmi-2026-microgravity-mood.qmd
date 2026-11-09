@@ -1,0 +1,25 @@
+---
+title: "分子和行为一起变化，说明谁在起作用？"
+date: 2026-11-09
+categories: [经颅光刺激]
+---
+
+Kazmi 等，2026-10-25 首发 · 雄性小鼠 · 期刊预校样摘要与亮点，全文待补
+
+[DOI 10.1016/j.jphotobiol.2026.113583](https://doi.org/10.1016/j.jphotobiol.2026.113583)
+
+[回到本期](../issues/2026-11-09-mood-mechanism.qmd)
+
+## 怎么做
+
+设正常对照、后肢卸载 28 天、卸载加每日 810 nm 光照三组。用行为任务和前额叶生化检测评估动物反应。
+
+## 结果怎么读
+
+摘要报告，与卸载组相比，照光组的焦虑和抑郁样行为及若干线粒体、氧化应激和炎症指标向对照方向变化。该设计提供动物机制线索，摘要未给出可核对的效应量或独立阻断实验。
+
+## 对实验设计有什么用
+
+先排除运动能力改变对行为任务的影响，再用阻断或救援实验判断某条分子通路是否必要。
+
+[原文定位](https://www.sciencedirect.com/science/article/abs/pii/S1011134426002307) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/kazmi-2026-microgravity-mood.qmd)
