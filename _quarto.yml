@@ -6,6 +6,8 @@ project:
     - "assets/catalog.json"
     - "assets/tpbm-compare.js"
     - "assets/tpbm-studies.json"
+    - "assets/tpbm-parameters.js"
+    - "assets/tpbm-parameters.json"
   render:
     - "index.qmd"
     - "people/*.qmd"

@@ -1,0 +1,10 @@
+#parameter-search form { margin: 1rem 0; padding: 1rem; border: 1px solid var(--bs-border-color); border-radius: .5rem; }
+#parameter-search label, #parameter-search input, #parameter-search select { display: block; }
+#parameter-search input, #parameter-search select { width: 100%; min-width: 0; padding: .4rem; }
+#parameter-filters, .parameter-results-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%, 13rem),1fr)); gap: .75rem; }
+.parameter-results-grid { grid-template-columns: repeat(auto-fit,minmax(min(100%, 22rem),1fr)); }
+#parameter-search article { border: 1px solid var(--bs-border-color); padding: .85rem; border-radius: .5rem; overflow-wrap: anywhere; }
+#parameter-search article h3 { font-size: 1.05rem; margin-top: 0; }
+.parameter-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin: .65rem 0; align-items: center; }
+#parameter-search details { margin-top: .8rem; }
+#parameter-search li { margin-bottom: .35rem; }

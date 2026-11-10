@@ -7,7 +7,7 @@ css: ../assets/tpbm-compare.css
 
 选几篇研究，逐项比较照射参数、实验设计和结果。每个数据旁的链接可回到原文方法或图表。
 
-[不知道先读哪篇？按问题开始](tpbm-questions.qmd)
+[按参数查证据](tpbm-parameters.qmd) · [不知道先读哪篇？按问题开始](tpbm-questions.qmd)
 
 ::: {.callout-note collapse="true" title="指标怎么读？"}
 EEG 看脑电活动；fNIRS 看血氧变化；bbNIRS 还可以观察氧化型细胞色素 c 氧化酶（oxCCO），用于研究代谢变化；fMRI 看磁共振信号及其相关性；ASL 测脑灌注；MEP 是运动诱发电位，用来观察运动通路的响应。它们测量的对象不同，不能直接互换。
