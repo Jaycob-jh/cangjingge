@@ -47,7 +47,7 @@ const reset = node('button', '清空筛选');
 reset.type = 'reset';
 form.append(reset);
 function range(value) {
-  const match = value.trim().match(/^(\d+(?:\.\d+)?)\s*(?:[-–—~～至]\s*(\d+(?:\.\d+)?))?$/);
+  const match = value.trim().match(/^(\d+(?:\.\d+)?)\s*(?:[-–—~～至到]\s*(\d+(?:\.\d+)?))?$/);
   if (!match) return null;
   const min = Number(match[1]), max = Number(match[2] ?? match[1]);
   return Number.isFinite(max) && min <= max ? [min,max] : null;
@@ -55,7 +55,7 @@ function range(value) {
 function common(text) {
   const out = {};
   for (const [key, unit] of Object.entries({wave:'nm|纳米',power:'mw(?!\\s*/)',irradiance:'mw\\s*/\\s*cm[²2]',dose:'j\\s*/\\s*cm[²2]',duration:'分钟|min',frequency:'hz|赫兹',duty:'%',spot:'cm[²2]',sessions:'次'})) {
-    const m = text.match(new RegExp('(\\d+(?:\\.\\d+)?(?:\\s*[-–—~～至]\\s*\\d+(?:\\.\\d+)?)?)\\s*(?:' + unit + ')','i'));
+    const m = text.match(new RegExp('(\\d+(?:\\.\\d+)?(?:\\s*[-–—~～至到]\\s*\\d+(?:\\.\\d+)?)?)\\s*(?:' + unit + ')','i'));
     if (m && !(key === 'spot' && /\/\s*$/.test(text.slice(0,m.index)))) out[key] = m[1];
   }
   if (/成人|患者|人体|human/i.test(text)) out.subject = 'Human';
@@ -71,7 +71,8 @@ function common(text) {
 function normalize(filters) {
   const clean = {};
   for (const [key, input] of Object.entries(inputs)) {
-    const value = filters[key];
+    const supplied = filters[key];
+    const value = key in numeric && typeof supplied === 'number' ? String(supplied) : supplied;
     if (typeof value !== 'string' || !value.trim() || value.length > input.maxLength && input.maxLength > 0) continue;
     if (key in selectors && !Object.hasOwn(selectors[key][2], value)) continue;
     if (key in numeric && !range(value)) continue;
@@ -91,7 +92,7 @@ async function withTimeout(work, milliseconds) {
   }
 }
 const selected = new Map();
-let offset = 20, pendingOffset = 15;
+let offset = 20, pendingOffset = 15, filterRevision = 0;
 const status = $('parameter-model-status');
 function apply(filters) {
   const valid = normalize(filters);
@@ -109,6 +110,8 @@ $('parameter-ai').onclick = async event => {
   const question = $('parameter-prompt').value.trim();
   if (!question) { status.textContent = '请先输入问题。'; return; }
   const button = event.currentTarget;
+  const revision = filterRevision;
+  const changed = () => revision !== filterRevision || question !== $('parameter-prompt').value.trim();
   button.disabled = true;
   try {
     if (!navigator.gpu) throw Error('WebGPU unavailable');
@@ -117,12 +120,12 @@ $('parameter-ai').onclick = async event => {
       modelLoading = import('https://cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.79/+esm')
         .then(({CreateMLCEngine}) => CreateMLCEngine('Qwen2.5-1.5B-Instruct-q4f16_1-MLC', {
           initProgressCallback: report => {
-            if (button.disabled) status.textContent = '模型加载 ' + Math.round(report.progress * 100) + '%';
+            if (button.disabled) status.textContent = report.progress > 0 ? '模型加载 ' + Math.round(report.progress * 100) + '%' : '正在下载模型权重，可继续手动筛选……';
           },
         }))
         .catch(error => { modelLoading = undefined; throw error; });
     }
-    const engine = await withTimeout(modelLoading, 180000);
+    const engine = await withTimeout(modelLoading, 900000);
     status.textContent = '正在解析筛选条件……';
     const result = await withTimeout(engine.chat.completions.create({
       messages: [
@@ -133,9 +136,11 @@ $('parameter-ai').onclick = async event => {
       temperature:0, max_tokens:250, response_format:{type:'json_object'},
     }), 45000);
     const filters = JSON.parse(result.choices[0].message.content);
+    if (changed()) { status.textContent = '筛选已编辑，本次模型结果未应用。'; return; }
     if (!filters || Array.isArray(filters) || typeof filters !== 'object' || !apply(filters)) throw Error('No valid filters');
     status.textContent = 'Qwen 已填入条件，请检查是否漏掉限定词。';
   } catch (error) {
+    if (changed()) { status.textContent = '已保留当前筛选。'; return; }
     const applied = apply(common(question));
     status.textContent = applied ? '本次未能使用 Qwen，已用常见条件解析，可手动修正。' : '本次未能使用 Qwen，请手动填写筛选。';
   } finally { button.disabled = false; }
@@ -242,7 +247,7 @@ function render() {
   section.querySelector('summary').textContent = '待核证据 · ' + pending.length + ' 条';
   renderList(section.querySelector('div'),pending,pendingOffset,()=>{pendingOffset+=20;render();},false);
 }
-function refresh() { offset=20; pendingOffset=15; render(); }
+function refresh() { filterRevision++; offset=20; pendingOffset=15; render(); }
 form.addEventListener('input', refresh);
 form.addEventListener('reset', () => setTimeout(refresh,0));
 form.addEventListener('submit', event => event.preventDefault());
