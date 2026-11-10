@@ -9,7 +9,7 @@ title-block-banner: false
 ::: {.zk-home-intro}
 # 神经调控文献库
 
-从经颅光、磁、电刺激，到用 fMRI 和脑电观察脑活动。这里可以查论文，也可以按问题读。
+查经颅光刺激、磁刺激和电刺激的论文，也可按问题读 fMRI、脑网络和脑电研究。
 
 [查神经调控论文](library/index.html?topic=02){.btn .btn-primary}
 [查全部文献](library/index.qmd){.btn .btn-outline-secondary}
@@ -22,11 +22,11 @@ title-block-banner: false
 
 Li 等 · *Brain Stimulation* · 2024
 
-还可以读光怎么进入脑内、怎么选波长和脉冲、刺激后脑活动和睡眠有什么变化。
+想找相近实验，可按靶点、波长或剂量筛选。想了解一个问题，可从光如何进入脑组织、照射后怎样测升温或睡眠开始。
 
-[更多光刺激专题阅读](research/tpbm.qmd)
+[经颅光刺激专题](research/tpbm.qmd)
 
-[研究对比台](research/tpbm-compare.qmd) · [从具体问题开始](research/tpbm-questions.qmd)
+[按参数查证据](research/tpbm-parameters.qmd) · [研究对比台](research/tpbm-compare.qmd) · [按问题读](research/tpbm-questions.qmd)
 :::
 :::::
 

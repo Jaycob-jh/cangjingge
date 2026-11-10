@@ -1,6 +1,6 @@
 ---
 title: "按问题读"
-subtitle: "每期围绕一个实验问题，串读三篇经颅光刺激论文和一篇相关的 fMRI 脑网络论文。"
+subtitle: "每期围绕一个实验问题，选三篇经颅光刺激论文和一篇相关的 fMRI 脑网络论文。"
 toc: false
 page-layout: full
 listing:
@@ -15,7 +15,7 @@ listing:
 
 [返回论文笔记](index.qmd)
 
-单篇论文的笔记也可以独立阅读。
+选一个主题，查看对应各期荐读。
 
 ```{=html}
 <div id="question-topics" class="d-flex flex-wrap gap-2 mb-3" role="group" aria-label="按问题分类筛选荐读">

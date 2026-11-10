@@ -5,7 +5,7 @@ toc: false
 css: ../assets/tpbm-parameters.css
 ---
 
-按对象、靶点、波长或剂量找相近实验。结果区分原表有明确组别的记录和文献层记录。点击参数旁的出处可打开原刊，并按标注查找页码或图表。
+输入一句话，或直接选研究对象、靶点、波长和剂量。表里写明组别的按实验组列出，其余按文献列出。点参数旁的出处可打开原刊，按标注找页码或图表。
 
 [研究对比台](tpbm-compare.qmd)
 
@@ -18,7 +18,7 @@ css: ../assets/tpbm-parameters.css
       <button type="submit">解析常见条件</button>
       <button id="parameter-ai" type="button">用 Qwen 解析</button>
     </div>
-    <small>Qwen2.5 1.5B 在支持 WebGPU 的浏览器本地运行，首次约需下载 869 MB。同一浏览器会复用已缓存的权重，刷新后仍需重新初始化。清除站点数据或使用无痕窗口可能需要重新下载。加载期间可继续手动筛选。</small>
+    <small>Qwen2.5 1.5B 需要支持 WebGPU 的浏览器，首次约下载 869 MB。刷新后从缓存加载。清除站点数据或用无痕窗口时可能需要重下。加载期间仍可手动筛选。</small>
     <p id="parameter-model-status" role="status"></p>
   </form>
   <form id="parameter-filters" aria-label="手动筛选"></form>

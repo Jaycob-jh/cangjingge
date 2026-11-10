@@ -9,7 +9,7 @@ page-layout: full
 
 光怎样进入脑组织？波长和脉冲怎么选？怎样测量脑活动、升温和睡眠？
 
-[按问题读论文](tpbm.qmd){.btn .btn-primary}
+[进入经颅光刺激专题](tpbm.qmd){.btn .btn-primary}
 [浏览光刺激文献](../library/index.html?topic=02&subtopic=02.04){.btn .btn-outline-secondary}
 :::
 
@@ -22,8 +22,8 @@ page-layout: full
 
 ## 比较经颅光刺激研究
 
-[研究对比台](tpbm-compare.qmd) · [波长、热效应、脑活动与疗程：按问题读](tpbm-questions.qmd)
+[按靶点、波长或剂量查证据](tpbm-parameters.qmd) · [对比研究](tpbm-compare.qmd) · [按问题读论文](tpbm-questions.qmd)
 
 ## 研究发展史
 
-[按时间读研究](history.qmd) · 经颅光刺激、经颅电刺激、经颅磁刺激、睡眠脑电与脑功能网络
+[读研究发展史](history.qmd) · 经颅光刺激、电刺激、磁刺激、睡眠脑电与脑功能网络

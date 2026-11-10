@@ -1,14 +1,14 @@
 ---
 title: "经颅光刺激"
-subtitle: "从光怎么进入脑内，到刺激参数、脑活动和人体安全"
+subtitle: "光在脑组织里怎么传播，照射条件怎样影响研究结果"
 toc: true
 ---
 
 [浏览光刺激文献](../library/index.html?topic=02&subtopic=02.04) · [查看热效应与热安全文献](../library/index.html?topic=02&subtopic=02.09)
 
-[打开研究对比台](tpbm-compare.qmd){.btn .btn-primary} [按具体问题读全文](tpbm-questions.qmd){.btn .btn-outline-secondary}
+[按参数查证据](tpbm-parameters.qmd){.btn .btn-primary} [对比研究](tpbm-compare.qmd){.btn .btn-outline-secondary} [按问题读论文](tpbm-questions.qmd)
 
-把波长、剂量、假刺激和结果放在一起比较，每项都可以回到原文方法或图表。
+查到相近实验后，可把波长、剂量、假刺激和结果并排看。对比卡标出原文方法或图表的位置。
 
 ## 光能到达哪里？
 
