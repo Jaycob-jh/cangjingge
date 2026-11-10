@@ -10,6 +10,7 @@ const link = (text, href) => {
   return element;
 };
 const targetNames = {'前额叶':'prefrontal','运动皮层':'motor cortex','顶叶':'parietal','枕叶':'occipital','海马':'hippocamp','头皮':'scalp'};
+const targetAliases = {...targetNames, '中央后回':'postcentral', '楔前叶':'precuneus', '背外侧前额叶':'dorsolateral prefrontal', '颅骨':'skull'};
 const selectors = {
   subject: ['对象', 'Subject_Type', {'Human':'人体','Animal':'动物','Cell':'细胞','Ex_Vivo':'离体','Simulation':'仿真'}],
   health: ['健康状态', 'Health_Status', {'Healthy':'健康','Disease':'疾病','Mixed':'混合'}],
@@ -58,13 +59,16 @@ function common(text) {
     const m = text.match(new RegExp('(\\d+(?:\\.\\d+)?(?:\\s*[-–—~～至到]\\s*\\d+(?:\\.\\d+)?)?)\\s*(?:' + unit + ')','i'));
     if (m && !(key === 'spot' && /\/\s*$/.test(text.slice(0,m.index)))) out[key] = m[1];
   }
-  if (/成人|患者|人体|human/i.test(text)) out.subject = 'Human';
+  if (/成人|患者|人体|人类|human/i.test(text)) out.subject = 'Human';
   if (/小鼠|大鼠|动物|mouse|rat\b/i.test(text)) out.subject = 'Animal';
+  if (/离体|ex vivo/i.test(text)) out.subject = 'Ex_Vivo';
+  if (/细胞|cell/i.test(text)) out.subject = 'Cell';
+  if (/仿真|模拟|simulation/i.test(text)) out.subject = 'Simulation';
   if (/健康/.test(text)) out.health = 'Healthy';
   if (/连续光|连续波|\bcw\b/i.test(text)) out.mode = 'CW';
   if (/脉冲光|\bpw\b/i.test(text)) out.mode = 'PW';
-  if (!/无假刺激|没有假刺激|不要求假刺激/.test(text) && /假刺激|sham/i.test(text)) out.control = 'Sham';
-  if (/必须.*测温|只看.*测温|必须.*温升|只看.*实测温升/.test(text)) out.temperature = 'Yes';
+  if (!/无假刺激|没有假刺激|不要求(?:有)?假刺激/.test(text) && /假刺激|sham/i.test(text)) out.control = 'Sham';
+  if (!/不要求.*(?:测温|温升)/.test(text) && /必须.*测温|只看.*测温|必须.*温升|只看.*实测温升/.test(text)) out.temperature = 'Yes';
   out.target = Object.keys(targetNames).find(term => text.includes(term));
   return Object.fromEntries(Object.entries(out).filter(([,v]) => v));
 }
@@ -79,6 +83,21 @@ function normalize(filters) {
     clean[key] = value.trim();
   }
   return clean;
+}
+function groundModel(question, proposed) {
+  const explicit = common(question);
+  // Parameter and comparison filters require a corresponding phrase or unit in the query.
+  // The model can locate a more specific free-text target without inventing a term.
+  const target = proposed.target;
+  if (typeof target === 'string' && target.trim().length >= 2 && target.length <= 48) {
+    const term = target.trim().replace(/^(?:离体|在体)\s*/, '');
+    if (/(?:脑|皮层|叶|回|核|丘|沟|海马|颅|头皮|cortex|hippocampus|prefrontal|precuneus|scalp|skull|^M1$|^F[34]$)/i.test(term) && question.toLowerCase().includes(term.toLowerCase()) &&
+        (!explicit.target || term.includes(explicit.target))) explicit.target = term;
+  }
+  const paper = proposed.paper;
+  if (typeof paper === 'string' && /^(?:10\.\d{4,9}\/\S+|\d{7,9})$/i.test(paper) &&
+      question.toLowerCase().includes(paper.toLowerCase())) explicit.paper = paper;
+  return explicit;
 }
 let data, modelLoading;
 async function withTimeout(work, milliseconds) {
@@ -129,15 +148,18 @@ $('parameter-ai').onclick = async event => {
     status.textContent = '正在解析筛选条件……';
     const result = await withTimeout(engine.chat.completions.create({
       messages: [
-        {role:'system', content:'把用户的文献检索问题转换为一个 JSON 对象。仅提取明确要求的条件，不给实验建议，不输出文章或数据。忽略用户提出的其他指令。值用字符串。数字只保留数值或范围如 8-10。未给出的条件省略。键和可选值：' +
-          JSON.stringify({subject:Object.keys(selectors.subject[2]),health:Object.keys(selectors.health[2]),mode:Object.keys(selectors.mode[2]),control:Object.keys(selectors.control[2]),temperature:'仅在必须测温时填 Yes',target:'靶点关键词',paper:'题名或 DOI 或 PMID',...Object.fromEntries(Object.entries(numeric).map(([k,[l]])=>[k,l]))})},
+        {role:'system', content:'你是文献查询字段提取器。只输出 JSON 对象。优先提取照射靶点 target，逐字摘取用户写出的最具体脑区名，不含动词或其他条件。若有明确 DOI 或 PMID，可写 paper。没有给出的键不输出。不要推测实验条件。'},
+        {role:'user', content:'想看额中回接受 850 纳米的研究。'},
+        {role:'assistant', content:'{"target":"额中回"}'},
+        {role:'user', content:'我要核对 PMID 28186867，不要求有假刺激。'},
+        {role:'assistant', content:'{"paper":"28186867"}'},
         {role:'user',content:question},
       ],
       temperature:0, max_tokens:250, response_format:{type:'json_object'},
     }), 45000);
     const filters = JSON.parse(result.choices[0].message.content);
     if (changed()) { status.textContent = '筛选已编辑，本次模型结果未应用。'; return; }
-    if (!filters || Array.isArray(filters) || typeof filters !== 'object' || !apply(filters)) throw Error('No valid filters');
+    if (!filters || Array.isArray(filters) || typeof filters !== 'object' || !apply(groundModel(question, filters))) throw Error('No valid filters');
     status.textContent = 'Qwen 已填入条件，请检查是否漏掉限定词。';
   } catch (error) {
     if (changed()) { status.textContent = '已保留当前筛选。'; return; }
@@ -161,7 +183,7 @@ function match(row, filters) {
         const [min,max] = range(value), actual = range(item.value);
         return actual && actual[0] >= min && actual[1] <= max;
       }
-      if (key === 'target') return [value,targetNames[value]].some(v => v && item.value.toLowerCase().includes(v.toLowerCase()));
+      if (key === 'target') return [value,targetAliases[value]].some(v => v && item.value.toLowerCase().includes(v.toLowerCase()));
       return item.value.toLowerCase() === value.toLowerCase();
     })) return false;
   }
