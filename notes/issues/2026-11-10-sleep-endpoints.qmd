@@ -1,0 +1,48 @@
+---
+title: "觉得睡得更好，脑电也会变吗？"
+date: 2026-11-10
+description: "分开看睡眠感受、清醒脑电、夜间睡眠和次日脑网络。"
+categories: [认知与睡眠]
+---
+
+[全部荐读](../questions.qmd)
+
+本期问的是：睡前光刺激后，自觉睡得更好的人，夜间醒得也更少吗？家属观察、失眠量表、清醒脑电和夜间脑电各有用处，须按记录状态解释。近 30 天未查到更贴合的合格新文，近期篇选 10 月 7 日公开的预印本。
+
+## 早期研究｜家属说睡得更好，测到了什么？
+
+[Saltmarche 等，2017-02-10 在线](../posts/saltmarche-2017-sleep-reports.qmd) · 5 名轻至中重度痴呆患者 · 期刊正式版全文
+
+表 4 把基线、疗程中与停治后的患者及家属反馈并列。报告中有睡眠改善，表中没有统一的睡眠时长、觉醒次数或分期。表 3 的 12 周 MMSE 平均增加 2.60 分，属于认知结果。
+
+[原文定位](https://rcastoragev2.blob.core.windows.net/795c2207d8751a986544dc4da7e2b8db/PMC5568598.pdf#page=7)
+
+## 代表研究｜清醒时的 δ 功率能说明夜里睡得怎样吗？
+
+[Mehdizadeh 等，2025-10-23](../posts/mehdizadeh-2025-insomnia-wake-eeg.qmd) · 30 名慢性失眠成人 · 期刊正式版全文
+
+表 2 中，基线校正后 Fz 的 1–4 Hz 功率，主动组 46.44、假刺激组 80.33 μV²，p < 0.001。论文也报告 PSQI 改善，但表 1 和表 2 有超出标准 0–21 分范围的总分，且与正文所述差值不一致，量表效应量待澄清。
+
+[原文定位](https://link.springer.com/article/10.1007/s10103-025-04699-y)
+
+## 近期预印本｜波长或频率不同，夜里少醒了吗？
+
+[Jia 等，2026-10-07 上线](../posts/jia-2026-home-sleep-eeg.qmd) · 200 名健康成人随机分组，172 人提供可分析脑电 · SSRN 公开摘要，全文待补
+
+按多重比较校正后，各主动组的主要睡眠结局相对假刺激均无显著改善。主动组内部的预设析因分析中，第 3 晚 40 Hz 相比 10 Hz 入睡后清醒时间少 29.8 分钟。波长与频率的交互未达显著。
+
+[原文定位](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7560350)
+
+## fMRI｜前一晚没睡够，会改变第二天的连接吗？
+
+[De Havas 等，2011-08-18 在线，2012 刊期](../posts/de-havas-2012-sleep-pressure-fmri.qmd) · 26 名健康成人 · 期刊排版全文
+
+图 3 有 3 对网络内连接下降，均涉及左下顶叶。图 4 有 20 对默认模式网络与反相关网络节点的负相关减弱。研究未发现这些变化与该任务行为下降之间的显著相关。
+
+[原文定位](https://sleepcognition-lab.org/wp-content/uploads/2022/01/2012_2_Sleepdeprivationreducesdefaultmodenetworkconnectivityandanti-correlationduringrestandtaskperformance.pdf#page=5)
+
+## 怎么用到实验里
+
+先定一个夜间主要结局，例如入睡后清醒时间，并同时记录次晨主观睡眠。若再测清醒脑电或 fMRI，统一记录时段、前夜睡眠和扫描警觉性。分别报告主动对假刺激的差异，以及主客观变化在同一个人身上是否一致。
+
+[睡眠问题页](../../research/questions/sleep-homeostasis.qmd) · [编辑本期](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/issues/2026-11-10-sleep-endpoints.qmd)

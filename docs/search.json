@@ -21,144 +21,186 @@
     "text": "分享札记或指出错误\n札记可以从一个结果或一张图开始。写清是哪篇论文，标出原文页码、图号或表号。发现错误时，请附上页面链接和建议改法。\n在 GitHub 提交建议 · 查看仓库和投稿模板"
   },
   {
-    "objectID": "notes/issues/2026-11-09-mood-mechanism.html",
-    "href": "notes/issues/2026-11-09-mood-mechanism.html",
-    "title": "量表改善和脑指标一起变化，怎样判断机制？",
+    "objectID": "notes/issues/2026-11-10-sleep-endpoints.html",
+    "href": "notes/issues/2026-11-10-sleep-endpoints.html",
+    "title": "觉得睡得更好，脑电也会变吗？",
     "section": "",
-    "text": "全部荐读\n量表改善、脑代谢变化、功能连接预测是三个不同的问题。本期把前后观察、随机剂量比较、动物生化和跨队列预测放到一起，看看每种证据能走多远。"
+    "text": "全部荐读\n本期问的是：睡前光刺激后，自觉睡得更好的人，夜间醒得也更少吗？家属观察、失眠量表、清醒脑电和夜间脑电各有用处，须按记录状态解释。近 30 天未查到更贴合的合格新文，近期篇选 10 月 7 日公开的预印本。"
   },
   {
-    "objectID": "notes/issues/2026-11-09-mood-mechanism.html#经典单次照光后症状变化维持多久",
-    "href": "notes/issues/2026-11-09-mood-mechanism.html#经典单次照光后症状变化维持多久",
-    "title": "量表改善和脑指标一起变化，怎样判断机制？",
-    "section": "经典｜单次照光后，症状变化维持多久？",
-    "text": "经典｜单次照光后，症状变化维持多久？\nSchiffer 等，2009-12-08 · 10 名抑郁患者 · 正式版全文\n图 3 与表 4（PDF 第 9 页）显示 HAM-D 较基线平均下降 13.2 分和 6.5 分。急性光谱的开灯与关灯差异未达显著（图 2，p = 0.16）。长期症状随访没有独立假刺激组。\n原文定位"
+    "objectID": "notes/issues/2026-11-10-sleep-endpoints.html#早期研究家属说睡得更好测到了什么",
+    "href": "notes/issues/2026-11-10-sleep-endpoints.html#早期研究家属说睡得更好测到了什么",
+    "title": "觉得睡得更好，脑电也会变吗？",
+    "section": "早期研究｜家属说睡得更好，测到了什么？",
+    "text": "早期研究｜家属说睡得更好，测到了什么？\nSaltmarche 等，2017-02-10 在线 · 5 名轻至中重度痴呆患者 · 期刊正式版全文\n表 4 把基线、疗程中与停治后的患者及家属反馈并列。报告中有睡眠改善，表中没有统一的睡眠时长、觉醒次数或分期。表 3 的 12 周 MMSE 平均增加 2.60 分，属于认知结果。\n原文定位"
   },
   {
-    "objectID": "notes/issues/2026-11-09-mood-mechanism.html#代表研究代谢物升高有特定剂量效应吗",
-    "href": "notes/issues/2026-11-09-mood-mechanism.html#代表研究代谢物升高有特定剂量效应吗",
-    "title": "量表改善和脑指标一起变化，怎样判断机制？",
-    "section": "代表研究｜代谢物升高，有特定剂量效应吗？",
-    "text": "代表研究｜代谢物升高，有特定剂量效应吗？\nCoelho 等，2025-05-13 · 33 名重性抑郁障碍成人 · 正式版全文\n图 6A（PDF 第 9 页结果）报告单次分析的 NAA 由 7.52 到 8.12 mmol/L（p = 0.0007），但不同条件间未见显著差异。部分多访视分析使用刺激前波谱，不能与即刻前后比较混读。\n原文定位"
+    "objectID": "notes/issues/2026-11-10-sleep-endpoints.html#代表研究清醒时的-δ-功率能说明夜里睡得怎样吗",
+    "href": "notes/issues/2026-11-10-sleep-endpoints.html#代表研究清醒时的-δ-功率能说明夜里睡得怎样吗",
+    "title": "觉得睡得更好，脑电也会变吗？",
+    "section": "代表研究｜清醒时的 δ 功率能说明夜里睡得怎样吗？",
+    "text": "代表研究｜清醒时的 δ 功率能说明夜里睡得怎样吗？\nMehdizadeh 等，2025-10-23 · 30 名慢性失眠成人 · 期刊正式版全文\n表 2 中，基线校正后 Fz 的 1–4 Hz 功率，主动组 46.44、假刺激组 80.33 μV²，p &lt; 0.001。论文也报告 PSQI 改善，但表 1 和表 2 有超出标准 0–21 分范围的总分，且与正文所述差值不一致，量表效应量待澄清。\n原文定位"
   },
   {
-    "objectID": "notes/issues/2026-11-09-mood-mechanism.html#最新进展分子和行为一起变化说明谁在起作用",
-    "href": "notes/issues/2026-11-09-mood-mechanism.html#最新进展分子和行为一起变化说明谁在起作用",
-    "title": "量表改善和脑指标一起变化，怎样判断机制？",
-    "section": "最新进展｜分子和行为一起变化，说明谁在起作用？",
-    "text": "最新进展｜分子和行为一起变化，说明谁在起作用？\nKazmi 等，2026-10-25 首发 · 雄性小鼠 · 期刊预校样摘要与亮点，全文待补\n摘要报告，与卸载组相比，照光组的焦虑和抑郁样行为及若干线粒体、氧化应激和炎症指标向对照方向变化。该设计提供动物机制线索，摘要未给出可核对的效应量或独立阻断实验。\n原文定位"
+    "objectID": "notes/issues/2026-11-10-sleep-endpoints.html#近期预印本波长或频率不同夜里少醒了吗",
+    "href": "notes/issues/2026-11-10-sleep-endpoints.html#近期预印本波长或频率不同夜里少醒了吗",
+    "title": "觉得睡得更好，脑电也会变吗？",
+    "section": "近期预印本｜波长或频率不同，夜里少醒了吗？",
+    "text": "近期预印本｜波长或频率不同，夜里少醒了吗？\nJia 等，2026-10-07 上线 · 200 名健康成人随机分组，172 人提供可分析脑电 · SSRN 公开摘要，全文待补\n按多重比较校正后，各主动组的主要睡眠结局相对假刺激均无显著改善。主动组内部的预设析因分析中，第 3 晚 40 Hz 相比 10 Hz 入睡后清醒时间少 29.8 分钟。波长与频率的交互未达显著。\n原文定位"
   },
   {
-    "objectID": "notes/issues/2026-11-09-mood-mechanism.html#fmri-方法基线连接能不能预测临床反应",
-    "href": "notes/issues/2026-11-09-mood-mechanism.html#fmri-方法基线连接能不能预测临床反应",
-    "title": "量表改善和脑指标一起变化，怎样判断机制？",
-    "section": "fMRI 方法｜基线连接能不能预测临床反应？",
-    "text": "fMRI 方法｜基线连接能不能预测临床反应？\nWeigand 等，2017-11-10 在线，2018 刊期 · 接受 rTMS 的抑郁患者队列 · PubMed 摘要与公开图注\nPubMed 图注报告，第二队列的主动刺激中，连接与症状改善的相关为 r = −0.52，单侧 p &lt; 0.05；假刺激中未见同样的预测证据。这是磁刺激靶点预测研究。\n原文定位"
+    "objectID": "notes/issues/2026-11-10-sleep-endpoints.html#fmri前一晚没睡够会改变第二天的连接吗",
+    "href": "notes/issues/2026-11-10-sleep-endpoints.html#fmri前一晚没睡够会改变第二天的连接吗",
+    "title": "觉得睡得更好，脑电也会变吗？",
+    "section": "fMRI｜前一晚没睡够，会改变第二天的连接吗？",
+    "text": "fMRI｜前一晚没睡够，会改变第二天的连接吗？\nDe Havas 等，2011-08-18 在线，2012 刊期 · 26 名健康成人 · 期刊排版全文\n图 3 有 3 对网络内连接下降，均涉及左下顶叶。图 4 有 20 对默认模式网络与反相关网络节点的负相关减弱。研究未发现这些变化与该任务行为下降之间的显著相关。\n原文定位"
   },
   {
-    "objectID": "notes/issues/2026-11-09-mood-mechanism.html#怎么用到实验里",
-    "href": "notes/issues/2026-11-09-mood-mechanism.html#怎么用到实验里",
-    "title": "量表改善和脑指标一起变化，怎样判断机制？",
+    "objectID": "notes/issues/2026-11-10-sleep-endpoints.html#怎么用到实验里",
+    "href": "notes/issues/2026-11-10-sleep-endpoints.html#怎么用到实验里",
+    "title": "觉得睡得更好，脑电也会变吗？",
     "section": "怎么用到实验里",
-    "text": "怎么用到实验里\n预先区分临床主要结局、早期脑指标和基线预测量。先确认主动组相对于假刺激的差异，再用时间顺序和独立验证检验机制或预测，避免用组内前后差替代组间证据。\n疗程与临床问题页 · 编辑本期"
+    "text": "怎么用到实验里\n先定一个夜间主要结局，例如入睡后清醒时间，并同时记录次晨主观睡眠。若再测清醒脑电或 fMRI，统一记录时段、前夜睡眠和扫描警觉性。分别报告主动对假刺激的差异，以及主客观变化在同一个人身上是否一致。\n睡眠问题页 · 编辑本期"
   },
   {
-    "objectID": "notes/issues/2026-11-07-dose-and-fmri.html",
-    "href": "notes/issues/2026-11-07-dose-and-fmri.html",
-    "title": "光照进去多少，能从 fMRI 信号倒推吗？",
+    "objectID": "notes/issues/2026-11-08-motor-performance-learning.html",
+    "href": "notes/issues/2026-11-08-motor-performance-learning.html",
+    "title": "光刺激后手指敲得更快，说明学会了动作序列吗？",
     "section": "",
-    "text": "全部荐读 · 按问题浏览\n设备的标称功率、组织后的透过光量和活体 fMRI 读数各有单位。本期问的是，能否用 fMRI 的反应幅度推回真正照进目标区的光量。四篇研究分别测连接、血流和 BOLD、组织透射，以及回波依赖性。"
+    "text": "全部荐读 · 按问题浏览\n同一组按键动作，第二次做通常更熟练。要判断光刺激改变的是当下表现，还是一段时间后仍保留的序列技能，需要分别比较主动与假刺激、练过与没练过的序列，以及即刻与延迟成绩。"
   },
   {
-    "objectID": "notes/issues/2026-11-07-dose-and-fmri.html#经典照射中看到连接变化能说明什么",
-    "href": "notes/issues/2026-11-07-dose-and-fmri.html#经典照射中看到连接变化能说明什么",
-    "title": "光照进去多少，能从 fMRI 信号倒推吗？",
-    "section": "经典｜照射中看到连接变化，能说明什么？",
-    "text": "经典｜照射中看到连接变化，能说明什么？\nDmochowski 等 · 20 名健康参与者做 fMRI，另招 20 名健康参与者测温 · 正式版全文\n图 2C–D 比的是受照区与左右半球皮层的相关性。第三回波下，两侧各有 19/75 条连接在照射时相对基线显著增强（FDR 0.05）。图 3A 的两分钟滑动窗显示，增强大约在开光后一分钟出现。图 7 的独立测温比较未检出显著脑温差。连接结果仍可能包含随扫描时间变化的生理效应，因为这组 fMRI 没有独立假刺激。\n原文图表"
+    "objectID": "notes/issues/2026-11-08-motor-performance-learning.html#早期经典一次-m1-照射单指能多敲几下",
+    "href": "notes/issues/2026-11-08-motor-performance-learning.html#早期经典一次-m1-照射单指能多敲几下",
+    "title": "光刺激后手指敲得更快，说明学会了动作序列吗？",
+    "section": "早期经典｜一次 M1 照射，单指能多敲几下？",
+    "text": "早期经典｜一次 M1 照射，单指能多敲几下？\nFekri 等 · 56 名右利手健康青年 · 期刊正式版全文\n图 2 和表 2 显示，C3 主动组的右手敲击数提高 4.69%，假刺激组提高 1.62%。C3 的刺激条件与时间交互为 p = 0.02。C4 对应比较未见显著交互。作者分开检验两个位置，因此这组结果没有直接比较 C3 和 C4 的刺激效应大小。\n原文"
   },
   {
-    "objectID": "notes/issues/2026-11-07-dose-and-fmri.html#代表研究波长换了血流和-bold-同向变吗",
-    "href": "notes/issues/2026-11-07-dose-and-fmri.html#代表研究波长换了血流和-bold-同向变吗",
-    "title": "光照进去多少，能从 fMRI 信号倒推吗？",
-    "section": "代表研究｜波长换了，血流和 BOLD 同向变吗？",
-    "text": "代表研究｜波长换了，血流和 BOLD 同向变吗？\nVan Lankveld 等 · 45 名健康年轻成人 · 期刊在线全文\n表 2 中，照射区的 CBF 对 808 nm 的响应大于 1064 nm（FDR 校正 p = 0.048）。BOLD 的波长方向随区域和比较时段变化。膝下区/伏隔核在照射中是 1064 nm 较高（p = 0.006），后扣带区域在照射后则是 808 nm 较高（p = 0.033）。图 4B 比较不同时间窗的 BOLD–CBF 斜率，斜率随时间变化。耗氧由模型估计。\n原文图表"
+    "objectID": "notes/issues/2026-11-08-motor-performance-learning.html#代表研究运动区连得更强能说明动作变快吗",
+    "href": "notes/issues/2026-11-08-motor-performance-learning.html#代表研究运动区连得更强能说明动作变快吗",
+    "title": "光刺激后手指敲得更快，说明学会了动作序列吗？",
+    "section": "代表研究｜运动区连得更强，能说明动作变快吗？",
+    "text": "代表研究｜运动区连得更强，能说明动作变快吗？\nBibb 等 · 8 名完成研究的健康成人 · 期刊正式版全文\n图 3C 的左侧 M1–丘脑静息连接在主动光相对假光的变化中达到 p = 0.0432，光与磁的直接比较为 p = 0.11。图 2B 的左侧运动感觉区任务 BOLD 在光条件下为 p = 0.058。研究未量化敲击速度等行为成绩，影像差异对应的是连接或激活。\n原文"
   },
   {
-    "objectID": "notes/issues/2026-11-07-dose-and-fmri.html#最新进展模拟透过率和头盔实测为什么会反过来",
-    "href": "notes/issues/2026-11-07-dose-and-fmri.html#最新进展模拟透过率和头盔实测为什么会反过来",
-    "title": "光照进去多少，能从 fMRI 信号倒推吗？",
-    "section": "最新进展｜模拟透过率和头盔实测为什么会反过来？",
-    "text": "最新进展｜模拟透过率和头盔实测为什么会反过来？\nEnam 等 · 两套人颅骨微 CT 模型及猪皮—离体人颅骨—人工脑脊液明胶体模 · 原刊已接收稿全文\n图 8（PDF 第 14 页） 的纵轴是有限探测孔径内的透射率。固定几何时，约 1064–1070 nm 一带通常较高，增加骨厚或脑脊液厚度时读数降低。图 10（第 16 页） 换成实际设备和体模。810 nm 头盔在右顶和枕部的透过辐照度分别约为 0.918 和 0.130 mW/cm²。设备的出光布局、功率和接触几何也变了，两组结果回答的是不同问题。\n原文图表"
+    "objectID": "notes/issues/2026-11-08-motor-performance-learning.html#最新进展连续四天照-sma非优势手会更快也更准吗",
+    "href": "notes/issues/2026-11-08-motor-performance-learning.html#最新进展连续四天照-sma非优势手会更快也更准吗",
+    "title": "光刺激后手指敲得更快，说明学会了动作序列吗？",
+    "section": "最新进展｜连续四天照 SMA，非优势手会更快也更准吗？",
+    "text": "最新进展｜连续四天照 SMA，非优势手会更快也更准吗？\nIravani 等 · 60 名右利手健康成人 · 期刊 OnlineFirst 摘要，全文待补\n摘要报告，相对假刺激，非优势手的反应时间和动作总时间缩短，准确率提高，三项 Bonferroni 校正后均 p &lt; 0.001。主动组 C3/C4 的 alpha 与 beta 功率升高。摘要未给出效应量、延迟保留或未练序列的结果，脑电功率也不能直接说明序列学习的机制。\n原文"
   },
   {
-    "objectID": "notes/issues/2026-11-07-dose-and-fmri.html#fmri-方法换一个回波时间连接图为什么会变",
-    "href": "notes/issues/2026-11-07-dose-and-fmri.html#fmri-方法换一个回波时间连接图为什么会变",
-    "title": "光照进去多少，能从 fMRI 信号倒推吗？",
-    "section": "fMRI 方法｜换一个回波时间，连接图为什么会变？",
-    "text": "fMRI 方法｜换一个回波时间，连接图为什么会变？\nKundu 等 · 9 名右利手健康志愿者 · 公开作者稿全文\n图 3 对比 15、39、63 ms 三个回波。额顶灰质的示例成分随 TE 增强，BOLD 拟合分数 κ = 184，基线变化分数 ρ = 15。脑缘示例在三个回波中幅度近似不变，κ = 22、ρ = 90。图 6 还展示了与呼吸变化相关、带 BOLD 特征的边界成分。\n原文图表"
+    "objectID": "notes/issues/2026-11-08-motor-performance-learning.html#fmri-方法练过的序列在脑里能分得更清吗",
+    "href": "notes/issues/2026-11-08-motor-performance-learning.html#fmri-方法练过的序列在脑里能分得更清吗",
+    "title": "光刺激后手指敲得更快，说明学会了动作序列吗？",
+    "section": "fMRI 方法｜练过的序列，在脑里能分得更清吗？",
+    "text": "fMRI 方法｜练过的序列，在脑里能分得更清吗？\nWiestler 与 Diedrichsen · 16 名健康右利手志愿者 · 期刊正式版全文\n图 2C 中四天练习后动作时间约减半，未练序列也出现一定提速。图 3C–D 中，额顶运动区域的平均分类准确率从未练序列的 34.2% 到练过序列的 38.4%（四分类机会水平 25%）。全皮层多重校正后的差异集中在左侧 SMA/pre-SMA，图 5C 约为 36% 对 46%。这篇比较的是任务表征，未施加光刺激。\n原文"
   },
   {
-    "objectID": "notes/issues/2026-11-07-dose-and-fmri.html#怎么用到实验里",
-    "href": "notes/issues/2026-11-07-dose-and-fmri.html#怎么用到实验里",
-    "title": "光照进去多少，能从 fMRI 信号倒推吗？",
+    "objectID": "notes/issues/2026-11-08-motor-performance-learning.html#怎么用到实验里",
+    "href": "notes/issues/2026-11-08-motor-performance-learning.html#怎么用到实验里",
+    "title": "光刺激后手指敲得更快，说明学会了动作序列吗？",
     "section": "怎么用到实验里",
-    "text": "怎么用到实验里\n先分开三层数据。设备端实测入射辐照度，光学端用匹配的几何估计目标区剂量，人体端用独立假刺激比较预设时间窗的 BOLD、血流或功能连接。若希望建立剂量与反应的对应关系，应在同一靶点、同一出光几何和多个剂量水平下校准。图上的连接或血氧差异只能直接回答对应读数的变化。\n研究对比台 · 脑活动与连接 · 光如何进入脑内 · 编辑本期"
+    "text": "怎么用到实验里\n让主动和假刺激两组做等量训练，再用练过与未练过的序列测保留和迁移。把反应时间、动作时间和正确率分开看，避免把速度与准确率的取舍写成学习。若同时采 fMRI，可以预先把区域平均激活与序列可区分性设为不同指标，并记录按键时序、力量和错误，以便检查影像差异是否随动作本身变化。\n研究对比台 · 脑活动与连接问题页 · 编辑本期"
   },
   {
-    "objectID": "notes/posts/wiestler-2013-fmri-motor-sequence.html",
-    "href": "notes/posts/wiestler-2013-fmri-motor-sequence.html",
-    "title": "练过的序列，在脑里能分得更清吗？",
+    "objectID": "notes/issues/2026-11-06-stimulation-measures.html",
+    "href": "notes/issues/2026-11-06-stimulation-measures.html",
+    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
     "section": "",
-    "text": "Wiestler 与 Diedrichsen · eLife · 2013-07-09 · 期刊正式版全文\nSkill learning strengthens cortical representations of motor sequences\nDOI 10.7554/eLife.00801 · PMID 23853714\n回到本期 · 光刺激后手指敲得更快，说明学会了动作序列吗？"
+    "text": "全部荐读 · 按问题浏览\n同样是“刺激后有变化”，反应更快、局部血流改变、脑区之间的连接波动，分别回答不同的问题。这一期从行为读到生理指标，再用一项磁刺激研究看 fMRI 网络指标该怎么选。"
   },
   {
-    "objectID": "notes/posts/wiestler-2013-fmri-motor-sequence.html#怎么做",
-    "href": "notes/posts/wiestler-2013-fmri-motor-sequence.html#怎么做",
-    "title": "练过的序列，在脑里能分得更清吗？",
-    "section": "怎么做",
-    "text": "怎么做\n研究对象　16 名健康右利手志愿者。\n左手练习四条五指按键序列四天。训练后，两次任务 fMRI 分别完成四条练过与四条未练过的序列。研究用体素空间模式分类来区分同一类条件内的四条序列，并将结果与平均 BOLD 对照。"
+    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#经典反应更快记忆也更准吗",
+    "href": "notes/issues/2026-11-06-stimulation-measures.html#经典反应更快记忆也更准吗",
+    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
+    "section": "经典｜反应更快，记忆也更准吗？",
+    "text": "经典｜反应更快，记忆也更准吗？\nBarrett 与 Gonzalez-Lima，2013 · 40 名健康志愿者 · 全文阅读\n额部 1064 nm 刺激前后，作者用持续注意和记忆任务测行为。图 3 的纵轴是反应时间，数值越低越快：刺激组的前后变化与对照组不同。图 4 要把速度和正确次数分开看：提取速度有组别与时间的交互，正确次数的组间变化差异则主要来自对照组下降。可以说刺激后部分行为指标变了，不能据此定位哪个脑区或网络变了。全文与图表"
   },
   {
-    "objectID": "notes/posts/wiestler-2013-fmri-motor-sequence.html#结果怎么读",
-    "href": "notes/posts/wiestler-2013-fmri-motor-sequence.html#结果怎么读",
-    "title": "练过的序列，在脑里能分得更清吗？",
-    "section": "结果怎么读",
-    "text": "结果怎么读\n图 2C 中四天练习后动作时间约减半，未练序列也出现一定提速。图 3C–D 中，额顶运动区域的平均分类准确率从未练序列的 34.2% 到练过序列的 38.4%（四分类机会水平 25%）。全皮层多重校正后的差异集中在左侧 SMA/pre-SMA，图 5C 约为 36% 对 46%。这篇比较的是任务表征，未施加光刺激。"
+    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#代表研究同一批人电生理动作和血氧给出同一个答案吗",
+    "href": "notes/issues/2026-11-06-stimulation-measures.html#代表研究同一批人电生理动作和血氧给出同一个答案吗",
+    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
+    "section": "代表研究｜同一批人，电生理、动作和血氧给出同一个答案吗？",
+    "text": "代表研究｜同一批人，电生理、动作和血氧给出同一个答案吗？\nMa 等，2026 · 22 名健康参与者 · 已接收稿全文阅读\n同一批人分别接受四种光刺激和假刺激。图 3 横轴是刺激后的时间，纵轴是相对基线的运动诱发电位（MEP）变化；30 分钟时，1064 nm、40 Hz 脉冲条件高于两种连续光条件。图 5 的右手动作次数增加是与假刺激相比，图 6 的血氧变化则出现在左手任务中，是同一条件刺激前后的比较。这三项结果各有自己的对照和时间点，不能拼成“血氧下降使动作变快”。期刊与已接收稿"
   },
   {
-    "objectID": "notes/posts/wiestler-2013-fmri-motor-sequence.html#对实验设计有什么用",
-    "href": "notes/posts/wiestler-2013-fmri-motor-sequence.html#对实验设计有什么用",
-    "title": "练过的序列，在脑里能分得更清吗？",
-    "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n可以把同样的练过与未练过序列对照搬进刺激实验，同时跟踪速度、用力与错误。预先区分“某一区域整体反应更强”与“这一组体素能更好区分动作序列”两种假设。\n原文 · 编辑这篇笔记"
+    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#最新进展第一次刺激后的灌注变化六周后还一样吗",
+    "href": "notes/issues/2026-11-06-stimulation-measures.html#最新进展第一次刺激后的灌注变化六周后还一样吗",
+    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
+    "section": "最新进展｜第一次刺激后的灌注变化，六周后还一样吗？",
+    "text": "最新进展｜第一次刺激后的灌注变化，六周后还一样吗？\nNawrocik-Madrid 等，2026 · 29 名处于缓解期的双相障碍参与者 · 摘要阅读 · 10 月 23 日在线\n研究用动脉自旋标记（ASL）MRI 测区域脑血流，在基线、首次及第六次刺激后采集。摘要报告，左侧额上回和眶额皮层灌注首次刺激后升高，到第六次后相对首次降低。这个比较没有说明第六次后是否低于基线。若研究单次效应和多次疗程，两个时间点应当都测。PubMed 摘要"
   },
   {
-    "objectID": "notes/posts/van-lankveld-2026-light-bold-cbf.html",
-    "href": "notes/posts/van-lankveld-2026-light-bold-cbf.html",
-    "title": "波长换了，血流和 BOLD 同向变吗？",
+    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#fmri-脑网络平均连接差不多连接波动还能变吗",
+    "href": "notes/issues/2026-11-06-stimulation-measures.html#fmri-脑网络平均连接差不多连接波动还能变吗",
+    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
+    "section": "fMRI 脑网络｜平均连接差不多，连接波动还能变吗？",
+    "text": "fMRI 脑网络｜平均连接差不多，连接波动还能变吗？\nLi 等，2026 · 33 名健康成人 · 摘要与公开图表\n这篇用的是磁刺激，值得借鉴的是读图和分析方法。图 3 把一段静息态扫描概括为平均连接，未见刺激条件与楔前叶亚区交互；图 4 看连接随时间的波动，在右侧眶部额下回发现两种刺激下的亚区差异方向不同。做光刺激的 fMRI 实验时，也可以把“平均连接变没变”和“波动变没变”分开检验。期刊摘要与图表"
+  },
+  {
+    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#怎么用到实验里",
+    "href": "notes/issues/2026-11-06-stimulation-measures.html#怎么用到实验里",
+    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
+    "section": "怎么用到实验里",
+    "text": "怎么用到实验里\n先定主要问题，再选测量。问任务做得怎么样，就同时看速度和正确率；问局部脑血流，就用 ASL 一类的灌注指标；问脑区之间的协同，就事先定义种子区，并说明检验平均连接还是波动。若想判断这些变化是否相互解释，最好在同一批人、可比较的对照和时间点下测量，再直接检验它们的关系。\n编辑本期"
+  },
+  {
+    "objectID": "notes/posts/weigand-2018-subgenual-prediction.html",
+    "href": "notes/posts/weigand-2018-subgenual-prediction.html",
+    "title": "基线连接能不能预测临床反应？",
     "section": "",
-    "text": "Van Lankveld 等 · Journal of Cerebral Blood Flow & Metabolism · 2026-08-12 · 期刊在线全文\nDose dependence and neurovascular mechanisms of the fMRI response to pulsed photobiomodulation in humans\nDOI 10.1177/0271678X261479524 · PMID 42590890\n回到本期 · 光照进去多少，能从 fMRI 信号倒推吗？"
+    "text": "Weigand 等，2017-11-10 在线，2018 刊期 · 接受 rTMS 的抑郁患者队列 · PubMed 摘要与公开图注\nDOI 10.1016/j.biopsych.2017.10.028 · PMID 29274805\n回到本期"
   },
   {
-    "objectID": "notes/posts/van-lankveld-2026-light-bold-cbf.html#怎么做",
-    "href": "notes/posts/van-lankveld-2026-light-bold-cbf.html#怎么做",
-    "title": "波长换了，血流和 BOLD 同向变吗？",
+    "objectID": "notes/posts/weigand-2018-subgenual-prediction.html#怎么做",
+    "href": "notes/posts/weigand-2018-subgenual-prediction.html#怎么做",
+    "title": "基线连接能不能预测临床反应？",
     "section": "怎么做",
-    "text": "怎么做\n研究对象　45 名健康年轻成人。\n用 MRI 兼容光纤照右额。每人完成分配协议内的四种主动参数组合。表 1 包含 808/1064 nm、100/150/200 mW/cm² 和 10/40 Hz，每次为关光、开光、关光各 4 分钟。双回波动脉自旋标记同时提供 BOLD 与脑血流（CBF）读数。"
+    "text": "怎么做\n记录患者实际的前额叶刺激点，再用独立静息态功能连接数据估计该点与膝下扣带的连接，并在临床队列检验预测关系。"
   },
   {
-    "objectID": "notes/posts/van-lankveld-2026-light-bold-cbf.html#结果怎么读",
-    "href": "notes/posts/van-lankveld-2026-light-bold-cbf.html#结果怎么读",
-    "title": "波长换了，血流和 BOLD 同向变吗？",
+    "objectID": "notes/posts/weigand-2018-subgenual-prediction.html#结果怎么读",
+    "href": "notes/posts/weigand-2018-subgenual-prediction.html#结果怎么读",
+    "title": "基线连接能不能预测临床反应？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n表 2 中，照射区的 CBF 对 808 nm 的响应大于 1064 nm（FDR 校正 p = 0.048）。BOLD 的波长方向随区域和比较时段变化。膝下区/伏隔核在照射中是 1064 nm 较高（p = 0.006），后扣带区域在照射后则是 808 nm 较高（p = 0.033）。图 4B 比较不同时间窗的 BOLD–CBF 斜率，斜率随时间变化。耗氧由模型估计。"
+    "text": "结果怎么读\nPubMed 图注报告，第二队列的主动刺激中，连接与症状改善的相关为 r = −0.52，单侧 p &lt; 0.05；假刺激中未见同样的预测证据。这是磁刺激靶点预测研究。"
   },
   {
-    "objectID": "notes/posts/van-lankveld-2026-light-bold-cbf.html#对实验设计有什么用",
-    "href": "notes/posts/van-lankveld-2026-light-bold-cbf.html#对实验设计有什么用",
-    "title": "波长换了，血流和 BOLD 同向变吗？",
+    "objectID": "notes/posts/weigand-2018-subgenual-prediction.html#对实验设计有什么用",
+    "href": "notes/posts/weigand-2018-subgenual-prediction.html#对实验设计有什么用",
+    "title": "基线连接能不能预测临床反应？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n比较两种波长前，先写清主脑区、主时段和主读数。这里每次扫描以自身关光期作基线。若要估计相对假刺激的效果，需要另设匹配对照。把 BOLD 和 CBF 分开报告，也别用一处 BOLD 的幅度估算入脑剂量。\n原文与图表 · 对比台研究卡 · 编辑这篇笔记"
+    "text": "对实验设计有什么用\n光刺激可以借鉴独立定义连接指标和预先验证预测的做法。若要检验预测是否只适用于主动照射，直接检验连接与治疗条件的交互。\n原文定位 · 编辑札记"
+  },
+  {
+    "objectID": "notes/posts/schiffer-2009-mood.html",
+    "href": "notes/posts/schiffer-2009-mood.html",
+    "title": "单次照光后，症状变化维持多久？",
+    "section": "",
+    "text": "Schiffer 等，2009-12-08 · 10 名抑郁患者 · 正式版全文\nDOI 10.1186/1744-9081-5-46 · PMID 19995444\n回到本期"
+  },
+  {
+    "objectID": "notes/posts/schiffer-2009-mood.html#怎么做",
+    "href": "notes/posts/schiffer-2009-mood.html#怎么做",
+    "title": "单次照光后，症状变化维持多久？",
+    "section": "怎么做",
+    "text": "怎么做\n同一天在 F3、F4 分别进行 810 nm LED 照射及关灯对照，照射每点 4 分钟。前额近红外光谱测总血红蛋白，症状在基线、两周和四周评估。"
+  },
+  {
+    "objectID": "notes/posts/schiffer-2009-mood.html#结果怎么读",
+    "href": "notes/posts/schiffer-2009-mood.html#结果怎么读",
+    "title": "单次照光后，症状变化维持多久？",
+    "section": "结果怎么读",
+    "text": "结果怎么读\n图 3 与表 4（PDF 第 9 页）显示 HAM-D 较基线平均下降 13.2 分和 6.5 分。急性光谱的开灯与关灯差异未达显著（图 2，p = 0.16）。长期症状随访没有独立假刺激组。"
+  },
+  {
+    "objectID": "notes/posts/schiffer-2009-mood.html#对实验设计有什么用",
+    "href": "notes/posts/schiffer-2009-mood.html#对实验设计有什么用",
+    "title": "单次照光后，症状变化维持多久？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n把即刻生理对照与独立、等时程的症状对照分别设计，预先规定随访时点。\n原文定位 · 研究对比卡 · 编辑札记"
   },
   {
     "objectID": "notes/posts/reading-guide.html",
@@ -245,60 +287,88 @@
     "text": "对实验设计有什么用\n想比较单次反应和多次疗程，可在首次和末次刺激后各加一次扫描，并统一刺激结束到扫描的间隔。分析时分别报告“首次后对基线”“末次后对首次后”和“末次后对基线”。如果要判断变化是否来自刺激，加入平行的假刺激比较。\nPubMed 摘要（PMID 42956654） · DOI · 藏经阁书目 · 编辑这篇笔记"
   },
   {
-    "objectID": "notes/posts/li-2026-precuneus-fmri.html",
-    "href": "notes/posts/li-2026-precuneus-fmri.html",
-    "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
+    "objectID": "notes/posts/ma-2026-light-motor-cortex.html",
+    "href": "notes/posts/ma-2026-light-motor-cortex.html",
+    "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
     "section": "",
-    "text": "Li 等 · Brain Topography · 2026 年在线发表 · 摘要与公开图表\n回到本期：刺激后，变的是行为、脑血流，还是脑网络？"
+    "text": "Ma 等 · Journal of NeuroEngineering and Rehabilitation · 2026 · 已接收稿全文阅读\n回到本期：刺激后，变的是行为、脑血流，还是脑网络？"
   },
   {
-    "objectID": "notes/posts/li-2026-precuneus-fmri.html#怎么做",
-    "href": "notes/posts/li-2026-precuneus-fmri.html#怎么做",
-    "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
+    "objectID": "notes/posts/ma-2026-light-motor-cortex.html#怎么做",
+    "href": "notes/posts/ma-2026-light-motor-cortex.html#怎么做",
+    "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
     "section": "怎么做",
-    "text": "怎么做\n研究纳入 33 名健康成人，比较基线、间歇性和连续性 θ 爆发磁刺激后的静息态 fMRI。作者把右侧楔前叶分成背前、背后和腹侧三个亚区，分别分析连接。"
+    "text": "怎么做\n研究对 22 名健康参与者的左侧运动皮层做近红外刺激。810 nm 和 1064 nm 各配连续光与 40 Hz 脉冲光，再加一个假刺激条件。五种条件按随机顺序完成。"
   },
   {
-    "objectID": "notes/posts/li-2026-precuneus-fmri.html#结果怎么读",
-    "href": "notes/posts/li-2026-precuneus-fmri.html#结果怎么读",
-    "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
+    "objectID": "notes/posts/ma-2026-light-motor-cortex.html#结果怎么读",
+    "href": "notes/posts/ma-2026-light-motor-cortex.html#结果怎么读",
+    "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n图 3 用静态功能连接概括一段扫描中的平均关联，刺激条件和楔前叶亚区之间未见显著交互。\n图 4 看的是连接随时间的波动，交互出现在右侧眶部额下回。间歇性磁刺激后，腹侧楔前叶的连接波动高于背前亚区；连续性磁刺激后，背前、背后亚区的波动都高于腹侧。两张图检验的是不同指标，可以分别设为研究问题。"
+    "text": "结果怎么读\n图 3 横轴是刺激后 0、10、20、30 分钟，纵轴是运动诱发电位（MEP）较基线的变化百分比。四种主动条件在这些时间点均高于假刺激。30 分钟时，1064 nm、40 Hz 脉冲条件高于两种连续光条件；这组比较并未显示它优于 810 nm、40 Hz 脉冲。\n图 5 画的是对指动作循环次数的前后差。1064 nm、40 Hz 脉冲条件下，右手次数的增量大于假刺激（校正后 p = 0.035）。图 6 画的是功能近红外光谱（fNIRS）的任务血氧响应：同一条件下，左手任务的 11 个通道刺激后响应降低（FDR 校正）。两张图的任务用手和参照条件都不同，不能直接用后者解释前者。"
   },
   {
-    "objectID": "notes/posts/li-2026-precuneus-fmri.html#对实验设计有什么用",
-    "href": "notes/posts/li-2026-precuneus-fmri.html#对实验设计有什么用",
-    "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
+    "objectID": "notes/posts/ma-2026-light-motor-cortex.html#对实验设计有什么用",
+    "href": "notes/posts/ma-2026-light-motor-cortex.html#对实验设计有什么用",
+    "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n可以在分析前定义亚区，并分开设定静态和动态指标。这里测到的是静息态连接变化，研究摘要未报告相应的行为改善。\n期刊摘要与公开图表 · 编辑这篇笔记"
+    "text": "对实验设计有什么用\n这组比较适合用来设计波长与脉冲方式的对照。结果对应本研究所用的运动皮层靶点、健康人群与观察时段。\n期刊与已接收稿（含图 3–6） · 藏经阁书目 · 编辑这篇笔记"
   },
   {
-    "objectID": "notes/posts/kazmi-2026-microgravity-mood.html",
-    "href": "notes/posts/kazmi-2026-microgravity-mood.html",
-    "title": "分子和行为一起变化，说明谁在起作用？",
+    "objectID": "notes/posts/kundu-2012-multiecho-connectivity.html",
+    "href": "notes/posts/kundu-2012-multiecho-connectivity.html",
+    "title": "换一个回波时间，连接图为什么会变？",
     "section": "",
-    "text": "Kazmi 等，2026-10-25 首发 · 雄性小鼠 · 期刊预校样摘要与亮点，全文待补\nDOI 10.1016/j.jphotobiol.2026.113583\n回到本期"
+    "text": "Kundu 等 · NeuroImage · 2011-12-23 首发，2012 年刊期 · 公开作者稿全文\nDifferentiating BOLD and non-BOLD signals in fMRI time series using multi-echo EPI\nDOI 10.1016/j.neuroimage.2011.12.028 · PMID 22209809\n回到本期 · 光照进去多少，能从 fMRI 信号倒推吗？"
   },
   {
-    "objectID": "notes/posts/kazmi-2026-microgravity-mood.html#怎么做",
-    "href": "notes/posts/kazmi-2026-microgravity-mood.html#怎么做",
-    "title": "分子和行为一起变化，说明谁在起作用？",
+    "objectID": "notes/posts/kundu-2012-multiecho-connectivity.html#怎么做",
+    "href": "notes/posts/kundu-2012-multiecho-connectivity.html#怎么做",
+    "title": "换一个回波时间，连接图为什么会变？",
     "section": "怎么做",
-    "text": "怎么做\n设正常对照、后肢卸载 28 天、卸载加每日 810 nm 光照三组。用行为任务和前额叶生化检测评估动物反应。"
+    "text": "怎么做\n研究对象　9 名右利手健康志愿者。\n采集多回波静息态 fMRI，将信号分解成独立成分，分别衡量每个成分随回波时间（TE）变化的程度和与基线信号变化模型的符合程度。研究再比较去噪前后的种子相关图。"
   },
   {
-    "objectID": "notes/posts/kazmi-2026-microgravity-mood.html#结果怎么读",
-    "href": "notes/posts/kazmi-2026-microgravity-mood.html#结果怎么读",
-    "title": "分子和行为一起变化，说明谁在起作用？",
+    "objectID": "notes/posts/kundu-2012-multiecho-connectivity.html#结果怎么读",
+    "href": "notes/posts/kundu-2012-multiecho-connectivity.html#结果怎么读",
+    "title": "换一个回波时间，连接图为什么会变？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n摘要报告，与卸载组相比，照光组的焦虑和抑郁样行为及若干线粒体、氧化应激和炎症指标向对照方向变化。该设计提供动物机制线索，摘要未给出可核对的效应量或独立阻断实验。"
+    "text": "结果怎么读\n图 3 对比 15、39、63 ms 三个回波。额顶灰质的示例成分随 TE 增强，BOLD 拟合分数 κ = 184，基线变化分数 ρ = 15。脑缘示例在三个回波中幅度近似不变，κ = 22、ρ = 90。图 6 还展示了与呼吸变化相关、带 BOLD 特征的边界成分。"
   },
   {
-    "objectID": "notes/posts/kazmi-2026-microgravity-mood.html#对实验设计有什么用",
-    "href": "notes/posts/kazmi-2026-microgravity-mood.html#对实验设计有什么用",
-    "title": "分子和行为一起变化，说明谁在起作用？",
+    "objectID": "notes/posts/kundu-2012-multiecho-connectivity.html#对实验设计有什么用",
+    "href": "notes/posts/kundu-2012-multiecho-connectivity.html#对实验设计有什么用",
+    "title": "换一个回波时间，连接图为什么会变？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n先排除运动能力改变对行为任务的影响，再用阻断或救援实验判断某条分子通路是否必要。\n原文定位 · 编辑札记"
+    "text": "对实验设计有什么用\n光刺激同步 fMRI 可以借用多回波分解检查非 BOLD 成分是否影响连接结果。呼吸和血管变化也可能表现为 BOLD，最好同时记录呼吸和脉搏，并结合假刺激与独立血流读数。\n原文与图表 · 编辑这篇笔记"
+  },
+  {
+    "objectID": "notes/posts/jung-2026-light-adenosine-sleep.html",
+    "href": "notes/posts/jung-2026-light-adenosine-sleep.html",
+    "title": "光刺激、腺苷和睡眠，动物与人体分别测了什么？",
+    "section": "",
+    "text": "Jung 等 · Molecular Psychiatry · 2026 年 9 月 · 近期研究 · 全文核对"
+  },
+  {
+    "objectID": "notes/posts/jung-2026-light-adenosine-sleep.html#怎么做",
+    "href": "notes/posts/jung-2026-light-adenosine-sleep.html#怎么做",
+    "title": "光刺激、腺苷和睡眠，动物与人体分别测了什么？",
+    "section": "怎么做",
+    "text": "怎么做\n研究把细胞实验、小鼠实验和人体试验放在一起。小鼠实验使用植入式光纤套管和脑电电极，并测量额叶皮层的腺苷浓度。人体部分是一项 40 人的双盲随机对照试验，评估失眠症状、睡眠困扰和入睡时间。"
+  },
+  {
+    "objectID": "notes/posts/jung-2026-light-adenosine-sleep.html#结果怎么读",
+    "href": "notes/posts/jung-2026-light-adenosine-sleep.html#结果怎么读",
+    "title": "光刺激、腺苷和睡眠，动物与人体分别测了什么？",
+    "section": "结果怎么读",
+    "text": "结果怎么读\n与假刺激相比，小鼠在刺激期间及之后的非快速眼动睡眠增多。暗期末照射的实验还观察到额叶腺苷和睡眠脑电 δ 功率升高（图 3）。人体部分的失眠严重度和睡眠质量量表改善（表 2）。从佩戴设备到入睡的时间在意向治疗分析中无显著组间差异，按方案分析中未调整比较显示缩短（表 3）。"
+  },
+  {
+    "objectID": "notes/posts/jung-2026-light-adenosine-sleep.html#对实验设计有什么用",
+    "href": "notes/posts/jung-2026-light-adenosine-sleep.html#对实验设计有什么用",
+    "title": "光刺激、腺苷和睡眠，动物与人体分别测了什么？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n设计光刺激睡眠实验时，可以分别设定机制指标和睡眠终点。比如用脑电区分睡眠阶段，用入睡潜伏期描述多久入睡，并明确主观量表和客观测量各回答什么问题。\n期刊原文 · PubMed 摘要 · 藏经阁书目 · 编辑这篇笔记\n查看照射参数及图表位置 · 主观睡眠与脑电指标是否同步变化？"
   },
   {
     "objectID": "notes/posts/iravani-2026-light-sma-sequence.html",
@@ -357,438 +427,459 @@
     "text": "对实验设计有什么用\n分别记录设备在入射面实测的功率密度、体模透过后的功率密度和随照射时间累计的能量。只有光源、探测几何和组织条件对齐时，才适合把差别主要归给波长。\n原文与图表 · 对比台研究卡 · 编辑这篇笔记"
   },
   {
-    "objectID": "notes/posts/coelho-2025-depression-mrs.html",
-    "href": "notes/posts/coelho-2025-depression-mrs.html",
-    "title": "代谢物升高，有特定剂量效应吗？",
+    "objectID": "notes/posts/de-havas-2012-sleep-pressure-fmri.html",
+    "href": "notes/posts/de-havas-2012-sleep-pressure-fmri.html",
+    "title": "前一晚没睡够，会改变第二天的连接吗？",
     "section": "",
-    "text": "Coelho 等，2025-05-13 · 33 名重性抑郁障碍成人 · 正式版全文\nDOI 10.3390/jcm14103402\n回到本期"
+    "text": "De Havas 等，2011-08-18 在线，2012 刊期 · 26 名健康成人 · 期刊排版全文\nDOI 10.1016/j.neuroimage.2011.08.026 · PMID 21872664\n回到本期"
   },
   {
-    "objectID": "notes/posts/coelho-2025-depression-mrs.html#怎么做",
-    "href": "notes/posts/coelho-2025-depression-mrs.html#怎么做",
-    "title": "代谢物升高，有特定剂量效应吗？",
+    "objectID": "notes/posts/de-havas-2012-sleep-pressure-fmri.html#怎么做",
+    "href": "notes/posts/de-havas-2012-sleep-pressure-fmri.html#怎么做",
+    "title": "前一晚没睡够，会改变第二天的连接吗？",
     "section": "怎么做",
-    "text": "怎么做\n808 nm 光照双侧背外侧前额叶，随机交叉比较低、中、高和假刺激，磁共振波谱测左额 NAA、胆碱和肌酸。表 1 列出三档照射约 60、100、180 J/cm²。"
+    "text": "怎么做\n同一人正常睡眠后和约 24 小时全睡眠剥夺后各扫描一次，分别计算静息及视觉注意任务中的默认模式网络连接。"
   },
   {
-    "objectID": "notes/posts/coelho-2025-depression-mrs.html#结果怎么读",
-    "href": "notes/posts/coelho-2025-depression-mrs.html#结果怎么读",
-    "title": "代谢物升高，有特定剂量效应吗？",
+    "objectID": "notes/posts/de-havas-2012-sleep-pressure-fmri.html#结果怎么读",
+    "href": "notes/posts/de-havas-2012-sleep-pressure-fmri.html#结果怎么读",
+    "title": "前一晚没睡够，会改变第二天的连接吗？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n图 6A（PDF 第 9 页结果）报告单次分析的 NAA 由 7.52 到 8.12 mmol/L（p = 0.0007），但不同条件间未见显著差异。部分多访视分析使用刺激前波谱，不能与即刻前后比较混读。"
+    "text": "结果怎么读\n图 3 有 3 对网络内连接下降，均涉及左下顶叶。图 4 有 20 对默认模式网络与反相关网络节点的负相关减弱。研究未发现这些变化与该任务行为下降之间的显著相关。"
   },
   {
-    "objectID": "notes/posts/coelho-2025-depression-mrs.html#对实验设计有什么用",
-    "href": "notes/posts/coelho-2025-depression-mrs.html#对实验设计有什么用",
-    "title": "代谢物升高，有特定剂量效应吗？",
+    "objectID": "notes/posts/de-havas-2012-sleep-pressure-fmri.html#对实验设计有什么用",
+    "href": "notes/posts/de-havas-2012-sleep-pressure-fmri.html#对实验设计有什么用",
+    "title": "前一晚没睡够，会改变第二天的连接吗？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n先检验主动对假刺激的变化差，再判断脑指标能否解释症状变化。不同档位同时改变了时间、辐照度或脉冲方式。\n原文定位 · 研究对比卡 · 编辑札记"
+    "text": "对实验设计有什么用\n若用第二天 fMRI 评估睡前照射，记录前夜睡眠和扫描时的清醒状态，预先区分睡眠介导的变化与刺激的直接效应。\n原文定位 · 编辑札记"
   },
   {
-    "objectID": "notes/posts/barrett-2013-light-attention-memory.html",
-    "href": "notes/posts/barrett-2013-light-attention-memory.html",
-    "title": "早期人体光刺激研究怎么测注意和记忆？",
+    "objectID": "notes/posts/bibb-2025-light-somatomotor-fmri.html",
+    "href": "notes/posts/bibb-2025-light-somatomotor-fmri.html",
+    "title": "运动区连得更强，能说明动作变快吗？",
     "section": "",
-    "text": "Barrett 与 Gonzalez-Lima · Neuroscience · 2013 · 经典研究 · 全文阅读\n回到本期：刺激后，变的是行为、脑血流，还是脑网络？"
+    "text": "Bibb 等 · Frontiers in Human Neuroscience · 2025-03-13 · 期刊正式版全文\nPilot study comparing effects of infrared neuromodulation and transcranial magnetic stimulation using magnetic resonance imaging\nDOI 10.3389/fnhum.2025.1514087 · PMID 40183072\n回到本期 · 光刺激后手指敲得更快，说明学会了动作序列吗？"
   },
   {
-    "objectID": "notes/posts/barrett-2013-light-attention-memory.html#怎么做",
-    "href": "notes/posts/barrett-2013-light-attention-memory.html#怎么做",
-    "title": "早期人体光刺激研究怎么测注意和记忆？",
+    "objectID": "notes/posts/bibb-2025-light-somatomotor-fmri.html#怎么做",
+    "href": "notes/posts/bibb-2025-light-somatomotor-fmri.html#怎么做",
+    "title": "运动区连得更强，能说明动作变快吗？",
     "section": "怎么做",
-    "text": "怎么做\n40 名健康志愿者分入额部 1064 nm 近红外激光刺激组和安慰对照组，各 20 人。研究用持续注意任务测反应时间，用延迟匹配任务测记忆提取速度和正确次数。"
+    "text": "怎么做\n研究对象　8 名完成研究的健康成人。\n每人参加四次实验，分别接受主动光、假光、主动磁刺激或假磁刺激。主动光从头顶 Cz 送入 1064 nm 连续激光，输出 0.6 W、11 分钟。干预前后采集静息态和右手按提示以 1 Hz 敲击的任务 fMRI。"
   },
   {
-    "objectID": "notes/posts/barrett-2013-light-attention-memory.html#结果怎么读",
-    "href": "notes/posts/barrett-2013-light-attention-memory.html#结果怎么读",
-    "title": "早期人体光刺激研究怎么测注意和记忆？",
+    "objectID": "notes/posts/bibb-2025-light-somatomotor-fmri.html#结果怎么读",
+    "href": "notes/posts/bibb-2025-light-somatomotor-fmri.html#结果怎么读",
+    "title": "运动区连得更强，能说明动作变快吗？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n图 3 比较两组刺激前后的反应时间。纵轴越低，反应越快；组别与时间的交互为 p = 0.047。图 4 把记忆提取速度和正确次数分开画：提取速度的交互在排除一个离群值后为 p = 0.021，正确次数的交互为 p = 0.012，主要来自对照组下降。"
+    "text": "结果怎么读\n图 3C 的左侧 M1–丘脑静息连接在主动光相对假光的变化中达到 p = 0.0432，光与磁的直接比较为 p = 0.11。图 2B 的左侧运动感觉区任务 BOLD 在光条件下为 p = 0.058。研究未量化敲击速度等行为成绩，影像差异对应的是连接或激活。"
   },
   {
-    "objectID": "notes/posts/barrett-2013-light-attention-memory.html#对实验设计有什么用",
-    "href": "notes/posts/barrett-2013-light-attention-memory.html#对实验设计有什么用",
-    "title": "早期人体光刺激研究怎么测注意和记忆？",
+    "objectID": "notes/posts/bibb-2025-light-somatomotor-fmri.html#对实验设计有什么用",
+    "href": "notes/posts/bibb-2025-light-somatomotor-fmri.html#对实验设计有什么用",
+    "title": "运动区连得更强，能说明动作变快吗？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n这是较早把经颅近红外刺激和人体认知任务放在同一对照设计中的研究。做类似实验时，可以预先选定主要指标，再同时看速度和正确率，以便识别被试是否用更快的反应换取了更多错误。\n公开全文与图表 · PubMed 摘要 · DOI · 藏经阁书目 · 编辑这篇笔记"
+    "text": "对实验设计有什么用\n按固定节奏做扫描任务，可以比较相似动作下的脑信号；另设自定速度的行为测试，才能检验刺激是否提高运动表现。小样本探索结果适合用来预设靶区和验证指标。\n原文 · 研究对比卡 · 编辑这篇笔记"
   },
   {
-    "objectID": "notes/index.html",
-    "href": "notes/index.html",
-    "title": "论文笔记",
+    "objectID": "notes/questions.html",
+    "href": "notes/questions.html",
+    "title": "按问题读",
     "section": "",
-    "text": "每天围绕一个问题，读三篇经颅光刺激论文和一篇相关的 fMRI 脑网络论文。按问题读 → 也可在下方筛选单篇笔记。\n\n  全部\n  经颅光刺激\n  fMRI 脑网络\n\n\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\nBibb 等的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nFekri 等的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nIravani 等的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nWiestler 与 Diedrichsen的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nDmochowski 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\nEnam 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\nKundu 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\nVan Lankveld 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\n一项早期对照研究用反应时间和正确次数，检验额部近红外刺激后的行为变化。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n小鼠实验测脑内腺苷和睡眠脑电，人体试验看失眠症状和入睡时间。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同一批参与者接受两种磁刺激，研究用静息态 fMRI 分开看平均连接和连接随时间的波动。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n22 名健康参与者接受四种主动刺激和一种假刺激，研究比较了运动诱发电位、血氧与手指动作。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n用 ASL MRI 对照基线、首次和第六次刺激后的脑灌注。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n  \n\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
+    "text": "返回论文笔记\n单篇论文的笔记也可以独立阅读。\n\n  全部\n  刺激参数与剂量\n  脑活动与脑网络\n  认知与睡眠\n  安全与临床转化\n\n\n\n\n\n\n\n觉得睡得更好，脑电也会变吗？\n\n\n分开看睡眠感受、清醒脑电、夜间睡眠和次日脑网络。\n\n\n\n\n\n2026年11月10日\n\n\n\n\n\n\n\n量表改善和脑指标一起变化，怎样判断机制？\n\n\n从情绪量表、前额叶代谢和动物生化到独立网络预测。\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n光刺激后手指敲得更快，说明学会了动作序列吗？\n\n\n用假刺激、未练过的序列和延迟测试，区分动作表现与学习。\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n光照进去多少，能从 fMRI 信号倒推吗？\n\n\n从组织后的透过光，到脑血流和多回波 BOLD，分清光剂量与测量读数。\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n刺激后，变的是行为、脑血流，还是脑网络？\n\n\n从反应时间到运动诱发电位、脑灌注和静息态连接：四篇论文各能回答什么？\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n无匹配项\n\n\n\n\n\n 回到顶部"
   },
   {
-    "objectID": "notes/index.html#最近更新",
-    "href": "notes/index.html#最近更新",
-    "title": "论文笔记",
+    "objectID": "research/questions/wavelength-pulse.html",
+    "href": "research/questions/wavelength-pulse.html",
+    "title": "波长和脉冲怎么选？",
     "section": "",
-    "text": "每天围绕一个问题，读三篇经颅光刺激论文和一篇相关的 fMRI 脑网络论文。按问题读 → 也可在下方筛选单篇笔记。\n\n  全部\n  经颅光刺激\n  fMRI 脑网络\n\n\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\nBibb 等的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nFekri 等的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nIravani 等的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nWiestler 与 Diedrichsen的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nDmochowski 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\nEnam 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\nKundu 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\nVan Lankveld 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\n一项早期对照研究用反应时间和正确次数，检验额部近红外刺激后的行为变化。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n小鼠实验测脑内腺苷和睡眠脑电，人体试验看失眠症状和入睡时间。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同一批参与者接受两种磁刺激，研究用静息态 fMRI 分开看平均连接和连接随时间的波动。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n22 名健康参与者接受四种主动刺激和一种假刺激，研究比较了运动诱发电位、血氧与手指动作。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n用 ASL MRI 对照基线、首次和第六次刺激后的脑灌注。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n  \n\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
+    "text": "先看每种条件实际送入多少光，再看波长与脉冲。现有研究提供了可比较的实验条件，但不同条件的能量常常也在变化，不能把全部差异都归给某个波长或频率。\n对比本页研究 · 全部问题"
   },
   {
-    "objectID": "research/questions/sleep-homeostasis.html",
-    "href": "research/questions/sleep-homeostasis.html",
-    "title": "光刺激后，主观睡眠与脑电指标是否同步变化？",
-    "section": "",
-    "text": "Jung 等的一周先导试验观察到主观睡眠量表改善。人体体动指标的结果更不确定。小鼠研究发现，睡眠脑电和腺苷的变化与刺激时相和观察窗口有关。\n对比本页研究 · 全部问题"
-  },
-  {
-    "objectID": "research/questions/sleep-homeostasis.html#把研究放在一起看",
-    "href": "research/questions/sleep-homeostasis.html#把研究放在一起看",
-    "title": "光刺激后，主观睡眠与脑电指标是否同步变化？",
+    "objectID": "research/questions/wavelength-pulse.html#把研究放在一起看",
+    "href": "research/questions/wavelength-pulse.html#把研究放在一起看",
+    "title": "波长和脉冲怎么选？",
     "section": "把研究放在一起看",
-    "text": "把研究放在一起看\n\nJung · 2026：人体量表与客观睡眠指标分别看\n40 人随机分组。表 2 的 ISI、PSQI 有时间×组别交互，腕式体动总睡眠时间无显著交互。表 3 的装置佩戴至入睡间隔只在按方案的未调整比较中有明显组间差异，完整随机样本的调整后 p=0.754。\n研究参数与结果 · 图 5 / PDF 第 10 页 · 随机分组与流程 · 表 2 / PDF 第 8 页 · 量表、日记与体动 · 表 3 / PDF 第 9 页 · 入睡时间与依从分析\n\n\nJung · 2026：小鼠刺激时相改变了可观察的脑电结果\n暗期末 810 nm 照射实验中，额叶细胞外腺苷与 NREM δ 功率在刺激和随后 3 小时内同时升高。明期开始照射时，δ 功率无显著差异。两个实验各 8 只，时相效应值得用专门的直接比较检验。\n研究参数与结果 · 图 1a–b / PDF 第 3 页 · 小鼠参数与时序 · 图 3 / PDF 第 5 页 · 腺苷、CCO 与 δ 功率"
+    "text": "把研究放在一起看\n\nMa · 2026：同一个人比较四种光照条件\n22 名健康人接受 810 / 1064 nm 与连续 / 40 Hz 三角波的组合及假刺激。1064 nm 脉冲条件在刺激后 30 分钟的运动诱发电位高于两种连续光条件，但没有显示高于 810 nm 脉冲。连续与脉冲条件的辐照度和总能量不同，这项比较没有单独隔离频率的作用。\n研究参数与结果 · 已接收稿PDF第11–12页·参数 · PDF第20页·表1 / 图3\n\n\nZhao · 2022：工作记忆改善是否依赖波长和照射位置？\n右前额 1064 nm 条件下，工作记忆容量与相关脑电指标改善；852 nm 和左额 1064 nm 条件没有出现相同结果。各条件来自不同实验，不能当作同一批受试者的完整波长交叉比较。\n研究参数与结果 · 图 1–2·记忆与CDA · 图 4–5·波长和位置对照\n\n\nZomorrodi · 2019：40 Hz 照射后，脑电功率怎样变化？\n810 nm、40 Hz 光照后，多个脑电频段的功率和连接指标改变。该研究比较真刺激与假刺激，没有连续光条件；它回答的是这套刺激是否影响脑电，尚未回答 40 Hz 是否优于连续光。\n研究参数与结果 · 图 4·频段功率 · 方法·设备\n\n\nVan Lankveld · 2026：波长效果随区域和时段而变\n不同区域的 BOLD 波长效应方向不一致。表 1 记录各组的四次扫描条件，表 2 给出相应区域和时段的比较。\n研究参数与结果 · 表 1·参数组合 · 表 2·脑血流与 BOLD 对照\n\n\nEnam · 2026：模拟波长比较与实际设备比较分开做\n模拟固定光源和探测几何。头盔实测同时改变光谱、发光布局与设备输出，因此应按设备比较。\n研究参数与结果 · 已接收稿 PDF 第 14 页·图 8 模拟透射 · 已接收稿 PDF 第 16 页·图 10 体模透射"
   },
   {
-    "objectID": "research/questions/sleep-homeostasis.html#做实验时看什么",
-    "href": "research/questions/sleep-homeostasis.html#做实验时看什么",
-    "title": "光刺激后，主观睡眠与脑电指标是否同步变化？",
+    "objectID": "research/questions/wavelength-pulse.html#做实验时看什么",
+    "href": "research/questions/wavelength-pulse.html#做实验时看什么",
+    "title": "波长和脉冲怎么选？",
     "section": "做实验时看什么",
-    "text": "做实验时看什么\n\n提前约定主要睡眠终点，把主观量表、体动推算和脑电分期分别解释。\n记录刺激相对昼夜周期的位置及采样窗口。\n同时报告意向治疗与按方案分析，并注明调整模型。"
+    "text": "做实验时看什么\n\n波长、波形、峰值功率、平均功率、占空比和总能量分别记录；只写“40 Hz”不够。\n若要比较频率，先明确匹配平均功率还是总能量，并测量设备实际输出。\n把行为结果与脑电、血氧或 MEP 分开分析，预先确定主要终点。"
   },
   {
-    "objectID": "research/questions/sleep-homeostasis.html#相关研究",
-    "href": "research/questions/sleep-homeostasis.html#相关研究",
-    "title": "光刺激后，主观睡眠与脑电指标是否同步变化？",
+    "objectID": "research/questions/wavelength-pulse.html#相关研究",
+    "href": "research/questions/wavelength-pulse.html#相关研究",
+    "title": "波长和脉冲怎么选？",
     "section": "相关研究",
-    "text": "相关研究\n\nJung · 2026：额部近红外光能改善睡眠吗？\n\n修改这页内容"
+    "text": "相关研究\n\nMa · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？\nZhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？\nZomorrodi · 2019：40 Hz 经颅加鼻内刺激后，脑电频段如何改变？\nYuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？\nVan Lankveld · 2026：相同波长的 BOLD 和脑血流反应一致吗？\nEnam · 2026：波长相近的头盔，透过组织后差多少？\n\n修改这页内容"
   },
   {
-    "objectID": "research/questions/penetration.html",
-    "href": "research/questions/penetration.html",
-    "title": "相同头皮剂量，进入脑内的光一样多吗？",
+    "objectID": "research/questions/repeated-clinical.html",
+    "href": "research/questions/repeated-clinical.html",
+    "title": "单次与重复照射，哪些变化能持续？",
     "section": "",
-    "text": "不一定。头皮入射剂量只是起点，光到达脑组织前还要经过皮肤、颅骨等结构。组织实验和光传播模型可以帮助估计差异，但都需要与活体测量及具体设备条件对应。\n对比本页研究 · 全部问题"
+    "text": "持续时间需要靠停用后的测量回答。健康人重复照射研究和临床研究提供了不同长度的随访，但样本、疾病、对照和终点差异很大，不能把所有改善合并成一种疗效。\n对比本页研究 · 全部问题"
   },
   {
-    "objectID": "research/questions/penetration.html#把研究放在一起看",
-    "href": "research/questions/penetration.html#把研究放在一起看",
-    "title": "相同头皮剂量，进入脑内的光一样多吗？",
+    "objectID": "research/questions/repeated-clinical.html#把研究放在一起看",
+    "href": "research/questions/repeated-clinical.html#把研究放在一起看",
+    "title": "单次与重复照射，哪些变化能持续？",
     "section": "把研究放在一起看",
-    "text": "把研究放在一起看\n\nJagdeo · 2012：直接测量不同部位的透过光\n研究比较 633 和 830 nm，并测量不同颅骨部位及软组织条件下的透光。样本来自离体组织，材料数量很少；透射率既依赖波长，也依赖位置和实验几何。\n研究参数与结果 · 图 2–3·区域透射比例 · 表 1–2·入射参照和透射值\n\n\nYuan · 2020：用不同年龄头模预测光的分布\n研究使用 18 个年龄模板，比较五种波长和不同额部位置。模型采用固定的组织光学属性，并以目标剂量估算时间；这个目标值是模型设定，不能直接当作人体实验推荐剂量。\n研究参数与结果 · 图 6·波长和年龄 · 方法 §2.4–2.5·光源和模拟\n\n\nTian · 2016：照射位置与双侧反应一起记录\n两项小样本实验分别照射额中和右额，观察双侧血氧。位置比较可以帮助提出靶点问题，但血氧变化并不是脑内光剂量的直接测量。\n研究参数与结果 · 图 3–4·双侧血氧 · 方法·实验流程\n\n\nEnam · 2026：组织后光量取决于出光和位置\n810 nm 头盔在同一体模右顶和枕部的透过辐照度约为 0.918 与 0.130 mW/cm²。模型的探测孔径与体模的测量几何需分别记录。\n研究参数与结果 · 已接收稿 PDF 第 14 页·图 8 模拟透射 · 已接收稿 PDF 第 16 页·图 10 体模透射"
+    "text": "把研究放在一起看\n\nQu · 2022：重复照射后继续追踪工作记忆\n老年人研究安排连续 7 天照射，并在后续数周测试工作记忆。阅读时需要同时看真刺激与对照的时间轨迹，以及假刺激最初仍有 30 秒光照这一细节。\n研究参数与结果 · 图 2·单次与重复刺激 · 方法 §2.3·刺激参数\n\n\nFigueiro Longo · 2020：影像改变与临床症状改善是两回事\n中度创伤性脑损伤随机试验发现部分弥散影像指标随处理改变，但临床症状没有显示相应的显著组别与时间交互。影像结果值得追踪，不能直接写成已经改善临床恢复。\n研究参数与结果 · 图 2·临床症状 · 图 3·扩散参数\n\n\nSaltmarche · 2017：停用后的变化能提出问题，但病例系列不能确认疗效\n5 名痴呆患者接受头部与鼻内照射，12 周后停用并随访。量表变化和部分停用后回落提出了持续疗程的问题；由于没有对照，后续需要用对照设计验证。\n研究参数与结果 · 表 3 / 图 2–3·认知评分 · 表 2·两种设备参数\n\n\nNizamutdinov · 2021：检查统计检验到底比较了什么\n研究有真刺激与假刺激分组，报告的认知表格包含组内前后检验。不能因为真刺激组显著、假刺激组不显著，就自动得出两组变化存在显著差异。\n研究参数与结果 · 表 1·认知前后评分 · 方法·随机与设备\n\n\nJung · 2026：连续一周照射后，主观与体动结果分开读\n40 人双盲随机试验中，失眠严重度与睡眠质量量表有时间×组别交互。腕式体动的总睡眠时间未见显著交互。表 3 中，从佩戴设备到入睡的间隔在意向治疗样本中无显著组间差异。\n研究参数与结果 · 图 5 / PDF 第 10 页 · 随机分组与流程 · 表 2 / PDF 第 8 页 · 量表、日记与体动 · 表 3 / PDF 第 9 页 · 入睡时间与依从分析\n\n\nSchiffer · 2009：区分单组随访与急性关灯对照\nHAM-D 平均较基线下降 13.2 和 6.5 分。 把即刻生理对照与独立、等时程的症状对照分别设计，预先规定随访时点。\n研究参数与结果 · PDF 第 9 页｜图 3、表 4 · PDF 第 4 页｜照射参数与表 1\n\n\nCoelho · 2025：代谢物前后差与剂量效应分别检验\n单次分析 NAA 从 7.52 到 8.12 mmol/L，但变化未显示条件间显著差异。 先检验主动对假刺激的变化差，再判断脑指标能否解释症状变化。不同档位同时改变了时间、辐照度或脉冲方式。\n研究参数与结果 · PDF 第 9 页｜单次 NAA 分析 · PDF 第 3 页｜表 1"
   },
   {
-    "objectID": "research/questions/penetration.html#做实验时看什么",
-    "href": "research/questions/penetration.html#做实验时看什么",
-    "title": "相同头皮剂量，进入脑内的光一样多吗？",
+    "objectID": "research/questions/repeated-clinical.html#做实验时看什么",
+    "href": "research/questions/repeated-clinical.html#做实验时看什么",
+    "title": "单次与重复照射，哪些变化能持续？",
     "section": "做实验时看什么",
-    "text": "做实验时看什么\n\n头皮剂量、模型预测的脑内剂量和实测脑信号分别保存。\n比较设备时记录光斑、接触距离、照射角度和位置；不要只比总功率。\n模型结果附上头模、组织光学属性和目标区域，保留输入条件。"
+    "text": "做实验时看什么\n\n把即时反应、疗程末结果和停用后保持分别设定测量时间。\n症状量表、行为任务和影像结果分开报告，明确哪个是主要终点。\n病例报告适合发现值得检验的问题；对照试验用于比较治疗效果。"
   },
   {
-    "objectID": "research/questions/penetration.html#相关研究",
-    "href": "research/questions/penetration.html#相关研究",
-    "title": "相同头皮剂量，进入脑内的光一样多吗？",
+    "objectID": "research/questions/repeated-clinical.html#相关研究",
+    "href": "research/questions/repeated-clinical.html#相关研究",
+    "title": "单次与重复照射，哪些变化能持续？",
     "section": "相关研究",
-    "text": "相关研究\n\nJagdeo · 2012：红光与近红外穿过颅骨的比例一样吗？\nYuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？\nTian · 2016：照射额中与右额，双侧血氧怎样变化？\nEnam · 2026：波长相近的头盔，透过组织后差多少？\n\n修改这页内容"
+    "text": "相关研究\n\nQu · 2022：连续七天刺激的记忆改善能保持多久？\nCassano · 2015：早期抑郁试验怎样安排照射和假刺激？\nSaltmarche · 2017：经颅加鼻内疗程结束后，认知评分怎样变化？\nChao · 2020：脑震荡病例的量表、灌注与连接怎样一起读？\nNizamutdinov · 2021：居家头盔照射八周后，痴呆患者的认知评分如何？\nFigueiro Longo · 2020：急性脑损伤后，影像变化是否伴随症状改善？\nJung · 2026：额部近红外光能改善睡眠吗？\nSchiffer · 2009：单次照光后，症状变化维持多久？\nCoelho · 2025：代谢物升高，有特定剂量效应吗？\n\n修改这页内容"
   },
   {
-    "objectID": "research/questions/cognition.html",
-    "href": "research/questions/cognition.html",
-    "title": "注意与记忆改善，应该看哪些指标？",
+    "objectID": "research/questions/heat-control.html",
+    "href": "research/questions/heat-control.html",
+    "title": "怎样区分光照与加热效应？",
     "section": "",
-    "text": "先看研究预设的任务指标，再看真刺激相对对照的变化。反应更快、答对更多和能记住更多项目是不同结果；只有真刺激组前后显著，还不足以说明它优于对照。\n对比本页研究 · 全部问题"
+    "text": "需要把光照和匹配的加热条件直接比较，并同时记录温度和脑信号。现有研究发现二者的部分反应不同；结论的范围取决于加热是否匹配、测在哪里，以及测量能分辨多小的变化。\n对比本页研究 · 全部问题"
   },
   {
-    "objectID": "research/questions/cognition.html#把研究放在一起看",
-    "href": "research/questions/cognition.html#把研究放在一起看",
-    "title": "注意与记忆改善，应该看哪些指标？",
+    "objectID": "research/questions/heat-control.html#把研究放在一起看",
+    "href": "research/questions/heat-control.html#把研究放在一起看",
+    "title": "怎样区分光照与加热效应？",
     "section": "把研究放在一起看",
-    "text": "把研究放在一起看\n\nBarrett · 2013：早期研究同时测注意和延迟匹配任务\n40 人随机分组。注意反应速度和延迟匹配任务出现部分改善，但延迟匹配准确率的组间变化还涉及对照组下降，反应时分析也有剔除异常值的处理。读图时要把两组轨迹都看完。\n研究参数与结果 · PDF第6页·图3–4\n\n\nHolmes · 2019：不同任务不一定一起改善\n右前额刺激后的延迟匹配任务表现改善，警觉任务没有检出相同效果。该研究使用此前的假刺激数据，行为和血氧对照人数也不同。\n研究参数与结果 · 表 1·任务结果 · 方法·样本与对照来源\n\n\nZhao · 2022：把行为变化与对应脑电指标联系起来\n研究用变化检测任务估计工作记忆容量，并记录对侧延迟活动。右额 1064 nm 条件下两者均出现变化，提供了行为与脑电的联合观察，但脑电相关不等于已经证明完整作用机制。\n研究参数与结果 · 图 1–2·记忆与CDA · 图 4–5·波长和位置对照"
+    "text": "把研究放在一起看\n\nWang · 2017：光照与皮肤加热的血氧反应并不相同\n11 人接受单独的前额加热，并与同一批人此前的激光实验比较。光照与加热引起的氧合血红蛋白、氧化型细胞色素 c 氧化酶变化不同。这个结果支持进一步分离热与光的作用，但两种处理不在同一次随机交叉实验里。\n研究参数与结果 · 图 6·光与热的直接比较 · 方法 §2.1·光参数\n\n\nWang · 2021：脑电的空间分布也值得比较\n激光和加热各自与假刺激交叉比较，来自两个不同样本。两者的 alpha、beta 变化分布不同；设计下一步实验时，可以保留这个空间指标，同时在同一批人中比较。\n研究参数与结果 · 图 5·光与热拓扑差异 · 方法·样本与排除\n\n\nDmochowski · 2020：温度与功能连接来自独立实验\n研究报告照射时 fMRI 功能连接改变；另一个样本进行了 MR 测温，未检出显著温度差异。温度实验有假刺激，而功能连接实验没有，不能把两部分合成“已排除热效应的连接改变”。\n研究参数与结果 · 图 4·全脑功能连接 · 方法·独立测温实验"
   },
   {
-    "objectID": "research/questions/cognition.html#做实验时看什么",
-    "href": "research/questions/cognition.html#做实验时看什么",
-    "title": "注意与记忆改善，应该看哪些指标？",
+    "objectID": "research/questions/heat-control.html#做实验时看什么",
+    "href": "research/questions/heat-control.html#做实验时看什么",
+    "title": "怎样区分光照与加热效应？",
     "section": "做实验时看什么",
-    "text": "做实验时看什么\n\n预先选定一个主要行为指标，避免看完结果再挑任务。\n报告两组或各条件的基线、变化和差值，不只列各组的 p 值。\n重复任务需考虑练习、疲劳和测量顺序；交叉设计还要关注残留效应。"
+    "text": "做实验时看什么\n\n记录温度随时间的变化、测点与测量精度，不只报刺激前后各一个温度。\n假刺激的光照时长、皮肤感觉、风扇和声音都需要写清。早期部分假刺激仍含短时光照。\n把直接热对照、假刺激和无对照研究分开阅读。"
   },
   {
-    "objectID": "research/questions/cognition.html#相关研究",
-    "href": "research/questions/cognition.html#相关研究",
-    "title": "注意与记忆改善，应该看哪些指标？",
+    "objectID": "research/questions/heat-control.html#相关研究",
+    "href": "research/questions/heat-control.html#相关研究",
+    "title": "怎样区分光照与加热效应？",
     "section": "相关研究",
-    "text": "相关研究\n\nBarrett · 2013：早期人体研究怎样测注意和记忆？\nHolmes · 2019：认知任务表现与前额血氧是否一起改变？\nZhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？\nQu · 2022：连续七天刺激的记忆改善能保持多久？\n\n修改这页内容"
+    "text": "相关研究\n\nWang · 2017：把皮肤加热，能复现光刺激的代谢与血氧反应吗？\nWang · 2021：光刺激和皮肤加热的脑电分布一样吗？\nDmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？\nBarrett · 2013：早期人体研究怎样测注意和记忆？\n\n修改这页内容"
   },
   {
-    "objectID": "library/tpbm/zomorrodi-2019.html",
-    "href": "library/tpbm/zomorrodi-2019.html",
-    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
+    "objectID": "research/questions/brain-signals.html",
+    "href": "research/questions/brain-signals.html",
+    "title": "脑电、血氧和功能连接为什么会给出不同结果？",
     "section": "",
-    "text": "Zomorrodi · 2019 · 健康人\nPulsed Near Infrared Transcranial and Intranasal Photobiomodulation Significantly Modulates Neural Oscillations: a pilot exploratory study\nScientific Reports · DOI: 10.1038/s41598-019-42693-x · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "这些指标测量的对象和时间尺度不同。脑电功率增加、血氧连接增强和脑网络效率变化，可以同时出现，也可能方向不同。比较时先对齐信号、频段、分析方法和测量时段。\n对比本页研究 · 全部问题"
   },
   {
-    "objectID": "library/tpbm/zomorrodi-2019.html#怎么做",
-    "href": "library/tpbm/zomorrodi-2019.html#怎么做",
-    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
+    "objectID": "research/questions/brain-signals.html#把研究放在一起看",
+    "href": "research/questions/brain-signals.html#把研究放在一起看",
+    "title": "脑电、血氧和功能连接为什么会给出不同结果？",
+    "section": "把研究放在一起看",
+    "text": "把研究放在一起看\n\nWang · 2022：同一次照射，血氧与代谢信号的连接方向不同\n研究同时记录 HbO 与氧化型细胞色素 c 氧化酶。部分低频范围内，HbO 相干性下降，而代谢信号的相干性上升。把二者统称“脑连接增强”会丢掉关键结果。\n研究参数与结果 · 图 4·相干性变化 · 方法 §4.3·照射\n\n\nTruong · 2022：fNIRS 连接变化依赖频段与时间\n研究用多通道 fNIRS 分析低频血流动力学振荡。肌源性频段的部分网络指标在刺激期间改变，刺激后没有持续出现相同变化。这里的“频段”不是 EEG 的 alpha 或 beta 频段。\n研究参数与结果 · 图 6·分频段连接 · 图 8·网络效率\n\n\nShahdadian · 2022：功率上升不等于同步和网络效率上升\n脑电虚部相干性分析显示，beta 频段的同步及部分图论指标下降。它与另一些报告脑电功率增加的研究测量不同，不能只按“增加 / 减少”判断是否矛盾。\n研究参数与结果 · 图 4·EEG功率 · 图 5·全局网络指标\n\n\nVan Lankveld · 2026：同一波长对比，BOLD 与脑血流的方向可以不同\n照射区的脑血流对 808 nm 响应更高，而膝下区/伏隔核的照射中 BOLD 对 1064 nm 响应更高。区域、指标和时段需要分别写清。\n研究参数与结果 · 表 2·脑血流与 BOLD 对照 · 图 4·BOLD 与脑血流关系\n\n\nFekri · 2019：动作速度用单指敲击数测量\nC3 主动照射与假刺激的敲击数变化不同。这个设计给出即刻行为读数；要回答脑活动和序列学习的问题，需要另加生理指标与延迟测试。\n研究参数与结果 · 方法·敲击任务 · 图 2·C3 照射的敲击数 · 表 2·各组敲击数增幅\n\n\nBibb · 2025：固定速度的任务激活和静息连接分开读\n主动光后左侧 M1–丘脑连接相对假光有变化，但光与磁的直接比较未达显著。研究没有量化敲击表现，连接结果应按影像指标解释。\n研究参数与结果 · 方法 2.4·任务设计 · 图 2·任务 BOLD · 图 3·静息态及扩散连接"
+  },
+  {
+    "objectID": "research/questions/brain-signals.html#做实验时看什么",
+    "href": "research/questions/brain-signals.html#做实验时看什么",
+    "title": "脑电、血氧和功能连接为什么会给出不同结果？",
+    "section": "做实验时看什么",
+    "text": "做实验时看什么\n\n每个结果写明：测什么信号、什么频段、哪个脑区、刺激中还是刺激后。\n连接分析同时报告节点定义、连接估计方式和阈值处理。\n同一招募样本的多篇分析不自动视作独立重复验证。"
+  },
+  {
+    "objectID": "research/questions/brain-signals.html#相关研究",
+    "href": "research/questions/brain-signals.html#相关研究",
+    "title": "脑电、血氧和功能连接为什么会给出不同结果？",
+    "section": "相关研究",
+    "text": "相关研究\n\nTian · 2016：照射额中与右额，双侧血氧怎样变化？\nPruitt · 2020：年轻人与老年人的血氧和氧化代谢反应一样吗？\nWang · 2021：光刺激和皮肤加热的脑电分布一样吗？\nWang · 2022：血氧同步与氧化代谢同步会同向改变吗？\nTruong · 2022：连续光会改变哪些慢频段的血氧网络？\nShahdadian · 2022：脑电功率增加时，网络效率也一定增加吗？\nDmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？\nMa · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？\nVan Lankveld · 2026：相同波长的 BOLD 和脑血流反应一致吗？\nFekri · 2019：单次 808 nm 照射后的双手敲击速度\nBibb · 2025：主动光、磁刺激与各自假刺激下的运动区 fMRI\n\n修改这页内容"
+  },
+  {
+    "objectID": "library/tpbm/zhao-2022.html",
+    "href": "library/tpbm/zhao-2022.html",
+    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
+    "section": "",
+    "text": "Zhao · 2022 · 健康人\nTranscranial photobiomodulation enhances visual working memory capacity in humans\nScience Advances · DOI: 10.1126/sciadv.abq3211 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/zhao-2022.html#怎么做",
+    "href": "library/tpbm/zhao-2022.html#怎么做",
+    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象20名健康老年人，61–74岁图 1·随机交叉设计\n研究设计双盲随机交叉；访视间隔至少1周图 1·随机交叉设计\n波长810 nm方法·设备\n连续光 / 脉冲40 Hz；50%占空比方法·设备\n照射位置4个头部LED + 1个鼻内LED方法·设备\n辐照度 / 功率正文：前部75、后部100、鼻内25 mW/cm²；与表2列项存在不一致方法·设备\n光斑约1 cm² / LED表 2·设备参数\n照射时间与疗程20分钟方法·设备\n剂量原文合计240 J；不作为单个照射点的剂量表 2·设备参数\n对照怎么做同设备假刺激；主动与假刺激交叉方法·设备\n观察指标静息 EEG 功率与图论指标图 4·频段功率\n测量时间刺激前后各10分钟闭眼静息 EEG方法·设备"
+    "text": "怎么做\n\n研究对象4项实验招募90人，排除11人方法·参与者与四项实验\n研究设计各实验内双盲随机主动/假刺激交叉；不同波长和侧别属不同实验样本方法·参与者与四项实验\n波长1064 / 852 nm方法·tPBM protocol\n连续光 / 脉冲连续光方法·tPBM protocol\n照射位置Fp2内外侧交替；第四实验用Fp1方法·tPBM protocol\n辐照度 / 功率167 mW/cm²；头皮入射方法·tPBM protocol\n光斑原文13.57 cm²，同时写直径4 cm方法·tPBM protocol\n照射时间与疗程12分钟；两点每60秒交替；刺激后休息8分钟方法·tPBM protocol\n剂量两波长等光能；累计面剂量未单列方法·tPBM protocol\n对照怎么做开始与结束各30秒出光；总光能约主动的1/12方法·tPBM protocol\n观察指标视觉工作记忆容量K、EEG CDA图 1–2·记忆与CDA\n测量时间刺激后8分钟开始任务/EEG方法·tPBM protocol"
   },
   {
-    "objectID": "library/tpbm/zomorrodi-2019.html#结果怎么看",
-    "href": "library/tpbm/zomorrodi-2019.html#结果怎么看",
-    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
+    "objectID": "library/tpbm/zhao-2022.html#结果怎么看",
+    "href": "library/tpbm/zhao-2022.html#结果怎么看",
+    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n相对假刺激，delta/theta功率变化较低，alpha/beta/gamma较高。（图 4·频段功率）\n网络指标的显著差异随频段及稀疏度阈值变化。（图 5–8·网络指标）"
+    "text": "结果怎么看\n\n右额1064 nm条件下，视觉记忆容量和CDA负荷效应增加。（图 1–2·记忆与CDA）\n852 nm右额及1064 nm左额实验未出现同样收益。（图 4–5·波长和位置对照）"
   },
   {
-    "objectID": "library/tpbm/zomorrodi-2019.html#对实验设计有什么用",
-    "href": "library/tpbm/zomorrodi-2019.html#对实验设计有什么用",
-    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
+    "objectID": "library/tpbm/zhao-2022.html#对实验设计有什么用",
+    "href": "library/tpbm/zhao-2022.html#对实验设计有什么用",
+    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n组合了经颅与鼻内照射；没有同剂量连续光组，不能单独归因于40 Hz。参数正文和表2不一致，保留原文差异。"
+    "text": "对实验设计有什么用\n波长和侧别比较跨不同实验人群；不能把单项实验有显著性、另一项没有，直接当成普遍最优参数。光斑面积与直径按原文保留。"
   },
   {
-    "objectID": "library/tpbm/zomorrodi-2019.html#接着读",
-    "href": "library/tpbm/zomorrodi-2019.html#接着读",
-    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
+    "objectID": "library/tpbm/zhao-2022.html#接着读",
+    "href": "library/tpbm/zhao-2022.html#接着读",
+    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
     "section": "接着读",
-    "text": "接着读\n\n波长和脉冲怎么选？\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+    "text": "接着读\n\n波长和脉冲怎么选？\n注意与记忆改善，应该看哪些指标？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/yuan-2020.html",
-    "href": "library/tpbm/yuan-2020.html",
-    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
+    "objectID": "library/tpbm/wang-2022-metabolism.html",
+    "href": "library/tpbm/wang-2022-metabolism.html",
+    "title": "血氧同步与氧化代谢同步会同向改变吗？",
     "section": "",
-    "text": "Yuan · 2020 · 计算模型\nTranscranial photobiomodulation with near-infrared light from childhood to elderliness: simulation of dosimetry\nNeurophotonics · DOI: 10.1117/1.NPh.7.1.015009 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "Wang · 2022 · 健康人\nMetabolic Connectivity and Hemodynamic-Metabolic Coherence of Human Prefrontal Cortex at Rest and Post Photobiomodulation Assessed by Dual-Channel Broadband NIRS\nMetabolites · DOI: 10.3390/metabo12010042 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/yuan-2020.html#怎么做",
-    "href": "library/tpbm/yuan-2020.html#怎么做",
-    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
+    "objectID": "library/tpbm/wang-2022-metabolism.html#怎么做",
+    "href": "library/tpbm/wang-2022-metabolism.html#怎么做",
+    "title": "血氧同步与氧化代谢同步会同向改变吗？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象18个年龄组MRI平均模板，覆盖5–89岁方法 §2.1·年龄模板\n研究设计蒙特卡洛光传播模拟；非人体刺激试验方法 §2.1·年龄模板\n波长670 / 810 / 850 / 980 / 1064 nm方法 §2.4–2.5·光源和模拟\n连续光 / 脉冲稳态光传播模型；不比较脉冲生物效应方法 §2.4–2.5·光源和模拟\n照射位置F3/F4 与 Fpz；对应dlPFC/vmPFC方法 §2.4–2.5·光源和模拟\n辐照度 / 功率30或300 mW/cm²用于疗程时间估算；属于输入设定结果 §3.1·剂量与时长估算\n光斑Fpz 28.4 cm²；F3/F4各28.4 cm²结果 §3.1·剂量与时长估算\n照射时间与疗程估算到达目标剂量所需时长；非实测疗程结果 §3.1·剂量与时长估算\n剂量以目标区第99百分位3 J/cm²为估算条件，不是临床推荐值结果 §3.1·剂量与时长估算\n对照怎么做不同年龄、波长和光源位置模型方法 §2.4–2.5·光源和模拟\n观察指标能量沉积及达到设定剂量的预计时长图 6·波长和年龄\n测量时间不适用：稳态计算方法 §2.4–2.5·光源和模拟"
+    "text": "怎么做\n\n研究对象12名健康人，各完成2次访视；24次记录不是24名独立受试者方法 §4.1·受试者\n研究设计随机顺序、参与者盲法、主动/假刺激交叉；间隔14天方法 §4.1·受试者\n波长1064 nm方法 §4.3·照射\n连续光 / 脉冲连续光方法 §4.3·照射\n照射位置右额眉毛与发际之间方法 §4.3·照射\n辐照度 / 功率250 mW/cm²；头皮入射方法 §4.3·照射\n光斑13.6 cm²方法 §4.3·照射\n照射时间与疗程8分钟方法 §4.3·照射\n剂量方法未单列面剂量方法 §4.3·照射\n对照怎么做0.1 W档位 + 黑帽遮光；非接触约2 cm方法 §4.3·照射\n观察指标双侧bbNIRS：HbO与oxCCO慢波相干图 4·相干性变化\n测量时间6分钟基线、8分钟刺激、6分钟恢复；后段4分钟用于相干分析图 5·记录安排"
   },
   {
-    "objectID": "library/tpbm/yuan-2020.html#结果怎么看",
-    "href": "library/tpbm/yuan-2020.html#结果怎么看",
-    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
+    "objectID": "library/tpbm/wang-2022-metabolism.html#结果怎么看",
+    "href": "library/tpbm/wang-2022-metabolism.html#结果怎么看",
+    "title": "血氧同步与氧化代谢同步会同向改变吗？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n在文中光学参数下，810 nm的目标区沉积较高，并随年龄和照射位置变化。（图 6·波长和年龄）\n颅外组织厚度与能量沉积存在关系。（图 8–9·剂量与组织厚度）"
+    "text": "结果怎么看\n\n部分频段双侧HbO相干下降，双侧oxCCO相干则在神经源频段增加。（图 4·相干性变化）"
   },
   {
-    "objectID": "library/tpbm/yuan-2020.html#对实验设计有什么用",
-    "href": "library/tpbm/yuan-2020.html#对实验设计有什么用",
-    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
+    "objectID": "library/tpbm/wang-2022-metabolism.html#对实验设计有什么用",
+    "href": "library/tpbm/wang-2022-metabolism.html#对实验设计有什么用",
+    "title": "血氧同步与氧化代谢同步会同向改变吗？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n组织光学参数假定不随年龄改变；模拟沉积高不等于认知或临床效果最好。"
+    "text": "对实验设计有什么用\n相同受试者的两次记录不可当作独立样本；血氧和氧化代谢是不同信号，变化方向也可能不同。"
   },
   {
-    "objectID": "library/tpbm/yuan-2020.html#接着读",
-    "href": "library/tpbm/yuan-2020.html#接着读",
-    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
+    "objectID": "library/tpbm/wang-2022-metabolism.html#接着读",
+    "href": "library/tpbm/wang-2022-metabolism.html#接着读",
+    "title": "血氧同步与氧化代谢同步会同向改变吗？",
     "section": "接着读",
-    "text": "接着读\n\n波长和脉冲怎么选？\n相同头皮剂量，进入脑内的光一样多吗？\n\n修改这篇研究的整理"
+    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/wang-2021-eeg-heat.html",
-    "href": "library/tpbm/wang-2021-eeg-heat.html",
-    "title": "光刺激和皮肤加热的脑电分布一样吗？",
+    "objectID": "library/tpbm/wang-2017-heat.html",
+    "href": "library/tpbm/wang-2017-heat.html",
+    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
     "section": "",
-    "text": "Wang · 2021 · 健康人\nTranscranial photobiomodulation and thermal stimulation induce distinct topographies of EEG alpha and beta power changes in healthy humans\nScientific Reports · DOI: 10.1038/s41598-021-97987-w · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "Wang · 2017 · 健康人\nImpact of heat on metabolic and hemodynamic changes in transcranial infrared laser stimulation measured by broadband near-infrared spectroscopy\nNeurophotonics · DOI: 10.1117/1.NPh.5.1.011004 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/wang-2021-eeg-heat.html#怎么做",
-    "href": "library/tpbm/wang-2021-eeg-heat.html#怎么做",
-    "title": "光刺激和皮肤加热的脑电分布一样吗？",
+    "objectID": "library/tpbm/wang-2017-heat.html#怎么做",
+    "href": "library/tpbm/wang-2017-heat.html#怎么做",
+    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象光组分析46人；热组分析11人（分别招募49和14人）方法·样本与排除\n研究设计各组内随机单盲主动/假刺激交叉；光热为不同人群方法·样本与排除\n波长1064 nm方法与图 1·参数和热对照\n连续光 / 脉冲连续光方法与图 1·参数和热对照\n照射位置右额 Fp2/AF8附近方法与图 1·参数和热对照\n辐照度 / 功率约250 mW/cm²；头皮入射方法与图 1·参数和热对照\n光斑直径4.2 cm方法与图 1·参数和热对照\n照射时间与疗程8分钟方法与图 1·参数和热对照\n剂量总能量1680 J（3.5 W × 480秒）方法与图 1·参数和热对照\n对照怎么做遮光假刺激；热刺激33→41°C，热假刺激33°C方法与图 1·参数和热对照\n观察指标64通道闭眼 EEG 功率图 5·光与热拓扑差异\n测量时间2分钟基线；刺激8分钟；恢复分析2分钟方法与图 1·参数和热对照"
+    "text": "怎么做\n\n研究对象11人；光与热实验来自同一批受试者方法 §2.2·受试者\n研究设计分次访视；光刺激结果与温度匹配的热刺激比较方法 §2.2·受试者\n波长1064 nm方法 §2.1·光参数\n连续光 / 脉冲连续光；每分钟55秒开、5秒关方法 §2.1·光参数\n照射位置右额方法 §2.1·光参数\n辐照度 / 功率250 mW/cm²；头皮入射方法 §2.1·光参数\n光斑13.6 cm²方法 §2.1·光参数\n照射时间与疗程8分钟；每分钟出光55秒方法 §2.1·光参数\n剂量13.75 J/cm² / 周期方法 §2.1·光参数\n对照怎么做热刺激从32°C升至41°C；另有遮光假刺激描述图 4–5·温度与热对照\n观察指标bbNIRS：CCO及血红蛋白；皮温图 6·光与热的直接比较\n测量时间刺激前2分钟、刺激8分钟、恢复5分钟方法 §2.1·光参数"
   },
   {
-    "objectID": "library/tpbm/wang-2021-eeg-heat.html#结果怎么看",
-    "href": "library/tpbm/wang-2021-eeg-heat.html#结果怎么看",
-    "title": "光刺激和皮肤加热的脑电分布一样吗？",
+    "objectID": "library/tpbm/wang-2017-heat.html#结果怎么看",
+    "href": "library/tpbm/wang-2017-heat.html#结果怎么看",
+    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n扣除各自假刺激后，光与热引起的alpha/beta功率空间分布存在差异。（图 5·光与热拓扑差异）"
+    "text": "结果怎么看\n\n热刺激与光刺激的 CCO、HbO 等时间曲线不同；图6给出校正后的时点比较。（图 6·光与热的直接比较）"
   },
   {
-    "objectID": "library/tpbm/wang-2021-eeg-heat.html#对实验设计有什么用",
-    "href": "library/tpbm/wang-2021-eeg-heat.html#对实验设计有什么用",
-    "title": "光刺激和皮肤加热的脑电分布一样吗？",
+    "objectID": "library/tpbm/wang-2017-heat.html#对实验设计有什么用",
+    "href": "library/tpbm/wang-2017-heat.html#对实验设计有什么用",
+    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n热效应比较为两组人之间的比较。结果支持在脑电实验里设置热对照，不给出通用安全剂量。"
+    "text": "对实验设计有什么用\n热对照匹配的是额部皮温轨迹；不等于已经匹配脑内温度。光数据来自此前实验，需留意访视与顺序。"
   },
   {
-    "objectID": "library/tpbm/wang-2021-eeg-heat.html#接着读",
-    "href": "library/tpbm/wang-2021-eeg-heat.html#接着读",
-    "title": "光刺激和皮肤加热的脑电分布一样吗？",
+    "objectID": "library/tpbm/wang-2017-heat.html#接着读",
+    "href": "library/tpbm/wang-2017-heat.html#接着读",
+    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
     "section": "接着读",
     "text": "接着读\n\n怎样区分光照与加热效应？\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/van-lankveld-2026.html",
-    "href": "library/tpbm/van-lankveld-2026.html",
-    "title": "相同波长的 BOLD 和脑血流反应一致吗？",
+    "objectID": "library/tpbm/truong-2022.html",
+    "href": "library/tpbm/truong-2022.html",
+    "title": "连续光会改变哪些慢频段的血氧网络？",
     "section": "",
-    "text": "Van Lankveld · 2026 · 健康人\nDose dependence and neurovascular mechanisms of the fMRI response to pulsed photobiomodulation in humans\nJournal of Cerebral Blood Flow & Metabolism · DOI: 10.1177/0271678X261479524 · 阅读全文\n阅读范围：期刊在线全文，核对方法、表 1–2 及图 2–4。\n加入研究对比 · 按问题读"
+    "text": "Truong · 2022 · 健康人\nEnhancement of Frequency-Specific Hemodynamic Power and Functional Connectivity by Transcranial Photobiomodulation in Healthy Humans\nFrontiers in Neuroscience · DOI: 10.3389/fnins.2022.896502 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/van-lankveld-2026.html#怎么做",
-    "href": "library/tpbm/van-lankveld-2026.html#怎么做",
-    "title": "相同波长的 BOLD 和脑血流反应一致吗？",
+    "objectID": "library/tpbm/truong-2022.html#怎么做",
+    "href": "library/tpbm/truong-2022.html#怎么做",
+    "title": "连续光会改变哪些慢频段的血氧网络？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象45 名健康成人，20–32 岁方法·参与者\n研究设计三个分配协议，每人完成四种主动参数条件表 1·参数组合\n波长808 和 1064 nm表 1·参数组合\n连续光 / 脉冲10 或 40 Hz 脉冲；表 1 未列占空比表 1·参数组合\n照射位置右额，靶向右前额叶图 2·装置与时序\n辐照度 / 功率100、150 或 200 mW/cm²（表 1 设置值）表 1·参数组合\n光斑方法报告传输光纤直径 400 μm，未据此换算头皮光斑方法·照射装置\n照射时间与疗程单次开光 4 分钟图 2·装置与时序\n剂量表 1 未列头皮 J/cm² 或脑内光剂量表 1·参数组合\n对照怎么做同次扫描开光前关光基线；未设独立假刺激图 2·装置与时序\n观察指标双回波 pCASL 提取 BOLD 与 CBF；部分条件做 MR 测温方法·MRI 采集\n测量时间关 4 分钟、开 4 分钟、关 4 分钟图 2·装置与时序"
+    "text": "怎么做\n\n研究对象招募19人，17人纳入fNIRS分析方法 §2.1·受试者\n研究设计随机主动/假刺激交叉；至少间隔1周方法 §2.1·受试者\n波长1064 nm方法 §2.2 / 图 1·协议\n连续光 / 脉冲连续光方法 §2.2 / 图 1·协议\n照射位置右额 Fp2附近方法 §2.2 / 图 1·协议\n辐照度 / 功率250 mW/cm²；头皮入射方法 §2.2 / 图 1·协议\n光斑13.6 cm²方法 §2.2 / 图 1·协议\n照射时间与疗程8分钟方法 §2.2 / 图 1·协议\n剂量总能量1632 J方法 §2.2 / 图 1·协议\n对照怎么做0.1 W档位，黑帽遮光方法 §2.2 / 图 1·协议\n观察指标111通道静息 fNIRS、分频段连接与图论图 6·分频段连接\n测量时间刺激前8分钟、中8分钟、后4分钟方法 §2.2 / 图 1·协议"
   },
   {
-    "objectID": "library/tpbm/van-lankveld-2026.html#结果怎么看",
-    "href": "library/tpbm/van-lankveld-2026.html#结果怎么看",
-    "title": "相同波长的 BOLD 和脑血流反应一致吗？",
+    "objectID": "library/tpbm/truong-2022.html#结果怎么看",
+    "href": "library/tpbm/truong-2022.html#结果怎么看",
+    "title": "连续光会改变哪些慢频段的血氧网络？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n照射区 CBF 对 808 nm 的响应高于 1064 nm（FDR 校正 p = 0.048）。膝下区/伏隔核刺激中 BOLD 的波长对比方向相反（1064 nm 更高，p = 0.006）。（表 2·脑血流与 BOLD 对照）\n不同时间窗的 BOLD–CBF 斜率变化，模型估计的耗氧相关读数也随时间变化。（图 4·BOLD 与脑血流关系）"
+    "text": "结果怎么看\n\n连接变化依赖慢频段和测量时段；图6比较内皮源性、肌源性频段在刺激前、中、后的连接，不是一个全脑统一增加的结果。（图 6·分频段连接）\n刺激期间肌源频段的全局/局部效率升高、路径长度缩短；恢复期未见同样显著差异。（图 8·网络效率）"
   },
   {
-    "objectID": "library/tpbm/van-lankveld-2026.html#对实验设计有什么用",
-    "href": "library/tpbm/van-lankveld-2026.html#对实验设计有什么用",
-    "title": "相同波长的 BOLD 和脑血流反应一致吗？",
+    "objectID": "library/tpbm/truong-2022.html#对实验设计有什么用",
+    "href": "library/tpbm/truong-2022.html#对实验设计有什么用",
+    "title": "连续光会改变哪些慢频段的血氧网络？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n比较两种波长前，先写清主脑区、主时段和主读数。这里每次扫描以自身关光期作基线。若要估计相对假刺激的效果，需要另设匹配对照。把 BOLD 和 CBF 分开报告，也别用一处 BOLD 的幅度估算入脑剂量。"
+    "text": "对实验设计有什么用\n这里的频段属于血流动力学慢波，不是EEG的alpha/beta；不能把不同测量的“网络效率”混为一谈。"
   },
   {
-    "objectID": "library/tpbm/van-lankveld-2026.html#接着读",
-    "href": "library/tpbm/van-lankveld-2026.html#接着读",
-    "title": "相同波长的 BOLD 和脑血流反应一致吗？",
+    "objectID": "library/tpbm/truong-2022.html#接着读",
+    "href": "library/tpbm/truong-2022.html#接着读",
+    "title": "连续光会改变哪些慢频段的血氧网络？",
     "section": "接着读",
-    "text": "接着读\n\n波长和脉冲怎么选？\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/tian-2016.html",
-    "href": "library/tpbm/tian-2016.html",
-    "title": "照射额中与右额，双侧血氧怎样变化？",
+    "objectID": "library/tpbm/shahdadian-2022.html",
+    "href": "library/tpbm/shahdadian-2022.html",
+    "title": "脑电功率增加时，网络效率也一定增加吗？",
     "section": "",
-    "text": "Tian · 2016 · 健康人\nTranscranial laser stimulation improves human cerebral oxygenation\nLasers in Surgery and Medicine · DOI: 10.1002/lsm.22471 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "Shahdadian · 2022 · 健康人\nNeuromodulation of brain power topography and network topology by prefrontal transcranial photobiomodulation\nJournal of Neural Engineering · DOI: 10.1088/1741-2552/ac9ede · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/tian-2016.html#怎么做",
-    "href": "library/tpbm/tian-2016.html#怎么做",
-    "title": "照射额中与右额，双侧血氧怎样变化？",
+    "objectID": "library/tpbm/shahdadian-2022.html#怎么做",
+    "href": "library/tpbm/shahdadian-2022.html#怎么做",
+    "title": "脑电功率增加时，网络效率也一定增加吗？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象两项实验各9人，6人重复参与结果·受试者\n研究设计前后测；比较额中与右额照射，无独立假刺激组结果·受试者\n波长1064 nm方法·仪器与照射\n连续光 / 脉冲连续光；每分钟55秒开、5秒关方法·仪器与照射\n照射位置额中 / 右额（分两项实验）方法·仪器与照射\n辐照度 / 功率250 mW/cm²；头皮入射方法·仪器与照射\n光斑13.6 cm²（直径4.16 cm）方法·仪器与照射\n照射时间与疗程10个一分钟周期；每周期出光55秒方法·实验流程\n剂量13.75 J/cm² / 周期方法·实验流程\n对照怎么做自身照射前基线方法·实验流程\n观察指标双侧 fNIRS：HbO、HHb、HbT图 3–4·双侧血氧\n测量时间照射前1分钟、照射中、照射后6分钟方法·实验流程"
+    "text": "怎么做\n\n研究对象招募49人，分析45人方法·受试者\n研究设计单盲随机交叉；至少间隔5天方法·受试者\n波长1064 nm表 2·头皮参数\n连续光 / 脉冲连续光表 2·头皮参数\n照射位置右额 Fp2/AF8附近表 2·头皮参数\n辐照度 / 功率250 mW/cm²；头皮入射表 2·头皮参数\n光斑直径4.2 cm表 2·头皮参数\n照射时间与疗程8分钟表 2·头皮参数\n剂量120 J/cm²（头皮）；表列1662 J总量表 2·头皮参数\n对照怎么做0.1 W档位，黑帽遮光方法·实验流程\n观察指标64通道EEG、虚部相干与图论图 4·EEG功率\n测量时间2分钟基线；前4/后4分钟刺激；3分钟恢复方法·实验流程"
   },
   {
-    "objectID": "library/tpbm/tian-2016.html#结果怎么看",
-    "href": "library/tpbm/tian-2016.html#结果怎么看",
-    "title": "照射额中与右额，双侧血氧怎样变化？",
+    "objectID": "library/tpbm/shahdadian-2022.html#结果怎么看",
+    "href": "library/tpbm/shahdadian-2022.html#结果怎么看",
+    "title": "脑电功率增加时，网络效率也一定增加吗？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n两种照射位置均观察到双侧氧合血红蛋白增加、脱氧血红蛋白下降；恢复期仍可见变化。（图 3–4·双侧血氧）"
+    "text": "结果怎么看\n\nalpha和beta脑电功率呈刺激相关的空间变化；图4用簇置换检验标出显著位置，不能把整张色彩图都看作显著。（图 4·EEG功率）\nbeta频段的同步、全局效率和小世界性在部分时段/阈值下降。（图 5·全局网络指标）"
   },
   {
-    "objectID": "library/tpbm/tian-2016.html#对实验设计有什么用",
-    "href": "library/tpbm/tian-2016.html#对实验设计有什么用",
-    "title": "照射额中与右额，双侧血氧怎样变化？",
+    "objectID": "library/tpbm/shahdadian-2022.html#对实验设计有什么用",
+    "href": "library/tpbm/shahdadian-2022.html#对实验设计有什么用",
+    "title": "脑电功率增加时，网络效率也一定增加吗？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n左右半球血氧响应相近；该设计说明时间变化，不能排除无假刺激对照下的时间因素。"
+    "text": "对实验设计有什么用\n更大的脑电功率不必对应更高网络效率；图论结果取决于连接定义、频段和阈值。与同组近似样本研究比较时留意队列重叠。"
   },
   {
-    "objectID": "library/tpbm/tian-2016.html#接着读",
-    "href": "library/tpbm/tian-2016.html#接着读",
-    "title": "照射额中与右额，双侧血氧怎样变化？",
+    "objectID": "library/tpbm/shahdadian-2022.html#接着读",
+    "href": "library/tpbm/shahdadian-2022.html#接着读",
+    "title": "脑电功率增加时，网络效率也一定增加吗？",
     "section": "接着读",
-    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n相同头皮剂量，进入脑内的光一样多吗？\n\n修改这篇研究的整理"
+    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/schiffer-2009.html",
-    "href": "library/tpbm/schiffer-2009.html",
-    "title": "单次照光后，症状变化维持多久？",
+    "objectID": "library/tpbm/saltmarche-2017.html",
+    "href": "library/tpbm/saltmarche-2017.html",
+    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
     "section": "",
-    "text": "Schiffer · 2009 · 临床\nPsychological benefits 2 and 4 weeks after a single treatment with near infrared light to the forehead\nBehavioral and Brain Functions · DOI: 10.1186/1744-9081-5-46 · 阅读全文\n阅读范围：正式版全文。\n加入研究对比 · 按问题读"
+    "text": "Saltmarche · 2017 · 临床\nSignificant Improvement in Cognition in Mild to Moderately Severe Dementia Cases Treated with Transcranial Plus Intranasal Photobiomodulation: Case Series Report\nPhotomedicine and Laser Surgery · DOI: 10.1089/pho.2016.4227 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/schiffer-2009.html#怎么做",
-    "href": "library/tpbm/schiffer-2009.html#怎么做",
-    "title": "单次照光后，症状变化维持多久？",
+    "objectID": "library/tpbm/saltmarche-2017.html#怎么做",
+    "href": "library/tpbm/saltmarche-2017.html#怎么做",
+    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象10 名抑郁患者PDF 第 4 页｜照射参数与表 1\n研究设计同次主动/关灯生理对照，症状为单组随访PDF 第 5–6 页｜设计与图 1\n波长810 nm 峰值，半高宽 40 nmPDF 第 4 页｜照射参数与表 1\n连续光 / 脉冲LED；照射时序见方法PDF 第 5–6 页｜设计与图 1\n照射位置前额 F3、F4PDF 第 4 页｜照射参数与表 1\n辐照度 / 功率距皮肤 4 mm 时 250 mW/cm²PDF 第 4 页｜照射参数与表 1\n光斑方法说明距皮肤 4 mm；本表不换算光斑PDF 第 4 页｜照射参数与表 1\n照射时间与疗程每点 4 分钟PDF 第 4 页｜照射参数与表 1\n剂量每点入射 60 J/cm²PDF 第 4 页｜照射参数与表 1\n对照怎么做急性光谱同部位关灯；随访无独立假刺激组PDF 第 5–6 页｜设计与图 1\n观察指标前额总血红蛋白；HAM-D 与 HAM-APDF 第 5–6 页｜设计与图 1\n测量时间光谱于刺激中；症状基线、2、4 周PDF 第 5–6 页｜设计与图 1"
+    "text": "怎么做\n\n研究对象5例痴呆/阿尔茨海默病，72–90岁方法·病例\n研究设计开放病例系列；12周治疗后4周停治方法·病例\n波长810 nm表 2·两种设备参数\n连续光 / 脉冲10 Hz；50%占空比表 2·两种设备参数\n照射位置头部4处 + 鼻内；另用鼻内单独设备表 2·两种设备参数\n辐照度 / 功率Neuro：经颅41、鼻内23 mW/cm²；鼻内单机14.2 mW/cm²表 2·两种设备参数\n光斑约1 cm² / LED表 2·两种设备参数\n照射时间与疗程经颅+鼻内20分钟/次，前2周每周2次，其后每周1次；其余日鼻内25分钟方法·治疗与居家安排\n剂量Neuro：每LED经颅24.6、鼻内13.8 J/cm²；鼻内单机10.65 J/cm²表 2·两种设备参数\n对照怎么做无假刺激组；停治随访方法·治疗与居家安排\n观察指标MMSE、ADAS-cog表 3 / 图 2–3·认知评分\n测量时间基线、第6/12周及停治4周表 3 / 图 2–3·认知评分"
   },
   {
-    "objectID": "library/tpbm/schiffer-2009.html#结果怎么看",
-    "href": "library/tpbm/schiffer-2009.html#结果怎么看",
-    "title": "单次照光后，症状变化维持多久？",
+    "objectID": "library/tpbm/saltmarche-2017.html#结果怎么看",
+    "href": "library/tpbm/saltmarche-2017.html#结果怎么看",
+    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\nHAM-D 平均较基线下降 13.2 和 6.5 分。（PDF 第 9 页｜图 3、表 4）\n双侧平均总血红蛋白开灯相对关灯差 0.032 相对单位，p = 0.16。（PDF 第 8 页｜图 2）"
+    "text": "结果怎么看\n\n12周MMSE均值增加2.60分，ADAS-cog下降6.73分；停治时1例退出。（表 3 / 图 2–3·认知评分）\n患者及家属报告中有睡眠改善，未采用统一的睡眠量表或夜间脑电。（正式版 PDF 第 7 页｜表 4 生活质量反馈）"
   },
   {
-    "objectID": "library/tpbm/schiffer-2009.html#对实验设计有什么用",
-    "href": "library/tpbm/schiffer-2009.html#对实验设计有什么用",
-    "title": "单次照光后，症状变化维持多久？",
+    "objectID": "library/tpbm/saltmarche-2017.html#对实验设计有什么用",
+    "href": "library/tpbm/saltmarche-2017.html#对实验设计有什么用",
+    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n把即刻生理对照与独立、等时程的症状对照分别设计，预先规定随访时点。"
+    "text": "对实验设计有什么用\n组合治疗、病例数少、无同期对照，且随访缺失；不能区分经颅和鼻内的各自贡献。"
   },
   {
-    "objectID": "library/tpbm/schiffer-2009.html#接着读",
-    "href": "library/tpbm/schiffer-2009.html#接着读",
-    "title": "单次照光后，症状变化维持多久？",
+    "objectID": "library/tpbm/saltmarche-2017.html#接着读",
+    "href": "library/tpbm/saltmarche-2017.html#接着读",
+    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
     "section": "接着读",
-    "text": "接着读\n\n单次与重复照射，哪些变化能持续？\n\n修改这篇研究的整理"
+    "text": "接着读\n\n单次与重复照射，哪些变化能持续？\n光刺激后，主观睡眠与脑电指标是否同步变化？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/qu-2022.html",
-    "href": "library/tpbm/qu-2022.html",
-    "title": "连续七天刺激的记忆改善能保持多久？",
+    "objectID": "library/tpbm/pruitt-2020.html",
+    "href": "library/tpbm/pruitt-2020.html",
+    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
     "section": "",
-    "text": "Qu · 2022 · 健康人\nRepeated transcranial photobiomodulation improves working memory of healthy older adults: behavioral outcomes of poststimulation including a three-week follow-up\nNeurophotonics · DOI: 10.1117/1.NPh.9.3.035005 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "Pruitt · 2020 · 健康人\nTranscranial Photobiomodulation (tPBM) With 1,064‐nm Laser to Improve Cerebral Metabolism of the Human Brain In Vivo\nLasers in Surgery and Medicine · DOI: 10.1002/lsm.23232 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/qu-2022.html#怎么做",
-    "href": "library/tpbm/qu-2022.html#怎么做",
-    "title": "连续七天刺激的记忆改善能保持多久？",
+    "objectID": "library/tpbm/pruitt-2020.html#怎么做",
+    "href": "library/tpbm/pruitt-2020.html#怎么做",
+    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象健康老年人：主动61人、对照25人方法 §2.1–2.2·样本和流程\n研究设计主动组基线假刺激后连续主动疗程；另有重复假刺激组方法 §2.1–2.2·样本和流程\n波长1064 nm方法 §2.3·刺激参数\n连续光 / 脉冲连续光方法 §2.3·刺激参数\n照射位置左侧DLPFC方法 §2.3·刺激参数\n辐照度 / 功率250 mW/cm²；头皮入射方法 §2.3·刺激参数\n光斑直径4.16 cm方法 §2.3·刺激参数\n照射时间与疗程12分钟/次；每日1次，共7天方法 §2.3·刺激参数\n剂量本文方法未单列累计面剂量方法 §2.3·刺激参数\n对照怎么做首30秒出光，随后关闭；重复假刺激对照方法 §2.3·刺激参数\n观察指标1/2/3-back正确率与反应时图 2·单次与重复刺激\n测量时间基线、第1/7天；之后每周随访，共3周方法 §2.3·刺激参数"
+    "text": "怎么做\n\n研究对象本研究20人：年轻15、老年5；另比较既往11名年轻人方法·受试者\n研究设计随机顺序主动/假刺激交叉；另做历史样本复现方法·受试者\n波长1064 nm方法·1064 nm 参数\n连续光 / 脉冲连续光；每分钟暂停5秒测 bbNIRS方法·1064 nm 参数\n照射位置右额方法·1064 nm 参数\n辐照度 / 功率250 mW/cm²；头皮入射方法·1064 nm 参数\n光斑13.6 cm²方法·1064 nm 参数\n照射时间与疗程8分钟周期内间歇出光图 1·交替采集流程\n剂量本文未单列累计面剂量方法·1064 nm 参数\n对照怎么做0.1 W档位 + 黑帽遮光方法·1064 nm 参数\n观察指标HbO 与氧化态 CCO图 3–4·年龄组比较\n测量时间2分钟基线、8分钟刺激、5分钟恢复图 1·交替采集流程"
   },
   {
-    "objectID": "library/tpbm/qu-2022.html#结果怎么看",
-    "href": "library/tpbm/qu-2022.html#结果怎么看",
-    "title": "连续七天刺激的记忆改善能保持多久？",
+    "objectID": "library/tpbm/pruitt-2020.html#结果怎么看",
+    "href": "library/tpbm/pruitt-2020.html#结果怎么看",
+    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n主动组第7天部分任务指标优于单次后；3-back反应时缩短。（图 2·单次与重复刺激）\n图3呈现相对基线的改善持续到三周随访。（图 3·三周随访）"
+    "text": "结果怎么看\n\n图3显示两年龄组原始反应差异，图4扣除假刺激后未检出年龄组差异。（图 3–4·年龄组比较）"
   },
   {
-    "objectID": "library/tpbm/qu-2022.html#对实验设计有什么用",
-    "href": "library/tpbm/qu-2022.html#对实验设计有什么用",
-    "title": "连续七天刺激的记忆改善能保持多久？",
+    "objectID": "library/tpbm/pruitt-2020.html#对实验设计有什么用",
+    "href": "library/tpbm/pruitt-2020.html#对实验设计有什么用",
+    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n主动组内时间点比较和独立假刺激组的检验应分别阅读；不能把练习与长期疗程效应自动等同。"
+    "text": "对实验设计有什么用\n老年组仅5人；未检出差异不能据此认定年龄不影响反应。历史11人并非新增独立样本。"
   },
   {
-    "objectID": "library/tpbm/qu-2022.html#接着读",
-    "href": "library/tpbm/qu-2022.html#接着读",
-    "title": "连续七天刺激的记忆改善能保持多久？",
+    "objectID": "library/tpbm/pruitt-2020.html#接着读",
+    "href": "library/tpbm/pruitt-2020.html#接着读",
+    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
     "section": "接着读",
-    "text": "接着读\n\n注意与记忆改善，应该看哪些指标？\n单次与重复照射，哪些变化能持续？\n\n修改这篇研究的整理"
+    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/nizamutdinov-2021.html",
-    "href": "library/tpbm/nizamutdinov-2021.html",
-    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
+    "objectID": "library/tpbm/mehdizadeh-2025.html",
+    "href": "library/tpbm/mehdizadeh-2025.html",
+    "title": "慢性失眠患者照光后，清醒 δ 功率如何变化？",
     "section": "",
-    "text": "Nizamutdinov · 2021 · 临床\nTranscranial Near Infrared Light Stimulations Improve Cognition in Patients with Dementia\nAging and Disease · DOI: 10.14336/AD.2021.0229 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "Mehdizadeh · 2025 · 临床\nTranscranial photobiomodulation improves sleep quality, reduces daytime sleepiness, and modulates delta power in chronic insomnia: a randomized controlled trial\nLasers in Medical Science · DOI: 10.1007/s10103-025-04699-y · 阅读全文\n阅读范围：期刊正式版全文；公开链接为期刊落地页与图表页码。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/nizamutdinov-2021.html#怎么做",
-    "href": "library/tpbm/nizamutdinov-2021.html#怎么做",
-    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
+    "objectID": "library/tpbm/mehdizadeh-2025.html#怎么做",
+    "href": "library/tpbm/mehdizadeh-2025.html#怎么做",
+    "title": "慢性失眠患者照光后，清醒 δ 功率如何变化？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象入组60人；57人完成；早中期痴呆方法·随机与设备\n研究设计随机双盲，主动:假刺激=2:1方法·随机与设备\n波长1060–1080 nm方法·头盔与照射安排\n连续光 / 脉冲方法未明确给出连续/脉冲方式方法·头盔与照射安排\n照射位置头部12模块 + 2个眼部模块方法·头盔与照射安排\n辐照度 / 功率23.1 mW/cm²；设备报告值方法·头盔与照射安排\n光斑约650 cm²治疗区域方法·头盔与照射安排\n照射时间与疗程6分钟/次，每日2次，共8周方法·头盔与照射安排\n剂量方法未单列面剂量方法·头盔与照射安排\n对照怎么做外观相同、不发近红外光的头盔方法·头盔与照射安排\n观察指标MMSE等认知量表、照护者日志表 1·认知前后评分\n测量时间治疗前与末次后1天内方法·头盔与照射安排"
+    "text": "怎么做\n\n研究对象30 名慢性失眠成人，主动和假刺激各 15 名期刊 PDF 第 2–3 页｜设计与图 1\n研究设计随机平行、双盲假刺激对照；施治者知组别期刊 PDF 第 2–3 页｜设计与图 1\n波长810 nm，8 LED 簇期刊 PDF 第 4 页｜脑电及干预\n连续光 / 脉冲连续光期刊 PDF 第 4 页｜脑电及干预\n照射位置Fp1、Fp2、Fz、F3、F4、F7、F8期刊 PDF 第 4 页｜脑电及干预\n辐照度 / 功率报告 250 mW/cm²；总功率 3.4 W期刊 PDF 第 4 页｜脑电及干预\n光斑光斑面积未见报告期刊 PDF 第 4 页｜脑电及干预\n照射时间与疗程报告每天 10 分钟，连续 3 天；各点实际驻留时间未说明期刊 PDF 第 4 页｜脑电及干预\n剂量报告 60 J/cm²、2040 J/次。若按 250 mW/cm² 连续 600 s 同点照射，计算为 150 J/cm²，现有报告无法核对两者如何对应期刊 PDF 第 4 页｜脑电及干预\n对照怎么做外观、声音、位置一致，金属滤片阻挡逾 99% 能量期刊 PDF 第 4 页｜脑电及干预\n观察指标PSQI、ESS、睁眼清醒静息 EEG δ 功率（1–4 Hz）期刊 PDF 第 4 页｜脑电及干预\n测量时间基线、末次治疗后一周期刊 PDF 第 2–3 页｜设计与图 1"
   },
   {
-    "objectID": "library/tpbm/nizamutdinov-2021.html#结果怎么看",
-    "href": "library/tpbm/nizamutdinov-2021.html#结果怎么看",
-    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
+    "objectID": "library/tpbm/mehdizadeh-2025.html#结果怎么看",
+    "href": "library/tpbm/mehdizadeh-2025.html#结果怎么看",
+    "title": "慢性失眠患者照光后，清醒 δ 功率如何变化？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n表1主动组MMSE由22.8升至27.6；表中p值是各组内前后检验。（表 1·认知前后评分）"
+    "text": "结果怎么看\n\nFz 校正后 δ 功率，主动组 46.44、假刺激组 80.33 μV²（p &lt; 0.001）。F3、F4 未达显著。（期刊 PDF 第 5 页｜表 2）\n表 2 假刺激 PSQI 总分 26.7，超出 0–21 范围；表 1 基线也有超范围值。正文和表格的组间量表差异待核实。（期刊 PDF 第 5 页｜表 2）"
   },
   {
-    "objectID": "library/tpbm/nizamutdinov-2021.html#对实验设计有什么用",
-    "href": "library/tpbm/nizamutdinov-2021.html#对实验设计有什么用",
-    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
+    "objectID": "library/tpbm/mehdizadeh-2025.html#对实验设计有什么用",
+    "href": "library/tpbm/mehdizadeh-2025.html#对实验设计有什么用",
+    "title": "慢性失眠患者照光后，清醒 δ 功率如何变化？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n组内显著、对照不显著不能替代组间变化检验；睡眠数据来自照护日志，未用睡眠脑电。"
+    "text": "对实验设计有什么用\n清醒脑电和夜间睡眠脑电分别回答不同问题。剂量和 PSQI 原文数值存在待核对之处，保留原报告。"
   },
   {
-    "objectID": "library/tpbm/nizamutdinov-2021.html#接着读",
-    "href": "library/tpbm/nizamutdinov-2021.html#接着读",
-    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
+    "objectID": "library/tpbm/mehdizadeh-2025.html#接着读",
+    "href": "library/tpbm/mehdizadeh-2025.html#接着读",
+    "title": "慢性失眠患者照光后，清醒 δ 功率如何变化？",
     "section": "接着读",
-    "text": "接着读\n\n注意与记忆改善，应该看哪些指标？\n单次与重复照射，哪些变化能持续？\n\n修改这篇研究的整理"
+    "text": "接着读\n\n光刺激后，主观睡眠与脑电指标是否同步变化？\n\n修改这篇研究的整理"
   },
   {
     "objectID": "library/tpbm/longo-2020.html",
@@ -1824,7 +1915,7 @@
     "href": "research/tpbm-compare.html",
     "title": "经颅光刺激研究对比台",
     "section": "",
-    "text": "选几篇研究，逐项比较照射参数、实验设计和结果。每个数据旁的链接可回到原文方法或图表。\n不知道先读哪篇？按问题开始\n\n\n\n\n\n\n注记指标怎么读？\n\n\n\n\n\nEEG 看脑电活动；fNIRS 看血氧变化；bbNIRS 还可以观察氧化型细胞色素 c 氧化酶（oxCCO），用于研究代谢变化；fMRI 看磁共振信号及其相关性；ASL 测脑灌注；MEP 是运动诱发电位，用来观察运动通路的响应。它们测量的对象不同，不能直接互换。\n\n\n\n\n  正在载入研究……\n\n交互对比需要 JavaScript。也可以打开下方的研究目录，阅读每篇的参数和原文图表。\n\n\n\n全部研究 · 文字目录\n\n\nMa · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？\nJung · 2026：额部近红外光能改善睡眠吗？\nVan Lankveld · 2026：相同波长的 BOLD 和脑血流反应一致吗？\nEnam · 2026：波长相近的头盔，透过组织后差多少？\nBibb · 2025：主动光、磁刺激与各自假刺激下的运动区 fMRI\nCoelho · 2025：代谢物升高，有特定剂量效应吗？\nQu · 2022：连续七天刺激的记忆改善能保持多久？\nZhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？\nTruong · 2022：连续光会改变哪些慢频段的血氧网络？\nShahdadian · 2022：脑电功率增加时，网络效率也一定增加吗？\nWang · 2022：血氧同步与氧化代谢同步会同向改变吗？\nWang · 2021：光刺激和皮肤加热的脑电分布一样吗？\nNizamutdinov · 2021：居家头盔照射八周后，痴呆患者的认知评分如何？\nPruitt · 2020：年轻人与老年人的血氧和氧化代谢反应一样吗？\nDmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？\nChao · 2020：脑震荡病例的量表、灌注与连接怎样一起读？\nFigueiro Longo · 2020：急性脑损伤后，影像变化是否伴随症状改善？\nYuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？\nHolmes · 2019：认知任务表现与前额血氧是否一起改变？\nZomorrodi · 2019：40 Hz 经颅加鼻内刺激后，脑电频段如何改变？\nFekri · 2019：单次 808 nm 照射后的双手敲击速度\nWang · 2017：把皮肤加热，能复现光刺激的代谢与血氧反应吗？\nSaltmarche · 2017：经颅加鼻内疗程结束后，认知评分怎样变化？\nTian · 2016：照射额中与右额，双侧血氧怎样变化？\nCassano · 2015：早期抑郁试验怎样安排照射和假刺激？\nBarrett · 2013：早期人体研究怎样测注意和记忆？\nJagdeo · 2012：红光与近红外穿过颅骨的比例一样吗？\nSchiffer · 2009：单次照光后，症状变化维持多久？\n\n\n\n\n\n 回到顶部"
+    "text": "选几篇研究，逐项比较照射参数、实验设计和结果。每个数据旁的链接可回到原文方法或图表。\n不知道先读哪篇？按问题开始\n\n\n\n\n\n\n注记指标怎么读？\n\n\n\n\n\nEEG 看脑电活动；fNIRS 看血氧变化；bbNIRS 还可以观察氧化型细胞色素 c 氧化酶（oxCCO），用于研究代谢变化；fMRI 看磁共振信号及其相关性；ASL 测脑灌注；MEP 是运动诱发电位，用来观察运动通路的响应。它们测量的对象不同，不能直接互换。\n\n\n\n\n  正在载入研究……\n\n交互对比需要 JavaScript。也可以打开下方的研究目录，阅读每篇的参数和原文图表。\n\n\n\n全部研究 · 文字目录\n\n\nMa · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？\nJung · 2026：额部近红外光能改善睡眠吗？\nVan Lankveld · 2026：相同波长的 BOLD 和脑血流反应一致吗？\nEnam · 2026：波长相近的头盔，透过组织后差多少？\nBibb · 2025：主动光、磁刺激与各自假刺激下的运动区 fMRI\nCoelho · 2025：代谢物升高，有特定剂量效应吗？\nMehdizadeh · 2025：慢性失眠患者照光后，清醒 δ 功率如何变化？\nQu · 2022：连续七天刺激的记忆改善能保持多久？\nZhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？\nTruong · 2022：连续光会改变哪些慢频段的血氧网络？\nShahdadian · 2022：脑电功率增加时，网络效率也一定增加吗？\nWang · 2022：血氧同步与氧化代谢同步会同向改变吗？\nWang · 2021：光刺激和皮肤加热的脑电分布一样吗？\nNizamutdinov · 2021：居家头盔照射八周后，痴呆患者的认知评分如何？\nPruitt · 2020：年轻人与老年人的血氧和氧化代谢反应一样吗？\nDmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？\nChao · 2020：脑震荡病例的量表、灌注与连接怎样一起读？\nFigueiro Longo · 2020：急性脑损伤后，影像变化是否伴随症状改善？\nYuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？\nHolmes · 2019：认知任务表现与前额血氧是否一起改变？\nZomorrodi · 2019：40 Hz 经颅加鼻内刺激后，脑电频段如何改变？\nFekri · 2019：单次 808 nm 照射后的双手敲击速度\nWang · 2017：把皮肤加热，能复现光刺激的代谢与血氧反应吗？\nSaltmarche · 2017：经颅加鼻内疗程结束后，认知评分怎样变化？\nTian · 2016：照射额中与右额，双侧血氧怎样变化？\nCassano · 2015：早期抑郁试验怎样安排照射和假刺激？\nBarrett · 2013：早期人体研究怎样测注意和记忆？\nJagdeo · 2012：红光与近红外穿过颅骨的比例一样吗？\nSchiffer · 2009：单次照光后，症状变化维持多久？\n\n\n\n\n\n 回到顶部"
   },
   {
     "objectID": "research/tpbm.html",
@@ -2212,396 +2303,438 @@
     "text": "接着读\n\n波长和脉冲怎么选？\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/pruitt-2020.html",
-    "href": "library/tpbm/pruitt-2020.html",
-    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
+    "objectID": "library/tpbm/nizamutdinov-2021.html",
+    "href": "library/tpbm/nizamutdinov-2021.html",
+    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
     "section": "",
-    "text": "Pruitt · 2020 · 健康人\nTranscranial Photobiomodulation (tPBM) With 1,064‐nm Laser to Improve Cerebral Metabolism of the Human Brain In Vivo\nLasers in Surgery and Medicine · DOI: 10.1002/lsm.23232 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "Nizamutdinov · 2021 · 临床\nTranscranial Near Infrared Light Stimulations Improve Cognition in Patients with Dementia\nAging and Disease · DOI: 10.14336/AD.2021.0229 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/pruitt-2020.html#怎么做",
-    "href": "library/tpbm/pruitt-2020.html#怎么做",
-    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
+    "objectID": "library/tpbm/nizamutdinov-2021.html#怎么做",
+    "href": "library/tpbm/nizamutdinov-2021.html#怎么做",
+    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象本研究20人：年轻15、老年5；另比较既往11名年轻人方法·受试者\n研究设计随机顺序主动/假刺激交叉；另做历史样本复现方法·受试者\n波长1064 nm方法·1064 nm 参数\n连续光 / 脉冲连续光；每分钟暂停5秒测 bbNIRS方法·1064 nm 参数\n照射位置右额方法·1064 nm 参数\n辐照度 / 功率250 mW/cm²；头皮入射方法·1064 nm 参数\n光斑13.6 cm²方法·1064 nm 参数\n照射时间与疗程8分钟周期内间歇出光图 1·交替采集流程\n剂量本文未单列累计面剂量方法·1064 nm 参数\n对照怎么做0.1 W档位 + 黑帽遮光方法·1064 nm 参数\n观察指标HbO 与氧化态 CCO图 3–4·年龄组比较\n测量时间2分钟基线、8分钟刺激、5分钟恢复图 1·交替采集流程"
+    "text": "怎么做\n\n研究对象入组60人；57人完成；早中期痴呆方法·随机与设备\n研究设计随机双盲，主动:假刺激=2:1方法·随机与设备\n波长1060–1080 nm方法·头盔与照射安排\n连续光 / 脉冲方法未明确给出连续/脉冲方式方法·头盔与照射安排\n照射位置头部12模块 + 2个眼部模块方法·头盔与照射安排\n辐照度 / 功率23.1 mW/cm²；设备报告值方法·头盔与照射安排\n光斑约650 cm²治疗区域方法·头盔与照射安排\n照射时间与疗程6分钟/次，每日2次，共8周方法·头盔与照射安排\n剂量方法未单列面剂量方法·头盔与照射安排\n对照怎么做外观相同、不发近红外光的头盔方法·头盔与照射安排\n观察指标MMSE等认知量表、照护者日志表 1·认知前后评分\n测量时间治疗前与末次后1天内方法·头盔与照射安排"
   },
   {
-    "objectID": "library/tpbm/pruitt-2020.html#结果怎么看",
-    "href": "library/tpbm/pruitt-2020.html#结果怎么看",
-    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
+    "objectID": "library/tpbm/nizamutdinov-2021.html#结果怎么看",
+    "href": "library/tpbm/nizamutdinov-2021.html#结果怎么看",
+    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n图3显示两年龄组原始反应差异，图4扣除假刺激后未检出年龄组差异。（图 3–4·年龄组比较）"
+    "text": "结果怎么看\n\n表1主动组MMSE由22.8升至27.6；表中p值是各组内前后检验。（表 1·认知前后评分）"
   },
   {
-    "objectID": "library/tpbm/pruitt-2020.html#对实验设计有什么用",
-    "href": "library/tpbm/pruitt-2020.html#对实验设计有什么用",
-    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
+    "objectID": "library/tpbm/nizamutdinov-2021.html#对实验设计有什么用",
+    "href": "library/tpbm/nizamutdinov-2021.html#对实验设计有什么用",
+    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n老年组仅5人；未检出差异不能据此认定年龄不影响反应。历史11人并非新增独立样本。"
+    "text": "对实验设计有什么用\n组内显著、对照不显著不能替代组间变化检验；睡眠数据来自照护日志，未用睡眠脑电。"
   },
   {
-    "objectID": "library/tpbm/pruitt-2020.html#接着读",
-    "href": "library/tpbm/pruitt-2020.html#接着读",
-    "title": "年轻人与老年人的血氧和氧化代谢反应一样吗？",
+    "objectID": "library/tpbm/nizamutdinov-2021.html#接着读",
+    "href": "library/tpbm/nizamutdinov-2021.html#接着读",
+    "title": "居家头盔照射八周后，痴呆患者的认知评分如何？",
     "section": "接着读",
-    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+    "text": "接着读\n\n注意与记忆改善，应该看哪些指标？\n单次与重复照射，哪些变化能持续？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/saltmarche-2017.html",
-    "href": "library/tpbm/saltmarche-2017.html",
-    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
+    "objectID": "library/tpbm/qu-2022.html",
+    "href": "library/tpbm/qu-2022.html",
+    "title": "连续七天刺激的记忆改善能保持多久？",
     "section": "",
-    "text": "Saltmarche · 2017 · 临床\nSignificant Improvement in Cognition in Mild to Moderately Severe Dementia Cases Treated with Transcranial Plus Intranasal Photobiomodulation: Case Series Report\nPhotomedicine and Laser Surgery · DOI: 10.1089/pho.2016.4227 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "Qu · 2022 · 健康人\nRepeated transcranial photobiomodulation improves working memory of healthy older adults: behavioral outcomes of poststimulation including a three-week follow-up\nNeurophotonics · DOI: 10.1117/1.NPh.9.3.035005 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/saltmarche-2017.html#怎么做",
-    "href": "library/tpbm/saltmarche-2017.html#怎么做",
-    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
+    "objectID": "library/tpbm/qu-2022.html#怎么做",
+    "href": "library/tpbm/qu-2022.html#怎么做",
+    "title": "连续七天刺激的记忆改善能保持多久？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象5例痴呆/阿尔茨海默病，72–90岁方法·病例\n研究设计开放病例系列；12周治疗后4周停治方法·病例\n波长810 nm表 2·两种设备参数\n连续光 / 脉冲10 Hz；50%占空比表 2·两种设备参数\n照射位置头部4处 + 鼻内；另用鼻内单独设备表 2·两种设备参数\n辐照度 / 功率Neuro：经颅41、鼻内23 mW/cm²；鼻内单机14.2 mW/cm²表 2·两种设备参数\n光斑约1 cm² / LED表 2·两种设备参数\n照射时间与疗程经颅+鼻内20分钟/次，前2周每周2次，其后每周1次；其余日鼻内25分钟方法·治疗与居家安排\n剂量Neuro：每LED经颅24.6、鼻内13.8 J/cm²；鼻内单机10.65 J/cm²表 2·两种设备参数\n对照怎么做无假刺激组；停治随访方法·治疗与居家安排\n观察指标MMSE、ADAS-cog表 3 / 图 2–3·认知评分\n测量时间基线、第6/12周及停治4周表 3 / 图 2–3·认知评分"
+    "text": "怎么做\n\n研究对象健康老年人：主动61人、对照25人方法 §2.1–2.2·样本和流程\n研究设计主动组基线假刺激后连续主动疗程；另有重复假刺激组方法 §2.1–2.2·样本和流程\n波长1064 nm方法 §2.3·刺激参数\n连续光 / 脉冲连续光方法 §2.3·刺激参数\n照射位置左侧DLPFC方法 §2.3·刺激参数\n辐照度 / 功率250 mW/cm²；头皮入射方法 §2.3·刺激参数\n光斑直径4.16 cm方法 §2.3·刺激参数\n照射时间与疗程12分钟/次；每日1次，共7天方法 §2.3·刺激参数\n剂量本文方法未单列累计面剂量方法 §2.3·刺激参数\n对照怎么做首30秒出光，随后关闭；重复假刺激对照方法 §2.3·刺激参数\n观察指标1/2/3-back正确率与反应时图 2·单次与重复刺激\n测量时间基线、第1/7天；之后每周随访，共3周方法 §2.3·刺激参数"
   },
   {
-    "objectID": "library/tpbm/saltmarche-2017.html#结果怎么看",
-    "href": "library/tpbm/saltmarche-2017.html#结果怎么看",
-    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
+    "objectID": "library/tpbm/qu-2022.html#结果怎么看",
+    "href": "library/tpbm/qu-2022.html#结果怎么看",
+    "title": "连续七天刺激的记忆改善能保持多久？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n12周MMSE均值增加2.60分，ADAS-cog下降6.73分；停治时1例退出。（表 3 / 图 2–3·认知评分）"
+    "text": "结果怎么看\n\n主动组第7天部分任务指标优于单次后；3-back反应时缩短。（图 2·单次与重复刺激）\n图3呈现相对基线的改善持续到三周随访。（图 3·三周随访）"
   },
   {
-    "objectID": "library/tpbm/saltmarche-2017.html#对实验设计有什么用",
-    "href": "library/tpbm/saltmarche-2017.html#对实验设计有什么用",
-    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
+    "objectID": "library/tpbm/qu-2022.html#对实验设计有什么用",
+    "href": "library/tpbm/qu-2022.html#对实验设计有什么用",
+    "title": "连续七天刺激的记忆改善能保持多久？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n组合治疗、病例数少、无同期对照，且随访缺失；不能区分经颅和鼻内的各自贡献。"
+    "text": "对实验设计有什么用\n主动组内时间点比较和独立假刺激组的检验应分别阅读；不能把练习与长期疗程效应自动等同。"
   },
   {
-    "objectID": "library/tpbm/saltmarche-2017.html#接着读",
-    "href": "library/tpbm/saltmarche-2017.html#接着读",
-    "title": "经颅加鼻内疗程结束后，认知评分怎样变化？",
+    "objectID": "library/tpbm/qu-2022.html#接着读",
+    "href": "library/tpbm/qu-2022.html#接着读",
+    "title": "连续七天刺激的记忆改善能保持多久？",
+    "section": "接着读",
+    "text": "接着读\n\n注意与记忆改善，应该看哪些指标？\n单次与重复照射，哪些变化能持续？\n\n修改这篇研究的整理"
+  },
+  {
+    "objectID": "library/tpbm/schiffer-2009.html",
+    "href": "library/tpbm/schiffer-2009.html",
+    "title": "单次照光后，症状变化维持多久？",
+    "section": "",
+    "text": "Schiffer · 2009 · 临床\nPsychological benefits 2 and 4 weeks after a single treatment with near infrared light to the forehead\nBehavioral and Brain Functions · DOI: 10.1186/1744-9081-5-46 · 阅读全文\n阅读范围：正式版全文。\n加入研究对比 · 按问题读"
+  },
+  {
+    "objectID": "library/tpbm/schiffer-2009.html#怎么做",
+    "href": "library/tpbm/schiffer-2009.html#怎么做",
+    "title": "单次照光后，症状变化维持多久？",
+    "section": "怎么做",
+    "text": "怎么做\n\n研究对象10 名抑郁患者PDF 第 4 页｜照射参数与表 1\n研究设计同次主动/关灯生理对照，症状为单组随访PDF 第 5–6 页｜设计与图 1\n波长810 nm 峰值，半高宽 40 nmPDF 第 4 页｜照射参数与表 1\n连续光 / 脉冲LED；照射时序见方法PDF 第 5–6 页｜设计与图 1\n照射位置前额 F3、F4PDF 第 4 页｜照射参数与表 1\n辐照度 / 功率距皮肤 4 mm 时 250 mW/cm²PDF 第 4 页｜照射参数与表 1\n光斑方法说明距皮肤 4 mm；本表不换算光斑PDF 第 4 页｜照射参数与表 1\n照射时间与疗程每点 4 分钟PDF 第 4 页｜照射参数与表 1\n剂量每点入射 60 J/cm²PDF 第 4 页｜照射参数与表 1\n对照怎么做急性光谱同部位关灯；随访无独立假刺激组PDF 第 5–6 页｜设计与图 1\n观察指标前额总血红蛋白；HAM-D 与 HAM-APDF 第 5–6 页｜设计与图 1\n测量时间光谱于刺激中；症状基线、2、4 周PDF 第 5–6 页｜设计与图 1"
+  },
+  {
+    "objectID": "library/tpbm/schiffer-2009.html#结果怎么看",
+    "href": "library/tpbm/schiffer-2009.html#结果怎么看",
+    "title": "单次照光后，症状变化维持多久？",
+    "section": "结果怎么看",
+    "text": "结果怎么看\n\nHAM-D 平均较基线下降 13.2 和 6.5 分。（PDF 第 9 页｜图 3、表 4）\n双侧平均总血红蛋白开灯相对关灯差 0.032 相对单位，p = 0.16。（PDF 第 8 页｜图 2）"
+  },
+  {
+    "objectID": "library/tpbm/schiffer-2009.html#对实验设计有什么用",
+    "href": "library/tpbm/schiffer-2009.html#对实验设计有什么用",
+    "title": "单次照光后，症状变化维持多久？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n把即刻生理对照与独立、等时程的症状对照分别设计，预先规定随访时点。"
+  },
+  {
+    "objectID": "library/tpbm/schiffer-2009.html#接着读",
+    "href": "library/tpbm/schiffer-2009.html#接着读",
+    "title": "单次照光后，症状变化维持多久？",
     "section": "接着读",
     "text": "接着读\n\n单次与重复照射，哪些变化能持续？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/shahdadian-2022.html",
-    "href": "library/tpbm/shahdadian-2022.html",
-    "title": "脑电功率增加时，网络效率也一定增加吗？",
+    "objectID": "library/tpbm/tian-2016.html",
+    "href": "library/tpbm/tian-2016.html",
+    "title": "照射额中与右额，双侧血氧怎样变化？",
     "section": "",
-    "text": "Shahdadian · 2022 · 健康人\nNeuromodulation of brain power topography and network topology by prefrontal transcranial photobiomodulation\nJournal of Neural Engineering · DOI: 10.1088/1741-2552/ac9ede · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "Tian · 2016 · 健康人\nTranscranial laser stimulation improves human cerebral oxygenation\nLasers in Surgery and Medicine · DOI: 10.1002/lsm.22471 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/shahdadian-2022.html#怎么做",
-    "href": "library/tpbm/shahdadian-2022.html#怎么做",
-    "title": "脑电功率增加时，网络效率也一定增加吗？",
+    "objectID": "library/tpbm/tian-2016.html#怎么做",
+    "href": "library/tpbm/tian-2016.html#怎么做",
+    "title": "照射额中与右额，双侧血氧怎样变化？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象招募49人，分析45人方法·受试者\n研究设计单盲随机交叉；至少间隔5天方法·受试者\n波长1064 nm表 2·头皮参数\n连续光 / 脉冲连续光表 2·头皮参数\n照射位置右额 Fp2/AF8附近表 2·头皮参数\n辐照度 / 功率250 mW/cm²；头皮入射表 2·头皮参数\n光斑直径4.2 cm表 2·头皮参数\n照射时间与疗程8分钟表 2·头皮参数\n剂量120 J/cm²（头皮）；表列1662 J总量表 2·头皮参数\n对照怎么做0.1 W档位，黑帽遮光方法·实验流程\n观察指标64通道EEG、虚部相干与图论图 4·EEG功率\n测量时间2分钟基线；前4/后4分钟刺激；3分钟恢复方法·实验流程"
+    "text": "怎么做\n\n研究对象两项实验各9人，6人重复参与结果·受试者\n研究设计前后测；比较额中与右额照射，无独立假刺激组结果·受试者\n波长1064 nm方法·仪器与照射\n连续光 / 脉冲连续光；每分钟55秒开、5秒关方法·仪器与照射\n照射位置额中 / 右额（分两项实验）方法·仪器与照射\n辐照度 / 功率250 mW/cm²；头皮入射方法·仪器与照射\n光斑13.6 cm²（直径4.16 cm）方法·仪器与照射\n照射时间与疗程10个一分钟周期；每周期出光55秒方法·实验流程\n剂量13.75 J/cm² / 周期方法·实验流程\n对照怎么做自身照射前基线方法·实验流程\n观察指标双侧 fNIRS：HbO、HHb、HbT图 3–4·双侧血氧\n测量时间照射前1分钟、照射中、照射后6分钟方法·实验流程"
   },
   {
-    "objectID": "library/tpbm/shahdadian-2022.html#结果怎么看",
-    "href": "library/tpbm/shahdadian-2022.html#结果怎么看",
-    "title": "脑电功率增加时，网络效率也一定增加吗？",
+    "objectID": "library/tpbm/tian-2016.html#结果怎么看",
+    "href": "library/tpbm/tian-2016.html#结果怎么看",
+    "title": "照射额中与右额，双侧血氧怎样变化？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\nalpha和beta脑电功率呈刺激相关的空间变化；图4用簇置换检验标出显著位置，不能把整张色彩图都看作显著。（图 4·EEG功率）\nbeta频段的同步、全局效率和小世界性在部分时段/阈值下降。（图 5·全局网络指标）"
+    "text": "结果怎么看\n\n两种照射位置均观察到双侧氧合血红蛋白增加、脱氧血红蛋白下降；恢复期仍可见变化。（图 3–4·双侧血氧）"
   },
   {
-    "objectID": "library/tpbm/shahdadian-2022.html#对实验设计有什么用",
-    "href": "library/tpbm/shahdadian-2022.html#对实验设计有什么用",
-    "title": "脑电功率增加时，网络效率也一定增加吗？",
+    "objectID": "library/tpbm/tian-2016.html#对实验设计有什么用",
+    "href": "library/tpbm/tian-2016.html#对实验设计有什么用",
+    "title": "照射额中与右额，双侧血氧怎样变化？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n更大的脑电功率不必对应更高网络效率；图论结果取决于连接定义、频段和阈值。与同组近似样本研究比较时留意队列重叠。"
+    "text": "对实验设计有什么用\n左右半球血氧响应相近；该设计说明时间变化，不能排除无假刺激对照下的时间因素。"
   },
   {
-    "objectID": "library/tpbm/shahdadian-2022.html#接着读",
-    "href": "library/tpbm/shahdadian-2022.html#接着读",
-    "title": "脑电功率增加时，网络效率也一定增加吗？",
+    "objectID": "library/tpbm/tian-2016.html#接着读",
+    "href": "library/tpbm/tian-2016.html#接着读",
+    "title": "照射额中与右额，双侧血氧怎样变化？",
     "section": "接着读",
-    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n相同头皮剂量，进入脑内的光一样多吗？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/truong-2022.html",
-    "href": "library/tpbm/truong-2022.html",
-    "title": "连续光会改变哪些慢频段的血氧网络？",
+    "objectID": "library/tpbm/van-lankveld-2026.html",
+    "href": "library/tpbm/van-lankveld-2026.html",
+    "title": "相同波长的 BOLD 和脑血流反应一致吗？",
     "section": "",
-    "text": "Truong · 2022 · 健康人\nEnhancement of Frequency-Specific Hemodynamic Power and Functional Connectivity by Transcranial Photobiomodulation in Healthy Humans\nFrontiers in Neuroscience · DOI: 10.3389/fnins.2022.896502 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "Van Lankveld · 2026 · 健康人\nDose dependence and neurovascular mechanisms of the fMRI response to pulsed photobiomodulation in humans\nJournal of Cerebral Blood Flow & Metabolism · DOI: 10.1177/0271678X261479524 · 阅读全文\n阅读范围：期刊在线全文，核对方法、表 1–2 及图 2–4。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/truong-2022.html#怎么做",
-    "href": "library/tpbm/truong-2022.html#怎么做",
-    "title": "连续光会改变哪些慢频段的血氧网络？",
+    "objectID": "library/tpbm/van-lankveld-2026.html#怎么做",
+    "href": "library/tpbm/van-lankveld-2026.html#怎么做",
+    "title": "相同波长的 BOLD 和脑血流反应一致吗？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象招募19人，17人纳入fNIRS分析方法 §2.1·受试者\n研究设计随机主动/假刺激交叉；至少间隔1周方法 §2.1·受试者\n波长1064 nm方法 §2.2 / 图 1·协议\n连续光 / 脉冲连续光方法 §2.2 / 图 1·协议\n照射位置右额 Fp2附近方法 §2.2 / 图 1·协议\n辐照度 / 功率250 mW/cm²；头皮入射方法 §2.2 / 图 1·协议\n光斑13.6 cm²方法 §2.2 / 图 1·协议\n照射时间与疗程8分钟方法 §2.2 / 图 1·协议\n剂量总能量1632 J方法 §2.2 / 图 1·协议\n对照怎么做0.1 W档位，黑帽遮光方法 §2.2 / 图 1·协议\n观察指标111通道静息 fNIRS、分频段连接与图论图 6·分频段连接\n测量时间刺激前8分钟、中8分钟、后4分钟方法 §2.2 / 图 1·协议"
+    "text": "怎么做\n\n研究对象45 名健康成人，20–32 岁方法·参与者\n研究设计三个分配协议，每人完成四种主动参数条件表 1·参数组合\n波长808 和 1064 nm表 1·参数组合\n连续光 / 脉冲10 或 40 Hz 脉冲；表 1 未列占空比表 1·参数组合\n照射位置右额，靶向右前额叶图 2·装置与时序\n辐照度 / 功率100、150 或 200 mW/cm²（表 1 设置值）表 1·参数组合\n光斑方法报告传输光纤直径 400 μm，未据此换算头皮光斑方法·照射装置\n照射时间与疗程单次开光 4 分钟图 2·装置与时序\n剂量表 1 未列头皮 J/cm² 或脑内光剂量表 1·参数组合\n对照怎么做同次扫描开光前关光基线；未设独立假刺激图 2·装置与时序\n观察指标双回波 pCASL 提取 BOLD 与 CBF；部分条件做 MR 测温方法·MRI 采集\n测量时间关 4 分钟、开 4 分钟、关 4 分钟图 2·装置与时序"
   },
   {
-    "objectID": "library/tpbm/truong-2022.html#结果怎么看",
-    "href": "library/tpbm/truong-2022.html#结果怎么看",
-    "title": "连续光会改变哪些慢频段的血氧网络？",
+    "objectID": "library/tpbm/van-lankveld-2026.html#结果怎么看",
+    "href": "library/tpbm/van-lankveld-2026.html#结果怎么看",
+    "title": "相同波长的 BOLD 和脑血流反应一致吗？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n连接变化依赖慢频段和测量时段；图6比较内皮源性、肌源性频段在刺激前、中、后的连接，不是一个全脑统一增加的结果。（图 6·分频段连接）\n刺激期间肌源频段的全局/局部效率升高、路径长度缩短；恢复期未见同样显著差异。（图 8·网络效率）"
+    "text": "结果怎么看\n\n照射区 CBF 对 808 nm 的响应高于 1064 nm（FDR 校正 p = 0.048）。膝下区/伏隔核刺激中 BOLD 的波长对比方向相反（1064 nm 更高，p = 0.006）。（表 2·脑血流与 BOLD 对照）\n不同时间窗的 BOLD–CBF 斜率变化，模型估计的耗氧相关读数也随时间变化。（图 4·BOLD 与脑血流关系）"
   },
   {
-    "objectID": "library/tpbm/truong-2022.html#对实验设计有什么用",
-    "href": "library/tpbm/truong-2022.html#对实验设计有什么用",
-    "title": "连续光会改变哪些慢频段的血氧网络？",
+    "objectID": "library/tpbm/van-lankveld-2026.html#对实验设计有什么用",
+    "href": "library/tpbm/van-lankveld-2026.html#对实验设计有什么用",
+    "title": "相同波长的 BOLD 和脑血流反应一致吗？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n这里的频段属于血流动力学慢波，不是EEG的alpha/beta；不能把不同测量的“网络效率”混为一谈。"
+    "text": "对实验设计有什么用\n比较两种波长前，先写清主脑区、主时段和主读数。这里每次扫描以自身关光期作基线。若要估计相对假刺激的效果，需要另设匹配对照。把 BOLD 和 CBF 分开报告，也别用一处 BOLD 的幅度估算入脑剂量。"
   },
   {
-    "objectID": "library/tpbm/truong-2022.html#接着读",
-    "href": "library/tpbm/truong-2022.html#接着读",
-    "title": "连续光会改变哪些慢频段的血氧网络？",
+    "objectID": "library/tpbm/van-lankveld-2026.html#接着读",
+    "href": "library/tpbm/van-lankveld-2026.html#接着读",
+    "title": "相同波长的 BOLD 和脑血流反应一致吗？",
     "section": "接着读",
-    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+    "text": "接着读\n\n波长和脉冲怎么选？\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/wang-2017-heat.html",
-    "href": "library/tpbm/wang-2017-heat.html",
-    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
+    "objectID": "library/tpbm/wang-2021-eeg-heat.html",
+    "href": "library/tpbm/wang-2021-eeg-heat.html",
+    "title": "光刺激和皮肤加热的脑电分布一样吗？",
     "section": "",
-    "text": "Wang · 2017 · 健康人\nImpact of heat on metabolic and hemodynamic changes in transcranial infrared laser stimulation measured by broadband near-infrared spectroscopy\nNeurophotonics · DOI: 10.1117/1.NPh.5.1.011004 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "Wang · 2021 · 健康人\nTranscranial photobiomodulation and thermal stimulation induce distinct topographies of EEG alpha and beta power changes in healthy humans\nScientific Reports · DOI: 10.1038/s41598-021-97987-w · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/wang-2017-heat.html#怎么做",
-    "href": "library/tpbm/wang-2017-heat.html#怎么做",
-    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
+    "objectID": "library/tpbm/wang-2021-eeg-heat.html#怎么做",
+    "href": "library/tpbm/wang-2021-eeg-heat.html#怎么做",
+    "title": "光刺激和皮肤加热的脑电分布一样吗？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象11人；光与热实验来自同一批受试者方法 §2.2·受试者\n研究设计分次访视；光刺激结果与温度匹配的热刺激比较方法 §2.2·受试者\n波长1064 nm方法 §2.1·光参数\n连续光 / 脉冲连续光；每分钟55秒开、5秒关方法 §2.1·光参数\n照射位置右额方法 §2.1·光参数\n辐照度 / 功率250 mW/cm²；头皮入射方法 §2.1·光参数\n光斑13.6 cm²方法 §2.1·光参数\n照射时间与疗程8分钟；每分钟出光55秒方法 §2.1·光参数\n剂量13.75 J/cm² / 周期方法 §2.1·光参数\n对照怎么做热刺激从32°C升至41°C；另有遮光假刺激描述图 4–5·温度与热对照\n观察指标bbNIRS：CCO及血红蛋白；皮温图 6·光与热的直接比较\n测量时间刺激前2分钟、刺激8分钟、恢复5分钟方法 §2.1·光参数"
+    "text": "怎么做\n\n研究对象光组分析46人；热组分析11人（分别招募49和14人）方法·样本与排除\n研究设计各组内随机单盲主动/假刺激交叉；光热为不同人群方法·样本与排除\n波长1064 nm方法与图 1·参数和热对照\n连续光 / 脉冲连续光方法与图 1·参数和热对照\n照射位置右额 Fp2/AF8附近方法与图 1·参数和热对照\n辐照度 / 功率约250 mW/cm²；头皮入射方法与图 1·参数和热对照\n光斑直径4.2 cm方法与图 1·参数和热对照\n照射时间与疗程8分钟方法与图 1·参数和热对照\n剂量总能量1680 J（3.5 W × 480秒）方法与图 1·参数和热对照\n对照怎么做遮光假刺激；热刺激33→41°C，热假刺激33°C方法与图 1·参数和热对照\n观察指标64通道闭眼 EEG 功率图 5·光与热拓扑差异\n测量时间2分钟基线；刺激8分钟；恢复分析2分钟方法与图 1·参数和热对照"
   },
   {
-    "objectID": "library/tpbm/wang-2017-heat.html#结果怎么看",
-    "href": "library/tpbm/wang-2017-heat.html#结果怎么看",
-    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
+    "objectID": "library/tpbm/wang-2021-eeg-heat.html#结果怎么看",
+    "href": "library/tpbm/wang-2021-eeg-heat.html#结果怎么看",
+    "title": "光刺激和皮肤加热的脑电分布一样吗？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n热刺激与光刺激的 CCO、HbO 等时间曲线不同；图6给出校正后的时点比较。（图 6·光与热的直接比较）"
+    "text": "结果怎么看\n\n扣除各自假刺激后，光与热引起的alpha/beta功率空间分布存在差异。（图 5·光与热拓扑差异）"
   },
   {
-    "objectID": "library/tpbm/wang-2017-heat.html#对实验设计有什么用",
-    "href": "library/tpbm/wang-2017-heat.html#对实验设计有什么用",
-    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
+    "objectID": "library/tpbm/wang-2021-eeg-heat.html#对实验设计有什么用",
+    "href": "library/tpbm/wang-2021-eeg-heat.html#对实验设计有什么用",
+    "title": "光刺激和皮肤加热的脑电分布一样吗？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n热对照匹配的是额部皮温轨迹；不等于已经匹配脑内温度。光数据来自此前实验，需留意访视与顺序。"
+    "text": "对实验设计有什么用\n热效应比较为两组人之间的比较。结果支持在脑电实验里设置热对照，不给出通用安全剂量。"
   },
   {
-    "objectID": "library/tpbm/wang-2017-heat.html#接着读",
-    "href": "library/tpbm/wang-2017-heat.html#接着读",
-    "title": "把皮肤加热，能复现光刺激的代谢与血氧反应吗？",
+    "objectID": "library/tpbm/wang-2021-eeg-heat.html#接着读",
+    "href": "library/tpbm/wang-2021-eeg-heat.html#接着读",
+    "title": "光刺激和皮肤加热的脑电分布一样吗？",
     "section": "接着读",
     "text": "接着读\n\n怎样区分光照与加热效应？\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/wang-2022-metabolism.html",
-    "href": "library/tpbm/wang-2022-metabolism.html",
-    "title": "血氧同步与氧化代谢同步会同向改变吗？",
+    "objectID": "library/tpbm/yuan-2020.html",
+    "href": "library/tpbm/yuan-2020.html",
+    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
     "section": "",
-    "text": "Wang · 2022 · 健康人\nMetabolic Connectivity and Hemodynamic-Metabolic Coherence of Human Prefrontal Cortex at Rest and Post Photobiomodulation Assessed by Dual-Channel Broadband NIRS\nMetabolites · DOI: 10.3390/metabo12010042 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "Yuan · 2020 · 计算模型\nTranscranial photobiomodulation with near-infrared light from childhood to elderliness: simulation of dosimetry\nNeurophotonics · DOI: 10.1117/1.NPh.7.1.015009 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/wang-2022-metabolism.html#怎么做",
-    "href": "library/tpbm/wang-2022-metabolism.html#怎么做",
-    "title": "血氧同步与氧化代谢同步会同向改变吗？",
+    "objectID": "library/tpbm/yuan-2020.html#怎么做",
+    "href": "library/tpbm/yuan-2020.html#怎么做",
+    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象12名健康人，各完成2次访视；24次记录不是24名独立受试者方法 §4.1·受试者\n研究设计随机顺序、参与者盲法、主动/假刺激交叉；间隔14天方法 §4.1·受试者\n波长1064 nm方法 §4.3·照射\n连续光 / 脉冲连续光方法 §4.3·照射\n照射位置右额眉毛与发际之间方法 §4.3·照射\n辐照度 / 功率250 mW/cm²；头皮入射方法 §4.3·照射\n光斑13.6 cm²方法 §4.3·照射\n照射时间与疗程8分钟方法 §4.3·照射\n剂量方法未单列面剂量方法 §4.3·照射\n对照怎么做0.1 W档位 + 黑帽遮光；非接触约2 cm方法 §4.3·照射\n观察指标双侧bbNIRS：HbO与oxCCO慢波相干图 4·相干性变化\n测量时间6分钟基线、8分钟刺激、6分钟恢复；后段4分钟用于相干分析图 5·记录安排"
+    "text": "怎么做\n\n研究对象18个年龄组MRI平均模板，覆盖5–89岁方法 §2.1·年龄模板\n研究设计蒙特卡洛光传播模拟；非人体刺激试验方法 §2.1·年龄模板\n波长670 / 810 / 850 / 980 / 1064 nm方法 §2.4–2.5·光源和模拟\n连续光 / 脉冲稳态光传播模型；不比较脉冲生物效应方法 §2.4–2.5·光源和模拟\n照射位置F3/F4 与 Fpz；对应dlPFC/vmPFC方法 §2.4–2.5·光源和模拟\n辐照度 / 功率30或300 mW/cm²用于疗程时间估算；属于输入设定结果 §3.1·剂量与时长估算\n光斑Fpz 28.4 cm²；F3/F4各28.4 cm²结果 §3.1·剂量与时长估算\n照射时间与疗程估算到达目标剂量所需时长；非实测疗程结果 §3.1·剂量与时长估算\n剂量以目标区第99百分位3 J/cm²为估算条件，不是临床推荐值结果 §3.1·剂量与时长估算\n对照怎么做不同年龄、波长和光源位置模型方法 §2.4–2.5·光源和模拟\n观察指标能量沉积及达到设定剂量的预计时长图 6·波长和年龄\n测量时间不适用：稳态计算方法 §2.4–2.5·光源和模拟"
   },
   {
-    "objectID": "library/tpbm/wang-2022-metabolism.html#结果怎么看",
-    "href": "library/tpbm/wang-2022-metabolism.html#结果怎么看",
-    "title": "血氧同步与氧化代谢同步会同向改变吗？",
+    "objectID": "library/tpbm/yuan-2020.html#结果怎么看",
+    "href": "library/tpbm/yuan-2020.html#结果怎么看",
+    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n部分频段双侧HbO相干下降，双侧oxCCO相干则在神经源频段增加。（图 4·相干性变化）"
+    "text": "结果怎么看\n\n在文中光学参数下，810 nm的目标区沉积较高，并随年龄和照射位置变化。（图 6·波长和年龄）\n颅外组织厚度与能量沉积存在关系。（图 8–9·剂量与组织厚度）"
   },
   {
-    "objectID": "library/tpbm/wang-2022-metabolism.html#对实验设计有什么用",
-    "href": "library/tpbm/wang-2022-metabolism.html#对实验设计有什么用",
-    "title": "血氧同步与氧化代谢同步会同向改变吗？",
+    "objectID": "library/tpbm/yuan-2020.html#对实验设计有什么用",
+    "href": "library/tpbm/yuan-2020.html#对实验设计有什么用",
+    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n相同受试者的两次记录不可当作独立样本；血氧和氧化代谢是不同信号，变化方向也可能不同。"
+    "text": "对实验设计有什么用\n组织光学参数假定不随年龄改变；模拟沉积高不等于认知或临床效果最好。"
   },
   {
-    "objectID": "library/tpbm/wang-2022-metabolism.html#接着读",
-    "href": "library/tpbm/wang-2022-metabolism.html#接着读",
-    "title": "血氧同步与氧化代谢同步会同向改变吗？",
+    "objectID": "library/tpbm/yuan-2020.html#接着读",
+    "href": "library/tpbm/yuan-2020.html#接着读",
+    "title": "相同头皮照射，不同年龄的脑内剂量一样吗？",
     "section": "接着读",
-    "text": "接着读\n\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
+    "text": "接着读\n\n波长和脉冲怎么选？\n相同头皮剂量，进入脑内的光一样多吗？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "library/tpbm/zhao-2022.html",
-    "href": "library/tpbm/zhao-2022.html",
-    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
+    "objectID": "library/tpbm/zomorrodi-2019.html",
+    "href": "library/tpbm/zomorrodi-2019.html",
+    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
     "section": "",
-    "text": "Zhao · 2022 · 健康人\nTranscranial photobiomodulation enhances visual working memory capacity in humans\nScience Advances · DOI: 10.1126/sciadv.abq3211 · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
+    "text": "Zomorrodi · 2019 · 健康人\nPulsed Near Infrared Transcranial and Intranasal Photobiomodulation Significantly Modulates Neural Oscillations: a pilot exploratory study\nScientific Reports · DOI: 10.1038/s41598-019-42693-x · 阅读全文\n阅读范围：全文方法、结果与图表。\n加入研究对比 · 按问题读"
   },
   {
-    "objectID": "library/tpbm/zhao-2022.html#怎么做",
-    "href": "library/tpbm/zhao-2022.html#怎么做",
-    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
+    "objectID": "library/tpbm/zomorrodi-2019.html#怎么做",
+    "href": "library/tpbm/zomorrodi-2019.html#怎么做",
+    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
     "section": "怎么做",
-    "text": "怎么做\n\n研究对象4项实验招募90人，排除11人方法·参与者与四项实验\n研究设计各实验内双盲随机主动/假刺激交叉；不同波长和侧别属不同实验样本方法·参与者与四项实验\n波长1064 / 852 nm方法·tPBM protocol\n连续光 / 脉冲连续光方法·tPBM protocol\n照射位置Fp2内外侧交替；第四实验用Fp1方法·tPBM protocol\n辐照度 / 功率167 mW/cm²；头皮入射方法·tPBM protocol\n光斑原文13.57 cm²，同时写直径4 cm方法·tPBM protocol\n照射时间与疗程12分钟；两点每60秒交替；刺激后休息8分钟方法·tPBM protocol\n剂量两波长等光能；累计面剂量未单列方法·tPBM protocol\n对照怎么做开始与结束各30秒出光；总光能约主动的1/12方法·tPBM protocol\n观察指标视觉工作记忆容量K、EEG CDA图 1–2·记忆与CDA\n测量时间刺激后8分钟开始任务/EEG方法·tPBM protocol"
+    "text": "怎么做\n\n研究对象20名健康老年人，61–74岁图 1·随机交叉设计\n研究设计双盲随机交叉；访视间隔至少1周图 1·随机交叉设计\n波长810 nm方法·设备\n连续光 / 脉冲40 Hz；50%占空比方法·设备\n照射位置4个头部LED + 1个鼻内LED方法·设备\n辐照度 / 功率正文：前部75、后部100、鼻内25 mW/cm²；与表2列项存在不一致方法·设备\n光斑约1 cm² / LED表 2·设备参数\n照射时间与疗程20分钟方法·设备\n剂量原文合计240 J；不作为单个照射点的剂量表 2·设备参数\n对照怎么做同设备假刺激；主动与假刺激交叉方法·设备\n观察指标静息 EEG 功率与图论指标图 4·频段功率\n测量时间刺激前后各10分钟闭眼静息 EEG方法·设备"
   },
   {
-    "objectID": "library/tpbm/zhao-2022.html#结果怎么看",
-    "href": "library/tpbm/zhao-2022.html#结果怎么看",
-    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
+    "objectID": "library/tpbm/zomorrodi-2019.html#结果怎么看",
+    "href": "library/tpbm/zomorrodi-2019.html#结果怎么看",
+    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
     "section": "结果怎么看",
-    "text": "结果怎么看\n\n右额1064 nm条件下，视觉记忆容量和CDA负荷效应增加。（图 1–2·记忆与CDA）\n852 nm右额及1064 nm左额实验未出现同样收益。（图 4–5·波长和位置对照）"
+    "text": "结果怎么看\n\n相对假刺激，delta/theta功率变化较低，alpha/beta/gamma较高。（图 4·频段功率）\n网络指标的显著差异随频段及稀疏度阈值变化。（图 5–8·网络指标）"
   },
   {
-    "objectID": "library/tpbm/zhao-2022.html#对实验设计有什么用",
-    "href": "library/tpbm/zhao-2022.html#对实验设计有什么用",
-    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
+    "objectID": "library/tpbm/zomorrodi-2019.html#对实验设计有什么用",
+    "href": "library/tpbm/zomorrodi-2019.html#对实验设计有什么用",
+    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n波长和侧别比较跨不同实验人群；不能把单项实验有显著性、另一项没有，直接当成普遍最优参数。光斑面积与直径按原文保留。"
+    "text": "对实验设计有什么用\n组合了经颅与鼻内照射；没有同剂量连续光组，不能单独归因于40 Hz。参数正文和表2不一致，保留原文差异。"
   },
   {
-    "objectID": "library/tpbm/zhao-2022.html#接着读",
-    "href": "library/tpbm/zhao-2022.html#接着读",
-    "title": "波长和左右额部位置会改变视觉记忆收益吗？",
+    "objectID": "library/tpbm/zomorrodi-2019.html#接着读",
+    "href": "library/tpbm/zomorrodi-2019.html#接着读",
+    "title": "40 Hz 经颅加鼻内刺激后，脑电频段如何改变？",
     "section": "接着读",
-    "text": "接着读\n\n波长和脉冲怎么选？\n注意与记忆改善，应该看哪些指标？\n\n修改这篇研究的整理"
+    "text": "接着读\n\n波长和脉冲怎么选？\n脑电、血氧和功能连接为什么会给出不同结果？\n\n修改这篇研究的整理"
   },
   {
-    "objectID": "research/questions/brain-signals.html",
-    "href": "research/questions/brain-signals.html",
-    "title": "脑电、血氧和功能连接为什么会给出不同结果？",
+    "objectID": "research/questions/cognition.html",
+    "href": "research/questions/cognition.html",
+    "title": "注意与记忆改善，应该看哪些指标？",
     "section": "",
-    "text": "这些指标测量的对象和时间尺度不同。脑电功率增加、血氧连接增强和脑网络效率变化，可以同时出现，也可能方向不同。比较时先对齐信号、频段、分析方法和测量时段。\n对比本页研究 · 全部问题"
+    "text": "先看研究预设的任务指标，再看真刺激相对对照的变化。反应更快、答对更多和能记住更多项目是不同结果；只有真刺激组前后显著，还不足以说明它优于对照。\n对比本页研究 · 全部问题"
   },
   {
-    "objectID": "research/questions/brain-signals.html#把研究放在一起看",
-    "href": "research/questions/brain-signals.html#把研究放在一起看",
-    "title": "脑电、血氧和功能连接为什么会给出不同结果？",
+    "objectID": "research/questions/cognition.html#把研究放在一起看",
+    "href": "research/questions/cognition.html#把研究放在一起看",
+    "title": "注意与记忆改善，应该看哪些指标？",
     "section": "把研究放在一起看",
-    "text": "把研究放在一起看\n\nWang · 2022：同一次照射，血氧与代谢信号的连接方向不同\n研究同时记录 HbO 与氧化型细胞色素 c 氧化酶。部分低频范围内，HbO 相干性下降，而代谢信号的相干性上升。把二者统称“脑连接增强”会丢掉关键结果。\n研究参数与结果 · 图 4·相干性变化 · 方法 §4.3·照射\n\n\nTruong · 2022：fNIRS 连接变化依赖频段与时间\n研究用多通道 fNIRS 分析低频血流动力学振荡。肌源性频段的部分网络指标在刺激期间改变，刺激后没有持续出现相同变化。这里的“频段”不是 EEG 的 alpha 或 beta 频段。\n研究参数与结果 · 图 6·分频段连接 · 图 8·网络效率\n\n\nShahdadian · 2022：功率上升不等于同步和网络效率上升\n脑电虚部相干性分析显示，beta 频段的同步及部分图论指标下降。它与另一些报告脑电功率增加的研究测量不同，不能只按“增加 / 减少”判断是否矛盾。\n研究参数与结果 · 图 4·EEG功率 · 图 5·全局网络指标\n\n\nVan Lankveld · 2026：同一波长对比，BOLD 与脑血流的方向可以不同\n照射区的脑血流对 808 nm 响应更高，而膝下区/伏隔核的照射中 BOLD 对 1064 nm 响应更高。区域、指标和时段需要分别写清。\n研究参数与结果 · 表 2·脑血流与 BOLD 对照 · 图 4·BOLD 与脑血流关系\n\n\nFekri · 2019：动作速度用单指敲击数测量\nC3 主动照射与假刺激的敲击数变化不同。这个设计给出即刻行为读数；要回答脑活动和序列学习的问题，需要另加生理指标与延迟测试。\n研究参数与结果 · 方法·敲击任务 · 图 2·C3 照射的敲击数 · 表 2·各组敲击数增幅\n\n\nBibb · 2025：固定速度的任务激活和静息连接分开读\n主动光后左侧 M1–丘脑连接相对假光有变化，但光与磁的直接比较未达显著。研究没有量化敲击表现，连接结果应按影像指标解释。\n研究参数与结果 · 方法 2.4·任务设计 · 图 2·任务 BOLD · 图 3·静息态及扩散连接"
+    "text": "把研究放在一起看\n\nBarrett · 2013：早期研究同时测注意和延迟匹配任务\n40 人随机分组。注意反应速度和延迟匹配任务出现部分改善，但延迟匹配准确率的组间变化还涉及对照组下降，反应时分析也有剔除异常值的处理。读图时要把两组轨迹都看完。\n研究参数与结果 · PDF第6页·图3–4\n\n\nHolmes · 2019：不同任务不一定一起改善\n右前额刺激后的延迟匹配任务表现改善，警觉任务没有检出相同效果。该研究使用此前的假刺激数据，行为和血氧对照人数也不同。\n研究参数与结果 · 表 1·任务结果 · 方法·样本与对照来源\n\n\nZhao · 2022：把行为变化与对应脑电指标联系起来\n研究用变化检测任务估计工作记忆容量，并记录对侧延迟活动。右额 1064 nm 条件下两者均出现变化，提供了行为与脑电的联合观察，但脑电相关不等于已经证明完整作用机制。\n研究参数与结果 · 图 1–2·记忆与CDA · 图 4–5·波长和位置对照"
   },
   {
-    "objectID": "research/questions/brain-signals.html#做实验时看什么",
-    "href": "research/questions/brain-signals.html#做实验时看什么",
-    "title": "脑电、血氧和功能连接为什么会给出不同结果？",
+    "objectID": "research/questions/cognition.html#做实验时看什么",
+    "href": "research/questions/cognition.html#做实验时看什么",
+    "title": "注意与记忆改善，应该看哪些指标？",
     "section": "做实验时看什么",
-    "text": "做实验时看什么\n\n每个结果写明：测什么信号、什么频段、哪个脑区、刺激中还是刺激后。\n连接分析同时报告节点定义、连接估计方式和阈值处理。\n同一招募样本的多篇分析不自动视作独立重复验证。"
+    "text": "做实验时看什么\n\n预先选定一个主要行为指标，避免看完结果再挑任务。\n报告两组或各条件的基线、变化和差值，不只列各组的 p 值。\n重复任务需考虑练习、疲劳和测量顺序；交叉设计还要关注残留效应。"
   },
   {
-    "objectID": "research/questions/brain-signals.html#相关研究",
-    "href": "research/questions/brain-signals.html#相关研究",
-    "title": "脑电、血氧和功能连接为什么会给出不同结果？",
+    "objectID": "research/questions/cognition.html#相关研究",
+    "href": "research/questions/cognition.html#相关研究",
+    "title": "注意与记忆改善，应该看哪些指标？",
     "section": "相关研究",
-    "text": "相关研究\n\nTian · 2016：照射额中与右额，双侧血氧怎样变化？\nPruitt · 2020：年轻人与老年人的血氧和氧化代谢反应一样吗？\nWang · 2021：光刺激和皮肤加热的脑电分布一样吗？\nWang · 2022：血氧同步与氧化代谢同步会同向改变吗？\nTruong · 2022：连续光会改变哪些慢频段的血氧网络？\nShahdadian · 2022：脑电功率增加时，网络效率也一定增加吗？\nDmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？\nMa · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？\nVan Lankveld · 2026：相同波长的 BOLD 和脑血流反应一致吗？\nFekri · 2019：单次 808 nm 照射后的双手敲击速度\nBibb · 2025：主动光、磁刺激与各自假刺激下的运动区 fMRI\n\n修改这页内容"
+    "text": "相关研究\n\nBarrett · 2013：早期人体研究怎样测注意和记忆？\nHolmes · 2019：认知任务表现与前额血氧是否一起改变？\nZhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？\nQu · 2022：连续七天刺激的记忆改善能保持多久？\n\n修改这页内容"
   },
   {
-    "objectID": "research/questions/heat-control.html",
-    "href": "research/questions/heat-control.html",
-    "title": "怎样区分光照与加热效应？",
+    "objectID": "research/questions/penetration.html",
+    "href": "research/questions/penetration.html",
+    "title": "相同头皮剂量，进入脑内的光一样多吗？",
     "section": "",
-    "text": "需要把光照和匹配的加热条件直接比较，并同时记录温度和脑信号。现有研究发现二者的部分反应不同；结论的范围取决于加热是否匹配、测在哪里，以及测量能分辨多小的变化。\n对比本页研究 · 全部问题"
+    "text": "不一定。头皮入射剂量只是起点，光到达脑组织前还要经过皮肤、颅骨等结构。组织实验和光传播模型可以帮助估计差异，但都需要与活体测量及具体设备条件对应。\n对比本页研究 · 全部问题"
   },
   {
-    "objectID": "research/questions/heat-control.html#把研究放在一起看",
-    "href": "research/questions/heat-control.html#把研究放在一起看",
-    "title": "怎样区分光照与加热效应？",
+    "objectID": "research/questions/penetration.html#把研究放在一起看",
+    "href": "research/questions/penetration.html#把研究放在一起看",
+    "title": "相同头皮剂量，进入脑内的光一样多吗？",
     "section": "把研究放在一起看",
-    "text": "把研究放在一起看\n\nWang · 2017：光照与皮肤加热的血氧反应并不相同\n11 人接受单独的前额加热，并与同一批人此前的激光实验比较。光照与加热引起的氧合血红蛋白、氧化型细胞色素 c 氧化酶变化不同。这个结果支持进一步分离热与光的作用，但两种处理不在同一次随机交叉实验里。\n研究参数与结果 · 图 6·光与热的直接比较 · 方法 §2.1·光参数\n\n\nWang · 2021：脑电的空间分布也值得比较\n激光和加热各自与假刺激交叉比较，来自两个不同样本。两者的 alpha、beta 变化分布不同；设计下一步实验时，可以保留这个空间指标，同时在同一批人中比较。\n研究参数与结果 · 图 5·光与热拓扑差异 · 方法·样本与排除\n\n\nDmochowski · 2020：温度与功能连接来自独立实验\n研究报告照射时 fMRI 功能连接改变；另一个样本进行了 MR 测温，未检出显著温度差异。温度实验有假刺激，而功能连接实验没有，不能把两部分合成“已排除热效应的连接改变”。\n研究参数与结果 · 图 4·全脑功能连接 · 方法·独立测温实验"
+    "text": "把研究放在一起看\n\nJagdeo · 2012：直接测量不同部位的透过光\n研究比较 633 和 830 nm，并测量不同颅骨部位及软组织条件下的透光。样本来自离体组织，材料数量很少；透射率既依赖波长，也依赖位置和实验几何。\n研究参数与结果 · 图 2–3·区域透射比例 · 表 1–2·入射参照和透射值\n\n\nYuan · 2020：用不同年龄头模预测光的分布\n研究使用 18 个年龄模板，比较五种波长和不同额部位置。模型采用固定的组织光学属性，并以目标剂量估算时间；这个目标值是模型设定，不能直接当作人体实验推荐剂量。\n研究参数与结果 · 图 6·波长和年龄 · 方法 §2.4–2.5·光源和模拟\n\n\nTian · 2016：照射位置与双侧反应一起记录\n两项小样本实验分别照射额中和右额，观察双侧血氧。位置比较可以帮助提出靶点问题，但血氧变化并不是脑内光剂量的直接测量。\n研究参数与结果 · 图 3–4·双侧血氧 · 方法·实验流程\n\n\nEnam · 2026：组织后光量取决于出光和位置\n810 nm 头盔在同一体模右顶和枕部的透过辐照度约为 0.918 与 0.130 mW/cm²。模型的探测孔径与体模的测量几何需分别记录。\n研究参数与结果 · 已接收稿 PDF 第 14 页·图 8 模拟透射 · 已接收稿 PDF 第 16 页·图 10 体模透射"
   },
   {
-    "objectID": "research/questions/heat-control.html#做实验时看什么",
-    "href": "research/questions/heat-control.html#做实验时看什么",
-    "title": "怎样区分光照与加热效应？",
+    "objectID": "research/questions/penetration.html#做实验时看什么",
+    "href": "research/questions/penetration.html#做实验时看什么",
+    "title": "相同头皮剂量，进入脑内的光一样多吗？",
     "section": "做实验时看什么",
-    "text": "做实验时看什么\n\n记录温度随时间的变化、测点与测量精度，不只报刺激前后各一个温度。\n假刺激的光照时长、皮肤感觉、风扇和声音都需要写清。早期部分假刺激仍含短时光照。\n把直接热对照、假刺激和无对照研究分开阅读。"
+    "text": "做实验时看什么\n\n头皮剂量、模型预测的脑内剂量和实测脑信号分别保存。\n比较设备时记录光斑、接触距离、照射角度和位置；不要只比总功率。\n模型结果附上头模、组织光学属性和目标区域，保留输入条件。"
   },
   {
-    "objectID": "research/questions/heat-control.html#相关研究",
-    "href": "research/questions/heat-control.html#相关研究",
-    "title": "怎样区分光照与加热效应？",
+    "objectID": "research/questions/penetration.html#相关研究",
+    "href": "research/questions/penetration.html#相关研究",
+    "title": "相同头皮剂量，进入脑内的光一样多吗？",
     "section": "相关研究",
-    "text": "相关研究\n\nWang · 2017：把皮肤加热，能复现光刺激的代谢与血氧反应吗？\nWang · 2021：光刺激和皮肤加热的脑电分布一样吗？\nDmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？\nBarrett · 2013：早期人体研究怎样测注意和记忆？\n\n修改这页内容"
+    "text": "相关研究\n\nJagdeo · 2012：红光与近红外穿过颅骨的比例一样吗？\nYuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？\nTian · 2016：照射额中与右额，双侧血氧怎样变化？\nEnam · 2026：波长相近的头盔，透过组织后差多少？\n\n修改这页内容"
   },
   {
-    "objectID": "research/questions/repeated-clinical.html",
-    "href": "research/questions/repeated-clinical.html",
-    "title": "单次与重复照射，哪些变化能持续？",
+    "objectID": "research/questions/sleep-homeostasis.html",
+    "href": "research/questions/sleep-homeostasis.html",
+    "title": "光刺激后，主观睡眠与脑电指标是否同步变化？",
     "section": "",
-    "text": "持续时间需要靠停用后的测量回答。健康人重复照射研究和临床研究提供了不同长度的随访，但样本、疾病、对照和终点差异很大，不能把所有改善合并成一种疗效。\n对比本页研究 · 全部问题"
+    "text": "Jung 等的一周先导试验观察到主观睡眠量表改善。人体体动指标的结果更不确定。小鼠研究发现，睡眠脑电和腺苷的变化与刺激时相和观察窗口有关。\n对比本页研究 · 全部问题"
   },
   {
-    "objectID": "research/questions/repeated-clinical.html#把研究放在一起看",
-    "href": "research/questions/repeated-clinical.html#把研究放在一起看",
-    "title": "单次与重复照射，哪些变化能持续？",
+    "objectID": "research/questions/sleep-homeostasis.html#把研究放在一起看",
+    "href": "research/questions/sleep-homeostasis.html#把研究放在一起看",
+    "title": "光刺激后，主观睡眠与脑电指标是否同步变化？",
     "section": "把研究放在一起看",
-    "text": "把研究放在一起看\n\nQu · 2022：重复照射后继续追踪工作记忆\n老年人研究安排连续 7 天照射，并在后续数周测试工作记忆。阅读时需要同时看真刺激与对照的时间轨迹，以及假刺激最初仍有 30 秒光照这一细节。\n研究参数与结果 · 图 2·单次与重复刺激 · 方法 §2.3·刺激参数\n\n\nFigueiro Longo · 2020：影像改变与临床症状改善是两回事\n中度创伤性脑损伤随机试验发现部分弥散影像指标随处理改变，但临床症状没有显示相应的显著组别与时间交互。影像结果值得追踪，不能直接写成已经改善临床恢复。\n研究参数与结果 · 图 2·临床症状 · 图 3·扩散参数\n\n\nSaltmarche · 2017：停用后的变化能提出问题，但病例系列不能确认疗效\n5 名痴呆患者接受头部与鼻内照射，12 周后停用并随访。量表变化和部分停用后回落提出了持续疗程的问题；由于没有对照，后续需要用对照设计验证。\n研究参数与结果 · 表 3 / 图 2–3·认知评分 · 表 2·两种设备参数\n\n\nNizamutdinov · 2021：检查统计检验到底比较了什么\n研究有真刺激与假刺激分组，报告的认知表格包含组内前后检验。不能因为真刺激组显著、假刺激组不显著，就自动得出两组变化存在显著差异。\n研究参数与结果 · 表 1·认知前后评分 · 方法·随机与设备\n\n\nJung · 2026：连续一周照射后，主观与体动结果分开读\n40 人双盲随机试验中，失眠严重度与睡眠质量量表有时间×组别交互。腕式体动的总睡眠时间未见显著交互。表 3 中，从佩戴设备到入睡的间隔在意向治疗样本中无显著组间差异。\n研究参数与结果 · 图 5 / PDF 第 10 页 · 随机分组与流程 · 表 2 / PDF 第 8 页 · 量表、日记与体动 · 表 3 / PDF 第 9 页 · 入睡时间与依从分析\n\n\nSchiffer · 2009：区分单组随访与急性关灯对照\nHAM-D 平均较基线下降 13.2 和 6.5 分。 把即刻生理对照与独立、等时程的症状对照分别设计，预先规定随访时点。\n研究参数与结果 · PDF 第 9 页｜图 3、表 4 · PDF 第 4 页｜照射参数与表 1\n\n\nCoelho · 2025：代谢物前后差与剂量效应分别检验\n单次分析 NAA 从 7.52 到 8.12 mmol/L，但变化未显示条件间显著差异。 先检验主动对假刺激的变化差，再判断脑指标能否解释症状变化。不同档位同时改变了时间、辐照度或脉冲方式。\n研究参数与结果 · PDF 第 9 页｜单次 NAA 分析 · PDF 第 3 页｜表 1"
+    "text": "把研究放在一起看\n\nJung · 2026：人体量表与客观睡眠指标分别看\n40 人随机分组。表 2 的 ISI、PSQI 有时间×组别交互，腕式体动总睡眠时间无显著交互。表 3 的装置佩戴至入睡间隔只在按方案的未调整比较中有明显组间差异，完整随机样本的调整后 p=0.754。\n研究参数与结果 · 图 5 / PDF 第 10 页 · 随机分组与流程 · 表 2 / PDF 第 8 页 · 量表、日记与体动 · 表 3 / PDF 第 9 页 · 入睡时间与依从分析\n\n\nJung · 2026：小鼠刺激时相改变了可观察的脑电结果\n暗期末 810 nm 照射实验中，额叶细胞外腺苷与 NREM δ 功率在刺激和随后 3 小时内同时升高。明期开始照射时，δ 功率无显著差异。两个实验各 8 只，时相效应值得用专门的直接比较检验。\n研究参数与结果 · 图 1a–b / PDF 第 3 页 · 小鼠参数与时序 · 图 3 / PDF 第 5 页 · 腺苷、CCO 与 δ 功率\n\n\nSaltmarche · 2017：家属报告可补充夜间记录\n患者及家属报告中有睡眠改善，未采用统一的睡眠量表或夜间脑电。\n研究参数与结果 · 正式版 PDF 第 7 页｜表 4 生活质量反馈\n\n\nMehdizadeh · 2025：清醒 δ 功率与夜间脑电分开解读\nFz 校正后 δ 功率，主动组 46.44、假刺激组 80.33 μV²（p &lt; 0.001）。F3、F4 未达显著。 这是睁眼静息记录。PSQI 总分超范围，量表效应待澄清。\n研究参数与结果 · 期刊 PDF 第 4 页｜表 1 · 期刊 PDF 第 5 页｜表 2 · 期刊公开摘要"
   },
   {
-    "objectID": "research/questions/repeated-clinical.html#做实验时看什么",
-    "href": "research/questions/repeated-clinical.html#做实验时看什么",
-    "title": "单次与重复照射，哪些变化能持续？",
+    "objectID": "research/questions/sleep-homeostasis.html#做实验时看什么",
+    "href": "research/questions/sleep-homeostasis.html#做实验时看什么",
+    "title": "光刺激后，主观睡眠与脑电指标是否同步变化？",
     "section": "做实验时看什么",
-    "text": "做实验时看什么\n\n把即时反应、疗程末结果和停用后保持分别设定测量时间。\n症状量表、行为任务和影像结果分开报告，明确哪个是主要终点。\n病例报告适合发现值得检验的问题；对照试验用于比较治疗效果。"
+    "text": "做实验时看什么\n\n提前约定主要睡眠终点，把主观量表、体动推算和脑电分期分别解释。\n记录刺激相对昼夜周期的位置及采样窗口。\n同时报告意向治疗与按方案分析，并注明调整模型。"
   },
   {
-    "objectID": "research/questions/repeated-clinical.html#相关研究",
-    "href": "research/questions/repeated-clinical.html#相关研究",
-    "title": "单次与重复照射，哪些变化能持续？",
+    "objectID": "research/questions/sleep-homeostasis.html#相关研究",
+    "href": "research/questions/sleep-homeostasis.html#相关研究",
+    "title": "光刺激后，主观睡眠与脑电指标是否同步变化？",
     "section": "相关研究",
-    "text": "相关研究\n\nQu · 2022：连续七天刺激的记忆改善能保持多久？\nCassano · 2015：早期抑郁试验怎样安排照射和假刺激？\nSaltmarche · 2017：经颅加鼻内疗程结束后，认知评分怎样变化？\nChao · 2020：脑震荡病例的量表、灌注与连接怎样一起读？\nNizamutdinov · 2021：居家头盔照射八周后，痴呆患者的认知评分如何？\nFigueiro Longo · 2020：急性脑损伤后，影像变化是否伴随症状改善？\nJung · 2026：额部近红外光能改善睡眠吗？\nSchiffer · 2009：单次照光后，症状变化维持多久？\nCoelho · 2025：代谢物升高，有特定剂量效应吗？\n\n修改这页内容"
+    "text": "相关研究\n\nJung · 2026：额部近红外光能改善睡眠吗？\nSaltmarche · 2017：经颅加鼻内疗程结束后，认知评分怎样变化？\nMehdizadeh · 2025：慢性失眠患者照光后，清醒 δ 功率如何变化？\n\n修改这页内容"
   },
   {
-    "objectID": "research/questions/wavelength-pulse.html",
-    "href": "research/questions/wavelength-pulse.html",
-    "title": "波长和脉冲怎么选？",
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "论文笔记",
     "section": "",
-    "text": "先看每种条件实际送入多少光，再看波长与脉冲。现有研究提供了可比较的实验条件，但不同条件的能量常常也在变化，不能把全部差异都归给某个波长或频率。\n对比本页研究 · 全部问题"
+    "text": "每天围绕一个问题，读三篇经颅光刺激论文和一篇相关的 fMRI 脑网络论文。按问题读 → 也可在下方筛选单篇笔记。\n\n  全部\n  经颅光刺激\n  fMRI 脑网络\n\n\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月10日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月10日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月10日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月10日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\nBibb 等的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nFekri 等的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nIravani 等的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nWiestler 与 Diedrichsen的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nDmochowski 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\nEnam 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\nKundu 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\nVan Lankveld 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\n一项早期对照研究用反应时间和正确次数，检验额部近红外刺激后的行为变化。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n小鼠实验测脑内腺苷和睡眠脑电，人体试验看失眠症状和入睡时间。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同一批参与者接受两种磁刺激，研究用静息态 fMRI 分开看平均连接和连接随时间的波动。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n22 名健康参与者接受四种主动刺激和一种假刺激，研究比较了运动诱发电位、血氧与手指动作。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n用 ASL MRI 对照基线、首次和第六次刺激后的脑灌注。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n  \n\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
   },
   {
-    "objectID": "research/questions/wavelength-pulse.html#把研究放在一起看",
-    "href": "research/questions/wavelength-pulse.html#把研究放在一起看",
-    "title": "波长和脉冲怎么选？",
-    "section": "把研究放在一起看",
-    "text": "把研究放在一起看\n\nMa · 2026：同一个人比较四种光照条件\n22 名健康人接受 810 / 1064 nm 与连续 / 40 Hz 三角波的组合及假刺激。1064 nm 脉冲条件在刺激后 30 分钟的运动诱发电位高于两种连续光条件，但没有显示高于 810 nm 脉冲。连续与脉冲条件的辐照度和总能量不同，这项比较没有单独隔离频率的作用。\n研究参数与结果 · 已接收稿PDF第11–12页·参数 · PDF第20页·表1 / 图3\n\n\nZhao · 2022：工作记忆改善是否依赖波长和照射位置？\n右前额 1064 nm 条件下，工作记忆容量与相关脑电指标改善；852 nm 和左额 1064 nm 条件没有出现相同结果。各条件来自不同实验，不能当作同一批受试者的完整波长交叉比较。\n研究参数与结果 · 图 1–2·记忆与CDA · 图 4–5·波长和位置对照\n\n\nZomorrodi · 2019：40 Hz 照射后，脑电功率怎样变化？\n810 nm、40 Hz 光照后，多个脑电频段的功率和连接指标改变。该研究比较真刺激与假刺激，没有连续光条件；它回答的是这套刺激是否影响脑电，尚未回答 40 Hz 是否优于连续光。\n研究参数与结果 · 图 4·频段功率 · 方法·设备\n\n\nVan Lankveld · 2026：波长效果随区域和时段而变\n不同区域的 BOLD 波长效应方向不一致。表 1 记录各组的四次扫描条件，表 2 给出相应区域和时段的比较。\n研究参数与结果 · 表 1·参数组合 · 表 2·脑血流与 BOLD 对照\n\n\nEnam · 2026：模拟波长比较与实际设备比较分开做\n模拟固定光源和探测几何。头盔实测同时改变光谱、发光布局与设备输出，因此应按设备比较。\n研究参数与结果 · 已接收稿 PDF 第 14 页·图 8 模拟透射 · 已接收稿 PDF 第 16 页·图 10 体模透射"
-  },
-  {
-    "objectID": "research/questions/wavelength-pulse.html#做实验时看什么",
-    "href": "research/questions/wavelength-pulse.html#做实验时看什么",
-    "title": "波长和脉冲怎么选？",
-    "section": "做实验时看什么",
-    "text": "做实验时看什么\n\n波长、波形、峰值功率、平均功率、占空比和总能量分别记录；只写“40 Hz”不够。\n若要比较频率，先明确匹配平均功率还是总能量，并测量设备实际输出。\n把行为结果与脑电、血氧或 MEP 分开分析，预先确定主要终点。"
-  },
-  {
-    "objectID": "research/questions/wavelength-pulse.html#相关研究",
-    "href": "research/questions/wavelength-pulse.html#相关研究",
-    "title": "波长和脉冲怎么选？",
-    "section": "相关研究",
-    "text": "相关研究\n\nMa · 2026：810/1064 nm与连续/40 Hz光对运动皮层的作用？\nZhao · 2022：波长和左右额部位置会改变视觉记忆收益吗？\nZomorrodi · 2019：40 Hz 经颅加鼻内刺激后，脑电频段如何改变？\nYuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？\nVan Lankveld · 2026：相同波长的 BOLD 和脑血流反应一致吗？\nEnam · 2026：波长相近的头盔，透过组织后差多少？\n\n修改这页内容"
-  },
-  {
-    "objectID": "notes/questions.html",
-    "href": "notes/questions.html",
-    "title": "按问题读",
+    "objectID": "notes/index.html#最近更新",
+    "href": "notes/index.html#最近更新",
+    "title": "论文笔记",
     "section": "",
-    "text": "返回论文笔记\n单篇论文的笔记也可以独立阅读。\n\n  全部\n  刺激参数与剂量\n  脑活动与脑网络\n  认知与睡眠\n  安全与临床转化\n\n\n\n\n\n\n\n量表改善和脑指标一起变化，怎样判断机制？\n\n\n从情绪量表、前额叶代谢和动物生化到独立网络预测。\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n光刺激后手指敲得更快，说明学会了动作序列吗？\n\n\n用假刺激、未练过的序列和延迟测试，区分动作表现与学习。\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n光照进去多少，能从 fMRI 信号倒推吗？\n\n\n从组织后的透过光，到脑血流和多回波 BOLD，分清光剂量与测量读数。\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n刺激后，变的是行为、脑血流，还是脑网络？\n\n\n从反应时间到运动诱发电位、脑灌注和静息态连接：四篇论文各能回答什么？\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n无匹配项\n\n\n\n\n\n 回到顶部"
+    "text": "每天围绕一个问题，读三篇经颅光刺激论文和一篇相关的 fMRI 脑网络论文。按问题读 → 也可在下方筛选单篇笔记。\n\n  全部\n  经颅光刺激\n  fMRI 脑网络\n\n\n\n\n   \n    \n    \n      排序方式\n      默认\n      \n        日期 - 日期升序\n      \n      \n        日期 - 日期降序\n      \n      \n        标题\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月10日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月10日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月10日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月10日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2026年11月9日\n\n\n\n\n\n\n\n\n\n\n\n\nBibb 等的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nFekri 等的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nIravani 等的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nWiestler 与 Diedrichsen的设计、主要比较与实验启发。\n\n\n\n\n\n\n2026年11月8日\n\n\n\n\n\n\n\n\n\n\n\n\nDmochowski 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\nEnam 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\nKundu 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\nVan Lankveld 等的研究设计、图表和实验启发。\n\n\n\n\n\n\n2026年11月7日\n\n\n\n\n\n\n\n\n\n\n\n\n一项早期对照研究用反应时间和正确次数，检验额部近红外刺激后的行为变化。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n小鼠实验测脑内腺苷和睡眠脑电，人体试验看失眠症状和入睡时间。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同一批参与者接受两种磁刺激，研究用静息态 fMRI 分开看平均连接和连接随时间的波动。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n22 名健康参与者接受四种主动刺激和一种假刺激，研究比较了运动诱发电位、血氧与手指动作。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n用 ASL MRI 对照基线、首次和第六次刺激后的脑灌注。\n\n\n\n\n\n\n2026年11月6日\n\n\n\n\n\n\n\n\n\n\n\n\n同步 TMS–fMRI 与实时解码如何连接个体网络、频率选择和工作记忆。\n\n\n\n藏经阁\n\n\n2026年11月4日\n\n\n\n\n\n\n\n\n\n\n\n\n一份精读笔记需要记录什么、如何回溯原始论文，以及公开前的检查事项。\n\n\n\n藏经阁站点维护\n\n\n2026年11月1日\n\n\n\n\n\n\n无匹配项\n\n  \n\n\n想分享阅读笔记？写清论文问了什么、怎么做、得到了什么结果。关键结果可标注原文页码或图表。查看提交方式。"
   },
   {
-    "objectID": "notes/posts/bibb-2025-light-somatomotor-fmri.html",
-    "href": "notes/posts/bibb-2025-light-somatomotor-fmri.html",
-    "title": "运动区连得更强，能说明动作变快吗？",
+    "objectID": "notes/posts/barrett-2013-light-attention-memory.html",
+    "href": "notes/posts/barrett-2013-light-attention-memory.html",
+    "title": "早期人体光刺激研究怎么测注意和记忆？",
     "section": "",
-    "text": "Bibb 等 · Frontiers in Human Neuroscience · 2025-03-13 · 期刊正式版全文\nPilot study comparing effects of infrared neuromodulation and transcranial magnetic stimulation using magnetic resonance imaging\nDOI 10.3389/fnhum.2025.1514087 · PMID 40183072\n回到本期 · 光刺激后手指敲得更快，说明学会了动作序列吗？"
+    "text": "Barrett 与 Gonzalez-Lima · Neuroscience · 2013 · 经典研究 · 全文阅读\n回到本期：刺激后，变的是行为、脑血流，还是脑网络？"
   },
   {
-    "objectID": "notes/posts/bibb-2025-light-somatomotor-fmri.html#怎么做",
-    "href": "notes/posts/bibb-2025-light-somatomotor-fmri.html#怎么做",
-    "title": "运动区连得更强，能说明动作变快吗？",
+    "objectID": "notes/posts/barrett-2013-light-attention-memory.html#怎么做",
+    "href": "notes/posts/barrett-2013-light-attention-memory.html#怎么做",
+    "title": "早期人体光刺激研究怎么测注意和记忆？",
     "section": "怎么做",
-    "text": "怎么做\n研究对象　8 名完成研究的健康成人。\n每人参加四次实验，分别接受主动光、假光、主动磁刺激或假磁刺激。主动光从头顶 Cz 送入 1064 nm 连续激光，输出 0.6 W、11 分钟。干预前后采集静息态和右手按提示以 1 Hz 敲击的任务 fMRI。"
+    "text": "怎么做\n40 名健康志愿者分入额部 1064 nm 近红外激光刺激组和安慰对照组，各 20 人。研究用持续注意任务测反应时间，用延迟匹配任务测记忆提取速度和正确次数。"
   },
   {
-    "objectID": "notes/posts/bibb-2025-light-somatomotor-fmri.html#结果怎么读",
-    "href": "notes/posts/bibb-2025-light-somatomotor-fmri.html#结果怎么读",
-    "title": "运动区连得更强，能说明动作变快吗？",
+    "objectID": "notes/posts/barrett-2013-light-attention-memory.html#结果怎么读",
+    "href": "notes/posts/barrett-2013-light-attention-memory.html#结果怎么读",
+    "title": "早期人体光刺激研究怎么测注意和记忆？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n图 3C 的左侧 M1–丘脑静息连接在主动光相对假光的变化中达到 p = 0.0432，光与磁的直接比较为 p = 0.11。图 2B 的左侧运动感觉区任务 BOLD 在光条件下为 p = 0.058。研究未量化敲击速度等行为成绩，影像差异对应的是连接或激活。"
+    "text": "结果怎么读\n图 3 比较两组刺激前后的反应时间。纵轴越低，反应越快；组别与时间的交互为 p = 0.047。图 4 把记忆提取速度和正确次数分开画：提取速度的交互在排除一个离群值后为 p = 0.021，正确次数的交互为 p = 0.012，主要来自对照组下降。"
   },
   {
-    "objectID": "notes/posts/bibb-2025-light-somatomotor-fmri.html#对实验设计有什么用",
-    "href": "notes/posts/bibb-2025-light-somatomotor-fmri.html#对实验设计有什么用",
-    "title": "运动区连得更强，能说明动作变快吗？",
+    "objectID": "notes/posts/barrett-2013-light-attention-memory.html#对实验设计有什么用",
+    "href": "notes/posts/barrett-2013-light-attention-memory.html#对实验设计有什么用",
+    "title": "早期人体光刺激研究怎么测注意和记忆？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n按固定节奏做扫描任务，可以比较相似动作下的脑信号；另设自定速度的行为测试，才能检验刺激是否提高运动表现。小样本探索结果适合用来预设靶区和验证指标。\n原文 · 研究对比卡 · 编辑这篇笔记"
+    "text": "对实验设计有什么用\n这是较早把经颅近红外刺激和人体认知任务放在同一对照设计中的研究。做类似实验时，可以预先选定主要指标，再同时看速度和正确率，以便识别被试是否用更快的反应换取了更多错误。\n公开全文与图表 · PubMed 摘要 · DOI · 藏经阁书目 · 编辑这篇笔记"
+  },
+  {
+    "objectID": "notes/posts/coelho-2025-depression-mrs.html",
+    "href": "notes/posts/coelho-2025-depression-mrs.html",
+    "title": "代谢物升高，有特定剂量效应吗？",
+    "section": "",
+    "text": "Coelho 等，2025-05-13 · 33 名重性抑郁障碍成人 · 正式版全文\nDOI 10.3390/jcm14103402\n回到本期"
+  },
+  {
+    "objectID": "notes/posts/coelho-2025-depression-mrs.html#怎么做",
+    "href": "notes/posts/coelho-2025-depression-mrs.html#怎么做",
+    "title": "代谢物升高，有特定剂量效应吗？",
+    "section": "怎么做",
+    "text": "怎么做\n808 nm 光照双侧背外侧前额叶，随机交叉比较低、中、高和假刺激，磁共振波谱测左额 NAA、胆碱和肌酸。表 1 列出三档照射约 60、100、180 J/cm²。"
+  },
+  {
+    "objectID": "notes/posts/coelho-2025-depression-mrs.html#结果怎么读",
+    "href": "notes/posts/coelho-2025-depression-mrs.html#结果怎么读",
+    "title": "代谢物升高，有特定剂量效应吗？",
+    "section": "结果怎么读",
+    "text": "结果怎么读\n图 6A（PDF 第 9 页结果）报告单次分析的 NAA 由 7.52 到 8.12 mmol/L（p = 0.0007），但不同条件间未见显著差异。部分多访视分析使用刺激前波谱，不能与即刻前后比较混读。"
+  },
+  {
+    "objectID": "notes/posts/coelho-2025-depression-mrs.html#对实验设计有什么用",
+    "href": "notes/posts/coelho-2025-depression-mrs.html#对实验设计有什么用",
+    "title": "代谢物升高，有特定剂量效应吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n先检验主动对假刺激的变化差，再判断脑指标能否解释症状变化。不同档位同时改变了时间、辐照度或脉冲方式。\n原文定位 · 研究对比卡 · 编辑札记"
   },
   {
     "objectID": "notes/posts/dmochowski-2020-light-fmri.html",
@@ -2660,88 +2793,116 @@
     "text": "对实验设计有什么用\n把前后差与假刺激组的前后差直接比较。单指敲击数适合测即刻动作速度；如果问题是序列学习，需要另外测序列准确率和延迟保留。\n原文 · 研究对比卡 · 编辑这篇笔记"
   },
   {
-    "objectID": "notes/posts/jung-2026-light-adenosine-sleep.html",
-    "href": "notes/posts/jung-2026-light-adenosine-sleep.html",
-    "title": "光刺激、腺苷和睡眠，动物与人体分别测了什么？",
+    "objectID": "notes/posts/jia-2026-home-sleep-eeg.html",
+    "href": "notes/posts/jia-2026-home-sleep-eeg.html",
+    "title": "波长或频率不同，夜里少醒了吗？",
     "section": "",
-    "text": "Jung 等 · Molecular Psychiatry · 2026 年 9 月 · 近期研究 · 全文核对"
+    "text": "Jia 等，2026-10-07 上线 · 200 名健康成人随机分组，172 人提供可分析脑电 · SSRN 公开摘要，全文待补\nDOI 10.2139/ssrn.7560350\n回到本期"
   },
   {
-    "objectID": "notes/posts/jung-2026-light-adenosine-sleep.html#怎么做",
-    "href": "notes/posts/jung-2026-light-adenosine-sleep.html#怎么做",
-    "title": "光刺激、腺苷和睡眠，动物与人体分别测了什么？",
+    "objectID": "notes/posts/jia-2026-home-sleep-eeg.html#怎么做",
+    "href": "notes/posts/jia-2026-home-sleep-eeg.html#怎么做",
+    "title": "波长或频率不同，夜里少醒了吗？",
     "section": "怎么做",
-    "text": "怎么做\n研究把细胞实验、小鼠实验和人体试验放在一起。小鼠实验使用植入式光纤套管和脑电电极，并测量额叶皮层的腺苷浓度。人体部分是一项 40 人的双盲随机对照试验，评估失眠症状、睡眠困扰和入睡时间。"
+    "text": "怎么做\n四个主动组交叉组合 810/1050 nm 和 10/40 Hz，另设假刺激。居家前额脑电记录一晚基线和两晚干预。"
   },
   {
-    "objectID": "notes/posts/jung-2026-light-adenosine-sleep.html#结果怎么读",
-    "href": "notes/posts/jung-2026-light-adenosine-sleep.html#结果怎么读",
-    "title": "光刺激、腺苷和睡眠，动物与人体分别测了什么？",
+    "objectID": "notes/posts/jia-2026-home-sleep-eeg.html#结果怎么读",
+    "href": "notes/posts/jia-2026-home-sleep-eeg.html#结果怎么读",
+    "title": "波长或频率不同，夜里少醒了吗？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n与假刺激相比，小鼠在刺激期间及之后的非快速眼动睡眠增多。暗期末照射的实验还观察到额叶腺苷和睡眠脑电 δ 功率升高（图 3）。人体部分的失眠严重度和睡眠质量量表改善（表 2）。从佩戴设备到入睡的时间在意向治疗分析中无显著组间差异，按方案分析中未调整比较显示缩短（表 3）。"
+    "text": "结果怎么读\n按多重比较校正后，各主动组的主要睡眠结局相对假刺激均无显著改善。主动组内部的预设析因分析中，第 3 晚 40 Hz 相比 10 Hz 入睡后清醒时间少 29.8 分钟。波长与频率的交互未达显著。"
   },
   {
-    "objectID": "notes/posts/jung-2026-light-adenosine-sleep.html#对实验设计有什么用",
-    "href": "notes/posts/jung-2026-light-adenosine-sleep.html#对实验设计有什么用",
-    "title": "光刺激、腺苷和睡眠，动物与人体分别测了什么？",
+    "objectID": "notes/posts/jia-2026-home-sleep-eeg.html#对实验设计有什么用",
+    "href": "notes/posts/jia-2026-home-sleep-eeg.html#对实验设计有什么用",
+    "title": "波长或频率不同，夜里少醒了吗？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n设计光刺激睡眠实验时，可以分别设定机制指标和睡眠终点。比如用脑电区分睡眠阶段，用入睡潜伏期描述多久入睡，并明确主观量表和客观测量各回答什么问题。\n期刊原文 · PubMed 摘要 · 藏经阁书目 · 编辑这篇笔记\n查看照射参数及图表位置 · 主观睡眠与脑电指标是否同步变化？"
+    "text": "对实验设计有什么用\n预先分开“参数之间谁更好”和“是否优于假刺激”两个问题，并为主要比较保留足够样本。\n原文定位 · 编辑札记"
   },
   {
-    "objectID": "notes/posts/kundu-2012-multiecho-connectivity.html",
-    "href": "notes/posts/kundu-2012-multiecho-connectivity.html",
-    "title": "换一个回波时间，连接图为什么会变？",
+    "objectID": "notes/posts/kazmi-2026-microgravity-mood.html",
+    "href": "notes/posts/kazmi-2026-microgravity-mood.html",
+    "title": "分子和行为一起变化，说明谁在起作用？",
     "section": "",
-    "text": "Kundu 等 · NeuroImage · 2011-12-23 首发，2012 年刊期 · 公开作者稿全文\nDifferentiating BOLD and non-BOLD signals in fMRI time series using multi-echo EPI\nDOI 10.1016/j.neuroimage.2011.12.028 · PMID 22209809\n回到本期 · 光照进去多少，能从 fMRI 信号倒推吗？"
+    "text": "Kazmi 等，2026-10-25 首发 · 雄性小鼠 · 期刊预校样摘要与亮点，全文待补\nDOI 10.1016/j.jphotobiol.2026.113583\n回到本期"
   },
   {
-    "objectID": "notes/posts/kundu-2012-multiecho-connectivity.html#怎么做",
-    "href": "notes/posts/kundu-2012-multiecho-connectivity.html#怎么做",
-    "title": "换一个回波时间，连接图为什么会变？",
+    "objectID": "notes/posts/kazmi-2026-microgravity-mood.html#怎么做",
+    "href": "notes/posts/kazmi-2026-microgravity-mood.html#怎么做",
+    "title": "分子和行为一起变化，说明谁在起作用？",
     "section": "怎么做",
-    "text": "怎么做\n研究对象　9 名右利手健康志愿者。\n采集多回波静息态 fMRI，将信号分解成独立成分，分别衡量每个成分随回波时间（TE）变化的程度和与基线信号变化模型的符合程度。研究再比较去噪前后的种子相关图。"
+    "text": "怎么做\n设正常对照、后肢卸载 28 天、卸载加每日 810 nm 光照三组。用行为任务和前额叶生化检测评估动物反应。"
   },
   {
-    "objectID": "notes/posts/kundu-2012-multiecho-connectivity.html#结果怎么读",
-    "href": "notes/posts/kundu-2012-multiecho-connectivity.html#结果怎么读",
-    "title": "换一个回波时间，连接图为什么会变？",
+    "objectID": "notes/posts/kazmi-2026-microgravity-mood.html#结果怎么读",
+    "href": "notes/posts/kazmi-2026-microgravity-mood.html#结果怎么读",
+    "title": "分子和行为一起变化，说明谁在起作用？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n图 3 对比 15、39、63 ms 三个回波。额顶灰质的示例成分随 TE 增强，BOLD 拟合分数 κ = 184，基线变化分数 ρ = 15。脑缘示例在三个回波中幅度近似不变，κ = 22、ρ = 90。图 6 还展示了与呼吸变化相关、带 BOLD 特征的边界成分。"
+    "text": "结果怎么读\n摘要报告，与卸载组相比，照光组的焦虑和抑郁样行为及若干线粒体、氧化应激和炎症指标向对照方向变化。该设计提供动物机制线索，摘要未给出可核对的效应量或独立阻断实验。"
   },
   {
-    "objectID": "notes/posts/kundu-2012-multiecho-connectivity.html#对实验设计有什么用",
-    "href": "notes/posts/kundu-2012-multiecho-connectivity.html#对实验设计有什么用",
-    "title": "换一个回波时间，连接图为什么会变？",
+    "objectID": "notes/posts/kazmi-2026-microgravity-mood.html#对实验设计有什么用",
+    "href": "notes/posts/kazmi-2026-microgravity-mood.html#对实验设计有什么用",
+    "title": "分子和行为一起变化，说明谁在起作用？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n光刺激同步 fMRI 可以借用多回波分解检查非 BOLD 成分是否影响连接结果。呼吸和血管变化也可能表现为 BOLD，最好同时记录呼吸和脉搏，并结合假刺激与独立血流读数。\n原文与图表 · 编辑这篇笔记"
+    "text": "对实验设计有什么用\n先排除运动能力改变对行为任务的影响，再用阻断或救援实验判断某条分子通路是否必要。\n原文定位 · 编辑札记"
   },
   {
-    "objectID": "notes/posts/ma-2026-light-motor-cortex.html",
-    "href": "notes/posts/ma-2026-light-motor-cortex.html",
-    "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
+    "objectID": "notes/posts/li-2026-precuneus-fmri.html",
+    "href": "notes/posts/li-2026-precuneus-fmri.html",
+    "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
     "section": "",
-    "text": "Ma 等 · Journal of NeuroEngineering and Rehabilitation · 2026 · 已接收稿全文阅读\n回到本期：刺激后，变的是行为、脑血流，还是脑网络？"
+    "text": "Li 等 · Brain Topography · 2026 年在线发表 · 摘要与公开图表\n回到本期：刺激后，变的是行为、脑血流，还是脑网络？"
   },
   {
-    "objectID": "notes/posts/ma-2026-light-motor-cortex.html#怎么做",
-    "href": "notes/posts/ma-2026-light-motor-cortex.html#怎么做",
-    "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
+    "objectID": "notes/posts/li-2026-precuneus-fmri.html#怎么做",
+    "href": "notes/posts/li-2026-precuneus-fmri.html#怎么做",
+    "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
     "section": "怎么做",
-    "text": "怎么做\n研究对 22 名健康参与者的左侧运动皮层做近红外刺激。810 nm 和 1064 nm 各配连续光与 40 Hz 脉冲光，再加一个假刺激条件。五种条件按随机顺序完成。"
+    "text": "怎么做\n研究纳入 33 名健康成人，比较基线、间歇性和连续性 θ 爆发磁刺激后的静息态 fMRI。作者把右侧楔前叶分成背前、背后和腹侧三个亚区，分别分析连接。"
   },
   {
-    "objectID": "notes/posts/ma-2026-light-motor-cortex.html#结果怎么读",
-    "href": "notes/posts/ma-2026-light-motor-cortex.html#结果怎么读",
-    "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
+    "objectID": "notes/posts/li-2026-precuneus-fmri.html#结果怎么读",
+    "href": "notes/posts/li-2026-precuneus-fmri.html#结果怎么读",
+    "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n图 3 横轴是刺激后 0、10、20、30 分钟，纵轴是运动诱发电位（MEP）较基线的变化百分比。四种主动条件在这些时间点均高于假刺激。30 分钟时，1064 nm、40 Hz 脉冲条件高于两种连续光条件；这组比较并未显示它优于 810 nm、40 Hz 脉冲。\n图 5 画的是对指动作循环次数的前后差。1064 nm、40 Hz 脉冲条件下，右手次数的增量大于假刺激（校正后 p = 0.035）。图 6 画的是功能近红外光谱（fNIRS）的任务血氧响应：同一条件下，左手任务的 11 个通道刺激后响应降低（FDR 校正）。两张图的任务用手和参照条件都不同，不能直接用后者解释前者。"
+    "text": "结果怎么读\n图 3 用静态功能连接概括一段扫描中的平均关联，刺激条件和楔前叶亚区之间未见显著交互。\n图 4 看的是连接随时间的波动，交互出现在右侧眶部额下回。间歇性磁刺激后，腹侧楔前叶的连接波动高于背前亚区；连续性磁刺激后，背前、背后亚区的波动都高于腹侧。两张图检验的是不同指标，可以分别设为研究问题。"
   },
   {
-    "objectID": "notes/posts/ma-2026-light-motor-cortex.html#对实验设计有什么用",
-    "href": "notes/posts/ma-2026-light-motor-cortex.html#对实验设计有什么用",
-    "title": "810 nm 和 1064 nm 光刺激，运动皮层有什么反应？",
+    "objectID": "notes/posts/li-2026-precuneus-fmri.html#对实验设计有什么用",
+    "href": "notes/posts/li-2026-precuneus-fmri.html#对实验设计有什么用",
+    "title": "刺激右侧楔前叶后，静息态脑连接怎么变？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n这组比较适合用来设计波长与脉冲方式的对照。结果对应本研究所用的运动皮层靶点、健康人群与观察时段。\n期刊与已接收稿（含图 3–6） · 藏经阁书目 · 编辑这篇笔记"
+    "text": "对实验设计有什么用\n可以在分析前定义亚区，并分开设定静态和动态指标。这里测到的是静息态连接变化，研究摘要未报告相应的行为改善。\n期刊摘要与公开图表 · 编辑这篇笔记"
+  },
+  {
+    "objectID": "notes/posts/mehdizadeh-2025-insomnia-wake-eeg.html",
+    "href": "notes/posts/mehdizadeh-2025-insomnia-wake-eeg.html",
+    "title": "清醒时的 δ 功率能说明夜里睡得怎样吗？",
+    "section": "",
+    "text": "Mehdizadeh 等，2025-10-23 · 30 名慢性失眠成人 · 期刊正式版全文\nDOI 10.1007/s10103-025-04699-y · PMID 41125953\n回到本期"
+  },
+  {
+    "objectID": "notes/posts/mehdizadeh-2025-insomnia-wake-eeg.html#怎么做",
+    "href": "notes/posts/mehdizadeh-2025-insomnia-wake-eeg.html#怎么做",
+    "title": "清醒时的 δ 功率能说明夜里睡得怎样吗？",
+    "section": "怎么做",
+    "text": "怎么做\n15 人主动、15 人假刺激，连续三天做 810 nm 额部照射，末次治疗一周后评估。脑电在睁眼静息时记录。"
+  },
+  {
+    "objectID": "notes/posts/mehdizadeh-2025-insomnia-wake-eeg.html#结果怎么读",
+    "href": "notes/posts/mehdizadeh-2025-insomnia-wake-eeg.html#结果怎么读",
+    "title": "清醒时的 δ 功率能说明夜里睡得怎样吗？",
+    "section": "结果怎么读",
+    "text": "结果怎么读\n表 2 中，基线校正后 Fz 的 1–4 Hz 功率，主动组 46.44、假刺激组 80.33 μV²，p &lt; 0.001。论文也报告 PSQI 改善，但表 1 和表 2 有超出标准 0–21 分范围的总分，且与正文所述差值不一致，量表效应量待澄清。"
+  },
+  {
+    "objectID": "notes/posts/mehdizadeh-2025-insomnia-wake-eeg.html#对实验设计有什么用",
+    "href": "notes/posts/mehdizadeh-2025-insomnia-wake-eeg.html#对实验设计有什么用",
+    "title": "清醒时的 δ 功率能说明夜里睡得怎样吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n把白天清醒脑电与夜间脑电分开测。量表入库时自动校验计分范围，主分析表和摘要用同一结果源。\n原文定位 · 研究对比卡 · 编辑札记"
   },
   {
     "objectID": "notes/posts/personalized-neuromodulation.html",
@@ -2786,144 +2947,172 @@
     "text": "关联条目\n文献卡片 · 个体化脑网络与神经调控专题"
   },
   {
-    "objectID": "notes/posts/schiffer-2009-mood.html",
-    "href": "notes/posts/schiffer-2009-mood.html",
-    "title": "单次照光后，症状变化维持多久？",
+    "objectID": "notes/posts/saltmarche-2017-sleep-reports.html",
+    "href": "notes/posts/saltmarche-2017-sleep-reports.html",
+    "title": "家属说睡得更好，测到了什么？",
     "section": "",
-    "text": "Schiffer 等，2009-12-08 · 10 名抑郁患者 · 正式版全文\nDOI 10.1186/1744-9081-5-46 · PMID 19995444\n回到本期"
+    "text": "Saltmarche 等，2017-02-10 在线 · 5 名轻至中重度痴呆患者 · 期刊正式版全文\nDOI 10.1089/pho.2016.4227 · PMID 28186867\n回到本期"
   },
   {
-    "objectID": "notes/posts/schiffer-2009-mood.html#怎么做",
-    "href": "notes/posts/schiffer-2009-mood.html#怎么做",
-    "title": "单次照光后，症状变化维持多久？",
+    "objectID": "notes/posts/saltmarche-2017-sleep-reports.html#怎么做",
+    "href": "notes/posts/saltmarche-2017-sleep-reports.html#怎么做",
+    "title": "家属说睡得更好，测到了什么？",
     "section": "怎么做",
-    "text": "怎么做\n同一天在 F3、F4 分别进行 810 nm LED 照射及关灯对照，照射每点 4 分钟。前额近红外光谱测总血红蛋白，症状在基线、两周和四周评估。"
+    "text": "怎么做\n开放病例系列用 810 nm 经颅加鼻内照射，并在家中安排鼻内单独照射。疗程 12 周，随后停治随访 4 周，未设假刺激组。照射参数见表 2。"
   },
   {
-    "objectID": "notes/posts/schiffer-2009-mood.html#结果怎么读",
-    "href": "notes/posts/schiffer-2009-mood.html#结果怎么读",
-    "title": "单次照光后，症状变化维持多久？",
+    "objectID": "notes/posts/saltmarche-2017-sleep-reports.html#结果怎么读",
+    "href": "notes/posts/saltmarche-2017-sleep-reports.html#结果怎么读",
+    "title": "家属说睡得更好，测到了什么？",
     "section": "结果怎么读",
-    "text": "结果怎么读\n图 3 与表 4（PDF 第 9 页）显示 HAM-D 较基线平均下降 13.2 分和 6.5 分。急性光谱的开灯与关灯差异未达显著（图 2，p = 0.16）。长期症状随访没有独立假刺激组。"
+    "text": "结果怎么读\n表 4 把基线、疗程中与停治后的患者及家属反馈并列。报告中有睡眠改善，表中没有统一的睡眠时长、觉醒次数或分期。表 3 的 12 周 MMSE 平均增加 2.60 分，属于认知结果。"
   },
   {
-    "objectID": "notes/posts/schiffer-2009-mood.html#对实验设计有什么用",
-    "href": "notes/posts/schiffer-2009-mood.html#对实验设计有什么用",
-    "title": "单次照光后，症状变化维持多久？",
+    "objectID": "notes/posts/saltmarche-2017-sleep-reports.html#对实验设计有什么用",
+    "href": "notes/posts/saltmarche-2017-sleep-reports.html#对实验设计有什么用",
+    "title": "家属说睡得更好，测到了什么？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n把即刻生理对照与独立、等时程的症状对照分别设计，预先规定随访时点。\n原文定位 · 研究对比卡 · 编辑札记"
+    "text": "对实验设计有什么用\n保留家属观察作为补充。若要检验夜间觉醒是否减少，增加统一的睡眠日志或夜间脑电，并设置盲法对照。\n原文定位 · 研究对比卡 · 编辑札记"
   },
   {
-    "objectID": "notes/posts/weigand-2018-subgenual-prediction.html",
-    "href": "notes/posts/weigand-2018-subgenual-prediction.html",
-    "title": "基线连接能不能预测临床反应？",
+    "objectID": "notes/posts/van-lankveld-2026-light-bold-cbf.html",
+    "href": "notes/posts/van-lankveld-2026-light-bold-cbf.html",
+    "title": "波长换了，血流和 BOLD 同向变吗？",
     "section": "",
-    "text": "Weigand 等，2017-11-10 在线，2018 刊期 · 接受 rTMS 的抑郁患者队列 · PubMed 摘要与公开图注\nDOI 10.1016/j.biopsych.2017.10.028 · PMID 29274805\n回到本期"
+    "text": "Van Lankveld 等 · Journal of Cerebral Blood Flow & Metabolism · 2026-08-12 · 期刊在线全文\nDose dependence and neurovascular mechanisms of the fMRI response to pulsed photobiomodulation in humans\nDOI 10.1177/0271678X261479524 · PMID 42590890\n回到本期 · 光照进去多少，能从 fMRI 信号倒推吗？"
   },
   {
-    "objectID": "notes/posts/weigand-2018-subgenual-prediction.html#怎么做",
-    "href": "notes/posts/weigand-2018-subgenual-prediction.html#怎么做",
-    "title": "基线连接能不能预测临床反应？",
+    "objectID": "notes/posts/van-lankveld-2026-light-bold-cbf.html#怎么做",
+    "href": "notes/posts/van-lankveld-2026-light-bold-cbf.html#怎么做",
+    "title": "波长换了，血流和 BOLD 同向变吗？",
     "section": "怎么做",
-    "text": "怎么做\n记录患者实际的前额叶刺激点，再用独立静息态功能连接数据估计该点与膝下扣带的连接，并在临床队列检验预测关系。"
+    "text": "怎么做\n研究对象　45 名健康年轻成人。\n用 MRI 兼容光纤照右额。每人完成分配协议内的四种主动参数组合。表 1 包含 808/1064 nm、100/150/200 mW/cm² 和 10/40 Hz，每次为关光、开光、关光各 4 分钟。双回波动脉自旋标记同时提供 BOLD 与脑血流（CBF）读数。"
   },
   {
-    "objectID": "notes/posts/weigand-2018-subgenual-prediction.html#结果怎么读",
-    "href": "notes/posts/weigand-2018-subgenual-prediction.html#结果怎么读",
-    "title": "基线连接能不能预测临床反应？",
+    "objectID": "notes/posts/van-lankveld-2026-light-bold-cbf.html#结果怎么读",
+    "href": "notes/posts/van-lankveld-2026-light-bold-cbf.html#结果怎么读",
+    "title": "波长换了，血流和 BOLD 同向变吗？",
     "section": "结果怎么读",
-    "text": "结果怎么读\nPubMed 图注报告，第二队列的主动刺激中，连接与症状改善的相关为 r = −0.52，单侧 p &lt; 0.05；假刺激中未见同样的预测证据。这是磁刺激靶点预测研究。"
+    "text": "结果怎么读\n表 2 中，照射区的 CBF 对 808 nm 的响应大于 1064 nm（FDR 校正 p = 0.048）。BOLD 的波长方向随区域和比较时段变化。膝下区/伏隔核在照射中是 1064 nm 较高（p = 0.006），后扣带区域在照射后则是 808 nm 较高（p = 0.033）。图 4B 比较不同时间窗的 BOLD–CBF 斜率，斜率随时间变化。耗氧由模型估计。"
   },
   {
-    "objectID": "notes/posts/weigand-2018-subgenual-prediction.html#对实验设计有什么用",
-    "href": "notes/posts/weigand-2018-subgenual-prediction.html#对实验设计有什么用",
-    "title": "基线连接能不能预测临床反应？",
+    "objectID": "notes/posts/van-lankveld-2026-light-bold-cbf.html#对实验设计有什么用",
+    "href": "notes/posts/van-lankveld-2026-light-bold-cbf.html#对实验设计有什么用",
+    "title": "波长换了，血流和 BOLD 同向变吗？",
     "section": "对实验设计有什么用",
-    "text": "对实验设计有什么用\n光刺激可以借鉴独立定义连接指标和预先验证预测的做法。若要检验预测是否只适用于主动照射，直接检验连接与治疗条件的交互。\n原文定位 · 编辑札记"
+    "text": "对实验设计有什么用\n比较两种波长前，先写清主脑区、主时段和主读数。这里每次扫描以自身关光期作基线。若要估计相对假刺激的效果，需要另设匹配对照。把 BOLD 和 CBF 分开报告，也别用一处 BOLD 的幅度估算入脑剂量。\n原文与图表 · 对比台研究卡 · 编辑这篇笔记"
   },
   {
-    "objectID": "notes/issues/2026-11-06-stimulation-measures.html",
-    "href": "notes/issues/2026-11-06-stimulation-measures.html",
-    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
+    "objectID": "notes/posts/wiestler-2013-fmri-motor-sequence.html",
+    "href": "notes/posts/wiestler-2013-fmri-motor-sequence.html",
+    "title": "练过的序列，在脑里能分得更清吗？",
     "section": "",
-    "text": "全部荐读 · 按问题浏览\n同样是“刺激后有变化”，反应更快、局部血流改变、脑区之间的连接波动，分别回答不同的问题。这一期从行为读到生理指标，再用一项磁刺激研究看 fMRI 网络指标该怎么选。"
+    "text": "Wiestler 与 Diedrichsen · eLife · 2013-07-09 · 期刊正式版全文\nSkill learning strengthens cortical representations of motor sequences\nDOI 10.7554/eLife.00801 · PMID 23853714\n回到本期 · 光刺激后手指敲得更快，说明学会了动作序列吗？"
   },
   {
-    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#经典反应更快记忆也更准吗",
-    "href": "notes/issues/2026-11-06-stimulation-measures.html#经典反应更快记忆也更准吗",
-    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
-    "section": "经典｜反应更快，记忆也更准吗？",
-    "text": "经典｜反应更快，记忆也更准吗？\nBarrett 与 Gonzalez-Lima，2013 · 40 名健康志愿者 · 全文阅读\n额部 1064 nm 刺激前后，作者用持续注意和记忆任务测行为。图 3 的纵轴是反应时间，数值越低越快：刺激组的前后变化与对照组不同。图 4 要把速度和正确次数分开看：提取速度有组别与时间的交互，正确次数的组间变化差异则主要来自对照组下降。可以说刺激后部分行为指标变了，不能据此定位哪个脑区或网络变了。全文与图表"
+    "objectID": "notes/posts/wiestler-2013-fmri-motor-sequence.html#怎么做",
+    "href": "notes/posts/wiestler-2013-fmri-motor-sequence.html#怎么做",
+    "title": "练过的序列，在脑里能分得更清吗？",
+    "section": "怎么做",
+    "text": "怎么做\n研究对象　16 名健康右利手志愿者。\n左手练习四条五指按键序列四天。训练后，两次任务 fMRI 分别完成四条练过与四条未练过的序列。研究用体素空间模式分类来区分同一类条件内的四条序列，并将结果与平均 BOLD 对照。"
   },
   {
-    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#代表研究同一批人电生理动作和血氧给出同一个答案吗",
-    "href": "notes/issues/2026-11-06-stimulation-measures.html#代表研究同一批人电生理动作和血氧给出同一个答案吗",
-    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
-    "section": "代表研究｜同一批人，电生理、动作和血氧给出同一个答案吗？",
-    "text": "代表研究｜同一批人，电生理、动作和血氧给出同一个答案吗？\nMa 等，2026 · 22 名健康参与者 · 已接收稿全文阅读\n同一批人分别接受四种光刺激和假刺激。图 3 横轴是刺激后的时间，纵轴是相对基线的运动诱发电位（MEP）变化；30 分钟时，1064 nm、40 Hz 脉冲条件高于两种连续光条件。图 5 的右手动作次数增加是与假刺激相比，图 6 的血氧变化则出现在左手任务中，是同一条件刺激前后的比较。这三项结果各有自己的对照和时间点，不能拼成“血氧下降使动作变快”。期刊与已接收稿"
+    "objectID": "notes/posts/wiestler-2013-fmri-motor-sequence.html#结果怎么读",
+    "href": "notes/posts/wiestler-2013-fmri-motor-sequence.html#结果怎么读",
+    "title": "练过的序列，在脑里能分得更清吗？",
+    "section": "结果怎么读",
+    "text": "结果怎么读\n图 2C 中四天练习后动作时间约减半，未练序列也出现一定提速。图 3C–D 中，额顶运动区域的平均分类准确率从未练序列的 34.2% 到练过序列的 38.4%（四分类机会水平 25%）。全皮层多重校正后的差异集中在左侧 SMA/pre-SMA，图 5C 约为 36% 对 46%。这篇比较的是任务表征，未施加光刺激。"
   },
   {
-    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#最新进展第一次刺激后的灌注变化六周后还一样吗",
-    "href": "notes/issues/2026-11-06-stimulation-measures.html#最新进展第一次刺激后的灌注变化六周后还一样吗",
-    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
-    "section": "最新进展｜第一次刺激后的灌注变化，六周后还一样吗？",
-    "text": "最新进展｜第一次刺激后的灌注变化，六周后还一样吗？\nNawrocik-Madrid 等，2026 · 29 名处于缓解期的双相障碍参与者 · 摘要阅读 · 10 月 23 日在线\n研究用动脉自旋标记（ASL）MRI 测区域脑血流，在基线、首次及第六次刺激后采集。摘要报告，左侧额上回和眶额皮层灌注首次刺激后升高，到第六次后相对首次降低。这个比较没有说明第六次后是否低于基线。若研究单次效应和多次疗程，两个时间点应当都测。PubMed 摘要"
+    "objectID": "notes/posts/wiestler-2013-fmri-motor-sequence.html#对实验设计有什么用",
+    "href": "notes/posts/wiestler-2013-fmri-motor-sequence.html#对实验设计有什么用",
+    "title": "练过的序列，在脑里能分得更清吗？",
+    "section": "对实验设计有什么用",
+    "text": "对实验设计有什么用\n可以把同样的练过与未练过序列对照搬进刺激实验，同时跟踪速度、用力与错误。预先区分“某一区域整体反应更强”与“这一组体素能更好区分动作序列”两种假设。\n原文 · 编辑这篇笔记"
   },
   {
-    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#fmri-脑网络平均连接差不多连接波动还能变吗",
-    "href": "notes/issues/2026-11-06-stimulation-measures.html#fmri-脑网络平均连接差不多连接波动还能变吗",
-    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
-    "section": "fMRI 脑网络｜平均连接差不多，连接波动还能变吗？",
-    "text": "fMRI 脑网络｜平均连接差不多，连接波动还能变吗？\nLi 等，2026 · 33 名健康成人 · 摘要与公开图表\n这篇用的是磁刺激，值得借鉴的是读图和分析方法。图 3 把一段静息态扫描概括为平均连接，未见刺激条件与楔前叶亚区交互；图 4 看连接随时间的波动，在右侧眶部额下回发现两种刺激下的亚区差异方向不同。做光刺激的 fMRI 实验时，也可以把“平均连接变没变”和“波动变没变”分开检验。期刊摘要与图表"
-  },
-  {
-    "objectID": "notes/issues/2026-11-06-stimulation-measures.html#怎么用到实验里",
-    "href": "notes/issues/2026-11-06-stimulation-measures.html#怎么用到实验里",
-    "title": "刺激后，变的是行为、脑血流，还是脑网络？",
-    "section": "怎么用到实验里",
-    "text": "怎么用到实验里\n先定主要问题，再选测量。问任务做得怎么样，就同时看速度和正确率；问局部脑血流，就用 ASL 一类的灌注指标；问脑区之间的协同，就事先定义种子区，并说明检验平均连接还是波动。若想判断这些变化是否相互解释，最好在同一批人、可比较的对照和时间点下测量，再直接检验它们的关系。\n编辑本期"
-  },
-  {
-    "objectID": "notes/issues/2026-11-08-motor-performance-learning.html",
-    "href": "notes/issues/2026-11-08-motor-performance-learning.html",
-    "title": "光刺激后手指敲得更快，说明学会了动作序列吗？",
+    "objectID": "notes/issues/2026-11-07-dose-and-fmri.html",
+    "href": "notes/issues/2026-11-07-dose-and-fmri.html",
+    "title": "光照进去多少，能从 fMRI 信号倒推吗？",
     "section": "",
-    "text": "全部荐读 · 按问题浏览\n同一组按键动作，第二次做通常更熟练。要判断光刺激改变的是当下表现，还是一段时间后仍保留的序列技能，需要分别比较主动与假刺激、练过与没练过的序列，以及即刻与延迟成绩。"
+    "text": "全部荐读 · 按问题浏览\n设备的标称功率、组织后的透过光量和活体 fMRI 读数各有单位。本期问的是，能否用 fMRI 的反应幅度推回真正照进目标区的光量。四篇研究分别测连接、血流和 BOLD、组织透射，以及回波依赖性。"
   },
   {
-    "objectID": "notes/issues/2026-11-08-motor-performance-learning.html#早期经典一次-m1-照射单指能多敲几下",
-    "href": "notes/issues/2026-11-08-motor-performance-learning.html#早期经典一次-m1-照射单指能多敲几下",
-    "title": "光刺激后手指敲得更快，说明学会了动作序列吗？",
-    "section": "早期经典｜一次 M1 照射，单指能多敲几下？",
-    "text": "早期经典｜一次 M1 照射，单指能多敲几下？\nFekri 等 · 56 名右利手健康青年 · 期刊正式版全文\n图 2 和表 2 显示，C3 主动组的右手敲击数提高 4.69%，假刺激组提高 1.62%。C3 的刺激条件与时间交互为 p = 0.02。C4 对应比较未见显著交互。作者分开检验两个位置，因此这组结果没有直接比较 C3 和 C4 的刺激效应大小。\n原文"
+    "objectID": "notes/issues/2026-11-07-dose-and-fmri.html#经典照射中看到连接变化能说明什么",
+    "href": "notes/issues/2026-11-07-dose-and-fmri.html#经典照射中看到连接变化能说明什么",
+    "title": "光照进去多少，能从 fMRI 信号倒推吗？",
+    "section": "经典｜照射中看到连接变化，能说明什么？",
+    "text": "经典｜照射中看到连接变化，能说明什么？\nDmochowski 等 · 20 名健康参与者做 fMRI，另招 20 名健康参与者测温 · 正式版全文\n图 2C–D 比的是受照区与左右半球皮层的相关性。第三回波下，两侧各有 19/75 条连接在照射时相对基线显著增强（FDR 0.05）。图 3A 的两分钟滑动窗显示，增强大约在开光后一分钟出现。图 7 的独立测温比较未检出显著脑温差。连接结果仍可能包含随扫描时间变化的生理效应，因为这组 fMRI 没有独立假刺激。\n原文图表"
   },
   {
-    "objectID": "notes/issues/2026-11-08-motor-performance-learning.html#代表研究运动区连得更强能说明动作变快吗",
-    "href": "notes/issues/2026-11-08-motor-performance-learning.html#代表研究运动区连得更强能说明动作变快吗",
-    "title": "光刺激后手指敲得更快，说明学会了动作序列吗？",
-    "section": "代表研究｜运动区连得更强，能说明动作变快吗？",
-    "text": "代表研究｜运动区连得更强，能说明动作变快吗？\nBibb 等 · 8 名完成研究的健康成人 · 期刊正式版全文\n图 3C 的左侧 M1–丘脑静息连接在主动光相对假光的变化中达到 p = 0.0432，光与磁的直接比较为 p = 0.11。图 2B 的左侧运动感觉区任务 BOLD 在光条件下为 p = 0.058。研究未量化敲击速度等行为成绩，影像差异对应的是连接或激活。\n原文"
+    "objectID": "notes/issues/2026-11-07-dose-and-fmri.html#代表研究波长换了血流和-bold-同向变吗",
+    "href": "notes/issues/2026-11-07-dose-and-fmri.html#代表研究波长换了血流和-bold-同向变吗",
+    "title": "光照进去多少，能从 fMRI 信号倒推吗？",
+    "section": "代表研究｜波长换了，血流和 BOLD 同向变吗？",
+    "text": "代表研究｜波长换了，血流和 BOLD 同向变吗？\nVan Lankveld 等 · 45 名健康年轻成人 · 期刊在线全文\n表 2 中，照射区的 CBF 对 808 nm 的响应大于 1064 nm（FDR 校正 p = 0.048）。BOLD 的波长方向随区域和比较时段变化。膝下区/伏隔核在照射中是 1064 nm 较高（p = 0.006），后扣带区域在照射后则是 808 nm 较高（p = 0.033）。图 4B 比较不同时间窗的 BOLD–CBF 斜率，斜率随时间变化。耗氧由模型估计。\n原文图表"
   },
   {
-    "objectID": "notes/issues/2026-11-08-motor-performance-learning.html#最新进展连续四天照-sma非优势手会更快也更准吗",
-    "href": "notes/issues/2026-11-08-motor-performance-learning.html#最新进展连续四天照-sma非优势手会更快也更准吗",
-    "title": "光刺激后手指敲得更快，说明学会了动作序列吗？",
-    "section": "最新进展｜连续四天照 SMA，非优势手会更快也更准吗？",
-    "text": "最新进展｜连续四天照 SMA，非优势手会更快也更准吗？\nIravani 等 · 60 名右利手健康成人 · 期刊 OnlineFirst 摘要，全文待补\n摘要报告，相对假刺激，非优势手的反应时间和动作总时间缩短，准确率提高，三项 Bonferroni 校正后均 p &lt; 0.001。主动组 C3/C4 的 alpha 与 beta 功率升高。摘要未给出效应量、延迟保留或未练序列的结果，脑电功率也不能直接说明序列学习的机制。\n原文"
+    "objectID": "notes/issues/2026-11-07-dose-and-fmri.html#最新进展模拟透过率和头盔实测为什么会反过来",
+    "href": "notes/issues/2026-11-07-dose-and-fmri.html#最新进展模拟透过率和头盔实测为什么会反过来",
+    "title": "光照进去多少，能从 fMRI 信号倒推吗？",
+    "section": "最新进展｜模拟透过率和头盔实测为什么会反过来？",
+    "text": "最新进展｜模拟透过率和头盔实测为什么会反过来？\nEnam 等 · 两套人颅骨微 CT 模型及猪皮—离体人颅骨—人工脑脊液明胶体模 · 原刊已接收稿全文\n图 8（PDF 第 14 页） 的纵轴是有限探测孔径内的透射率。固定几何时，约 1064–1070 nm 一带通常较高，增加骨厚或脑脊液厚度时读数降低。图 10（第 16 页） 换成实际设备和体模。810 nm 头盔在右顶和枕部的透过辐照度分别约为 0.918 和 0.130 mW/cm²。设备的出光布局、功率和接触几何也变了，两组结果回答的是不同问题。\n原文图表"
   },
   {
-    "objectID": "notes/issues/2026-11-08-motor-performance-learning.html#fmri-方法练过的序列在脑里能分得更清吗",
-    "href": "notes/issues/2026-11-08-motor-performance-learning.html#fmri-方法练过的序列在脑里能分得更清吗",
-    "title": "光刺激后手指敲得更快，说明学会了动作序列吗？",
-    "section": "fMRI 方法｜练过的序列，在脑里能分得更清吗？",
-    "text": "fMRI 方法｜练过的序列，在脑里能分得更清吗？\nWiestler 与 Diedrichsen · 16 名健康右利手志愿者 · 期刊正式版全文\n图 2C 中四天练习后动作时间约减半，未练序列也出现一定提速。图 3C–D 中，额顶运动区域的平均分类准确率从未练序列的 34.2% 到练过序列的 38.4%（四分类机会水平 25%）。全皮层多重校正后的差异集中在左侧 SMA/pre-SMA，图 5C 约为 36% 对 46%。这篇比较的是任务表征，未施加光刺激。\n原文"
+    "objectID": "notes/issues/2026-11-07-dose-and-fmri.html#fmri-方法换一个回波时间连接图为什么会变",
+    "href": "notes/issues/2026-11-07-dose-and-fmri.html#fmri-方法换一个回波时间连接图为什么会变",
+    "title": "光照进去多少，能从 fMRI 信号倒推吗？",
+    "section": "fMRI 方法｜换一个回波时间，连接图为什么会变？",
+    "text": "fMRI 方法｜换一个回波时间，连接图为什么会变？\nKundu 等 · 9 名右利手健康志愿者 · 公开作者稿全文\n图 3 对比 15、39、63 ms 三个回波。额顶灰质的示例成分随 TE 增强，BOLD 拟合分数 κ = 184，基线变化分数 ρ = 15。脑缘示例在三个回波中幅度近似不变，κ = 22、ρ = 90。图 6 还展示了与呼吸变化相关、带 BOLD 特征的边界成分。\n原文图表"
   },
   {
-    "objectID": "notes/issues/2026-11-08-motor-performance-learning.html#怎么用到实验里",
-    "href": "notes/issues/2026-11-08-motor-performance-learning.html#怎么用到实验里",
-    "title": "光刺激后手指敲得更快，说明学会了动作序列吗？",
+    "objectID": "notes/issues/2026-11-07-dose-and-fmri.html#怎么用到实验里",
+    "href": "notes/issues/2026-11-07-dose-and-fmri.html#怎么用到实验里",
+    "title": "光照进去多少，能从 fMRI 信号倒推吗？",
     "section": "怎么用到实验里",
-    "text": "怎么用到实验里\n让主动和假刺激两组做等量训练，再用练过与未练过的序列测保留和迁移。把反应时间、动作时间和正确率分开看，避免把速度与准确率的取舍写成学习。若同时采 fMRI，可以预先把区域平均激活与序列可区分性设为不同指标，并记录按键时序、力量和错误，以便检查影像差异是否随动作本身变化。\n研究对比台 · 脑活动与连接问题页 · 编辑本期"
+    "text": "怎么用到实验里\n先分开三层数据。设备端实测入射辐照度，光学端用匹配的几何估计目标区剂量，人体端用独立假刺激比较预设时间窗的 BOLD、血流或功能连接。若希望建立剂量与反应的对应关系，应在同一靶点、同一出光几何和多个剂量水平下校准。图上的连接或血氧差异只能直接回答对应读数的变化。\n研究对比台 · 脑活动与连接 · 光如何进入脑内 · 编辑本期"
+  },
+  {
+    "objectID": "notes/issues/2026-11-09-mood-mechanism.html",
+    "href": "notes/issues/2026-11-09-mood-mechanism.html",
+    "title": "量表改善和脑指标一起变化，怎样判断机制？",
+    "section": "",
+    "text": "全部荐读\n量表改善、脑代谢变化、功能连接预测是三个不同的问题。本期把前后观察、随机剂量比较、动物生化和跨队列预测放到一起，看看每种证据能走多远。"
+  },
+  {
+    "objectID": "notes/issues/2026-11-09-mood-mechanism.html#经典单次照光后症状变化维持多久",
+    "href": "notes/issues/2026-11-09-mood-mechanism.html#经典单次照光后症状变化维持多久",
+    "title": "量表改善和脑指标一起变化，怎样判断机制？",
+    "section": "经典｜单次照光后，症状变化维持多久？",
+    "text": "经典｜单次照光后，症状变化维持多久？\nSchiffer 等，2009-12-08 · 10 名抑郁患者 · 正式版全文\n图 3 与表 4（PDF 第 9 页）显示 HAM-D 较基线平均下降 13.2 分和 6.5 分。急性光谱的开灯与关灯差异未达显著（图 2，p = 0.16）。长期症状随访没有独立假刺激组。\n原文定位"
+  },
+  {
+    "objectID": "notes/issues/2026-11-09-mood-mechanism.html#代表研究代谢物升高有特定剂量效应吗",
+    "href": "notes/issues/2026-11-09-mood-mechanism.html#代表研究代谢物升高有特定剂量效应吗",
+    "title": "量表改善和脑指标一起变化，怎样判断机制？",
+    "section": "代表研究｜代谢物升高，有特定剂量效应吗？",
+    "text": "代表研究｜代谢物升高，有特定剂量效应吗？\nCoelho 等，2025-05-13 · 33 名重性抑郁障碍成人 · 正式版全文\n图 6A（PDF 第 9 页结果）报告单次分析的 NAA 由 7.52 到 8.12 mmol/L（p = 0.0007），但不同条件间未见显著差异。部分多访视分析使用刺激前波谱，不能与即刻前后比较混读。\n原文定位"
+  },
+  {
+    "objectID": "notes/issues/2026-11-09-mood-mechanism.html#最新进展分子和行为一起变化说明谁在起作用",
+    "href": "notes/issues/2026-11-09-mood-mechanism.html#最新进展分子和行为一起变化说明谁在起作用",
+    "title": "量表改善和脑指标一起变化，怎样判断机制？",
+    "section": "最新进展｜分子和行为一起变化，说明谁在起作用？",
+    "text": "最新进展｜分子和行为一起变化，说明谁在起作用？\nKazmi 等，2026-10-25 首发 · 雄性小鼠 · 期刊预校样摘要与亮点，全文待补\n摘要报告，与卸载组相比，照光组的焦虑和抑郁样行为及若干线粒体、氧化应激和炎症指标向对照方向变化。该设计提供动物机制线索，摘要未给出可核对的效应量或独立阻断实验。\n原文定位"
+  },
+  {
+    "objectID": "notes/issues/2026-11-09-mood-mechanism.html#fmri-方法基线连接能不能预测临床反应",
+    "href": "notes/issues/2026-11-09-mood-mechanism.html#fmri-方法基线连接能不能预测临床反应",
+    "title": "量表改善和脑指标一起变化，怎样判断机制？",
+    "section": "fMRI 方法｜基线连接能不能预测临床反应？",
+    "text": "fMRI 方法｜基线连接能不能预测临床反应？\nWeigand 等，2017-11-10 在线，2018 刊期 · 接受 rTMS 的抑郁患者队列 · PubMed 摘要与公开图注\nPubMed 图注报告，第二队列的主动刺激中，连接与症状改善的相关为 r = −0.52，单侧 p &lt; 0.05；假刺激中未见同样的预测证据。这是磁刺激靶点预测研究。\n原文定位"
+  },
+  {
+    "objectID": "notes/issues/2026-11-09-mood-mechanism.html#怎么用到实验里",
+    "href": "notes/issues/2026-11-09-mood-mechanism.html#怎么用到实验里",
+    "title": "量表改善和脑指标一起变化，怎样判断机制？",
+    "section": "怎么用到实验里",
+    "text": "怎么用到实验里\n预先区分临床主要结局、早期脑指标和基线预测量。先确认主动组相对于假刺激的差异，再用时间顺序和独立验证检验机制或预测，避免用组内前后差替代组间证据。\n疗程与临床问题页 · 编辑本期"
   },
   {
     "objectID": "publications/index.html",

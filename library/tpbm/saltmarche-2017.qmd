@@ -36,6 +36,7 @@ Significant Improvement in Cognition in Mild to Moderately Severe Dementia Cases
 ## 结果怎么看
 
 - 12周MMSE均值增加2.60分，ADAS-cog下降6.73分；停治时1例退出。（[表 3 / 图 2–3·认知评分](https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T3)）
+- 患者及家属报告中有睡眠改善，未采用统一的睡眠量表或夜间脑电。（[正式版 PDF 第 7 页｜表 4 生活质量反馈](https://rcastoragev2.blob.core.windows.net/795c2207d8751a986544dc4da7e2b8db/PMC5568598.pdf#page=7)）
 
 ## 对实验设计有什么用
 
@@ -44,5 +45,6 @@ Significant Improvement in Cognition in Mild to Moderately Severe Dementia Cases
 ## 接着读
 
 - [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+- [光刺激后，主观睡眠与脑电指标是否同步变化？](../../research/questions/sleep-homeostasis.qmd)
 
 [修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

@@ -1,0 +1,25 @@
+---
+title: "前一晚没睡够，会改变第二天的连接吗？"
+date: 2026-11-10
+categories: [fMRI 脑网络]
+---
+
+De Havas 等，2011-08-18 在线，2012 刊期 · 26 名健康成人 · 期刊排版全文
+
+[DOI 10.1016/j.neuroimage.2011.08.026](https://doi.org/10.1016/j.neuroimage.2011.08.026) · PMID 21872664
+
+[回到本期](../issues/2026-11-10-sleep-endpoints.qmd)
+
+## 怎么做
+
+同一人正常睡眠后和约 24 小时全睡眠剥夺后各扫描一次，分别计算静息及视觉注意任务中的默认模式网络连接。
+
+## 结果怎么读
+
+图 3 有 3 对网络内连接下降，均涉及左下顶叶。图 4 有 20 对默认模式网络与反相关网络节点的负相关减弱。研究未发现这些变化与该任务行为下降之间的显著相关。
+
+## 对实验设计有什么用
+
+若用第二天 fMRI 评估睡前照射，记录前夜睡眠和扫描时的清醒状态，预先区分睡眠介导的变化与刺激的直接效应。
+
+[原文定位](https://sleepcognition-lab.org/wp-content/uploads/2022/01/2012_2_Sleepdeprivationreducesdefaultmodenetworkconnectivityandanti-correlationduringrestandtaskperformance.pdf#page=5) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/de-havas-2012-sleep-pressure-fmri.qmd)

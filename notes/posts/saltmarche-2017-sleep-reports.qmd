@@ -1,0 +1,25 @@
+---
+title: "家属说睡得更好，测到了什么？"
+date: 2026-11-10
+categories: [经颅光刺激]
+---
+
+Saltmarche 等，2017-02-10 在线 · 5 名轻至中重度痴呆患者 · 期刊正式版全文
+
+[DOI 10.1089/pho.2016.4227](https://doi.org/10.1089/pho.2016.4227) · PMID 28186867
+
+[回到本期](../issues/2026-11-10-sleep-endpoints.qmd)
+
+## 怎么做
+
+开放病例系列用 810 nm 经颅加鼻内照射，并在家中安排鼻内单独照射。疗程 12 周，随后停治随访 4 周，未设假刺激组。照射参数见表 2。
+
+## 结果怎么读
+
+表 4 把基线、疗程中与停治后的患者及家属反馈并列。报告中有睡眠改善，表中没有统一的睡眠时长、觉醒次数或分期。表 3 的 12 周 MMSE 平均增加 2.60 分，属于认知结果。
+
+## 对实验设计有什么用
+
+保留家属观察作为补充。若要检验夜间觉醒是否减少，增加统一的睡眠日志或夜间脑电，并设置盲法对照。
+
+[原文定位](https://rcastoragev2.blob.core.windows.net/795c2207d8751a986544dc4da7e2b8db/PMC5568598.pdf#page=7) · [研究对比卡](../../library/tpbm/saltmarche-2017.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/saltmarche-2017-sleep-reports.qmd)

@@ -1017,7 +1017,8 @@
       "journal": "Photomedicine and Laser Surgery",
       "kind": "临床",
       "questions": [
-        "repeated-clinical"
+        "repeated-clinical",
+        "sleep-homeostasis"
       ],
       "measures": [
         "量表"
@@ -1043,6 +1044,10 @@
         "r": {
           "label": "表 3 / 图 2–3·认知评分",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T3"
+        },
+        "sleep": {
+          "label": "正式版 PDF 第 7 页｜表 4 生活质量反馈",
+          "url": "https://rcastoragev2.blob.core.windows.net/795c2207d8751a986544dc4da7e2b8db/PMC5568598.pdf#page=7"
         }
       },
       "fields": {
@@ -1099,6 +1104,10 @@
         {
           "text": "12周MMSE均值增加2.60分，ADAS-cog下降6.73分；停治时1例退出。",
           "source": "r"
+        },
+        {
+          "source": "sleep",
+          "text": "患者及家属报告中有睡眠改善，未采用统一的睡眠量表或夜间脑电。"
         }
       ],
       "interpretation": "组合治疗、病例数少、无同期对照，且随访缺失；不能区分经颅和鼻内的各自贡献。"
@@ -2906,6 +2915,112 @@
         }
       ],
       "interpretation": "先检验主动对假刺激的变化差，再判断脑指标能否解释症状变化。不同档位同时改变了时间、辐照度或脉冲方式。"
+    },
+    {
+      "id": "mehdizadeh-2025",
+      "short": "Mehdizadeh · 2025",
+      "year": 2025,
+      "title": "Transcranial photobiomodulation improves sleep quality, reduces daytime sleepiness, and modulates delta power in chronic insomnia: a randomized controlled trial",
+      "title_zh": "慢性失眠患者照光后，清醒 δ 功率如何变化？",
+      "doi": "10.1007/s10103-025-04699-y",
+      "fulltext": "https://link.springer.com/article/10.1007/s10103-025-04699-y",
+      "journal": "Lasers in Medical Science",
+      "kind": "临床",
+      "questions": [
+        "sleep-homeostasis"
+      ],
+      "measures": [
+        "EEG",
+        "量表"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "连续光",
+      "reading": "期刊正式版全文；公开链接为期刊落地页与图表页码",
+      "sources": {
+        "d": {
+          "label": "期刊 PDF 第 2–3 页｜设计与图 1",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=2"
+        },
+        "m": {
+          "label": "期刊 PDF 第 4 页｜脑电及干预",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4"
+        },
+        "t1": {
+          "label": "期刊 PDF 第 4 页｜表 1",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4"
+        },
+        "t2": {
+          "label": "期刊 PDF 第 5 页｜表 2",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=5"
+        },
+        "abs": {
+          "label": "期刊公开摘要",
+          "url": "https://link.springer.com/article/10.1007/s10103-025-04699-y#Abs1"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "30 名慢性失眠成人，主动和假刺激各 15 名",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机平行、双盲假刺激对照；施治者知组别",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 nm，8 LED 簇",
+          "source": "m"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "m"
+        },
+        "target": {
+          "value": "Fp1、Fp2、Fz、F3、F4、F7、F8",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "报告 250 mW/cm²；总功率 3.4 W",
+          "source": "m"
+        },
+        "spot": {
+          "value": "光斑面积未见报告",
+          "source": "m"
+        },
+        "duration": {
+          "value": "报告每天 10 分钟，连续 3 天；各点实际驻留时间未说明",
+          "source": "m"
+        },
+        "dose": {
+          "value": "报告 60 J/cm²、2040 J/次。若按 250 mW/cm² 连续 600 s 同点照射，计算为 150 J/cm²，现有报告无法核对两者如何对应",
+          "source": "m"
+        },
+        "control": {
+          "value": "外观、声音、位置一致，金属滤片阻挡逾 99% 能量",
+          "source": "m"
+        },
+        "readout": {
+          "value": "PSQI、ESS、睁眼清醒静息 EEG δ 功率（1–4 Hz）",
+          "source": "m"
+        },
+        "timing": {
+          "value": "基线、末次治疗后一周",
+          "source": "d"
+        }
+      },
+      "results": [
+        {
+          "source": "t2",
+          "text": "Fz 校正后 δ 功率，主动组 46.44、假刺激组 80.33 μV²（p < 0.001）。F3、F4 未达显著。"
+        },
+        {
+          "source": "t2",
+          "text": "表 2 假刺激 PSQI 总分 26.7，超出 0–21 范围；表 1 基线也有超范围值。正文和表格的组间量表差异待核实。"
+        }
+      ],
+      "interpretation": "清醒脑电和夜间睡眠脑电分别回答不同问题。剂量和 PSQI 原文数值存在待核对之处，保留原报告。"
     }
   ]
 }

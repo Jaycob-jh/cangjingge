@@ -21,6 +21,18 @@ Jung 等的一周先导试验观察到主观睡眠量表改善。人体体动指
 
 [研究参数与结果](../../library/tpbm/jung-2026.qmd) · [图 1a–b / PDF 第 3 页 · 小鼠参数与时序](https://www.nature.com/articles/s41380-026-03875-y#Fig1) · [图 3 / PDF 第 5 页 · 腺苷、CCO 与 δ 功率](https://www.nature.com/articles/s41380-026-03875-y#Fig3)
 
+### Saltmarche · 2017：家属报告可补充夜间记录
+
+患者及家属报告中有睡眠改善，未采用统一的睡眠量表或夜间脑电。
+
+[研究参数与结果](../../library/tpbm/saltmarche-2017.qmd) · [正式版 PDF 第 7 页｜表 4 生活质量反馈](https://rcastoragev2.blob.core.windows.net/795c2207d8751a986544dc4da7e2b8db/PMC5568598.pdf#page=7)
+
+### Mehdizadeh · 2025：清醒 δ 功率与夜间脑电分开解读
+
+Fz 校正后 δ 功率，主动组 46.44、假刺激组 80.33 μV²（p < 0.001）。F3、F4 未达显著。 这是睁眼静息记录。PSQI 总分超范围，量表效应待澄清。
+
+[研究参数与结果](../../library/tpbm/mehdizadeh-2025.qmd) · [期刊 PDF 第 4 页｜表 1](https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4) · [期刊 PDF 第 5 页｜表 2](https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=5) · [期刊公开摘要](https://link.springer.com/article/10.1007/s10103-025-04699-y#Abs1)
+
 ## 做实验时看什么
 
 - 提前约定主要睡眠终点，把主观量表、体动推算和脑电分期分别解释。
@@ -30,5 +42,7 @@ Jung 等的一周先导试验观察到主观睡眠量表改善。人体体动指
 ## 相关研究
 
 - [Jung · 2026：额部近红外光能改善睡眠吗？](../../library/tpbm/jung-2026.qmd)
+- [Saltmarche · 2017：经颅加鼻内疗程结束后，认知评分怎样变化？](../../library/tpbm/saltmarche-2017.qmd)
+- [Mehdizadeh · 2025：慢性失眠患者照光后，清醒 δ 功率如何变化？](../../library/tpbm/mehdizadeh-2025.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

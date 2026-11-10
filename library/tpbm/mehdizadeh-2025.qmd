@@ -1,0 +1,49 @@
+---
+title: "慢性失眠患者照光后，清醒 δ 功率如何变化？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Mehdizadeh · 2025 · 临床**
+
+Transcranial photobiomodulation improves sleep quality, reduces daytime sleepiness, and modulates delta power in chronic insomnia: a randomized controlled trial
+
+*Lasers in Medical Science* · [DOI: 10.1007/s10103-025-04699-y](https://doi.org/10.1007/s10103-025-04699-y) · [阅读全文](https://link.springer.com/article/10.1007/s10103-025-04699-y)
+
+阅读范围：期刊正式版全文；公开链接为期刊落地页与图表页码。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=mehdizadeh-2025) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>30 名慢性失眠成人，主动和假刺激各 15 名<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=2" target="_blank" rel="noopener">期刊 PDF 第 2–3 页｜设计与图 1</a></dd></div>
+<div><dt>研究设计</dt><dd>随机平行、双盲假刺激对照；施治者知组别<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=2" target="_blank" rel="noopener">期刊 PDF 第 2–3 页｜设计与图 1</a></dd></div>
+<div><dt>波长</dt><dd>810 nm，8 LED 簇<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4" target="_blank" rel="noopener">期刊 PDF 第 4 页｜脑电及干预</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续光<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4" target="_blank" rel="noopener">期刊 PDF 第 4 页｜脑电及干预</a></dd></div>
+<div><dt>照射位置</dt><dd>Fp1、Fp2、Fz、F3、F4、F7、F8<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4" target="_blank" rel="noopener">期刊 PDF 第 4 页｜脑电及干预</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>报告 250 mW/cm²；总功率 3.4 W<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4" target="_blank" rel="noopener">期刊 PDF 第 4 页｜脑电及干预</a></dd></div>
+<div><dt>光斑</dt><dd>光斑面积未见报告<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4" target="_blank" rel="noopener">期刊 PDF 第 4 页｜脑电及干预</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>报告每天 10 分钟，连续 3 天；各点实际驻留时间未说明<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4" target="_blank" rel="noopener">期刊 PDF 第 4 页｜脑电及干预</a></dd></div>
+<div><dt>剂量</dt><dd>报告 60 J/cm²、2040 J/次。若按 250 mW/cm² 连续 600 s 同点照射，计算为 150 J/cm²，现有报告无法核对两者如何对应<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4" target="_blank" rel="noopener">期刊 PDF 第 4 页｜脑电及干预</a></dd></div>
+<div><dt>对照怎么做</dt><dd>外观、声音、位置一致，金属滤片阻挡逾 99% 能量<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4" target="_blank" rel="noopener">期刊 PDF 第 4 页｜脑电及干预</a></dd></div>
+<div><dt>观察指标</dt><dd>PSQI、ESS、睁眼清醒静息 EEG δ 功率（1–4 Hz）<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4" target="_blank" rel="noopener">期刊 PDF 第 4 页｜脑电及干预</a></dd></div>
+<div><dt>测量时间</dt><dd>基线、末次治疗后一周<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=2" target="_blank" rel="noopener">期刊 PDF 第 2–3 页｜设计与图 1</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- Fz 校正后 δ 功率，主动组 46.44、假刺激组 80.33 μV²（p < 0.001）。F3、F4 未达显著。（[期刊 PDF 第 5 页｜表 2](https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=5)）
+- 表 2 假刺激 PSQI 总分 26.7，超出 0–21 范围；表 1 基线也有超范围值。正文和表格的组间量表差异待核实。（[期刊 PDF 第 5 页｜表 2](https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=5)）
+
+## 对实验设计有什么用
+
+清醒脑电和夜间睡眠脑电分别回答不同问题。剂量和 PSQI 原文数值存在待核对之处，保留原报告。
+
+## 接着读
+
+- [光刺激后，主观睡眠与脑电指标是否同步变化？](../../research/questions/sleep-homeostasis.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)
