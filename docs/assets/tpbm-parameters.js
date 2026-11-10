@@ -127,7 +127,30 @@ function groundModel(question, proposed) {
       question.toLowerCase().includes(paper.toLowerCase())) explicit.paper = paper;
   return explicit;
 }
+const modelId = 'Qwen2.5-1.5B-Instruct-q4f16_1-MLC';
 let data, modelLoading;
+async function loadModel(button) {
+  // Keep the existing WebLLM cache backend so earlier downloads remain reusable.
+  const {CreateMLCEngine, hasModelInCache} = await import('https://cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.79/+esm');
+  let cached;
+  try { cached = await hasModelInCache(modelId); } catch { /* Loader can still try. */ }
+  if (button.disabled) status.textContent = cached
+    ? '已找到本地权重，正在初始化 Qwen……'
+    : '正在检查并加载 Qwen 权重，可继续手动筛选……';
+  return CreateMLCEngine(modelId, {
+    initProgressCallback: report => {
+      if (!button.disabled) return;
+      const progress = report.progress > 0 ? ' ' + Math.round(report.progress * 100) + '%' : '';
+      const fromCache = report.text?.startsWith('Loading model from cache');
+      const fetching = report.text?.startsWith('Fetching param cache');
+      if (fromCache) cached = true;
+      if (fetching) cached = false;
+      status.textContent = fetching ? '正在下载缺少的权重' + progress + '，可继续手动筛选。'
+        : cached ? '正在读取本地权重并初始化 Qwen' + progress + '……'
+        : '正在初始化 Qwen' + progress + '……';
+    },
+  });
+}
 async function withTimeout(work, milliseconds) {
   let timer;
   try {
@@ -164,12 +187,9 @@ $('parameter-ai').onclick = async event => {
     if (!navigator.gpu) throw Error('WebGPU unavailable');
     if (!modelLoading) {
       status.textContent = '正在准备 Qwen2.5 1.5B……';
-      modelLoading = import('https://cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.79/+esm')
-        .then(({CreateMLCEngine}) => CreateMLCEngine('Qwen2.5-1.5B-Instruct-q4f16_1-MLC', {
-          initProgressCallback: report => {
-            if (button.disabled) status.textContent = report.progress > 0 ? '模型加载 ' + Math.round(report.progress * 100) + '%' : '正在下载模型权重，可继续手动筛选……';
-          },
-        }))
+      // Ask only on a user action. The browser can decline and still use its normal cache.
+      void navigator.storage?.persist?.().catch(() => {});
+      modelLoading = loadModel(button)
         .catch(error => { modelLoading = undefined; throw error; });
     }
     const engine = await withTimeout(modelLoading, 900000);

@@ -18,7 +18,7 @@ css: ../assets/tpbm-parameters.css
       <button type="submit">解析常见条件</button>
       <button id="parameter-ai" type="button">用 Qwen 解析</button>
     </div>
-    <small>Qwen2.5 1.5B 在支持 WebGPU 的浏览器本地运行，首次约需下载 869 MB。下载期间可继续手动筛选，解析后可修改条件。</small>
+    <small>Qwen2.5 1.5B 在支持 WebGPU 的浏览器本地运行，首次约需下载 869 MB。同一浏览器会复用已缓存的权重，刷新后仍需重新初始化。清除站点数据或使用无痕窗口可能需要重新下载。加载期间可继续手动筛选。</small>
     <p id="parameter-model-status" role="status"></p>
   </form>
   <form id="parameter-filters" aria-label="手动筛选"></form>
