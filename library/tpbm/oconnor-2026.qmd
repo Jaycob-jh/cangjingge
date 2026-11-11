@@ -1,0 +1,49 @@
+---
+title: "照左额和照右额，对侧代谢一样吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**O’Connor · 2026 · 健康人**
+
+Interhemispheric Metabolic Effects of Transcranial Infrared Laser Stimulation of the Prefrontal Cortex
+
+*Human Brain Mapping* · [DOI: 10.1002/hbm.70578](https://doi.org/10.1002/hbm.70578) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/)
+
+阅读范围：期刊正式版全文。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=oconnor-2026) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>81 名青年成人；左/右主动 19/21 人，左/右假刺激 20/21 人<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-sec-0004" target="_blank" rel="noopener">方法 2.2–2.3｜样本与分组（下接设计段）</a></dd></div>
+<div><dt>研究设计</dt><dd>按性别分层的区组随机，单盲，四组平行<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-sec-0004" target="_blank" rel="noopener">方法 2.2–2.3｜样本与分组（下接设计段）</a></dd></div>
+<div><dt>波长</dt><dd>1064 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0001" target="_blank" rel="noopener">方法 2.4 与图 1｜刺激参数和双侧布置</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续激光 CytonPro-5000<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0001" target="_blank" rel="noopener">方法 2.4 与图 1｜刺激参数和双侧布置</a></dd></div>
+<div><dt>照射位置</dt><dd>单侧额极 Fp1 或 Fp2，对应前额叶 BA 10<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0001" target="_blank" rel="noopener">方法 2.4 与图 1｜刺激参数和双侧布置</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>250 mW/cm²；输出 3.4 W<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0001" target="_blank" rel="noopener">方法 2.4 与图 1｜刺激参数和双侧布置</a></dd></div>
+<div><dt>光斑</dt><dd>文中报告 13.6 cm²，约 4 cm 平顶圆光束，出光口距前额 5 cm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0001" target="_blank" rel="noopener">方法 2.4 与图 1｜刺激参数和双侧布置</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>每次 55 秒共 8 次，亮灯累计 440 秒<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0001" target="_blank" rel="noopener">方法 2.4 与图 1｜刺激参数和双侧布置</a></dd></div>
+<div><dt>剂量</dt><dd>入射能量密度 110 J/cm²，总能量 1496 J<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0001" target="_blank" rel="noopener">方法 2.4 与图 1｜刺激参数和双侧布置</a></dd></div>
+<div><dt>对照怎么做</dt><dd>近红外关闭，两种条件均用 650 nm、0.08 mW/cm² 导引光<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-sec-0004" target="_blank" rel="noopener">方法 2.2–2.3｜样本与分组（下接设计段）</a></dd></div>
+<div><dt>观察指标</dt><dd>双侧宽带近红外光谱估计氧化型 CCO、HbO、HHb；3 cm 通道用于浓度计算<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0002" target="_blank" rel="noopener">方法 2.5–2.6 与图 2｜测量时序</a></dd></div>
+<div><dt>测量时间</dt><dd>2 分钟基线，8 分钟照射阶段，5 分钟照后；每分钟测量 5 秒<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0002" target="_blank" rel="noopener">方法 2.5–2.6 与图 2｜测量时序</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 扣除对应假刺激均值后，照后 5 分钟的对侧氧化型 CCO 变化：左照右测均值 0.406 µM，右照左测 −0.0706 µM（名义 p = 0.036，秩二列相关 r = 0.39）。（[表 2｜同侧和对侧读数](https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-tbl-0002)）
+- 标准脑模型模拟显示目标侧和对侧光通量相差较大。模型描述光分布，跨侧神经通路仍待直接检验。（[图 3｜模板光传输模拟](https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0003)）
+
+## 对实验设计有什么用
+
+要回答哪一侧照射更容易带动对侧，左右主动组都要有对应假刺激，预先检验照射侧、真假条件与时间的交互。最好在关光后继续记录，避免错过较晚出现的变化。
+
+## 接着读
+
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

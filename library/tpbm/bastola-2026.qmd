@@ -1,0 +1,49 @@
+---
+title: "右额照光后，跨半球的节律连接怎么变？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Bastola · 2026 · 健康人**
+
+Transcranial 1064-nm laser photobiomodulation modulates frequency-specific cortical source dynamics and functional connectivity in healthy adults
+
+*Frontiers in Human Neuroscience* · [DOI: 10.3389/fnhum.2025.1704482](https://doi.org/10.3389/fnhum.2025.1704482) · [阅读全文](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf)
+
+阅读范围：期刊正式版全文。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=bastola-2026) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>25 名健康成人<br><a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=3" target="_blank" rel="noopener">方法 2.1–2.2.1｜PDF 第 3 页</a></dd></div>
+<div><dt>研究设计</dt><dd>同一人分日接受主动和假刺激，顺序平衡，单盲<br><a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=4" target="_blank" rel="noopener">方法 2.2.1–2.2.2 与图 1｜PDF 第 4 页</a></dd></div>
+<div><dt>波长</dt><dd>1064 nm<br><a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=3" target="_blank" rel="noopener">方法 2.1–2.2.1｜PDF 第 3 页</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续激光 CG-5000<br><a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=3" target="_blank" rel="noopener">方法 2.1–2.2.1｜PDF 第 3 页</a></dd></div>
+<div><dt>照射位置</dt><dd>右前额，Fp2 下方约 1 cm<br><a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=3" target="_blank" rel="noopener">方法 2.1–2.2.1｜PDF 第 3 页</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>标称 250 mW/cm²，计入光学与扩散器损耗后约 223 mW/cm²<br><a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=3" target="_blank" rel="noopener">方法 2.1–2.2.1｜PDF 第 3 页</a></dd></div>
+<div><dt>光斑</dt><dd>圆形出光口直径 4.2 cm<br><a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=3" target="_blank" rel="noopener">方法 2.1–2.2.1｜PDF 第 3 页</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>8 分钟<br><a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=3" target="_blank" rel="noopener">方法 2.1–2.2.1｜PDF 第 3 页</a></dd></div>
+<div><dt>剂量</dt><dd>有效入射约 107 J/cm²<br><a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=3" target="_blank" rel="noopener">方法 2.1–2.2.1｜PDF 第 3 页</a></dd></div>
+<div><dt>对照怎么做</dt><dd>同设备 0.1 W 档，5 mm 不透光盖，透射低于仪器约 3 µW/cm² 噪声底<br><a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=4" target="_blank" rel="noopener">方法 2.2.1–2.2.2 与图 1｜PDF 第 4 页</a></dd></div>
+<div><dt>观察指标</dt><dd>MEG、64 导 EEG，源空间 α/β 相位传递熵<br><a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=4" target="_blank" rel="noopener">方法 2.2.1–2.2.2 与图 1｜PDF 第 4 页</a></dd></div>
+<div><dt>测量时间</dt><dd>前后各 6 分钟睁眼静息；照射 8 分钟内仅采 EEG<br><a href="https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=4" target="_blank" rel="noopener">方法 2.2.1–2.2.2 与图 1｜PDF 第 4 页</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 主动刺激相对假刺激，α 频段左 BA 4 和左 BA 6 到对侧同名区的相位传递熵升高。（[图 6 与 α 频段结果｜PDF 第 9 页](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=9)）
+- 同侧通路的 BA 9→6、BA 6→4 效应量分别为 d = 0.68、0.74。（[图 6 与 α 频段结果｜PDF 第 9 页](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=9)）
+
+## 对实验设计有什么用
+
+把待检验的跨侧连边和频段提前定好，保留假刺激和前后基线。相位传递熵衡量信号间的方向性依赖，单凭该指标无法确定信息沿哪条解剖通路传播。
+
+## 接着读
+
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

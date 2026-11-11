@@ -2,6 +2,8 @@
 - [Jung · 2026：额部近红外光能改善睡眠吗？](../library/tpbm/jung-2026.qmd)
 - [Van Lankveld · 2026：相同波长的 BOLD 和脑血流反应一致吗？](../library/tpbm/van-lankveld-2026.qmd)
 - [Enam · 2026：波长相近的头盔，透过组织后差多少？](../library/tpbm/enam-2026.qmd)
+- [Bastola · 2026：右额照光后，跨半球的节律连接怎么变？](../library/tpbm/bastola-2026.qmd)
+- [O’Connor · 2026：照左额和照右额，对侧代谢一样吗？](../library/tpbm/oconnor-2026.qmd)
 - [Bibb · 2025：主动光、磁刺激与各自假刺激下的运动区 fMRI](../library/tpbm/bibb-2025.qmd)
 - [Coelho · 2025：代谢物升高，有特定剂量效应吗？](../library/tpbm/coelho-2025.qmd)
 - [Mehdizadeh · 2025：慢性失眠患者照光后，清醒 δ 功率如何变化？](../library/tpbm/mehdizadeh-2025.qmd)

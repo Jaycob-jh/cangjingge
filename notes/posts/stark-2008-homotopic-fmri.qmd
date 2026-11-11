@@ -1,0 +1,27 @@
+---
+title: "不照光时，左右同名区本来有多同步？"
+date: 2026-11-11
+categories: [fMRI 脑网络]
+---
+
+Stark 等，2008-12-17 · 62 名健康成人 · 公开作者稿方法和结果、PubMed 摘要
+
+[DOI 10.1523/JNEUROSCI.4544-08.2008](https://doi.org/10.1523/JNEUROSCI.4544-08.2008) · PMID 19091966
+
+[回到本期](../issues/2026-11-11-unilateral-bilateral.qmd)
+
+## 怎么做
+
+采集静息态 BOLD，用 112 个脑区比较左右同名区的低频信号相关，按初级感觉运动、单模态和跨模态联络区分组。
+
+## 结果怎么读
+
+图 4A 对照不同皮层层级的跨侧同步。三类同名区的平均相关分别为 0.758、0.597 和 0.517，初级感觉运动区最高。2009 年勘误修正了潜在混杂分析的两个 t 值，本段引用的区域相关值与解释保持有效。这个梯度来自无刺激的静息记录。
+
+## 对实验设计有什么用
+
+先用图谱或独立数据确定两侧同名区，再估计各自的基线连接。分析时区分区域本来就同步与主动刺激引起的额外变化。
+
+[原文图 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC4113425/#F4) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/stark-2008-homotopic-fmri.qmd)
+
+[期刊勘误](https://pmc.ncbi.nlm.nih.gov/articles/PMC6665624/)

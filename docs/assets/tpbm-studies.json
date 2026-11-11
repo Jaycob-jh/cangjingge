@@ -3021,6 +3021,213 @@
         }
       ],
       "interpretation": "清醒脑电和夜间睡眠脑电分别回答不同问题。剂量和 PSQI 原文数值存在待核对之处，保留原报告。"
+    },
+    {
+      "id": "bastola-2026",
+      "short": "Bastola · 2026",
+      "year": 2026,
+      "title": "Transcranial 1064-nm laser photobiomodulation modulates frequency-specific cortical source dynamics and functional connectivity in healthy adults",
+      "title_zh": "右额照光后，跨半球的节律连接怎么变？",
+      "doi": "10.3389/fnhum.2025.1704482",
+      "fulltext": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf",
+      "journal": "Frontiers in Human Neuroscience",
+      "kind": "健康人",
+      "questions": [
+        "brain-signals"
+      ],
+      "measures": [
+        "MEG",
+        "EEG"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "期刊正式版全文",
+      "sources": {
+        "m": {
+          "label": "方法 2.1–2.2.1｜PDF 第 3 页",
+          "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=3"
+        },
+        "d": {
+          "label": "方法 2.2.1–2.2.2 与图 1｜PDF 第 4 页",
+          "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=4"
+        },
+        "r": {
+          "label": "图 6 与 α 频段结果｜PDF 第 9 页",
+          "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=9"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "25 名健康成人",
+          "source": "m"
+        },
+        "design": {
+          "value": "同一人分日接受主动和假刺激，顺序平衡，单盲",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "连续激光 CG-5000",
+          "source": "m"
+        },
+        "target": {
+          "value": "右前额，Fp2 下方约 1 cm",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "标称 250 mW/cm²，计入光学与扩散器损耗后约 223 mW/cm²",
+          "source": "m"
+        },
+        "spot": {
+          "value": "圆形出光口直径 4.2 cm",
+          "source": "m"
+        },
+        "duration": {
+          "value": "8 分钟",
+          "source": "m"
+        },
+        "dose": {
+          "value": "有效入射约 107 J/cm²",
+          "source": "m"
+        },
+        "control": {
+          "value": "同设备 0.1 W 档，5 mm 不透光盖，透射低于仪器约 3 µW/cm² 噪声底",
+          "source": "d"
+        },
+        "readout": {
+          "value": "MEG、64 导 EEG，源空间 α/β 相位传递熵",
+          "source": "d"
+        },
+        "timing": {
+          "value": "前后各 6 分钟睁眼静息；照射 8 分钟内仅采 EEG",
+          "source": "d"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "主动刺激相对假刺激，α 频段左 BA 4 和左 BA 6 到对侧同名区的相位传递熵升高。"
+        },
+        {
+          "source": "r",
+          "text": "同侧通路的 BA 9→6、BA 6→4 效应量分别为 d = 0.68、0.74。"
+        }
+      ],
+      "interpretation": "把待检验的跨侧连边和频段提前定好，保留假刺激和前后基线。相位传递熵衡量信号间的方向性依赖，单凭该指标无法确定信息沿哪条解剖通路传播。"
+    },
+    {
+      "id": "oconnor-2026",
+      "short": "O’Connor · 2026",
+      "year": 2026,
+      "title": "Interhemispheric Metabolic Effects of Transcranial Infrared Laser Stimulation of the Prefrontal Cortex",
+      "title_zh": "照左额和照右额，对侧代谢一样吗？",
+      "doi": "10.1002/hbm.70578",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/",
+      "journal": "Human Brain Mapping",
+      "kind": "健康人",
+      "questions": [
+        "brain-signals"
+      ],
+      "measures": [
+        "bbNIRS"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "期刊正式版全文",
+      "sources": {
+        "d": {
+          "label": "方法 2.2–2.3｜样本与分组（下接设计段）",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-sec-0004"
+        },
+        "m": {
+          "label": "方法 2.4 与图 1｜刺激参数和双侧布置",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0001"
+        },
+        "t": {
+          "label": "方法 2.5–2.6 与图 2｜测量时序",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0002"
+        },
+        "r": {
+          "label": "结果 3.5 与图 4｜两种照射侧的对侧 CCO",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0004"
+        },
+        "b": {
+          "label": "表 2｜同侧和对侧读数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-tbl-0002"
+        },
+        "s": {
+          "label": "图 3｜模板光传输模拟",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0003"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "81 名青年成人；左/右主动 19/21 人，左/右假刺激 20/21 人",
+          "source": "d"
+        },
+        "design": {
+          "value": "按性别分层的区组随机，单盲，四组平行",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "连续激光 CytonPro-5000",
+          "source": "m"
+        },
+        "target": {
+          "value": "单侧额极 Fp1 或 Fp2，对应前额叶 BA 10",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "250 mW/cm²；输出 3.4 W",
+          "source": "m"
+        },
+        "spot": {
+          "value": "文中报告 13.6 cm²，约 4 cm 平顶圆光束，出光口距前额 5 cm",
+          "source": "m"
+        },
+        "duration": {
+          "value": "每次 55 秒共 8 次，亮灯累计 440 秒",
+          "source": "m"
+        },
+        "dose": {
+          "value": "入射能量密度 110 J/cm²，总能量 1496 J",
+          "source": "m"
+        },
+        "control": {
+          "value": "近红外关闭，两种条件均用 650 nm、0.08 mW/cm² 导引光",
+          "source": "d"
+        },
+        "readout": {
+          "value": "双侧宽带近红外光谱估计氧化型 CCO、HbO、HHb；3 cm 通道用于浓度计算",
+          "source": "t"
+        },
+        "timing": {
+          "value": "2 分钟基线，8 分钟照射阶段，5 分钟照后；每分钟测量 5 秒",
+          "source": "t"
+        }
+      },
+      "results": [
+        {
+          "source": "b",
+          "text": "扣除对应假刺激均值后，照后 5 分钟的对侧氧化型 CCO 变化：左照右测均值 0.406 µM，右照左测 −0.0706 µM（名义 p = 0.036，秩二列相关 r = 0.39）。"
+        },
+        {
+          "source": "s",
+          "text": "标准脑模型模拟显示目标侧和对侧光通量相差较大。模型描述光分布，跨侧神经通路仍待直接检验。"
+        }
+      ],
+      "interpretation": "要回答哪一侧照射更容易带动对侧，左右主动组都要有对应假刺激，预先检验照射侧、真假条件与时间的交互。最好在关光后继续记录，避免错过较晚出现的变化。"
     }
   ]
 }

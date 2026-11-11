@@ -1,0 +1,25 @@
+---
+title: "右额照光后，跨半球的节律连接怎么变？"
+date: 2026-11-11
+categories: [经颅光刺激]
+---
+
+Bastola 等，2026-01-08 在线 · 25 名健康成人 · 期刊正式版全文
+
+[DOI 10.3389/fnhum.2025.1704482](https://doi.org/10.3389/fnhum.2025.1704482) · PMID 41584102
+
+[回到本期](../issues/2026-11-11-unilateral-bilateral.qmd)
+
+## 怎么做
+
+同一受试者分两天接受右额 1064 nm 照射和遮光假刺激，顺序平衡。照射前后各 6 分钟同步采集脑磁（MEG）与脑电（EEG），照射中仅记录 EEG。
+
+## 结果怎么读
+
+图 6（PDF 第 9 页）比较主动刺激与假刺激。α 频段中，左侧运动区 BA 4、前运动区 BA 6 到右侧同名区的相位传递熵升高，并通过置换及 FDR 校正。同侧额叶到运动通路的 BA 9→6 和 BA 6→4 效应量分别为 d = 0.68 和 0.74。
+
+## 对实验设计有什么用
+
+把待检验的跨侧连边和频段提前定好，保留假刺激和前后基线。相位传递熵衡量信号间的方向性依赖，单凭该指标无法确定信息沿哪条解剖通路传播。
+
+[原文定位](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1704482/pdf#page=9) · [研究对比卡](../../library/tpbm/bastola-2026.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/bastola-2026-meg-alpha.qmd)
