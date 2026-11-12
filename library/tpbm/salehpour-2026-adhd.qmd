@@ -1,0 +1,49 @@
+---
+title: "成人 ADHD 的 2-back 改善主要体现在哪里？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Salehpour · 2026 · 临床**
+
+Transcranial photobiomodulation improves prefrontal oxygenation and impulse control in adults with ADHD: a randomized controlled trial
+
+*BMC Psychiatry* · [DOI: 10.1186/s12888-026-08391-5](https://doi.org/10.1186/s12888-026-08391-5) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/)
+
+阅读范围：期刊正式版全文，图 3、9、10；补表 S1–S2 列用药。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=salehpour-2026-adhd) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>第一阶段 223 名有或无 ADHD 病史的成人；第二阶段 52 名 ADHD 成人<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec3" target="_blank" rel="noopener">方法｜参与者、随机分组与表 1</a></dd></div>
+<div><dt>研究设计</dt><dd>单盲随机平行假刺激对照；第二阶段主动 25 人、假刺激 27 人（表 1）<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec3" target="_blank" rel="noopener">方法｜参与者、随机分组与表 1</a></dd></div>
+<div><dt>波长</dt><dd>1064 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec8" target="_blank" rel="noopener">方法｜照射与假刺激，含图 3</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续激光，HD Laser<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec8" target="_blank" rel="noopener">方法｜照射与假刺激，含图 3</a></dd></div>
+<div><dt>照射位置</dt><dd>右额 Fp2 内侧、外侧两点交替<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec8" target="_blank" rel="noopener">方法｜照射与假刺激，含图 3</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>250 mW/cm²；功率 3.4 W<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec8" target="_blank" rel="noopener">方法｜照射与假刺激，含图 3</a></dd></div>
+<div><dt>光斑</dt><dd>13.6 cm²；出光口直径 4.16 cm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec8" target="_blank" rel="noopener">方法｜照射与假刺激，含图 3</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>共 8 分钟，每分钟换点，每点累计 4 分钟<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec8" target="_blank" rel="noopener">方法｜照射与假刺激，含图 3</a></dd></div>
+<div><dt>剂量</dt><dd>每点入射 60 J/cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec8" target="_blank" rel="noopener">方法｜照射与假刺激，含图 3</a></dd></div>
+<div><dt>对照怎么做</dt><dd>同设备、同部位同时间及同样声音，假刺激不出 1064 nm 光<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec8" target="_blank" rel="noopener">方法｜照射与假刺激，含图 3</a></dd></div>
+<div><dt>观察指标</dt><dd>持续表现任务（CPT）、2-back、前额 fNIRS 氧合与总血红蛋白<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec11" target="_blank" rel="noopener">方法｜48 通道 fNIRS 及平均方式</a></dd></div>
+<div><dt>测量时间</dt><dd>第二阶段照前、照后各一次 10 分钟 fNIRS，前 5 分钟静息，后 5 分钟 2-back<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec10" target="_blank" rel="noopener">方法｜2-back 与照前照后记录时序</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 2-back 正确拒绝次数照后减照前，主动 +3.58、假刺激 +1.73（p = 0.040）；虚报次数分别 −0.792 和 +1.38（p = 0.028）。（[图 9｜2-back 正确拒绝与虚报的变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Fig9)）
+- 整个记录时段的前额平均氧合血红蛋白变化在两组间存在差异（p = 0.011，d = 0.73）。（[图 10｜照前照后前额血红蛋白变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Fig10)）
+
+## 对实验设计有什么用
+
+在 2-back 中分别报告命中、虚报、正确拒绝和反应时，检验改善是否集中于抑制误按。若要解释任务阶段的血氧变化，可把静息与任务分开建模。
+
+## 接着读
+
+- [注意与记忆改善，应该看哪些指标？](../../research/questions/cognition.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

@@ -1,0 +1,27 @@
+---
+title: "右额照光后，视觉记忆容量增加多少？"
+date: 2026-11-12
+categories: [经颅光刺激]
+---
+
+Zhao 等 · 2022-12-02 首发 · [DOI 10.1126/sciadv.abq3211](https://doi.org/10.1126/sciadv.abq3211) · PMID 36459562
+
+研究对象 · 四个实验招募 90 名健康大学生，79 人纳入分析
+
+阅读范围 · 期刊正式版全文，图 1、2、4、5
+
+[回到本期](../issues/2026-11-12-memory-vs-response.qmd)
+
+## 怎么做
+
+四个独立实验各自采用双盲、主动与假刺激交叉设计。右额 1064 nm 实验分别要求记住朝向或颜色，照射结束休息 8 分钟后做变化检测，同时记录脑电。研究以高负荷下的 K 估计记住的项目数，计算时从命中率扣除虚报率，再乘项目数。
+
+## 结果怎么读
+
+图 1D 中，右额 1064 nm 主动照射相对假刺激，朝向任务的 K 平均增加 0.186 个项目（n = 23，p = 0.009），颜色任务增加 0.188 个项目（n = 18，p = 0.013）。图 2 的后部对侧延迟活动（CDA）也随条件改变。另两批样本的 852 nm 右额和 1064 nm 左额实验未检出同样的 K 收益。
+
+## 对实验设计有什么用
+
+在同一套变化检测任务中同时报告 K、命中、虚报和反应时，方便判断效应落在哪一项。若要直接比较波长或照射侧，预先设置相应的条件间对比。
+
+[原文图表](https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#F1) · [脑电结果（图 2）](https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#F2) · [波长与侧别（图 4–5）](https://pmc.ncbi.nlm.nih.gov/articles/PMC10936045/#F4) · [研究对比卡](../../library/tpbm/zhao-2022.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/zhao-2022-visual-memory-capacity.qmd)

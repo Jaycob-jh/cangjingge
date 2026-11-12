@@ -3228,6 +3228,213 @@
         }
       ],
       "interpretation": "要回答哪一侧照射更容易带动对侧，左右主动组都要有对应假刺激，预先检验照射侧、真假条件与时间的交互。最好在关光后继续记录，避免错过较晚出现的变化。"
+    },
+    {
+      "id": "li-2024-executive-safety",
+      "short": "Li · 2024",
+      "year": 2024,
+      "title": "Transcranial low-level laser stimulation in the near-infrared-II region (1064 nm) for brain safety in healthy humans",
+      "title_zh": "单次照光后，2-back 的辨别力变化了吗？",
+      "doi": "10.1016/j.brs.2024.11.010",
+      "fulltext": "https://www.brainstimjrnl.com/article/S1935-861X%2824%2900195-5/pdf",
+      "journal": "Brain Stimulation",
+      "kind": "健康人",
+      "questions": [
+        "cognition"
+      ],
+      "measures": [
+        "行为"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "期刊正式版全文，表 1、图 5",
+      "sources": {
+        "m": {
+          "label": "方法 2.2｜照射与短时假刺激（PDF 第 2 页）",
+          "url": "https://www.brainstimjrnl.com/article/S1935-861X%2824%2900195-5/pdf#page=2"
+        },
+        "d": {
+          "label": "表 1｜样本、分组与盲法（PDF 第 3 页）",
+          "url": "https://www.brainstimjrnl.com/article/S1935-861X%2824%2900195-5/pdf#page=3"
+        },
+        "t": {
+          "label": "方法 2.7｜执行功能与 2-back（PDF 第 4 页）",
+          "url": "https://www.brainstimjrnl.com/article/S1935-861X%2824%2900195-5/pdf#page=4"
+        },
+        "r": {
+          "label": "图 5｜执行功能组间比较（PDF 第 7 页）",
+          "url": "https://www.brainstimjrnl.com/article/S1935-861X%2824%2900195-5/pdf#page=7"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "执行功能实验主动 19 人、假刺激 18 人，各任务有效样本略有差异",
+          "source": "d"
+        },
+        "design": {
+          "value": "双盲随机平行，照后比较，执行功能实验",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "连续激光，JL-LS-100",
+          "source": "m"
+        },
+        "target": {
+          "value": "右额 Fp2 为中心",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "167 mW/cm²；实测功率 2099.19 mW",
+          "source": "m"
+        },
+        "spot": {
+          "value": "12.57 cm²，直径 4 cm",
+          "source": "m"
+        },
+        "duration": {
+          "value": "连续照射 8 分钟",
+          "source": "m"
+        },
+        "dose": {
+          "value": "入射 80.16 J/cm²",
+          "source": "m"
+        },
+        "control": {
+          "value": "同部位开始和结束各照 30 秒，中间 7 分钟关光，累计能量密度约为主动的 1/8",
+          "source": "m"
+        },
+        "readout": {
+          "value": "2-back 的 d′、正确反应时；另测 Stroop 干扰成本及任务切换成本",
+          "source": "t"
+        },
+        "timing": {
+          "value": "单次照射后测执行功能，方法未给出起测分钟数",
+          "source": "t"
+        }
+      },
+      "results": [
+        {
+          "text": "情绪、数字和空间 2-back 的 d′ 均未检出组间差异。Stroop 和切换任务的主要指标同样未检出组间差异。",
+          "source": "r"
+        }
+      ],
+      "interpretation": "先选与假设一致的主任务。2-back 的更新表现和变化检测的容量 K 属于不同结局，可以分别测。若目标是判断是否存在实际可忽略的差异，要预先定义等效界值并报告区间。"
+    },
+    {
+      "id": "salehpour-2026-adhd",
+      "short": "Salehpour · 2026",
+      "year": 2026,
+      "title": "Transcranial photobiomodulation improves prefrontal oxygenation and impulse control in adults with ADHD: a randomized controlled trial",
+      "title_zh": "成人 ADHD 的 2-back 改善主要体现在哪里？",
+      "doi": "10.1186/s12888-026-08391-5",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/",
+      "journal": "BMC Psychiatry",
+      "kind": "临床",
+      "questions": [
+        "cognition"
+      ],
+      "measures": [
+        "行为",
+        "fNIRS"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "期刊正式版全文，图 3、9、10；补表 S1–S2 列用药",
+      "sources": {
+        "d": {
+          "label": "方法｜参与者、随机分组与表 1",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec3"
+        },
+        "m": {
+          "label": "方法｜照射与假刺激，含图 3",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec8"
+        },
+        "t": {
+          "label": "方法｜2-back 与照前照后记录时序",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec10"
+        },
+        "h": {
+          "label": "方法｜48 通道 fNIRS 及平均方式",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Sec11"
+        },
+        "r": {
+          "label": "图 9｜2-back 正确拒绝与虚报的变化",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Fig9"
+        },
+        "s": {
+          "label": "图 10｜照前照后前额血红蛋白变化",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Fig10"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "第一阶段 223 名有或无 ADHD 病史的成人；第二阶段 52 名 ADHD 成人",
+          "source": "d"
+        },
+        "design": {
+          "value": "单盲随机平行假刺激对照；第二阶段主动 25 人、假刺激 27 人（表 1）",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "连续激光，HD Laser",
+          "source": "m"
+        },
+        "target": {
+          "value": "右额 Fp2 内侧、外侧两点交替",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "250 mW/cm²；功率 3.4 W",
+          "source": "m"
+        },
+        "spot": {
+          "value": "13.6 cm²；出光口直径 4.16 cm",
+          "source": "m"
+        },
+        "duration": {
+          "value": "共 8 分钟，每分钟换点，每点累计 4 分钟",
+          "source": "m"
+        },
+        "dose": {
+          "value": "每点入射 60 J/cm²",
+          "source": "m"
+        },
+        "control": {
+          "value": "同设备、同部位同时间及同样声音，假刺激不出 1064 nm 光",
+          "source": "m"
+        },
+        "readout": {
+          "value": "持续表现任务（CPT）、2-back、前额 fNIRS 氧合与总血红蛋白",
+          "source": "h"
+        },
+        "timing": {
+          "value": "第二阶段照前、照后各一次 10 分钟 fNIRS，前 5 分钟静息，后 5 分钟 2-back",
+          "source": "t"
+        }
+      },
+      "results": [
+        {
+          "text": "2-back 正确拒绝次数照后减照前，主动 +3.58、假刺激 +1.73（p = 0.040）；虚报次数分别 −0.792 和 +1.38（p = 0.028）。",
+          "source": "r"
+        },
+        {
+          "text": "整个记录时段的前额平均氧合血红蛋白变化在两组间存在差异（p = 0.011，d = 0.73）。",
+          "source": "s"
+        }
+      ],
+      "interpretation": "在 2-back 中分别报告命中、虚报、正确拒绝和反应时，检验改善是否集中于抑制误按。若要解释任务阶段的血氧变化，可把静息与任务分开建模。"
     }
   ]
 }

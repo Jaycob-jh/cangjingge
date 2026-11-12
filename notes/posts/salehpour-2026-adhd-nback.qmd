@@ -1,0 +1,27 @@
+---
+title: "成人 ADHD 的 2-back 改善主要体现在哪里？"
+date: 2026-11-12
+categories: [经颅光刺激]
+---
+
+Salehpour 等 · 2026-07-14 首发，2026-10-09 期刊正式版 · [DOI 10.1186/s12888-026-08391-5](https://doi.org/10.1186/s12888-026-08391-5) · PMID 42449279
+
+研究对象 · 第一阶段纳入 223 人，包含有和无 ADHD 病史的成人。第二阶段纳入 52 名 ADHD 成人（主动 25 人，假刺激 27 人）
+
+阅读范围 · 期刊正式版全文，图 3、9、10；补表 S1–S2 列用药
+
+[回到本期](../issues/2026-11-12-memory-vs-response.qmd)
+
+## 怎么做
+
+单盲随机假刺激对照。用 1064 nm 激光在右额 Fp2 内外侧交替照射，总共 8 分钟。第二阶段在照射前后各做一次 2-back 并记录前额近红外光谱（fNIRS），每次记录含 5 分钟静息与 5 分钟任务。
+
+## 结果怎么读
+
+图 9A 中，2-back 正确拒绝次数的照后减照前变化，主动组为 +3.58、假刺激组为 +1.73（p = 0.040）。图 9B 中虚报次数分别变化 −0.792 和 +1.38（p = 0.028）。图 10A 的前额氧合血红蛋白变化在两组间也不同（p = 0.011，d = 0.73），该读数汇总了静息与任务记录。
+
+## 对实验设计有什么用
+
+在 2-back 中分别报告命中、虚报、正确拒绝和反应时，检验改善是否集中于抑制误按。若要解释任务阶段的血氧变化，可把静息与任务分开建模。
+
+[原文图表](https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Fig9) · [照射部位（图 3）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Fig3) · [前额血氧（图 10）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Fig10) · [研究对比卡](../../library/tpbm/salehpour-2026-adhd.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/salehpour-2026-adhd-nback.qmd)

@@ -1,0 +1,27 @@
+---
+title: "单次照光后，2-back 的辨别力变化了吗？"
+date: 2026-11-12
+categories: [经颅光刺激]
+---
+
+Li 等 · 2024-11-30 在线 · [DOI 10.1016/j.brs.2024.11.010](https://doi.org/10.1016/j.brs.2024.11.010)
+
+研究对象 · 执行功能实验招募健康人，主动 19 人、假刺激 18 人
+
+阅读范围 · 期刊正式版全文，表 1、图 5
+
+[回到本期](../issues/2026-11-12-memory-vs-response.qmd)
+
+## 怎么做
+
+双盲平行分组，单次 1064 nm 照射中心为右额 Fp2，持续 8 分钟。假刺激在开头和结尾各照 30 秒。照后用情绪、数字和空间 2-back 测更新，用 Stroop 和任务切换测其他执行功能。
+
+## 结果怎么读
+
+图 5B 的三个 2-back 子任务均未检出主动和假刺激组的 d′ 差异。d′ 根据命中率和虚报率估计辨别力。图中同时报告的干扰与切换成本也未检出组间差异。各 2-back 子任务各有 1–2 人按表现标准排除。
+
+## 对实验设计有什么用
+
+先选与假设一致的主任务。2-back 的更新表现和变化检测的容量 K 属于不同结局，可以分别测。若目标是判断是否存在实际可忽略的差异，要预先定义等效界值并报告区间。
+
+[原文图表](https://www.brainstimjrnl.com/article/S1935-861X%2824%2900195-5/pdf#page=7) · [照射和假刺激（PDF 第 2 页）](https://www.brainstimjrnl.com/article/S1935-861X%2824%2900195-5/pdf#page=2) · [样本与任务（PDF 第 3–4 页）](https://www.brainstimjrnl.com/article/S1935-861X%2824%2900195-5/pdf#page=3) · [研究对比卡](../../library/tpbm/li-2024-executive-safety.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/li-2024-nback-executive-safety.qmd)

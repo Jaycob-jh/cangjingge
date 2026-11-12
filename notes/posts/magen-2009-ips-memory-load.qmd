@@ -1,0 +1,27 @@
+---
+title: "顶叶 BOLD 随负荷增加，还能说明记住了更多吗？"
+date: 2026-11-12
+categories: [fMRI 脑网络]
+---
+
+Magen 等 · 2009-02-14 在线 · [DOI 10.1016/j.neuropsychologia.2009.02.015](https://doi.org/10.1016/j.neuropsychologia.2009.02.015) · PMID 19428411
+
+研究对象 · 三项健康人实验；图 2C 对应实验 3 的 12 人
+
+阅读范围 · 公开作者稿全文，图 2–4
+
+[回到本期](../issues/2026-11-12-memory-vs-response.qmd)
+
+## 怎么做
+
+用任务 fMRI 比较不同项目负荷下的视觉短时记忆，并分析顶内沟（IPS）等区域。实验 3 让受试者记住 1、3、5 或 7 个空间位置，保持 6 秒后判断探测位置是否出现过。
+
+## 结果怎么读
+
+图 2C 中，呈现项目数从 5 到 7 时，行为容量 K 未再明显增加（t₁₁ = 0.5，p > 0.6），而上部顶内沟在保持期的 BOLD 继续升高（t₁₁ = 1.9，单尾 p < 0.05）。图 3C 将编码、保持和提取时窗分开呈现。
+
+## 对实验设计有什么用
+
+要解释光刺激后的顶叶信号，可以同时操纵负荷和延迟，并预先区分编码、保持和提取时窗。联合观察行为 K 与 BOLD 负荷曲线，检验变化是否集中在容量相关条件。
+
+[原文图表](https://pmc.ncbi.nlm.nih.gov/articles/PMC2757282/#F2) · [顶内沟活动时间曲线（图 3）](https://pmc.ncbi.nlm.nih.gov/articles/PMC2757282/#F3) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/magen-2009-ips-memory-load.qmd)
