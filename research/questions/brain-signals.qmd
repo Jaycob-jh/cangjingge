@@ -57,6 +57,18 @@ C3 主动照射与假刺激的敲击数变化不同。这个设计给出即刻�
 
 [研究参数与结果](../../library/tpbm/oconnor-2026.qmd) · [表 2｜同侧和对侧读数](https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-tbl-0002) · [结果 3.5 与图 4｜两种照射侧的对侧 CCO](https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0004) · [图 3｜模板光传输模拟](https://pmc.ncbi.nlm.nih.gov/articles/PMC13279625/#hbm70578-fig-0003)
 
+### Wang · 2017：代谢与血氧有不同时间曲线
+
+主动相对假刺激，oxCCO 第 2 分钟检出增加，HbO 第 3 分钟检出增加，HHb 第 4 分钟检出下降。 照射中按固定节奏采样，分别报告血氧和代谢读数。若要检验哪个变化更早出现，可平衡主动与假刺激顺序，并预设时间窗与时序比较方法。
+
+[研究参数与结果](../../library/tpbm/wang-2017-cco-hbo.qmd) · [图 3｜代谢与血氧时间曲线](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#fig3-0271678X17691783) · [图 2｜照射和采样时序](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#fig2-0271678X17691783)
+
+### Iosifescu · 2026：BOLD 波动功率随照射条件改变
+
+前额叶第一回波照射中减照射前：低连续光 d = −0.70，中连续光 d = +0.52；高脉冲和假刺激的各回波变化未显著偏离零。 比较剂量时，先固定出光方式和分析时窗，再直接检验各条件相对假刺激的变化。BOLD 波动功率与任务诱发振幅要分别报告。
+
+[研究参数与结果](../../library/tpbm/iosifescu-2026-bold-power.qmd) · [表 3｜前额叶分回波变化量及效应量](https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#T3) · [方法 2｜随机照射、三条件参数与扫描](https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#S6)
+
 ## 做实验时看什么
 
 - 每个结果写明：测什么信号、什么频段、哪个脑区、刺激中还是刺激后。
@@ -78,5 +90,7 @@ C3 主动照射与假刺激的敲击数变化不同。这个设计给出即刻�
 - [Bibb · 2025：主动光、磁刺激与各自假刺激下的运动区 fMRI](../../library/tpbm/bibb-2025.qmd)
 - [Bastola · 2026：右额照光后，跨半球的节律连接怎么变？](../../library/tpbm/bastola-2026.qmd)
 - [O’Connor · 2026：照左额和照右额，对侧代谢一样吗？](../../library/tpbm/oconnor-2026.qmd)
+- [Wang · 2017：照光后，代谢与血氧的时间曲线一样吗？](../../library/tpbm/wang-2017-cco-hbo.qmd)
+- [Iosifescu · 2026：同一批人换照射条件，BOLD 波动会同向变化吗？](../../library/tpbm/iosifescu-2026-bold-power.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

@@ -3435,6 +3435,212 @@
         }
       ],
       "interpretation": "在 2-back 中分别报告命中、虚报、正确拒绝和反应时，检验改善是否集中于抑制误按。若要解释任务阶段的血氧变化，可把静息与任务分开建模。"
+    },
+    {
+      "id": "wang-2017-cco-hbo",
+      "short": "Wang · 2017",
+      "year": 2017,
+      "title": "Up-regulation of cerebral cytochrome-c-oxidase and hemodynamics by transcranial infrared laser stimulation: A broadband near-infrared spectroscopy study",
+      "title_zh": "照光后，代谢与血氧的时间曲线一样吗？",
+      "doi": "10.1177/0271678x17691783",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/",
+      "journal": "Journal of Cerebral Blood Flow & Metabolism",
+      "kind": "健康人",
+      "questions": [
+        "brain-signals"
+      ],
+      "measures": [
+        "bbNIRS"
+      ],
+      "wavelengths": [
+        "1064"
+      ],
+      "mode_filter": "连续光",
+      "reading": "期刊正式版正文与图 1–4",
+      "sources": {
+        "d": {
+          "label": "方法｜样本、顺序与间隔",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#sec6-0271678X17691783"
+        },
+        "m": {
+          "label": "方法｜仪器、右额位置与参数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#sec7-0271678X17691783"
+        },
+        "t": {
+          "label": "图 2｜照射和采样时序",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#fig2-0271678X17691783"
+        },
+        "r": {
+          "label": "图 3｜代谢与血氧时间曲线",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#fig3-0271678X17691783"
+        },
+        "c": {
+          "label": "图 4｜组平均代谢与血氧关联",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#fig4-0271678X17691783"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "11 名健康成人",
+          "source": "d"
+        },
+        "design": {
+          "value": "单盲同人固定顺序：先假刺激，休息 5 分钟后主动刺激",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1064 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "连续激光 CG-5000，每分钟停光采样",
+          "source": "m"
+        },
+        "target": {
+          "value": "右额眉上，光谱探头下方",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "250 mW/cm²；输出 3.4 W",
+          "source": "m"
+        },
+        "spot": {
+          "value": "13.6 cm²",
+          "source": "m"
+        },
+        "duration": {
+          "value": "55 秒开、5 秒关，8 轮",
+          "source": "t"
+        },
+        "dose": {
+          "value": "13.75 J/cm²/轮，187 J/轮",
+          "source": "m"
+        },
+        "control": {
+          "value": "设备保持运行声音，光束不发出",
+          "source": "m"
+        },
+        "readout": {
+          "value": "单通道宽带 NIRS，3 cm 源探距离，估计 oxCCO、HbO 和 HHb",
+          "source": "m"
+        },
+        "timing": {
+          "value": "2 分钟基线，8 分钟照射阶段，5 分钟恢复",
+          "source": "r"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "主动相对假刺激，oxCCO 第 2 分钟检出增加，HbO 第 3 分钟检出增加，HHb 第 4 分钟检出下降。"
+        },
+        {
+          "source": "c",
+          "text": "图 4A 的主动条件组平均时间点，oxCCO 与 HbO 的线性拟合 R² = 0.968。"
+        }
+      ],
+      "interpretation": "照射中按固定节奏采样，分别报告血氧和代谢读数。若要检验哪个变化更早出现，可平衡主动与假刺激顺序，并预设时间窗与时序比较方法。"
+    },
+    {
+      "id": "iosifescu-2026-bold-power",
+      "short": "Iosifescu · 2026",
+      "year": 2026,
+      "title": "Dose dependent effects of transcranial photobiomodulation on blood-oxygenation-level-dependent power in major depressive disorder",
+      "title_zh": "同一批人换照射条件，BOLD 波动会同向变化吗？",
+      "doi": "10.1016/j.brs.2026.103185",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/",
+      "journal": "Brain Stimulation",
+      "kind": "临床",
+      "questions": [
+        "brain-signals"
+      ],
+      "measures": [
+        "fMRI"
+      ],
+      "wavelengths": [
+        "808"
+      ],
+      "mode_filter": "连续+脉冲",
+      "reading": "公开作者稿正文，方法、图 2 和表 3",
+      "sources": {
+        "m": {
+          "label": "方法 2｜随机照射、三条件参数与扫描",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#S6"
+        },
+        "d": {
+          "label": "表 1｜分析样本",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#T1"
+        },
+        "r": {
+          "label": "表 3｜前额叶分回波变化量及效应量",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#T3"
+        },
+        "f": {
+          "label": "图 2｜前额叶个体变化",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#F2"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "31 名重性抑郁障碍成人",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机顺序交叉，四次访视约隔一周",
+          "source": "m"
+        },
+        "wavelength": {
+          "value": "808 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "低、中为连续波；高为 40 Hz、33% 占空比脉冲波",
+          "source": "m"
+        },
+        "target": {
+          "value": "双侧前额叶，含 F3/F4、Fz/Fpz 与 Fp1/Fp2 对应区",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "低约 50，中约 300，高平均约 300、峰值约 900 mW/cm²",
+          "source": "m"
+        },
+        "spot": {
+          "value": "双侧各 12 cm²，总 24 cm²",
+          "source": "m"
+        },
+        "duration": {
+          "value": "低 1200 秒，中 333 秒，高 600 秒",
+          "source": "m"
+        },
+        "dose": {
+          "value": "双侧合计约 1.4、2.4、4.3 kJ（低、中、高，原文标称值）",
+          "source": "m"
+        },
+        "control": {
+          "value": "设备待机、有可见光、无近红外输出",
+          "source": "m"
+        },
+        "readout": {
+          "value": "3T 多回波静息态 BOLD 波动功率，TE 12.8 / 33.41 / 54.02 ms",
+          "source": "m"
+        },
+        "timing": {
+          "value": "照射前、照射中及照射后即刻；表 3 对比照射中减照射前",
+          "source": "r"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "前额叶第一回波照射中减照射前：低连续光 d = −0.70，中连续光 d = +0.52；高脉冲和假刺激的各回波变化未显著偏离零。"
+        },
+        {
+          "source": "f",
+          "text": "图 2 显示每位参与者的变化，个体之间有变异。"
+        }
+      ],
+      "interpretation": "比较剂量时，先固定出光方式和分析时窗，再直接检验各条件相对假刺激的变化。BOLD 波动功率与任务诱发振幅要分别报告。"
     }
   ]
 }

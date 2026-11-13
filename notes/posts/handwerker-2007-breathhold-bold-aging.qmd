@@ -1,0 +1,27 @@
+---
+title: "屏气测得的血管反应，能解释多少任务 BOLD 差异？"
+date: 2026-11-13
+categories: [fMRI 脑网络]
+---
+
+Handwerker 等 · 2006-11-08 在线，2007 刊期 · [DOI 10.1002/hbm.20307](https://doi.org/10.1002/hbm.20307) · [PMID 17094119](https://pubmed.ncbi.nlm.nih.gov/17094119/)
+
+研究对象 · 50 名健康成人，年轻组 26 人、年长组 24 人
+
+阅读范围 · 期刊正式版全文，图 2C、4、5
+
+[回到本期](../issues/2026-11-13-bold-vascular-response.qmd)
+
+## 怎么做
+
+在同一批人中分别采集眼跳任务和屏气诱发的高碳酸血症 fMRI。在额眼区、辅助眼区、初级运动区和初级视觉区内，比较两项任务逐体素的 BOLD 幅度。
+
+## 结果怎么读
+
+图 5 中，四个脑区的眼跳和屏气 BOLD 幅度回归在年轻与年长两组均显著。逐人分析中，50 人里有 48 人检出两项任务幅度的线性关系。图 2C 中，按屏气响应归一化后，初级视觉区的年龄差异仍可检出。
+
+## 对实验设计有什么用
+
+为刺激前后增加独立的脑血管反应性测量，并检查校准前后任务效应。校准反映血管响应差异，仍需用独立神经测量来判断神经贡献。
+
+[原文图表](https://pmc.ncbi.nlm.nih.gov/articles/PMC6871393/#fig5) · [归一化（图 2C）](https://pmc.ncbi.nlm.nih.gov/articles/PMC6871393/#fig2) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/handwerker-2007-breathhold-bold-aging.qmd)

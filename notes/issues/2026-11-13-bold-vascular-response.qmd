@@ -1,0 +1,48 @@
+---
+title: "光刺激后任务 BOLD 变强，能分清神经与血管反应吗？"
+date: 2026-11-13
+description: "把血氧、代谢、任务表现与血管反应性放进同一个实验设计。"
+categories: [脑活动与脑网络]
+---
+
+[全部荐读](../questions.qmd)
+
+本期问的是，同一个动作任务中，照光后的 BOLD 增强有多少来自血管反应，有多少可能来自神经活动。四篇论文分别提供代谢与血氧时序、不同照射条件下的静息波动、年龄分层的任务结果，以及独立测量血管反应的办法。
+
+## 经典研究｜照光后，代谢与血氧的时间曲线一样吗？
+
+[Wang 等的札记](../posts/wang-2017-cco-hbo-timing.qmd) · 11 名健康成人 · 期刊正式版正文与图 1–4
+
+图 3 中，相对假刺激，oxCCO 第 2 分钟检出增加，氧合血红蛋白（HbO）第 3 分钟检出增加，脱氧血红蛋白第 4 分钟检出下降。图 4A 的主动条件组平均时间点上，oxCCO 与 HbO 的拟合 R² = 0.968。采样间隔、固定顺序和逐时间点检验都会影响对先后顺序的判断。
+
+[原文图表](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#fig3-0271678X17691783) · [照射时序（图 2）](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#fig2-0271678X17691783) · [代谢与血氧的关联（图 4）](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#fig4-0271678X17691783)
+
+## 代表研究｜同一批人换照射条件，BOLD 波动会同向变化吗？
+
+[Iosifescu 等的札记](../posts/iosifescu-2026-dose-bold-power.qmd) · 31 名重性抑郁障碍成人 · 公开作者稿正文，方法、图 2 和表 3
+
+表 3 和图 2 显示，受照前额叶在第一回波（TE 12.8 ms）的照射中减照射前标准化效应为低剂量 d = −0.70、中剂量 d = +0.52。高剂量脉冲和假刺激的变化未检出显著偏离零。这些 d 值来自各条件内的前后变化。不同条件同时改变辐照度、照射时长或出光方式。
+
+[原文图表](https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#T3) · [四条件与扫描时序（方法）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#S6) · [个体功率变化（图 2）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#F2)
+
+## 最新进展｜老年组的运动任务 BOLD 增强，按键也更快吗？
+
+[Dole 等的札记](../posts/dole-2026-finger-bold-aging.qmd) · 60 名右利手成人入组，年轻组和老年组各 30 人；预印本分析 29 名年轻人和 27 名老年人 · 期刊在线版摘要和 medRxiv v1 全文；正文图表读数来自预印本
+
+期刊摘要报告老年组的右腹侧运动前区及岛叶存在局部 BOLD 增强。预印本图 4A、表 3 中，老年组的主动照后减照前，再减去假刺激对应变化，右额下回／岛叶峰值 t = 4.62，FWE 校正 p = 0.042。预印本图 1 中，老年组按键次数变化的中位数为主动 +1.22、假刺激 +1.61，p = 0.296。正式版图表与参数仍待核对。
+
+[期刊摘要](https://pubmed.ncbi.nlm.nih.gov/43014490/) · [预印本脑图（图 4）](https://www.medrxiv.org/content/10.64898/2026.07.06.26357423v1.full#F4) · [预印本动作结果（图 1）](https://www.medrxiv.org/content/10.64898/2026.07.06.26357423v1.full#F1) · [预印本校正统计（表 3）](https://www.medrxiv.org/content/10.64898/2026.07.06.26357423v1.full#T3)
+
+## 任务 fMRI 方法｜屏气测得的血管反应，能解释多少任务 BOLD 差异？
+
+[Handwerker 等的札记](../posts/handwerker-2007-breathhold-bold-aging.qmd) · 50 名健康成人，年轻组 26 人、年长组 24 人 · 期刊正式版全文，图 2C、4、5
+
+图 5 中，四个脑区的眼跳和屏气 BOLD 幅度回归在年轻与年长两组均显著。逐人分析中，50 人里有 48 人检出两项任务幅度的线性关系。图 2C 中，按屏气响应归一化后，初级视觉区的年龄差异仍可检出。
+
+[原文图表](https://pmc.ncbi.nlm.nih.gov/articles/PMC6871393/#fig5) · [归一化（图 2C）](https://pmc.ncbi.nlm.nih.gov/articles/PMC6871393/#fig2)
+
+## 怎么用到实验里
+
+让每人完成主动和假刺激访视，用同一运动任务和同一照后时窗比较两条件。同步记录按键速度与准确率，另测血管反应性。若条件允许，再用 EEG 或其他独立神经测量检验任务相关变化。关注年龄时，直接估计年龄组与刺激效应的交互。
+
+[脑活动与连接问题页](../../research/questions/brain-signals.qmd) · [编辑本期](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/issues/2026-11-13-bold-vascular-response.qmd)

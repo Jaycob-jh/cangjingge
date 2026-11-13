@@ -1,29 +1,11 @@
 [
   {
-    "listing": "/notes/questions.html",
-    "items": [
-      "/notes/issues/2026-11-12-memory-vs-response.html",
-      "/notes/issues/2026-11-11-unilateral-bilateral.html",
-      "/notes/issues/2026-11-10-sleep-endpoints.html",
-      "/notes/issues/2026-11-09-mood-mechanism.html",
-      "/notes/issues/2026-11-08-motor-performance-learning.html",
-      "/notes/issues/2026-11-07-dose-and-fmri.html",
-      "/notes/issues/2026-11-06-stimulation-measures.html"
-    ]
-  },
-  {
-    "listing": "/library/index.html",
-    "items": [
-      "/library/papers/openscholar.html",
-      "/library/papers/khan-2026-personalized-neuromodulation.html",
-      "/library/papers/li-2024-tpbm-safety.html",
-      "/library/papers/jia-2023-mi-bci.html",
-      "/library/papers/zhao-2023-alpha-attention.html"
-    ]
-  },
-  {
     "listing": "/notes/index.html",
     "items": [
+      "/notes/posts/dole-2026-finger-bold-aging.html",
+      "/notes/posts/handwerker-2007-breathhold-bold-aging.html",
+      "/notes/posts/iosifescu-2026-dose-bold-power.html",
+      "/notes/posts/wang-2017-cco-hbo-timing.html",
       "/notes/posts/li-2024-nback-executive-safety.html",
       "/notes/posts/magen-2009-ips-memory-load.html",
       "/notes/posts/salehpour-2026-adhd-nback.html",
@@ -55,6 +37,29 @@
       "/notes/posts/nawrocik-madrid-2026-light-asl.html",
       "/notes/posts/personalized-neuromodulation.html",
       "/notes/posts/reading-guide.html"
+    ]
+  },
+  {
+    "listing": "/library/index.html",
+    "items": [
+      "/library/papers/openscholar.html",
+      "/library/papers/khan-2026-personalized-neuromodulation.html",
+      "/library/papers/li-2024-tpbm-safety.html",
+      "/library/papers/jia-2023-mi-bci.html",
+      "/library/papers/zhao-2023-alpha-attention.html"
+    ]
+  },
+  {
+    "listing": "/notes/questions.html",
+    "items": [
+      "/notes/issues/2026-11-13-bold-vascular-response.html",
+      "/notes/issues/2026-11-12-memory-vs-response.html",
+      "/notes/issues/2026-11-11-unilateral-bilateral.html",
+      "/notes/issues/2026-11-10-sleep-endpoints.html",
+      "/notes/issues/2026-11-09-mood-mechanism.html",
+      "/notes/issues/2026-11-08-motor-performance-learning.html",
+      "/notes/issues/2026-11-07-dose-and-fmri.html",
+      "/notes/issues/2026-11-06-stimulation-measures.html"
     ]
   }
 ]

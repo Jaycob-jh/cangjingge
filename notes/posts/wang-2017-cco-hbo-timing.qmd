@@ -1,0 +1,27 @@
+---
+title: "照光后，代谢与血氧的时间曲线一样吗？"
+date: 2026-11-13
+categories: [经颅光刺激]
+---
+
+Wang 等 · 2017-02-09 在线 · [DOI 10.1177/0271678x17691783](https://doi.org/10.1177/0271678x17691783) · [PMID 28178891](https://pubmed.ncbi.nlm.nih.gov/28178891/)
+
+研究对象 · 11 名健康成人
+
+阅读范围 · 期刊正式版正文与图 1–4
+
+[回到本期](../issues/2026-11-13-bold-vascular-response.qmd)
+
+## 怎么做
+
+同一批人先做无出光假刺激，间隔 5 分钟后在同一右额部位接受 1064 nm 激光。每轮 55 秒照射、5 秒采集宽带近红外光谱。记录氧化型细胞色素 c 氧化酶（oxCCO）和血红蛋白的浓度变化。
+
+## 结果怎么读
+
+图 3 中，相对假刺激，oxCCO 第 2 分钟检出增加，氧合血红蛋白（HbO）第 3 分钟检出增加，脱氧血红蛋白第 4 分钟检出下降。图 4A 的主动条件组平均时间点上，oxCCO 与 HbO 的拟合 R² = 0.968。采样间隔、固定顺序和逐时间点检验都会影响对先后顺序的判断。
+
+## 对实验设计有什么用
+
+照射中按固定节奏采样，分别报告血氧和代谢读数。若要检验哪个变化更早出现，可平衡主动与假刺激顺序，并预设时间窗与时序比较方法。
+
+[原文图表](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#fig3-0271678X17691783) · [照射时序（图 2）](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#fig2-0271678X17691783) · [代谢与血氧的关联（图 4）](https://pmc.ncbi.nlm.nih.gov/articles/PMC5718323/#fig4-0271678X17691783) · [研究对比卡](../../library/tpbm/wang-2017-cco-hbo.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/wang-2017-cco-hbo-timing.qmd)

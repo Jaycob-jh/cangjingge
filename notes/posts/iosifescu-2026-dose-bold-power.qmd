@@ -1,0 +1,27 @@
+---
+title: "同一批人换照射条件，BOLD 波动会同向变化吗？"
+date: 2026-11-13
+categories: [经颅光刺激]
+---
+
+Iosifescu 等 · 2026-08-13 在线 · [DOI 10.1016/j.brs.2026.103185](https://doi.org/10.1016/j.brs.2026.103185) · [PMID 42595101](https://pubmed.ncbi.nlm.nih.gov/42595101/)
+
+研究对象 · 31 名重性抑郁障碍成人
+
+阅读范围 · 公开作者稿正文，方法、图 2 和表 3
+
+[回到本期](../issues/2026-11-13-bold-vascular-response.qmd)
+
+## 怎么做
+
+每周一次，随机排序安排假刺激、低辐照度连续光、中辐照度连续光和高总能量脉冲光。用 808 nm 照双侧前额叶，3T 多回波静息态 fMRI 比较照射中相对照射前的 BOLD 波动功率。
+
+## 结果怎么读
+
+表 3 和图 2 显示，受照前额叶在第一回波（TE 12.8 ms）的照射中减照射前标准化效应为低剂量 d = −0.70、中剂量 d = +0.52。高剂量脉冲和假刺激的变化未检出显著偏离零。这些 d 值来自各条件内的前后变化。不同条件同时改变辐照度、照射时长或出光方式。
+
+## 对实验设计有什么用
+
+比较剂量时，先固定出光方式和分析时窗，再直接检验各条件相对假刺激的变化。BOLD 波动功率与任务诱发振幅要分别报告。
+
+[原文图表](https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#T3) · [四条件与扫描时序（方法）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#S6) · [个体功率变化（图 2）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#F2) · [研究对比卡](../../library/tpbm/iosifescu-2026-bold-power.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/iosifescu-2026-dose-bold-power.qmd)
