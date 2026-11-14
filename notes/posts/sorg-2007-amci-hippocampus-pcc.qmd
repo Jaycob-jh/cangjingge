@@ -1,0 +1,27 @@
+---
+title: "轻度认知障碍中，哪条记忆相关连接偏弱？"
+date: 2026-11-14
+categories: [fMRI 脑网络]
+---
+
+Sorg 等 · 2007-11-14 期刊上线 · [DOI 10.1073/pnas.0708803104](https://doi.org/10.1073/pnas.0708803104) · [PMID 18003904](https://pubmed.ncbi.nlm.nih.gov/18003904/)
+
+研究对象 · 24 名遗忘型轻度认知障碍者和 16 名健康老年对照
+
+阅读范围 · 期刊正式版全文，图 2–3 和海马连接结果
+
+[回到本期](../issues/2026-11-14-memory-default-network.qmd)
+
+## 怎么做
+
+静息态 fMRI 用独立成分分析提取网络，再单独估计左右海马与后扣带皮层（PCC）的相关，组间分析考虑海马体积。参与者未接受刺激。
+
+## 结果怎么读
+
+图 2 中，8 个可重复识别的静息网络里，DMN 和执行注意网络各有部分区域在患者中的网络相关信号较弱（FDR 校正 p < 0.05）。正文报告左／右海马与 PCC 的平均 Fisher z，健康组为 0.37／0.30，患者组为 −0.03／−0.09。校正海马体积后的组间比较分别为 p = 0.04／0.02（Bonferroni 校正）。
+
+## 对实验设计有什么用
+
+把海马—PCC 连边作为预设的补充终点，与整个 DMN 的平均连接分别报告。横断面差异可用来选测量指标，治疗后的变化方向交给随机试验检验。
+
+[网络组间脑图（图 2）](https://pmc.ncbi.nlm.nih.gov/articles/PMC2141850/#F2) · [海马—PCC 连接（结果）](https://pmc.ncbi.nlm.nih.gov/articles/PMC2141850/#sec5) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/sorg-2007-amci-hippocampus-pcc.qmd)

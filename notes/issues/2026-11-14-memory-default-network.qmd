@@ -1,0 +1,50 @@
+---
+title: "重复照光后，记忆和默认模式网络会一起改变吗？"
+date: 2026-11-14
+description: "看认知、延迟再认与静息连接的变化，再问它们是否发生在同一个人身上。"
+categories: [脑活动与脑网络]
+---
+
+[全部荐读](../questions.qmd)
+
+这期问的是，在认知受损的人群中，连续多次照光后，记忆改善是否伴随默认模式网络（DMN）连接增强。总体认知、延迟再认和静息态连接是三个不同的读数。它们可以一起变化，是否在同一人身上相互对应，需要单独检验。
+
+以 2026 年 10 月 15 日至 11 月 14 日为检索窗，本次未检到贴合这个问题、且此前未讲过的近 30 天原始研究。近年进展选用 2026 年 6 月上线的正式研究，并标注预印本图表来源。
+
+## 经典研究｜居家照光 12 周，认知评分和脑网络怎么变？
+
+[Chao的札记](../posts/chao-2019-dementia-default-network.qmd) · 8 名痴呆受试者，主动与常规照护各 4 人 · 期刊正式版 PDF 全文，方法、表 2–4 和图 3–5
+
+表 3 和图 3A 中，主动组的 ADAS-Cog 均分由 37.5 降至 32.3，常规照护组由 32.1 升至 39.2（分数越低越好，组别与时间交互 p = 0.007）。图 5 和表 4 显示后扣带与外侧顶叶连接的组内变化方向相反，两组在基线及第 12 周的直接比较均未达显著。样本小，常规照护组没有使用假设备。
+
+[认知轨迹（图 3）](https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=5) · [认知均值（表 3）](https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=4) · [连接结果（表 4、图 5）](https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=6) · [设备参数（表 2）](https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=3)
+
+## 代表研究｜照光 5 次，量表和注意任务能读出什么？
+
+[Papi 等的札记](../posts/papi-2022-mci-cognition-attention.qmd) · 42 名轻度认知障碍（MCI）老年女性，每组 21 人 · 期刊正式版全文，干预方法、图 4–7
+
+图 4 的 MMSE 组别与时间交互 F(1,40) = 20，p < 0.001。图 5 和图 6 中，主动组的目标反应变快、正确率提高，组别与时间交互分别为 F(1,40) = 17、13，原文均报告 p < 0.001。这些读数回答总体认知和注意表现，研究没有采集记忆专测或静息态 fMRI。
+
+[MMSE（图 4）](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F4) · [反应时（图 5）](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F5) · [正确率（图 6）](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F6) · [照射方法](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4)
+
+## 近年进展｜假刺激对照下，延迟再认和网络连接都变了吗？
+
+[Rashidi-Ranjbar 等的札记](../posts/rashidi-ranjbar-2026-mci-memory-dmn.qmd) · 20 名 ≥50 岁的 MCI 成人，主动与假刺激各 10 人 · 期刊正式版摘要与 medRxiv v1 全文，图 1、4A 来自预印本
+
+正式版摘要报告主动组相对假刺激的延迟再认改善（CVLT-II，d = 1.09，p = 0.02）和 DMN 内连接增强（d = 1.25，p = 0.014）。预印本图 4A 的 DMN 平均变化量为主动 +0.077、假刺激 −0.095。预印本图 1 的延迟再认命中数变化为 +1.38 对 −2.00，两个版本报告的记忆统计略有差异。两个结局存在组间差异，个体层面的关联仍待检验。
+
+[正式版摘要](https://pubmed.ncbi.nlm.nih.gov/42231857/) · [预印本全文（图 1、4A）](https://www.medrxiv.org/content/10.1101/2025.08.19.25333989v1.full.pdf) · [预印本 DOI](https://doi.org/10.1101/2025.08.19.25333989)
+
+## 静息态 fMRI｜轻度认知障碍中，哪条记忆相关连接偏弱？
+
+[Sorg 等的札记](../posts/sorg-2007-amci-hippocampus-pcc.qmd) · 24 名遗忘型轻度认知障碍者和 16 名健康老年对照 · 期刊正式版全文，图 2–3 和海马连接结果
+
+图 2 中，8 个可重复识别的静息网络里，DMN 和执行注意网络各有部分区域在患者中的网络相关信号较弱（FDR 校正 p < 0.05）。正文报告左／右海马与 PCC 的平均 Fisher z，健康组为 0.37／0.30，患者组为 −0.03／−0.09。校正海马体积后的组间比较分别为 p = 0.04／0.02（Bonferroni 校正）。
+
+[网络组间脑图（图 2）](https://pmc.ncbi.nlm.nih.gov/articles/PMC2141850/#F2) · [海马—PCC 连接（结果）](https://pmc.ncbi.nlm.nih.gov/articles/PMC2141850/#sec5)
+
+## 怎么用到实验里
+
+做随机假刺激对照。在基线和疗程后，让同一人完成延迟再认与静息态 fMRI，固定照后评估时点。预先选一个记忆主终点、一个 DMN 连接指标，把海马—后扣带连接列为补充指标。先估计主动相对假刺激在两个终点各改变多少，再检验同一个人的两项变化是否相关。记录头动、扫描时清醒状态和海马体积，并报告有效配对样本量。
+
+[研究对比台](../../research/tpbm-compare.qmd) · [重复照射问题页](../../research/questions/repeated-clinical.qmd) · [脑活动与连接问题页](../../research/questions/brain-signals.qmd) · [编辑本期](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/issues/2026-11-14-memory-default-network.qmd)

@@ -1,0 +1,51 @@
+---
+title: "照光 5 次，量表和注意任务能读出什么？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Papi · 2022 · 临床**
+
+The effect of transcranial photobiomodulation on cognitive function and attentional performance of older women with mild cognitive impairment: a randomized controlled trial
+
+*Przeglad Menopauzalny* · [DOI: 10.5114/pm.2022.119794](https://doi.org/10.5114/pm.2022.119794) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/)
+
+阅读范围：期刊正式版全文，干预方法、图 4–7。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=papi-2022-mci-attention) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>42 名 MCI 老年女性，每组 21 人<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_1" target="_blank" rel="noopener">方法｜样本与随机分配</a></dd></div>
+<div><dt>研究设计</dt><dd>单盲随机平行；主动对假刺激<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_1" target="_blank" rel="noopener">方法｜样本与随机分配</a></dd></div>
+<div><dt>波长</dt><dd>峰值 850 nm，额外列最大 870 nm 与带宽 30 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4" target="_blank" rel="noopener">方法｜设备、照射、面积与假刺激</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>20 颗近红外 LED；主动组连续波或脉冲波未注明<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4" target="_blank" rel="noopener">方法｜设备、照射、面积与假刺激</a></dd></div>
+<div><dt>照射位置</dt><dd>右额极 Fp2（10–20 系统）<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4" target="_blank" rel="noopener">方法｜设备、照射、面积与假刺激</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>设备总功率 400 mW；原文列功率密度 285 mW/cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4" target="_blank" rel="noopener">方法｜设备、照射、面积与假刺激</a></dd></div>
+<div><dt>光斑</dt><dd>设备段列 1.4 cm²，流程另列额部照射范围 4 cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4" target="_blank" rel="noopener">方法｜设备、照射、面积与假刺激</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>5 个每日访视，每次 10 分钟；剂量段另列 2.5 分钟<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4" target="_blank" rel="noopener">方法｜设备、照射、面积与假刺激</a></dd></div>
+<div><dt>剂量</dt><dd>设备段列 42.75 J/cm² 与 60 J（400 mW × 2.5 分钟）；全程有效出光时长待核<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4" target="_blank" rel="noopener">方法｜设备、照射、面积与假刺激</a></dd></div>
+<div><dt>对照怎么做</dt><dd>每分钟 30 秒少量光；未给假刺激功率<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4" target="_blank" rel="noopener">方法｜设备、照射、面积与假刺激</a></dd></div>
+<div><dt>观察指标</dt><dd>MMSE 与 Go/No-Go：反应时、正确率、效率<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F3" target="_blank" rel="noopener">图 3｜前后测流程</a></dd></div>
+<div><dt>测量时间</dt><dd>干预前和 5 次干预后评估<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F3" target="_blank" rel="noopener">图 3｜前后测流程</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- MMSE 组别与时间交互 F(1,40) = 20，p < 0.001。（[图 4｜MMSE](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F4)）
+- 主动组反应时缩短；组别与时间交互 F(1,40) = 17，原文报告 p < 0.001。（[图 5｜反应时](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F5)）
+- 主动组正确率提高；组别与时间交互 F(1,40) = 13，原文报告 p < 0.001。（[图 6｜正确率](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F6)）
+
+## 对实验设计有什么用
+
+把总体量表、反应速度和正确率分别报告。若要回答记忆与网络是否一起变，应加一个预先指定的记忆任务，并同步测静息连接。复现实验还需先核清有效出光时间与实际剂量。
+
+## 接着读
+
+- [注意与记忆改善，应该看哪些指标？](../../research/questions/cognition.qmd)
+- [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

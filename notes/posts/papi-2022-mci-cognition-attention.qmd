@@ -1,0 +1,27 @@
+---
+title: "照光 5 次，量表和注意任务能读出什么？"
+date: 2026-11-14
+categories: [经颅光刺激]
+---
+
+Papi 等 · 2022-09-28 期刊上线 · [DOI 10.5114/pm.2022.119794](https://doi.org/10.5114/pm.2022.119794) · [PMID 36254133](https://pubmed.ncbi.nlm.nih.gov/36254133/)
+
+研究对象 · 42 名轻度认知障碍（MCI）老年女性，每组 21 人
+
+阅读范围 · 期刊正式版全文，干预方法、图 4–7
+
+[回到本期](../issues/2026-11-14-memory-default-network.qmd)
+
+## 怎么做
+
+单盲随机分组。主动组连续 5 天用 850 nm LED 刺激右额极 Fp2。主动访视写为每次 10 分钟，设备剂量段另外按 2.5 分钟计算 60 J。假刺激每分钟给 30 秒少量光，文中没有给出具体输出。干预前后分别做总体认知量表 MMSE 和 Go/No-Go 注意任务。
+
+## 结果怎么读
+
+图 4 的 MMSE 组别与时间交互 F(1,40) = 20，p < 0.001。图 5 和图 6 中，主动组的目标反应变快、正确率提高，组别与时间交互分别为 F(1,40) = 17、13，原文均报告 p < 0.001。这些读数回答总体认知和注意表现，研究没有采集记忆专测或静息态 fMRI。
+
+## 对实验设计有什么用
+
+把总体量表、反应速度和正确率分别报告。若要回答记忆与网络是否一起变，应加一个预先指定的记忆任务，并同步测静息连接。复现实验还需先核清有效出光时间与实际剂量。
+
+[MMSE（图 4）](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F4) · [反应时（图 5）](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F5) · [正确率（图 6）](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F6) · [照射方法](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4) · [研究对比卡](../../library/tpbm/papi-2022-mci-attention.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/papi-2022-mci-cognition-attention.qmd)

@@ -51,6 +51,18 @@ HAM-D 平均较基线下降 13.2 和 6.5 分。 把即刻生理对照与独立�
 
 [研究参数与结果](../../library/tpbm/coelho-2025.qmd) · [PDF 第 9 页｜单次 NAA 分析](https://mdpi-res.com/d_attachment/jcm/jcm-14-03402/article_deploy/jcm-14-03402.pdf#page=9) · [PDF 第 3 页｜表 1](https://mdpi-res.com/d_attachment/jcm/jcm-14-03402/article_deploy/jcm-14-03402.pdf#page=3)
 
+### Chao · 2019：12 周照光与常规照护的认知轨迹
+
+ADAS-Cog 均分由 37.5 变为 32.3（照光），由 32.1 变为 39.2（常规照护）；组别与时间交互 p = 0.007。 保留刺激前后影像和认知双测量，增加外观与操作一致的假刺激。预先定义连接的组间变化量，以及每个人连接变化与认知变化的关联。
+
+[研究参数与结果](../../library/tpbm/chao-2019-dementia-dmn.qmd) · [图 3｜ADAS-Cog 和照护者量表](https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=5) · [图 1、表 2｜装置与出光参数](https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=3)
+
+### Papi · 2022：5 次照光的前后测与出光剂量
+
+MMSE 组别与时间交互 F(1,40) = 20，p < 0.001。 把总体量表、反应速度和正确率分别报告。若要回答记忆与网络是否一起变，应加一个预先指定的记忆任务，并同步测静息连接。复现实验还需先核清有效出光时间与实际剂量。
+
+[研究参数与结果](../../library/tpbm/papi-2022-mci-attention.qmd) · [图 4｜MMSE](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F4) · [方法｜设备、照射、面积与假刺激](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4) · [图 3｜前后测流程](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F3)
+
 ## 做实验时看什么
 
 - 把即时反应、疗程末结果和停用后保持分别设定测量时间。
@@ -68,5 +80,7 @@ HAM-D 平均较基线下降 13.2 和 6.5 分。 把即刻生理对照与独立�
 - [Jung · 2026：额部近红外光能改善睡眠吗？](../../library/tpbm/jung-2026.qmd)
 - [Schiffer · 2009：单次照光后，症状变化维持多久？](../../library/tpbm/schiffer-2009.qmd)
 - [Coelho · 2025：代谢物升高，有特定剂量效应吗？](../../library/tpbm/coelho-2025.qmd)
+- [Chao · 2019：居家照光 12 周，认知评分和脑网络怎么变？](../../library/tpbm/chao-2019-dementia-dmn.qmd)
+- [Papi · 2022：照光 5 次，量表和注意任务能读出什么？](../../library/tpbm/papi-2022-mci-attention.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

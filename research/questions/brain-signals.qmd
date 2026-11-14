@@ -69,6 +69,12 @@ C3 主动照射与假刺激的敲击数变化不同。这个设计给出即刻�
 
 [研究参数与结果](../../library/tpbm/iosifescu-2026-bold-power.qmd) · [表 3｜前额叶分回波变化量及效应量](https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#T3) · [方法 2｜随机照射、三条件参数与扫描](https://pmc.ncbi.nlm.nih.gov/articles/PMC13656166/#S6)
 
+### Chao · 2019：后扣带—外侧顶叶的连接如何变化？
+
+后扣带—外侧顶叶的组内变化方向相反，基线及第 12 周的两组直接比较均未达显著。 保留刺激前后影像和认知双测量，增加外观与操作一致的假刺激。预先定义连接的组间变化量，以及每个人连接变化与认知变化的关联。
+
+[研究参数与结果](../../library/tpbm/chao-2019-dementia-dmn.qmd) · [表 4、图 5｜后扣带与外侧顶叶的功能连接](https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=6) · [图 3｜ADAS-Cog 和照护者量表](https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=5)
+
 ## 做实验时看什么
 
 - 每个结果写明：测什么信号、什么频段、哪个脑区、刺激中还是刺激后。
@@ -92,5 +98,6 @@ C3 主动照射与假刺激的敲击数变化不同。这个设计给出即刻�
 - [O’Connor · 2026：照左额和照右额，对侧代谢一样吗？](../../library/tpbm/oconnor-2026.qmd)
 - [Wang · 2017：照光后，代谢与血氧的时间曲线一样吗？](../../library/tpbm/wang-2017-cco-hbo.qmd)
 - [Iosifescu · 2026：同一批人换照射条件，BOLD 波动会同向变化吗？](../../library/tpbm/iosifescu-2026-bold-power.qmd)
+- [Chao · 2019：居家照光 12 周，认知评分和脑网络怎么变？](../../library/tpbm/chao-2019-dementia-dmn.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

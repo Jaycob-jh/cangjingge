@@ -39,6 +39,12 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/salehpour-2026-adhd.qmd) · [图 9｜2-back 正确拒绝与虚报的变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Fig9) · [图 10｜照前照后前额血红蛋白变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC13651166/#Fig10)
 
+### Papi · 2022：同时读正确率、反应时和总体量表
+
+主动组正确率提高；组别与时间交互 F(1,40) = 13，原文报告 p < 0.001。 把总体量表、反应速度和正确率分别报告。若要回答记忆与网络是否一起变，应加一个预先指定的记忆任务，并同步测静息连接。复现实验还需先核清有效出光时间与实际剂量。
+
+[研究参数与结果](../../library/tpbm/papi-2022-mci-attention.qmd) · [图 4｜MMSE](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F4) · [图 5｜反应时](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F5) · [图 6｜正确率](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F6)
+
 ## 做实验时看什么
 
 - 预先选定一个主要行为指标，避免看完结果再挑任务。
@@ -53,5 +59,6 @@ toc: true
 - [Qu · 2022：连续七天刺激的记忆改善能保持多久？](../../library/tpbm/qu-2022.qmd)
 - [Li · 2024：单次照光后，2-back 的辨别力变化了吗？](../../library/tpbm/li-2024-executive-safety.qmd)
 - [Salehpour · 2026：成人 ADHD 的 2-back 改善主要体现在哪里？](../../library/tpbm/salehpour-2026-adhd.qmd)
+- [Papi · 2022：照光 5 次，量表和注意任务能读出什么？](../../library/tpbm/papi-2022-mci-attention.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

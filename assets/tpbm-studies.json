@@ -3641,6 +3641,233 @@
         }
       ],
       "interpretation": "比较剂量时，先固定出光方式和分析时窗，再直接检验各条件相对假刺激的变化。BOLD 波动功率与任务诱发振幅要分别报告。"
+    },
+    {
+      "id": "chao-2019-dementia-dmn",
+      "short": "Chao · 2019",
+      "year": 2019,
+      "title": "Effects of Home Photobiomodulation Treatments on Cognitive and Behavioral Function, Cerebral Perfusion, and Resting-State Functional Connectivity in Patients with Dementia: A Pilot Trial",
+      "title_zh": "居家照光 12 周，认知评分和脑网络怎么变？",
+      "doi": "10.1089/photob.2018.4555",
+      "fulltext": "https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf",
+      "journal": "Photobiomodulation, Photomedicine, and Laser Surgery",
+      "kind": "临床",
+      "questions": [
+        "brain-signals",
+        "repeated-clinical"
+      ],
+      "measures": [
+        "量表",
+        "fMRI",
+        "ASL"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "期刊正式版 PDF 全文，方法、表 2–4 和图 3–5",
+      "sources": {
+        "d": {
+          "label": "方法与表 1｜样本、常规照护和居家疗程",
+          "url": "https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=2"
+        },
+        "m": {
+          "label": "图 1、表 2｜装置与出光参数",
+          "url": "https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=3"
+        },
+        "t": {
+          "label": "图 2｜经颅 LED 对应脑区",
+          "url": "https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=4"
+        },
+        "c": {
+          "label": "图 3｜ADAS-Cog 和照护者量表",
+          "url": "https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=5"
+        },
+        "r": {
+          "label": "表 4、图 5｜后扣带与外侧顶叶的功能连接",
+          "url": "https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=6"
+        },
+        "v": {
+          "label": "表 3｜认知均值",
+          "url": "https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=4"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "8 名痴呆受试者，照光 4 人、常规照护 4 人",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机平行先导试验，居家照光与常规照护对照",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 nm，LED",
+          "source": "m"
+        },
+        "mode": {
+          "value": "40 Hz，50% 占空比",
+          "source": "m"
+        },
+        "target": {
+          "value": "1 个前部和 3 个后部经颅 LED，联合 1 个鼻内 LED",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "表列每 LED：后部 100、前部 75、鼻内 25 mW/cm²",
+          "source": "m"
+        },
+        "spot": {
+          "value": "约 1 cm²（每束，表 2）",
+          "source": "m"
+        },
+        "duration": {
+          "value": "20 分钟/次，每周 3 次，12 周",
+          "source": "d"
+        },
+        "dose": {
+          "value": "表列每 LED：后部 60、前部 45、鼻内 15 J/cm²；整套 240 J/次",
+          "source": "m"
+        },
+        "control": {
+          "value": "常规照护，无假设备；研究期间要求保持用药",
+          "source": "d"
+        },
+        "readout": {
+          "value": "ADAS-Cog、NPI-FS；3T 静息态 fMRI，以后扣带为种子；ASL 灌注",
+          "source": "d"
+        },
+        "timing": {
+          "value": "认知和行为在基线、第 6 与第 12 周；MRI 在基线及第 12 周",
+          "source": "d"
+        }
+      },
+      "results": [
+        {
+          "source": "v",
+          "text": "ADAS-Cog 均分由 37.5 变为 32.3（照光），由 32.1 变为 39.2（常规照护）；组别与时间交互 p = 0.007。"
+        },
+        {
+          "source": "r",
+          "text": "后扣带—外侧顶叶的组内变化方向相反，基线及第 12 周的两组直接比较均未达显著。"
+        }
+      ],
+      "interpretation": "保留刺激前后影像和认知双测量，增加外观与操作一致的假刺激。预先定义连接的组间变化量，以及每个人连接变化与认知变化的关联。"
+    },
+    {
+      "id": "papi-2022-mci-attention",
+      "short": "Papi · 2022",
+      "year": 2022,
+      "title": "The effect of transcranial photobiomodulation on cognitive function and attentional performance of older women with mild cognitive impairment: a randomized controlled trial",
+      "title_zh": "照光 5 次，量表和注意任务能读出什么？",
+      "doi": "10.5114/pm.2022.119794",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/",
+      "journal": "Przeglad Menopauzalny",
+      "kind": "临床",
+      "questions": [
+        "cognition",
+        "repeated-clinical"
+      ],
+      "measures": [
+        "量表",
+        "行为"
+      ],
+      "wavelengths": [
+        "850"
+      ],
+      "mode_filter": "未明确",
+      "reading": "期刊正式版全文，干预方法、图 4–7",
+      "sources": {
+        "d": {
+          "label": "方法｜样本与随机分配",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_1"
+        },
+        "m": {
+          "label": "方法｜设备、照射、面积与假刺激",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4"
+        },
+        "t": {
+          "label": "图 3｜前后测流程",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F3"
+        },
+        "c": {
+          "label": "图 4｜MMSE",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F4"
+        },
+        "r": {
+          "label": "图 5｜反应时",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F5"
+        },
+        "a": {
+          "label": "图 6｜正确率",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F6"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "42 名 MCI 老年女性，每组 21 人",
+          "source": "d"
+        },
+        "design": {
+          "value": "单盲随机平行；主动对假刺激",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "峰值 850 nm，额外列最大 870 nm 与带宽 30 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "20 颗近红外 LED；主动组连续波或脉冲波未注明",
+          "source": "m"
+        },
+        "target": {
+          "value": "右额极 Fp2（10–20 系统）",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "设备总功率 400 mW；原文列功率密度 285 mW/cm²",
+          "source": "m"
+        },
+        "spot": {
+          "value": "设备段列 1.4 cm²，流程另列额部照射范围 4 cm²",
+          "source": "m"
+        },
+        "duration": {
+          "value": "5 个每日访视，每次 10 分钟；剂量段另列 2.5 分钟",
+          "source": "m"
+        },
+        "dose": {
+          "value": "设备段列 42.75 J/cm² 与 60 J（400 mW × 2.5 分钟）；全程有效出光时长待核",
+          "source": "m"
+        },
+        "control": {
+          "value": "每分钟 30 秒少量光；未给假刺激功率",
+          "source": "m"
+        },
+        "readout": {
+          "value": "MMSE 与 Go/No-Go：反应时、正确率、效率",
+          "source": "t"
+        },
+        "timing": {
+          "value": "干预前和 5 次干预后评估",
+          "source": "t"
+        }
+      },
+      "results": [
+        {
+          "source": "c",
+          "text": "MMSE 组别与时间交互 F(1,40) = 20，p < 0.001。"
+        },
+        {
+          "source": "r",
+          "text": "主动组反应时缩短；组别与时间交互 F(1,40) = 17，原文报告 p < 0.001。"
+        },
+        {
+          "source": "a",
+          "text": "主动组正确率提高；组别与时间交互 F(1,40) = 13，原文报告 p < 0.001。"
+        }
+      ],
+      "interpretation": "把总体量表、反应速度和正确率分别报告。若要回答记忆与网络是否一起变，应加一个预先指定的记忆任务，并同步测静息连接。复现实验还需先核清有效出光时间与实际剂量。"
     }
   ]
 }
