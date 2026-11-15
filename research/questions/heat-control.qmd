@@ -27,6 +27,12 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/dmochowski-2020.qmd) · [图 4·全脑功能连接](https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#f4) · [方法·独立测温实验](https://pmc.ncbi.nlm.nih.gov/articles/PMC8152883/#sec6)
 
+### 刘欣彤等 · 2026：同一辐照度下，头皮和灰质的温升相差多少？
+
+800 nm、1000 mW/cm² 时，§2.2 报告头皮峰值温升 5.216 °C，灰质 0.491 °C，均为模型预测。 先用实测温度验证模型。
+
+[研究参数与结果](../../library/tpbm/liu-2026-photothermal-fem.qmd) · [图 4｜800 nm 各层组织温度分布](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#Figure4) · [图 5｜不同辐照度的各层最高温](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#Figure5) · [方法 1.3｜稳态传热与初始温度](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#s02.03)
+
 ## 做实验时看什么
 
 - 记录温度随时间的变化、测点与测量精度，不只报刺激前后各一个温度。
@@ -39,5 +45,6 @@ toc: true
 - [Wang · 2021：光刺激和皮肤加热的脑电分布一样吗？](../../library/tpbm/wang-2021-eeg-heat.qmd)
 - [Dmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？](../../library/tpbm/dmochowski-2020.qmd)
 - [Barrett · 2013：早期人体研究怎样测注意和记忆？](../../library/tpbm/barrett-2013.qmd)
+- [刘欣彤等 · 2026：经颅光生物调节的光—热效应仿真研究](../../library/tpbm/liu-2026-photothermal-fem.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

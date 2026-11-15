@@ -1,0 +1,27 @@
+---
+title: "把温热感单独做成对照，连接分析会读出什么？"
+date: 2026-11-15
+categories: [fMRI 脑网络]
+---
+
+Koning 等 · 2023-05-09 在线 · [DOI 10.3390/brainsci13050777](https://doi.org/10.3390/brainsci13050777) · [PMID 37239249](https://pubmed.ncbi.nlm.nih.gov/37239249/)
+
+研究对象 · 20 名健康成人，在手部接受温热或痛热
+
+阅读范围 · 期刊正式版全文，方法、图 1 和表 2
+
+[回到本期](../issues/2026-11-15-light-vs-skin-warming.qmd)
+
+## 怎么做
+
+同一批人接受 40 °C 无痛温热和个体校准的中等痛热。采集脑干及颈髓 fMRI，分别建模刺激前的预期阶段和刺激阶段，分析预选区域之间的连接系数。
+
+## 结果怎么读
+
+表 2 中，刺激阶段的痛热与温热条件在延髓背侧网状核至 C6 背角的模型连接上有差异（F = 23.68，p = 2.24 × 10⁻⁵），而刺激前未检出条件主效应。文中的方向来自预先指定的模型结构。这里的手部痛热与额头照光属于不同刺激场景。
+
+## 对实验设计有什么用
+
+借用它的感觉对照和分段分析。把照射前的预期、照射时的温热感和照射后的指标分开，并记录逐次温热评分与条件猜测。
+
+[温热对照与刺激分段（期刊全文）](https://pmc.ncbi.nlm.nih.gov/articles/PMC10216620/#sec2-brainsci-13-00777) · [连边统计（表 2，PDF 第 8 页）](https://www.mdpi.com/2076-3425/13/5/777/pdf?version=1683633734#page=8) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/koning-2023-warmth-brainstem-connectivity.qmd)

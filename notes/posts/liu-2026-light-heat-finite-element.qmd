@@ -1,0 +1,27 @@
+---
+title: "加大辐照度时，头皮和灰质会升温多少？"
+date: 2026-11-15
+categories: [经颅光刺激]
+---
+
+刘欣彤等 · 2026 年 8 月发表 · [DOI 10.7507/1001-5515.202512019](https://doi.org/10.7507/1001-5515.202512019) · [PMID 42656099](https://pubmed.ncbi.nlm.nih.gov/42656099/)
+
+研究对象 · 基于个体结构 MRI 的五组织头模型，有限元模拟
+
+阅读范围 · 期刊正式版全文，方法 §1.1–1.4、图 4–5、表 3
+
+[回到本期](../issues/2026-11-15-light-vs-skin-warming.qmd)
+
+## 怎么做
+
+在右额 F4 建立 12.6 cm² 光源，用有限元耦合光吸收与生物传热。先固定 800 nm，比较 10、100、1000 mW/cm²；再固定 100 mW/cm²，比较 660、800、1064 nm。模型使用稳态边界。
+
+## 结果怎么读
+
+图 4 对应 800 nm、1000 mW/cm² 时，正文报告头皮峰值温升 5.216 °C、灰质 0.491 °C。图 5 对比三个辐照度下各组织的预测最高温，头皮随辐照度上升更明显。这些读数来自指定头模型、组织光热参数与边界条件。图 5 的绝对峰温与正文温升分开读取。
+
+## 对实验设计有什么用
+
+把头皮与灰质温度作为两个待检验量，先用实测头皮温度曲线验证模型，再评估组织参数和边界条件如何影响深部预测。稳态结果无法给出特定照射时长的升温曲线。
+
+[模型与光斑（方法 1.1）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#s02.01) · [各组织温度分布（图 4）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#Figure4) · [各辐照度的峰温（图 5）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#Figure5) · [不同波长（表 3）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#Table3) · [研究对比卡](../../library/tpbm/liu-2026-photothermal-fem.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/liu-2026-light-heat-finite-element.qmd)

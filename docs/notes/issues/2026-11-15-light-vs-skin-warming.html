@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hans" xml:lang="zh-Hans"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="用额头温度轨迹、脑电和血氧实测，设计能区分照光与加热的对照。">
+
+<title>单靠额头升温，能复现照光后的脑信号吗？ – 藏经阁 Cangjingge</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6195fbe40cf810debf3796c16dc9b59a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "没有结果",
+    "search-matching-documents-text": "匹配的文档",
+    "search-copy-link-title": "复制搜索链接",
+    "search-hide-matches-text": "隐藏其它匹配结果",
+    "search-more-match-text": "更多匹配结果",
+    "search-more-matches-text": "更多匹配结果",
+    "search-clear-button-title": "清除",
+    "search-text-placeholder": "搜索题名、作者或 DOI",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "提交",
+    "search-label": "搜索"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../../assets/styles.css">
+<meta property="og:title" content="单靠额头升温，能复现照光后的脑信号吗？ – 藏经阁 Cangjingge">
+<meta property="og:description" content="用额头温度轨迹、脑电和血氧实测，设计能区分照光与加热的对照。">
+<meta property="og:site_name" content="藏经阁 Cangjingge">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">藏经阁 Cangjingge</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="搜索"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="展开或折叠导航栏" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">首页</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../library/index.html"> 
+<span class="menu-text">查文献</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../notes/index.html"> 
+<span class="menu-text">论文笔记</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research/index.html"> 
+<span class="menu-text">研究专题</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">团队与贡献</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
+        <li>
+    <a class="dropdown-item" href="../../people/index.html">
+ <span class="dropdown-text">成员</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../publications/index.html">
+ <span class="dropdown-text">学术成果</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../join/index.html">
+ <span class="dropdown-text">投稿与勘误</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Jaycob-jh/cangjingge"> <i class="bi bi-github" role="img" aria-label="GitHub 仓库">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">该页面内容</h2>
+   
+  <ul>
+  <li><a href="#经典研究匹配额头温度后血氧和代谢曲线会重合吗" id="toc-经典研究匹配额头温度后血氧和代谢曲线会重合吗" class="nav-link active" data-scroll-target="#经典研究匹配额头温度后血氧和代谢曲线会重合吗">经典研究｜匹配额头温度后，血氧和代谢曲线会重合吗？</a></li>
+  <li><a href="#代表研究加热和照光脑电频带会往同一方向变吗" id="toc-代表研究加热和照光脑电频带会往同一方向变吗" class="nav-link" data-scroll-target="#代表研究加热和照光脑电频带会往同一方向变吗">代表研究｜加热和照光，脑电频带会往同一方向变吗？</a></li>
+  <li><a href="#近年进展加大辐照度时头皮和灰质会升温多少" id="toc-近年进展加大辐照度时头皮和灰质会升温多少" class="nav-link" data-scroll-target="#近年进展加大辐照度时头皮和灰质会升温多少">近年进展｜加大辐照度时，头皮和灰质会升温多少？</a></li>
+  <li><a href="#任务-fmri把温热感单独做成对照连接分析会读出什么" id="toc-任务-fmri把温热感单独做成对照连接分析会读出什么" class="nav-link" data-scroll-target="#任务-fmri把温热感单独做成对照连接分析会读出什么">任务 fMRI｜把温热感单独做成对照，连接分析会读出什么？</a></li>
+  <li><a href="#怎么用到实验里" id="toc-怎么用到实验里" class="nav-link" data-scroll-target="#怎么用到实验里">怎么用到实验里</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">单靠额头升温，能复现照光后的脑信号吗？</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">安全与临床转化</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    用额头温度轨迹、脑电和血氧实测，设计能区分照光与加热的对照。
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">发布于</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2026年11月15日</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><a href="../../notes/questions.html">全部荐读</a></p>
+<p>右额照光往往会带来温热感。判断 EEG 或血氧变化是否来自光，需要一个只升温的对照，并记录两种条件的实际皮肤温度。头皮温度、灰质温度和温热感分别回答不同的问题。</p>
+<p>检索 2026 年 10 月 16 日至 11 月 15 日上线的论文，未找到贴合本题、此前未讲的近 30 天原始研究。本期进展选用 2026 年 8 月刊发的光热仿真。</p>
+<section id="经典研究匹配额头温度后血氧和代谢曲线会重合吗" class="level2">
+<h2 class="anchored" data-anchor-id="经典研究匹配额头温度后血氧和代谢曲线会重合吗">经典研究｜匹配额头温度后，血氧和代谢曲线会重合吗？</h2>
+<p><a href="../../notes/posts/wang-2017-light-skin-heat-nirs.html">Wang 等的札记</a> · 11 名健康成人，同一批人完成照光和热对照访视 · 期刊正式版全文，方法 §2.2–2.4、图 4–7</p>
+<p>图 6A、6E 比较激光与单独加热。加热时邻近测点的氧合血红蛋白（HbO）下降，照光时上升。逐时间点检验中，HbO 自照射开始后第 1 分钟出现条件差异，氧化型细胞色素 c 氧化酶（oxCCO）从第 3 分钟出现条件差异。单独加热时，oxCCO 的后续变化相对加热第 1 分钟未达显著。两种装置的加热面积与热输运路径不同。</p>
+<p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/#f4">温度轨迹（图 4）</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/#f6">血氧与代谢（图 6）</a></p>
+</section>
+<section id="代表研究加热和照光脑电频带会往同一方向变吗" class="level2">
+<h2 class="anchored" data-anchor-id="代表研究加热和照光脑电频带会往同一方向变吗">代表研究｜加热和照光，脑电频带会往同一方向变吗？</h2>
+<p><a href="../../notes/posts/wang-2021-heat-sham-eeg-topography.html">Wang 等的札记</a> · 两组健康成人，照光组分析 46 人，热刺激组分析 11 人 · 期刊正式版正文，图 1、3–5</p>
+<p>图 3–5 中，刺激后半段（第 4–8 分钟）的 α 和 β 功率在照光组相对假刺激升高，热组则下降。图 5 中部分电极的条件差异接近 30 个百分点，效应量 d &gt; 0.8，FDR 校正 p &lt; 0.01。光和热由不同人群完成，这个结果支持热探头未能复现该频带的照光图样。</p>
+<p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Fig1">照射和热探头时序（图 1）</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Fig5">光与热的频带差异（图 5）</a></p>
+</section>
+<section id="近年进展加大辐照度时头皮和灰质会升温多少" class="level2">
+<h2 class="anchored" data-anchor-id="近年进展加大辐照度时头皮和灰质会升温多少">近年进展｜加大辐照度时，头皮和灰质会升温多少？</h2>
+<p><a href="../../notes/posts/liu-2026-light-heat-finite-element.html">刘欣彤等的札记</a> · 基于个体结构 MRI 的五组织头模型，有限元模拟 · 期刊正式版全文，方法 §1.1–1.4、图 4–5、表 3</p>
+<p>图 4 对应 800 nm、1000 mW/cm² 时，正文报告头皮峰值温升 5.216 °C、灰质 0.491 °C。图 5 对比三个辐照度下各组织的预测最高温，头皮随辐照度上升更明显。这些读数来自指定头模型、组织光热参数与边界条件。图 5 的绝对峰温与正文温升分开读取。</p>
+<p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#s02.01">模型与光斑（方法 1.1）</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#Figure4">各组织温度分布（图 4）</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#Figure5">各辐照度的峰温（图 5）</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#Table3">不同波长（表 3）</a></p>
+</section>
+<section id="任务-fmri把温热感单独做成对照连接分析会读出什么" class="level2">
+<h2 class="anchored" data-anchor-id="任务-fmri把温热感单独做成对照连接分析会读出什么">任务 fMRI｜把温热感单独做成对照，连接分析会读出什么？</h2>
+<p><a href="../../notes/posts/koning-2023-warmth-brainstem-connectivity.html">Koning 等的札记</a> · 20 名健康成人，在手部接受温热或痛热 · 期刊正式版全文，方法、图 1 和表 2</p>
+<p>表 2 中，刺激阶段的痛热与温热条件在延髓背侧网状核至 C6 背角的模型连接上有差异（F = 23.68，p = 2.24 × 10⁻⁵），而刺激前未检出条件主效应。文中的方向来自预先指定的模型结构。这里的手部痛热与额头照光属于不同刺激场景。</p>
+<p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10216620/#sec2-brainsci-13-00777">温热对照与刺激分段（期刊全文）</a> · <a href="https://www.mdpi.com/2076-3425/13/5/777/pdf?version=1683633734#page=8">连边统计（表 2，PDF 第 8 页）</a></p>
+</section>
+<section id="怎么用到实验里" class="level2">
+<h2 class="anchored" data-anchor-id="怎么用到实验里">怎么用到实验里</h2>
+<p>在同一批受试者内，随机安排实际照光、匹配皮肤温度的无光加热和无加热假刺激。记录照射区中心及边缘的温度轨迹、温热评分和受试者对条件的猜测。首要比较用光照与热匹配的直接差异，另用热匹配与假刺激估计热本身的作用。若同时测 fMRI，分开分析预期、照射和恢复三个时窗。</p>
+<p><a href="../../research/questions/heat-control.html">热对照问题页</a> · <a href="../../research/tpbm-compare.html">研究对比台</a> · <a href="https://github.com/Jaycob-jh/cangjingge/edit/main/notes/issues/2026-11-15-light-vs-skin-warming.qmd">编辑本期</a></p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> 回到顶部</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "已复制");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "已复制");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jaycob-jh\.github\.io\/cangjingge\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 藏经阁 · 文献与知识共建</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Quarto × GitHub Pages · 开放共享、尊重版权</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

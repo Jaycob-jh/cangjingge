@@ -74,7 +74,8 @@
       "wang-2017-heat",
       "wang-2021-eeg-heat",
       "dmochowski-2020",
-      "barrett-2013"
+      "barrett-2013",
+      "liu-2026-photothermal-fem"
     ],
     "evidence": [
       {
@@ -102,6 +103,16 @@
         "sources": [
           "r",
           "temp"
+        ]
+      },
+      {
+        "study": "liu-2026-photothermal-fem",
+        "heading": "同一辐照度下，头皮和灰质的温升相差多少？",
+        "text": "800 nm、1000 mW/cm² 时，§2.2 报告头皮峰值温升 5.216 °C，灰质 0.491 °C，均为模型预测。 先用实测温度验证模型。",
+        "sources": [
+          "r",
+          "t",
+          "b"
         ]
       }
     ],
@@ -438,7 +449,8 @@
       "jagdeo-2012",
       "yuan-2020",
       "tian-2016",
-      "enam-2026"
+      "enam-2026",
+      "liu-2026-photothermal-fem"
     ],
     "evidence": [
       {
@@ -475,6 +487,15 @@
         "sources": [
           "r",
           "r2"
+        ]
+      },
+      {
+        "study": "liu-2026-photothermal-fem",
+        "heading": "改变波长时，分别读组织光吸收与温升",
+        "text": "100 mW/cm² 的模型比较中，660 nm 的表层温升较高，1064 nm 较低。 表 3 同时列出不同波长的光学读数和温度，使用同一模型边界。",
+        "sources": [
+          "w",
+          "v"
         ]
       }
     ],

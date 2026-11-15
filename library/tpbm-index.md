@@ -6,6 +6,7 @@
 - [O’Connor · 2026：照左额和照右额，对侧代谢一样吗？](../library/tpbm/oconnor-2026.qmd)
 - [Salehpour · 2026：成人 ADHD 的 2-back 改善主要体现在哪里？](../library/tpbm/salehpour-2026-adhd.qmd)
 - [Iosifescu · 2026：同一批人换照射条件，BOLD 波动会同向变化吗？](../library/tpbm/iosifescu-2026-bold-power.qmd)
+- [刘欣彤等 · 2026：经颅光生物调节的光—热效应仿真研究](../library/tpbm/liu-2026-photothermal-fem.qmd)
 - [Bibb · 2025：主动光、磁刺激与各自假刺激下的运动区 fMRI](../library/tpbm/bibb-2025.qmd)
 - [Coelho · 2025：代谢物升高，有特定剂量效应吗？](../library/tpbm/coelho-2025.qmd)
 - [Mehdizadeh · 2025：慢性失眠患者照光后，清醒 δ 功率如何变化？](../library/tpbm/mehdizadeh-2025.qmd)

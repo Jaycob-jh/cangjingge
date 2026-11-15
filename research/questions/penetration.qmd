@@ -33,6 +33,12 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/enam-2026.qmd) · [已接收稿 PDF 第 14 页·图 8 模拟透射](https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=14) · [已接收稿 PDF 第 16 页·图 10 体模透射](https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=16)
 
+### 刘欣彤等 · 2026：改变波长时，分别读组织光吸收与温升
+
+100 mW/cm² 的模型比较中，660 nm 的表层温升较高，1064 nm 较低。 表 3 同时列出不同波长的光学读数和温度，使用同一模型边界。
+
+[研究参数与结果](../../library/tpbm/liu-2026-photothermal-fem.qmd) · [方法 1.4｜三个波长的比较设置](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#s02.04) · [表 3｜100 mW/cm² 下不同波长的光热结果](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#Table3)
+
 ## 做实验时看什么
 
 - 头皮剂量、模型预测的脑内剂量和实测脑信号分别保存。
@@ -45,5 +51,6 @@ toc: true
 - [Yuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？](../../library/tpbm/yuan-2020.qmd)
 - [Tian · 2016：照射额中与右额，双侧血氧怎样变化？](../../library/tpbm/tian-2016.qmd)
 - [Enam · 2026：波长相近的头盔，透过组织后差多少？](../../library/tpbm/enam-2026.qmd)
+- [刘欣彤等 · 2026：经颅光生物调节的光—热效应仿真研究](../../library/tpbm/liu-2026-photothermal-fem.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)
