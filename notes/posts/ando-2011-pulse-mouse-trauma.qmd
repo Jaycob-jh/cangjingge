@@ -1,0 +1,27 @@
+---
+title: "同样的平均剂量，连续光和脉冲光的恢复曲线一样吗？"
+date: 2026-11-16
+categories: [经颅光刺激]
+---
+
+Ando 等 · 2011-10-18 上线 · [DOI 10.1371/journal.pone.0026212](https://doi.org/10.1371/journal.pone.0026212) · [PMID 22028832](https://pubmed.ncbi.nlm.nih.gov/22028832/)
+
+研究对象 · 皮层撞击损伤小鼠，神经功能评分的四组各 10 只
+
+阅读范围 · 期刊正式版全文，表 1–3、图 2 和图 6
+
+[回到本期](../issues/2026-11-16-compare-pulse-frequency.qmd)
+
+## 怎么做
+
+损伤 4 小时后，用 810 nm 激光在覆盖开颅窗的闭合头皮上照射 12 分钟，比较连续光、10 Hz、100 Hz 和无出光对照。三种主动条件平均辐照度同为 50 mW/cm²，光能量密度同为 36 J/cm²。两种脉冲的占空比和峰值辐照度相同。
+
+## 结果怎么读
+
+图 2B 中，10 Hz 组 28 天神经损伤评分曲线下面积低于连续光和 100 Hz（分别 p = 0.004、0.0018）。图 2A 对应第 28 天，10 Hz 的均分为 0.60，连续光与 100 Hz 均为 1.30，无出光为 2.50，评分越低越好。这里测的是损伤后的功能恢复，光传输路径也受开颅窗影响。
+
+## 对实验设计有什么用
+
+用两个同占空比的脉冲频率做直接比较，再用连续光作参照。记录峰值、脉宽和平均辐照度，并区分结局在整段随访中的变化与单个时点。
+
+[神经功能评分（图 2）](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026212#pone-0026212-g002) · [照射参数（表 2，PDF 第 7 页）](https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0026212&type=printable#page=7) · [研究对比卡](../../library/tpbm/ando-2011-pulse-tbi.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/ando-2011-pulse-mouse-trauma.qmd)

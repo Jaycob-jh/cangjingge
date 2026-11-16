@@ -1,0 +1,27 @@
+---
+title: "局部反应最大的频率，也是脑区之间最同步的频率吗？"
+date: 2026-11-16
+categories: [fMRI 脑网络]
+---
+
+Chai 等 · 2019-04-20 上线 · [DOI 10.1016/j.neuroimage.2019.04.048](https://doi.org/10.1016/j.neuroimage.2019.04.048) · [PMID 31015027](https://pubmed.ncbi.nlm.nih.gov/31015027/)
+
+研究对象 · 健康成人，局部激活分析 17 人，连接分析 20 人
+
+阅读范围 · PMC 作者稿全文，图 2、7、11–12
+
+[回到本期](../issues/2026-11-16-compare-pulse-frequency.qmd)
+
+## 怎么做
+
+改变可见光闪烁频率。用分块 fMRI 看局部 BOLD 幅度，用持续呈现的扫描看内侧丘脑与视觉皮层的时间序列相关；再分别拟合读数随频率变化的曲线。
+
+## 结果怎么读
+
+图 11B 和 12B 显示，V1 的局部 BOLD 拟合峰值对应约 7.7 Hz 的刺激，而丘脑—V1 的功能连接峰值对应约 19.7 Hz。两个峰值分别来自不同扫描和不同指标。这里的刺激经视觉输入进入脑网络。
+
+## 对实验设计有什么用
+
+经颅光刺激可以借用分开估计局部反应和网络相关的办法。若要验证神经振荡跟随刺激频率，另采 EEG 并检验频率及相位锁定。
+
+[局部 BOLD（图 11）](https://pmc.ncbi.nlm.nih.gov/articles/PMC6591056/#F11) · [丘脑—视觉连接（图 12）](https://pmc.ncbi.nlm.nih.gov/articles/PMC6591056/#F12) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/chai-2019-visual-frequency-thalamic-connectivity.qmd)

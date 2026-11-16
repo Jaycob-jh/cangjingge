@@ -1,0 +1,27 @@
+---
+title: "5 Hz 和 40 Hz 会在同一脑区留下相同的细胞反应吗？"
+date: 2026-11-16
+categories: [经颅光刺激]
+---
+
+Arias 等 · 2026-05-04 上线 · [DOI 10.1007/s11357-026-02278-9](https://doi.org/10.1007/s11357-026-02278-9) · [PMID 42082819](https://pubmed.ncbi.nlm.nih.gov/42082819/)
+
+研究对象 · 成年雄性大鼠三组、老年雄性大鼠两组，每组 7 只
+
+阅读范围 · 期刊正式版全文，照射方法、图 1–3 和图 6
+
+[回到本期](../issues/2026-11-16-compare-pulse-frequency.qmd)
+
+## 怎么做
+
+成年大鼠随机接受无出光、5 Hz 或 40 Hz 的 810 nm 额部脉冲照射，每天一次，共 5 天。两种脉冲占空比都为 50%。老年组只比较 40 Hz 与无出光，共 11 天。研究用水迷宫和组织染色看行为及脑区反应。
+
+## 结果怎么读
+
+图 2A 中，成年组在空间反转任务后的前边缘皮层细胞色素 c 氧化酶（CCO）活性，40 Hz 低于 5 Hz（p = 0.0111）。图 2E 中，海马 CA3 锥体层 c-Fos 阳性核数，5 Hz 低于 40 Hz（p = 0.0067）。这些是脑区代谢或细胞活动读数。研究未用脑电检验频率锁定，老年组也没有直接比较 5 Hz 和 40 Hz。
+
+## 对实验设计有什么用
+
+把行为、细胞标记和脑电频率锁定列为不同终点。若要判断年龄是否改变频率效应，两个年龄层都应接受相同的频率条件与比较时程。
+
+[照射条件（方法）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Sec4) · [代谢与 c-Fos（图 2）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Fig2) · [老年组（图 6）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Fig6) · [研究对比卡](../../library/tpbm/arias-2026-theta-gamma-rats.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/arias-2026-pulse-rat-cfos.qmd)

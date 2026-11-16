@@ -10,7 +10,10 @@
       "zomorrodi-2019",
       "yuan-2020",
       "van-lankveld-2026",
-      "enam-2026"
+      "enam-2026",
+      "ando-2011-pulse-tbi",
+      "motsenyat-2025-pulse-csf",
+      "arias-2026-theta-gamma-rats"
     ],
     "evidence": [
       {
@@ -56,6 +59,33 @@
         "sources": [
           "r",
           "r2"
+        ]
+      },
+      {
+        "study": "ando-2011-pulse-tbi",
+        "heading": "同平均剂量下，10 Hz 与 100 Hz 的恢复不同",
+        "text": "图 2B 中 10 Hz 组 NSS 曲线下面积低于连续光（p = 0.004）和 100 Hz（p = 0.0018）。 用两个同占空比的脉冲频率做直接比较，再用连续光作参照。记录峰值、脉宽和平均辐照度，并区分结局在整段随访中的变化与单个时点。",
+        "sources": [
+          "p",
+          "r"
+        ]
+      },
+      {
+        "study": "motsenyat-2025-pulse-csf",
+        "heading": "同一研究中，频率效应还要对照辐照度",
+        "text": "参照辐照度下，四个感兴趣区的 40 Hz 系数 p 值为 0.12–0.71；模型包含辐照度与频率交互。 若主要问题是频率，给每人做完两种频率，并在同波长、同辐照度下比较。把频率效应与频率乘辐照度的交互分开报告，预先定义感兴趣区和照中指标。",
+        "sources": [
+          "m",
+          "s"
+        ]
+      },
+      {
+        "study": "arias-2026-theta-gamma-rats",
+        "heading": "成年大鼠对 5 Hz 与 40 Hz 的脑区反应不同",
+        "text": "图 2A：成年大鼠前边缘皮层 CCO 活性在 40 Hz 组低于 5 Hz（p = 0.0111）。图 2E：CA3 锥体层 c-Fos 阳性核数在 5 Hz 组低于 40 Hz（p = 0.0067）。 把行为、细胞标记和脑电频率锁定列为不同终点。若要判断年龄是否改变频率效应，两个年龄层都应接受相同的频率条件与比较时程。",
+        "sources": [
+          "m",
+          "r"
         ]
       }
     ],
@@ -143,7 +173,8 @@
       "oconnor-2026",
       "wang-2017-cco-hbo",
       "iosifescu-2026-bold-power",
-      "chao-2019-dementia-dmn"
+      "chao-2019-dementia-dmn",
+      "motsenyat-2025-pulse-csf"
     ],
     "evidence": [
       {
@@ -247,6 +278,15 @@
           "r",
           "c"
         ]
+      },
+      {
+        "study": "motsenyat-2025-pulse-csf",
+        "heading": "第四脑室信号随照射时段变化",
+        "text": "图 7 中照光时第四脑室信号范围平均约 +0.3%，关光后很快回落；曲线合并其他参数。 若主要问题是频率，给每人做完两种频率，并在同波长、同辐照度下比较。把频率效应与频率乘辐照度的交互分开报告，预先定义感兴趣区和照中指标。",
+        "sources": [
+          "m",
+          "r"
+        ]
       }
     ],
     "takeaways": [
@@ -267,7 +307,8 @@
       "qu-2022",
       "li-2024-executive-safety",
       "salehpour-2026-adhd",
-      "papi-2022-mci-attention"
+      "papi-2022-mci-attention",
+      "arias-2026-theta-gamma-rats"
     ],
     "evidence": [
       {
@@ -322,6 +363,15 @@
           "c",
           "r",
           "a"
+        ]
+      },
+      {
+        "study": "arias-2026-theta-gamma-rats",
+        "heading": "年龄比较需要保留相同的频率与疗程条件",
+        "text": "图 6B 中老年组训练期潜伏期的组间分析 p = 0.0291；该年龄只测试 40 Hz 与对照。 把行为、细胞标记和脑电频率锁定列为不同终点。若要判断年龄是否改变频率效应，两个年龄层都应接受相同的频率条件与比较时程。",
+        "sources": [
+          "d",
+          "l"
         ]
       }
     ],

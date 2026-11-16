@@ -1,0 +1,27 @@
+---
+title: "人体 fMRI 中，40 Hz 会带来更大的脑脊液信号吗？"
+date: 2026-11-16
+categories: [经颅光刺激]
+---
+
+Motsenyat 等 · 2025-11-26 上线，2026 年刊期 · [DOI 10.1016/j.brs.2025.102988](https://doi.org/10.1016/j.brs.2025.102988) · [PMID 41314512](https://pubmed.ncbi.nlm.nih.gov/41314512/)
+
+研究对象 · 45 名健康年轻成人，20–32 岁
+
+阅读范围 · 期刊正式版全文及原刊补充材料，表 1–5、图 7、补表 S2
+
+[回到本期](../issues/2026-11-16-compare-pulse-frequency.qmd)
+
+## 怎么做
+
+将参与者随机分到三种扫描方案，测试右额经颅及鼻内照射。每段扫描为照前、照中、照后各 4 分钟。经颅部分比较 808/1064 nm、10/40 Hz 和三档标称辐照度。频率依方案分配，部分比较跨参与者完成。
+
+## 结果怎么读
+
+图 7 中，经颅照射期间第四脑室的 fMRI 信号平均变化约 +0.3%，照射结束后很快回落。图中频率曲线合并了其他参数。补表 S2 在其参照辐照度下未检出 40 Hz 相对 10 Hz 的显著系数，且模型含辐照度与频率交互。信号幅度反映这套 MRI 读数，研究未直接测量清除率。
+
+## 对实验设计有什么用
+
+若主要问题是频率，给每人做完两种频率，并在同波长、同辐照度下比较。把频率效应与频率乘辐照度的交互分开报告，预先定义感兴趣区和照中指标。
+
+[期刊全文（表 1–5、图 7，在 PDF 第 1 页）](https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf#page=1) · [原刊补充材料（补表 S2）](https://ars.els-cdn.com/content/image/1-s2.0-S1935861X25003900-mmc1.docx) · [研究对比卡](../../library/tpbm/motsenyat-2025-pulse-csf.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/motsenyat-2025-pulse-csf-fmri.qmd)

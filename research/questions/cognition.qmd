@@ -45,6 +45,12 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/papi-2022-mci-attention.qmd) · [图 4｜MMSE](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F4) · [图 5｜反应时](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F5) · [图 6｜正确率](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F6)
 
+### Arias · 2026：年龄比较需要保留相同的频率与疗程条件
+
+图 6B 中老年组训练期潜伏期的组间分析 p = 0.0291；该年龄只测试 40 Hz 与对照。 把行为、细胞标记和脑电频率锁定列为不同终点。若要判断年龄是否改变频率效应，两个年龄层都应接受相同的频率条件与比较时程。
+
+[研究参数与结果](../../library/tpbm/arias-2026-theta-gamma-rats.qmd) · [方法｜样本与随机分组](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Sec3) · [图 6｜老年组水迷宫](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Fig6)
+
 ## 做实验时看什么
 
 - 预先选定一个主要行为指标，避免看完结果再挑任务。
@@ -60,5 +66,6 @@ toc: true
 - [Li · 2024：单次照光后，2-back 的辨别力变化了吗？](../../library/tpbm/li-2024-executive-safety.qmd)
 - [Salehpour · 2026：成人 ADHD 的 2-back 改善主要体现在哪里？](../../library/tpbm/salehpour-2026-adhd.qmd)
 - [Papi · 2022：照光 5 次，量表和注意任务能读出什么？](../../library/tpbm/papi-2022-mci-attention.qmd)
+- [Arias · 2026：5 Hz 和 40 Hz 会在同一脑区留下相同的细胞反应吗？](../../library/tpbm/arias-2026-theta-gamma-rats.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

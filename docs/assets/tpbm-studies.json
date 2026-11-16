@@ -3989,6 +3989,311 @@
         }
       ],
       "interpretation": "把头皮与灰质温度作为两个待检验量，先用实测头皮温度曲线验证模型，再评估组织参数和边界条件如何影响深部预测。稳态结果无法给出特定照射时长的升温曲线。"
+    },
+    {
+      "id": "ando-2011-pulse-tbi",
+      "short": "Ando · 2011",
+      "year": 2011,
+      "title": "Comparison of therapeutic effects between pulsed and continuous wave 810-nm wavelength laser irradiation for traumatic brain injury in mice",
+      "title_zh": "同样的平均剂量，连续光和脉冲光的恢复曲线一样吗？",
+      "doi": "10.1371/journal.pone.0026212",
+      "fulltext": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026212",
+      "journal": "PLOS ONE",
+      "kind": "动物研究",
+      "questions": [
+        "wavelength-pulse"
+      ],
+      "measures": [
+        "行为",
+        "组织学"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "连续+脉冲",
+      "reading": "期刊正式版全文，表 1–3、图 2 和图 6",
+      "sources": {
+        "d": {
+          "label": "摘要与方法｜损伤模型、分组与照射",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026212"
+        },
+        "p": {
+          "label": "表 2｜波形、平均辐照度、光斑与光能量密度",
+          "url": "https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0026212&type=printable#page=7"
+        },
+        "r": {
+          "label": "图 2｜神经损伤评分与曲线下面积",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026212#pone-0026212-g002"
+        },
+        "x": {
+          "label": "表 1｜离体头皮及颅骨透射",
+          "url": "https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0026212&type=printable#page=2"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "皮层撞击损伤小鼠；图 2 的四组各 10 只",
+          "source": "r"
+        },
+        "design": {
+          "value": "损伤 4 小时后单次照射，比较连续、两种脉冲与无出光",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 nm（±2 nm）",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光，或 10 Hz / 100 Hz 脉冲，50% 占空比；脉宽 50 / 5 ms",
+          "source": "p"
+        },
+        "target": {
+          "value": "左额顶照射，光斑覆盖开颅窗上方已闭合的头皮",
+          "source": "d"
+        },
+        "irradiance": {
+          "value": "三种主动条件平均 50 mW/cm²；两脉冲条件峰值 100 mW/cm²",
+          "source": "p"
+        },
+        "spot": {
+          "value": "直径 1 cm，0.78 cm²",
+          "source": "p"
+        },
+        "duration": {
+          "value": "12 分钟，单次",
+          "source": "p"
+        },
+        "dose": {
+          "value": "各主动条件 36 J/cm²（入射处）",
+          "source": "p"
+        },
+        "control": {
+          "value": "损伤后无出光对照",
+          "source": "d"
+        },
+        "readout": {
+          "value": "神经损伤评分（NSS），并测行为、组织和皮层 ATP",
+          "source": "d"
+        },
+        "timing": {
+          "value": "照射在损伤后 4 小时，NSS 随访至第 28 天",
+          "source": "r"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "图 2B 中 10 Hz 组 NSS 曲线下面积低于连续光（p = 0.004）和 100 Hz（p = 0.0018）。"
+        },
+        {
+          "source": "x",
+          "text": "表 1 中离体头皮加颅骨透射，连续、10 Hz、100 Hz 均值分别为 6.26%、5.76%、5.90%（n = 3）。"
+        }
+      ],
+      "interpretation": "用两个同占空比的脉冲频率做直接比较，再用连续光作参照。记录峰值、脉宽和平均辐照度，并区分结局在整段随访中的变化与单个时点。"
+    },
+    {
+      "id": "motsenyat-2025-pulse-csf",
+      "short": "Motsenyat · 2025",
+      "year": 2025,
+      "title": "Modulating cerebrospinal fluid dynamics using pulsed photobiomodulation",
+      "title_zh": "人体 fMRI 中，40 Hz 会带来更大的脑脊液信号吗？",
+      "doi": "10.1016/j.brs.2025.102988",
+      "fulltext": "https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf",
+      "journal": "Brain Stimulation",
+      "kind": "健康人",
+      "questions": [
+        "wavelength-pulse",
+        "brain-signals"
+      ],
+      "measures": [
+        "fMRI",
+        "脑脊液信号"
+      ],
+      "wavelengths": [
+        "808",
+        "1064"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "期刊正式版全文及原刊补充材料，表 1–5、图 7、补表 S2",
+      "sources": {
+        "m": {
+          "label": "PDF 第 1 页，方法 §3.1–3.3、表 1–3｜样本、方案与照射参数",
+          "url": "https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf#page=1"
+        },
+        "r": {
+          "label": "PDF 第 1 页，图 7 与 §4.2.1｜经颅照射脑脊液信号",
+          "url": "https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf#page=1"
+        },
+        "s": {
+          "label": "补表 S2｜辐照度与频率的模型系数",
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S1935861X25003900-mmc1.docx"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "45 名健康成人（20–32 岁）",
+          "source": "m"
+        },
+        "design": {
+          "value": "随机分配三种参数组合，受试者内多次扫描；经颅与鼻内交替、分开分析",
+          "source": "m"
+        },
+        "wavelength": {
+          "value": "808 或 1064 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "10 或 40 Hz 脉冲；正文未给出明确的占空比数值",
+          "source": "m"
+        },
+        "target": {
+          "value": "右额经颅照射；另设鼻内条件",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "表 1 标称经颅 100／150／200 mW/cm²；鼻内 5／7／9 mW/cm²",
+          "source": "m"
+        },
+        "spot": {
+          "value": "经颅约 1 cm²；鼻内未确定",
+          "source": "m"
+        },
+        "duration": {
+          "value": "每扫描段照射 4 分钟",
+          "source": "m"
+        },
+        "dose": {
+          "value": "表 1 经颅 12／18／24 J/cm²，鼻内 0.6／0.9／1.2 J/cm²，按原文记录",
+          "source": "m"
+        },
+        "control": {
+          "value": "扫描内照前和照后关光；无单独的全程假刺激组",
+          "source": "m"
+        },
+        "readout": {
+          "value": "3T 双回波 pCASL 提取为脑脊液相关的 fMRI 信号",
+          "source": "m"
+        },
+        "timing": {
+          "value": "照前、照中、照后各 4 分钟",
+          "source": "m"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "图 7 中照光时第四脑室信号范围平均约 +0.3%，关光后很快回落；曲线合并其他参数。"
+        },
+        {
+          "source": "s",
+          "text": "参照辐照度下，四个感兴趣区的 40 Hz 系数 p 值为 0.12–0.71；模型包含辐照度与频率交互。"
+        }
+      ],
+      "interpretation": "若主要问题是频率，给每人做完两种频率，并在同波长、同辐照度下比较。把频率效应与频率乘辐照度的交互分开报告，预先定义感兴趣区和照中指标。"
+    },
+    {
+      "id": "arias-2026-theta-gamma-rats",
+      "short": "Arias · 2026",
+      "year": 2026,
+      "title": "Frequency-specific photobiomodulation at theta and gamma enhances cognitive networks and mitigates age-related decline",
+      "title_zh": "5 Hz 和 40 Hz 会在同一脑区留下相同的细胞反应吗？",
+      "doi": "10.1007/s11357-026-02278-9",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/",
+      "journal": "GeroScience",
+      "kind": "动物研究",
+      "questions": [
+        "wavelength-pulse",
+        "cognition"
+      ],
+      "measures": [
+        "行为",
+        "组织学"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "期刊正式版全文，照射方法、图 1–3 和图 6",
+      "sources": {
+        "d": {
+          "label": "方法｜样本与随机分组",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Sec3"
+        },
+        "m": {
+          "label": "方法｜光源、面积、占空比与疗程",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Sec4"
+        },
+        "r": {
+          "label": "图 2｜CCO 与 c-Fos",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Fig2"
+        },
+        "l": {
+          "label": "图 6｜老年组水迷宫",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Fig6"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "成年雄性大鼠三组，老年雄性大鼠两组，各组 7 只",
+          "source": "d"
+        },
+        "design": {
+          "value": "按年龄内随机分组；成年比较 5 Hz、40 Hz 和无出光，老年比较 40 Hz 和无出光",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "5 或 40 Hz 方波，50% 占空比",
+          "source": "m"
+        },
+        "target": {
+          "value": "剃毛后头背侧中线、眼与耳之间，覆盖额部位置",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "装置段列输出 40 mW；文中数值的测量面与平均校准口径待核",
+          "source": "m"
+        },
+        "spot": {
+          "value": "正文装置段报告 0.0495 cm²",
+          "source": "m"
+        },
+        "duration": {
+          "value": "成年 5 天，老年 11 天；装置段另列 36 × 40 秒与累计有效出光 720 秒，操作段列每次 12 分钟，统计口径待核",
+          "source": "m"
+        },
+        "dose": {
+          "value": "原文报告 33 J/cm²；适用测量面与时长口径待核",
+          "source": "m"
+        },
+        "control": {
+          "value": "相同固定和装置摆位，激光不开启",
+          "source": "m"
+        },
+        "readout": {
+          "value": "水迷宫、脑区组织染色、蛋白表达",
+          "source": "r"
+        },
+        "timing": {
+          "value": "成年空间反转任务后取材，老年组按各自疗程做行为随访",
+          "source": "r"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "图 2A：成年大鼠前边缘皮层 CCO 活性在 40 Hz 组低于 5 Hz（p = 0.0111）。图 2E：CA3 锥体层 c-Fos 阳性核数在 5 Hz 组低于 40 Hz（p = 0.0067）。"
+        },
+        {
+          "source": "l",
+          "text": "图 6B 中老年组训练期潜伏期的组间分析 p = 0.0291；该年龄只测试 40 Hz 与对照。"
+        }
+      ],
+      "interpretation": "把行为、细胞标记和脑电频率锁定列为不同终点。若要判断年龄是否改变频率效应，两个年龄层都应接受相同的频率条件与比较时程。"
     }
   ]
 }

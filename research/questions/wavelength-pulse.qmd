@@ -39,6 +39,24 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/enam-2026.qmd) · [已接收稿 PDF 第 14 页·图 8 模拟透射](https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=14) · [已接收稿 PDF 第 16 页·图 10 体模透射](https://link.springer.com/content/pdf/10.1038/s41598-026-75995-y_reference.pdf#page=16)
 
+### Ando · 2011：同平均剂量下，10 Hz 与 100 Hz 的恢复不同
+
+图 2B 中 10 Hz 组 NSS 曲线下面积低于连续光（p = 0.004）和 100 Hz（p = 0.0018）。 用两个同占空比的脉冲频率做直接比较，再用连续光作参照。记录峰值、脉宽和平均辐照度，并区分结局在整段随访中的变化与单个时点。
+
+[研究参数与结果](../../library/tpbm/ando-2011-pulse-tbi.qmd) · [表 2｜波形、平均辐照度、光斑与光能量密度](https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0026212&type=printable#page=7) · [图 2｜神经损伤评分与曲线下面积](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026212#pone-0026212-g002)
+
+### Motsenyat · 2025：同一研究中，频率效应还要对照辐照度
+
+参照辐照度下，四个感兴趣区的 40 Hz 系数 p 值为 0.12–0.71；模型包含辐照度与频率交互。 若主要问题是频率，给每人做完两种频率，并在同波长、同辐照度下比较。把频率效应与频率乘辐照度的交互分开报告，预先定义感兴趣区和照中指标。
+
+[研究参数与结果](../../library/tpbm/motsenyat-2025-pulse-csf.qmd) · [PDF 第 1 页，方法 §3.1–3.3、表 1–3｜样本、方案与照射参数](https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf#page=1) · [补表 S2｜辐照度与频率的模型系数](https://ars.els-cdn.com/content/image/1-s2.0-S1935861X25003900-mmc1.docx)
+
+### Arias · 2026：成年大鼠对 5 Hz 与 40 Hz 的脑区反应不同
+
+图 2A：成年大鼠前边缘皮层 CCO 活性在 40 Hz 组低于 5 Hz（p = 0.0111）。图 2E：CA3 锥体层 c-Fos 阳性核数在 5 Hz 组低于 40 Hz（p = 0.0067）。 把行为、细胞标记和脑电频率锁定列为不同终点。若要判断年龄是否改变频率效应，两个年龄层都应接受相同的频率条件与比较时程。
+
+[研究参数与结果](../../library/tpbm/arias-2026-theta-gamma-rats.qmd) · [方法｜光源、面积、占空比与疗程](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Sec4) · [图 2｜CCO 与 c-Fos](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Fig2)
+
 ## 做实验时看什么
 
 - 波长、波形、峰值功率、平均功率、占空比和总能量分别记录；只写“40 Hz”不够。
@@ -53,5 +71,8 @@ toc: true
 - [Yuan · 2020：相同头皮照射，不同年龄的脑内剂量一样吗？](../../library/tpbm/yuan-2020.qmd)
 - [Van Lankveld · 2026：相同波长的 BOLD 和脑血流反应一致吗？](../../library/tpbm/van-lankveld-2026.qmd)
 - [Enam · 2026：波长相近的头盔，透过组织后差多少？](../../library/tpbm/enam-2026.qmd)
+- [Ando · 2011：同样的平均剂量，连续光和脉冲光的恢复曲线一样吗？](../../library/tpbm/ando-2011-pulse-tbi.qmd)
+- [Motsenyat · 2025：人体 fMRI 中，40 Hz 会带来更大的脑脊液信号吗？](../../library/tpbm/motsenyat-2025-pulse-csf.qmd)
+- [Arias · 2026：5 Hz 和 40 Hz 会在同一脑区留下相同的细胞反应吗？](../../library/tpbm/arias-2026-theta-gamma-rats.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

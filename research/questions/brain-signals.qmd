@@ -75,6 +75,12 @@ C3 主动照射与假刺激的敲击数变化不同。这个设计给出即刻�
 
 [研究参数与结果](../../library/tpbm/chao-2019-dementia-dmn.qmd) · [表 4、图 5｜后扣带与外侧顶叶的功能连接](https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=6) · [图 3｜ADAS-Cog 和照护者量表](https://www.vielight.com/wp-content/uploads/2020/01/Brain_Photobiomodulation_Alzheimers_Chao_2019.pdf#page=5)
 
+### Motsenyat · 2025：第四脑室信号随照射时段变化
+
+图 7 中照光时第四脑室信号范围平均约 +0.3%，关光后很快回落；曲线合并其他参数。 若主要问题是频率，给每人做完两种频率，并在同波长、同辐照度下比较。把频率效应与频率乘辐照度的交互分开报告，预先定义感兴趣区和照中指标。
+
+[研究参数与结果](../../library/tpbm/motsenyat-2025-pulse-csf.qmd) · [PDF 第 1 页，方法 §3.1–3.3、表 1–3｜样本、方案与照射参数](https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf#page=1) · [PDF 第 1 页，图 7 与 §4.2.1｜经颅照射脑脊液信号](https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf#page=1)
+
 ## 做实验时看什么
 
 - 每个结果写明：测什么信号、什么频段、哪个脑区、刺激中还是刺激后。
@@ -99,5 +105,6 @@ C3 主动照射与假刺激的敲击数变化不同。这个设计给出即刻�
 - [Wang · 2017：照光后，代谢与血氧的时间曲线一样吗？](../../library/tpbm/wang-2017-cco-hbo.qmd)
 - [Iosifescu · 2026：同一批人换照射条件，BOLD 波动会同向变化吗？](../../library/tpbm/iosifescu-2026-bold-power.qmd)
 - [Chao · 2019：居家照光 12 周，认知评分和脑网络怎么变？](../../library/tpbm/chao-2019-dementia-dmn.qmd)
+- [Motsenyat · 2025：人体 fMRI 中，40 Hz 会带来更大的脑脊液信号吗？](../../library/tpbm/motsenyat-2025-pulse-csf.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)
