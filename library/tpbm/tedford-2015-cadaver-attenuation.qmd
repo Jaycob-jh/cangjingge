@@ -1,0 +1,50 @@
+---
+title: "光穿过头皮和颅骨后，还会衰减多少？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Tedford 等 · 2015 · 离体组织**
+
+Quantitative Analysis of Transcranial and Intraparenchymal Light Penetration in Human Cadaver Brain Tissue
+
+*Lasers in Surgery and Medicine* · [DOI: 10.1002/lsm.22343](https://doi.org/10.1002/lsm.22343) · [阅读全文](https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf)
+
+阅读范围：论文 PDF 全文及原刊勘误，图 4–7、表 1–2。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=tedford-2015-cadaver-attenuation) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>8 具未固定人遗体头部，66–97 岁，20 处测位<br><a href="https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=4" target="_blank" rel="noopener">PDF 第 4 页｜标本、照射与采样步骤</a></dd></div>
+<div><dt>研究设计</dt><dd>经头皮和颅骨的深度扫描；另做脑组织内透光比较<br><a href="https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=4" target="_blank" rel="noopener">PDF 第 4 页｜标本、照射与采样步骤</a></dd></div>
+<div><dt>波长</dt><dd>经颅主光源 808 nm；脑内参考光源 660、808、940 nm<br><a href="https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=3" target="_blank" rel="noopener">PDF 第 3 页｜表 1，主激光与组织内光源</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>经颅连续光或 10/100 Hz 脉冲，脉冲占空比 20%<br><a href="https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=4" target="_blank" rel="noopener">PDF 第 4 页｜标本、照射与采样步骤</a></dd></div>
+<div><dt>照射位置</dt><dd>头皮接触照射；横断或正中矢状切面装夹，沿光轴扫描<br><a href="https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=4" target="_blank" rel="noopener">PDF 第 4 页｜标本、照射与采样步骤</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>主序列为 5 W 连续，10/100 Hz 各 5 W 峰值；脑内参考源 50 mW 连续<br><a href="https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=4" target="_blank" rel="noopener">PDF 第 4 页｜标本、照射与采样步骤</a></dd></div>
+<div><dt>光斑</dt><dd>主激光平顶光束，直径 30 mm<br><a href="https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=3" target="_blank" rel="noopener">PDF 第 3 页｜表 1，主激光与组织内光源</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>探头逐深度采集数秒；未设活体照射疗程<br><a href="https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=7" target="_blank" rel="noopener">PDF 第 7 页｜图 5，20 处的归一化深度曲线</a></dd></div>
+<div><dt>剂量</dt><dd>以通量率为主；图 5A 用头皮处 1 W 归一，不作为累积剂量<br><a href="https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=7" target="_blank" rel="noopener">PDF 第 7 页｜图 5，20 处的归一化深度曲线</a></dd></div>
+<div><dt>对照怎么做</dt><dd>同一探头顺序测连续/脉冲；5 与 15 W 复测用于估计检测下限<br><a href="https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=5" target="_blank" rel="noopener">PDF 第 5 页｜衰减系数、脉冲比较及检测下限</a></dd></div>
+<div><dt>观察指标</dt><dd>探头通量率（mW/cm²）、衰减系数（cm⁻¹）<br><a href="https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=5" target="_blank" rel="noopener">PDF 第 5 页｜衰减系数、脉冲比较及检测下限</a></dd></div>
+<div><dt>测量时间</dt><dd>出光时采集；沿光轴每 5 mm 移动探头<br><a href="https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=4" target="_blank" rel="noopener">PDF 第 4 页｜标本、照射与采样步骤</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 图 5 汇总 20 处深度曲线，以头皮处或脑表面信号分别归一，可看到头皮至颅骨内侧的路径差异。（[PDF 第 7 页｜图 5，20 处的归一化深度曲线](https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=7)）
+- 结果段给出的有效衰减系数分别为 2.22 和 2.43 cm⁻¹。脉冲与连续光的归一通量率未见差异。（[PDF 第 5 页｜衰减系数、脉冲比较及检测下限](https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=5)）
+- 勘误补发图 4 和图 7 彩图。（[原刊勘误｜图 4 与图 7 彩图](https://onlinelibrary.wiley.com/doi/full/10.1002/lsm.22377)）
+
+## 对实验设计有什么用
+
+报告脑内光时要写清参考面、取样深度和探测下限。离体探头在深处读到光，可用于校核传播模型。活体靶区剂量需要另做估算和验证。
+
+## 接着读
+
+- [相同头皮剂量，进入脑内的光一样多吗？](../../research/questions/penetration.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

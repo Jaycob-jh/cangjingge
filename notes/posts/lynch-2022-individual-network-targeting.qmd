@@ -1,0 +1,27 @@
+---
+title: "同一个头皮位置，下面是同一张功能网络吗？"
+date: 2026-11-17
+categories: [fMRI 脑网络]
+---
+
+Lynch 等 · 2022-09-15 上线 · [DOI 10.1016/j.neuron.2022.08.012](https://doi.org/10.1016/j.neuron.2022.08.012) · [PMID 36113473](https://pubmed.ncbi.nlm.nih.gov/36113473/)
+
+研究对象 · 8 名抑郁患者、6 名健康成人的高采样静息态 fMRI 和头模
+
+阅读范围 · PMC 作者稿全文，图 1–3；另有体内运动网络实验
+
+[回到本期](../issues/2026-11-17-individual-optical-dose.qmd)
+
+## 怎么做
+
+先用每个人的静息态 fMRI 画出功能网络，再模拟 TMS 电场，比对通用解剖定位和按个人网络搜索线圈位置、角度后的覆盖。
+
+## 结果怎么读
+
+图 1 显示，按同一解剖区定位可能覆盖不同的个体网络。图 3 中，在 8 名患者的优化模拟里，热点落在额顶网络内的面积比例平均为 71.2% ± 12.4%，最低两人的比例仍约为 55% 和 57%。这是模型计算的空间覆盖。
+
+## 对实验设计有什么用
+
+光刺激也可把个人网络图与个人传播模型叠在同一空间，报告目标网络的覆盖和邻近网络的暴露。光照后的功能变化需要用干预数据单独检验。
+
+[图 1，通用靶点覆盖](https://pmc.ncbi.nlm.nih.gov/articles/PMC11446252/#F1) · [图 3，个体化网络覆盖](https://pmc.ncbi.nlm.nih.gov/articles/PMC11446252/#F3) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/lynch-2022-individual-network-targeting.qmd)

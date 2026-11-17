@@ -1,0 +1,27 @@
+---
+title: "同样的照射，目标灰质的光量能差几倍？"
+date: 2026-11-17
+categories: [经颅光刺激]
+---
+
+Chang 等 · 2025-11-03 上线 · [DOI 10.1364/BOE.570066](https://doi.org/10.1364/BOE.570066) · [PMID 41394481](https://pubmed.ncbi.nlm.nih.gov/41394481/)
+
+研究对象 · 154 名健康成人结构 MRI，建立个体头模
+
+阅读范围 · Optica 正式版全文，方法 §2.1–2.5、图 1、4、7–8，未取得补充 PDF
+
+[回到本期](../issues/2026-11-17-individual-optical-dose.qmd)
+
+## 怎么做
+
+用 154 个 MRI 头模模拟相同出光条件下的 810/1064 nm 额部照射。把头皮下 15 mm 内、位于光束投影圆柱中的灰质定义为目标区，再用模拟反射光和组织层厚度预测该区的平均通量率。
+
+## 结果怎么读
+
+图 7 中，排除 3 个离群个体后，在每组光学属性设定内，151 个头模的目标区平均通量率约相差 3–5 倍。图 8 中，加入层厚信息后，两波长的最低平均相对误差均为 13.4%，省去层厚时约为 21%。误差是与蒙特卡洛模拟值的差距。
+
+## 对实验设计有什么用
+
+前额试验可把软组织和颅骨厚度记入头模，并以靶区内通量率估计的分布做敏感性分析。模型对象换成活体时，仍需验证头皮反射数据和脑内剂量估计的对应关系。
+
+[图 7，个体分布](https://pmc.ncbi.nlm.nih.gov/articles/PMC12698094/#g007) · [图 8，分层信息与预测误差](https://pmc.ncbi.nlm.nih.gov/articles/PMC12698094/#g008) · [研究对比卡](../../library/tpbm/chang-2025-individual-fluence.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/chang-2025-individual-optical-dose.qmd)

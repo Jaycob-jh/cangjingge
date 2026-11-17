@@ -500,7 +500,10 @@
       "yuan-2020",
       "tian-2016",
       "enam-2026",
-      "liu-2026-photothermal-fem"
+      "liu-2026-photothermal-fem",
+      "tedford-2015-cadaver-attenuation",
+      "chang-2025-individual-fluence",
+      "yang-2026-mouse-human-fluence"
     ],
     "evidence": [
       {
@@ -546,6 +549,33 @@
         "sources": [
           "w",
           "v"
+        ]
+      },
+      {
+        "study": "tedford-2015-cadaver-attenuation",
+        "heading": "头皮入射相同，沿深度的读数仍有差异",
+        "text": "图 5 汇总 20 处深度曲线，以头皮处或脑表面信号分别归一，可看到头皮至颅骨内侧的路径差异。 报告脑内光时要写清参考面、取样深度和探测下限。离体探头在深处读到光，可用于校核传播模型。活体靶区剂量需要另做估算和验证。",
+        "sources": [
+          "f",
+          "r"
+        ]
+      },
+      {
+        "study": "chang-2025-individual-fluence",
+        "heading": "固定光源后，估计不同人的浅层灰质剂量",
+        "text": "图 7 在每组光学属性设定下，排除 3 个离群个体后，151 个模型的靶区平均通量率约相差 3–5 倍。 前额试验可把软组织和颅骨厚度记入头模，并以靶区内通量率估计的分布做敏感性分析。模型对象换成活体时，仍需验证头皮反射数据和脑内剂量估计的对应关系。",
+        "sources": [
+          "r",
+          "e"
+        ]
+      },
+      {
+        "study": "yang-2026-mouse-human-fluence",
+        "heading": "光斑尺寸影响同一头模的深部覆盖",
+        "text": "图 6A 里，4.0 cm 光斑在该单一人头模、指定入射位置和比较范围内给出最大海马覆盖。 跨物种比较先看同一解剖靶区的光分布。比较不同直径时，应明确固定的是总功率还是头皮辐照度，并同时报告浅表与靶区读数。",
+        "sources": [
+          "f",
+          "b"
         ]
       }
     ],

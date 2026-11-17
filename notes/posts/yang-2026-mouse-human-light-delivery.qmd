@@ -1,0 +1,27 @@
+---
+title: "同一束光，从小鼠换到人头模会怎样？"
+date: 2026-11-17
+categories: [经颅光刺激]
+---
+
+Yang 等 · 2026-05-10 上线 · [DOI 10.1002/brx2.70048](https://doi.org/10.1002/brx2.70048)
+
+研究对象 · 小鼠 MRI 参考头模和一名 24 岁男性供体的 VCH 人头模
+
+阅读范围 · Wiley 正式版全文，方法 §2.3–2.7、表 1–2、图 4、6–7
+
+[回到本期](../issues/2026-11-17-individual-optical-dose.qmd)
+
+## 怎么做
+
+用体素蒙特卡洛模型，以相同的小光斑和三个波长比较鼠、人头模。接着只在人头模外侧颞区改变光束直径及形状，观察海马方向的光分布。
+
+## 结果怎么读
+
+图 4A 中，人头模额部模拟的体积积分通量约 78%–92% 来自头皮。图 6A 中，从 0.2 到 4.0 cm 的直径比较里，4.0 cm 的海马覆盖最大。它只代表这个头模、入射位置和模拟配置。
+
+## 对实验设计有什么用
+
+跨物种比较先看同一解剖靶区的光分布。比较不同直径时，应明确固定的是总功率还是头皮辐照度，并同时报告浅表与靶区读数。
+
+[图 4，分层通量](https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Quantitative%20analysis%20of%20light%20fluence%20and%20photon%20absorption%20in%20mouse%20and%20human%20head%20models.) · [图 6，光束直径比较](https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=The%20impact%20of%20different%20source%20diameters%20on%20light%20propagation.) · [研究对比卡](../../library/tpbm/yang-2026-mouse-human-fluence.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/yang-2026-mouse-human-light-delivery.qmd)

@@ -1,0 +1,50 @@
+---
+title: "同一束光，从小鼠换到人头模会怎样？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Yang 等 · 2026 · 计算模型**
+
+Bridging animal and human: a 3D computational framework of light propagation in head models for transcranial photobiomodulation in Alzheimer's disease
+
+*Brain-X* · [DOI: 10.1002/brx2.70048](https://doi.org/10.1002/brx2.70048) · [阅读全文](https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048)
+
+阅读范围：Wiley 正式版全文，方法 §2.3–2.7、表 1–2、图 4、6–7。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=yang-2026-mouse-human-fluence) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>成年雄性 C57BL/6J 小鼠参考头模、一名 24 岁男性供体的可视人头模<br><a href="https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Anatomical%20models%20of%20mouse%20and%20human%20heads%20for%20optical%20simulation." target="_blank" rel="noopener">图 1｜鼠和人头模、额部与枕部入射</a></dd></div>
+<div><dt>研究设计</dt><dd>体素蒙特卡洛；先比物种，再在同一人头模筛选光束条件<br><a href="https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Identical%20light-source%20parameters%20were%20applied%20to%20both%20the%20mouse%20and%20human%20head%20models" target="_blank" rel="noopener">方法 §2.6｜跨物种光源与参数</a></dd></div>
+<div><dt>波长</dt><dd>660、810、1064 nm<br><a href="https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Identical%20light-source%20parameters%20were%20applied%20to%20both%20the%20mouse%20and%20human%20head%20models" target="_blank" rel="noopener">方法 §2.6｜跨物种光源与参数</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>静态模拟；比较高斯和平顶空间光束<br><a href="https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Simulations%20tested%20beam%20wavelengths" target="_blank" rel="noopener">方法 §2.7｜人头模颞部光束比较</a></dd></div>
+<div><dt>照射位置</dt><dd>小鼠额缝与后囟区，人头模额前、枕部；海马比较用颞部垂直入射<br><a href="https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Anatomical%20models%20of%20mouse%20and%20human%20heads%20for%20optical%20simulation." target="_blank" rel="noopener">图 1｜鼠和人头模、额部与枕部入射</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>跨条件固定初始光子包 10⁷；模拟配置未给出可复核的头皮辐照度数值<br><a href="https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Simulations%20tested%20beam%20wavelengths" target="_blank" rel="noopener">方法 §2.7｜人头模颞部光束比较</a></dd></div>
+<div><dt>光斑</dt><dd>跨物种用 0.2 cm 高斯束；图 6 直径 0.2、0.6、1.0、2.0、4.0 cm<br><a href="https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=The%20impact%20of%20different%20source%20diameters%20on%20light%20propagation." target="_blank" rel="noopener">图 6｜不同光斑和波长的分布</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>无实际照射时长或疗程<br><a href="https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Simulations%20tested%20beam%20wavelengths" target="_blank" rel="noopener">方法 §2.7｜人头模颞部光束比较</a></dd></div>
+<div><dt>剂量</dt><dd>分层通量和吸收；未给按时间积分的实测头皮剂量<br><a href="https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Quantitative%20analysis%20of%20light%20fluence%20and%20photon%20absorption%20in%20mouse%20and%20human%20head%20models." target="_blank" rel="noopener">图 4｜分组织积分通量与吸收</a></dd></div>
+<div><dt>对照怎么做</dt><dd>跨物种固定源参数；人头模内固定入射中心和方向后更换光束<br><a href="https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Simulations%20tested%20beam%20wavelengths" target="_blank" rel="noopener">方法 §2.7｜人头模颞部光束比较</a></dd></div>
+<div><dt>观察指标</dt><dd>分层积分通量、组织内光分布与海马覆盖<br><a href="https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=The%20impact%20of%20different%20source%20diameters%20on%20light%20propagation." target="_blank" rel="noopener">图 6｜不同光斑和波长的分布</a></dd></div>
+<div><dt>测量时间</dt><dd>模拟的空间分布，无随访时间<br><a href="https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Simulations%20tested%20beam%20wavelengths" target="_blank" rel="noopener">方法 §2.7｜人头模颞部光束比较</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 图 4A 中，人头模额前入射时，约 78%–92% 的体积积分通量来自头皮，随波长变化。（[图 4｜分组织积分通量与吸收](https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Quantitative%20analysis%20of%20light%20fluence%20and%20photon%20absorption%20in%20mouse%20and%20human%20head%20models.)）
+- 图 6A 里，4.0 cm 光斑在该单一人头模、指定入射位置和比较范围内给出最大海马覆盖。（[图 6｜不同光斑和波长的分布](https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=The%20impact%20of%20different%20source%20diameters%20on%20light%20propagation.)）
+- 图 7 的固定直径比较显示模型中的高斯束在深部的通量高于平顶束，1.0 与 2.0 cm 时差异尤明显。（[图 7｜高斯束与平顶束](https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Impact%20of%20beam%20profile%20and%20source%20diameter%20on%20intracranial%20light%20propagation.)）
+
+## 对实验设计有什么用
+
+跨物种比较先看同一解剖靶区的光分布。比较不同直径时，应明确固定的是总功率还是头皮辐照度，并同时报告浅表与靶区读数。
+
+## 接着读
+
+- [相同头皮剂量，进入脑内的光一样多吗？](../../research/questions/penetration.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

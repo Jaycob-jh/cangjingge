@@ -1,0 +1,50 @@
+---
+title: "同一档照射，到每个人的目标脑区还有多少光？"
+date: 2026-11-17
+description: "用离体探头、个体光传输模型和静息态 fMRI 看目标覆盖。"
+categories: [刺激参数与剂量]
+---
+
+[全部荐读](../questions.qmd)
+
+同一波长、同一光斑和同一头皮输入，能给每个人的目标灰质留下相近的光量吗？离体探头可以测量光随深度怎么变，个人头模可以估计不同解剖结构造成的差异。若靶点是一张功能网络，还需要确认它在每个人脑里的位置。
+
+检索 2026 年 10 月 18 日至 11 月 17 日上线的论文，近期 Enam 等的 tPBM 剂量实测已讲过，11 月新发表的 Kawai 等研究服务于脑内光催化。因此第三篇选择 2026 年 5 月上线、此前未讲过的 tPBM 原始建模研究。
+
+## 经典研究｜光穿过头皮和颅骨后，还会衰减多少？
+
+[Tedford 等的札记](../posts/tedford-2015-cadaver-light-attenuation.qmd) · 8 具 66–97 岁未固定遗体头部，20 处照射位置 · 论文 PDF 全文及原刊勘误，图 4–7、表 1–2
+
+图 5A 汇总 20 处测量，按每处头皮入射 1 W 归一后，有效衰减系数为 2.22 cm⁻¹。换用颅骨内侧读数归一后，图 5B 的拟合系数为 2.43 cm⁻¹，作者观察到归一后曲线更集中。图 4、7 后来补发了彩色版。
+
+[图 5，两种归一方式](https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=7) · [彩图勘误](https://onlinelibrary.wiley.com/doi/full/10.1002/lsm.22377)
+
+## 代表研究｜同样的照射，目标灰质的光量能差几倍？
+
+[Chang 等的札记](../posts/chang-2025-individual-optical-dose.qmd) · 154 名健康成人结构 MRI，建立个体头模 · Optica 正式版全文，方法 §2.1–2.5、图 1、4、7–8，未取得补充 PDF
+
+图 7 中，排除 3 个离群个体后，在每组光学属性设定内，151 个头模的目标区平均通量率约相差 3–5 倍。图 8 中，加入层厚信息后，两波长的最低平均相对误差均为 13.4%，省去层厚时约为 21%。误差是与蒙特卡洛模拟值的差距。
+
+[图 7，个体分布](https://pmc.ncbi.nlm.nih.gov/articles/PMC12698094/#g007) · [图 8，分层信息与预测误差](https://pmc.ncbi.nlm.nih.gov/articles/PMC12698094/#g008)
+
+## 近年进展｜同一束光，从小鼠换到人头模会怎样？
+
+[Yang 等的札记](../posts/yang-2026-mouse-human-light-delivery.qmd) · 小鼠 MRI 参考头模和一名 24 岁男性供体的 VCH 人头模 · Wiley 正式版全文，方法 §2.3–2.7、表 1–2、图 4、6–7
+
+图 4A 中，人头模额部模拟的体积积分通量约 78%–92% 来自头皮。图 6A 中，从 0.2 到 4.0 cm 的直径比较里，4.0 cm 的海马覆盖最大。它只代表这个头模、入射位置和模拟配置。
+
+[图 4，分层通量](https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Quantitative%20analysis%20of%20light%20fluence%20and%20photon%20absorption%20in%20mouse%20and%20human%20head%20models.) · [图 6，光束直径比较](https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=The%20impact%20of%20different%20source%20diameters%20on%20light%20propagation.)
+
+## 静息态 fMRI｜同一个头皮位置，下面是同一张功能网络吗？
+
+[Lynch 等的札记](../posts/lynch-2022-individual-network-targeting.qmd) · 8 名抑郁患者、6 名健康成人的高采样静息态 fMRI 和头模 · PMC 作者稿全文，图 1–3；另有体内运动网络实验
+
+图 1 显示，按同一解剖区定位可能覆盖不同的个体网络。图 3 中，在 8 名患者的优化模拟里，热点落在额顶网络内的面积比例平均为 71.2% ± 12.4%，最低两人的比例仍约为 55% 和 57%。这是模型计算的空间覆盖。
+
+[图 1，通用靶点覆盖](https://pmc.ncbi.nlm.nih.gov/articles/PMC11446252/#F1) · [图 3，个体化网络覆盖](https://pmc.ncbi.nlm.nih.gov/articles/PMC11446252/#F3)
+
+## 怎么用到实验里
+
+比较两种头皮定位时，可先固定波长、光斑和实测头皮辐照度。在每个人的结构像上建模，用独立的静息态 fMRI 划定目标网络。对每个位置同时报告靶区平均通量率、靶内覆盖和邻近区域暴露，再用真实与假刺激比较预先选定的脑信号终点。
+
+[光穿透问题页](../../research/questions/penetration.qmd) · [研究对比台](../../research/tpbm-compare.qmd) · [编辑本期](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/issues/2026-11-17-individual-optical-dose.qmd)

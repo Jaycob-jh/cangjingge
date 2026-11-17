@@ -39,6 +39,24 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/liu-2026-photothermal-fem.qmd) · [方法 1.4｜三个波长的比较设置](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#s02.04) · [表 3｜100 mW/cm² 下不同波长的光热结果](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#Table3)
 
+### Tedford 等 · 2015：头皮入射相同，沿深度的读数仍有差异
+
+图 5 汇总 20 处深度曲线，以头皮处或脑表面信号分别归一，可看到头皮至颅骨内侧的路径差异。 报告脑内光时要写清参考面、取样深度和探测下限。离体探头在深处读到光，可用于校核传播模型。活体靶区剂量需要另做估算和验证。
+
+[研究参数与结果](../../library/tpbm/tedford-2015-cadaver-attenuation.qmd) · [PDF 第 7 页｜图 5，20 处的归一化深度曲线](https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=7) · [PDF 第 5 页｜衰减系数、脉冲比较及检测下限](https://lumithera.com/wp-content/uploads/2015/05/LSM-2015-tedford-et-al-cadaver-study.pdf#page=5)
+
+### Chang 等 · 2025：固定光源后，估计不同人的浅层灰质剂量
+
+图 7 在每组光学属性设定下，排除 3 个离群个体后，151 个模型的靶区平均通量率约相差 3–5 倍。 前额试验可把软组织和颅骨厚度记入头模，并以靶区内通量率估计的分布做敏感性分析。模型对象换成活体时，仍需验证头皮反射数据和脑内剂量估计的对应关系。
+
+[研究参数与结果](../../library/tpbm/chang-2025-individual-fluence.qmd) · [图 7｜目标灰质通量率的个体分布](https://pmc.ncbi.nlm.nih.gov/articles/PMC12698094/#g007) · [图 8｜通量率的预测误差](https://pmc.ncbi.nlm.nih.gov/articles/PMC12698094/#g008)
+
+### Yang 等 · 2026：光斑尺寸影响同一头模的深部覆盖
+
+图 6A 里，4.0 cm 光斑在该单一人头模、指定入射位置和比较范围内给出最大海马覆盖。 跨物种比较先看同一解剖靶区的光分布。比较不同直径时，应明确固定的是总功率还是头皮辐照度，并同时报告浅表与靶区读数。
+
+[研究参数与结果](../../library/tpbm/yang-2026-mouse-human-fluence.qmd) · [图 6｜不同光斑和波长的分布](https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=The%20impact%20of%20different%20source%20diameters%20on%20light%20propagation.) · [图 7｜高斯束与平顶束](https://onlinelibrary.wiley.com/doi/10.1002/brx2.70048#:~:text=Impact%20of%20beam%20profile%20and%20source%20diameter%20on%20intracranial%20light%20propagation.)
+
 ## 做实验时看什么
 
 - 头皮剂量、模型预测的脑内剂量和实测脑信号分别保存。
@@ -52,5 +70,8 @@ toc: true
 - [Tian · 2016：照射额中与右额，双侧血氧怎样变化？](../../library/tpbm/tian-2016.qmd)
 - [Enam · 2026：波长相近的头盔，透过组织后差多少？](../../library/tpbm/enam-2026.qmd)
 - [刘欣彤等 · 2026：经颅光生物调节的光—热效应仿真研究](../../library/tpbm/liu-2026-photothermal-fem.qmd)
+- [Tedford 等 · 2015：光穿过头皮和颅骨后，还会衰减多少？](../../library/tpbm/tedford-2015-cadaver-attenuation.qmd)
+- [Chang 等 · 2025：同样的照射，目标灰质的光量能差几倍？](../../library/tpbm/chang-2025-individual-fluence.qmd)
+- [Yang 等 · 2026：同一束光，从小鼠换到人头模会怎样？](../../library/tpbm/yang-2026-mouse-human-fluence.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)
