@@ -1,0 +1,49 @@
+---
+title: "照光与药物联用后，激素下降更多，行为也改善更多吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Meynaghizadeh-Zargar 等 · 2019 · 动物研究**
+
+Effects of transcranial photobiomodulation and methylene blue on biochemical and behavioral profiles in mice stress model
+
+*Lasers in Medical Science* · [DOI: 10.1007/s10103-019-02851-z](https://doi.org/10.1007/s10103-019-02851-z) · [阅读全文](https://d-nb.info/1202108199/34)
+
+阅读范围：期刊全文 PDF，方法、图 2–6、图 8。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=meynaghizadeh-2019-stress-mb) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>雄性 BALB/c 小鼠，5 组；方法共 60 只、每组 12 只，摘要报 55 只，数量差异未解释<br><a href="https://d-nb.info/1202108199/34#page=2" target="_blank" rel="noopener">PDF 第 2 页｜应激、照射与药物分组</a></dd></div>
+<div><dt>研究设计</dt><dd>正常组及应激背景下的照光×亚甲蓝四组，随机分组<br><a href="https://d-nb.info/1202108199/34#page=2" target="_blank" rel="noopener">PDF 第 2 页｜应激、照射与药物分组</a></dd></div>
+<div><dt>波长</dt><dd>810 nm<br><a href="https://d-nb.info/1202108199/34#page=2" target="_blank" rel="noopener">PDF 第 2 页｜应激、照射与药物分组</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>10 Hz 脉冲，占空比 88%<br><a href="https://d-nb.info/1202108199/34#page=2" target="_blank" rel="noopener">PDF 第 2 页｜应激、照射与药物分组</a></dd></div>
+<div><dt>照射位置</dt><dd>头顶覆盖全脑的探头照射<br><a href="https://d-nb.info/1202108199/34#page=2" target="_blank" rel="noopener">PDF 第 2 页｜应激、照射与药物分组</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>平均辐照度 4.75 W/cm²<br><a href="https://d-nb.info/1202108199/34#page=2" target="_blank" rel="noopener">PDF 第 2 页｜应激、照射与药物分组</a></dd></div>
+<div><dt>光斑</dt><dd>正文未明确报告光斑面积<br><a href="https://d-nb.info/1202108199/34#page=2" target="_blank" rel="noopener">PDF 第 2 页｜应激、照射与药物分组</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>每周 3 次，共 4 周；单次照射秒数未明确报告<br><a href="https://d-nb.info/1202108199/34#page=2" target="_blank" rel="noopener">PDF 第 2 页｜应激、照射与药物分组</a></dd></div>
+<div><dt>剂量</dt><dd>方法声称皮层层级 8 J/cm²，沿用既往方法，正文未列完整头皮到皮层剂量换算<br><a href="https://d-nb.info/1202108199/34#page=2" target="_blank" rel="noopener">PDF 第 2 页｜应激、照射与药物分组</a></dd></div>
+<div><dt>对照怎么做</dt><dd>应激动物采用同样探头无光加生理盐水；另设亚甲蓝 0.5 mg/kg 每日腹腔注射及联合组<br><a href="https://d-nb.info/1202108199/34#page=2" target="_blank" rel="noopener">PDF 第 2 页｜应激、照射与药物分组</a></dd></div>
+<div><dt>观察指标</dt><dd>高架十字迷宫、物体识别、Barnes 迷宫；血清皮质醇和脑内氧化应激<br><a href="https://d-nb.info/1202108199/34#page=4" target="_blank" rel="noopener">PDF 第 3–4 页｜行为任务、采血与试剂</a></dd></div>
+<div><dt>测量时间</dt><dd>图 1：第 29 天高架十字迷宫，第 30 天物体识别，第 31–35 天 Barnes 迷宫，第 36 天取材；采血在晨间<br><a href="https://d-nb.info/1202108199/34#page=3" target="_blank" rel="noopener">PDF 第 3 页｜图 1，28 天同期应激和干预</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 图 6 中，照光组对比应激假刺激加生理盐水组，皮质醇较低（p < 0.01）；联合组也较低（p < 0.0001）。联合与单独干预的比较，图注 p < 0.01，正文结果 p < 0.001。（[PDF 第 7 页｜图 6，皮质醇比较](https://d-nb.info/1202108199/34#page=7)）
+- 作者总结多数行为终点没有发现联合优于单独干预的差异。额外差异主要见皮质醇与 ROS。（[PDF 第 10 页｜单独与联合干预比较](https://d-nb.info/1202108199/34#page=10)）
+
+## 对实验设计有什么用
+
+给联合干预保留两个单独组，分别检验行为和激素的组间差异。选择检测指标时确认试剂测的是皮质醇还是皮质酮，并统一采样时刻。
+
+## 接着读
+
+- [应激后，行为改善一定伴随激素下降吗？](../../research/questions/stress-recovery.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

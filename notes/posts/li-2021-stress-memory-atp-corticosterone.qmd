@@ -1,0 +1,27 @@
+---
+title: "皮质酮没下降，记忆为什么仍能保住？"
+date: 2026-11-18
+categories: [经颅光刺激]
+---
+
+Li 等 · 2021-04-15 上线 · [DOI 10.1038/s41380-021-01088-z](https://doi.org/10.1038/s41380-021-01088-z) · [PMID 33859360](https://pubmed.ncbi.nlm.nih.gov/33859360/)
+
+研究对象 · 成年雌雄 Sprague–Dawley 大鼠，多批实验；图 2 高应激比较每组雌鼠 9 只、雄鼠 10 只
+
+阅读范围 · PMC 作者稿全文，方法、图 1–2；补图 S1 未取得
+
+[回到本期](../issues/2026-11-18-stress-hormones-behavior.qmd)
+
+## 怎么做
+
+用足底电击配合束缚建立高应激条件，随即做 2 分钟 808 nm 连续光照射，并与同样束缚的对照比较。之后测情境恐惧记忆。另一批在电击后 20 分钟取样，测血浆和海马皮质酮及海马 ATP。
+
+## 结果怎么读
+
+图 1B 中，高应激条件下照光保住了对危险情境的记忆（两性比较均 p < 0.01）。图 2B–C 中，照光与束缚对照的血浆及海马皮质酮未见显著差异，图 2D 的海马 ATP 却升高（两性均 p < 0.01）。危险情境中的冻结增加，在这里对应情境记忆保存。
+
+## 对实验设计有什么用
+
+把记忆结局和激素曲线分别测量。若要判断 ATP 变化是否必要，还需要干预相关代谢环节。保留无光束缚对照，并逐项报告不同性别与应激强度。
+
+[图 1，情境记忆](https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig1) · [图 2，皮质酮和 ATP](https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig2) · [研究对比卡](../../library/tpbm/li-2021-stress-memory-atp.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/li-2021-stress-memory-atp-corticosterone.qmd)

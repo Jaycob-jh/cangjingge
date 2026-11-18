@@ -51,6 +51,12 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/arias-2026-theta-gamma-rats.qmd) · [方法｜样本与随机分组](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Sec3) · [图 6｜老年组水迷宫](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Fig6)
 
+### Li 等 · 2021：危险情境中的冻结，需要按记忆任务解释
+
+图 1B 中，高应激组照光后情境记忆保存，雌、雄的照光与束缚对照比较均 p < 0.01；记忆线索不同，冻结的含义应随测试情境解释。 把记忆结局和激素曲线分别测量。若要判断 ATP 变化是否必要，还需要干预相关代谢环节。保留无光束缚对照，并逐项报告不同性别与应激强度。
+
+[研究参数与结果](../../library/tpbm/li-2021-stress-memory-atp.qmd) · [图 1｜高应激情境记忆](https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig1) · [图 2｜海马与血浆皮质酮、海马 ATP](https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig2)
+
 ## 做实验时看什么
 
 - 预先选定一个主要行为指标，避免看完结果再挑任务。
@@ -67,5 +73,6 @@ toc: true
 - [Salehpour · 2026：成人 ADHD 的 2-back 改善主要体现在哪里？](../../library/tpbm/salehpour-2026-adhd.qmd)
 - [Papi · 2022：照光 5 次，量表和注意任务能读出什么？](../../library/tpbm/papi-2022-mci-attention.qmd)
 - [Arias · 2026：5 Hz 和 40 Hz 会在同一脑区留下相同的细胞反应吗？](../../library/tpbm/arias-2026-theta-gamma-rats.qmd)
+- [Li 等 · 2021：皮质酮没下降，记忆为什么仍能保住？](../../library/tpbm/li-2021-stress-memory-atp.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

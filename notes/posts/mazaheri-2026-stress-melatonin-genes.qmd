@@ -1,0 +1,27 @@
+---
+title: "炎症基因下降时，焦虑样行为也会同步改善吗？"
+date: 2026-11-18
+categories: [经颅光刺激]
+---
+
+Mazaheri 等 · 2026-10-18 上线，超出本次 30 天窗口一天 · [DOI 10.1016/j.ibneur.2026.10.009](https://doi.org/10.1016/j.ibneur.2026.10.009) · [PMID 42999359](https://pubmed.ncbi.nlm.nih.gov/42999359/)
+
+研究对象 · 63 只雄性 Wistar 大鼠，9 组，每组 7 只；基因表达每组分析 3 份生物样本
+
+阅读范围 · 期刊正式版全文，方法 §2.1–2.5、图 2–8，以及补充图 1 的图注与 A–B 熔解曲线
+
+[回到本期](../issues/2026-11-18-stress-hormones-behavior.qmd)
+
+## 怎么做
+
+连续 21 天每天束缚 2 小时，比较褪黑素、808 nm 照光及两者联用。激光在左右海马解剖投影上方各照 105 秒，作者用离体透射率反推头皮所需曝光。第 21 天测高架十字迷宫，第 22 天取海马做 RNA 检测。
+
+## 结果怎么读
+
+图 2–3 中，照光降低了应激相关的 IL-17A 和 ICAM-1 转录变化。图 7–8 中，褪黑素和联合组相对未治疗应激组增加开放臂停留或进入比例，联合组优于单独照光（分别 p < 0.01、p < 0.05）。正文未报告联合优于褪黑素。图 5 的 IL-1β 无显著组间差异。该研究没有测应激激素。
+
+## 对实验设计有什么用
+
+提前选一个主要行为终点，另列基因和激素指标。检验药物与照光的交互后，再判断联合是否增加收益。RNA 检测的样本数按生物样本计算。
+
+[图 2–3，炎症相关基因](https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0010) · [图 7–8，开放臂行为](https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0035) · [研究对比卡](../../library/tpbm/mazaheri-2026-stress-melatonin.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/mazaheri-2026-stress-melatonin-genes.qmd)

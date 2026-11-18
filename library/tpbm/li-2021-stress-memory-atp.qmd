@@ -1,0 +1,50 @@
+---
+title: "皮质酮没下降，记忆为什么仍能保住？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Li 等 · 2021 · 动物研究**
+
+Photobiomodulation prevents PTSD-like memory impairments in rats
+
+*Molecular Psychiatry* · [DOI: 10.1038/s41380-021-01088-z](https://doi.org/10.1038/s41380-021-01088-z) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/)
+
+阅读范围：PMC 作者稿全文，方法、图 1–2；补图 S1 未取得。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=li-2021-stress-memory-atp) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>成年 3–5 月雌雄 SD 大鼠；图 2 高应激比较每组雌鼠 9 只、雄鼠 10 只<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Sec3" target="_blank" rel="noopener">方法｜实验动物及随机分组</a></dd></div>
+<div><dt>研究设计</dt><dd>足底电击+束缚后照光；按性别和应激强度分批比较记忆与生化<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig1" target="_blank" rel="noopener">图 1｜高应激情境记忆</a></dd></div>
+<div><dt>波长</dt><dd>808 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Sec4" target="_blank" rel="noopener">方法｜照光、束缚与层级光测量</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续光<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Sec4" target="_blank" rel="noopener">方法｜照光、束缚与层级光测量</a></dd></div>
+<div><dt>照射位置</dt><dd>剃毛头皮，探头距离 35 cm，使用红色引导光，眼部遮挡<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Sec4" target="_blank" rel="noopener">方法｜照光、束缚与层级光测量</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>头皮 350 mW/cm²；离体组织复位测量皮层 25、海马 12、杏仁核 3 mW/cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Sec4" target="_blank" rel="noopener">方法｜照光、束缚与层级光测量</a></dd></div>
+<div><dt>光斑</dt><dd>1.5 cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Sec4" target="_blank" rel="noopener">方法｜照光、束缚与层级光测量</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>每次 2 分钟；图 1–2 为条件化后即刻单次干预<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Sec4" target="_blank" rel="noopener">方法｜照光、束缚与层级光测量</a></dd></div>
+<div><dt>剂量</dt><dd>正文报告辐照度和时长，未直接列出头皮 J/cm² 数值<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Sec4" target="_blank" rel="noopener">方法｜照光、束缚与层级光测量</a></dd></div>
+<div><dt>对照怎么做</dt><dd>同样束缚无光组；另有无束缚和未条件化组用于分开判断应激来源<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig1" target="_blank" rel="noopener">图 1｜高应激情境记忆</a></dd></div>
+<div><dt>观察指标</dt><dd>情境与线索恐惧、血浆及海马皮质酮、海马 ATP<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig2" target="_blank" rel="noopener">图 2｜海马与血浆皮质酮、海马 ATP</a></dd></div>
+<div><dt>测量时间</dt><dd>图 1 记忆在条件化后 24 小时测；图 2 生化在末次电击后 20 分钟取材<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig1" target="_blank" rel="noopener">图 1｜高应激情境记忆</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 图 1B 中，高应激组照光后情境记忆保存，雌、雄的照光与束缚对照比较均 p < 0.01；记忆线索不同，冻结的含义应随测试情境解释。（[图 1｜高应激情境记忆](https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig1)）
+- 图 2B–C 中照光未显著改变血浆或海马皮质酮；图 2D 中两性海马 ATP 升高，p < 0.01。样本来自不同测试批次。（[图 2｜海马与血浆皮质酮、海马 ATP](https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig2)）
+
+## 对实验设计有什么用
+
+把记忆结局和激素曲线分别测量。若要判断 ATP 变化是否必要，还需要干预相关代谢环节。保留无光束缚对照，并逐项报告不同性别与应激强度。
+
+## 接着读
+
+- [注意与记忆改善，应该看哪些指标？](../../research/questions/cognition.qmd)
+- [应激后，行为改善一定伴随激素下降吗？](../../research/questions/stress-recovery.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

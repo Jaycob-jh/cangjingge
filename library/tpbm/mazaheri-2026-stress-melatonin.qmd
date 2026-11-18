@@ -1,0 +1,51 @@
+---
+title: "炎症基因下降时，焦虑样行为也会同步改善吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Mazaheri 等 · 2026 · 动物研究**
+
+Effects of melatonin and transcranial photobiomodulation on neuroinflammation-related gene expression and anxiety-like behaviors in rats under chronic restraint stress
+
+*IBRO Neuroscience Reports* · [DOI: 10.1016/j.ibneur.2026.10.009](https://doi.org/10.1016/j.ibneur.2026.10.009) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/)
+
+阅读范围：期刊正式版全文，方法 §2.1–2.5、图 2–8，以及补充图 1 的图注与 A–B 熔解曲线。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=mazaheri-2026-stress-melatonin) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>雄性 Wistar 大鼠 63 只，9 组各 7 只；基因每组 3 个生物重复<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0010" target="_blank" rel="noopener">方法 §2｜9 组动物和给药时序</a></dd></div>
+<div><dt>研究设计</dt><dd>随机分组；慢性束缚应激，照光、褪黑素及联合，并设非应激和假操作组<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0010" target="_blank" rel="noopener">方法 §2｜9 组动物和给药时序</a></dd></div>
+<div><dt>波长</dt><dd>808 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0025" target="_blank" rel="noopener">方法 §2.3｜出光参数和照射位置</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>正文未明确连续或脉冲出光模式<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0025" target="_blank" rel="noopener">方法 §2.3｜出光参数和照射位置</a></dd></div>
+<div><dt>照射位置</dt><dd>剃毛头皮，左右海马解剖投影上方两点<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0025" target="_blank" rel="noopener">方法 §2.3｜出光参数和照射位置</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>115 mW，0.91 W/cm²，均为头皮输入<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0025" target="_blank" rel="noopener">方法 §2.3｜出光参数和照射位置</a></dd></div>
+<div><dt>光斑</dt><dd>每点 0.126 cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0025" target="_blank" rel="noopener">方法 §2.3｜出光参数和照射位置</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>每点 105 秒，每次两点；21 天干预方案<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0035" target="_blank" rel="noopener">方法 §2.3.2｜曝光与透射率估算</a></dd></div>
+<div><dt>剂量</dt><dd>原文报头皮每点 96.1 J/cm²、12 J。两点合计能量 24 J；文中另以两点曝光相加写为 192.2 J/cm²/次。目标海马每侧 5 J/cm² 为离体透射率推算<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0035" target="_blank" rel="noopener">方法 §2.3.2｜曝光与透射率估算</a></dd></div>
+<div><dt>对照怎么做</dt><dd>应激组、无光同样固定组、盐水组及褪黑素 20 mg/kg 腹腔注射；应激组按照光×药物比较<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0010" target="_blank" rel="noopener">方法 §2｜9 组动物和给药时序</a></dd></div>
+<div><dt>观察指标</dt><dd>开放臂停留与进入比例，海马 IL-17A、ICAM-1、VCAM-1、IL-1β、Aif1 RNA；未测应激激素<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0035" target="_blank" rel="noopener">图 7｜开放臂停留比例</a></dd></div>
+<div><dt>测量时间</dt><dd>第 21 天行为，第 22 天海马取材<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0005" target="_blank" rel="noopener">图 1｜21 天方案与取材时间</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 图 2–3 报告照光降低应激相关的 IL-17A 和 ICAM-1 转录变化。RNA 每组 3 份生物样本。（[图 2–3｜炎症相关基因](https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0010)）
+- 图 7 中，褪黑素和联合组相对未治疗应激组增加开放臂停留（分别 p < 0.05、p < 0.001），联合比单独照光高（p < 0.01）。正文未报告联合优于褪黑素。（[图 7｜开放臂停留比例](https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0035)）
+- 图 8 中，联合组的开放臂进入比例高于单独照光组，p < 0.05。（[图 8｜开放臂进入比例](https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0040)）
+- 图 5 中 IL-1β 未见显著组间差异。（[图 5｜IL-1β 无显著组间差异](https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0025)）
+
+## 对实验设计有什么用
+
+提前选一个主要行为终点，另列基因和激素指标。检验药物与照光的交互后，再判断联合是否增加收益。RNA 检测的样本数按生物样本计算。
+
+## 接着读
+
+- [应激后，行为改善一定伴随激素下降吗？](../../research/questions/stress-recovery.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

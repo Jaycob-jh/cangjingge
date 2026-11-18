@@ -1,0 +1,27 @@
+---
+title: "同一场应激，立即扫描和半小时后扫描会看到什么？"
+date: 2026-11-18
+categories: [fMRI 脑网络]
+---
+
+Quaedflieg 等 · 2015-05-06 上线 · [DOI 10.1371/journal.pone.0124141](https://doi.org/10.1371/journal.pone.0124141) · [PMID 25946334](https://pubmed.ncbi.nlm.nih.gov/25946334/)
+
+研究对象 · 39 名健康成人，按皮质醇反应分为 27 名反应者和 12 名非反应者
+
+阅读范围 · PLOS 正式版全文，图 1–5、表 1–2
+
+[回到本期](../issues/2026-11-18-stress-hormones-behavior.qmd)
+
+## 怎么做
+
+用冷刺激、心算和负面反馈诱发急性应激。在应激前、刚结束和约 30 分钟后各采一次静息态 fMRI，同时重复测唾液皮质醇，比较杏仁核连接的时间变化。
+
+## 结果怎么读
+
+图 4A 中，皮质醇反应者在急性阶段的杏仁核—内侧前额叶连接上升，非反应者下降。到恢复期，反应者的杏仁核—左背外侧前额叶连接下降，非反应者上升（图 4B）。两次后测之间还做了情绪工作记忆任务，研究也没有无应激组。
+
+## 对实验设计有什么用
+
+光刺激研究可借用多时点扫描和重复激素采样，固定照射、应激、任务与扫描之间的间隔。以主动和假刺激的时间变化差异为主要比较，避免将自然恢复计入照光效应。
+
+[图 1–2，扫描与激素时间线](https://pmc.ncbi.nlm.nih.gov/articles/PMC4422669/#pone.0124141.g001) · [图 4，分阶段连接变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC4422669/#pone.0124141.g004) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/quaedflieg-2015-stress-recovery-amygdala.qmd)

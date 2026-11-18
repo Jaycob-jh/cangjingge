@@ -4630,6 +4630,359 @@
         }
       ],
       "interpretation": "跨物种比较先看同一解剖靶区的光分布。比较不同直径时，应明确固定的是总功率还是头皮辐照度，并同时报告浅表与靶区读数。"
+    },
+    {
+      "id": "meynaghizadeh-2019-stress-mb",
+      "short": "Meynaghizadeh-Zargar 等 · 2019",
+      "year": 2019,
+      "title": "Effects of transcranial photobiomodulation and methylene blue on biochemical and behavioral profiles in mice stress model",
+      "title_zh": "照光与药物联用后，激素下降更多，行为也改善更多吗？",
+      "doi": "10.1007/s10103-019-02851-z",
+      "fulltext": "https://d-nb.info/1202108199/34",
+      "journal": "Lasers in Medical Science",
+      "kind": "动物研究",
+      "questions": [
+        "stress-recovery"
+      ],
+      "measures": [
+        "行为",
+        "激素",
+        "氧化应激"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "期刊全文 PDF，方法、图 2–6、图 8",
+      "sources": {
+        "m": {
+          "label": "PDF 第 2 页｜应激、照射与药物分组",
+          "url": "https://d-nb.info/1202108199/34#page=2"
+        },
+        "t": {
+          "label": "PDF 第 3–4 页｜行为任务、采血与试剂",
+          "url": "https://d-nb.info/1202108199/34#page=4"
+        },
+        "b": {
+          "label": "PDF 第 5 页｜图 2–3，焦虑样行为与识别记忆",
+          "url": "https://d-nb.info/1202108199/34#page=5"
+        },
+        "h": {
+          "label": "PDF 第 7 页｜图 6，皮质醇比较",
+          "url": "https://d-nb.info/1202108199/34#page=7"
+        },
+        "r": {
+          "label": "PDF 第 5–6 页｜皮质醇结果段",
+          "url": "https://d-nb.info/1202108199/34#page=6"
+        },
+        "l": {
+          "label": "PDF 第 10 页｜单独与联合干预比较",
+          "url": "https://d-nb.info/1202108199/34#page=10"
+        },
+        "f": {
+          "label": "PDF 第 3 页｜图 1，28 天同期应激和干预",
+          "url": "https://d-nb.info/1202108199/34#page=3"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "雄性 BALB/c 小鼠，5 组；方法共 60 只、每组 12 只，摘要报 55 只，数量差异未解释",
+          "source": "m"
+        },
+        "design": {
+          "value": "正常组及应激背景下的照光×亚甲蓝四组，随机分组",
+          "source": "m"
+        },
+        "wavelength": {
+          "value": "810 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "10 Hz 脉冲，占空比 88%",
+          "source": "m"
+        },
+        "target": {
+          "value": "头顶覆盖全脑的探头照射",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "平均辐照度 4.75 W/cm²",
+          "source": "m"
+        },
+        "spot": {
+          "value": "正文未明确报告光斑面积",
+          "source": "m"
+        },
+        "duration": {
+          "value": "每周 3 次，共 4 周；单次照射秒数未明确报告",
+          "source": "m"
+        },
+        "dose": {
+          "value": "方法声称皮层层级 8 J/cm²，沿用既往方法，正文未列完整头皮到皮层剂量换算",
+          "source": "m"
+        },
+        "control": {
+          "value": "应激动物采用同样探头无光加生理盐水；另设亚甲蓝 0.5 mg/kg 每日腹腔注射及联合组",
+          "source": "m"
+        },
+        "readout": {
+          "value": "高架十字迷宫、物体识别、Barnes 迷宫；血清皮质醇和脑内氧化应激",
+          "source": "t"
+        },
+        "timing": {
+          "value": "图 1：第 29 天高架十字迷宫，第 30 天物体识别，第 31–35 天 Barnes 迷宫，第 36 天取材；采血在晨间",
+          "source": "f"
+        }
+      },
+      "results": [
+        {
+          "source": "h",
+          "text": "图 6 中，照光组对比应激假刺激加生理盐水组，皮质醇较低（p < 0.01）；联合组也较低（p < 0.0001）。联合与单独干预的比较，图注 p < 0.01，正文结果 p < 0.001。"
+        },
+        {
+          "source": "l",
+          "text": "作者总结多数行为终点没有发现联合优于单独干预的差异。额外差异主要见皮质醇与 ROS。"
+        }
+      ],
+      "interpretation": "给联合干预保留两个单独组，分别检验行为和激素的组间差异。选择检测指标时确认试剂测的是皮质醇还是皮质酮，并统一采样时刻。"
+    },
+    {
+      "id": "li-2021-stress-memory-atp",
+      "short": "Li 等 · 2021",
+      "year": 2021,
+      "title": "Photobiomodulation prevents PTSD-like memory impairments in rats",
+      "title_zh": "皮质酮没下降，记忆为什么仍能保住？",
+      "doi": "10.1038/s41380-021-01088-z",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/",
+      "journal": "Molecular Psychiatry",
+      "kind": "动物研究",
+      "questions": [
+        "stress-recovery",
+        "cognition"
+      ],
+      "measures": [
+        "行为",
+        "激素",
+        "ATP"
+      ],
+      "wavelengths": [
+        "808"
+      ],
+      "mode_filter": "连续光",
+      "reading": "PMC 作者稿全文，方法、图 1–2；补图 S1 未取得",
+      "sources": {
+        "d": {
+          "label": "方法｜实验动物及随机分组",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Sec3"
+        },
+        "m": {
+          "label": "方法｜照光、束缚与层级光测量",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Sec4"
+        },
+        "t": {
+          "label": "方法｜皮质酮采样",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Sec11"
+        },
+        "b": {
+          "label": "图 1｜高应激情境记忆",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig1"
+        },
+        "r": {
+          "label": "图 2｜海马与血浆皮质酮、海马 ATP",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig2"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "成年 3–5 月雌雄 SD 大鼠；图 2 高应激比较每组雌鼠 9 只、雄鼠 10 只",
+          "source": "d"
+        },
+        "design": {
+          "value": "足底电击+束缚后照光；按性别和应激强度分批比较记忆与生化",
+          "source": "b"
+        },
+        "wavelength": {
+          "value": "808 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "m"
+        },
+        "target": {
+          "value": "剃毛头皮，探头距离 35 cm，使用红色引导光，眼部遮挡",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "头皮 350 mW/cm²；离体组织复位测量皮层 25、海马 12、杏仁核 3 mW/cm²",
+          "source": "m"
+        },
+        "spot": {
+          "value": "1.5 cm²",
+          "source": "m"
+        },
+        "duration": {
+          "value": "每次 2 分钟；图 1–2 为条件化后即刻单次干预",
+          "source": "m"
+        },
+        "dose": {
+          "value": "正文报告辐照度和时长，未直接列出头皮 J/cm² 数值",
+          "source": "m"
+        },
+        "control": {
+          "value": "同样束缚无光组；另有无束缚和未条件化组用于分开判断应激来源",
+          "source": "b"
+        },
+        "readout": {
+          "value": "情境与线索恐惧、血浆及海马皮质酮、海马 ATP",
+          "source": "r"
+        },
+        "timing": {
+          "value": "图 1 记忆在条件化后 24 小时测；图 2 生化在末次电击后 20 分钟取材",
+          "source": "b"
+        }
+      },
+      "results": [
+        {
+          "source": "b",
+          "text": "图 1B 中，高应激组照光后情境记忆保存，雌、雄的照光与束缚对照比较均 p < 0.01；记忆线索不同，冻结的含义应随测试情境解释。"
+        },
+        {
+          "source": "r",
+          "text": "图 2B–C 中照光未显著改变血浆或海马皮质酮；图 2D 中两性海马 ATP 升高，p < 0.01。样本来自不同测试批次。"
+        }
+      ],
+      "interpretation": "把记忆结局和激素曲线分别测量。若要判断 ATP 变化是否必要，还需要干预相关代谢环节。保留无光束缚对照，并逐项报告不同性别与应激强度。"
+    },
+    {
+      "id": "mazaheri-2026-stress-melatonin",
+      "short": "Mazaheri 等 · 2026",
+      "year": 2026,
+      "title": "Effects of melatonin and transcranial photobiomodulation on neuroinflammation-related gene expression and anxiety-like behaviors in rats under chronic restraint stress",
+      "title_zh": "炎症基因下降时，焦虑样行为也会同步改善吗？",
+      "doi": "10.1016/j.ibneur.2026.10.009",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/",
+      "journal": "IBRO Neuroscience Reports",
+      "kind": "动物研究",
+      "questions": [
+        "stress-recovery"
+      ],
+      "measures": [
+        "行为",
+        "基因表达"
+      ],
+      "wavelengths": [
+        "808"
+      ],
+      "mode_filter": "未明确",
+      "reading": "期刊正式版全文，方法 §2.1–2.5、图 2–8，以及补充图 1 的图注与 A–B 熔解曲线",
+      "sources": {
+        "d": {
+          "label": "方法 §2｜9 组动物和给药时序",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0010"
+        },
+        "m": {
+          "label": "方法 §2.3｜出光参数和照射位置",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0025"
+        },
+        "p": {
+          "label": "方法 §2.3.2｜曝光与透射率估算",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#sec0035"
+        },
+        "t": {
+          "label": "图 1｜21 天方案与取材时间",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0005"
+        },
+        "g": {
+          "label": "图 2–3｜炎症相关基因",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0010"
+        },
+        "i": {
+          "label": "图 5｜IL-1β 无显著组间差异",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0025"
+        },
+        "r": {
+          "label": "图 7｜开放臂停留比例",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0035"
+        },
+        "e": {
+          "label": "图 8｜开放臂进入比例",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13743380/#fig0040"
+        },
+        "s": {
+          "label": "补充图 1｜RT-qPCR 熔解曲线",
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2667242126001788-mmc1.docx"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "雄性 Wistar 大鼠 63 只，9 组各 7 只；基因每组 3 个生物重复",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机分组；慢性束缚应激，照光、褪黑素及联合，并设非应激和假操作组",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "808 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "正文未明确连续或脉冲出光模式",
+          "source": "m"
+        },
+        "target": {
+          "value": "剃毛头皮，左右海马解剖投影上方两点",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "115 mW，0.91 W/cm²，均为头皮输入",
+          "source": "m"
+        },
+        "spot": {
+          "value": "每点 0.126 cm²",
+          "source": "m"
+        },
+        "duration": {
+          "value": "每点 105 秒，每次两点；21 天干预方案",
+          "source": "p"
+        },
+        "dose": {
+          "value": "原文报头皮每点 96.1 J/cm²、12 J。两点合计能量 24 J；文中另以两点曝光相加写为 192.2 J/cm²/次。目标海马每侧 5 J/cm² 为离体透射率推算",
+          "source": "p"
+        },
+        "control": {
+          "value": "应激组、无光同样固定组、盐水组及褪黑素 20 mg/kg 腹腔注射；应激组按照光×药物比较",
+          "source": "d"
+        },
+        "readout": {
+          "value": "开放臂停留与进入比例，海马 IL-17A、ICAM-1、VCAM-1、IL-1β、Aif1 RNA；未测应激激素",
+          "source": "r"
+        },
+        "timing": {
+          "value": "第 21 天行为，第 22 天海马取材",
+          "source": "t"
+        }
+      },
+      "results": [
+        {
+          "source": "g",
+          "text": "图 2–3 报告照光降低应激相关的 IL-17A 和 ICAM-1 转录变化。RNA 每组 3 份生物样本。"
+        },
+        {
+          "source": "r",
+          "text": "图 7 中，褪黑素和联合组相对未治疗应激组增加开放臂停留（分别 p < 0.05、p < 0.001），联合比单独照光高（p < 0.01）。正文未报告联合优于褪黑素。"
+        },
+        {
+          "source": "e",
+          "text": "图 8 中，联合组的开放臂进入比例高于单独照光组，p < 0.05。"
+        },
+        {
+          "source": "i",
+          "text": "图 5 中 IL-1β 未见显著组间差异。"
+        }
+      ],
+      "interpretation": "提前选一个主要行为终点，另列基因和激素指标。检验药物与照光的交互后，再判断联合是否增加收益。RNA 检测的样本数按生物样本计算。"
     }
   ]
 }
