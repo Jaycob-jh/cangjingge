@@ -63,6 +63,24 @@ MMSE 组别与时间交互 F(1,40) = 20，p < 0.001。 把总体量表、反应�
 
 [研究参数与结果](../../library/tpbm/papi-2022-mci-attention.qmd) · [图 4｜MMSE](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F4) · [方法｜设备、照射、面积与假刺激](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#S2_4) · [图 3｜前后测流程](https://pmc.ncbi.nlm.nih.gov/articles/PMC9551363/#F3)
 
+### Naeser 等 · 2011：慢性脑外伤患者的改善，最早是怎样被记录的？
+
+图 4：P2 的抑制与抑制准确性由第 9 升至第 63 百分位；作者报告相差 2 SD，是单个病例前后变化。 P1 自述持续电脑工作由 20 分钟增至 3 小时，未做相同正式复测。 P2 记忆即刻和延迟回忆亦提高；随访期间停用 Lexapro、开始 Ritalin，需同时考虑这些变化。 它帮助确定后续试验可测哪些认知和日常功能。正式验证时，应固定药物、记录全部照射部位，并用假刺激和重复基线估计练习效应；病例前后改善本身还不能给出光照的独立效应。
+
+[研究参数与结果](../../library/tpbm/naeser-2011-tbi-cases.qmd) · [图 4｜第二例 Stroop 前后测](https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#f4) · [结果｜第一例的剂量递增和随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Case%20Report%2C%20P1) · [结果｜记忆、药物和伴随因素](https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Neuropsychological%20test%20results)
+
+### Chermann 等 · 2026：脑震荡后一周好转，5 Hz 和 10 Hz 的比较能解释多少？
+
+表 3：至少一次设备相关事件为 10/26（38.5%）与 10/24（41.7%），共 20 人、30 次事件，均轻度且非严重；无假刺激，部分事件也属于脑震荡症状。 图 2/表 4：两组汇总后，首次治疗前后的集合近点为 3.8±4.6 与 1.2±2.1 cm；这是同次访视变化，不是相对假刺激的效应。 表 7：SCAT5 严重度均值 D0 9.1、D7 2.8、D52 1.2；次要指标未检出两频率组差异，探索性分析未校正多重比较。 它提供急性期招募、眼动测量和变异度资料。需要假刺激和盲法评估来判断同次改善是否超过重复测验及期待作用；两频率差异未显著不等于两者等效。光和静磁场共同使用，也无法据此分出光的独立贡献。
+
+[研究参数与结果](../../library/tpbm/chermann-2026-recovery.qmd) · [表 3｜事件人数、事件次数和分组](https://pmc.ncbi.nlm.nih.gov/articles/PMC13640603/#tab3) · [图 2、表 4｜眼动测量](https://pmc.ncbi.nlm.nih.gov/articles/PMC13640603/#fig2) · [表 7｜SCAT5 症状轨迹](https://pmc.ncbi.nlm.nih.gov/articles/PMC13640603/#tab7)
+
+### Chan 等 · 2024：功能连接更强，能直接理解为恢复更好吗？
+
+图 3A/表 2：早期 7 对连接的组间变化差 z=0.37–0.45，FDR P=.010–.047；比较的是两组变化之差。 图 4：亚急性至约 3 个月，假刺激组 13 对连接增强；后期两组变化差未达 FDR 显著。 RPQ 临床症状未检出两组差异（P=.44–.99）；分析属于同一试验的次要功能影像结局。 要比较“光照组变化减去假照射组变化”，并分别观察早期和晚期。连接增强先作为生理信号，再检验它是否预测临床结局；同一队列的扩散与功能分析可互补，但不能当成两次独立试验。
+
+[研究参数与结果](../../library/tpbm/chan-2024-tbi-rsfc.qmd) · [图 3、表 2｜早期组间变化差](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig3) · [图 4｜后期连接变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig4) · [结果｜症状与统计方法](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#:~:text=Patient%20Characteristics)
+
 ## 做实验时看什么
 
 - 把即时反应、疗程末结果和停用后保持分别设定测量时间。
@@ -82,5 +100,8 @@ MMSE 组别与时间交互 F(1,40) = 20，p < 0.001。 把总体量表、反应�
 - [Coelho · 2025：代谢物升高，有特定剂量效应吗？](../../library/tpbm/coelho-2025.qmd)
 - [Chao · 2019：居家照光 12 周，认知评分和脑网络怎么变？](../../library/tpbm/chao-2019-dementia-dmn.qmd)
 - [Papi · 2022：照光 5 次，量表和注意任务能读出什么？](../../library/tpbm/papi-2022-mci-attention.qmd)
+- [Naeser 等 · 2011：慢性脑外伤患者的改善，最早是怎样被记录的？](../../library/tpbm/naeser-2011-tbi-cases.qmd)
+- [Chermann 等 · 2026：脑震荡后一周好转，5 Hz 和 10 Hz 的比较能解释多少？](../../library/tpbm/chermann-2026-recovery.qmd)
+- [Chan 等 · 2024：功能连接更强，能直接理解为恢复更好吗？](../../library/tpbm/chan-2024-tbi-rsfc.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

@@ -81,6 +81,12 @@ C3 主动照射与假刺激的敲击数变化不同。这个设计给出即刻�
 
 [研究参数与结果](../../library/tpbm/motsenyat-2025-pulse-csf.qmd) · [PDF 第 1 页，方法 §3.1–3.3、表 1–3｜样本、方案与照射参数](https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf#page=1) · [PDF 第 1 页，图 7 与 §4.2.1｜经颅照射脑脊液信号](https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf#page=1)
 
+### Chan 等 · 2024：功能连接更强，能直接理解为恢复更好吗？
+
+图 3A/表 2：早期 7 对连接的组间变化差 z=0.37–0.45，FDR P=.010–.047；比较的是两组变化之差。 图 4：亚急性至约 3 个月，假刺激组 13 对连接增强；后期两组变化差未达 FDR 显著。 RPQ 临床症状未检出两组差异（P=.44–.99）；分析属于同一试验的次要功能影像结局。 要比较“光照组变化减去假照射组变化”，并分别观察早期和晚期。连接增强先作为生理信号，再检验它是否预测临床结局；同一队列的扩散与功能分析可互补，但不能当成两次独立试验。
+
+[研究参数与结果](../../library/tpbm/chan-2024-tbi-rsfc.qmd) · [图 3、表 2｜早期组间变化差](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig3) · [图 4｜后期连接变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig4) · [结果｜症状与统计方法](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#:~:text=Patient%20Characteristics)
+
 ## 做实验时看什么
 
 - 每个结果写明：测什么信号、什么频段、哪个脑区、刺激中还是刺激后。
@@ -106,5 +112,6 @@ C3 主动照射与假刺激的敲击数变化不同。这个设计给出即刻�
 - [Iosifescu · 2026：同一批人换照射条件，BOLD 波动会同向变化吗？](../../library/tpbm/iosifescu-2026-bold-power.qmd)
 - [Chao · 2019：居家照光 12 周，认知评分和脑网络怎么变？](../../library/tpbm/chao-2019-dementia-dmn.qmd)
 - [Motsenyat · 2025：人体 fMRI 中，40 Hz 会带来更大的脑脊液信号吗？](../../library/tpbm/motsenyat-2025-pulse-csf.qmd)
+- [Chan 等 · 2024：功能连接更强，能直接理解为恢复更好吗？](../../library/tpbm/chan-2024-tbi-rsfc.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

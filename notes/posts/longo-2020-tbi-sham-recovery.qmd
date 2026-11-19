@@ -1,0 +1,27 @@
+---
+title: "有了假照射组，症状和影像还会给出同一个答案吗？"
+date: 2026-11-19
+categories: [经颅光刺激]
+---
+
+Figueiro Longo 等 · 2020-09-14 上线 · [DOI 10.1001/jamanetworkopen.2020.17337](https://doi.org/10.1001/jamanetworkopen.2020.17337) · [PMID 32926117](https://pubmed.ncbi.nlm.nih.gov/32926117/)
+
+研究对象 · 68 人入组；43 人至少有一次 MRI，42 人进入扩散 MRI 定量分析
+
+阅读范围 · PMC 正文方法、结果、图 1–3 及表 1–2；波长同时核对 Chan 2024 正文，未重新读取原补充 PDF
+
+[回到本期](../issues/2026-11-19-injury-recovery.qmd)
+
+## 怎么做
+
+中度脑外伤后 72 小时内开始 810 nm 头盔照射，20 分钟共 3 次，间隔至少 12 小时。假照射保持头盔和风扇运行，关闭 LED；除操作协调员外，参与者和研究人员保持盲法。随访症状及扩散 MRI。
+
+## 结果怎么读
+
+图 2A 的头痛、眩晕等 RPQ-3 分数随时间下降，但治疗×时间交互 P=.97；总分交互 P=.91。图 3 中，部分扩散指标的变化轨迹有组间差异。两种结果要并排看：影像信号发生变化，这个样本尚未显示症状获益超过假刺激。
+
+## 对实验设计有什么用
+
+主分析看两组随时间的差异，不能只看照射组前后显著。MRI 和临床症状分别设终点、分别估算样本量。本试验的急性期 MRI 在头盔应用后完成，设计新试验时应尽量增加刺激前影像。
+
+[图 2，症状轨迹](https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#zoi200627f2) · [图 3，扩散 MRI](https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#zoi200627f3) · [研究对比卡](../../library/tpbm/longo-2020.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/longo-2020-tbi-sham-recovery.qmd)

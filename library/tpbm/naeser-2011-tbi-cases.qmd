@@ -1,0 +1,51 @@
+---
+title: "慢性脑外伤患者的改善，最早是怎样被记录的？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Naeser 等 · 2011 · 临床**
+
+Improved Cognitive Function After Transcranial, Light-Emitting Diode Treatments in Chronic, Traumatic Brain Injury: Two Case Reports
+
+*Photomedicine and Laser Surgery* · [DOI: 10.1089/pho.2010.2814](https://doi.org/10.1089/pho.2010.2814) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/)
+
+阅读范围：PMC 正文的方法、两例病程、图 1、3–4 图注与神经心理测验结果。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=naeser-2011-tbi-cases) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>两例慢性脑外伤女性；P1 伤后 7 年开始，P2 多次脑震荡后有认知困难<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Case%20Report%2C%20P1" target="_blank" rel="noopener">结果｜第一例的剂量递增和随访</a></dd></div>
+<div><dt>研究设计</dt><dd>无假刺激病例报告；P1 自述功能，P2 有一次前后神经心理测验<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#f4" target="_blank" rel="noopener">图 4｜第二例 Stroop 前后测</a></dd></div>
+<div><dt>波长</dt><dd>633 nm 红光与 870 nm 近红外同时使用<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=LED%20Devices" target="_blank" rel="noopener">方法｜方形与圆形 LED 装置</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续 LED；两例后续还有足部照射<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Case%20Report%2C%20P2" target="_blank" rel="noopener">结果｜第二例的疗程与足部照射</a></dd></div>
+<div><dt>照射位置</dt><dd>双侧额部、颞部及头皮多位点；位置和疗程随个体调整<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Case%20Report%2C%20P2" target="_blank" rel="noopener">结果｜第二例的疗程与足部照射</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>方形头 25.8 mW/cm²、圆形头 22.2 mW/cm²；各头标称 500 mW<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=LED%20Devices" target="_blank" rel="noopener">方法｜方形与圆形 LED 装置</a></dd></div>
+<div><dt>光斑</dt><dd>每个方形头 19.39 cm²；圆形头 22.48 cm²，直径 5.35 cm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=LED%20Devices" target="_blank" rel="noopener">方法｜方形与圆形 LED 装置</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>P1 初期每周 8 次后继续，转每晚居家；P2 每点 7→10 分钟，逐周增加，测验于 9 个月<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Case%20Report%2C%20P2" target="_blank" rel="noopener">结果｜第二例的疗程与足部照射</a></dd></div>
+<div><dt>剂量</dt><dd>P1 初期 8→20 J/cm²/点；圆形居家头通常 13.3 J/cm²/点；文中脑皮层剂量属估计<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Case%20Report%2C%20P1" target="_blank" rel="noopener">结果｜第一例的剂量递增和随访</a></dd></div>
+<div><dt>对照怎么做</dt><dd>个体治疗前后比较，无假刺激；伴随药物与足部照射未隔离<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Neuropsychological%20test%20results" target="_blank" rel="noopener">结果｜记忆、药物和伴随因素</a></dd></div>
+<div><dt>观察指标</dt><dd>P2 Stroop 与记忆测验；P1 日常工作持续时间自述<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#f4" target="_blank" rel="noopener">图 4｜第二例 Stroop 前后测</a></dd></div>
+<div><dt>测量时间</dt><dd>P2 9 个月前后测；P1 多年居家过程；并非统一疗程随机随访<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Case%20Report%2C%20P1" target="_blank" rel="noopener">结果｜第一例的剂量递增和随访</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 图 4：P2 的抑制与抑制准确性由第 9 升至第 63 百分位；作者报告相差 2 SD，是单个病例前后变化。（[图 4｜第二例 Stroop 前后测](https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#f4)）
+- P1 自述持续电脑工作由 20 分钟增至 3 小时，未做相同正式复测。（[结果｜第一例的剂量递增和随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Case%20Report%2C%20P1)）
+- P2 记忆即刻和延迟回忆亦提高；随访期间停用 Lexapro、开始 Ritalin，需同时考虑这些变化。（[结果｜记忆、药物和伴随因素](https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Neuropsychological%20test%20results)）
+
+## 对实验设计有什么用
+
+它帮助确定后续试验可测哪些认知和日常功能。正式验证时，应固定药物、记录全部照射部位，并用假刺激和重复基线估计练习效应；病例前后改善本身还不能给出光照的独立效应。
+
+## 接着读
+
+- [注意与记忆改善，应该看哪些指标？](../../research/questions/cognition.qmd)
+- [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

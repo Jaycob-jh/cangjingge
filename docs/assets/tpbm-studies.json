@@ -4983,6 +4983,349 @@
         }
       ],
       "interpretation": "提前选一个主要行为终点，另列基因和激素指标。检验药物与照光的交互后，再判断联合是否增加收益。RNA 检测的样本数按生物样本计算。"
+    },
+    {
+      "id": "naeser-2011-tbi-cases",
+      "short": "Naeser 等 · 2011",
+      "year": 2011,
+      "title": "Improved Cognitive Function After Transcranial, Light-Emitting Diode Treatments in Chronic, Traumatic Brain Injury: Two Case Reports",
+      "title_zh": "慢性脑外伤患者的改善，最早是怎样被记录的？",
+      "doi": "10.1089/pho.2010.2814",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/",
+      "journal": "Photomedicine and Laser Surgery",
+      "kind": "临床",
+      "questions": [
+        "repeated-clinical",
+        "cognition"
+      ],
+      "measures": [
+        "认知行为",
+        "量表"
+      ],
+      "wavelengths": [
+        "633",
+        "870"
+      ],
+      "mode_filter": "连续光",
+      "reading": "PMC 正文的方法、两例病程、图 1、3–4 图注与神经心理测验结果",
+      "sources": {
+        "m": {
+          "label": "方法｜方形与圆形 LED 装置",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=LED%20Devices"
+        },
+        "p1": {
+          "label": "结果｜第一例的剂量递增和随访",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Case%20Report%2C%20P1"
+        },
+        "p2": {
+          "label": "结果｜第二例的疗程与足部照射",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Case%20Report%2C%20P2"
+        },
+        "r": {
+          "label": "图 4｜第二例 Stroop 前后测",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#f4"
+        },
+        "s": {
+          "label": "结果｜记忆、药物和伴随因素",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Neuropsychological%20test%20results"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "两例慢性脑外伤女性；P1 伤后 7 年开始，P2 多次脑震荡后有认知困难",
+          "source": "p1"
+        },
+        "design": {
+          "value": "无假刺激病例报告；P1 自述功能，P2 有一次前后神经心理测验",
+          "source": "r"
+        },
+        "wavelength": {
+          "value": "633 nm 红光与 870 nm 近红外同时使用",
+          "source": "m"
+        },
+        "mode": {
+          "value": "连续 LED；两例后续还有足部照射",
+          "source": "p2"
+        },
+        "target": {
+          "value": "双侧额部、颞部及头皮多位点；位置和疗程随个体调整",
+          "source": "p2"
+        },
+        "irradiance": {
+          "value": "方形头 25.8 mW/cm²、圆形头 22.2 mW/cm²；各头标称 500 mW",
+          "source": "m"
+        },
+        "spot": {
+          "value": "每个方形头 19.39 cm²；圆形头 22.48 cm²，直径 5.35 cm",
+          "source": "m"
+        },
+        "duration": {
+          "value": "P1 初期每周 8 次后继续，转每晚居家；P2 每点 7→10 分钟，逐周增加，测验于 9 个月",
+          "source": "p2"
+        },
+        "dose": {
+          "value": "P1 初期 8→20 J/cm²/点；圆形居家头通常 13.3 J/cm²/点；文中脑皮层剂量属估计",
+          "source": "p1"
+        },
+        "control": {
+          "value": "个体治疗前后比较，无假刺激；伴随药物与足部照射未隔离",
+          "source": "s"
+        },
+        "readout": {
+          "value": "P2 Stroop 与记忆测验；P1 日常工作持续时间自述",
+          "source": "r"
+        },
+        "timing": {
+          "value": "P2 9 个月前后测；P1 多年居家过程；并非统一疗程随机随访",
+          "source": "p1"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "图 4：P2 的抑制与抑制准确性由第 9 升至第 63 百分位；作者报告相差 2 SD，是单个病例前后变化。"
+        },
+        {
+          "source": "p1",
+          "text": "P1 自述持续电脑工作由 20 分钟增至 3 小时，未做相同正式复测。"
+        },
+        {
+          "source": "s",
+          "text": "P2 记忆即刻和延迟回忆亦提高；随访期间停用 Lexapro、开始 Ritalin，需同时考虑这些变化。"
+        }
+      ],
+      "interpretation": "它帮助确定后续试验可测哪些认知和日常功能。正式验证时，应固定药物、记录全部照射部位，并用假刺激和重复基线估计练习效应；病例前后改善本身还不能给出光照的独立效应。"
+    },
+    {
+      "id": "chermann-2026-recovery",
+      "short": "Chermann 等 · 2026",
+      "year": 2026,
+      "title": "Brain photobiomodulation therapy for acute sport-related concussion: a randomized, single-blinded, pilot clinical trial (RECOVERY study)",
+      "title_zh": "脑震荡后一周好转，5 Hz 和 10 Hz 的比较能解释多少？",
+      "doi": "10.3389/fneur.2026.1894623",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13640603/",
+      "journal": "Frontiers in Neurology",
+      "kind": "临床",
+      "questions": [
+        "repeated-clinical"
+      ],
+      "measures": [
+        "量表",
+        "眼动",
+        "不良事件"
+      ],
+      "wavelengths": [
+        "660",
+        "850"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "PMC/Frontiers 正式版全文，方法 §2.1–2.5、图 1–2、表 1–7；表 1 光斑单位待核",
+      "sources": {
+        "m": {
+          "label": "方法 §2.1–2.3｜设计、联合装置与磁场",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13640603/#sec3"
+        },
+        "p": {
+          "label": "表 1｜各光源的参数，光斑单位待核",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13640603/#tab1"
+        },
+        "d": {
+          "label": "图 1、表 2｜招募、实际分组与人口学",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13640603/#fig1"
+        },
+        "r": {
+          "label": "表 3｜事件人数、事件次数和分组",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13640603/#tab3"
+        },
+        "o": {
+          "label": "图 2、表 4｜眼动测量",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13640603/#fig2"
+        },
+        "s": {
+          "label": "表 7｜SCAT5 症状轨迹",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13640603/#tab7"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "50 名急性运动相关脑震荡成人，平均 25.0±5.1 岁；88% 男性、96% 橄榄球",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机单盲试点，5 Hz 对 10 Hz；无假刺激；光与静磁场联合",
+          "source": "m"
+        },
+        "wavelength": {
+          "value": "红 LED 660 nm；近红外 LED 及激光二极管 850 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "5 或 10 Hz，50% 占空比；每个模块有标称 280 mT 静磁体，非 rTMS",
+          "source": "m"
+        },
+        "target": {
+          "value": "模块式经颅头盔；未逐一报告头皮坐标",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "红 LED / 近红外 LED / 近红外激光的最大辐照度依次 25.46 / 28.76 / 21.36 mW/cm²",
+          "source": "p"
+        },
+        "spot": {
+          "value": "待核：表 1 将 Beam area 单位写作 nm²，三列为 929.6 / 94.8 / 102.6；保留原标注，不作面积或总能量换算",
+          "source": "p"
+        },
+        "duration": {
+          "value": "D0、D7 各 20 分钟，共 2 次；伤后 72 小时内开始",
+          "source": "m"
+        },
+        "dose": {
+          "value": "原表单次最大能量密度依次 15.28 / 17.26 / 12.82 J/cm²；两次累积 30.56 / 34.52 / 25.64 J/cm²，按光源分列，未相加",
+          "source": "p"
+        },
+        "control": {
+          "value": "实际接受 5 Hz 26 人、10 Hz 24 人；没有关光或去磁场组",
+          "source": "d"
+        },
+        "readout": {
+          "value": "主要终点设备相关事件；次要含集合近点、平衡、TMT、SCAT5 和血标志物",
+          "source": "r"
+        },
+        "timing": {
+          "value": "D0/D7 刺激前后，D14、D52 随访；最终现场访视实际为 D49–D77",
+          "source": "m"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "表 3：至少一次设备相关事件为 10/26（38.5%）与 10/24（41.7%），共 20 人、30 次事件，均轻度且非严重；无假刺激，部分事件也属于脑震荡症状。"
+        },
+        {
+          "source": "o",
+          "text": "图 2/表 4：两组汇总后，首次治疗前后的集合近点为 3.8±4.6 与 1.2±2.1 cm；这是同次访视变化，不是相对假刺激的效应。"
+        },
+        {
+          "source": "s",
+          "text": "表 7：SCAT5 严重度均值 D0 9.1、D7 2.8、D52 1.2；次要指标未检出两频率组差异，探索性分析未校正多重比较。"
+        }
+      ],
+      "interpretation": "它提供急性期招募、眼动测量和变异度资料。需要假刺激和盲法评估来判断同次改善是否超过重复测验及期待作用；两频率差异未显著不等于两者等效。光和静磁场共同使用，也无法据此分出光的独立贡献。"
+    },
+    {
+      "id": "chan-2024-tbi-rsfc",
+      "short": "Chan 等 · 2024",
+      "year": 2024,
+      "title": "Effects of Low-Level Light Therapy on Resting-State Connectivity Following Moderate Traumatic Brain Injury: Secondary Analyses of a Double-blinded Placebo-controlled Study",
+      "title_zh": "功能连接更强，能直接理解为恢复更好吗？",
+      "doi": "10.1148/radiol.230999",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/",
+      "journal": "Radiology",
+      "kind": "临床",
+      "questions": [
+        "repeated-clinical",
+        "brain-signals"
+      ],
+      "measures": [
+        "fMRI",
+        "量表"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "未明确",
+      "reading": "PMC 正文方法、结果及图 2–4 图注；未读取补充材料",
+      "sources": {
+        "m": {
+          "label": "方法｜同队列、照射及静息态 MRI",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#:~:text=LLLT%20Procedure"
+        },
+        "p": {
+          "label": "Longo 2020 方法｜同一试验的头皮照射参数",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627"
+        },
+        "d": {
+          "label": "图 1｜筛选与可分析样本",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig1"
+        },
+        "r": {
+          "label": "图 3、表 2｜早期组间变化差",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig3"
+        },
+        "r2": {
+          "label": "图 4｜后期连接变化",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig4"
+        },
+        "s": {
+          "label": "结果｜症状与统计方法",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#:~:text=Patient%20Characteristics"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "17 人真实光照、21 人假刺激、23 名健康对照；2020 年试验的同一队列",
+          "source": "d"
+        },
+        "design": {
+          "value": "原随机双盲假刺激试验的二次 fMRI 分析；不作为独立复验",
+          "source": "m"
+        },
+        "wavelength": {
+          "value": "810 nm；原文 bandwidth 30 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "近红外 LED；本篇正文未给脉冲频率",
+          "source": "m"
+        },
+        "target": {
+          "value": "经颅头盔；同一试验原报告为 18 簇、每簇 20 个 LED",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "同一试验原报告 36 mW/cm²，头皮处",
+          "source": "p"
+        },
+        "spot": {
+          "value": "本篇及原试验正文未给总照射面积",
+          "source": "p"
+        },
+        "duration": {
+          "value": "伤后不足 72 小时开始；20 分钟×3 次，间隔至少 12 小时",
+          "source": "m"
+        },
+        "dose": {
+          "value": "同一试验原报告约 43.2 J/cm²/次，头皮处；不是脑内实测剂量",
+          "source": "p"
+        },
+        "control": {
+          "value": "相同头盔但 LED 关闭；23 名健康人仅作单次扫描参照",
+          "source": "m"
+        },
+        "readout": {
+          "value": "82 区、3321 对连接的 Fisher z，混合模型与 FDR；RPQ 症状",
+          "source": "r"
+        },
+        "timing": {
+          "value": "伤后 1 周内、2–3 周、约 3 个月；睁眼静息态 8 分 55 秒，TR 1.25 秒；急性扫描非可靠刺激前基线",
+          "source": "m"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "图 3A/表 2：早期 7 对连接的组间变化差 z=0.37–0.45，FDR P=.010–.047；比较的是两组变化之差。"
+        },
+        {
+          "source": "r2",
+          "text": "图 4：亚急性至约 3 个月，假刺激组 13 对连接增强；后期两组变化差未达 FDR 显著。"
+        },
+        {
+          "source": "s",
+          "text": "RPQ 临床症状未检出两组差异（P=.44–.99）；分析属于同一试验的次要功能影像结局。"
+        }
+      ],
+      "interpretation": "要比较“光照组变化减去假照射组变化”，并分别观察早期和晚期。连接增强先作为生理信号，再检验它是否预测临床结局；同一队列的扩散与功能分析可互补，但不能当成两次独立试验。"
     }
   ]
 }

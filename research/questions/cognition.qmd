@@ -57,6 +57,12 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/li-2021-stress-memory-atp.qmd) · [图 1｜高应激情境记忆](https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig1) · [图 2｜海马与血浆皮质酮、海马 ATP](https://pmc.ncbi.nlm.nih.gov/articles/PMC8760076/#Fig2)
 
+### Naeser 等 · 2011：慢性脑外伤患者的改善，最早是怎样被记录的？
+
+图 4：P2 的抑制与抑制准确性由第 9 升至第 63 百分位；作者报告相差 2 SD，是单个病例前后变化。 P1 自述持续电脑工作由 20 分钟增至 3 小时，未做相同正式复测。 P2 记忆即刻和延迟回忆亦提高；随访期间停用 Lexapro、开始 Ritalin，需同时考虑这些变化。 它帮助确定后续试验可测哪些认知和日常功能。正式验证时，应固定药物、记录全部照射部位，并用假刺激和重复基线估计练习效应；病例前后改善本身还不能给出光照的独立效应。
+
+[研究参数与结果](../../library/tpbm/naeser-2011-tbi-cases.qmd) · [图 4｜第二例 Stroop 前后测](https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#f4) · [结果｜第一例的剂量递增和随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Case%20Report%2C%20P1) · [结果｜记忆、药物和伴随因素](https://pmc.ncbi.nlm.nih.gov/articles/PMC3104287/#:~:text=Neuropsychological%20test%20results)
+
 ## 做实验时看什么
 
 - 预先选定一个主要行为指标，避免看完结果再挑任务。
@@ -74,5 +80,6 @@ toc: true
 - [Papi · 2022：照光 5 次，量表和注意任务能读出什么？](../../library/tpbm/papi-2022-mci-attention.qmd)
 - [Arias · 2026：5 Hz 和 40 Hz 会在同一脑区留下相同的细胞反应吗？](../../library/tpbm/arias-2026-theta-gamma-rats.qmd)
 - [Li 等 · 2021：皮质酮没下降，记忆为什么仍能保住？](../../library/tpbm/li-2021-stress-memory-atp.qmd)
+- [Naeser 等 · 2011：慢性脑外伤患者的改善，最早是怎样被记录的？](../../library/tpbm/naeser-2011-tbi-cases.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

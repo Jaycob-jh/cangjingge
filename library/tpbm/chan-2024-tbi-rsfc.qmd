@@ -1,0 +1,51 @@
+---
+title: "功能连接更强，能直接理解为恢复更好吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Chan 等 · 2024 · 临床**
+
+Effects of Low-Level Light Therapy on Resting-State Connectivity Following Moderate Traumatic Brain Injury: Secondary Analyses of a Double-blinded Placebo-controlled Study
+
+*Radiology* · [DOI: 10.1148/radiol.230999](https://doi.org/10.1148/radiol.230999) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/)
+
+阅读范围：PMC 正文方法、结果及图 2–4 图注；未读取补充材料。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=chan-2024-tbi-rsfc) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>17 人真实光照、21 人假刺激、23 名健康对照；2020 年试验的同一队列<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig1" target="_blank" rel="noopener">图 1｜筛选与可分析样本</a></dd></div>
+<div><dt>研究设计</dt><dd>原随机双盲假刺激试验的二次 fMRI 分析；不作为独立复验<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#:~:text=LLLT%20Procedure" target="_blank" rel="noopener">方法｜同队列、照射及静息态 MRI</a></dd></div>
+<div><dt>波长</dt><dd>810 nm；原文 bandwidth 30 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#:~:text=LLLT%20Procedure" target="_blank" rel="noopener">方法｜同队列、照射及静息态 MRI</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>近红外 LED；本篇正文未给脉冲频率<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#:~:text=LLLT%20Procedure" target="_blank" rel="noopener">方法｜同队列、照射及静息态 MRI</a></dd></div>
+<div><dt>照射位置</dt><dd>经颅头盔；同一试验原报告为 18 簇、每簇 20 个 LED<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627" target="_blank" rel="noopener">Longo 2020 方法｜同一试验的头皮照射参数</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>同一试验原报告 36 mW/cm²，头皮处<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627" target="_blank" rel="noopener">Longo 2020 方法｜同一试验的头皮照射参数</a></dd></div>
+<div><dt>光斑</dt><dd>本篇及原试验正文未给总照射面积<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627" target="_blank" rel="noopener">Longo 2020 方法｜同一试验的头皮照射参数</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>伤后不足 72 小时开始；20 分钟×3 次，间隔至少 12 小时<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#:~:text=LLLT%20Procedure" target="_blank" rel="noopener">方法｜同队列、照射及静息态 MRI</a></dd></div>
+<div><dt>剂量</dt><dd>同一试验原报告约 43.2 J/cm²/次，头皮处；不是脑内实测剂量<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7490644/#H2-1-ZOI200627" target="_blank" rel="noopener">Longo 2020 方法｜同一试验的头皮照射参数</a></dd></div>
+<div><dt>对照怎么做</dt><dd>相同头盔但 LED 关闭；23 名健康人仅作单次扫描参照<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#:~:text=LLLT%20Procedure" target="_blank" rel="noopener">方法｜同队列、照射及静息态 MRI</a></dd></div>
+<div><dt>观察指标</dt><dd>82 区、3321 对连接的 Fisher z，混合模型与 FDR；RPQ 症状<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig3" target="_blank" rel="noopener">图 3、表 2｜早期组间变化差</a></dd></div>
+<div><dt>测量时间</dt><dd>伤后 1 周内、2–3 周、约 3 个月；睁眼静息态 8 分 55 秒，TR 1.25 秒；急性扫描非可靠刺激前基线<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#:~:text=LLLT%20Procedure" target="_blank" rel="noopener">方法｜同队列、照射及静息态 MRI</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 图 3A/表 2：早期 7 对连接的组间变化差 z=0.37–0.45，FDR P=.010–.047；比较的是两组变化之差。（[图 3、表 2｜早期组间变化差](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig3)）
+- 图 4：亚急性至约 3 个月，假刺激组 13 对连接增强；后期两组变化差未达 FDR 显著。（[图 4｜后期连接变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig4)）
+- RPQ 临床症状未检出两组差异（P=.44–.99）；分析属于同一试验的次要功能影像结局。（[结果｜症状与统计方法](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#:~:text=Patient%20Characteristics)）
+
+## 对实验设计有什么用
+
+要比较“光照组变化减去假照射组变化”，并分别观察早期和晚期。连接增强先作为生理信号，再检验它是否预测临床结局；同一队列的扩散与功能分析可互补，但不能当成两次独立试验。
+
+## 接着读
+
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+- [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)
