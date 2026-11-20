@@ -5326,6 +5326,330 @@
         }
       ],
       "interpretation": "要比较“光照组变化减去假照射组变化”，并分别观察早期和晚期。连接增强先作为生理信号，再检验它是否预测临床结局；同一队列的扩散与功能分析可互补，但不能当成两次独立试验。"
+    },
+    {
+      "id": "moro-2013-mptp-strains",
+      "short": "Moro 等 · 2013",
+      "year": 2013,
+      "title": "Photobiomodulation preserves behaviour and midbrain dopaminergic cells from MPTP toxicity: evidence from two mouse strains",
+      "title_zh": "同样照光，为什么两种小鼠的运动结果不同？",
+      "doi": "10.1186/1471-2202-14-40",
+      "fulltext": "https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf",
+      "journal": "BMC Neuroscience",
+      "kind": "动物研究",
+      "questions": [
+        "parkinson-motor"
+      ],
+      "measures": [
+        "运动行为",
+        "组织学"
+      ],
+      "wavelengths": [
+        "670"
+      ],
+      "mode_filter": "未明确",
+      "reading": "正式版 PDF 方法与结果、图 1–4；实际查看图 2、4，PDF 第 2、4–6 页",
+      "sources": {
+        "m": {
+          "label": "PDF 第 2 页｜品系、分组和照射",
+          "url": "https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=2"
+        },
+        "d": {
+          "label": "PDF 第 3 页｜图 1，实验时间线",
+          "url": "https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=3"
+        },
+        "r": {
+          "label": "PDF 第 4 页｜图 2，TH 阳性细胞计数",
+          "url": "https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=4"
+        },
+        "b": {
+          "label": "PDF 第 6 页｜图 4，分品系运动结果",
+          "url": "https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=6"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "8–10 周龄雄性 BALB/c 与 C57BL/6 各 40 只；每种品系四组、每组 10 只",
+          "source": "m"
+        },
+        "design": {
+          "value": "盐水/MPTP 与开光/关光组合；两品系分别比较，MPTP 总量 50 mg/kg",
+          "source": "m"
+        },
+        "wavelength": {
+          "value": "670 nm LED",
+          "source": "m"
+        },
+        "mode": {
+          "value": "本篇未报告连续/脉冲、频率及占空比",
+          "source": "m"
+        },
+        "target": {
+          "value": "WARP 10 LED 手持于头部上方 1–2 cm；未植入光纤",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "本篇未提供可直接复核的头皮入射辐照度数值",
+          "source": "m"
+        },
+        "spot": {
+          "value": "本篇未报告头皮光斑面积",
+          "source": "m"
+        },
+        "duration": {
+          "value": "90 秒/次，共四次；两次注射后立即照光，各约 6 小时后再照一次",
+          "source": "m"
+        },
+        "dose": {
+          "value": "作者按既往工作估计到脑约 0.5 J/cm²/次、四次约 2 J/cm²；不是本次头皮或脑内实测剂量",
+          "source": "m"
+        },
+        "control": {
+          "value": "相同手持固定和 LED 位置，但装置不开光；含盐水加光对照",
+          "source": "m"
+        },
+        "readout": {
+          "value": "开放场速度、活动与静止；黑质 TH 阳性细胞立体计数",
+          "source": "r"
+        },
+        "timing": {
+          "value": "四个运动测点在损伤/照射阶段；末次照光后存活六天做组织学，未做六天时运动复测",
+          "source": "d"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "图 2：相对 MPTP 组，BALB/c 照光组 TH 阳性细胞数约高 30%（p<.05）；C57BL/6 约高 20%，未达显著。"
+        },
+        {
+          "source": "b",
+          "text": "图 4：BALB/c 在 T3、T4 速度与高活动增加、静止减少（Bonferroni p<.05）；C57BL/6 未显示同样清晰的运动获益。"
+        }
+      ],
+      "interpretation": "动物试验同时保留无损伤加光和损伤假照射组，分别报告组织学和运动终点。这里的照射与毒素损伤同期进行，不能直接套用为慢性帕金森病患者的治疗方案。"
+    },
+    {
+      "id": "herkes-2023-parkinson-helmet",
+      "short": "Herkes 等 · 2023",
+      "year": 2023,
+      "title": "A novel transcranial photobiomodulation device to address motor signs of Parkinson's disease: a parallel randomised feasibility study",
+      "title_zh": "戴头盔照十二周，运动改善有没有超过假刺激？",
+      "doi": "10.1016/j.eclinm.2023.102338",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/",
+      "journal": "eClinicalMedicine",
+      "kind": "临床",
+      "questions": [
+        "parkinson-motor",
+        "repeated-clinical"
+      ],
+      "measures": [
+        "量表",
+        "不良事件"
+      ],
+      "wavelengths": [
+        "635",
+        "810"
+      ],
+      "mode_filter": "未明确",
+      "reading": "正式版 PDF 方法、结果与图 1–2、表 1–3；实际查看表 3，PDF 第 3、5、8 页；未读补充文件",
+      "sources": {
+        "m": {
+          "label": "方法｜随机、头盔与疗程",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment"
+        },
+        "d": {
+          "label": "图 1｜装置及 CONSORT",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#fig1"
+        },
+        "r": {
+          "label": "表 3｜各阶段的均值与组间区间",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#tbl3"
+        },
+        "s": {
+          "label": "表 2｜逐人变化与疑似事件",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#tbl2"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "40 名 59–85 岁帕金森病患者；主动与假刺激各 20 人",
+          "source": "d"
+        },
+        "design": {
+          "value": "第一阶段 12 周随机双盲假刺激；第二阶段揭盲，原假组可改主动，原主动组停照",
+          "source": "m"
+        },
+        "wavelength": {
+          "value": "20 个 635 nm 红 LED 与 20 个 810 nm 近红外 LED，分布于 20 处",
+          "source": "m"
+        },
+        "mode": {
+          "value": "两波段顺序照射；正文未明确脉冲参数，不从其他研究同品牌设备补入",
+          "source": "m"
+        },
+        "target": {
+          "value": "全头盔，含后下方位置；本研究未使用腹部光照",
+          "source": "d"
+        },
+        "irradiance": {
+          "value": "平均光功率：每个 810 nm LED 52 mW，每个 635 nm LED 27 mW；未报告头皮 mW/cm²",
+          "source": "m"
+        },
+        "spot": {
+          "value": "正文未报告各 LED 的头皮光斑面积",
+          "source": "m"
+        },
+        "duration": {
+          "value": "先红光 12 分钟，再近红外 12 分钟；每周 6 天、12 周，共 72 次；第二阶段另 12 周",
+          "source": "m"
+        },
+        "dose": {
+          "value": "正文每次总光能：近红外 748.8 J、红光 388.8 J；不是 J/cm² 或脑内剂量",
+          "source": "m"
+        },
+        "control": {
+          "value": "外观操作一致但不开光；要求药物、运动及饮食不变；后期停照与主动非对称延长",
+          "source": "m"
+        },
+        "readout": {
+          "value": "远程改良 MDS-UPDRS-III，删除僵硬及姿势稳定性两项；疑似事件",
+          "source": "r"
+        },
+        "timing": {
+          "value": "基线、12 周及后续 12 周；部分因维修等中断而延后以完成 72 次",
+          "source": "m"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "表 3：第一阶段后假组 20.4±12.8、主动组 16.5±9.4；均值差 3.9，95% CI −3.5 至 11.3。基线均值为 26.8 与 21.3，不能把末次均值差当作基线校正效应。"
+        },
+        {
+          "source": "r",
+          "text": "第二阶段末，原假转主动组剩 12 人，均值 12.2；原主动停照组 20 人，均值 15.3。揭盲与选择退出限制了这一阶段的解释。"
+        },
+        {
+          "source": "s",
+          "text": "有暂时头晕及两例可能与装置相关的腿无力/手部精细动作下降；这些观察来自可行性研究。"
+        }
+      ],
+      "interpretation": "优先看随机阶段的组间比较，并用基线校正或纵向模型估计效果。这项远程评分删除了僵硬和姿势稳定性两项，不能和完整 MDS-UPDRS-III 总分直接混用；后续交叉阶段适合作为进一步验证的线索。"
+    },
+    {
+      "id": "saltmarche-2025-parkinson-exercise",
+      "short": "Saltmarche 等 · 2025",
+      "year": 2025,
+      "title": "Effectiveness of Photobiomodulation to Treat Motor and Non-Motor Symptoms of Parkinson’s Disease: A Randomised Clinical Trial with Extended Treatment",
+      "title_zh": "加上运动训练后，怎样解读光照的长期结果？",
+      "doi": "10.3390/jcm14217463",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12609809/",
+      "journal": "Journal of Clinical Medicine",
+      "kind": "临床",
+      "questions": [
+        "parkinson-motor",
+        "repeated-clinical"
+      ],
+      "measures": [
+        "运动行为",
+        "量表",
+        "不良事件"
+      ],
+      "wavelengths": [
+        "635",
+        "810",
+        "904"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "正式版 PDF 方法、结果、图 2–4、表 2 及公开补表 S2；实际查看图 3–4、表 2、补充 PDF 第 2 页",
+      "sources": {
+        "m": {
+          "label": "PDF 第 4–6 页｜三阶段设计与联合照射",
+          "url": "https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=4"
+        },
+        "p": {
+          "label": "补充 PDF 第 2 页｜表 S2，装置参数（ZIP 内 PDF）",
+          "url": "https://mdpi-res.com/d_attachment/jcm/jcm-14-07463/article_deploy/jcm-14-07463-s001.zip"
+        },
+        "f": {
+          "label": "PDF 第 7 页｜图 3，头部和颈腹部照射",
+          "url": "https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=7"
+        },
+        "r": {
+          "label": "PDF 第 9–10 页｜表 2，主次终点和组间比较",
+          "url": "https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=9"
+        },
+        "g": {
+          "label": "PDF 第 11 页｜图 4a，各阶段 TUG 分布",
+          "url": "https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=11"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "63 名 58–79 岁患者，Hoehn–Yahr 2–3；主动 32、假刺激 31 人；所有人继续运动",
+          "source": "m"
+        },
+        "design": {
+          "value": "8 周随机双盲真实/假光照；第二阶段全员主动 8 周；第三阶段自行选择继续或停止；头部与颈腹光照联合",
+          "source": "m"
+        },
+        "wavelength": {
+          "value": "经颅头盔 635/810 nm；904 nm 超脉冲激光用于颈腹部，不是经颅 904 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "头盔 40 Hz；颈腹激光 50 Hz 超脉冲；补表未报告占空比",
+          "source": "p"
+        },
+        "target": {
+          "value": "20 个头盔位置；图 3 为腹部九点及后颈 C2 区左右照射，另有运动训练",
+          "source": "f"
+        },
+        "irradiance": {
+          "value": "补表仅给颈腹激光平均总输出 60 mW（2×30 mW）；未给头盔功率或头皮 mW/cm²",
+          "source": "p"
+        },
+        "spot": {
+          "value": "正文及补表未给可复核的头皮/颈腹光斑面积",
+          "source": "p"
+        },
+        "duration": {
+          "value": "头盔 24 分钟（每波段 12 分钟）；图 3 腹部九点各 2 分钟、颈部左右各 1 分钟；每周 3 次、间隔≥48 小时",
+          "source": "f"
+        },
+        "dose": {
+          "value": "补表头盔 388 J/次、颈腹 72 J/次。另写“Joules delivered per point”但值为 7.2 J/cm²，单位不一致，待核；未换算或合并为经颅剂量",
+          "source": "p"
+        },
+        "control": {
+          "value": "第一阶段两组同样运动，装置真实或无光；第二阶段全部主动；第三阶段由患者选择是否继续",
+          "source": "m"
+        },
+        "readout": {
+          "value": "主要 TUG；另列 MDS-UPDRS、步行、精细运动、认知、焦虑等；多终点未做整体多重校正",
+          "source": "r"
+        },
+        "timing": {
+          "value": "基线、阶段 1/2 结束后 1 与 4 周；主要表格用 1 周；阶段 3 长短不一，17 人继续、26 人停止",
+          "source": "r"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "表 2/图 4：第一阶段 TUG 主动 12.3±4.2 秒、假刺激 11.0±4.0 秒，未显示主动优于假刺激；MDS-UPDRS 总分组内下降也未形成随机组间优势。"
+        },
+        {
+          "source": "g",
+          "text": "第三阶段 TUG 继续组 9.8±3.8 秒、停止组 12.0±5.6 秒，ANCOVA p=.016；这是自选继续与否的比较，不是随机延长疗程效应。"
+        },
+        {
+          "source": "r",
+          "text": "第三阶段 MDS-UPDRS 总分差异 p=.062；个别疑似相关退出包含自述房颤/头痛、梦境和脱发，保留与获益一起报告。"
+        }
+      ],
+      "interpretation": "随机阶段检验的是整套头部加颈腹光照在既有运动训练之外的额外作用。第三阶段是否继续由本人选择，要用再次随机的延长试验验证；若要隔离经颅照射贡献，还需分开头部和身体照射。"
     }
   ]
 }

@@ -1,0 +1,27 @@
+---
+title: "主动组下降四分，已经说明比假刺激更有效了吗？"
+date: 2026-11-20
+categories: [经颅光刺激]
+---
+
+Penuela 等 · 2026-11-03 上线；Communications in Kinesiology 8(S1) 研究摘要 · [DOI 10.51224/cik.2026.8554](https://doi.org/10.51224/cik.2026.8554)
+
+研究对象 · 已完成 26 名患者，68.25±7.95 岁；主动 16 人、假刺激 10 人；试验仍在进行
+
+阅读范围 · 公开 3 页研究摘要及图 1，实际放大查看 PDF 第 2 页；不是完整试验报告
+
+[回到本期](../issues/2026-11-20-parkinson-motor-controls.qmd)
+
+## 怎么做
+
+额部 810 nm 经颅照射，12 分钟/次，每周三次、六周。停多巴胺药约 12 小时后评估，测 MDS-UPDRS-III 和 KinesiaOne 运动传感器。摘要说明使用配对 t 检验，但没有给完整随机化、剂量和组间分析方案。
+
+## 结果怎么读
+
+图 1 的总分框内，主动组从 41.21±11.18 降至 37.14±10.33，组内 p=.0036；假刺激组从 33.90±15.84 至 35.40±16.15，组内 p=.8145。主动组约下降四分，是其自身前后变化。图中没有报告两组变化差的检验或置信区间，不能用“一组显著、另一组不显著”替代它。
+
+## 对实验设计有什么用
+
+等待完整报告补齐分配方式、照射剂量、依从性和组间变化差。设计自己的试验时，先明确要估计的组间效应，再决定样本量与主分析；这条目前作为新进展追踪，参数对比台待全文再补。
+
+[公开研究摘要，图 1 在第 2 页](https://storkjournals.org/index.php/cik/article/download/8554/6550#page=2) · [原刊条目](https://storkjournals.org/index.php/cik/article/view/8554) · [同主题问题](../../research/questions/parkinson-motor.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/penuela-2026-parkinson-preliminary.qmd)

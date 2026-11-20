@@ -1,0 +1,27 @@
+---
+title: "同样照光，为什么两种小鼠的运动结果不同？"
+date: 2026-11-20
+categories: [经颅光刺激]
+---
+
+Moro 等 · 2013-03-27 首发 · [DOI 10.1186/1471-2202-14-40](https://doi.org/10.1186/1471-2202-14-40) · [PMID 23531041](https://pubmed.ncbi.nlm.nih.gov/23531041/)
+
+研究对象 · 80 只 8–10 周龄雄鼠：BALB/c、C57BL/6 各 40 只，每种品系四组、每组 10 只
+
+阅读范围 · 正式版 PDF 方法与结果、图 1–4；实际查看图 2、4，PDF 第 2、4–6 页
+
+[回到本期](../issues/2026-11-20-parkinson-motor-controls.qmd)
+
+## 怎么做
+
+每种品系分别设置生理盐水、盐水加光、MPTP、MPTP 加光。两次注射 MPTP，总量 50 mg/kg；670 nm LED 在头部上方 1–2 cm，每次 90 秒，共四次。注射/照射阶段四次测开放场运动，最后一次照光后 6 天计数黑质 TH 阳性细胞。
+
+## 结果怎么读
+
+图 2 中，相对 MPTP 组，照光后 BALB/c 的 TH 阳性细胞数约高 30%，C57BL/6 约高 20%，只有前者达到显著。图 4 中，BALB/c 在第三、第四测点的速度和活动增加、静止减少（校正后 p<.05）；C57BL/6 未显示相同的清晰获益。并非所有品系、测点都有光照效应。
+
+## 对实验设计有什么用
+
+动物试验同时保留无损伤加光和损伤假照射组，分别报告组织学和运动终点。这里的照射与毒素损伤同期进行，不能直接套用为慢性帕金森病患者的治疗方案。
+
+[图 2，细胞计数](https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=4) · [图 4，分品系运动轨迹](https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=6) · [研究对比卡](../../library/tpbm/moro-2013-mptp-strains.qmd) · [同主题问题](../../research/questions/parkinson-motor.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/moro-2013-parkinson-strains.qmd)

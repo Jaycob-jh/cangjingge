@@ -1,0 +1,49 @@
+---
+title: "同样照光，为什么两种小鼠的运动结果不同？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Moro 等 · 2013 · 动物研究**
+
+Photobiomodulation preserves behaviour and midbrain dopaminergic cells from MPTP toxicity: evidence from two mouse strains
+
+*BMC Neuroscience* · [DOI: 10.1186/1471-2202-14-40](https://doi.org/10.1186/1471-2202-14-40) · [阅读全文](https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf)
+
+阅读范围：正式版 PDF 方法与结果、图 1–4；实际查看图 2、4，PDF 第 2、4–6 页。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=moro-2013-mptp-strains) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>8–10 周龄雄性 BALB/c 与 C57BL/6 各 40 只；每种品系四组、每组 10 只<br><a href="https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=2" target="_blank" rel="noopener">PDF 第 2 页｜品系、分组和照射</a></dd></div>
+<div><dt>研究设计</dt><dd>盐水/MPTP 与开光/关光组合；两品系分别比较，MPTP 总量 50 mg/kg<br><a href="https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=2" target="_blank" rel="noopener">PDF 第 2 页｜品系、分组和照射</a></dd></div>
+<div><dt>波长</dt><dd>670 nm LED<br><a href="https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=2" target="_blank" rel="noopener">PDF 第 2 页｜品系、分组和照射</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>本篇未报告连续/脉冲、频率及占空比<br><a href="https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=2" target="_blank" rel="noopener">PDF 第 2 页｜品系、分组和照射</a></dd></div>
+<div><dt>照射位置</dt><dd>WARP 10 LED 手持于头部上方 1–2 cm；未植入光纤<br><a href="https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=2" target="_blank" rel="noopener">PDF 第 2 页｜品系、分组和照射</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>本篇未提供可直接复核的头皮入射辐照度数值<br><a href="https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=2" target="_blank" rel="noopener">PDF 第 2 页｜品系、分组和照射</a></dd></div>
+<div><dt>光斑</dt><dd>本篇未报告头皮光斑面积<br><a href="https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=2" target="_blank" rel="noopener">PDF 第 2 页｜品系、分组和照射</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>90 秒/次，共四次；两次注射后立即照光，各约 6 小时后再照一次<br><a href="https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=2" target="_blank" rel="noopener">PDF 第 2 页｜品系、分组和照射</a></dd></div>
+<div><dt>剂量</dt><dd>作者按既往工作估计到脑约 0.5 J/cm²/次、四次约 2 J/cm²；不是本次头皮或脑内实测剂量<br><a href="https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=2" target="_blank" rel="noopener">PDF 第 2 页｜品系、分组和照射</a></dd></div>
+<div><dt>对照怎么做</dt><dd>相同手持固定和 LED 位置，但装置不开光；含盐水加光对照<br><a href="https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=2" target="_blank" rel="noopener">PDF 第 2 页｜品系、分组和照射</a></dd></div>
+<div><dt>观察指标</dt><dd>开放场速度、活动与静止；黑质 TH 阳性细胞立体计数<br><a href="https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=4" target="_blank" rel="noopener">PDF 第 4 页｜图 2，TH 阳性细胞计数</a></dd></div>
+<div><dt>测量时间</dt><dd>四个运动测点在损伤/照射阶段；末次照光后存活六天做组织学，未做六天时运动复测<br><a href="https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=3" target="_blank" rel="noopener">PDF 第 3 页｜图 1，实验时间线</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 图 2：相对 MPTP 组，BALB/c 照光组 TH 阳性细胞数约高 30%（p<.05）；C57BL/6 约高 20%，未达显著。（[PDF 第 4 页｜图 2，TH 阳性细胞计数](https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=4)）
+- 图 4：BALB/c 在 T3、T4 速度与高活动增加、静止减少（Bonferroni p<.05）；C57BL/6 未显示同样清晰的运动获益。（[PDF 第 6 页｜图 4，分品系运动结果](https://link.springer.com/content/pdf/10.1186/1471-2202-14-40.pdf#page=6)）
+
+## 对实验设计有什么用
+
+动物试验同时保留无损伤加光和损伤假照射组，分别报告组织学和运动终点。这里的照射与毒素损伤同期进行，不能直接套用为慢性帕金森病患者的治疗方案。
+
+## 接着读
+
+- [帕金森病运动改善，怎样分清光照与其他干预？](../../research/questions/parkinson-motor.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

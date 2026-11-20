@@ -1,0 +1,27 @@
+---
+title: "戴头盔照十二周，运动改善有没有超过假刺激？"
+date: 2026-11-20
+categories: [经颅光刺激]
+---
+
+Herkes 等 · 2023-12-01 首发 · [DOI 10.1016/j.eclinm.2023.102338](https://doi.org/10.1016/j.eclinm.2023.102338) · [PMID 38094162](https://pubmed.ncbi.nlm.nih.gov/38094162/)
+
+研究对象 · 40 名 59–85 岁帕金森病患者，主动与假刺激各 20 人
+
+阅读范围 · 正式版 PDF 方法、结果与图 1–2、表 1–3；实际查看表 3，PDF 第 3、5、8 页；未读补充文件
+
+[回到本期](../issues/2026-11-20-parkinson-motor-controls.qmd)
+
+## 怎么做
+
+居家头盔先照 635 nm 红光 12 分钟，再照 810 nm 近红外 12 分钟，每周六天，共 72 次。第一阶段双盲比较真实和假照射；随后揭盲，原假刺激者可改真实照射，原主动组停止照光。药物、运动及饮食要求保持不变。
+
+## 结果怎么读
+
+表 3 中，第一阶段后，假刺激组的改良 MDS-UPDRS-III 均值为 20.4，主动组为 16.5；两组均值差 3.9 分，95% CI −3.5 至 11.3，跨过零。两组治疗前均值也不同，因此不能把 3.9 分直接当成校正后的治疗效应。后续改真实照射者进一步下降，但存在揭盲和选择退出。
+
+## 对实验设计有什么用
+
+优先看随机阶段的组间比较，并用基线校正或纵向模型估计效果。这项远程评分删除了僵硬和姿势稳定性两项，不能和完整 MDS-UPDRS-III 总分直接混用；后续交叉阶段适合作为进一步验证的线索。
+
+[表 3，分阶段均值及置信区间](https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#tbl3) · [方法，头盔与评分](https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment) · [研究对比卡](../../library/tpbm/herkes-2023-parkinson-helmet.qmd) · [同主题问题](../../research/questions/parkinson-motor.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/herkes-2023-parkinson-helmet-sham.qmd)

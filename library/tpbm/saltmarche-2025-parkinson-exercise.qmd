@@ -1,0 +1,51 @@
+---
+title: "加上运动训练后，怎样解读光照的长期结果？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Saltmarche 等 · 2025 · 临床**
+
+Effectiveness of Photobiomodulation to Treat Motor and Non-Motor Symptoms of Parkinson’s Disease: A Randomised Clinical Trial with Extended Treatment
+
+*Journal of Clinical Medicine* · [DOI: 10.3390/jcm14217463](https://doi.org/10.3390/jcm14217463) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC12609809/)
+
+阅读范围：正式版 PDF 方法、结果、图 2–4、表 2 及公开补表 S2；实际查看图 3–4、表 2、补充 PDF 第 2 页。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=saltmarche-2025-parkinson-exercise) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>63 名 58–79 岁患者，Hoehn–Yahr 2–3；主动 32、假刺激 31 人；所有人继续运动<br><a href="https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=4" target="_blank" rel="noopener">PDF 第 4–6 页｜三阶段设计与联合照射</a></dd></div>
+<div><dt>研究设计</dt><dd>8 周随机双盲真实/假光照；第二阶段全员主动 8 周；第三阶段自行选择继续或停止；头部与颈腹光照联合<br><a href="https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=4" target="_blank" rel="noopener">PDF 第 4–6 页｜三阶段设计与联合照射</a></dd></div>
+<div><dt>波长</dt><dd>经颅头盔 635/810 nm；904 nm 超脉冲激光用于颈腹部，不是经颅 904 nm<br><a href="https://mdpi-res.com/d_attachment/jcm/jcm-14-07463/article_deploy/jcm-14-07463-s001.zip" target="_blank" rel="noopener">补充 PDF 第 2 页｜表 S2，装置参数（ZIP 内 PDF）</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>头盔 40 Hz；颈腹激光 50 Hz 超脉冲；补表未报告占空比<br><a href="https://mdpi-res.com/d_attachment/jcm/jcm-14-07463/article_deploy/jcm-14-07463-s001.zip" target="_blank" rel="noopener">补充 PDF 第 2 页｜表 S2，装置参数（ZIP 内 PDF）</a></dd></div>
+<div><dt>照射位置</dt><dd>20 个头盔位置；图 3 为腹部九点及后颈 C2 区左右照射，另有运动训练<br><a href="https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=7" target="_blank" rel="noopener">PDF 第 7 页｜图 3，头部和颈腹部照射</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>补表仅给颈腹激光平均总输出 60 mW（2×30 mW）；未给头盔功率或头皮 mW/cm²<br><a href="https://mdpi-res.com/d_attachment/jcm/jcm-14-07463/article_deploy/jcm-14-07463-s001.zip" target="_blank" rel="noopener">补充 PDF 第 2 页｜表 S2，装置参数（ZIP 内 PDF）</a></dd></div>
+<div><dt>光斑</dt><dd>正文及补表未给可复核的头皮/颈腹光斑面积<br><a href="https://mdpi-res.com/d_attachment/jcm/jcm-14-07463/article_deploy/jcm-14-07463-s001.zip" target="_blank" rel="noopener">补充 PDF 第 2 页｜表 S2，装置参数（ZIP 内 PDF）</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>头盔 24 分钟（每波段 12 分钟）；图 3 腹部九点各 2 分钟、颈部左右各 1 分钟；每周 3 次、间隔≥48 小时<br><a href="https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=7" target="_blank" rel="noopener">PDF 第 7 页｜图 3，头部和颈腹部照射</a></dd></div>
+<div><dt>剂量</dt><dd>补表头盔 388 J/次、颈腹 72 J/次。另写“Joules delivered per point”但值为 7.2 J/cm²，单位不一致，待核；未换算或合并为经颅剂量<br><a href="https://mdpi-res.com/d_attachment/jcm/jcm-14-07463/article_deploy/jcm-14-07463-s001.zip" target="_blank" rel="noopener">补充 PDF 第 2 页｜表 S2，装置参数（ZIP 内 PDF）</a></dd></div>
+<div><dt>对照怎么做</dt><dd>第一阶段两组同样运动，装置真实或无光；第二阶段全部主动；第三阶段由患者选择是否继续<br><a href="https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=4" target="_blank" rel="noopener">PDF 第 4–6 页｜三阶段设计与联合照射</a></dd></div>
+<div><dt>观察指标</dt><dd>主要 TUG；另列 MDS-UPDRS、步行、精细运动、认知、焦虑等；多终点未做整体多重校正<br><a href="https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=9" target="_blank" rel="noopener">PDF 第 9–10 页｜表 2，主次终点和组间比较</a></dd></div>
+<div><dt>测量时间</dt><dd>基线、阶段 1/2 结束后 1 与 4 周；主要表格用 1 周；阶段 3 长短不一，17 人继续、26 人停止<br><a href="https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=9" target="_blank" rel="noopener">PDF 第 9–10 页｜表 2，主次终点和组间比较</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 表 2/图 4：第一阶段 TUG 主动 12.3±4.2 秒、假刺激 11.0±4.0 秒，未显示主动优于假刺激；MDS-UPDRS 总分组内下降也未形成随机组间优势。（[PDF 第 9–10 页｜表 2，主次终点和组间比较](https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=9)）
+- 第三阶段 TUG 继续组 9.8±3.8 秒、停止组 12.0±5.6 秒，ANCOVA p=.016；这是自选继续与否的比较，不是随机延长疗程效应。（[PDF 第 11 页｜图 4a，各阶段 TUG 分布](https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=11)）
+- 第三阶段 MDS-UPDRS 总分差异 p=.062；个别疑似相关退出包含自述房颤/头痛、梦境和脱发，保留与获益一起报告。（[PDF 第 9–10 页｜表 2，主次终点和组间比较](https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=9)）
+
+## 对实验设计有什么用
+
+随机阶段检验的是整套头部加颈腹光照在既有运动训练之外的额外作用。第三阶段是否继续由本人选择，要用再次随机的延长试验验证；若要隔离经颅照射贡献，还需分开头部和身体照射。
+
+## 接着读
+
+- [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+- [帕金森病运动改善，怎样分清光照与其他干预？](../../research/questions/parkinson-motor.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

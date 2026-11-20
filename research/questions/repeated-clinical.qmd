@@ -81,6 +81,18 @@ MMSE 组别与时间交互 F(1,40) = 20，p < 0.001。 把总体量表、反应�
 
 [研究参数与结果](../../library/tpbm/chan-2024-tbi-rsfc.qmd) · [图 3、表 2｜早期组间变化差](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig3) · [图 4｜后期连接变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#fig4) · [结果｜症状与统计方法](https://pmc.ncbi.nlm.nih.gov/articles/PMC11140530/#:~:text=Patient%20Characteristics)
 
+### Herkes 等 · 2023：戴头盔照十二周，运动改善有没有超过假刺激？
+
+表 3：第一阶段后假组 20.4±12.8、主动组 16.5±9.4；均值差 3.9，95% CI −3.5 至 11.3。基线均值为 26.8 与 21.3，不能把末次均值差当作基线校正效应。 第二阶段末，原假转主动组剩 12 人，均值 12.2；原主动停照组 20 人，均值 15.3。揭盲与选择退出限制了这一阶段的解释。 有暂时头晕及两例可能与装置相关的腿无力/手部精细动作下降；这些观察来自可行性研究。 优先看随机阶段的组间比较，并用基线校正或纵向模型估计效果。这项远程评分删除了僵硬和姿势稳定性两项，不能和完整 MDS-UPDRS-III 总分直接混用；后续交叉阶段适合作为进一步验证的线索。
+
+[研究参数与结果](../../library/tpbm/herkes-2023-parkinson-helmet.qmd) · [表 3｜各阶段的均值与组间区间](https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#tbl3) · [表 2｜逐人变化与疑似事件](https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#tbl2)
+
+### Saltmarche 等 · 2025：加上运动训练后，怎样解读光照的长期结果？
+
+表 2/图 4：第一阶段 TUG 主动 12.3±4.2 秒、假刺激 11.0±4.0 秒，未显示主动优于假刺激；MDS-UPDRS 总分组内下降也未形成随机组间优势。 第三阶段 TUG 继续组 9.8±3.8 秒、停止组 12.0±5.6 秒，ANCOVA p=.016；这是自选继续与否的比较，不是随机延长疗程效应。 第三阶段 MDS-UPDRS 总分差异 p=.062；个别疑似相关退出包含自述房颤/头痛、梦境和脱发，保留与获益一起报告。 随机阶段检验的是整套头部加颈腹光照在既有运动训练之外的额外作用。第三阶段是否继续由本人选择，要用再次随机的延长试验验证；若要隔离经颅照射贡献，还需分开头部和身体照射。
+
+[研究参数与结果](../../library/tpbm/saltmarche-2025-parkinson-exercise.qmd) · [PDF 第 9–10 页｜表 2，主次终点和组间比较](https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=9) · [PDF 第 11 页｜图 4a，各阶段 TUG 分布](https://gaitwayneurophysio.com/wp-content/uploads/2025/11/jcm-14-07463-v4.pdf#page=11)
+
 ## 做实验时看什么
 
 - 把即时反应、疗程末结果和停用后保持分别设定测量时间。
@@ -103,5 +115,7 @@ MMSE 组别与时间交互 F(1,40) = 20，p < 0.001。 把总体量表、反应�
 - [Naeser 等 · 2011：慢性脑外伤患者的改善，最早是怎样被记录的？](../../library/tpbm/naeser-2011-tbi-cases.qmd)
 - [Chermann 等 · 2026：脑震荡后一周好转，5 Hz 和 10 Hz 的比较能解释多少？](../../library/tpbm/chermann-2026-recovery.qmd)
 - [Chan 等 · 2024：功能连接更强，能直接理解为恢复更好吗？](../../library/tpbm/chan-2024-tbi-rsfc.qmd)
+- [Herkes 等 · 2023：戴头盔照十二周，运动改善有没有超过假刺激？](../../library/tpbm/herkes-2023-parkinson-helmet.qmd)
+- [Saltmarche 等 · 2025：加上运动训练后，怎样解读光照的长期结果？](../../library/tpbm/saltmarche-2025-parkinson-exercise.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

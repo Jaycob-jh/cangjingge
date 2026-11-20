@@ -1,0 +1,27 @@
+---
+title: "只改变运动训练，脑网络也会变化吗？"
+date: 2026-11-20
+categories: [fMRI 脑网络]
+---
+
+Johansson 等 · 2021-12-24 原刊首发；2022 年卷期 · [DOI 10.1002/ana.26291](https://doi.org/10.1002/ana.26291) · [PMID 34951063](https://pubmed.ncbi.nlm.nih.gov/34951063/)
+
+研究对象 · Park-in-Shape 影像子研究：方法列 57 人，46 人进入静息态连接分析（骑车 21、拉伸 25）
+
+阅读范围 · 正式版 PDF 方法和结果，图 2–5、表 1–3；实际查看图 3 与表 2，PDF 第 6–9 页；未读补充文件
+
+[回到本期](../issues/2026-11-20-parkinson-motor-controls.qmd)
+
+## 怎么做
+
+比较六个月居家骑车与拉伸，每周三次、每次 30–45 分钟；骑车目标为心率储备的 50%–80%。停多巴胺药至少 12 小时后做前后评估。静息态 fMRI 分开前、后壳核，计算其与感觉运动网络的连接，并比较两组的变化。
+
+## 结果怎么读
+
+图 3A/表 2：骑车组的“前壳核减去后壳核”连接变化在四个右侧运动/感觉运动簇中更大，体素分析 FWE 校正 p=.023–.042。进一步分开看，显著组间变化主要见后壳核；前壳核单独分析未显著。因此应读作连接平衡改变，不能简化为所有运动连接都增强。
+
+## 对实验设计有什么用
+
+这项研究没有光刺激，说明运动本身足以改变相关网络。光照联合康复试验应匹配训练量，预设脑区及对比方式，并固定药物状态。连接变化可作机制终点，不能单独证明神经元受到保护。
+
+[图 3，连接平衡](https://ris.utwente.nl/ws/portalfiles/portal/457541726/Annals_of_Neurology_-_2021_-_Johansson_-_Aerobic_Exercise_Alters_Brain_Function_and_Structure_in_Parkinson_s_Disease_A.pdf#page=9) · [表 2，具体对比和校正](https://ris.utwente.nl/ws/portalfiles/portal/457541726/Annals_of_Neurology_-_2021_-_Johansson_-_Aerobic_Exercise_Alters_Brain_Function_and_Structure_in_Parkinson_s_Disease_A.pdf#page=8) · [同主题问题](../../research/questions/parkinson-motor.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/johansson-2022-parkinson-exercise-network.qmd)

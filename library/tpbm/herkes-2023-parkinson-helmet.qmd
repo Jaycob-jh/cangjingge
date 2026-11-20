@@ -1,0 +1,51 @@
+---
+title: "戴头盔照十二周，运动改善有没有超过假刺激？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Herkes 等 · 2023 · 临床**
+
+A novel transcranial photobiomodulation device to address motor signs of Parkinson's disease: a parallel randomised feasibility study
+
+*eClinicalMedicine* · [DOI: 10.1016/j.eclinm.2023.102338](https://doi.org/10.1016/j.eclinm.2023.102338) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/)
+
+阅读范围：正式版 PDF 方法、结果与图 1–2、表 1–3；实际查看表 3，PDF 第 3、5、8 页；未读补充文件。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=herkes-2023-parkinson-helmet) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>40 名 59–85 岁帕金森病患者；主动与假刺激各 20 人<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#fig1" target="_blank" rel="noopener">图 1｜装置及 CONSORT</a></dd></div>
+<div><dt>研究设计</dt><dd>第一阶段 12 周随机双盲假刺激；第二阶段揭盲，原假组可改主动，原主动组停照<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment" target="_blank" rel="noopener">方法｜随机、头盔与疗程</a></dd></div>
+<div><dt>波长</dt><dd>20 个 635 nm 红 LED 与 20 个 810 nm 近红外 LED，分布于 20 处<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment" target="_blank" rel="noopener">方法｜随机、头盔与疗程</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>两波段顺序照射；正文未明确脉冲参数，不从其他研究同品牌设备补入<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment" target="_blank" rel="noopener">方法｜随机、头盔与疗程</a></dd></div>
+<div><dt>照射位置</dt><dd>全头盔，含后下方位置；本研究未使用腹部光照<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#fig1" target="_blank" rel="noopener">图 1｜装置及 CONSORT</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>平均光功率：每个 810 nm LED 52 mW，每个 635 nm LED 27 mW；未报告头皮 mW/cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment" target="_blank" rel="noopener">方法｜随机、头盔与疗程</a></dd></div>
+<div><dt>光斑</dt><dd>正文未报告各 LED 的头皮光斑面积<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment" target="_blank" rel="noopener">方法｜随机、头盔与疗程</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>先红光 12 分钟，再近红外 12 分钟；每周 6 天、12 周，共 72 次；第二阶段另 12 周<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment" target="_blank" rel="noopener">方法｜随机、头盔与疗程</a></dd></div>
+<div><dt>剂量</dt><dd>正文每次总光能：近红外 748.8 J、红光 388.8 J；不是 J/cm² 或脑内剂量<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment" target="_blank" rel="noopener">方法｜随机、头盔与疗程</a></dd></div>
+<div><dt>对照怎么做</dt><dd>外观操作一致但不开光；要求药物、运动及饮食不变；后期停照与主动非对称延长<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment" target="_blank" rel="noopener">方法｜随机、头盔与疗程</a></dd></div>
+<div><dt>观察指标</dt><dd>远程改良 MDS-UPDRS-III，删除僵硬及姿势稳定性两项；疑似事件<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#tbl3" target="_blank" rel="noopener">表 3｜各阶段的均值与组间区间</a></dd></div>
+<div><dt>测量时间</dt><dd>基线、12 周及后续 12 周；部分因维修等中断而延后以完成 72 次<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment" target="_blank" rel="noopener">方法｜随机、头盔与疗程</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 表 3：第一阶段后假组 20.4±12.8、主动组 16.5±9.4；均值差 3.9，95% CI −3.5 至 11.3。基线均值为 26.8 与 21.3，不能把末次均值差当作基线校正效应。（[表 3｜各阶段的均值与组间区间](https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#tbl3)）
+- 第二阶段末，原假转主动组剩 12 人，均值 12.2；原主动停照组 20 人，均值 15.3。揭盲与选择退出限制了这一阶段的解释。（[表 3｜各阶段的均值与组间区间](https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#tbl3)）
+- 有暂时头晕及两例可能与装置相关的腿无力/手部精细动作下降；这些观察来自可行性研究。（[表 2｜逐人变化与疑似事件](https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#tbl2)）
+
+## 对实验设计有什么用
+
+优先看随机阶段的组间比较，并用基线校正或纵向模型估计效果。这项远程评分删除了僵硬和姿势稳定性两项，不能和完整 MDS-UPDRS-III 总分直接混用；后续交叉阶段适合作为进一步验证的线索。
+
+## 接着读
+
+- [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+- [帕金森病运动改善，怎样分清光照与其他干预？](../../research/questions/parkinson-motor.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)
