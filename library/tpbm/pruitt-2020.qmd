@@ -44,5 +44,6 @@ Transcranial Photobiomodulation (tPBM) With 1,064‐nm Laser to Improve Cerebral
 ## 接着读
 
 - [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+- [早期脑反应，能预测十二周后的认知获益吗？](../../research/questions/early-response.qmd)
 
 [修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

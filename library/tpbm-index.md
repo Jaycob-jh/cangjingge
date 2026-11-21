@@ -11,6 +11,7 @@
 - [Yang 等 · 2026：同一束光，从小鼠换到人头模会怎样？](../library/tpbm/yang-2026-mouse-human-fluence.qmd)
 - [Mazaheri 等 · 2026：炎症基因下降时，焦虑样行为也会同步改善吗？](../library/tpbm/mazaheri-2026-stress-melatonin.qmd)
 - [Chermann 等 · 2026：脑震荡后一周好转，5 Hz 和 10 Hz 的比较能解释多少？](../library/tpbm/chermann-2026-recovery.qmd)
+- [Chun 等 · 2026：前三周的血氧网络，能预测十二周后的认知变化吗？](../library/tpbm/chun-2026-early-response.qmd)
 - [Bibb · 2025：主动光、磁刺激与各自假刺激下的运动区 fMRI](../library/tpbm/bibb-2025.qmd)
 - [Coelho · 2025：代谢物升高，有特定剂量效应吗？](../library/tpbm/coelho-2025.qmd)
 - [Mehdizadeh · 2025：慢性失眠患者照光后，清醒 δ 功率如何变化？](../library/tpbm/mehdizadeh-2025.qmd)

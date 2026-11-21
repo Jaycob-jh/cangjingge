@@ -1,0 +1,27 @@
+---
+title: "脑连接与分数相关，怎样检验它能否预测新受试者？"
+date: 2026-11-21
+categories: [fMRI 脑网络]
+---
+
+Shen 等 · 2017-02-09 在线；2017 年 3 月卷期 · [DOI 10.1038/nprot.2016.178](https://doi.org/10.1038/nprot.2016.178) · [PMID 28182017](https://pubmed.ncbi.nlm.nih.gov/28182017/)
+
+研究对象 · fMRI 脑连接预测方法论文；输入为各受试者的连接矩阵和连续行为分数，不是光刺激试验
+
+阅读范围 · 正式版 PDF 方法流程、步骤 1–10 与预期结果；实际查看图 1、3 和步骤 2–4；未读补充文件
+
+[回到本期](../issues/2026-11-21-early-response-prediction.qmd)
+
+## 怎么做
+
+连接组预测建模 CPM 先划分训练和测试受试者，只在训练集内筛选与行为相关的连接，把连接强度汇总后拟合模型，再预测从未参与筛选和拟合的受试者。置换行为标签并重跑预测流程，用于估计偶然预测能达到什么水平。
+
+## 结果怎么读
+
+图 1 最右端的新受试者是核心检验对象，不能用训练样本相关性代替；图 3 将连接与行为的关联计算放在留一循环内。步骤 2 要求标准化参数从训练集估计，调参采用内外两层交叉验证；步骤 4 的连接阈值也只能在训练集探索。这些是方法示意与代码，不是一项新 tPBM 试验的准确率结果。
+
+## 对实验设计有什么用
+
+可借鉴到光刺激 fMRI 或 fNIRS 的“连续认知变化”预测；若将结局改为响应/非响应，要另设适合分类的模型和评价指标，不能直接照搬连续 CPM。每个人的多次记录必须留在同一数据折中，控制头动等混杂，最终在独立队列验证。
+
+[图 1，训练到新受试者预测](https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/a/2003/files/2019/07/ShenNProt2017.pdf#page=2) · [步骤 2，独立划分与调参](https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/a/2003/files/2019/07/ShenNProt2017.pdf#page=6) · [图 3 / 步骤 4，折内筛选](https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/a/2003/files/2019/07/ShenNProt2017.pdf#page=7) · [同主题问题](../../research/questions/early-response.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/shen-2017-connectome-prediction-validation.qmd)

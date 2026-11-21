@@ -419,7 +419,8 @@
       "journal": "Lasers in Surgery and Medicine",
       "kind": "健康人",
       "questions": [
-        "brain-signals"
+        "brain-signals",
+        "early-response"
       ],
       "measures": [
         "bbNIRS"
@@ -5650,6 +5651,120 @@
         }
       ],
       "interpretation": "随机阶段检验的是整套头部加颈腹光照在既有运动训练之外的额外作用。第三阶段是否继续由本人选择，要用再次随机的延长试验验证；若要隔离经颅照射贡献，还需分开头部和身体照射。"
+    },
+    {
+      "id": "chun-2026-early-response",
+      "short": "Chun 等 · 2026",
+      "year": 2026,
+      "title": "Prediction of treatment responsiveness to home-based transcranial photobiomodulation (tPBM) intervention for cognitive decline using fNIRS concurrently recorded during tPBM",
+      "title_zh": "前三周的血氧网络，能预测十二周后的认知变化吗？",
+      "doi": "10.3389/fnagi.2026.1716502",
+      "fulltext": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/full",
+      "journal": "Frontiers in Aging Neuroscience",
+      "kind": "临床",
+      "questions": [
+        "early-response",
+        "brain-signals",
+        "cognition"
+      ],
+      "measures": [
+        "fNIRS",
+        "认知",
+        "预测模型"
+      ],
+      "wavelengths": [
+        "810",
+        "850"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "正式版 PDF 方法与结果、图 1–6、表 1–3；实际查看图 4–6、表 3；未读补充材料",
+      "sources": {
+        "m": {
+          "label": "PDF 第 3–4 页｜对象、装置、疗程和流程",
+          "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=3"
+        },
+        "v": {
+          "label": "PDF 第 5–6 页｜早期记录选择及交叉验证",
+          "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=5"
+        },
+        "r": {
+          "label": "PDF 第 7–9 页｜表 1–2、图 4 和多重校正",
+          "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=7"
+        },
+        "dose": {
+          "label": "PDF 第 8 页｜作者解释的 810 nm 面剂量",
+          "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=8"
+        },
+        "cv": {
+          "label": "PDF 第 10 页｜图 5–6、表 3",
+          "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=10"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "认知评分分析含干预 43 人、无干预对照 19 人；预测分析保留 29 人（响应 14、非响应 15）；最初入组 81 人，分配干预 60、对照 21，认知与信号质量剔除后如上",
+          "source": "m"
+        },
+        "design": {
+          "value": "同一队列的治疗早期预测分析；无干预对照用于认知比较，29 名主动干预者进入预测；本篇未说明随机分配",
+          "source": "m"
+        },
+        "wavelength": {
+          "value": "810 与 850 nm；同一装置用于照射及 fNIRS 采集",
+          "source": "m"
+        },
+        "mode": {
+          "value": "32–64 Hz 范围内随机频率方波；占空比 50%",
+          "source": "m"
+        },
+        "target": {
+          "value": "前额部，五个光源、七个探测器、十五个 fNIRS 通道；源探测距离 3 cm",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "原文报告光源功率密度 80 mW/cm²；未分别给出两个波长的头皮测量值",
+          "source": "m"
+        },
+        "spot": {
+          "value": "正文未报告照射光斑面积；3 cm 为源探测距离，不能当作光斑",
+          "source": "m"
+        },
+        "duration": {
+          "value": "15 分钟/次，12 周；自行安排频次；43 人均至少 20 次，报告平均 58.19±18.88 次",
+          "source": "m"
+        },
+        "dose": {
+          "value": "讨论按 810 nm、80 mW/cm²、50% 占空比、15 分钟说明目标 36 J/cm²；不是脑内实测剂量，也不作为双波段总剂量",
+          "source": "dose"
+        },
+        "control": {
+          "value": "19 名无干预对照；不是假光照。响应/非响应为主动组按十二周认知变化事后划分",
+          "source": "m"
+        },
+        "readout": {
+          "value": "九项认知测评合成 GCS；血氧 HbO/HbR/HbT 相关网络的聚类系数、度和全局效率；识别非响应者",
+          "source": "r"
+        },
+        "timing": {
+          "value": "认知在基线及十二周；最初二十次中十五次有效记录分五期，覆盖平均 21.29±7.86 天；不是固定每周照射次数",
+          "source": "v"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "表 2 / 图 4：第四期 HbO、HbR 聚类系数变化与十二周 ΔGCS 负相关；正文 max-t 多重校正后两项仍 p<.05，其他列出的候选未通过这一校正。不能读成连接越强越好。"
+        },
+        {
+          "source": "cv",
+          "text": "图 5：全样本 AUC 0.810，留一受试者交叉验证 AUC 0.767；正文交叉验证准确率 75.86%、非响应者敏感度 73.33%、特异度 78.57%。这是队列内部验证，尚无独立外部测试。"
+        },
+        {
+          "source": "cv",
+          "text": "图 6：第四、第五期 HbO 聚类系数在 29 折中分别入选 28 和 29 次；这是特征入选频次，不是逐人预测正确数。"
+        }
+      ],
+      "interpretation": "这里已有交叉验证，不应只读摘要或全样本拟合值。下一步应独立验证，并与基线认知和临床变量比较。43 人中有 14 人因 fNIRS 质量被剔除，需要记录这种缺失是否偏向特定人群。对照未接受干预，这套预测仍不能单独识别“光照相对假刺激的特异获益”。 与 Lee 2024 来自同一 43 人干预、19 人对照的认知分析队列，不能作为独立复现相加。"
     }
   ]
 }

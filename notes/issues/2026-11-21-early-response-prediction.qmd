@@ -1,0 +1,50 @@
+---
+title: "早期脑反应，能预测十二周后的认知获益吗？"
+date: 2026-11-21
+description: "从生理变化到个体预测：早期指标怎样接受检验。"
+categories: [脑活动与脑网络]
+---
+
+[全部荐读](../questions.qmd)
+
+如果照光后几周就能看出谁更可能获益，就能更早检验疗程是否合适。但先要分清：测到了光照反应、找到了与认知变化相关的指标，还是已经能预测新受试者。这期从血氧与氧化代谢的对照实验出发，接着看治疗前和治疗早期的预测研究，最后用 fMRI 连接预测的方法说明怎样验证。
+
+本期近期进展选用 2026 年 2 月 12 日发表的原始研究。过去三十天内，未找到尚未讲过且直接回答本期问题的合格经颅光刺激原始研究，因此没有把综述、细胞照光或已讲论文当作新文。2024 年与 2026 年两篇来自同一认知衰退队列，分析时间点不同，不是两次独立重复。
+
+## 早期生理证据｜测到血氧和氧化代谢上升，就能预测认知改善吗？
+
+[Pruitt 等的札记](../posts/pruitt-2020-aging-physiology.qmd) · 本次 20 名健康人：年轻 15 人、老年 5 人；另比较既往 11 名年轻人的独立样本
+
+图 3b 中，老年组的 oxi-CCO 变化在真实和假照射下都较低。图 4 逐人扣除假照射后，年轻与老年组的 HbO、oxi-CCO 净变化未检出组间差异；图上可见反应延续到恢复阶段。它支持“应以匹配假照射估计生理反应”，并没有测十二周认知结局，也没有建立个体获益预测模型。老年组只有五人，未显著不能当作年龄等效。
+
+[图 3，真实与假照射的年龄组比较](https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-fig-0003) · [图 4，扣除假照射后的净变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-fig-0004)
+
+## 代表性预测研究｜照光前做一次记忆任务，能筛出之后的获益者吗？
+
+[Lee 等的札记](../posts/lee-2024-baseline-fnirs-prediction.qmd) · 62 名认知衰退老年人：干预 43 人、对照 19 人
+
+摘要报告，再认记忆任务的数据表现最好：准确率 85.37%，F1 为 0.8421，敏感度 76.19%、特异度 95%。这些数值描述该研究所用分类流程的表现；摘要没有展开最终建模样本剔除、特征筛选、调参和独立验证的细节，不能据此判断模型已能推广。
+
+[正式论文摘要](https://pubmed.ncbi.nlm.nih.gov/39331542/) · [原刊条目](https://ieeexplore.ieee.org/document/10697190/)
+
+## 近期进展｜2026 年原始研究｜前三周的血氧网络，能预测十二周后的认知变化吗？
+
+[Chun 等的札记](../posts/chun-2026-early-fnirs-prediction.qmd) · 认知评分分析含干预 43 人、无干预对照 19 人；预测分析保留 29 人（响应 14、非响应 15）
+
+图 4 比较早期网络变化与十二周认知变化；多重校正后，第四期 HbO/HbR 聚类系数的负相关仍显著，其他候选只保留趋势。图 5a 的全样本 AUC 为 0.810，图 5b 留一受试者交叉验证后为 0.767；正文报告交叉验证准确率 75.86%、识别非响应者敏感度 73.33%、特异度 78.57%。图 6 的“29”表示该特征在 29 个交叉验证折中被选中 29 次，不是 29 人都被预测正确。
+
+[图 4，早期指标与认知结局](https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=9) · [图 5–6、表 3，验证与特征稳定性](https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=10) · [方法 2.6，折内优化](https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=5)
+
+## 相关 fMRI 方法｜脑连接与分数相关，怎样检验它能否预测新受试者？
+
+[Shen 等的札记](../posts/shen-2017-connectome-prediction-validation.qmd) · fMRI 脑连接预测方法论文；输入为各受试者的连接矩阵和连续行为分数，不是光刺激试验
+
+图 1 最右端的新受试者是核心检验对象，不能用训练样本相关性代替；图 3 将连接与行为的关联计算放在留一循环内。步骤 2 要求标准化参数从训练集估计，调参采用内外两层交叉验证；步骤 4 的连接阈值也只能在训练集探索。这些是方法示意与代码，不是一项新 tPBM 试验的准确率结果。
+
+[图 1，训练到新受试者预测](https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/a/2003/files/2019/07/ShenNProt2017.pdf#page=2) · [步骤 2，独立划分与调参](https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/a/2003/files/2019/07/ShenNProt2017.pdf#page=6) · [图 3 / 步骤 4，折内筛选](https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/a/2003/files/2019/07/ShenNProt2017.pdf#page=7)
+
+## 怎么用到实验里
+
+可把试验拆成两个预先写好的问题：第一，早期指标能否预测十二周认知变化；第二，它能否预测主动照光相对假刺激的额外获益。先固定认知终点、早期采集日程和光照剂量，记录每次依从性、头动与信号质量；用基线认知、年龄等简单变量做比较模型。特征筛选、标准化和阈值选择都放在训练折内，按受试者划分数据，最终用独立队列检验。若要回答第二个问题，应在随机真实/假照射试验中检验指标与分组的交互；只在主动组预测前后分数变化还不够。早期血氧网络与认知相关，也不能单凭相关方向就决定增强或降低某条连接。
+
+[早期反应问题页](../../research/questions/early-response.qmd) · [研究对比台](../../research/tpbm-compare.html?question=early-response) · [编辑本期](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/issues/2026-11-21-early-response-prediction.qmd)

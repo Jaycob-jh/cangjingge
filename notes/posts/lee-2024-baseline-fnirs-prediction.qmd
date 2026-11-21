@@ -1,0 +1,27 @@
+---
+title: "照光前做一次记忆任务，能筛出之后的获益者吗？"
+date: 2026-11-21
+categories: [经颅光刺激]
+---
+
+Lee 等 · 2024 年；PubMed 记载电子出版日期为 10 月 8 日 · [DOI 10.1109/TNSRE.2024.3469284](https://doi.org/10.1109/TNSRE.2024.3469284) · [PMID 39331542](https://pubmed.ncbi.nlm.nih.gov/39331542/)
+
+研究对象 · 62 名认知衰退老年人：干预 43 人、对照 19 人
+
+阅读范围 · 正式论文的 PubMed / Europe PMC 公开摘要；未取得可核对的全文图表
+
+[回到本期](../issues/2026-11-21-early-response-prediction.qmd)
+
+## 怎么做
+
+干预组接受十二周经颅光刺激，以前后全局认知分数 GCS 的变化定义响应者和非响应者。治疗前采集静息态、再认记忆、Stroop 和言语流畅性任务的 fNIRS，使用正则化支持向量机分类。fNIRS 用来测量血氧反应，不是另一种刺激。
+
+## 结果怎么读
+
+摘要报告，再认记忆任务的数据表现最好：准确率 85.37%，F1 为 0.8421，敏感度 76.19%、特异度 95%。这些数值描述该研究所用分类流程的表现；摘要没有展开最终建模样本剔除、特征筛选、调参和独立验证的细节，不能据此判断模型已能推广。
+
+## 对实验设计有什么用
+
+如果要在治疗前预测，可同时收静息和简短任务数据，比较它们在相同验证流程下的增益。这篇与 2026 年 Chun 研究使用同一队列，不能当作独立复现。取得全文后再补照射参数、图表和验证细节，当前不进入参数对比台。
+
+[正式论文摘要](https://pubmed.ncbi.nlm.nih.gov/39331542/) · [原刊条目](https://ieeexplore.ieee.org/document/10697190/) · [同主题问题](../../research/questions/early-response.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/lee-2024-baseline-fnirs-prediction.qmd)

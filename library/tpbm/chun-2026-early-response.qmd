@@ -1,0 +1,52 @@
+---
+title: "前三周的血氧网络，能预测十二周后的认知变化吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Chun 等 · 2026 · 临床**
+
+Prediction of treatment responsiveness to home-based transcranial photobiomodulation (tPBM) intervention for cognitive decline using fNIRS concurrently recorded during tPBM
+
+*Frontiers in Aging Neuroscience* · [DOI: 10.3389/fnagi.2026.1716502](https://doi.org/10.3389/fnagi.2026.1716502) · [阅读全文](https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/full)
+
+阅读范围：正式版 PDF 方法与结果、图 1–6、表 1–3；实际查看图 4–6、表 3；未读补充材料。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=chun-2026-early-response) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>认知评分分析含干预 43 人、无干预对照 19 人；预测分析保留 29 人（响应 14、非响应 15）；最初入组 81 人，分配干预 60、对照 21，认知与信号质量剔除后如上<br><a href="https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=3" target="_blank" rel="noopener">PDF 第 3–4 页｜对象、装置、疗程和流程</a></dd></div>
+<div><dt>研究设计</dt><dd>同一队列的治疗早期预测分析；无干预对照用于认知比较，29 名主动干预者进入预测；本篇未说明随机分配<br><a href="https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=3" target="_blank" rel="noopener">PDF 第 3–4 页｜对象、装置、疗程和流程</a></dd></div>
+<div><dt>波长</dt><dd>810 与 850 nm；同一装置用于照射及 fNIRS 采集<br><a href="https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=3" target="_blank" rel="noopener">PDF 第 3–4 页｜对象、装置、疗程和流程</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>32–64 Hz 范围内随机频率方波；占空比 50%<br><a href="https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=3" target="_blank" rel="noopener">PDF 第 3–4 页｜对象、装置、疗程和流程</a></dd></div>
+<div><dt>照射位置</dt><dd>前额部，五个光源、七个探测器、十五个 fNIRS 通道；源探测距离 3 cm<br><a href="https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=3" target="_blank" rel="noopener">PDF 第 3–4 页｜对象、装置、疗程和流程</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>原文报告光源功率密度 80 mW/cm²；未分别给出两个波长的头皮测量值<br><a href="https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=3" target="_blank" rel="noopener">PDF 第 3–4 页｜对象、装置、疗程和流程</a></dd></div>
+<div><dt>光斑</dt><dd>正文未报告照射光斑面积；3 cm 为源探测距离，不能当作光斑<br><a href="https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=3" target="_blank" rel="noopener">PDF 第 3–4 页｜对象、装置、疗程和流程</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>15 分钟/次，12 周；自行安排频次；43 人均至少 20 次，报告平均 58.19±18.88 次<br><a href="https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=3" target="_blank" rel="noopener">PDF 第 3–4 页｜对象、装置、疗程和流程</a></dd></div>
+<div><dt>剂量</dt><dd>讨论按 810 nm、80 mW/cm²、50% 占空比、15 分钟说明目标 36 J/cm²；不是脑内实测剂量，也不作为双波段总剂量<br><a href="https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=8" target="_blank" rel="noopener">PDF 第 8 页｜作者解释的 810 nm 面剂量</a></dd></div>
+<div><dt>对照怎么做</dt><dd>19 名无干预对照；不是假光照。响应/非响应为主动组按十二周认知变化事后划分<br><a href="https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=3" target="_blank" rel="noopener">PDF 第 3–4 页｜对象、装置、疗程和流程</a></dd></div>
+<div><dt>观察指标</dt><dd>九项认知测评合成 GCS；血氧 HbO/HbR/HbT 相关网络的聚类系数、度和全局效率；识别非响应者<br><a href="https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=7" target="_blank" rel="noopener">PDF 第 7–9 页｜表 1–2、图 4 和多重校正</a></dd></div>
+<div><dt>测量时间</dt><dd>认知在基线及十二周；最初二十次中十五次有效记录分五期，覆盖平均 21.29±7.86 天；不是固定每周照射次数<br><a href="https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=5" target="_blank" rel="noopener">PDF 第 5–6 页｜早期记录选择及交叉验证</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 表 2 / 图 4：第四期 HbO、HbR 聚类系数变化与十二周 ΔGCS 负相关；正文 max-t 多重校正后两项仍 p<.05，其他列出的候选未通过这一校正。不能读成连接越强越好。（[PDF 第 7–9 页｜表 1–2、图 4 和多重校正](https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=7)）
+- 图 5：全样本 AUC 0.810，留一受试者交叉验证 AUC 0.767；正文交叉验证准确率 75.86%、非响应者敏感度 73.33%、特异度 78.57%。这是队列内部验证，尚无独立外部测试。（[PDF 第 10 页｜图 5–6、表 3](https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=10)）
+- 图 6：第四、第五期 HbO 聚类系数在 29 折中分别入选 28 和 29 次；这是特征入选频次，不是逐人预测正确数。（[PDF 第 10 页｜图 5–6、表 3](https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2026.1716502/pdf#page=10)）
+
+## 对实验设计有什么用
+
+这里已有交叉验证，不应只读摘要或全样本拟合值。下一步应独立验证，并与基线认知和临床变量比较。43 人中有 14 人因 fNIRS 质量被剔除，需要记录这种缺失是否偏向特定人群。对照未接受干预，这套预测仍不能单独识别“光照相对假刺激的特异获益”。 与 Lee 2024 来自同一 43 人干预、19 人对照的认知分析队列，不能作为独立复现相加。
+
+## 接着读
+
+- [脑电、血氧和功能连接为什么会给出不同结果？](../../research/questions/brain-signals.qmd)
+- [注意与记忆改善，应该看哪些指标？](../../research/questions/cognition.qmd)
+- [早期脑反应，能预测十二周后的认知获益吗？](../../research/questions/early-response.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

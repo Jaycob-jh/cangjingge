@@ -1,0 +1,27 @@
+---
+title: "测到血氧和氧化代谢上升，就能预测认知改善吗？"
+date: 2026-11-21
+categories: [经颅光刺激]
+---
+
+Pruitt 等 · 2020 年；PMC 所载 3 月在线、11 月卷期 · [DOI 10.1002/lsm.23232](https://doi.org/10.1002/lsm.23232) · [PMID 32173886](https://pubmed.ncbi.nlm.nih.gov/32173886/)
+
+研究对象 · 本次 20 名健康人：年轻 15 人、老年 5 人；另比较既往 11 名年轻人的独立样本
+
+阅读范围 · PMC 正文方法、结果与图 1–4；实际查看图 3、4；未读补充材料
+
+[回到本期](../issues/2026-11-21-early-response-prediction.qmd)
+
+## 怎么做
+
+受试者在两个非连续日随机顺序接受真实和假照射。1064 nm 连续激光照右额，3.4 W、13.6 cm²、250 mW/cm²；两分钟基线、八分钟照射阶段、五分钟恢复，每分钟末暂停五秒采集宽带近红外光谱。假照射用 0.1 W 档并加厚黑帽遮住出光。测氧合血红蛋白 HbO 与氧化态细胞色素 c 氧化酶 oxi-CCO 的浓度变化。
+
+## 结果怎么读
+
+图 3b 中，老年组的 oxi-CCO 变化在真实和假照射下都较低。图 4 逐人扣除假照射后，年轻与老年组的 HbO、oxi-CCO 净变化未检出组间差异；图上可见反应延续到恢复阶段。它支持“应以匹配假照射估计生理反应”，并没有测十二周认知结局，也没有建立个体获益预测模型。老年组只有五人，未显著不能当作年龄等效。
+
+## 对实验设计有什么用
+
+把生理反应当作候选指标，再检验它是否预测后续认知变化。HbO 是血氧读数，oxi-CCO 是光谱估计的氧化态变化，都不是直接测得的 ATP；还要考虑头皮信号混入。先扣除匹配对照，再讨论年龄或个体差异。
+
+[图 3，真实与假照射的年龄组比较](https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-fig-0003) · [图 4，扣除假照射后的净变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC7492377/#lsm23232-fig-0004) · [研究对比卡](../../library/tpbm/pruitt-2020.qmd) · [同主题问题](../../research/questions/early-response.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/pruitt-2020-aging-physiology.qmd)
