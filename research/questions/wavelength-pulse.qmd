@@ -57,6 +57,12 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/arias-2026-theta-gamma-rats.qmd) · [方法｜光源、面积、占空比与疗程](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Sec4) · [图 2｜CCO 与 c-Fos](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Fig2)
 
+### He · 2026：平均剂量匹配后，10 Hz 与连续光仍有 EEG 差异
+
+图 1 中两种有效光的平均辐照度相同，脉冲峰值加倍。表 I 中微状态 C 持续时间的相对变化，脉冲组为 0.254，连续光为 −0.002、假刺激为 0.007，脉冲与两组比较的校正 p 均为 0.014。研究没有比较其他脉冲频率，也没有注意行为任务。
+
+[研究参数与结果](../../library/tpbm/he-2026-pulse-eeg-microstates.qmd) · [图 1｜预印本 PDF 第 5 页，波形与平均剂量](https://arxiv.org/pdf/2510.21265#page=5) · [图 4 / 表 I｜预印本 PDF 第 10–11 页，微状态持续时间](https://arxiv.org/pdf/2510.21265#page=11)
+
 ## 做实验时看什么
 
 - 波长、波形、峰值功率、平均功率、占空比和总能量分别记录；只写“40 Hz”不够。
@@ -74,5 +80,6 @@ toc: true
 - [Ando · 2011：同样的平均剂量，连续光和脉冲光的恢复曲线一样吗？](../../library/tpbm/ando-2011-pulse-tbi.qmd)
 - [Motsenyat · 2025：人体 fMRI 中，40 Hz 会带来更大的脑脊液信号吗？](../../library/tpbm/motsenyat-2025-pulse-csf.qmd)
 - [Arias · 2026：5 Hz 和 40 Hz 会在同一脑区留下相同的细胞反应吗？](../../library/tpbm/arias-2026-theta-gamma-rats.qmd)
+- [He · 2026：平均剂量相同时，10 Hz 脉冲与连续光的脑电反应一样吗？](../../library/tpbm/he-2026-pulse-eeg-microstates.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

@@ -73,4 +73,6 @@ toc: true
 - [相同头皮剂量，进入脑内的光一样多吗？](questions/penetration.qmd)
 - [研究发展史](history-tpbm-dose.qmd)
 
+{{< include _topic-literature/wavelength-penetration.md >}}
+
 [修改本专题](https://github.com/Jaycob-jh/cangjingge/edit/main/research/topic-wavelength-penetration.qmd)

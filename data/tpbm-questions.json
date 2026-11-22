@@ -13,7 +13,8 @@
       "enam-2026",
       "ando-2011-pulse-tbi",
       "motsenyat-2025-pulse-csf",
-      "arias-2026-theta-gamma-rats"
+      "arias-2026-theta-gamma-rats",
+      "he-2026-pulse-eeg-microstates"
     ],
     "evidence": [
       {
@@ -85,6 +86,15 @@
         "text": "图 2A：成年大鼠前边缘皮层 CCO 活性在 40 Hz 组低于 5 Hz（p = 0.0111）。图 2E：CA3 锥体层 c-Fos 阳性核数在 5 Hz 组低于 40 Hz（p = 0.0067）。 把行为、细胞标记和脑电频率锁定列为不同终点。若要判断年龄是否改变频率效应，两个年龄层都应接受相同的频率条件与比较时程。",
         "sources": [
           "m",
+          "r"
+        ]
+      },
+      {
+        "study": "he-2026-pulse-eeg-microstates",
+        "heading": "平均剂量匹配后，10 Hz 与连续光仍有 EEG 差异",
+        "text": "图 1 中两种有效光的平均辐照度相同，脉冲峰值加倍。表 I 中微状态 C 持续时间的相对变化，脉冲组为 0.254，连续光为 −0.002、假刺激为 0.007，脉冲与两组比较的校正 p 均为 0.014。研究没有比较其他脉冲频率，也没有注意行为任务。",
+        "sources": [
+          "p",
           "r"
         ]
       }

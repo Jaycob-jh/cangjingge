@@ -1,0 +1,49 @@
+---
+title: "平均剂量相同时，10 Hz 脉冲与连续光的脑电反应一样吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**He · 2026 · 人体研究**
+
+EEG dynamic microstate patterns induced by pulsed wave transcranial photobiomodulation therapy
+
+*Advanced Photonics Nexus* · [DOI: 10.1117/1.apn.5.2.026010](https://doi.org/10.1117/1.apn.5.2.026010) · [阅读全文](https://arxiv.org/pdf/2510.21265)
+
+阅读范围：公开预印本全文（2025-10-24，25 页）；核对期刊正式版公开正文的参数、表 1 与表 3。未读补充材料。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=he-2026-pulse-eeg-microstates) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>招募 33 名健康右利手成年人，29 名进入 EEG 分析；招募样本年龄 19.52±1.35 岁<br><a href="https://arxiv.org/pdf/2510.21265#page=4" target="_blank" rel="noopener">方法｜预印本 PDF 第 3–5 页，样本与流程</a></dd></div>
+<div><dt>研究设计</dt><dd>单盲随机交叉；每人接受假刺激、连续光和 10 Hz 脉冲光，条件间隔至少 7 天<br><a href="https://arxiv.org/pdf/2510.21265#page=4" target="_blank" rel="noopener">方法｜预印本 PDF 第 3–5 页，样本与流程</a></dd></div>
+<div><dt>波长</dt><dd>980 nm<br><a href="https://arxiv.org/pdf/2510.21265#page=5" target="_blank" rel="noopener">图 1｜预印本 PDF 第 5 页，波形与平均剂量</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续光；10 Hz 方波，50% 占空比，50 ms 开 / 50 ms 关<br><a href="https://arxiv.org/pdf/2510.21265#page=5" target="_blank" rel="noopener">图 1｜预印本 PDF 第 5 页，波形与平均剂量</a></dd></div>
+<div><dt>照射位置</dt><dd>右额 Fp2（EEG 10/20 系统）<br><a href="https://arxiv.org/pdf/2510.21265#page=5" target="_blank" rel="noopener">图 1｜预印本 PDF 第 5 页，波形与平均剂量</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>连续光 238.85 mW/cm²；脉冲峰值约 477.71 mW/cm²，平均 238.85 mW/cm²<br><a href="https://arxiv.org/pdf/2510.21265#page=5" target="_blank" rel="noopener">图 1｜预印本 PDF 第 5 页，波形与平均剂量</a></dd></div>
+<div><dt>光斑</dt><dd>12.57 cm²（图示直径 4 cm）<br><a href="https://arxiv.org/pdf/2510.21265#page=5" target="_blank" rel="noopener">图 1｜预印本 PDF 第 5 页，波形与平均剂量</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>每个条件照射 8 分钟；3 次交叉实验，不是长期疗程<br><a href="https://arxiv.org/pdf/2510.21265#page=5" target="_blank" rel="noopener">图 1｜预印本 PDF 第 5 页，波形与平均剂量</a></dd></div>
+<div><dt>剂量</dt><dd>原文总能量约 1440 J；两种有效光条件平均输出匹配，脉冲峰值约为连续光的 2 倍<br><a href="https://arxiv.org/pdf/2510.21265#page=4" target="_blank" rel="noopener">方法｜预印本 PDF 第 3–5 页，样本与流程</a></dd></div>
+<div><dt>对照怎么做</dt><dd>假刺激图示输出 0 mW/cm²；受试者戴护目镜、闭眼；未报告热匹配对照<br><a href="https://arxiv.org/pdf/2510.21265#page=5" target="_blank" rel="noopener">图 1｜预印本 PDF 第 5 页，波形与平均剂量</a></dd></div>
+<div><dt>观察指标</dt><dd>闭眼静息 EEG 微状态、wPLI 连接和图指标；机器学习区分刺激条件，未测注意行为任务<br><a href="https://arxiv.org/pdf/2510.21265#page=4" target="_blank" rel="noopener">方法｜预印本 PDF 第 3–5 页，样本与流程</a></dd></div>
+<div><dt>测量时间</dt><dd>照前 5 分钟、照射 8 分钟、照后 5 分钟；照后检查 EEG 质量耗时 260.16±76.84 秒<br><a href="https://arxiv.org/pdf/2510.21265#page=4" target="_blank" rel="noopener">方法｜预印本 PDF 第 3–5 页，样本与流程</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 表 I：微状态 C 平均持续时间的相对变化（照后减照前，再除照前），假刺激 0.007±0.099，连续光 −0.002±0.113，10 Hz 脉冲 0.254±0.400。脉冲与假刺激、连续光比较的 FDR 校正 p 均为 0.014；这些值不是毫秒。（[图 4 / 表 I｜预印本 PDF 第 10–11 页，微状态持续时间](https://arxiv.org/pdf/2510.21265#page=11)）
+- 图 7、表 III：RBF SVM 区分假刺激、连续光和脉冲光三个条件，AUC 0.956、准确率 85.595%。这是刺激条件分类表现，未测量注意任务改善。（[图 7 / 表 III｜预印本 PDF 第 16–17 页，三分类表现](https://arxiv.org/pdf/2510.21265#page=16)）
+
+## 对实验设计有什么用
+
+在同波长、同平均辐照度和同总时长下比较连续光与脉冲光，同时记录脉冲峰值。把脑电持续时间、行为表现和刺激条件分类列为不同终点。复现时固定照后开始记录的等待时间；交叉设计的统计与机器学习验证应处理同一人的重复测量。
+
+## 接着读
+
+- [波长和脉冲怎么选？](../../research/questions/wavelength-pulse.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

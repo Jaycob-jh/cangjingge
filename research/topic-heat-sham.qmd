@@ -61,4 +61,6 @@ toc: true
 - [怎样区分光照与加热效应？](questions/heat-control.qmd)
 - [研究发展史](history-tpbm-dose.qmd)
 
+{{< include _topic-literature/heat-sham.md >}}
+
 [修改本专题](https://github.com/Jaycob-jh/cangjingge/edit/main/research/topic-heat-sham.qmd)

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-22",
   "topics": [
     {
       "id": "01",
@@ -71697,6 +71697,42 @@
       "type": "posted-content",
       "topics": [],
       "reading_status": "已编目"
+    },
+    {
+      "id": "paper-78ac822c5d8ba23b",
+      "title": "EEG dynamic microstate patterns induced by pulsed wave transcranial photobiomodulation therapy",
+      "authors": [
+        "Jiangshan He",
+        "Hui Xie",
+        "Yuqiang Yang",
+        "Chunli Jia",
+        "Dan Liang",
+        "Lianghua Zhang",
+        "Xiaoyu Wang",
+        "Tianyi Luo",
+        "Zexiao Dong",
+        "Huiting Yang",
+        "Lei Zheng",
+        "Zhen Yuan",
+        "Mingzhe Jiang",
+        "Xueli Chen"
+      ],
+      "year": 2026,
+      "doi": "10.1117/1.apn.5.2.026010",
+      "journal": "Advanced Photonics Nexus",
+      "volume": "5",
+      "issue": "2",
+      "pages": "026010",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06",
+        "03",
+        "03.05"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1117/1.apn.5.2.026010"
     }
   ]
 }

@@ -74,4 +74,6 @@ toc: true
 - [波长和脉冲怎么选？](questions/wavelength-pulse.qmd)
 - [研究发展史](history-tpbm-dose.qmd)
 
+{{< include _topic-literature/pulse-duty.md >}}
+
 [修改本专题](https://github.com/Jaycob-jh/cangjingge/edit/main/research/topic-pulse-duty.qmd)

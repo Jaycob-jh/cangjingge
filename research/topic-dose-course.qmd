@@ -73,4 +73,6 @@ toc: true
 - [单次与重复照射，哪些变化能持续？](questions/repeated-clinical.qmd)
 - [研究发展史](history-tpbm-clinical.qmd)
 
+{{< include _topic-literature/dose-course.md >}}
+
 [修改本专题](https://github.com/Jaycob-jh/cangjingge/edit/main/research/topic-dose-course.qmd)

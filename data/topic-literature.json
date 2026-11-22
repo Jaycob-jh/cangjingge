@@ -1,0 +1,245 @@
+{
+  "topics": [
+    {
+      "id": "heat-sham",
+      "title": "热效应与假刺激",
+      "entries": [
+        {
+          "catalog_id": "paper-a0638dd939dd0976"
+        },
+        {
+          "catalog_id": "paper-401cf986d5fb97e1"
+        },
+        {
+          "catalog_id": "paper-577cf7c3da355a65"
+        },
+        {
+          "catalog_id": "paper-97f70525b879e87c"
+        },
+        {
+          "catalog_id": "paper-70af8a046600fb26"
+        },
+        {
+          "catalog_id": "paper-bc5dc2bfc1faa338"
+        },
+        {
+          "catalog_id": "paper-f661ea53c0815f7f"
+        },
+        {
+          "catalog_id": "paper-7cb00b971f39ec9f"
+        },
+        {
+          "catalog_id": "paper-622870a2e5956ca4",
+          "context": "测量方法参考：光学脑成像中的温升，不是光刺激干预。"
+        },
+        {
+          "catalog_id": "paper-722c21133592b456"
+        },
+        {
+          "catalog_id": "paper-285cd0fa08c6dde9"
+        },
+        {
+          "catalog_id": "paper-2b18497f0b9e73ce"
+        }
+      ]
+    },
+    {
+      "id": "wavelength-penetration",
+      "title": "波长与光穿透",
+      "entries": [
+        {
+          "catalog_id": "paper-1b50fe080b9be52a"
+        },
+        {
+          "catalog_id": "paper-a0638dd939dd0976"
+        },
+        {
+          "catalog_id": "paper-5a3409516e94d617"
+        },
+        {
+          "catalog_id": "paper-2acc5d358f8deb4c"
+        },
+        {
+          "catalog_id": "paper-b9bffc02098dd235"
+        },
+        {
+          "catalog_id": "paper-2d98023da269a860"
+        },
+        {
+          "catalog_id": "paper-c040954a95bb220b"
+        },
+        {
+          "catalog_id": "paper-a4e697433e87f6cb"
+        },
+        {
+          "catalog_id": "paper-feaf985879a1455d"
+        },
+        {
+          "catalog_id": "paper-b6a5009e9a08a1c5"
+        },
+        {
+          "catalog_id": "paper-06e4dc3ff5a3c56c"
+        },
+        {
+          "catalog_id": "paper-5156ab13e0d99ed5"
+        },
+        {
+          "catalog_id": "paper-92e09487e5df1715"
+        },
+        {
+          "study_id": "yang-2026-mouse-human-fluence"
+        }
+      ]
+    },
+    {
+      "id": "pulse-duty",
+      "title": "脉冲频率与占空比",
+      "entries": [
+        {
+          "catalog_id": "paper-a1a42ae6efb39e79"
+        },
+        {
+          "catalog_id": "paper-412feaf0a1b3dcf3"
+        },
+        {
+          "catalog_id": "paper-065cca04b254ef22"
+        },
+        {
+          "catalog_id": "paper-82e12de81113d88e",
+          "context": "细胞实验：比较频率与占空比，不是经颅人体实验。"
+        },
+        {
+          "catalog_id": "paper-4218223e7e6baeba"
+        },
+        {
+          "catalog_id": "paper-51ed3821c9ed3edc"
+        },
+        {
+          "catalog_id": "paper-3284eaa3fac63ef7"
+        },
+        {
+          "catalog_id": "paper-dc679bd9950efcfa"
+        },
+        {
+          "catalog_id": "paper-78ac822c5d8ba23b"
+        }
+      ]
+    },
+    {
+      "id": "dose-course",
+      "title": "剂量与疗程",
+      "entries": [
+        {
+          "catalog_id": "paper-a2fa0e220ea98fdb"
+        },
+        {
+          "catalog_id": "paper-401cf986d5fb97e1"
+        },
+        {
+          "catalog_id": "paper-e5c1091a01acb290",
+          "context": "联合干预：磁刺激与光生物调节。"
+        },
+        {
+          "catalog_id": "paper-577cf7c3da355a65"
+        },
+        {
+          "catalog_id": "paper-2dd803bc9df93c4a"
+        },
+        {
+          "catalog_id": "paper-0bc54ad47e0694a2"
+        },
+        {
+          "catalog_id": "paper-70af8a046600fb26"
+        },
+        {
+          "catalog_id": "paper-3afec9e91f521b8d"
+        },
+        {
+          "catalog_id": "paper-8b73c7e32c910982"
+        },
+        {
+          "catalog_id": "paper-bb2f16946908e838"
+        },
+        {
+          "catalog_id": "paper-bc5dc2bfc1faa338"
+        },
+        {
+          "catalog_id": "paper-fb40717ff7062f34"
+        },
+        {
+          "catalog_id": "paper-da1787330e75729d"
+        },
+        {
+          "catalog_id": "paper-c675854c12e76963"
+        },
+        {
+          "catalog_id": "paper-1449d05b371abae1",
+          "context": "细胞实验：培养的小鼠皮层神经元。"
+        },
+        {
+          "catalog_id": "paper-de7d17c7ba1e9aff"
+        },
+        {
+          "catalog_id": "paper-a2c9a4afc4271a1f"
+        },
+        {
+          "catalog_id": "paper-722c21133592b456"
+        },
+        {
+          "catalog_id": "paper-312438aaa07c936d"
+        },
+        {
+          "catalog_id": "paper-8cf907a048b3a7f0"
+        },
+        {
+          "catalog_id": "paper-f91c03c6f65c0cca"
+        },
+        {
+          "catalog_id": "paper-3dc8c41bc9fbe3b5"
+        },
+        {
+          "catalog_id": "paper-bbe63d616472eff5"
+        },
+        {
+          "catalog_id": "paper-78ac822c5d8ba23b"
+        }
+      ]
+    },
+    {
+      "id": "sleep-light",
+      "title": "睡眠与光刺激",
+      "entries": [
+        {
+          "catalog_id": "paper-7eec1d9e53ff2b4d"
+        },
+        {
+          "catalog_id": "paper-577cf7c3da355a65"
+        },
+        {
+          "catalog_id": "paper-f305c570ac6e11df"
+        },
+        {
+          "catalog_id": "paper-e1045d0d8bb91a62"
+        },
+        {
+          "catalog_id": "paper-0bc54ad47e0694a2"
+        },
+        {
+          "catalog_id": "paper-af9961320d928983"
+        },
+        {
+          "catalog_id": "paper-bc5dc2bfc1faa338"
+        },
+        {
+          "catalog_id": "paper-4bb6d6b17fc2259f"
+        },
+        {
+          "catalog_id": "paper-8817d13613db48de"
+        },
+        {
+          "catalog_id": "paper-18378978daa159ef"
+        }
+      ]
+    }
+  ]
+}

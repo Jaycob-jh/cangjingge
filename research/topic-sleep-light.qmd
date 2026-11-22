@@ -69,4 +69,6 @@ Fz 校正后 δ 功率，主动组 46.44、假刺激组 80.33 μV²（p < 0.001�
 - [光刺激后，主观睡眠与脑电指标是否同步变化？](questions/sleep-homeostasis.qmd)
 - [研究发展史](history-sleep-eeg.qmd)
 
+{{< include _topic-literature/sleep-light.md >}}
+
 [修改本专题](https://github.com/Jaycob-jh/cangjingge/edit/main/research/topic-sleep-light.qmd)
