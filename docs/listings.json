@@ -1,7 +1,43 @@
 [
   {
+    "listing": "/notes/questions.html",
+    "items": [
+      "/notes/issues/2026-11-22-depression-sham-expectancy.html",
+      "/notes/issues/2026-11-21-early-response-prediction.html",
+      "/notes/issues/2026-11-20-parkinson-motor-controls.html",
+      "/notes/issues/2026-11-19-injury-recovery.html",
+      "/notes/issues/2026-11-18-stress-hormones-behavior.html",
+      "/notes/issues/2026-11-17-individual-optical-dose.html",
+      "/notes/issues/2026-11-16-compare-pulse-frequency.html",
+      "/notes/issues/2026-11-15-light-vs-skin-warming.html",
+      "/notes/issues/2026-11-14-memory-default-network.html",
+      "/notes/issues/2026-11-13-bold-vascular-response.html",
+      "/notes/issues/2026-11-12-memory-vs-response.html",
+      "/notes/issues/2026-11-11-unilateral-bilateral.html",
+      "/notes/issues/2026-11-10-sleep-endpoints.html",
+      "/notes/issues/2026-11-09-mood-mechanism.html",
+      "/notes/issues/2026-11-08-motor-performance-learning.html",
+      "/notes/issues/2026-11-07-dose-and-fmri.html",
+      "/notes/issues/2026-11-06-stimulation-measures.html"
+    ]
+  },
+  {
+    "listing": "/library/index.html",
+    "items": [
+      "/library/papers/openscholar.html",
+      "/library/papers/khan-2026-personalized-neuromodulation.html",
+      "/library/papers/li-2024-tpbm-safety.html",
+      "/library/papers/jia-2023-mi-bci.html",
+      "/library/papers/zhao-2023-alpha-attention.html"
+    ]
+  },
+  {
     "listing": "/notes/index.html",
     "items": [
+      "/notes/posts/cassano-2015-depression-crossover.html",
+      "/notes/posts/cassano-2018-elated2-analysis-sets.html",
+      "/notes/posts/monteiro-2026-resistant-depression-open.html",
+      "/notes/posts/sikora-2016-placebo-depression-fmri.html",
       "/notes/posts/chun-2026-early-fnirs-prediction.html",
       "/notes/posts/lee-2024-baseline-fnirs-prediction.html",
       "/notes/posts/pruitt-2020-aging-physiology.html",
@@ -69,37 +105,6 @@
       "/notes/posts/nawrocik-madrid-2026-light-asl.html",
       "/notes/posts/personalized-neuromodulation.html",
       "/notes/posts/reading-guide.html"
-    ]
-  },
-  {
-    "listing": "/library/index.html",
-    "items": [
-      "/library/papers/openscholar.html",
-      "/library/papers/khan-2026-personalized-neuromodulation.html",
-      "/library/papers/li-2024-tpbm-safety.html",
-      "/library/papers/jia-2023-mi-bci.html",
-      "/library/papers/zhao-2023-alpha-attention.html"
-    ]
-  },
-  {
-    "listing": "/notes/questions.html",
-    "items": [
-      "/notes/issues/2026-11-21-early-response-prediction.html",
-      "/notes/issues/2026-11-20-parkinson-motor-controls.html",
-      "/notes/issues/2026-11-19-injury-recovery.html",
-      "/notes/issues/2026-11-18-stress-hormones-behavior.html",
-      "/notes/issues/2026-11-17-individual-optical-dose.html",
-      "/notes/issues/2026-11-16-compare-pulse-frequency.html",
-      "/notes/issues/2026-11-15-light-vs-skin-warming.html",
-      "/notes/issues/2026-11-14-memory-default-network.html",
-      "/notes/issues/2026-11-13-bold-vascular-response.html",
-      "/notes/issues/2026-11-12-memory-vs-response.html",
-      "/notes/issues/2026-11-11-unilateral-bilateral.html",
-      "/notes/issues/2026-11-10-sleep-endpoints.html",
-      "/notes/issues/2026-11-09-mood-mechanism.html",
-      "/notes/issues/2026-11-08-motor-performance-learning.html",
-      "/notes/issues/2026-11-07-dose-and-fmri.html",
-      "/notes/issues/2026-11-06-stimulation-measures.html"
     ]
   }
 ]

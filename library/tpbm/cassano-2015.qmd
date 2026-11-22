@@ -44,5 +44,6 @@ Near-Infrared Transcranial Radiation for Major Depressive Disorder: Proof of Con
 ## 接着读
 
 - [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+- [抑郁分数下降，怎样判断照光的额外作用？](../../research/questions/depression-controls.qmd)
 
 [修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

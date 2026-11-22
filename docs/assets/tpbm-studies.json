@@ -925,7 +925,8 @@
       "journal": "Psychiatry Journal",
       "kind": "临床",
       "questions": [
-        "repeated-clinical"
+        "repeated-clinical",
+        "depression-controls"
       ],
       "measures": [
         "量表"
@@ -5765,6 +5766,113 @@
         }
       ],
       "interpretation": "这里已有交叉验证，不应只读摘要或全样本拟合值。下一步应独立验证，并与基线认知和临床变量比较。43 人中有 14 人因 fNIRS 质量被剔除，需要记录这种缺失是否偏向特定人群。对照未接受干预，这套预测仍不能单独识别“光照相对假刺激的特异获益”。 与 Lee 2024 来自同一 43 人干预、19 人对照的认知分析队列，不能作为独立复现相加。"
+    },
+    {
+      "id": "cassano-2018-elated2",
+      "short": "Cassano 等 · 2018",
+      "year": 2018,
+      "title": "Transcranial Photobiomodulation for the Treatment of Major Depressive Disorder. The ELATED-2 Pilot Trial",
+      "title_zh": "同一项光照试验，为什么三种分析给出不同结果？",
+      "doi": "10.1089/pho.2018.4490",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/",
+      "journal": "Photomedicine and Laser Surgery",
+      "kind": "临床",
+      "questions": [
+        "depression-controls",
+        "repeated-clinical"
+      ],
+      "measures": [
+        "量表",
+        "不良事件"
+      ],
+      "wavelengths": [
+        "823"
+      ],
+      "mode_filter": "连续光",
+      "reading": "正式全文方法、结果、表 1–2 和图 1–4，实际查看图 4，未读补充技术材料",
+      "sources": {
+        "m": {
+          "label": "方法，照射与剂量",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/#s005"
+        },
+        "a": {
+          "label": "摘要，辐照度与剂量口径",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/#abstract1"
+        },
+        "r": {
+          "label": "图 4 与主终点三种分析",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/#s013"
+        },
+        "b": {
+          "label": "分组猜测与盲法",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/#s016"
+        },
+        "d": {
+          "label": "对象及分析集",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/#s008"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "21 人随机，真光 10、假照射 11；13 人完成八周",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机双盲平行假刺激，既有治疗稳定，按 BOCF、LOCF、完成者分别分析",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "823 nm",
+          "source": "m"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "m"
+        },
+        "target": {
+          "value": "双侧同时照射 F3/F4 或其附近，部分 Fp1/Fp2，位置见表 1",
+          "source": "m"
+        },
+        "irradiance": {
+          "value": "摘要报告 36.2 mW/cm²；正文按厂家设置给 33.2 mW/cm²，两个报告口径保留",
+          "source": "a"
+        },
+        "spot": {
+          "value": "28.7 cm² / 装置，双侧共两个装置",
+          "source": "m"
+        },
+        "duration": {
+          "value": "20 分钟起，第三/第五周后可升至 25/30 分钟；每周两次、八周、最多十六次",
+          "source": "m"
+        },
+        "dose": {
+          "value": "摘要给上限 65.2 J/cm²，正文给约 40/50/60 J/cm² 随时长递增；均为照射面口径",
+          "source": "a"
+        },
+        "control": {
+          "value": "假装置匹配外观、声音和温热；正文报告真光与假照射及分组猜测",
+          "source": "m"
+        },
+        "readout": {
+          "value": "HAM-D17 主终点，另列 QIDS、CGI、分组猜测与不良事件",
+          "source": "r"
+        },
+        "timing": {
+          "value": "基线与疗程中随访至八周，各分析集的末次观察按规则处理",
+          "source": "d"
+        }
+      },
+      "results": [
+        {
+          "text": "图 4A 为全样本，4B 为完成者。正文以基线值填补早退者的分析中，HAM-D17 变化为真光 −10.8、假照射 −4.4，p=.047；末次观察填补分析为 −10.8 对 −5.33，p=.119；完成者为 −15.7 对 −6.1，p=.031。三种分析针对不同缺失处理和分析人群，需并列阅读。",
+          "source": "r"
+        },
+        {
+          "text": "盲法结果：第四与第八周临床评估者猜对分组 79%、80%，组别与猜测分布有关，p=.031、.038。正文也列出失眠、易激惹和短暂感知异常等不良事件。",
+          "source": "b"
+        }
+      ],
+      "interpretation": "预先写好主分析和缺失处理，再报告敏感性分析。八周仅十三人完成，完成者效果可能受退出影响。评估者在第四、八周猜对分组的比例为 79%、80%，解释临床评分时应考虑盲法表现。"
     }
   ]
 }

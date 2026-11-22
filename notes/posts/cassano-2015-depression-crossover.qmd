@@ -1,0 +1,27 @@
+---
+title: "四人都先照真光，交叉试验还能回答什么？"
+date: 2026-11-22
+categories: [经颅光刺激]
+---
+
+Cassano 等 · 2015-08-19 首发 · [DOI 10.1155/2015/352979](https://doi.org/10.1155/2015/352979) · [PMID 26356811](https://pubmed.ncbi.nlm.nih.gov/26356811/)
+
+研究对象 · 8 人入组，4 名重性抑郁障碍完成者进入分析
+
+阅读范围 · 正式全文方法、结果、表 1 与图 2，实际查看个体及均值轨迹，补充材料未读
+
+[回到本期](../issues/2026-11-22-depression-sham-expectancy.qmd)
+
+## 怎么做
+
+原计划三周真光或假照射、洗脱一周后交叉。808±10 nm 连续激光照双额四点，每点两分钟，每周两次，主动期共六次。完成者均先接受真光，随后接受假照射。结果列明四人当时均未服抗抑郁药。
+
+## 结果怎么读
+
+图 2 的个体轨迹显示，两人在第六或第七周达到缓解，部分改善未持续。第八周完整数据仅三人，均值 17.7→10.3；将一项缺失用末次观察填补后，四人的均值为 19.75→13，p=.004。这个 p 值检验的是前后变化，真光与假照射的顺序效应及残留效应仍混在其中。
+
+## 对实验设计有什么用
+
+先核对最后进入分析的人实际接受了什么顺序。脱落后若每人都落在同一顺序，随机交叉的原始计划就不能替代实际组间比较。既有研究卡沿用原参数与来源。
+
+[图 2，均值与个体轨迹](https://pmc.ncbi.nlm.nih.gov/articles/PMC4556873/#fig2) · [表 1 与方法](https://pmc.ncbi.nlm.nih.gov/articles/PMC4556873/#sec2) · [研究卡](../../library/tpbm/cassano-2015.qmd) · [同主题问题](../../research/questions/depression-controls.qmd) · [编辑笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/cassano-2015-depression-crossover.qmd)

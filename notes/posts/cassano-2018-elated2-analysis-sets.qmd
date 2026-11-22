@@ -1,0 +1,27 @@
+---
+title: "同一项光照试验，为什么三种分析给出不同结果？"
+date: 2026-11-22
+categories: [经颅光刺激]
+---
+
+Cassano 等 · 2018 年正式版，PMC / Crossref 所载在线日期 12 月 10 日 · [DOI 10.1089/pho.2018.4490](https://doi.org/10.1089/pho.2018.4490) · [PMID 30346890](https://pubmed.ncbi.nlm.nih.gov/30346890/)
+
+研究对象 · 21 人随机，真光 10、假照射 11；13 人完成八周
+
+阅读范围 · 正式全文方法、结果、表 1–2 和图 1–4，实际查看图 4，未读补充技术材料
+
+[回到本期](../issues/2026-11-22-depression-sham-expectancy.qmd)
+
+## 怎么做
+
+823 nm 连续 LED 同时照双侧前额，每周两次、八周，共十六次。每次从二十分钟起，按耐受情况可加到二十五、三十分钟。假装置匹配声响、温热和外观，既有药物或心理治疗原则上稳定。
+
+## 结果怎么读
+
+图 4A 为全样本，4B 为完成者。正文以基线值填补早退者的分析中，HAM-D17 变化为真光 −10.8、假照射 −4.4，p=.047；末次观察填补分析为 −10.8 对 −5.33，p=.119；完成者为 −15.7 对 −6.1，p=.031。三种分析针对不同缺失处理和分析人群，需并列阅读。
+
+## 对实验设计有什么用
+
+预先写好主分析和缺失处理，再报告敏感性分析。八周仅十三人完成，完成者效果可能受退出影响。评估者在第四、八周猜对分组的比例为 79%、80%，解释临床评分时应考虑盲法表现。
+
+[图 4 对应的结果与分析集](https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/#s013) · [方法与剂量](https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/#s005) · [盲法评估](https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/#s016) · [研究卡](../../library/tpbm/cassano-2018-elated2.qmd) · [同主题问题](../../research/questions/depression-controls.qmd) · [编辑笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/cassano-2018-elated2-analysis-sets.qmd)

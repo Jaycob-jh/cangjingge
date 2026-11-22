@@ -1,0 +1,27 @@
+---
+title: "同样的安慰剂，治疗期待与脑连接有什么关系？"
+date: 2026-11-22
+categories: [fMRI 脑网络]
+---
+
+Sikora 等 · 2015 年 DOI 年份，2016 年 1 月正式卷期，确切首发日未核实 · [DOI 10.1016/j.bpsc.2015.10.002](https://doi.org/10.1016/j.bpsc.2015.10.002) · [PMID 26709390](https://pubmed.ncbi.nlm.nih.gov/26709390/)
+
+研究对象 · 29 名未服药的重性抑郁障碍成人，23 人完成后续十周开放药物阶段
+
+阅读范围 · 公开全文方法、结果和图 1–4，实际查看图 4，补充方法未读
+
+[回到本期](../issues/2026-11-22-depression-sham-expectancy.qmd)
+
+## 怎么做
+
+随机交叉比较各一周的两种说明，称同样的安慰剂可能快速抗抑郁，或说明其无药理作用，中间洗脱三天。每周末做静息态 fMRI，然后进入十周开放药物治疗。研究把无效说明条件后的扫描作为 baseline，需留意它已经发生在一次干预之后。
+
+## 结果怎么读
+
+两种说明的 QIDS 改善分别为 2.0±3.4 与 0.17±2.4，p=.012。图 4 用显著性网络连接做留一预测，预测与实际安慰剂反应相关 r=.41，置换 p=.018。正文另报同样方法对药物反应预测 r=.03、p=.34。图 3 的样本内解释率与图 4 的交叉验证表现应分别读。
+
+## 对实验设计有什么用
+
+它补充了期待与症状变化的关系，可借鉴到光照研究的期待测量和假刺激设计。该研究未施加光刺激。自己的试验可在首次操作前取 fMRI 基线，预设期待、组别和结局的关系，并用独立数据检验预测。
+
+[图 4，交叉验证预测](https://pmc.ncbi.nlm.nih.gov/articles/PMC4689203/#:~:text=Figure%204) · [图 1，扫描与干预顺序](https://pmc.ncbi.nlm.nih.gov/articles/PMC4689203/#:~:text=Experimental%20Design) · [同主题问题](../../research/questions/depression-controls.qmd) · [编辑笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/sikora-2016-placebo-depression-fmri.qmd)

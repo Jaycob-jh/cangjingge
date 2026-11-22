@@ -40,6 +40,7 @@
 - [Fekri · 2019：单次 808 nm 照射后的双手敲击速度](../library/tpbm/fekri-2019.qmd)
 - [Chao · 2019：居家照光 12 周，认知评分和脑网络怎么变？](../library/tpbm/chao-2019-dementia-dmn.qmd)
 - [Meynaghizadeh-Zargar 等 · 2019：照光与药物联用后，激素下降更多，行为也改善更多吗？](../library/tpbm/meynaghizadeh-2019-stress-mb.qmd)
+- [Cassano 等 · 2018：同一项光照试验，为什么三种分析给出不同结果？](../library/tpbm/cassano-2018-elated2.qmd)
 - [Wang · 2017：把皮肤加热，能复现光刺激的代谢与血氧反应吗？](../library/tpbm/wang-2017-heat.qmd)
 - [Saltmarche · 2017：经颅加鼻内疗程结束后，认知评分怎样变化？](../library/tpbm/saltmarche-2017.qmd)
 - [Wang · 2017：照光后，代谢与血氧的时间曲线一样吗？](../library/tpbm/wang-2017-cco-hbo.qmd)
