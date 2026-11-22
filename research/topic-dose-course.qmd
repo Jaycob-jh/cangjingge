@@ -1,0 +1,76 @@
+---
+title: "剂量与疗程"
+subtitle: "从单次照射到重复疗程，核对功率、时长、次数和随访。"
+toc: true
+---
+
+[研究专题](index.qmd) · [经颅光刺激总览](tpbm.qmd)
+
+[对比本专题研究](tpbm-compare.html?selected=cassano-2015,cassano-2018-elated2,nizamutdinov-2021,herkes-2023-parkinson-helmet){.btn .btn-primary} [按参数查证据](tpbm-parameters.qmd){.btn .btn-outline-secondary}
+
+## 查参数时看什么
+
+分别记录功率 W、辐照度 mW/cm²、总能量 J 和面剂量 J/cm²。重复疗程再核对实际次数、间隔、既有治疗变化和退出原因。
+
+## 从这些研究开始
+
+### Cassano · 2015
+
+早期抑郁试验怎样安排照射和假刺激？
+
+- 2分钟/点；每周2次，主动疗程3周 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC4556873/#sec2)
+- 84 J/cm² / 点；总2.40 kJ / 次 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC4556873/#sec2)
+- 每周评估，末次到第8周 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC4556873/#sec2)
+
+4名完成者的HAM-D下降；个体和均值轨迹见图2，部分缓解未持续。 [结果出处](https://pmc.ncbi.nlm.nih.gov/articles/PMC4556873/#fig2)
+
+[参数与图表](../library/tpbm/cassano-2015.qmd) · [加入对比](tpbm-compare.html?selected=cassano-2015)
+
+### Cassano 等 · 2018
+
+同一项光照试验，为什么三种分析给出不同结果？
+
+- 20 分钟起，第三/第五周后可升至 25/30 分钟；每周两次、八周、最多十六次 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/#s005)
+- 摘要给上限 65.2 J/cm²，正文给约 40/50/60 J/cm² 随时长递增；均为照射面口径 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/#abstract1)
+- 基线与疗程中随访至八周，各分析集的末次观察按规则处理 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/#s008)
+
+图 4A 为全样本，4B 为完成者。正文以基线值填补早退者的分析中，HAM-D17 变化为真光 −10.8、假照射 −4.4，p=.047；末次观察填补分析为 −10.8 对 −5.33，p=.119；完成者为 −15.7 对 −6.1，p=.031。三种分析针对不同缺失处理和分析人群，需并列阅读。 [结果出处](https://pmc.ncbi.nlm.nih.gov/articles/PMC7864111/#s013)
+
+[参数与图表](../library/tpbm/cassano-2018-elated2.qmd) · [加入对比](tpbm-compare.html?selected=cassano-2018-elated2)
+
+### Nizamutdinov · 2021
+
+居家头盔照射八周后，痴呆患者的认知评分如何？
+
+- 6分钟/次，每日2次，共8周 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/#:~:text=Both%20active%20and%20sham)
+- 方法未单列面剂量 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/#:~:text=Both%20active%20and%20sham)
+- 治疗前与末次后1天内 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/#:~:text=Both%20active%20and%20sham)
+
+表1主动组MMSE由22.8升至27.6；表中p值是各组内前后检验。 [结果出处](https://pmc.ncbi.nlm.nih.gov/articles/PMC8219492/#T1-ad-12-4-954)
+
+[参数与图表](../library/tpbm/nizamutdinov-2021.qmd) · [加入对比](tpbm-compare.html?selected=nizamutdinov-2021)
+
+### Herkes 等 · 2023
+
+戴头盔照十二周，运动改善有没有超过假刺激？
+
+- 先红光 12 分钟，再近红外 12 分钟；每周 6 天、12 周，共 72 次；第二阶段另 12 周 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment)
+- 正文每次总光能：近红外 748.8 J、红光 388.8 J；不是 J/cm² 或脑内剂量 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment)
+- 基线、12 周及后续 12 周；部分因维修等中断而延后以完成 72 次 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#:~:text=Treatment)
+
+表 3：第一阶段后假组 20.4±12.8、主动组 16.5±9.4；均值差 3.9，95% CI −3.5 至 11.3。基线均值为 26.8 与 21.3，不能把末次均值差当作基线校正效应。 [结果出处](https://pmc.ncbi.nlm.nih.gov/articles/PMC10716000/#tbl3)
+
+[参数与图表](../library/tpbm/herkes-2023-parkinson-helmet.qmd) · [加入对比](tpbm-compare.html?selected=herkes-2023-parkinson-helmet)
+
+## 论文笔记
+
+- [四人都先照真光，交叉试验还能回答什么？](../notes/posts/cassano-2015-depression-crossover.qmd)
+- [同一项光照试验，为什么三种分析给出不同结果？](../notes/posts/cassano-2018-elated2-analysis-sets.qmd)
+- [戴头盔照十二周，运动改善有没有超过假刺激？](../notes/posts/herkes-2023-parkinson-helmet-sham.qmd)
+
+## 接着读
+
+- [单次与重复照射，哪些变化能持续？](questions/repeated-clinical.qmd)
+- [研究发展史](history-tpbm-clinical.qmd)
+
+[修改本专题](https://github.com/Jaycob-jh/cangjingge/edit/main/research/topic-dose-course.qmd)

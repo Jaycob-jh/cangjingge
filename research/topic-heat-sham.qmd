@@ -1,0 +1,64 @@
+---
+title: "热效应与假刺激"
+subtitle: "查看温升、温热感觉和匹配对照，比较照光与加热的结果。"
+toc: true
+---
+
+[研究专题](index.qmd) · [经颅光刺激总览](tpbm.qmd)
+
+[对比本专题研究](tpbm-compare.html?selected=wang-2017-heat,wang-2021-eeg-heat,liu-2026-photothermal-fem){.btn .btn-primary} [按参数查证据](tpbm-parameters.qmd){.btn .btn-outline-secondary}
+
+## 查参数时看什么
+
+核对头皮实测温度、脑内模型温度和采样时点。匹配假刺激时同时记录温热感、分组猜测和访视顺序。
+
+## 从这些研究开始
+
+### Wang · 2017
+
+把皮肤加热，能复现光刺激的代谢与血氧反应吗？
+
+- 250 mW/cm²；头皮入射 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/#sec2.1)
+- 热刺激从32°C升至41°C；另有遮光假刺激描述 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/#f4)
+- bbNIRS：CCO及血红蛋白；皮温 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/#f6)
+
+热刺激与光刺激的 CCO、HbO 等时间曲线不同；图6给出校正后的时点比较。 [结果出处](https://pmc.ncbi.nlm.nih.gov/articles/PMC5603720/#f6)
+
+[参数与图表](../library/tpbm/wang-2017-heat.qmd) · [加入对比](tpbm-compare.html?selected=wang-2017-heat)
+
+### Wang · 2021
+
+光刺激和皮肤加热的脑电分布一样吗？
+
+- 约250 mW/cm²；头皮入射 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec4)
+- 遮光假刺激；热刺激33→41°C，热假刺激33°C [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Sec4)
+- 64通道闭眼 EEG 功率 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Fig5)
+
+扣除各自假刺激后，光与热引起的alpha/beta功率空间分布存在差异。 [结果出处](https://pmc.ncbi.nlm.nih.gov/articles/PMC8460746/#Fig5)
+
+[参数与图表](../library/tpbm/wang-2021-eeg-heat.qmd) · [加入对比](tpbm-compare.html?selected=wang-2021-eeg-heat)
+
+### 刘欣彤等 · 2026
+
+经颅光生物调节的光—热效应仿真研究
+
+- 800 nm：10、100、1000 mW/cm²；波长比较固定 100 mW/cm² [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#s02.04)
+- 组织初温 37 °C，环境温度 25 °C；比较不同模型输入 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#s02.03)
+- 头皮、颅骨、脑脊液、灰质和白质的温度分布与峰值预测 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#Figure4)
+
+800 nm、1000 mW/cm² 时，§2.2 报告头皮峰值温升 5.216 °C，灰质 0.491 °C，均为模型预测。 [结果出处](https://pmc.ncbi.nlm.nih.gov/articles/PMC13519816/#Figure4)
+
+[参数与图表](../library/tpbm/liu-2026-photothermal-fem.qmd) · [加入对比](tpbm-compare.html?selected=liu-2026-photothermal-fem)
+
+## 论文笔记
+
+- [匹配额头温度后，血氧和代谢曲线会重合吗？](../notes/posts/wang-2017-light-skin-heat-nirs.qmd)
+- [加热和照光，脑电频带会往同一方向变吗？](../notes/posts/wang-2021-heat-sham-eeg-topography.qmd)
+- [加大辐照度时，头皮和灰质会升温多少？](../notes/posts/liu-2026-light-heat-finite-element.qmd)
+
+## 接着读
+
+- [怎样区分光照与加热效应？](questions/heat-control.qmd)
+- [研究发展史](history-tpbm-dose.qmd)
+
+[修改本专题](https://github.com/Jaycob-jh/cangjingge/edit/main/research/topic-heat-sham.qmd)

@@ -1,0 +1,72 @@
+---
+title: "睡眠与经颅光刺激"
+subtitle: "按刺激时相查睡眠量表、体动和夜间脑电研究。"
+toc: true
+---
+
+[研究专题](index.qmd) · [经颅光刺激总览](tpbm.qmd)
+
+[对比本专题研究](tpbm-compare.html?selected=jung-2026,mehdizadeh-2025,saltmarche-2017){.btn .btn-primary} [按参数查证据](tpbm-parameters.qmd){.btn .btn-outline-secondary}
+
+## 查参数时看什么
+
+记录刺激相对睡眠和昼夜周期的时点。量表、日记、体动、夜间分期与清醒 EEG 各用对应指标解释，同时查看依从性和次日状态。
+
+## 从这些研究开始
+
+### Jung · 2026
+
+额部近红外光能改善睡眠吗？
+
+- 40 名 19–54 岁、有失眠症状的成人，随机各 20 人。小鼠实验使用 16 只雄性 C57BL/6，每个时序实验 8 只。 [原文定位](https://www.nature.com/articles/s41380-026-03875-y#Fig5)
+- 人体 2 周基线，随后连续 1 周，每晚使用 1 次、最长 1 小时。小鼠每次照射 3 小时。 [原文定位](https://www.nature.com/articles/s41380-026-03875-y#:~:text=A%20pilot%20clinical%20trial)
+- 人体记录失眠严重度（ISI）、匹兹堡睡眠质量指数（PSQI）、睡眠日记和腕式体动。小鼠用 EEG/EMG 分期并以微透析测额叶细胞外腺苷。 [原文定位](https://www.nature.com/articles/s41380-026-03875-y#Fig5)
+
+人体意向治疗分析中，ISI 与 PSQI 的时间×组别交互分别为 p=0.022 和 p=0.005。治疗组 ISI 从 10.77 降至 7.95，PSQI 从 6.75 降至 4.75。体动记录的总睡眠时间、入睡时钟时间等未显示显著组别×时间交互。 [结果出处](https://www.nature.com/articles/s41380-026-03875-y#Tab2)
+
+[参数与图表](../library/tpbm/jung-2026.qmd) · [加入对比](tpbm-compare.html?selected=jung-2026)
+
+### Mehdizadeh · 2025
+
+慢性失眠患者照光后，清醒 δ 功率如何变化？
+
+- 30 名慢性失眠成人，主动和假刺激各 15 名 [原文定位](https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=2)
+- 报告每天 10 分钟，连续 3 天；各点实际驻留时间未说明 [原文定位](https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4)
+- PSQI、ESS、睁眼清醒静息 EEG δ 功率（1–4 Hz） [原文定位](https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4)
+
+Fz 校正后 δ 功率，主动组 46.44、假刺激组 80.33 μV²（p < 0.001）。F3、F4 未达显著。 [结果出处](https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=5)
+
+[参数与图表](../library/tpbm/mehdizadeh-2025.qmd) · [加入对比](tpbm-compare.html?selected=mehdizadeh-2025)
+
+### Saltmarche · 2017
+
+经颅加鼻内疗程结束后，认知评分怎样变化？
+
+- 5例痴呆/阿尔茨海默病，72–90岁 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#s003)
+- 经颅+鼻内20分钟/次，前2周每周2次，其后每周1次；其余日鼻内25分钟 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#s006)
+- MMSE、ADAS-cog [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T3)
+
+12周MMSE均值增加2.60分，ADAS-cog下降6.73分；停治时1例退出。 [结果出处](https://pmc.ncbi.nlm.nih.gov/articles/PMC5568598/#T3)
+
+[参数与图表](../library/tpbm/saltmarche-2017.qmd) · [加入对比](tpbm-compare.html?selected=saltmarche-2017)
+
+## 论文笔记
+
+- [光刺激、腺苷和睡眠，动物与人体分别测了什么？](../notes/posts/jung-2026-light-adenosine-sleep.qmd)
+- [清醒时的 δ 功率能说明夜里睡得怎样吗？](../notes/posts/mehdizadeh-2025-insomnia-wake-eeg.qmd)
+- [家属说睡得更好，测到了什么？](../notes/posts/saltmarche-2017-sleep-reports.qmd)
+- [波长或频率不同，夜里少醒了吗？](../notes/posts/jia-2026-home-sleep-eeg.qmd)
+
+## 扩展书目
+
+- [Guu 等，居家光刺激、抑郁与睡眠](../library/record.html?id=paper-577cf7c3da355a65)
+- [Gaggi 等，睡眠、清醒与认知综述](../library/record.html?id=paper-7eec1d9e53ff2b4d)
+- [睡眠质量系统综述与荟萃分析](../library/record.html?id=paper-f305c570ac6e11df)
+- [Hainke 等，睡眠中的视觉闪烁，供跨方式比较](../library/record.html?id=paper-0fe79316885b90cf)
+
+## 接着读
+
+- [光刺激后，主观睡眠与脑电指标是否同步变化？](questions/sleep-homeostasis.qmd)
+- [研究发展史](history-sleep-eeg.qmd)
+
+[修改本专题](https://github.com/Jaycob-jh/cangjingge/edit/main/research/topic-sleep-light.qmd)

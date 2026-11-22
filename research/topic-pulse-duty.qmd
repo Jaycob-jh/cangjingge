@@ -1,0 +1,77 @@
+---
+title: "脉冲频率与占空比"
+subtitle: "并排查看频率、占空比、连续光与脉冲光的实验。"
+toc: true
+---
+
+[研究专题](index.qmd) · [经颅光刺激总览](tpbm.qmd)
+
+[对比本专题研究](tpbm-compare.html?selected=ando-2011-pulse-tbi,ma-2026,arias-2026-theta-gamma-rats,motsenyat-2025-pulse-csf){.btn .btn-primary} [按参数查证据](tpbm-parameters.qmd){.btn .btn-outline-secondary}
+
+## 查参数时看什么
+
+频率描述每秒重复的周期数，占空比描述一个周期内的出光比例。比较时同时核对峰值功率、平均功率和累计面剂量，原文缺少的字段按实保留。
+
+## 从这些研究开始
+
+### Ando · 2011
+
+同样的平均剂量，连续光和脉冲光的恢复曲线一样吗？
+
+- 810 nm（±2 nm） [原文定位](https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0026212&type=printable#page=7)
+- 连续光，或 10 Hz / 100 Hz 脉冲，50% 占空比；脉宽 50 / 5 ms [原文定位](https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0026212&type=printable#page=7)
+- 各主动条件 36 J/cm²（入射处） [原文定位](https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0026212&type=printable#page=7)
+
+图 2B 中 10 Hz 组 NSS 曲线下面积低于连续光（p = 0.004）和 100 Hz（p = 0.0018）。 [结果出处](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026212#pone-0026212-g002)
+
+[参数与图表](../library/tpbm/ando-2011-pulse-tbi.qmd) · [加入对比](tpbm-compare.html?selected=ando-2011-pulse-tbi)
+
+### Ma · 2026
+
+810/1064 nm与连续/40 Hz光对运动皮层的作用？
+
+- 810 / 1064 nm [原文定位](https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11)
+- 连续光 / 40 Hz三角脉冲；占空比未明确报告 [原文定位](https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11)
+- 原文名义总能量：连续96 J、脉冲48 J；另报告实测上限≤90 / ≤40 J [原文定位](https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=11)
+
+30分钟时1064 nm/40 Hz的MEP变化高于两种连续光；未显示优于810 nm/40 Hz。 [结果出处](https://link.springer.com/content/pdf/10.1186/s12984-026-02122-3_reference.pdf#page=20)
+
+[参数与图表](../library/tpbm/ma-2026.qmd) · [加入对比](tpbm-compare.html?selected=ma-2026)
+
+### Arias · 2026
+
+5 Hz 和 40 Hz 会在同一脑区留下相同的细胞反应吗？
+
+- 810 nm [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Sec4)
+- 5 或 40 Hz 方波，50% 占空比 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Sec4)
+- 原文报告 33 J/cm²；适用测量面与时长口径待核 [原文定位](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Sec4)
+
+图 2A：成年大鼠前边缘皮层 CCO 活性在 40 Hz 组低于 5 Hz（p = 0.0111）。图 2E：CA3 锥体层 c-Fos 阳性核数在 5 Hz 组低于 40 Hz（p = 0.0067）。 [结果出处](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Fig2)
+
+[参数与图表](../library/tpbm/arias-2026-theta-gamma-rats.qmd) · [加入对比](tpbm-compare.html?selected=arias-2026-theta-gamma-rats)
+
+### Motsenyat · 2025
+
+人体 fMRI 中，40 Hz 会带来更大的脑脊液信号吗？
+
+- 808 或 1064 nm [原文定位](https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf#page=1)
+- 10 或 40 Hz 脉冲；正文未给出明确的占空比数值 [原文定位](https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf#page=1)
+- 表 1 经颅 12／18／24 J/cm²，鼻内 0.6／0.9／1.2 J/cm²，按原文记录 [原文定位](https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf#page=1)
+
+图 7 中照光时第四脑室信号范围平均约 +0.3%，关光后很快回落；曲线合并其他参数。 [结果出处](https://pbmfoundation.org/wp-content/uploads/2026/01/Modulating-cerebrospinal-fluid-dynamics-using-pulsed-photobiomodulation-Brain-Stimulation-Basic-.pdf#page=1)
+
+[参数与图表](../library/tpbm/motsenyat-2025-pulse-csf.qmd) · [加入对比](tpbm-compare.html?selected=motsenyat-2025-pulse-csf)
+
+## 论文笔记
+
+- [同样的平均剂量，连续光和脉冲光的恢复曲线一样吗？](../notes/posts/ando-2011-pulse-mouse-trauma.qmd)
+- [810 nm 和 1064 nm 光刺激，运动皮层有什么反应？](../notes/posts/ma-2026-light-motor-cortex.qmd)
+- [5 Hz 和 40 Hz 会在同一脑区留下相同的细胞反应吗？](../notes/posts/arias-2026-pulse-rat-cfos.qmd)
+- [人体 fMRI 中，40 Hz 会带来更大的脑脊液信号吗？](../notes/posts/motsenyat-2025-pulse-csf-fmri.qmd)
+
+## 接着读
+
+- [波长和脉冲怎么选？](questions/wavelength-pulse.qmd)
+- [研究发展史](history-tpbm-dose.qmd)
+
+[修改本专题](https://github.com/Jaycob-jh/cangjingge/edit/main/research/topic-pulse-duty.qmd)
