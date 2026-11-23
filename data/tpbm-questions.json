@@ -627,7 +627,8 @@
       "liu-2026-photothermal-fem",
       "tedford-2015-cadaver-attenuation",
       "chang-2025-individual-fluence",
-      "yang-2026-mouse-human-fluence"
+      "yang-2026-mouse-human-fluence",
+      "zhang-2025-incidence-sites"
     ],
     "evidence": [
       {
@@ -700,6 +701,16 @@
         "sources": [
           "f",
           "b"
+        ]
+      },
+      {
+        "study": "zhang-2025-incidence-sites",
+        "heading": "最深的位置与灰质入口光最多的位置可能不同",
+        "text": "表 2 中，810 nm 颞部灰质入口通量约为顶部的 250 倍；图 2 中额部的阈值穿透深度更大。两个指标不等价。与 Jagdeo 的离体透射比例比较前，需对齐头模/组织、光斑、入射角度、取样位置和分母，不能选出一个通用的最佳照射部位。",
+        "sources": [
+          "d",
+          "f",
+          "r"
         ]
       }
     ],

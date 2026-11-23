@@ -1,0 +1,63 @@
+---
+title: "照射位置换了，脑内收到的光还一样吗？"
+description: "从离体透射、年龄头模和四部位模拟，分清光学可达性与功能靶点。"
+date: 2026-11-23
+categories: [刺激参数与剂量]
+---
+
+选光刺激位置，要先问光能否、以及多少能到目标组织，再问该处与希望改变的功能有什么关系。这期用三个光传输原始研究看第一步，再用一项 fMRI 研究补上目标网络。
+
+过去 30 天的期刊、PubMed / Europe PMC 与 DOI 检索中，没有找到未讲过且紧扣本期问题的合格新研究。第三篇采用 2025-05-26 首发、2026 年 5 月卷期的近年研究补位，不作为最近上线研究。
+
+## 经典：直接测穿过组织的光
+
+[Jagdeo 等，2012：换个照射位置，透过组织的光相差多少？](../posts/jagdeo-2012-regional-transmission.qmd)
+
+两枚冠状切开颅骨，另一个保留软组织的矢状切开头部 · 正式开放全文，查看图 3 与表 2。
+
+带软组织的样本中，830 nm 透过颞、额、枕部的比例约为 0.9%、2.1%、11.7%。表 2 原读数是 0.30、0.71、3.90 mW/cm²，空气参照 33.3 mW/cm²。先核对分母、样本处理和测量几何，再谈哪个位置透过更多。
+
+[图 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-g003) · [表 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-t002)
+
+## 代表性模型：同一位置，年龄和目标区也会改变剂量
+
+[Yuan 等，2020：不同年龄头模的脑内剂量一样吗？](../posts/yuan-2020-age-source-dose.qmd)
+
+18 个年龄平均 MRI 模板，5–89 岁 · 正式全文，查看图 9。
+
+图 9 中，F3、F4 下方颅外组织厚度与 dlPFC 能量沉积对数值的拟合 R² 为 0.9208、0.9589；Fpz–vmPFC 为 0.2437。关系强弱随光源—目标区组合变化。它提示要保存解剖路径和靶区定义，而非按年龄套用一个剂量倍数。
+
+[图 9](https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#f9) · [图 8](https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#f8)
+
+## 近年研究补位：最深与入口光最多，不是同一个指标
+
+[Zhang 等，2025/2026：相同光源换位置，灰质入口的光能差多少？](../posts/zhang-2025-incidence-site-fluence.qmd)
+
+一个中国男性 VCH 头模；四部位×四波长 · 正式全文 14 页，查看图 2 和表 2，补充材料未读。
+
+在表 2 的 810 nm 条件下，灰质入口归一化通量以顶为 1，额、枕、颞约为 11、14、250；图 2 中额部按指定阈值计算的穿透更深。光源直径仅 0.2 cm，各部位入射方向有区别，不能把比值直接移作头盔功率配置。
+
+Jagdeo 的离体测量与这项模型给出的区域排序不同。两者的组织、光路和读数定义不一样，先把这些条件对齐，再检验模型能否重现实测。
+
+[原刊：图 2，第 1771 页；表 2，第 1773 页](https://doi.org/10.1016/j.acra.2025.04.076) · [参数与结果](../../library/tpbm/zhang-2025-incidence-sites.qmd)
+
+## fMRI：光能到某处，仍要问它连接哪张网络
+
+[Fox 等，2012：为什么选靶点还要看网络？](../posts/fox-2012-connectivity-based-targets.qmd)
+
+98 名健康人的静息态 fMRI，在 13 名抑郁患者中核查连接模式；另分析既有 27 名患者的靶点/结局 · 作者机构公开的 ARTICLE IN PRESS 排版全文，查看图 2。
+
+图 2 中，既有研究里较有效的 TMS 靶点与膝下扣带的负相关更强；两个位置比较标 p<0.005 与 p<5×10⁻⁸。纵轴是连接相关系数，不是治疗改善幅度。可以借鉴“先定义目标网络，再评估候选位置”的思路；这里的磁刺激效应不是光刺激效果。
+
+[图 2，公开 PDF 第 4 页](https://www.tmslab.org/tms%20articles%20connectivity/001.pdf#page=4)
+
+## 对实验设计有什么用
+
+1. 先确定目标组织/网络与主要终点，再比较照射位置。
+2. 固定并实测光源输出、光斑、接触距离和入射方向；保存头皮与目标区两个层级的光学量。
+3. 把深度、灰质入口通量、靶区平均值与覆盖率分别报告，保留归一化分母和单位。
+4. 用 fMRI 或 EEG 检验实际脑反应；光学预测、功能连接和行为变化分别统计。
+
+[波长与光穿透专题](../../research/topic-wavelength-penetration.qmd) · [剂量与疗程专题](../../research/topic-dose-course.qmd) · [光穿透问题页](../../research/questions/penetration.qmd) · [对比本期三篇](../../research/tpbm-compare.html?selected=jagdeo-2012,yuan-2020,zhang-2025-incidence-sites)
+
+[编辑本期](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/issues/2026-11-23-light-delivery-targets.qmd)

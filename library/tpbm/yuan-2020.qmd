@@ -37,6 +37,7 @@ Transcranial photobiomodulation with near-infrared light from childhood to elder
 
 - 在文中光学参数下，810 nm的目标区沉积较高，并随年龄和照射位置变化。（[图 6·波长和年龄](https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#f6)）
 - 颅外组织厚度与能量沉积存在关系。（[图 8–9·剂量与组织厚度](https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#f8)）
+- 图 9：810 nm 下，F3、F4 的颅外组织厚度与 dlPFC 平均能量沉积对数值的拟合 R² 分别为 0.9208、0.9589；Fpz–vmPFC 为 0.2437。是 18 个年龄平均模板的关系，不是个体临床反应预测。（[图 9｜颅外组织厚度与目标区能量沉积](https://pmc.ncbi.nlm.nih.gov/articles/PMC7039173/#f9)）
 
 ## 对实验设计有什么用
 

@@ -7,7 +7,7 @@
 ```{=html}
 <section class="topic-bibliography" aria-label="剂量与疗程相关论文">
 <label class="topic-search">查找本专题论文<input type="search" placeholder="题名、作者、年份或 DOI" data-topic-search></label>
-<p data-topic-count aria-live="polite">24 篇论文</p>
+<p data-topic-count aria-live="polite">25 篇论文</p>
 <div class="topic-papers">
 <article class="topic-paper">
 <h3><a href="https://doi.org/10.1117/1.apn.5.2.026010">EEG dynamic microstate patterns induced by pulsed wave transcranial photobiomodulation therapy</a></h3>
@@ -15,6 +15,14 @@
 <p class="topic-doi">10.1117/1.apn.5.2.026010</p>
 <p class="topic-paper-links">
 <a href="../library/record.html#paper-78ac822c5d8ba23b">查看书目</a> · <a href="../notes/posts/he-2026-pulse-eeg-microstates.html">论文笔记</a> · <a href="../library/tpbm/he-2026-pulse-eeg-microstates.html">参数与图表</a> · <a href="tpbm-compare.html?selected=he-2026-pulse-eeg-microstates">加入对比</a>
+</p>
+</article>
+<article class="topic-paper">
+<h3><a href="https://doi.org/10.1016/j.acra.2025.04.076">Effect of Incidence Sites on Light Distribution at Different Wavelengths During Transcranial Photobiomodulation</a></h3>
+<p>2026 · Bowen Zhang; Songqi Yang; Meihua Piao · Academic Radiology</p>
+<p class="topic-doi">10.1016/j.acra.2025.04.076</p>
+<p class="topic-paper-links">
+<a href="../library/record.html#paper-1b50fe080b9be52a">查看书目</a> · <a href="../notes/posts/zhang-2025-incidence-site-fluence.html">论文笔记</a> · <a href="../library/tpbm/zhang-2025-incidence-sites.html">参数与图表</a> · <a href="tpbm-compare.html?selected=zhang-2025-incidence-sites">加入对比</a>
 </p>
 </article>
 <article class="topic-paper">

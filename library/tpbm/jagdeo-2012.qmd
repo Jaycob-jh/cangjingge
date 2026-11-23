@@ -36,6 +36,7 @@ Transcranial Red and Near Infrared Light Transmission in a Cadaveric Model
 ## 结果怎么看
 
 - 830 nm光可测得穿过颅骨及带软组织的样本，633 nm透过更少；透射还随部位和软组织条件变化。（[图 2–3·区域透射比例](https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-g002)）
+- 表 2 / 图 3：带软组织的离体头部，830 nm 在颞、额、枕的透过辐照度分别为 0.30、0.71、3.90 mW/cm²；对应空气参照 33.3 mW/cm²，图示比例约 0.9%、2.1%、11.7%。（[表 1–2·入射参照和透射值](https://pmc.ncbi.nlm.nih.gov/articles/PMC3471828/#pone-0047460-t001)）
 
 ## 对实验设计有什么用
 
