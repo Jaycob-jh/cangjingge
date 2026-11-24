@@ -47,6 +47,7 @@
 - [Saltmarche · 2017：经颅加鼻内疗程结束后，认知评分怎样变化？](../library/tpbm/saltmarche-2017.qmd)
 - [Wang · 2017：照光后，代谢与血氧的时间曲线一样吗？](../library/tpbm/wang-2017-cco-hbo.qmd)
 - [Tian · 2016：照射额中与右额，双侧血氧怎样变化？](../library/tpbm/tian-2016.qmd)
+- [Xuan · 2016：多照几天，恢复就会更好吗？](../library/tpbm/xuan-2016-repeated-tbi.qmd)
 - [Cassano · 2015：早期抑郁试验怎样安排照射和假刺激？](../library/tpbm/cassano-2015.qmd)
 - [Tedford 等 · 2015：光穿过头皮和颅骨后，还会衰减多少？](../library/tpbm/tedford-2015-cadaver-attenuation.qmd)
 - [Barrett · 2013：早期人体研究怎样测注意和记忆？](../library/tpbm/barrett-2013.qmd)

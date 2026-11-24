@@ -30,7 +30,7 @@
 <p>2025 · Ta-Wei Guu; Paolo Cassano; Wan-Jing Li · Journal of Affective Disorders</p>
 <p class="topic-doi">10.1016/j.jad.2024.12.065</p>
 <p class="topic-paper-links">
-<a href="../library/record.html#paper-577cf7c3da355a65">查看书目</a>
+<a href="../library/record.html#paper-577cf7c3da355a65">查看书目</a> · <a href="../notes/posts/guu-2025-home-mdd-sleep.html">论文笔记</a>
 </p>
 </article>
 <article class="topic-paper">

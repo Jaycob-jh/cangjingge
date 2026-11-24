@@ -55,7 +55,7 @@
 <p>2025 · Ta-Wei Guu; Paolo Cassano; Wan-Jing Li · Journal of Affective Disorders</p>
 <p class="topic-doi">10.1016/j.jad.2024.12.065</p>
 <p class="topic-paper-links">
-<a href="../library/record.html#paper-577cf7c3da355a65">查看书目</a>
+<a href="../library/record.html#paper-577cf7c3da355a65">查看书目</a> · <a href="../notes/posts/guu-2025-home-mdd-sleep.html">论文笔记</a>
 </p>
 </article>
 <article class="topic-paper">
@@ -111,7 +111,7 @@
 <p>2022 · X. Qu; L. Li; X. Zhou · Neurophotonics</p>
 <p class="topic-doi">10.1117/1.nph.9.3.035005</p>
 <p class="topic-paper-links">
-<a href="../library/record.html#paper-bb2f16946908e838">查看书目</a> · <a href="../library/tpbm/qu-2022.html">参数与图表</a> · <a href="tpbm-compare.html?selected=qu-2022">加入对比</a>
+<a href="../library/record.html#paper-bb2f16946908e838">查看书目</a> · <a href="../notes/posts/qu-2022-seven-day-memory.html">论文笔记</a> · <a href="../library/tpbm/qu-2022.html">参数与图表</a> · <a href="tpbm-compare.html?selected=qu-2022">加入对比</a>
 </p>
 </article>
 <article class="topic-paper">
@@ -175,7 +175,7 @@
 <p>2016 · W. Xuan; L. Huang; M. R. Hamblin · J Biophotonics</p>
 <p class="topic-doi">10.1002/jbio.201500336</p>
 <p class="topic-paper-links">
-<a href="../library/record.html#paper-c675854c12e76963">查看书目</a>
+<a href="../library/record.html#paper-c675854c12e76963">查看书目</a> · <a href="../notes/posts/xuan-2016-three-fourteen-sessions.html">论文笔记</a> · <a href="../library/tpbm/xuan-2016-repeated-tbi.html">参数与图表</a> · <a href="tpbm-compare.html?selected=xuan-2016-repeated-tbi">加入对比</a>
 </p>
 </article>
 <article class="topic-paper">

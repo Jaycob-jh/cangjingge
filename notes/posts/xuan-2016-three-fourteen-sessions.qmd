@@ -1,0 +1,31 @@
+---
+title: "多照几天，恢复就会更好吗？"
+date: 2026-11-24
+categories: [经颅光刺激]
+---
+
+Xuan 等 · 2016-03-15 首发 · 2016 年 11–12 月卷期 · [DOI 10.1002/jbio.201500336](https://doi.org/10.1002/jbio.201500336)
+
+[回到本期](../issues/2026-11-24-repeat-dose-followup.qmd)
+
+研究对象 · 6–8 周雄性 BALB/c 脑外伤小鼠，行为队列每组 6 只。
+
+阅读范围 · PMC 公开作者稿全文文本、方法、结果与图 1–5 图注；未取得图像，不估读曲线均值。作者稿归档时间不是论文首发时间。
+
+## 怎么做
+
+固定每次 810 nm 连续光、25 mW/cm²、12 分钟、18 J/cm²，比较每天一次、连续 3 天与 14 天。首次伤后约 4 小时开始，随访到第 56 天。CCI 造模需开颅，之后骨蜡封闭并缝合，光路不能当作完整人颅骨条件。
+
+## 结果怎么读
+
+图 1 对应的结果段报告：第 2 周，14 次组的神经功能损害评分 NSS 比 3 次组更高（p<0.05）；到第 8 周，14 次组优于未照射损伤组，但仍差于 3 次组（两项 p<0.001）。NSS 越低越好。短期减益与后期恢复可以同时存在。
+
+[图 1 与结果 §3.1](https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#F1) · [照射方法 §2.3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Laser%20treatment)
+
+## 对实验设计有什么用
+
+同时比较单次参数、次数和间隔，并在停用后随访。它支持在该小鼠模型中检验“更多不一定更好”，不能据此给人体选三次疗程。GFAP 的并行变化是机制线索，不是已确立的原因。
+
+[剂量与疗程专题](../../research/topic-dose-course.qmd) · [研究参数与结果](../../library/tpbm/xuan-2016-repeated-tbi.qmd)
+
+[修改这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/xuan-2016-three-fourteen-sessions.qmd)

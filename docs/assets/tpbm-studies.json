@@ -746,6 +746,10 @@
         "r2": {
           "label": "图 3·三周随访",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#f3"
+        },
+        "analysis": {
+          "label": "方法 §2.5–2.7 / 图2｜分析人数与第1/7天比较",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.5"
         }
       },
       "fields": {
@@ -806,6 +810,10 @@
         {
           "text": "图3呈现相对基线的改善持续到三周随访。",
           "source": "r2"
+        },
+        {
+          "source": "analysis",
+          "text": "图2及正文：第7天相对第1天的1-back、3-back正确率比较 p=0.03、0.04；3-back反应时比较 p=0.25。主动组从基线61人减至第7天47人、第三周随访36人；图2主要比较t检验自由度为41，按完整数据与离群排除后分析。"
         }
       ],
       "interpretation": "主动组内时间点比较和独立假刺激组的检验应分别阅读；不能把练习与长期疗程效应自动等同。"
@@ -6090,6 +6098,108 @@
         }
       ],
       "interpretation": "分别比较光到达的深度、灰质入口通量和靶区覆盖，不用单个最高值代替全部目标。记录头模、位置、入射方向、光斑和归一化方式；要选择功能靶点，再结合目标网络和可验证的脑/行为终点。单头模的功率比不直接移作个体设备设置。"
+    },
+    {
+      "id": "xuan-2016-repeated-tbi",
+      "short": "Xuan · 2016",
+      "year": 2016,
+      "title": "Repeated transcranial low-level laser therapy for traumatic brain injury in mice: biphasic dose response and long-term treatment outcome",
+      "title_zh": "多照几天，恢复就会更好吗？",
+      "doi": "10.1002/jbio.201500336",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/",
+      "journal": "Journal of Biophotonics",
+      "kind": "动物研究",
+      "questions": [
+        "repeated-clinical"
+      ],
+      "measures": [
+        "行为",
+        "组织学"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "连续光",
+      "reading": "PMC 公开作者稿全文文本，方法、结果及图 1–5 图注；未取得图像，不从曲线估算均值；未读补充材料",
+      "sources": {
+        "d": {
+          "label": "方法 §2.1–2.2｜小鼠队列与CCI手术条件",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Materials%20and%20methods"
+        },
+        "p": {
+          "label": "方法 §2.3｜810 nm 参数及3/14次照射",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Laser%20treatment"
+        },
+        "r": {
+          "label": "图 1 / 结果 §3.1｜8周NSS，行为每组6只",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#F1"
+        },
+        "g": {
+          "label": "图 5 / 结果 §3.4｜GFAP在28与56天的变化",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#F5"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "6–8 周雄性 BALB/c 小鼠；方法列每组 24 只，行为队列每组 6 只；组织图另列 n=4",
+          "source": "d"
+        },
+        "design": {
+          "value": "CCI 脑外伤后比较 3 次、14 次每日照射、未照射损伤及假手术；随访 56 天",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "连续光",
+          "source": "p"
+        },
+        "target": {
+          "value": "剃毛头顶部；CCI 开颅后以骨蜡封闭、缝合皮肤，不是完整颅骨条件",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "25 mW/cm²；3.5 W 为设备最大输出，并非该实验实际照射功率",
+          "source": "p"
+        },
+        "spot": {
+          "value": "文中列 spot size 1 cm；前言称直径 1 cm",
+          "source": "p"
+        },
+        "duration": {
+          "value": "12 分钟/次；每天一次，连续 3 天或 14 天；首次伤后约 4 小时",
+          "source": "p"
+        },
+        "dose": {
+          "value": "18 J/cm²/次；与疗程次数分别记录",
+          "source": "p"
+        },
+        "control": {
+          "value": "假手术及损伤不照光组，其他操作相同",
+          "source": "p"
+        },
+        "readout": {
+          "value": "NSS、Morris 水迷宫、病灶面积与 GFAP 染色",
+          "source": "r"
+        },
+        "timing": {
+          "value": "每周 NSS 至 8 周；水迷宫伤后 21–27、49–55 天",
+          "source": "r"
+        }
+      },
+      "results": [
+        {
+          "source": "r",
+          "text": "结果 §3.1：第2周，14次组 NSS 高于3次组（p<0.05）；至第8周，14次组优于未照射损伤组（p<0.001），但仍差于3次组（p<0.001）。NSS越低表示功能损害越少，行为每组 n=6。"
+        },
+        {
+          "source": "g",
+          "text": "正文与图5图注：14次组在28天部分区域 GFAP/DAPI 比值更高，56天时回落。这是与行为轨迹并行的组织标记，不直接确立机制因果。"
+        }
+      ],
+      "interpretation": "比较疗程时固定每次参数，同时安排结束后随访。早期与晚期结果可能不同，不只用一个时点选次数；开颅CCI和小鼠条件不能直接换算人体疗程。"
     }
   ]
 }

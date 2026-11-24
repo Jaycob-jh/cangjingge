@@ -1,0 +1,49 @@
+---
+title: "多照几天，恢复就会更好吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Xuan · 2016 · 动物研究**
+
+Repeated transcranial low-level laser therapy for traumatic brain injury in mice: biphasic dose response and long-term treatment outcome
+
+*Journal of Biophotonics* · [DOI: 10.1002/jbio.201500336](https://doi.org/10.1002/jbio.201500336) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/)
+
+阅读范围：PMC 公开作者稿全文文本，方法、结果及图 1–5 图注；未取得图像，不从曲线估算均值；未读补充材料。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=xuan-2016-repeated-tbi) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>6–8 周雄性 BALB/c 小鼠；方法列每组 24 只，行为队列每组 6 只；组织图另列 n=4<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Materials%20and%20methods" target="_blank" rel="noopener">方法 §2.1–2.2｜小鼠队列与CCI手术条件</a></dd></div>
+<div><dt>研究设计</dt><dd>CCI 脑外伤后比较 3 次、14 次每日照射、未照射损伤及假手术；随访 56 天<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Materials%20and%20methods" target="_blank" rel="noopener">方法 §2.1–2.2｜小鼠队列与CCI手术条件</a></dd></div>
+<div><dt>波长</dt><dd>810 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Laser%20treatment" target="_blank" rel="noopener">方法 §2.3｜810 nm 参数及3/14次照射</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>连续光<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Laser%20treatment" target="_blank" rel="noopener">方法 §2.3｜810 nm 参数及3/14次照射</a></dd></div>
+<div><dt>照射位置</dt><dd>剃毛头顶部；CCI 开颅后以骨蜡封闭、缝合皮肤，不是完整颅骨条件<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Laser%20treatment" target="_blank" rel="noopener">方法 §2.3｜810 nm 参数及3/14次照射</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>25 mW/cm²；3.5 W 为设备最大输出，并非该实验实际照射功率<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Laser%20treatment" target="_blank" rel="noopener">方法 §2.3｜810 nm 参数及3/14次照射</a></dd></div>
+<div><dt>光斑</dt><dd>文中列 spot size 1 cm；前言称直径 1 cm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Laser%20treatment" target="_blank" rel="noopener">方法 §2.3｜810 nm 参数及3/14次照射</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>12 分钟/次；每天一次，连续 3 天或 14 天；首次伤后约 4 小时<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Laser%20treatment" target="_blank" rel="noopener">方法 §2.3｜810 nm 参数及3/14次照射</a></dd></div>
+<div><dt>剂量</dt><dd>18 J/cm²/次；与疗程次数分别记录<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Laser%20treatment" target="_blank" rel="noopener">方法 §2.3｜810 nm 参数及3/14次照射</a></dd></div>
+<div><dt>对照怎么做</dt><dd>假手术及损伤不照光组，其他操作相同<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Laser%20treatment" target="_blank" rel="noopener">方法 §2.3｜810 nm 参数及3/14次照射</a></dd></div>
+<div><dt>观察指标</dt><dd>NSS、Morris 水迷宫、病灶面积与 GFAP 染色<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#F1" target="_blank" rel="noopener">图 1 / 结果 §3.1｜8周NSS，行为每组6只</a></dd></div>
+<div><dt>测量时间</dt><dd>每周 NSS 至 8 周；水迷宫伤后 21–27、49–55 天<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#F1" target="_blank" rel="noopener">图 1 / 结果 §3.1｜8周NSS，行为每组6只</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 结果 §3.1：第2周，14次组 NSS 高于3次组（p<0.05）；至第8周，14次组优于未照射损伤组（p<0.001），但仍差于3次组（p<0.001）。NSS越低表示功能损害越少，行为每组 n=6。（[图 1 / 结果 §3.1｜8周NSS，行为每组6只](https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#F1)）
+- 正文与图5图注：14次组在28天部分区域 GFAP/DAPI 比值更高，56天时回落。这是与行为轨迹并行的组织标记，不直接确立机制因果。（[图 5 / 结果 §3.4｜GFAP在28与56天的变化](https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#F5)）
+
+## 对实验设计有什么用
+
+比较疗程时固定每次参数，同时安排结束后随访。早期与晚期结果可能不同，不只用一个时点选次数；开颅CCI和小鼠条件不能直接换算人体疗程。
+
+## 接着读
+
+- [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

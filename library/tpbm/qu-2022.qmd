@@ -37,6 +37,7 @@ Repeated transcranial photobiomodulation improves working memory of healthy olde
 
 - 主动组第7天部分任务指标优于单次后；3-back反应时缩短。（[图 2·单次与重复刺激](https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#f2)）
 - 图3呈现相对基线的改善持续到三周随访。（[图 3·三周随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#f3)）
+- 图2及正文：第7天相对第1天的1-back、3-back正确率比较 p=0.03、0.04；3-back反应时比较 p=0.25。主动组从基线61人减至第7天47人、第三周随访36人；图2主要比较t检验自由度为41，按完整数据与离群排除后分析。（[方法 §2.5–2.7 / 图2｜分析人数与第1/7天比较](https://pmc.ncbi.nlm.nih.gov/articles/PMC9514540/#sec2.5)）
 
 ## 对实验设计有什么用
 
