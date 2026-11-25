@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-25",
   "topics": [
     {
       "id": "01",
@@ -71733,6 +71733,29 @@
       ],
       "reading_status": "全文已读",
       "url": "https://doi.org/10.1117/1.apn.5.2.026010"
+    },
+    {
+      "id": "paper-3dc9cafea0808853",
+      "title": "Sensitivity to cutaneous warm stimuli varies greatly in the human head",
+      "authors": [
+        "Yung-Bin Kim",
+        "Dahee Jung",
+        "Joonhee Park",
+        "Joo-Young Lee"
+      ],
+      "year": 2017,
+      "doi": "10.1016/j.jtherbio.2017.07.005",
+      "journal": "Journal of Thermal Biology",
+      "volume": "69",
+      "pages": "132-138",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.06",
+        "02.09"
+      ],
+      "reading_status": "摘要已读",
+      "url": "https://doi.org/10.1016/j.jtherbio.2017.07.005"
     }
   ]
 }

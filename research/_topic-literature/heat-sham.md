@@ -7,7 +7,7 @@
 ```{=html}
 <section class="topic-bibliography" aria-label="热效应与假刺激相关论文">
 <label class="topic-search">查找本专题论文<input type="search" placeholder="题名、作者、年份或 DOI" data-topic-search></label>
-<p data-topic-count aria-live="polite">13 篇论文</p>
+<p data-topic-count aria-live="polite">14 篇论文</p>
 <div class="topic-papers">
 <article class="topic-paper">
 <h3><a href="https://doi.org/10.1016/j.neurom.2025.06.003">High-Resolution Computational Modeling of Transcranial Photobiomodulation: Light Propagation and Thermal Effects</a></h3>
@@ -96,6 +96,15 @@
 <p class="topic-paper-links">
 <a href="../library/record.html#paper-285cd0fa08c6dde9">查看书目</a> · <a href="../notes/posts/wang-2017-light-skin-heat-nirs.html">论文笔记</a> · <a href="../library/tpbm/wang-2017-heat.html">参数与图表</a> · <a href="tpbm-compare.html?selected=wang-2017-heat">加入对比</a>
 </p>
+</article>
+<article class="topic-paper">
+<h3><a href="https://doi.org/10.1016/j.jtherbio.2017.07.005">Sensitivity to cutaneous warm stimuli varies greatly in the human head</a></h3>
+<p>2017 · Yung-Bin Kim; Dahee Jung; Joonhee Park · Journal of Thermal Biology</p>
+<p class="topic-doi">10.1016/j.jtherbio.2017.07.005</p>
+<p class="topic-paper-links">
+<a href="../library/record.html#paper-3dc9cafea0808853">查看书目</a>
+</p>
+<p>人体温觉阈值参考：8名男性参与者接受头皮与前额温觉测试；不是光刺激实验，也不是热安全阈值。</p>
 </article>
 <article class="topic-paper">
 <h3><a href="https://doi.org/10.1117/1.nph.3.1.015001">Thermal impact of near-infrared laser in advanced noninvasive optical brain imaging</a></h3>
