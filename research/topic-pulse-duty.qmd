@@ -74,6 +74,12 @@ toc: true
 - [波长和脉冲怎么选？](questions/wavelength-pulse.qmd)
 - [研究发展史](history-tpbm-dose.qmd)
 
+### He · 2026：10 Hz 与连续光
+
+29 名健康成年人分别接受 980 nm 连续光、10 Hz 脉冲光及假刺激；连续光与脉冲光的平均输出相同。表 1 显示脉冲条件的微状态 C 持续时间变化更大；表 3 的 AUC 0.956 是三种刺激条件的分类结果。研究未安排注意行为任务。
+
+[论文笔记](../notes/posts/he-2026-pulse-eeg-microstates.qmd) · [参数与图表](../library/tpbm/he-2026-pulse-eeg-microstates.qmd) · [与 Arias 并排比较](tpbm-compare.html?selected=he-2026-pulse-eeg-microstates,arias-2026-theta-gamma-rats)
+
 {{< include _topic-literature/pulse-duty.md >}}
 
 [修改本专题](https://github.com/Jaycob-jh/cangjingge/edit/main/research/topic-pulse-duty.qmd)

@@ -25,3 +25,5 @@ Arias 等 · 2026-05-04 上线 · [DOI 10.1007/s11357-026-02278-9](https://doi.o
 把行为、细胞标记和脑电频率锁定列为不同终点。若要判断年龄是否改变频率效应，两个年龄层都应接受相同的频率条件与比较时程。
 
 [照射条件（方法）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Sec4) · [代谢与 c-Fos（图 2）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Fig2) · [老年组（图 6）](https://pmc.ncbi.nlm.nih.gov/articles/PMC13356192/#Fig6) · [研究对比卡](../../library/tpbm/arias-2026-theta-gamma-rats.qmd) · [编辑札记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/arias-2026-pulse-rat-cfos.qmd)
+
+[脉冲频率与占空比专题](../../research/topic-pulse-duty.qmd) · [加入对比](../../research/tpbm-compare.html?selected=arias-2026-theta-gamma-rats)

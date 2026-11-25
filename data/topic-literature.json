@@ -40,6 +40,10 @@
         },
         {
           "catalog_id": "paper-2b18497f0b9e73ce"
+        },
+        {
+          "catalog_id": "paper-4092f720308a3a3f",
+          "context": "人体皮肤测温参考：比较 810 与 904 nm 激光；照射部位不是头部，不作为经颅疗效研究。"
         }
       ]
     },
@@ -88,6 +92,14 @@
         },
         {
           "study_id": "yang-2026-mouse-human-fluence"
+        },
+        {
+          "catalog_id": "paper-88ee223f446114c0",
+          "context": "综述与观点：讨论头皮、颅骨和脑组织的光衰减，以及动物到人体的尺度差异。"
+        },
+        {
+          "catalog_id": "paper-19f38f0691c73b4b",
+          "context": "参数综述：汇总多种细胞和组织的波长、辐照度与剂量；不用于直接确定人体脑内阈值。"
         }
       ]
     },
@@ -122,6 +134,10 @@
         },
         {
           "catalog_id": "paper-78ac822c5d8ba23b"
+        },
+        {
+          "catalog_id": "paper-19f38f0691c73b4b",
+          "context": "参数综述：比较脉冲模式、功率、照射时间与重复次数；具体方案仍需回到对应原始实验。"
         }
       ]
     },
@@ -205,6 +221,10 @@
         },
         {
           "catalog_id": "paper-1b50fe080b9be52a"
+        },
+        {
+          "catalog_id": "paper-19f38f0691c73b4b",
+          "context": "参数综述：区分表面剂量和靶组织剂量，汇总有效与无效条件。"
         }
       ]
     },

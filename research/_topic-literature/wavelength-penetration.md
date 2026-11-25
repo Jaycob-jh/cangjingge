@@ -7,7 +7,7 @@
 ```{=html}
 <section class="topic-bibliography" aria-label="波长与光穿透相关论文">
 <label class="topic-search">查找本专题论文<input type="search" placeholder="题名、作者、年份或 DOI" data-topic-search></label>
-<p data-topic-count aria-live="polite">14 篇论文</p>
+<p data-topic-count aria-live="polite">16 篇论文</p>
 <div class="topic-papers">
 <article class="topic-paper">
 <h3><a href="https://doi.org/10.1002/brx2.70048">Bridging animal and human: a 3D computational framework of light propagation in head models for transcranial photobiomodulation in Alzheimer&#x27;s disease</a></h3>
@@ -50,6 +50,15 @@
 </p>
 </article>
 <article class="topic-paper">
+<h3><a href="https://doi.org/10.3389/fneur.2024.1398894">Can infrared light really be doing what we claim it is doing? Infrared light penetration principles, practices, and limitations</a></h3>
+<p>2024 · T. A. Henderson · Front Neurol</p>
+<p class="topic-doi">10.3389/fneur.2024.1398894</p>
+<p class="topic-paper-links">
+<a href="../library/record.html#paper-88ee223f446114c0">查看书目</a>
+</p>
+<p>综述与观点：讨论头皮、颅骨和脑组织的光衰减，以及动物到人体的尺度差异。</p>
+</article>
+<article class="topic-paper">
 <h3><a href="https://doi.org/10.1007/s10103-024-04024-z">Dosimetry in cranial photobiomodulation therapy: effect of cranial thickness and bone density</a></h3>
 <p>2024 · S. Castano-Castano; C. Zorzo; J. A. Martinez-Esteban · Lasers Med Sci</p>
 <p class="topic-doi">10.1007/s10103-024-04024-z</p>
@@ -88,6 +97,15 @@
 <p class="topic-paper-links">
 <a href="../library/record.html#paper-2d98023da269a860">查看书目</a>
 </p>
+</article>
+<article class="topic-paper">
+<h3><a href="https://doi.org/10.1117/1.jbo.23.12.120901">Review of light parameters and photobiomodulation efficacy: dive into complexity</a></h3>
+<p>2018 · R. Zein; W. Selting; M. R. Hamblin · J Biomed Opt</p>
+<p class="topic-doi">10.1117/1.jbo.23.12.120901</p>
+<p class="topic-paper-links">
+<a href="../library/record.html#paper-19f38f0691c73b4b">查看书目</a>
+</p>
+<p>参数综述：汇总多种细胞和组织的波长、辐照度与剂量；不用于直接确定人体脑内阈值。</p>
 </article>
 <article class="topic-paper">
 <h3><a href="https://doi.org/10.1117/1.jbo.20.8.088001">Monte Carlo analysis of the enhanced transcranial penetration using distributed near-infrared emitter array.</a></h3>

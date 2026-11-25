@@ -7,7 +7,7 @@
 ```{=html}
 <section class="topic-bibliography" aria-label="脉冲频率与占空比相关论文">
 <label class="topic-search">查找本专题论文<input type="search" placeholder="题名、作者、年份或 DOI" data-topic-search></label>
-<p data-topic-count aria-live="polite">9 篇论文</p>
+<p data-topic-count aria-live="polite">10 篇论文</p>
 <div class="topic-papers">
 <article class="topic-paper">
 <h3><a href="https://doi.org/10.1186/s12984-026-02122-3">A specific transcranial near-infrared stimulation parameter combination targeting the motor cortex improves cortical excitability and hemodynamics</a></h3>
@@ -73,6 +73,15 @@
 <p class="topic-paper-links">
 <a href="../library/record.html#paper-a1a42ae6efb39e79">查看书目</a> · <a href="../library/tpbm/zomorrodi-2019.html">参数与图表</a> · <a href="tpbm-compare.html?selected=zomorrodi-2019">加入对比</a>
 </p>
+</article>
+<article class="topic-paper">
+<h3><a href="https://doi.org/10.1117/1.jbo.23.12.120901">Review of light parameters and photobiomodulation efficacy: dive into complexity</a></h3>
+<p>2018 · R. Zein; W. Selting; M. R. Hamblin · J Biomed Opt</p>
+<p class="topic-doi">10.1117/1.jbo.23.12.120901</p>
+<p class="topic-paper-links">
+<a href="../library/record.html#paper-19f38f0691c73b4b">查看书目</a>
+</p>
+<p>参数综述：比较脉冲模式、功率、照射时间与重复次数；具体方案仍需回到对应原始实验。</p>
 </article>
 <article class="topic-paper">
 <h3><a href="https://doi.org/10.1371/journal.pone.0026212">Comparison of therapeutic effects between pulsed and continuous wave 810-nm wavelength laser irradiation for traumatic brain injury in mice</a></h3>
