@@ -33,6 +33,18 @@ Fz 校正后 δ 功率，主动组 46.44、假刺激组 80.33 μV²（p < 0.001�
 
 [研究参数与结果](../../library/tpbm/mehdizadeh-2025.qmd) · [期刊 PDF 第 4 页｜表 1](https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=4) · [期刊 PDF 第 5 页｜表 2](https://link.springer.com/content/pdf/10.1007/s10103-025-04699-y.pdf#page=5) · [期刊公开摘要](https://link.springer.com/article/10.1007/s10103-025-04699-y#Abs1)
 
+### Salehpour · 2018：睡眠剥夺中的记忆保护，没有测恢复睡眠
+
+72 h 剥夺期间同步照光，图 3 情景样记忆指数改善；没有睡眠 EEG，且原文光学数值口径待核。
+
+[研究参数与结果](../../library/tpbm/salehpour-2018-sleep-deprivation.qmd) · [方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件](https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment) · [图 2–3 / 结果 2.1–2.2｜Barnes 与情景样记忆](https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#F3)
+
+### Semyachkina-Glushkovskaya · 2023/2024：睡眠时照光：学习、示踪与图文冲突分开看
+
+图 3e 训练次数睡眠+光 7、清醒+光 11、无光 15；图 4d 分组标签与正文矛盾，物体位置记忆结果待澄清。状态比较也伴随不同时钟时间。
+
+[研究参数与结果](../../library/tpbm/semyachkina-2023-sleep-drainage.qmd) · [方法 2.4｜正式 PDF 第 7–8 页，单次与十天照射](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=7) · [图 3｜正式 PDF 第 6 页；结果第 10 页，训练次数](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=6) · [图 4d｜正式 PDF 第 8 页；与第 10 页正文分组标签不一致](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=8)
+
 ## 做实验时看什么
 
 - 提前约定主要睡眠终点，把主观量表、体动推算和脑电分期分别解释。
@@ -44,5 +56,7 @@ Fz 校正后 δ 功率，主动组 46.44、假刺激组 80.33 μV²（p < 0.001�
 - [Jung · 2026：额部近红外光能改善睡眠吗？](../../library/tpbm/jung-2026.qmd)
 - [Saltmarche · 2017：经颅加鼻内疗程结束后，认知评分怎样变化？](../../library/tpbm/saltmarche-2017.qmd)
 - [Mehdizadeh · 2025：慢性失眠患者照光后，清醒 δ 功率如何变化？](../../library/tpbm/mehdizadeh-2025.qmd)
+- [Salehpour · 2018：睡眠被剥夺时，照光能保住记忆吗？](../../library/tpbm/salehpour-2018-sleep-deprivation.qmd)
+- [Semyachkina-Glushkovskaya · 2023/2024：在睡眠和清醒时照光，学习和脑排液的变化一样吗？](../../library/tpbm/semyachkina-2023-sleep-drainage.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

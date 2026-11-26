@@ -1,0 +1,35 @@
+---
+title: "睡眠时照光，学习和脑排液的反应更强吗？"
+date: 2026-11-26
+categories: [经颅光刺激]
+---
+
+Semyachkina-Glushkovskaya 等 · 代表性原始研究 · 2023-12-05 首发，2024-01 卷期 · [DOI 10.1364/BOE.505618](https://doi.org/10.1364/BOE.505618) · [PMID 38223185](https://pubmed.ncbi.nlm.nih.gov/38223185/)
+
+研究对象 · 健康雄性 C57BL/6 小鼠。学习 n=8/组，示踪和物体位置任务 n=7/组，不把不同实验的样本合并。
+
+阅读范围 · 正式版全文15页，方法、结果和讨论；实际查看图2–4。补充材料未读。以下页码指 PDF 物理页。
+
+## 怎么做
+
+两通道 EEG 检测状态，LED 固定在顶骨附近的颅骨垫圈上。1050 nm、1 kHz PWM；方法用2%占空比说明平均10 mW/cm²、每17分钟约10 J/cm²的颅骨表面剂量。一次流程为三段17分钟照光，中间各停5分钟，共61分钟、30 J/cm²；学习实验连续10天。[方法，PDF第3–4、7–8页](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=3)
+
+这套装置有植入 EEG 和颅骨固定结构，不能直接当成人体完整头皮外照的方案。
+
+## 关键图表怎么读
+
+**图2：荧光示踪终点不同于实时排液速度。** 正文报告睡眠加光与清醒加光的深颈淋巴结荧光分别为2.11±0.05和1.66±0.09 a.u.，两条件比较 p=0.00105。取材发生在示踪剂注入后3小时；读数反映该时点的示踪分布，不是直接测得每分钟排出量。[图2，第5页；结果第9页](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=5)
+
+**图3e：达到训练标准的次数更少。** 正文报告无光15次、清醒加光11次、睡眠加光7次；两照光条件直接比较 p=0.009736。这是特定联想学习任务的训练次数，不是普遍记忆能力的百分比增幅。[图3，第6页；正文第10页](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=6)
+
+**图4d存在图文分组差异。** 图上从左到右标为对照、清醒加光、睡眠加光，显著性括号连接对照与清醒加光；正文却把显著比较写成睡眠加光（p=0.002117），清醒加光 p=0.140801。网站不替作者交换标签，这一物体位置记忆结果单列待澄清。[图4，第8页；正文第10页](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=8)
+
+## 对实验设计有什么用
+
+睡眠时给予干预，与干预使睡眠变好，是两个问题。研究的状态条件还伴随不同的时钟时间；EEG 检测到 NREM 后触发17分钟照光，也不等于整段照射都处在 NREM。复现时应保存实际状态轨迹、光开关时序和总剂量，并控制昼夜时相。
+
+示踪与学习实验提供两类证据，但没有直接证明“排液增加导致记忆改善”。
+
+[睡眠专题](../../research/topic-sleep-light.qmd) · [脉冲与占空比](../../research/topic-pulse-duty.qmd) · [研究参数与结果](../../library/tpbm/semyachkina-2023-sleep-drainage.qmd) · [睡眠问题页](../../research/questions/sleep-homeostasis.qmd)
+
+[回到本期](../issues/2026-11-26-sleep-memory-pathways.qmd) · [修改这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/semyachkina-2023-sleep-drainage-memory.qmd)

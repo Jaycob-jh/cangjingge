@@ -1,0 +1,35 @@
+---
+title: "光刺激后记忆变好，怎样判断是否与睡眠有关？"
+date: 2026-11-26
+categories: [认知与睡眠]
+---
+
+记忆改善、睡眠改善、在睡眠中给予干预，是三件不同的事。本期用三种动物实验和一篇人体任务fMRI研究，比较它们各自能回答什么。
+
+## 四篇论文，四个比较
+
+| 论文 | 比较什么 | 关键读数 |
+|---|---|---|
+| [Salehpour 2018](../posts/salehpour-2018-sleep-deprivation-memory.qmd)，早期研究 | 72 h睡眠剥夺，有光/无光 | 情景样记忆辨别指数 −0.15 与 +0.18；没有恢复睡眠测量 |
+| [睡眠与清醒对比（2023/2024）](../posts/semyachkina-2023-sleep-drainage-memory.qmd)，代表研究 | 睡眠时照光/清醒时照光 | 达到训练标准7与11次；示踪与学习分开评价 |
+| [Athari 2026](../posts/athari-2026-dose-synaptic-memory.qmd)，11月24日新文 | Aβ模型三种估算皮层剂量 | 8 J/cm²条件出现记忆与突触指标变化；没有睡眠终点 |
+| [Gujar 2010](../posts/gujar-2010-sleep-default-deactivation.qmd)，fMRI方法参照 | 缺觉/正常睡眠，记住/遗忘试次 | 默认网络任务去激活的方向和幅度，不是静息连接强度 |
+
+## 先看这处原文差异
+
+Semyachkina-Glushkovskaya等的物体位置任务，图4d分组标签与正文显著性比较不一致。网站保留两处原文定位，将这一结果列为待澄清；不把它写成已确认的“睡眠时照光记忆更好”。图3的训练次数和图2的示踪仍可分别讨论。[查看核对说明](../posts/semyachkina-2023-sleep-drainage-memory.qmd)
+
+## 对实验设计有什么用
+
+- **要检验睡眠介导，就必须测睡眠。** 睡眠剥夺中记忆损失减少，并不自动说明夜间睡眠增加。
+- **状态和时钟时间分开控制。** 保存光照实际发生在哪些睡眠阶段、累计多久；启动时处于NREM不等于整段都在NREM。
+- **同一行为终点连接脑指标。** 借鉴Gujar的任务设计，区分后来记住与遗忘的试次，而不只比较平均脑信号。
+- **剂量先统一测量面。** Athari的8/16/32 J/cm²是估算皮层剂量，表面入射是26.7/53.3/106.7 J/cm²。Salehpour的原文数值保留待核，不能直接拼进统一剂量曲线。
+
+本期三篇光刺激论文均取得可读全文，新增研究卡；其中两篇保留参数口径或图文冲突标记。最新研究在近30天内，于2026-11-24正式上线，不使用旧文补位。
+
+[并排对比三篇](../../research/tpbm-compare.html?selected=salehpour-2018-sleep-deprivation,semyachkina-2023-sleep-drainage,athari-2026-dose-synaptic-memory){.btn .btn-primary}
+
+[睡眠专题](../../research/topic-sleep-light.qmd) · [剂量与疗程](../../research/topic-dose-course.qmd) · [脉冲频率与占空比](../../research/topic-pulse-duty.qmd) · [睡眠问题页](../../research/questions/sleep-homeostasis.qmd) · [认知问题页](../../research/questions/cognition.qmd)
+
+[修改本期](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/issues/2026-11-26-sleep-memory-pathways.qmd)

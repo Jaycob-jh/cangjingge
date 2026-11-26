@@ -1,0 +1,52 @@
+---
+title: "睡眠被剥夺时，照光能保住记忆吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Salehpour · 2018 · 动物研究**
+
+Transcranial near-infrared photobiomodulation attenuates memory impairment and hippocampal oxidative stress in sleep-deprived mice
+
+*Brain Res* · [DOI: 10.1016/j.brainres.2017.12.040](https://doi.org/10.1016/j.brainres.2017.12.040) · [阅读全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/)
+
+阅读范围：PMC 公开作者稿全文文本和全部图注；读取方法 4.1–4.3、结果 2.1–2.7；未取得原图，不估读柱高。2018-01-04 首发，2018-03 卷期。。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=salehpour-2018-sleep-deprivation) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>成年雄性 BALB/c 小鼠 40 只，四组各 10 只；28–30 g<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment" target="_blank" rel="noopener">方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件</a></dd></div>
+<div><dt>研究设计</dt><dd>正常饲养、宽平台、睡眠剥夺、睡眠剥夺+光；结果评估者不知分组<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment" target="_blank" rel="noopener">方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件</a></dd></div>
+<div><dt>波长</dt><dd>810 nm<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment" target="_blank" rel="noopener">方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>10 Hz 脉冲，88% 占空比<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment" target="_blank" rel="noopener">方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件</a></dd></div>
+<div><dt>照射位置</dt><dd>剃毛头顶部正中，眼与耳之间，手持固定<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment" target="_blank" rel="noopener">方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>原文 200 mW 输出与 4.75 W/cm²；与面积/时长口径不完全一致，未作互算<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment" target="_blank" rel="noopener">方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件</a></dd></div>
+<div><dt>光斑</dt><dd>原文 0.03 cm²<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment" target="_blank" rel="noopener">方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>5 秒/次，每天 12:00 一次，连续 3 天<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment" target="_blank" rel="noopener">方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件</a></dd></div>
+<div><dt>剂量</dt><dd>原文称皮层表面平均 8 J/cm²/次；与其他光学数值的换算关系待核<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment" target="_blank" rel="noopener">方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件</a></dd></div>
+<div><dt>对照怎么做</dt><dd>宽平台与剥夺组同样取出、固定，设备不出光；无匹配加热组<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment" target="_blank" rel="noopener">方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件</a></dd></div>
+<div><dt>观察指标</dt><dd>Barnes 迷宫、What-Where-Which 辨别指数；海马 MTG、ROS、MDA、SOD、GPx、TAC；没有睡眠 EEG<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#F3" target="_blank" rel="noopener">图 2–3 / 结果 2.1–2.2｜Barnes 与情景样记忆</a></dd></div>
+<div><dt>测量时间</dt><dd>72 h 剥夺期间同步照光；随后行为与海马取材，不是先证实恢复睡眠再测记忆<br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment" target="_blank" rel="noopener">方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 图 3 / 结果 2.2：情景样记忆辨别指数，睡眠剥夺 −0.15±0.05，剥夺+光 +0.18±0.06，正常 +0.32±0.06；光与剥夺组比较 p<0.01。（[图 2–3 / 结果 2.1–2.2｜Barnes 与情景样记忆](https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#F3)）
+- 图 2B：剥夺+光组探测试次目标象限停留时间高于剥夺组，p<0.01。（[图 2B / 结果 2.1.2｜探测试次目标象限时间](https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#F2)）
+- 图 5：海马 ROS 在剥夺+光组低于剥夺组，p<0.05；组织指标与行为同时变化，不是睡眠恢复的证据。（[图 4–6 / 结果 2.3–2.7｜线粒体、ROS 与抗氧化指标](https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#F5)）
+
+## 对实验设计有什么用
+
+支持睡眠剥夺条件下的记忆和组织指标变化；没有 EEG 或恢复睡眠测量，不能据此把记忆保护归因于睡得更多。光学参数按原文保留，剂量关系待核。
+
+## 接着读
+
+- [波长和脉冲怎么选？](../../research/questions/wavelength-pulse.qmd)
+- [注意与记忆改善，应该看哪些指标？](../../research/questions/cognition.qmd)
+- [光刺激后，主观睡眠与脑电指标是否同步变化？](../../research/questions/sleep-homeostasis.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

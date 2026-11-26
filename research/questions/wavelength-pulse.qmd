@@ -63,6 +63,24 @@ toc: true
 
 [研究参数与结果](../../library/tpbm/he-2026-pulse-eeg-microstates.qmd) · [图 1｜预印本 PDF 第 5 页，波形与平均剂量](https://arxiv.org/pdf/2510.21265#page=5) · [图 4 / 表 I｜预印本 PDF 第 10–11 页，微状态持续时间](https://arxiv.org/pdf/2510.21265#page=11)
 
+### Salehpour · 2018：睡眠剥夺中的记忆保护，没有测恢复睡眠
+
+72 h 剥夺期间同步照光，图 3 情景样记忆指数改善；没有睡眠 EEG，且原文光学数值口径待核。
+
+[研究参数与结果](../../library/tpbm/salehpour-2018-sleep-deprivation.qmd) · [方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件](https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment) · [图 2–3 / 结果 2.1–2.2｜Barnes 与情景样记忆](https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#F3)
+
+### Semyachkina-Glushkovskaya · 2023/2024：睡眠时照光：学习、示踪与图文冲突分开看
+
+图 3e 训练次数睡眠+光 7、清醒+光 11、无光 15；图 4d 分组标签与正文矛盾，物体位置记忆结果待澄清。状态比较也伴随不同时钟时间。
+
+[研究参数与结果](../../library/tpbm/semyachkina-2023-sleep-drainage.qmd) · [方法 2.4｜正式 PDF 第 7–8 页，单次与十天照射](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=7) · [图 3｜正式 PDF 第 6 页；结果第 10 页，训练次数](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=6) · [图 4d｜正式 PDF 第 8 页；与第 10 页正文分组标签不一致](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=8)
+
+### Athari · 2026：剂量分层与睡眠机制是两个问题
+
+图 2 的 8 J/cm² 条件观察到记忆改善，标签指估算皮层而非表面剂量；研究没有测睡眠。图 5 LTP 和图 6 急性挑战不是同一终点。
+
+[研究参数与结果](../../library/tpbm/athari-2026-dose-synaptic-memory.qmd) · [tPBM 方法｜正式 PDF 第 3–4 页，入射与估算皮层剂量](https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3) · [图 2｜正式 PDF 第 6 页，行为与三种剂量](https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=6) · [图 5｜正式 PDF 第 9 页，fEPSP/LTP](https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=9) · [单单位方法 / 图 6｜正式 PDF 第 5、10 页，急性挑战](https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=5)
+
 ## 做实验时看什么
 
 - 波长、波形、峰值功率、平均功率、占空比和总能量分别记录；只写“40 Hz”不够。
@@ -81,5 +99,8 @@ toc: true
 - [Motsenyat · 2025：人体 fMRI 中，40 Hz 会带来更大的脑脊液信号吗？](../../library/tpbm/motsenyat-2025-pulse-csf.qmd)
 - [Arias · 2026：5 Hz 和 40 Hz 会在同一脑区留下相同的细胞反应吗？](../../library/tpbm/arias-2026-theta-gamma-rats.qmd)
 - [He · 2026：平均剂量相同时，10 Hz 脉冲与连续光的脑电反应一样吗？](../../library/tpbm/he-2026-pulse-eeg-microstates.qmd)
+- [Salehpour · 2018：睡眠被剥夺时，照光能保住记忆吗？](../../library/tpbm/salehpour-2018-sleep-deprivation.qmd)
+- [Semyachkina-Glushkovskaya · 2023/2024：在睡眠和清醒时照光，学习和脑排液的变化一样吗？](../../library/tpbm/semyachkina-2023-sleep-drainage.qmd)
+- [Athari · 2026：记忆和突触反应改善时，剂量越高越好吗？](../../library/tpbm/athari-2026-dose-synaptic-memory.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

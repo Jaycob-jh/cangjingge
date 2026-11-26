@@ -71756,6 +71756,72 @@
       ],
       "reading_status": "摘要已读",
       "url": "https://doi.org/10.1016/j.jtherbio.2017.07.005"
+    },
+    {
+      "id": "paper-8965439d0ad1d212",
+      "title": "Near-infrared transcranial photobiomodulation reduces cognitive deficits in rat model of Alzheimer’s disease: the possible role of synaptic plasticity and neurotrophic factors",
+      "authors": [
+        "Seyed Zanyar Athari",
+        "Narmin Farazi",
+        "Freshteh Farajdokht",
+        "Javad Mahmoudi",
+        "Leila Hosseini",
+        "Fatemehsadat Seyedaghamiri",
+        "Mohammad Farzipour",
+        "Neda Nayebzadeh",
+        "Nasrin Farhadi",
+        "Fatemeh Deldar",
+        "Maedeh Alipour",
+        "Saeed Sadigh-Eteghad"
+      ],
+      "year": 2026,
+      "doi": "10.1007/s10103-026-05108-8",
+      "journal": "Lasers in Medical Science",
+      "volume": "41",
+      "issue": "1",
+      "pages": "307",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06",
+        "04",
+        "04.01",
+        "05",
+        "05.03",
+        "07",
+        "07.06"
+      ],
+      "reading_status": "精读已整理",
+      "summary": "810 nm 三种估算皮层剂量比较；记忆、突触蛋白与 LTP，不含睡眠终点。",
+      "url": "https://doi.org/10.1007/s10103-026-05108-8"
+    },
+    {
+      "id": "paper-165a8edd3121542c",
+      "title": "The Unrested Resting Brain: Sleep Deprivation Alters Activity within the Default-mode Network",
+      "authors": [
+        "Ninad Gujar",
+        "Seung-Schik Yoo",
+        "Peter Hu",
+        "Matthew P. Walker"
+      ],
+      "year": 2010,
+      "doi": "10.1162/jocn.2009.21331",
+      "journal": "Journal of Cognitive Neuroscience",
+      "volume": "22",
+      "issue": "8",
+      "pages": "1637-1648",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "01.08",
+        "06",
+        "07",
+        "07.03"
+      ],
+      "reading_status": "精读已整理",
+      "summary": "睡眠剥夺后的任务诱发默认网络去激活，按记住与遗忘试次分开分析。",
+      "url": "https://doi.org/10.1162/jocn.2009.21331"
     }
   ]
 }

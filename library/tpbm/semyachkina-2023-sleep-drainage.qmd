@@ -1,0 +1,52 @@
+---
+title: "在睡眠和清醒时照光，学习和脑排液的变化一样吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Semyachkina-Glushkovskaya · 2023/2024 · 动物研究**
+
+Technology of the photobiostimulation of the brain's drainage system during sleep for improvement of learning and memory in male mice
+
+*Biomed Opt Express* · [DOI: 10.1364/boe.505618](https://doi.org/10.1364/boe.505618) · [阅读全文](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true)
+
+阅读范围：期刊正式版全文 15 页，方法、结果和讨论；实际查看图 2–4；未读补充材料。2023-12-05 首发，2024-01 卷期。。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=semyachkina-2023-sleep-drainage) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>雄性 C57BL/6 小鼠，3 月龄、25–28 g；示踪与物体位置各 n=7/组，学习 n=8/组<br><a href="https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=3" target="_blank" rel="noopener">方法 2.1–2.2｜正式 PDF 第 3–4 页，EEG 触发与光源</a></dd></div>
+<div><dt>研究设计</dt><dd>EEG 监测清醒/深睡，设置无 PBM 与 PBM 条件；学习和示踪为不同实验终点<br><a href="https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=3" target="_blank" rel="noopener">方法 2.1–2.2｜正式 PDF 第 3–4 页，EEG 触发与光源</a></dd></div>
+<div><dt>波长</dt><dd>1050 nm LED<br><a href="https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=3" target="_blank" rel="noopener">方法 2.1–2.2｜正式 PDF 第 3–4 页，EEG 触发与光源</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>1 kHz PWM；方法以 2% 占空比说明平均辐照度与剂量<br><a href="https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=3" target="_blank" rel="noopener">方法 2.1–2.2｜正式 PDF 第 3–4 页，EEG 触发与光源</a></dd></div>
+<div><dt>照射位置</dt><dd>顶骨/顶间骨区域，LED 磁吸固定于颅骨垫圈；有 EEG 植入，不是完整头皮外照模型<br><a href="https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=7" target="_blank" rel="noopener">方法 2.4｜正式 PDF 第 7–8 页，单次与十天照射</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>LED 输出 50 mW；连续输出参考 500 mW/cm²；2% PWM 对应平均约 10 mW/cm²，均为颅骨表面口径<br><a href="https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=3" target="_blank" rel="noopener">方法 2.1–2.2｜正式 PDF 第 3–4 页，EEG 触发与光源</a></dd></div>
+<div><dt>光斑</dt><dd>3.5 mm 孔径，原文面积约 0.1 cm²<br><a href="https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=3" target="_blank" rel="noopener">方法 2.1–2.2｜正式 PDF 第 3–4 页，EEG 触发与光源</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>单次流程 61 分钟：17 分钟出光×3，中间两次各停 5 分钟；疗程每日一次共 10 天<br><a href="https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=7" target="_blank" rel="noopener">方法 2.4｜正式 PDF 第 7–8 页，单次与十天照射</a></dd></div>
+<div><dt>剂量</dt><dd>每个 17 分钟约 10 J/cm²；单次 30 J/cm²，十天总计 0.3 kJ/cm²，颅骨表面<br><a href="https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=7" target="_blank" rel="noopener">方法 2.4｜正式 PDF 第 7–8 页，单次与十天照射</a></dd></div>
+<div><dt>对照怎么做</dt><dd>无出光睡眠/清醒条件；示踪开始时刻分别约 20:00 与 08:00<br><a href="https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=7" target="_blank" rel="noopener">方法 2.4｜正式 PDF 第 7–8 页，单次与十天照射</a></dd></div>
+<div><dt>观察指标</dt><dd>脑表面与深颈淋巴结 FITC-dextran 荧光；PIT 学习及物体位置任务；EEG 用于检测状态<br><a href="https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=5" target="_blank" rel="noopener">图 2｜正式 PDF 第 5 页；结果第 9 页，示踪荧光</a></dd></div>
+<div><dt>测量时间</dt><dd>示踪注入后 3 h 取材；30 s 窗内至少 6 s 判为 NREM 后触发 17 分钟照光，未证明整段持续处于 NREM<br><a href="https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=7" target="_blank" rel="noopener">方法 2.4｜正式 PDF 第 7–8 页，单次与十天照射</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 图 2、结果 3.1：深颈淋巴结荧光，睡眠+PBM 2.11±0.05，清醒+PBM 1.66±0.09 a.u.，正文直接比较 p=0.00105；这是示踪终点，不是排液速率的直接测量。（[图 2｜正式 PDF 第 5 页；结果第 9 页，示踪荧光](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=5)）
+- 图 3e：达到训练标准，正文报告无光 15、清醒+光 11、睡眠+光 7 次训练；两 PBM 条件直接比较 p=0.009736，学习实验 n=8/组。（[图 3｜正式 PDF 第 6 页；结果第 10 页，训练次数](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=6)）
+- 图 4d 横轴和显著性括号显示清醒+PBM 与对照差异，而正文第 10 页把显著比较写为睡眠+PBM（p=0.002117）；不自行交换标签，该物体位置记忆结果待澄清。（[图 4d｜正式 PDF 第 8 页；与第 10 页正文分组标签不一致](https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=8)）
+
+## 对实验设计有什么用
+
+睡眠状态可能影响光刺激反应，但状态、时钟时间和光后睡眠变化应分别设计对照。图 3 的学习与图 2 的示踪可分别讨论，不能合并为排液导致记忆改善；图 4 存在图文标签冲突。
+
+## 接着读
+
+- [波长和脉冲怎么选？](../../research/questions/wavelength-pulse.qmd)
+- [注意与记忆改善，应该看哪些指标？](../../research/questions/cognition.qmd)
+- [光刺激后，主观睡眠与脑电指标是否同步变化？](../../research/questions/sleep-homeostasis.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

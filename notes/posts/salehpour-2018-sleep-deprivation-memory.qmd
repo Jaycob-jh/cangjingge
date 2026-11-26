@@ -1,0 +1,33 @@
+---
+title: "睡眠被剥夺时，照光能保住记忆吗？"
+date: 2026-11-26
+categories: [经颅光刺激]
+---
+
+Salehpour 等 · 早期原始研究 · 2018-01-04 首发，2018-03 卷期 · [DOI 10.1016/j.brainres.2017.12.040](https://doi.org/10.1016/j.brainres.2017.12.040) · [PMID 29307593](https://pubmed.ncbi.nlm.nih.gov/29307593/)
+
+研究对象 · 40 只成年雄性 BALB/c 小鼠，四组各 10 只。
+
+阅读范围 · PMC 公开作者稿的全文文本和全部图注，重点核对方法 4.1–4.3、结果 2.1–2.7。未取得原图，下面数值来自正文，不估读柱高。
+
+## 怎么做
+
+正常饲养、宽平台、睡眠剥夺、睡眠剥夺加照光四组进行比较。宽平台让小鼠处于相似的水槽环境，但能在平台上睡觉，用于区分部分环境影响。
+
+剥夺持续 72 小时，期间每天中午照射一次，共三次：810 nm、10 Hz、88% 占空比，每次 5 秒。设备不出光的组也接受相同取出和固定操作。随后用 Barnes 迷宫与 What-Where-Which 任务测记忆，并检测海马氧化应激。[方法 4.1–4.3](https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment)
+
+## 图表怎么读
+
+**图 3：看照光能否减轻剥夺造成的损失。** 正文报告情景样记忆辨别指数：正常组 +0.32±0.06，剥夺组 −0.15±0.05，剥夺加光组 +0.18±0.06；后两组比较 p<0.01。指数是新、旧对象探索时间之差除以二者之和，不能把 +0.18 写成“记忆提高18%”。[图 3 / 结果 2.2](https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#F3)
+
+**图 2B 与图 5：行为和组织指标分开报告。** 剥夺加光组在目标象限停留更久（p<0.01），海马 ROS 更低（p<0.05）。两种结果共同支持进一步研究，但没有证明其中一个介导另一个。[图 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#F2) · [图 5](https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#F5)
+
+## 对实验设计有什么用
+
+本实验没有 EEG 或恢复睡眠测量，回答的是剥夺条件下的记忆保护。若要检验“先改善睡眠，再改善记忆”，应增加照光后睡眠记录，并固定记忆任务相对睡眠的时间。
+
+原文把 200 mW、4.75 W/cm²、0.03 cm²、5 秒和“皮层表面8 J/cm²”并列报告，口径不能直接互算。对比台保留这些原值及待核说明，不生成一个看似精确的新剂量。
+
+[睡眠专题](../../research/topic-sleep-light.qmd) · [剂量与疗程](../../research/topic-dose-course.qmd) · [参数与原文](../../library/tpbm/salehpour-2018-sleep-deprivation.qmd) · [睡眠问题页](../../research/questions/sleep-homeostasis.qmd)
+
+[回到本期](../issues/2026-11-26-sleep-memory-pathways.qmd) · [修改这篇笔记](https://github.com/Jaycob-jh/cangjingge/edit/main/notes/posts/salehpour-2018-sleep-deprivation-memory.qmd)

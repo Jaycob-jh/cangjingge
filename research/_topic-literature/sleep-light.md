@@ -7,7 +7,7 @@
 ```{=html}
 <section class="topic-bibliography" aria-label="睡眠与光刺激相关论文">
 <label class="topic-search">查找本专题论文<input type="search" placeholder="题名、作者、年份或 DOI" data-topic-search></label>
-<p data-topic-count aria-live="polite">10 篇论文</p>
+<p data-topic-count aria-live="polite">11 篇论文</p>
 <div class="topic-papers">
 <article class="topic-paper">
 <h3><a href="https://doi.org/10.1007/s10103-026-04913-5">Photobiomodulation and sleep quality: systematic review and meta-analysis</a></h3>
@@ -50,6 +50,15 @@
 </p>
 </article>
 <article class="topic-paper">
+<h3><a href="https://doi.org/10.1364/boe.505618">Technology of the photobiostimulation of the brain&#x27;s drainage system during sleep for improvement of learning and memory in male mice</a></h3>
+<p>2024 · O. Semyachkina-Glushkovskaya; I. Fedosov; A. Zaikin · Biomed Opt Express</p>
+<p class="topic-doi">10.1364/boe.505618</p>
+<p class="topic-paper-links">
+<a href="../library/record.html#paper-67fd4f6e1e9530c2">查看书目</a> · <a href="../notes/posts/semyachkina-2023-sleep-drainage-memory.html">论文笔记</a> · <a href="../library/tpbm/semyachkina-2023-sleep-drainage.html">参数与图表</a> · <a href="tpbm-compare.html?selected=semyachkina-2023-sleep-drainage">加入对比</a>
+</p>
+<p>睡眠/清醒状态比较；图 4d 与正文分组不一致，物体位置记忆结论待澄清。</p>
+</article>
+<article class="topic-paper">
 <h3><a href="https://doi.org/10.3390/ijms24043221">Brain Waste Removal System and Sleep: Photobiomodulation as an Innovative Strategy for Night Therapy of Brain Diseases</a></h3>
 <p>2023 · Oxana Semyachkina-Glushkovskaya; Ivan Fedosov; Thomas Penzel · International Journal of Molecular Sciences</p>
 <p class="topic-doi">10.3390/ijms24043221</p>
@@ -78,7 +87,7 @@
 <p>2018 · F. Salehpour; F. Farajdokht; M. Erfani · Brain Res</p>
 <p class="topic-doi">10.1016/j.brainres.2017.12.040</p>
 <p class="topic-paper-links">
-<a href="../library/record.html#paper-4bb6d6b17fc2259f">查看书目</a>
+<a href="../library/record.html#paper-4bb6d6b17fc2259f">查看书目</a> · <a href="../notes/posts/salehpour-2018-sleep-deprivation-memory.html">论文笔记</a> · <a href="../library/tpbm/salehpour-2018-sleep-deprivation.html">参数与图表</a> · <a href="tpbm-compare.html?selected=salehpour-2018-sleep-deprivation">加入对比</a>
 </p>
 </article>
 <article class="topic-paper">

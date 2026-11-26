@@ -1,0 +1,52 @@
+---
+title: "记忆和突触反应改善时，剂量越高越好吗？"
+toc: true
+css: ../../assets/tpbm-study.css
+---
+
+**Athari · 2026 · 动物研究**
+
+Near-infrared transcranial photobiomodulation reduces cognitive deficits in rat model of Alzheimer’s disease: the possible role of synaptic plasticity and neurotrophic factors
+
+*Lasers in Medical Science* · [DOI: 10.1007/s10103-026-05108-8](https://doi.org/10.1007/s10103-026-05108-8) · [阅读全文](https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf)
+
+阅读范围：期刊正式版全文 14 页，方法、结果和讨论；实际查看图 2、图 5，核对分终点样本量；补充材料未读。2026-11-24 首发。。
+
+[加入研究对比](../../research/tpbm-compare.html?selected=athari-2026-dose-synaptic-memory) · [按问题读](../../research/tpbm-questions.qmd)
+
+## 怎么做
+
+```{=html}
+<dl class="tp-study-fields">
+<div><dt>研究对象</dt><dd>雄性 Wistar 大鼠；方法总数 54；行为 n=8/组×6 组，电生理 n=6/组，蛋白 n=3/组，总数与终点样本分列<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3" target="_blank" rel="noopener">图 1 / 方法｜正式 PDF 第 2–3 页，分组与样本量</a></dd></div>
+<div><dt>研究设计</dt><dd>随机六组：正常、载体假手术、Aβ 模型、模型+三种剂量；行为和分析编码盲法<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3" target="_blank" rel="noopener">图 1 / 方法｜正式 PDF 第 2–3 页，分组与样本量</a></dd></div>
+<div><dt>波长</dt><dd>810 nm<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3" target="_blank" rel="noopener">tPBM 方法｜正式 PDF 第 3–4 页，入射与估算皮层剂量</a></dd></div>
+<div><dt>连续光 / 脉冲</dt><dd>10 Hz，88% 占空比；原文峰值 200 mW、平均 160 mW 并列保留，不自行互算覆盖<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3" target="_blank" rel="noopener">tPBM 方法｜正式 PDF 第 3–4 页，入射与估算皮层剂量</a></dd></div>
+<div><dt>照射位置</dt><dd>清醒手持固定，探头接触皮肤，正中 bregma 后 2 mm<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3" target="_blank" rel="noopener">tPBM 方法｜正式 PDF 第 3–4 页，入射与估算皮层剂量</a></dd></div>
+<div><dt>辐照度 / 功率</dt><dd>原文平均输出 160 mW，入射表面辐照度约 5.33 W/cm²<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3" target="_blank" rel="noopener">tPBM 方法｜正式 PDF 第 3–4 页，入射与估算皮层剂量</a></dd></div>
+<div><dt>光斑</dt><dd>0.03 cm²<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3" target="_blank" rel="noopener">tPBM 方法｜正式 PDF 第 3–4 页，入射与估算皮层剂量</a></dd></div>
+<div><dt>照射时间与疗程</dt><dd>5 / 10 / 20 秒/次；造模后 24 h 开始，每天一次，共 14 天<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3" target="_blank" rel="noopener">tPBM 方法｜正式 PDF 第 3–4 页，入射与估算皮层剂量</a></dd></div>
+<div><dt>剂量</dt><dd>入射表面 26.7 / 53.3 / 106.7 J/cm²；按约 31% 透射估算皮层约 8 / 16 / 32 J/cm²，不是实测脑内剂量<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3" target="_blank" rel="noopener">tPBM 方法｜正式 PDF 第 3–4 页，入射与估算皮层剂量</a></dd></div>
+<div><dt>对照怎么做</dt><dd>载体假手术与模型组探头定位但不出光；相同固定操作，未报告匹配加热对照<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3" target="_blank" rel="noopener">图 1 / 方法｜正式 PDF 第 2–3 页，分组与样本量</a></dd></div>
+<div><dt>观察指标</dt><dd>OFT、T-maze、Barnes；海马蛋白、fEPSP/LTP；单单位是另一次急性 8 J/cm² 挑战；无睡眠记录<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=6" target="_blank" rel="noopener">图 2｜正式 PDF 第 6 页，行为与三种剂量</a></dd></div>
+<div><dt>测量时间</dt><dd>疗程完成后行为、电生理与取材；单单位记录为约 10 分钟基线+急性照光+约 20 分钟观察<br><a href="https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=5" target="_blank" rel="noopener">单单位方法 / 图 6｜正式 PDF 第 5、10 页，急性挑战</a></dd></div>
+</dl>
+```
+
+## 结果怎么看
+
+- 图 2：估算皮层 8 J/cm² 对模型组，T-maze 交替 p=0.0029、Barnes 第五天潜伏期 p=0.0376、目标象限时间 p=0.0432。16/32 J/cm² 多数比较不显著；不能只据显著性差别宣称 8 直接优于其他剂量。（[图 2｜正式 PDF 第 6 页，行为与三种剂量](https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=6)）
+- 图 5B：8 J/cm² 组平均 HFS 后 fEPSP 斜率高于模型组，p<0.0001；纵轴为相对基线的百分比，n=6/组，不是相对于假刺激的改善百分比。 正文此平均值检验 F(5,354) 与图注动物 n=6/组的统计单位关系待澄清；不将图中重复测量点计作独立动物。（[图 5｜正式 PDF 第 9 页，fEPSP/LTP](https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=9)）
+- 单单位只选假手术、模型和 8 J/cm²；一次急性挑战后的放电比较 p=0.0341，不等于已验证十四天疗程的基础放电恢复。（[单单位方法 / 图 6｜正式 PDF 第 5、10 页，急性挑战](https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=5)）
+
+## 对实验设计有什么用
+
+本研究没有睡眠测量，因此记忆和突触指标变化不能证明睡眠介导。实验比较需区分表面与估算皮层剂量、急性挑战与长期疗程，并按各终点实际 n 分别报告。
+
+## 接着读
+
+- [波长和脉冲怎么选？](../../research/questions/wavelength-pulse.qmd)
+- [注意与记忆改善，应该看哪些指标？](../../research/questions/cognition.qmd)
+- [单次与重复照射，哪些变化能持续？](../../research/questions/repeated-clinical.qmd)
+
+[修改这篇研究的整理](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-studies.json)

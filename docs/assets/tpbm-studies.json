@@ -6200,6 +6200,342 @@
         }
       ],
       "interpretation": "比较疗程时固定每次参数，同时安排结束后随访。早期与晚期结果可能不同，不只用一个时点选次数；开颅CCI和小鼠条件不能直接换算人体疗程。"
+    },
+    {
+      "id": "salehpour-2018-sleep-deprivation",
+      "short": "Salehpour · 2018",
+      "year": 2018,
+      "title": "Transcranial near-infrared photobiomodulation attenuates memory impairment and hippocampal oxidative stress in sleep-deprived mice",
+      "title_zh": "睡眠被剥夺时，照光能保住记忆吗？",
+      "doi": "10.1016/j.brainres.2017.12.040",
+      "fulltext": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/",
+      "journal": "Brain Res",
+      "kind": "动物研究",
+      "questions": [
+        "sleep-homeostasis",
+        "cognition",
+        "wavelength-pulse"
+      ],
+      "measures": [
+        "行为",
+        "氧化应激",
+        "线粒体"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "PMC 公开作者稿全文文本和全部图注；读取方法 4.1–4.3、结果 2.1–2.7；未取得原图，不估读柱高。2018-01-04 首发，2018-03 卷期。",
+      "sources": {
+        "d": {
+          "label": "方法 4.1–4.3｜分组、72 h 睡眠剥夺与激光条件",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#:~:text=4.3.%20Laser%20treatment"
+        },
+        "m": {
+          "label": "图 2–3 / 结果 2.1–2.2｜Barnes 与情景样记忆",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#F3"
+        },
+        "b": {
+          "label": "图 4–6 / 结果 2.3–2.7｜线粒体、ROS 与抗氧化指标",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#F5"
+        },
+        "bm": {
+          "label": "图 2B / 结果 2.1.2｜探测试次目标象限时间",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5801165/#F2"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "成年雄性 BALB/c 小鼠 40 只，四组各 10 只；28–30 g",
+          "source": "d"
+        },
+        "design": {
+          "value": "正常饲养、宽平台、睡眠剥夺、睡眠剥夺+光；结果评估者不知分组",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 nm",
+          "source": "d"
+        },
+        "mode": {
+          "value": "10 Hz 脉冲，88% 占空比",
+          "source": "d"
+        },
+        "target": {
+          "value": "剃毛头顶部正中，眼与耳之间，手持固定",
+          "source": "d"
+        },
+        "irradiance": {
+          "value": "原文 200 mW 输出与 4.75 W/cm²；与面积/时长口径不完全一致，未作互算",
+          "source": "d"
+        },
+        "spot": {
+          "value": "原文 0.03 cm²",
+          "source": "d"
+        },
+        "duration": {
+          "value": "5 秒/次，每天 12:00 一次，连续 3 天",
+          "source": "d"
+        },
+        "dose": {
+          "value": "原文称皮层表面平均 8 J/cm²/次；与其他光学数值的换算关系待核",
+          "source": "d"
+        },
+        "control": {
+          "value": "宽平台与剥夺组同样取出、固定，设备不出光；无匹配加热组",
+          "source": "d"
+        },
+        "readout": {
+          "value": "Barnes 迷宫、What-Where-Which 辨别指数；海马 MTG、ROS、MDA、SOD、GPx、TAC；没有睡眠 EEG",
+          "source": "m"
+        },
+        "timing": {
+          "value": "72 h 剥夺期间同步照光；随后行为与海马取材，不是先证实恢复睡眠再测记忆",
+          "source": "d"
+        }
+      },
+      "results": [
+        {
+          "text": "图 3 / 结果 2.2：情景样记忆辨别指数，睡眠剥夺 −0.15±0.05，剥夺+光 +0.18±0.06，正常 +0.32±0.06；光与剥夺组比较 p<0.01。",
+          "source": "m"
+        },
+        {
+          "text": "图 2B：剥夺+光组探测试次目标象限停留时间高于剥夺组，p<0.01。",
+          "source": "bm"
+        },
+        {
+          "text": "图 5：海马 ROS 在剥夺+光组低于剥夺组，p<0.05；组织指标与行为同时变化，不是睡眠恢复的证据。",
+          "source": "b"
+        }
+      ],
+      "interpretation": "支持睡眠剥夺条件下的记忆和组织指标变化；没有 EEG 或恢复睡眠测量，不能据此把记忆保护归因于睡得更多。光学参数按原文保留，剂量关系待核。"
+    },
+    {
+      "id": "semyachkina-2023-sleep-drainage",
+      "short": "Semyachkina-Glushkovskaya · 2023/2024",
+      "year": 2024,
+      "title": "Technology of the photobiostimulation of the brain's drainage system during sleep for improvement of learning and memory in male mice",
+      "title_zh": "在睡眠和清醒时照光，学习和脑排液的变化一样吗？",
+      "doi": "10.1364/boe.505618",
+      "fulltext": "https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true",
+      "journal": "Biomed Opt Express",
+      "kind": "动物研究",
+      "questions": [
+        "sleep-homeostasis",
+        "cognition",
+        "wavelength-pulse"
+      ],
+      "measures": [
+        "EEG",
+        "行为",
+        "荧光示踪"
+      ],
+      "wavelengths": [
+        "1050"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "期刊正式版全文 15 页，方法、结果和讨论；实际查看图 2–4；未读补充材料。2023-12-05 首发，2024-01 卷期。",
+      "sources": {
+        "d": {
+          "label": "方法 2.1–2.2｜正式 PDF 第 3–4 页，EEG 触发与光源",
+          "url": "https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=3"
+        },
+        "p": {
+          "label": "方法 2.4｜正式 PDF 第 7–8 页，单次与十天照射",
+          "url": "https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=7"
+        },
+        "r": {
+          "label": "图 2｜正式 PDF 第 5 页；结果第 9 页，示踪荧光",
+          "url": "https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=5"
+        },
+        "l": {
+          "label": "图 3｜正式 PDF 第 6 页；结果第 10 页，训练次数",
+          "url": "https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=6"
+        },
+        "c": {
+          "label": "图 4d｜正式 PDF 第 8 页；与第 10 页正文分组标签不一致",
+          "url": "https://publications.pik-potsdam.de/rest/items/item_30773_1/component/file_30774/content?download=true#page=8"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "雄性 C57BL/6 小鼠，3 月龄、25–28 g；示踪与物体位置各 n=7/组，学习 n=8/组",
+          "source": "d"
+        },
+        "design": {
+          "value": "EEG 监测清醒/深睡，设置无 PBM 与 PBM 条件；学习和示踪为不同实验终点",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "1050 nm LED",
+          "source": "d"
+        },
+        "mode": {
+          "value": "1 kHz PWM；方法以 2% 占空比说明平均辐照度与剂量",
+          "source": "d"
+        },
+        "target": {
+          "value": "顶骨/顶间骨区域，LED 磁吸固定于颅骨垫圈；有 EEG 植入，不是完整头皮外照模型",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "LED 输出 50 mW；连续输出参考 500 mW/cm²；2% PWM 对应平均约 10 mW/cm²，均为颅骨表面口径",
+          "source": "d"
+        },
+        "spot": {
+          "value": "3.5 mm 孔径，原文面积约 0.1 cm²",
+          "source": "d"
+        },
+        "duration": {
+          "value": "单次流程 61 分钟：17 分钟出光×3，中间两次各停 5 分钟；疗程每日一次共 10 天",
+          "source": "p"
+        },
+        "dose": {
+          "value": "每个 17 分钟约 10 J/cm²；单次 30 J/cm²，十天总计 0.3 kJ/cm²，颅骨表面",
+          "source": "p"
+        },
+        "control": {
+          "value": "无出光睡眠/清醒条件；示踪开始时刻分别约 20:00 与 08:00",
+          "source": "p"
+        },
+        "readout": {
+          "value": "脑表面与深颈淋巴结 FITC-dextran 荧光；PIT 学习及物体位置任务；EEG 用于检测状态",
+          "source": "r"
+        },
+        "timing": {
+          "value": "示踪注入后 3 h 取材；30 s 窗内至少 6 s 判为 NREM 后触发 17 分钟照光，未证明整段持续处于 NREM",
+          "source": "p"
+        }
+      },
+      "results": [
+        {
+          "text": "图 2、结果 3.1：深颈淋巴结荧光，睡眠+PBM 2.11±0.05，清醒+PBM 1.66±0.09 a.u.，正文直接比较 p=0.00105；这是示踪终点，不是排液速率的直接测量。",
+          "source": "r"
+        },
+        {
+          "text": "图 3e：达到训练标准，正文报告无光 15、清醒+光 11、睡眠+光 7 次训练；两 PBM 条件直接比较 p=0.009736，学习实验 n=8/组。",
+          "source": "l"
+        },
+        {
+          "text": "图 4d 横轴和显著性括号显示清醒+PBM 与对照差异，而正文第 10 页把显著比较写为睡眠+PBM（p=0.002117）；不自行交换标签，该物体位置记忆结果待澄清。",
+          "source": "c"
+        }
+      ],
+      "interpretation": "睡眠状态可能影响光刺激反应，但状态、时钟时间和光后睡眠变化应分别设计对照。图 3 的学习与图 2 的示踪可分别讨论，不能合并为排液导致记忆改善；图 4 存在图文标签冲突。"
+    },
+    {
+      "id": "athari-2026-dose-synaptic-memory",
+      "short": "Athari · 2026",
+      "year": 2026,
+      "title": "Near-infrared transcranial photobiomodulation reduces cognitive deficits in rat model of Alzheimer’s disease: the possible role of synaptic plasticity and neurotrophic factors",
+      "title_zh": "记忆和突触反应改善时，剂量越高越好吗？",
+      "doi": "10.1007/s10103-026-05108-8",
+      "fulltext": "https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf",
+      "journal": "Lasers in Medical Science",
+      "kind": "动物研究",
+      "questions": [
+        "cognition",
+        "repeated-clinical",
+        "wavelength-pulse"
+      ],
+      "measures": [
+        "行为",
+        "LTP",
+        "单单位",
+        "蛋白表达"
+      ],
+      "wavelengths": [
+        "810"
+      ],
+      "mode_filter": "脉冲光",
+      "reading": "期刊正式版全文 14 页，方法、结果和讨论；实际查看图 2、图 5，核对分终点样本量；补充材料未读。2026-11-24 首发。",
+      "sources": {
+        "d": {
+          "label": "图 1 / 方法｜正式 PDF 第 2–3 页，分组与样本量",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3"
+        },
+        "p": {
+          "label": "tPBM 方法｜正式 PDF 第 3–4 页，入射与估算皮层剂量",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3"
+        },
+        "r": {
+          "label": "图 2｜正式 PDF 第 6 页，行为与三种剂量",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=6"
+        },
+        "e": {
+          "label": "图 5｜正式 PDF 第 9 页，fEPSP/LTP",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=9"
+        },
+        "a": {
+          "label": "单单位方法 / 图 6｜正式 PDF 第 5、10 页，急性挑战",
+          "url": "https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=5"
+        }
+      },
+      "fields": {
+        "population": {
+          "value": "雄性 Wistar 大鼠；方法总数 54；行为 n=8/组×6 组，电生理 n=6/组，蛋白 n=3/组，总数与终点样本分列",
+          "source": "d"
+        },
+        "design": {
+          "value": "随机六组：正常、载体假手术、Aβ 模型、模型+三种剂量；行为和分析编码盲法",
+          "source": "d"
+        },
+        "wavelength": {
+          "value": "810 nm",
+          "source": "p"
+        },
+        "mode": {
+          "value": "10 Hz，88% 占空比；原文峰值 200 mW、平均 160 mW 并列保留，不自行互算覆盖",
+          "source": "p"
+        },
+        "target": {
+          "value": "清醒手持固定，探头接触皮肤，正中 bregma 后 2 mm",
+          "source": "p"
+        },
+        "irradiance": {
+          "value": "原文平均输出 160 mW，入射表面辐照度约 5.33 W/cm²",
+          "source": "p"
+        },
+        "spot": {
+          "value": "0.03 cm²",
+          "source": "p"
+        },
+        "duration": {
+          "value": "5 / 10 / 20 秒/次；造模后 24 h 开始，每天一次，共 14 天",
+          "source": "p"
+        },
+        "dose": {
+          "value": "入射表面 26.7 / 53.3 / 106.7 J/cm²；按约 31% 透射估算皮层约 8 / 16 / 32 J/cm²，不是实测脑内剂量",
+          "source": "p"
+        },
+        "control": {
+          "value": "载体假手术与模型组探头定位但不出光；相同固定操作，未报告匹配加热对照",
+          "source": "d"
+        },
+        "readout": {
+          "value": "OFT、T-maze、Barnes；海马蛋白、fEPSP/LTP；单单位是另一次急性 8 J/cm² 挑战；无睡眠记录",
+          "source": "r"
+        },
+        "timing": {
+          "value": "疗程完成后行为、电生理与取材；单单位记录为约 10 分钟基线+急性照光+约 20 分钟观察",
+          "source": "a"
+        }
+      },
+      "results": [
+        {
+          "text": "图 2：估算皮层 8 J/cm² 对模型组，T-maze 交替 p=0.0029、Barnes 第五天潜伏期 p=0.0376、目标象限时间 p=0.0432。16/32 J/cm² 多数比较不显著；不能只据显著性差别宣称 8 直接优于其他剂量。",
+          "source": "r"
+        },
+        {
+          "text": "图 5B：8 J/cm² 组平均 HFS 后 fEPSP 斜率高于模型组，p<0.0001；纵轴为相对基线的百分比，n=6/组，不是相对于假刺激的改善百分比。 正文此平均值检验 F(5,354) 与图注动物 n=6/组的统计单位关系待澄清；不将图中重复测量点计作独立动物。",
+          "source": "e"
+        },
+        {
+          "text": "单单位只选假手术、模型和 8 J/cm²；一次急性挑战后的放电比较 p=0.0341，不等于已验证十四天疗程的基础放电恢复。",
+          "source": "a"
+        }
+      ],
+      "interpretation": "本研究没有睡眠测量，因此记忆和突触指标变化不能证明睡眠介导。实验比较需区分表面与估算皮层剂量、急性挑战与长期疗程，并按各终点实际 n 分别报告。"
     }
   ]
 }

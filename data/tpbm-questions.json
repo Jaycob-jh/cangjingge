@@ -14,7 +14,10 @@
       "ando-2011-pulse-tbi",
       "motsenyat-2025-pulse-csf",
       "arias-2026-theta-gamma-rats",
-      "he-2026-pulse-eeg-microstates"
+      "he-2026-pulse-eeg-microstates",
+      "salehpour-2018-sleep-deprivation",
+      "semyachkina-2023-sleep-drainage",
+      "athari-2026-dose-synaptic-memory"
     ],
     "evidence": [
       {
@@ -96,6 +99,36 @@
         "sources": [
           "p",
           "r"
+        ]
+      },
+      {
+        "study": "salehpour-2018-sleep-deprivation",
+        "heading": "睡眠剥夺中的记忆保护，没有测恢复睡眠",
+        "text": "72 h 剥夺期间同步照光，图 3 情景样记忆指数改善；没有睡眠 EEG，且原文光学数值口径待核。",
+        "sources": [
+          "d",
+          "m"
+        ]
+      },
+      {
+        "study": "semyachkina-2023-sleep-drainage",
+        "heading": "睡眠时照光：学习、示踪与图文冲突分开看",
+        "text": "图 3e 训练次数睡眠+光 7、清醒+光 11、无光 15；图 4d 分组标签与正文矛盾，物体位置记忆结果待澄清。状态比较也伴随不同时钟时间。",
+        "sources": [
+          "p",
+          "l",
+          "c"
+        ]
+      },
+      {
+        "study": "athari-2026-dose-synaptic-memory",
+        "heading": "剂量分层与睡眠机制是两个问题",
+        "text": "图 2 的 8 J/cm² 条件观察到记忆改善，标签指估算皮层而非表面剂量；研究没有测睡眠。图 5 LTP 和图 6 急性挑战不是同一终点。",
+        "sources": [
+          "p",
+          "r",
+          "e",
+          "a"
         ]
       }
     ],
@@ -342,7 +375,10 @@
       "arias-2026-theta-gamma-rats",
       "li-2021-stress-memory-atp",
       "naeser-2011-tbi-cases",
-      "chun-2026-early-response"
+      "chun-2026-early-response",
+      "salehpour-2018-sleep-deprivation",
+      "semyachkina-2023-sleep-drainage",
+      "athari-2026-dose-synaptic-memory"
     ],
     "evidence": [
       {
@@ -435,6 +471,36 @@
           "r",
           "cv"
         ]
+      },
+      {
+        "study": "salehpour-2018-sleep-deprivation",
+        "heading": "睡眠剥夺中的记忆保护，没有测恢复睡眠",
+        "text": "72 h 剥夺期间同步照光，图 3 情景样记忆指数改善；没有睡眠 EEG，且原文光学数值口径待核。",
+        "sources": [
+          "d",
+          "m"
+        ]
+      },
+      {
+        "study": "semyachkina-2023-sleep-drainage",
+        "heading": "睡眠时照光：学习、示踪与图文冲突分开看",
+        "text": "图 3e 训练次数睡眠+光 7、清醒+光 11、无光 15；图 4d 分组标签与正文矛盾，物体位置记忆结果待澄清。状态比较也伴随不同时钟时间。",
+        "sources": [
+          "p",
+          "l",
+          "c"
+        ]
+      },
+      {
+        "study": "athari-2026-dose-synaptic-memory",
+        "heading": "剂量分层与睡眠机制是两个问题",
+        "text": "图 2 的 8 J/cm² 条件观察到记忆改善，标签指估算皮层而非表面剂量；研究没有测睡眠。图 5 LTP 和图 6 急性挑战不是同一终点。",
+        "sources": [
+          "p",
+          "r",
+          "e",
+          "a"
+        ]
       }
     ],
     "takeaways": [
@@ -466,7 +532,8 @@
       "herkes-2023-parkinson-helmet",
       "saltmarche-2025-parkinson-exercise",
       "cassano-2018-elated2",
-      "xuan-2016-repeated-tbi"
+      "xuan-2016-repeated-tbi",
+      "athari-2026-dose-synaptic-memory"
     ],
     "evidence": [
       {
@@ -617,6 +684,17 @@
           "p",
           "r"
         ]
+      },
+      {
+        "study": "athari-2026-dose-synaptic-memory",
+        "heading": "剂量分层与睡眠机制是两个问题",
+        "text": "图 2 的 8 J/cm² 条件观察到记忆改善，标签指估算皮层而非表面剂量；研究没有测睡眠。图 5 LTP 和图 6 急性挑战不是同一终点。",
+        "sources": [
+          "p",
+          "r",
+          "e",
+          "a"
+        ]
       }
     ],
     "takeaways": [
@@ -739,7 +817,9 @@
     "studies": [
       "jung-2026",
       "saltmarche-2017",
-      "mehdizadeh-2025"
+      "mehdizadeh-2025",
+      "salehpour-2018-sleep-deprivation",
+      "semyachkina-2023-sleep-drainage"
     ],
     "evidence": [
       {
@@ -777,6 +857,25 @@
           "t1",
           "t2",
           "abs"
+        ]
+      },
+      {
+        "study": "salehpour-2018-sleep-deprivation",
+        "heading": "睡眠剥夺中的记忆保护，没有测恢复睡眠",
+        "text": "72 h 剥夺期间同步照光，图 3 情景样记忆指数改善；没有睡眠 EEG，且原文光学数值口径待核。",
+        "sources": [
+          "d",
+          "m"
+        ]
+      },
+      {
+        "study": "semyachkina-2023-sleep-drainage",
+        "heading": "睡眠时照光：学习、示踪与图文冲突分开看",
+        "text": "图 3e 训练次数睡眠+光 7、清醒+光 11、无光 15；图 4d 分组标签与正文矛盾，物体位置记忆结果待澄清。状态比较也伴随不同时钟时间。",
+        "sources": [
+          "p",
+          "l",
+          "c"
         ]
       }
     ],

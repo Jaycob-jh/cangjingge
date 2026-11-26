@@ -105,6 +105,12 @@ MMSE 组别与时间交互 F(1,40) = 20，p < 0.001。 把总体量表、反应�
 
 [研究参数与结果](../../library/tpbm/xuan-2016-repeated-tbi.qmd) · [方法 §2.1–2.2｜小鼠队列与CCI手术条件](https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Materials%20and%20methods) · [方法 §2.3｜810 nm 参数及3/14次照射](https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#:~:text=Laser%20treatment) · [图 1 / 结果 §3.1｜8周NSS，行为每组6只](https://pmc.ncbi.nlm.nih.gov/articles/PMC5025344/#F1)
 
+### Athari · 2026：剂量分层与睡眠机制是两个问题
+
+图 2 的 8 J/cm² 条件观察到记忆改善，标签指估算皮层而非表面剂量；研究没有测睡眠。图 5 LTP 和图 6 急性挑战不是同一终点。
+
+[研究参数与结果](../../library/tpbm/athari-2026-dose-synaptic-memory.qmd) · [tPBM 方法｜正式 PDF 第 3–4 页，入射与估算皮层剂量](https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=3) · [图 2｜正式 PDF 第 6 页，行为与三种剂量](https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=6) · [图 5｜正式 PDF 第 9 页，fEPSP/LTP](https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=9) · [单单位方法 / 图 6｜正式 PDF 第 5、10 页，急性挑战](https://link.springer.com/content/pdf/10.1007/s10103-026-05108-8.pdf#page=5)
+
 ## 做实验时看什么
 
 - 把即时反应、疗程末结果和停用后保持分别设定测量时间。
@@ -131,5 +137,6 @@ MMSE 组别与时间交互 F(1,40) = 20，p < 0.001。 把总体量表、反应�
 - [Saltmarche 等 · 2025：加上运动训练后，怎样解读光照的长期结果？](../../library/tpbm/saltmarche-2025-parkinson-exercise.qmd)
 - [Cassano 等 · 2018：同一项光照试验，为什么三种分析给出不同结果？](../../library/tpbm/cassano-2018-elated2.qmd)
 - [Xuan · 2016：多照几天，恢复就会更好吗？](../../library/tpbm/xuan-2016-repeated-tbi.qmd)
+- [Athari · 2026：记忆和突触反应改善时，剂量越高越好吗？](../../library/tpbm/athari-2026-dose-synaptic-memory.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)
