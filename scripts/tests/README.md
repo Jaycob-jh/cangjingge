@@ -1,5 +1,9 @@
 # 参数查询回归
 
+Excel导入前运行 `python scripts/tests/test_parameter_import.py`。默认预览：`python scripts/import_tpbm_parameters.py "<workbook.xlsx>"`；检查仓库外输出的 `report.json` 和 `preview.json`，需要追加时使用同一命令加 `--apply`。每次保留 `before.json`，没有内容变化时连原文件字节也不重写。报告目录可用 `--report-dir` 指定，必须在公开仓库外。
+
+合并保留现有元数据、稳定ID、组别、显示名、数值、来源说明及核查状态；只追加新论文、新组或缺少的字段。已有字段的不同值、DOI/PMID身份冲突及仅题名疑似重复留在本地报告，不自动替换。现有组不继承其他组或文献层参数。阅读者页面不展示导入报告。
+
 参数来源导出修改后运行 `python scripts/tests/test_parameter_provenance.py`。检查中英文页码、补充表行号、缓存范围、原试验与二次分析的区别，且不把本地路径和哈希导出。`source_review_required` 表示现有值仍需原文核对，与原有 `pending` 标记共同决定是否进入待核证据；不覆盖原核查标记。核清后按组、字段移除此附加标记，保留核查依据。
 
 在项目根目录运行 `node scripts/tests/tpbm-query.mjs`。
