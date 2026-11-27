@@ -70,7 +70,9 @@
       }
       if ([...get("subtopic").options].some(o => o.value === old)) get("subtopic").value = old;
     };
-    get("query").value = params.get("q") || "";
+    // Quarto consumes ?q= in the document head. Keep old shared URLs readable.
+    const arrival = new URL(performance.getEntriesByType('navigation')[0]?.name || location.href);
+    get("query").value = params.get("query") || params.get("q") || arrival.searchParams.get("q") || "";
     for (const id of ["topic", "stage", "sort"]) {
       const value = params.get(id);
       if (value && [...get(id).options].some(o => o.value === value)) get(id).value = value;
@@ -112,7 +114,7 @@
       get("prev").disabled = page === 1;
       get("next").disabled = page === pages;
       const query = new URLSearchParams();
-      for (const id of controls) if (get(id).value && !(id === "sort" && get(id).value === "year")) query.set(id === "query" ? "q" : id, get(id).value);
+      for (const id of controls) if (get(id).value && !(id === "sort" && get(id).value === "year")) query.set(id, get(id).value);
       history.replaceState(null, "", location.pathname + (query.size ? "?" + query : ""));
     };
     for (const id of controls) get(id).addEventListener(id === "query" ? "input" : "change", () => {

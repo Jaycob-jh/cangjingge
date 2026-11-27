@@ -6035,7 +6035,8 @@
         "01.05",
         "02",
         "02.02",
-        "02.07"
+        "02.07",
+        "02.04"
       ],
       "reading_status": "已编目",
       "id": "paper-ccae35bd8cc15d02"
@@ -26320,7 +26321,7 @@
       "id": "paper-80b82090f32de3b2"
     },
     {
-      "title": "Photobiomodulation in the Brain",
+      "title": "Photobiomodulation for depression in animal models",
       "authors": [
         "Farzad Salehpour",
         "Javad Mahmoudi",
@@ -26329,14 +26330,13 @@
       ],
       "year": 2019,
       "doi": "10.1016/b978-0-12-815305-5.00014-2",
-      "journal": "",
+      "journal": "Photobiomodulation in the Brain",
       "volume": "",
       "issue": "",
       "pages": "189-205",
-      "type": "journalArticle",
+      "type": "bookSection",
       "topics": [
         "02",
-        "02.02",
         "02.04",
         "02.06",
         "02.07",
@@ -41685,14 +41685,20 @@
       "id": "paper-250d6b89848d9ac8"
     },
     {
-      "title": "Subthreshold high-frequency TMS of human primary mo",
-      "authors": [],
-      "year": null,
-      "doi": "10.1016/s1053-8119(03)00483-x",
-      "journal": "",
-      "volume": "",
-      "issue": "",
-      "pages": "",
+      "title": "Subthreshold high-frequency TMS of human primary motor cortex modulates interconnected frontal motor areas as detected by interleaved fMRI-TMS",
+      "authors": [
+        "Sven Bestmann",
+        "Jürgen Baudewig",
+        "Hartwig R. Siebner",
+        "John C. Rothwell",
+        "Jens Frahm"
+      ],
+      "year": 2003,
+      "doi": "10.1016/j.neuroimage.2003.07.028",
+      "journal": "NeuroImage",
+      "volume": "20",
+      "issue": "3",
+      "pages": "1685–1696",
       "type": "journalArticle",
       "topics": [
         "02",

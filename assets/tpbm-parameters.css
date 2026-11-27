@@ -8,3 +8,5 @@
 .parameter-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin: .65rem 0; align-items: center; }
 #parameter-search details { margin-top: .8rem; }
 #parameter-search li { margin-bottom: .35rem; }
+.parameter-relax { display: grid; gap: .5rem; margin: 1rem 0; }
+.parameter-relax button { padding: .5rem; text-align: left; white-space: normal; overflow-wrap: anywhere; }

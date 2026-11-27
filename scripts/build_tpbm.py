@@ -3,9 +3,29 @@ from pathlib import Path
 import json
 import shutil
 from html import escape
+from literature_common import normalize_doi
 
 ROOT = Path(__file__).resolve().parents[1]
 LABELS = {'population':'研究对象','design':'研究设计','wavelength':'波长','mode':'连续光 / 脉冲','target':'照射位置','irradiance':'辐照度 / 功率','spot':'光斑','duration':'照射时间与疗程','dose':'剂量','control':'对照怎么做','readout':'观察指标','timing':'测量时间'}
+
+def connect_parameter_cards(studies):
+    """Fill missing DOI links without changing extracted evidence or edited links."""
+    path = ROOT/'assets/tpbm-parameters.json'
+    if not path.is_file():
+        return
+    parameters = json.loads(path.read_text(encoding='utf8'))
+    cards = {normalize_doi(s['doi']): s['id'] for s in studies}
+    added = 0
+    for paper in parameters['papers']:
+        if not paper.get('doi'):
+            continue
+        card = cards.get(normalize_doi(paper.get('doi', '')))
+        if card and not paper.get('card'):
+            paper['card'] = card
+            added += 1
+    if added:
+        path.write_text(json.dumps(parameters, ensure_ascii=False, separators=(',', ':'))+'\n', encoding='utf8')
+    print(f'Parameter index: {added} missing study-card links added')
 
 def link(s, key):
     r = s['sources'][key]
@@ -61,6 +81,7 @@ def main():
     (ROOT/'research/tpbm-questions.qmd').write_text('\n'.join(index),encoding='utf8')
     (ROOT/'library/tpbm-index.md').write_text('\n'.join(f"- [{s['short']}：{s['title_zh']}](../library/tpbm/{s['id']}.qmd)" for s in sorted(studies,key=lambda s:s['year'],reverse=True))+'\n',encoding='utf8')
     shutil.copyfile(ROOT/'data/tpbm-studies.json',ROOT/'assets/tpbm-studies.json')
+    connect_parameter_cards(studies)
     print(f'TPBM: {len(studies)} sourced studies, {len(questions)} question pages')
 
 if __name__ == '__main__': main()

@@ -78,7 +78,7 @@ def profile_page(member: dict, group: dict) -> str:
     sections = optional_profile_sections(member)
     photo = portrait(member, large=True)
     position_head = esc(group['subtitle'])
-    about = f'''<div class="zk-profile-page zk-wide">
+    about = f'''<div class="zk-profile-page zk-wide" role="main">
 <nav class="zk-crumb" aria-label="面包屑"><a href="index.html">团队成员</a><span>/</span><span>{name}</span></nav>
 <header class="zk-profile-hero">
   {photo}
@@ -133,7 +133,7 @@ def main() -> None:
     if not pi:
         raise ValueError('至少需要一名 PI')
     html_parts = [
-        '<div class="zk-team-page zk-wide">',
+        '<div class="zk-team-page zk-wide" role="main">',
         '<header class="zk-team-heading">',
         '  <span class="zk-eyebrow">OUR PEOPLE / 团队成员</span>',
         '  <h1>研究人员与知识共建者</h1>',

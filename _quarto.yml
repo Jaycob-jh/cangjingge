@@ -8,6 +8,7 @@ project:
     - "assets/tpbm-compare.js"
     - "assets/tpbm-studies.json"
     - "assets/tpbm-parameters.js"
+    - "assets/tpbm-query.mjs"
     - "assets/tpbm-parameters.json"
   render:
     - "index.qmd"

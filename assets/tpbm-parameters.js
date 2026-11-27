@@ -1,3 +1,4 @@
+import {common, range, targetMatches} from './tpbm-query.mjs';
 const $ = id => document.getElementById(id);
 const node = (tag, text) => {
   const element = document.createElement(tag);
@@ -9,33 +10,6 @@ const link = (text, href) => {
   element.href = href;
   return element;
 };
-const targetNames = {'前额叶':'prefrontal','运动皮层':'motor cortex','顶叶':'parietal','枕叶':'occipital','海马':'hippocamp','头皮':'scalp'};
-const targetAliases = {...targetNames, '中央后回':'postcentral', '楔前叶':'precuneus', '背外侧前额叶':'dorsolateral prefrontal', '颅骨':'skull'};
-const sideTerms = {
-  right: /右(?:侧|半球)?|\b(?:right|rt\.?)\b/i,
-  left: /左(?:侧|半球)?|\b(?:left|lt\.?)\b/i,
-  bilateral: /双侧|两侧|\bbilateral(?:ly)?\b|\bboth sides\b/i,
-};
-function targetSide(text) {
-  if (sideTerms.bilateral.test(text) || (sideTerms.left.test(text) && sideTerms.right.test(text))) return 'bilateral';
-  if (sideTerms.right.test(text)) return 'right';
-  if (sideTerms.left.test(text)) return 'left';
-  return '';
-}
-function targetMatches(value, query) {
-  const side = targetSide(query);
-  const region = query.toLowerCase().replace(/^(?:右侧?|左侧?|双侧|两侧|right\b|left\b|bilateral\b)\s*/u, '');
-  const synonyms = [region, targetAliases[region]];
-  if (region === '前额叶' || region === 'prefrontal') synonyms.push('dlpfc');
-  if (region === '背外侧前额叶') synonyms.push('dlpfc');
-  const text = value.toLowerCase();
-  if (text.includes(query.toLowerCase()) && (!side || targetSide(text) === side)) return true;
-  if (!side) return synonyms.some(term => term && text.includes(term));
-  // Bind the side to the same target phrase and exclude combined or alternative laterality.
-  if (targetSide(text) !== side) return false;
-  return text.split(/[,;，；、]|\b(?:and|or)\b/).some(part =>
-    targetSide(part) === side && synonyms.some(term => term && part.includes(term)));
-}
 const selectors = {
   subject: ['对象', 'Subject_Type', {'Human':'人体','Animal':'动物','Cell':'细胞','Ex_Vivo':'离体','Simulation':'仿真'}],
   health: ['健康状态', 'Health_Status', {'Healthy':'健康','Disease':'疾病','Mixed':'混合'}],
@@ -72,34 +46,6 @@ for (const [key,label] of [['target','靶点'],['paper','题名 / DOI / PMID'], 
 const reset = node('button', '清空筛选');
 reset.type = 'reset';
 form.append(reset);
-function range(value) {
-  const match = value.trim().match(/^(\d+(?:\.\d+)?)\s*(?:[-–—~～至到]\s*(\d+(?:\.\d+)?))?$/);
-  if (!match) return null;
-  const min = Number(match[1]), max = Number(match[2] ?? match[1]);
-  return Number.isFinite(max) && min <= max ? [min,max] : null;
-}
-function common(text) {
-  const out = {};
-  for (const [key, unit] of Object.entries({wave:'nm|纳米',power:'mw(?!\\s*/)',irradiance:'mw\\s*/\\s*cm[²2]',dose:'j\\s*/\\s*cm[²2]',duration:'分钟|min',frequency:'hz|赫兹',duty:'%',spot:'cm[²2]',sessions:'次'})) {
-    const m = text.match(new RegExp('(\\d+(?:\\.\\d+)?(?:\\s*[-–—~～至到]\\s*\\d+(?:\\.\\d+)?)?)\\s*(?:' + unit + ')','i'));
-    if (m && !(key === 'spot' && /\/\s*$/.test(text.slice(0,m.index)))) out[key] = m[1];
-  }
-  if (/成人|患者|人体|人脑|人类|human/i.test(text)) out.subject = 'Human';
-  if (/小鼠|大鼠|动物|mouse|rat\b/i.test(text)) out.subject = 'Animal';
-  if (/离体|ex vivo/i.test(text)) out.subject = 'Ex_Vivo';
-  if (/细胞|cell/i.test(text)) out.subject = 'Cell';
-  if (/仿真|模拟|simulation/i.test(text)) out.subject = 'Simulation';
-  if (/健康/.test(text)) out.health = 'Healthy';
-  if (/连续光|连续波|\bcw\b/i.test(text)) out.mode = 'CW';
-  if (/脉冲光|\bpw\b/i.test(text)) out.mode = 'PW';
-  if (!/无假刺激|没有假刺激|不要求(?:有)?假刺激/.test(text) && /假刺激|sham/i.test(text)) out.control = 'Sham';
-  if (!/不要求.*(?:测温|温升)/.test(text) && /必须.*测温|只看.*测温|必须.*温升|只看.*实测温升/.test(text)) out.temperature = 'Yes';
-  for (const term of Object.keys(targetNames)) {
-    const found = text.match(new RegExp('(?:右侧?|左侧?|双侧|两侧)?' + term));
-    if (found) { out.target = found[0]; break; }
-  }
-  return Object.fromEntries(Object.entries(out).filter(([,v]) => v));
-}
 function normalize(filters) {
   const clean = {};
   for (const [key, input] of Object.entries(inputs)) {
@@ -108,7 +54,7 @@ function normalize(filters) {
     if (typeof value !== 'string' || !value.trim() || value.length > input.maxLength && input.maxLength > 0) continue;
     if (key in selectors && !Object.hasOwn(selectors[key][2], value)) continue;
     if (key in numeric && !range(value)) continue;
-    clean[key] = value.trim();
+    clean[key] = key === 'paper' ? value.trim().replace(/^(?:doi\s*:\s*|https?:\/\/(?:dx\.)?doi\.org\/)/i, '').toLowerCase() : value.trim();
   }
   return clean;
 }
@@ -299,12 +245,14 @@ function render() {
   const raw = Object.fromEntries(Object.entries(inputs).map(([key,input]) => [key,input.value.trim()]));
   const filters = normalize(raw);
   const invalid = Object.keys(numeric).filter(key => raw[key] && !filters[key]);
-  const rows = [], pending = [];
+  const rows = [], pending = [], candidates = [];
   if (!invalid.length) for (const paper of data.papers) for (const [group,entries] of Object.entries(paper.groups)) {
     const verified = entries.filter(item=>!item.pending);
     const confirmed = entriesFor(paper,group,verified,false);
+    if (verified.length) candidates.push(confirmed);
     if (verified.length && match(confirmed,filters)) rows.push(confirmed);
     const unverified = entries.filter(item=>item.pending);
+    if (unverified.length) candidates.push(entriesFor(paper,group,entries,true));
     if (unverified.length && match(entriesFor(paper,group,entries,true),filters)) pending.push(entriesFor(paper,group,unverified,true));
   }
   rows.sort((a,b) => Number(Boolean(b.group))-Number(Boolean(a.group)) || Number(Boolean(b.paper.card))-Number(Boolean(a.paper.card)));
@@ -319,6 +267,25 @@ function render() {
       ? '当前条件只找到含待核证据的记录，见下方。'
       : '当前条件没有匹配。可减少条件，或试用更宽的靶点词。'));
     if (pending.length) $('parameter-pending').open = true;
+    if (!pending.length && Object.keys(filters).length) {
+      const suggestions = node('div');
+      suggestions.className = 'parameter-relax';
+      for (const key of Object.keys(filters)) {
+        const remaining = {...filters};
+        delete remaining[key];
+        const count = candidates.filter(row => match(row,remaining)).length;
+        if (!count) continue;
+        const label = selectors[key]?.[0] || numeric[key]?.[0] || (key === 'target' ? '靶点' : '题名 / DOI / PMID');
+        const button = node('button', '去掉“' + label + '：' + filters[key] + '”后可查 ' + count + ' 条记录');
+        button.type = 'button';
+        button.onclick = () => { inputs[key].value = ''; refresh(); };
+        suggestions.append(button);
+      }
+      if (suggestions.childElementCount) {
+        suggestions.prepend(node('p','可选择放宽一项条件（包含待核记录）：'));
+        results.append(suggestions);
+      }
+    }
   }
   const section = $('parameter-pending');
   section.querySelector('summary').textContent = '待核证据 · ' + pending.length + ' 条';
