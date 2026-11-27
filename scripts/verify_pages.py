@@ -29,6 +29,16 @@ def main():
         errors.append('缺少正式站内搜索索引 search.json')
     elif not json.loads(search.read_text(encoding='utf-8')):
         errors.append('站内搜索索引为空')
+    reading = DOCS/'assets/reading-links.json'
+    if not reading.is_file():
+        errors.append('缺少阅读入口 reading-links.json')
+    else:
+        reading_index = json.loads(reading.read_text(encoding='utf-8'))
+        for links in [*reading_index['records'].values(), *reading_index['studies'].values()]:
+            for link in links:
+                path = DOCS/unquote(urlparse(link['href']).path)
+                if not path.is_file():
+                    errors.append('阅读入口链接无效：'+link['href'])
     for path in pages:
         parser=Links()
         text = path.read_text(encoding='utf-8')

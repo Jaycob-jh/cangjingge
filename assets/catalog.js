@@ -9,10 +9,13 @@
     if (cls) el.className = cls;
     return el;
   };
+  const scriptURL = document.currentScript.src;
   try {
-    const response = await fetch(new URL("catalog.json", document.currentScript.src));
+    const {readingIndex, renderReadingLinks} = await import(new URL('reading-links.js', scriptURL));
+    const response = await fetch(new URL("catalog.json", scriptURL));
     if (!response.ok) throw new Error("目录文件暂时不可用，请刷新重试。");
     const catalog = await response.json();
+    const reading = await readingIndex;
     const topics = new Map(catalog.topics.map(t => [t.id, t]));
     const topicName = id => topics.get(id)?.name || id;
     const typeName = type => ({
@@ -53,6 +56,10 @@
       detail.append(node("p", [typeName(record.type), "阅读进度：" + record.reading_status].filter(Boolean).join(" · ")), topicLinks(record));
       if (record.summary) detail.append(node("h2", "阅读摘要"), node("p", record.summary));
       if (record.curated_path) detail.append(link("阅读已整理卡片", record.curated_path));
+      if (reading.records[record.id]?.length) {
+        detail.append(node('h2', '解读、参数与专题'));
+        renderReadingLinks(detail, reading.records[record.id]);
+      }
       return;
     }
     const get = id => document.getElementById("catalog-" + id);
@@ -104,9 +111,10 @@
         heading.append(link(r.title, r.curated_path || "record.html?id=" + encodeURIComponent(r.id)));
         card.append(heading, node("p", r.authors.slice(0, 4).join("; ") + (r.authors.length > 4 ? " et al." : ""), "zk-catalog-authors"), node("p", citation(r), "zk-catalog-meta"));
         const footer = node("div", undefined, "zk-catalog-meta");
-        footer.append(node("span", r.reading_status));
+        footer.append(node("span", [typeName(r.type), r.reading_status].filter(Boolean).join(' · ')));
         if (r.doi) footer.append(link(r.doi, doiUrl(r.doi)));
         card.append(footer, topicLinks(r));
+        renderReadingLinks(card, reading.records[r.id], true);
         return card;
       });
       get("results").replaceChildren(...(cards.length ? cards : [node("p", "没有匹配文献，可更换检索词或分类。")]));

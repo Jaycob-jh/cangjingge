@@ -14,6 +14,11 @@ Effects of Home Photobiomodulation Treatments on Cognitive and Behavioral Functi
 
 [加入研究对比](../../research/tpbm-compare.html?selected=chao-2019-dementia-dmn) · [按问题读](../../research/tpbm-questions.qmd)
 
+```{=html}
+<section id="study-reading-links" data-study="chao-2019-dementia-dmn"></section>
+<script type="module" src="../../assets/reading-links.js"></script>
+```
+
 ## 怎么做
 
 ```{=html}

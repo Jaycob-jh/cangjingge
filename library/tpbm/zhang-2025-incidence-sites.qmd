@@ -14,6 +14,11 @@ Effect of Incidence Sites on Light Distribution at Different Wavelengths During 
 
 [加入研究对比](../../research/tpbm-compare.html?selected=zhang-2025-incidence-sites) · [按问题读](../../research/tpbm-questions.qmd)
 
+```{=html}
+<section id="study-reading-links" data-study="zhang-2025-incidence-sites"></section>
+<script type="module" src="../../assets/reading-links.js"></script>
+```
+
 ## 怎么做
 
 ```{=html}

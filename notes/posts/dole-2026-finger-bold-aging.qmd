@@ -1,4 +1,5 @@
 ---
+doi: "10.1016/j.neuroimage.2026.122351"
 title: "老年组的运动任务 BOLD 增强，按键也更快吗？"
 date: 2026-11-13
 categories: [经颅光刺激]

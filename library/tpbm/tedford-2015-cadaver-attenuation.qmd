@@ -14,6 +14,11 @@ Quantitative Analysis of Transcranial and Intraparenchymal Light Penetration in 
 
 [加入研究对比](../../research/tpbm-compare.html?selected=tedford-2015-cadaver-attenuation) · [按问题读](../../research/tpbm-questions.qmd)
 
+```{=html}
+<section id="study-reading-links" data-study="tedford-2015-cadaver-attenuation"></section>
+<script type="module" src="../../assets/reading-links.js"></script>
+```
+
 ## 怎么做
 
 ```{=html}

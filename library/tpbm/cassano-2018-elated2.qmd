@@ -14,6 +14,11 @@ Transcranial Photobiomodulation for the Treatment of Major Depressive Disorder. 
 
 [加入研究对比](../../research/tpbm-compare.html?selected=cassano-2018-elated2) · [按问题读](../../research/tpbm-questions.qmd)
 
+```{=html}
+<section id="study-reading-links" data-study="cassano-2018-elated2"></section>
+<script type="module" src="../../assets/reading-links.js"></script>
+```
+
 ## 怎么做
 
 ```{=html}

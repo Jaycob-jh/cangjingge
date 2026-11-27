@@ -359,6 +359,9 @@ body:has(.hero-section) #title-block-header { display: none; }
 .zk-catalog-tags a { background: #edf2ef; border-radius: .2rem; padding: .15rem .4rem; }
 .zk-catalog-pagination { display: flex; align-items: center; justify-content: space-between; gap: .8rem; margin: 1.5rem 0; }
 #catalog-record { overflow-wrap: anywhere; }
+.zk-reading-links { display: flex; flex-wrap: wrap; gap: .45rem 1rem; margin: .7rem 0; font-size: .9rem; }
+.zk-reading-links a { overflow-wrap: anywhere; }
+@media (max-width: 767px) { .zk-reading-links a { display: inline-flex; align-items: center; min-height: 44px; } }
 /* Shared layouts for indexes; article pages retain their reading column. */
 main.content h1, main.content h2, main.content h3 { overflow-wrap: anywhere; }
 .quarto-listing-container-grid .card { min-width: 0; height: 100%; }

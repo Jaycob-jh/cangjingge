@@ -14,6 +14,11 @@ EEG dynamic microstate patterns induced by pulsed wave transcranial photobiomodu
 
 [加入研究对比](../../research/tpbm-compare.html?selected=he-2026-pulse-eeg-microstates) · [按问题读](../../research/tpbm-questions.qmd)
 
+```{=html}
+<section id="study-reading-links" data-study="he-2026-pulse-eeg-microstates"></section>
+<script type="module" src="../../assets/reading-links.js"></script>
+```
+
 ## 怎么做
 
 ```{=html}

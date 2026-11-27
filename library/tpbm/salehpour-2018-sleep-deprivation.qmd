@@ -14,6 +14,11 @@ Transcranial near-infrared photobiomodulation attenuates memory impairment and h
 
 [加入研究对比](../../research/tpbm-compare.html?selected=salehpour-2018-sleep-deprivation) · [按问题读](../../research/tpbm-questions.qmd)
 
+```{=html}
+<section id="study-reading-links" data-study="salehpour-2018-sleep-deprivation"></section>
+<script type="module" src="../../assets/reading-links.js"></script>
+```
+
 ## 怎么做
 
 ```{=html}

@@ -14,7 +14,7 @@
 <p>2026 · Xiaowei Ma; Li Liu; Ruijing Liang · Journal of NeuroEngineering and Rehabilitation</p>
 <p class="topic-doi">10.1186/s12984-026-02122-3</p>
 <p class="topic-paper-links">
-<a href="../library/record.html#paper-3284eaa3fac63ef7">查看书目</a> · <a href="../library/tpbm/ma-2026.html">参数与图表</a> · <a href="tpbm-compare.html?selected=ma-2026">加入对比</a>
+<a href="../library/record.html#paper-3284eaa3fac63ef7">查看书目</a> · <a href="../notes/posts/ma-2026-light-motor-cortex.html">论文笔记</a> · <a href="../library/tpbm/ma-2026.html">参数与图表</a> · <a href="tpbm-compare.html?selected=ma-2026">加入对比</a>
 </p>
 </article>
 <article class="topic-paper">

@@ -71828,6 +71828,665 @@
       "reading_status": "精读已整理",
       "summary": "睡眠剥夺后的任务诱发默认网络去激活，按记住与遗忘试次分开分析。",
       "url": "https://doi.org/10.1162/jocn.2009.21331"
+    },
+    {
+      "id": "paper-09b06da669cbaf4a",
+      "title": "Micro-CT-informed Monte Carlo and experimental dosimetry of transcranial photobiomodulation devices",
+      "authors": [
+        "Samin Enam",
+        "Loïc Saint-Martin",
+        "Rayyan Manwar",
+        "Kamran Avanaki"
+      ],
+      "year": 2026,
+      "doi": "10.1038/s41598-026-75995-y",
+      "journal": "Scientific Reports",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1038/s41598-026-75995-y"
+    },
+    {
+      "id": "paper-9e8e4dcbd1887237",
+      "title": "Bridging animal and human: a 3D computational framework of light propagation in head models for transcranial photobiomodulation in Alzheimer's disease",
+      "authors": [
+        "Songqi Yang",
+        "Bowen Zhang",
+        "Mojiao Li",
+        "Zhanxu Liu",
+        "Xin Yang",
+        "Yiming Li",
+        "Ting Li"
+      ],
+      "year": 2026,
+      "doi": "10.1002/brx2.70048",
+      "journal": "Brain‐X",
+      "volume": "4",
+      "issue": "1",
+      "pages": "e70048",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1002/brx2.70048"
+    },
+    {
+      "id": "paper-b7027e8b015670f6",
+      "title": "Effects of melatonin and transcranial photobiomodulation on neuroinflammation-related gene expression and anxiety-like behaviors in rats under chronic restraint stress",
+      "authors": [
+        "Mohammad Mazaheri",
+        "Maryam Radahmadi",
+        "Fahimeh Hosseini-Nasab",
+        "Nahid Eskandari"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.ibneur.2026.10.009",
+      "journal": "IBRO Neuroscience Reports",
+      "volume": "21",
+      "issue": "",
+      "pages": "1064-1076",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1016/j.ibneur.2026.10.009"
+    },
+    {
+      "id": "paper-362eec56b8a73a4e",
+      "title": "Brain photobiomodulation therapy for acute sport-related concussion: a randomized, single-blinded, pilot clinical trial (RECOVERY study)",
+      "authors": [
+        "Jean-François Chermann",
+        "Philippe Malafosse",
+        "Guillaume Champleboux",
+        "Julie Bisiaux",
+        "Sara Guillemin",
+        "Meriem Benmerad",
+        "Andréanne Varet",
+        "Patrice Cristofini",
+        "Guillaume Blivet",
+        "Jacques Touchon"
+      ],
+      "year": 2026,
+      "doi": "10.3389/fneur.2026.1894623",
+      "journal": "Frontiers in Neurology",
+      "volume": "17",
+      "issue": "",
+      "pages": "",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06",
+        "02.08",
+        "02.05"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.3389/fneur.2026.1894623",
+      "summary": "光与静磁场联合干预，比较5和10 Hz，无假刺激对照。"
+    },
+    {
+      "id": "paper-ba37ac7947adee4a",
+      "title": "Effects of Low-Level Light Therapy on Resting-State Connectivity Following Moderate Traumatic Brain Injury: Secondary Analyses of a Double-blinded Placebo-controlled Study",
+      "authors": [
+        "Suk-tak Chan",
+        "Nathaniel Mercaldo",
+        "Maria G. Figueiro Longo",
+        "Jonathan Welt",
+        "Arman Avesta",
+        "Jarone Lee",
+        "Michael H. Lev",
+        "Eva-Maria Ratai",
+        "Michael R. Wenke",
+        "Blair A. Parry",
+        "Lynn Drake",
+        "Richard R. Anderson",
+        "Terry Rauch",
+        "Ramon Diaz-Arrastia",
+        "Kenneth K. Kwong",
+        "Michael Hamblin",
+        "Benjamin J. Vakoc",
+        "Rajiv Gupta"
+      ],
+      "year": 2024,
+      "doi": "10.1148/radiol.230999",
+      "journal": "Radiology",
+      "volume": "311",
+      "issue": "2",
+      "pages": "e230999",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06",
+        "02.08"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1148/radiol.230999"
+    },
+    {
+      "id": "paper-8acb0e84355a564e",
+      "title": "Photobiomodulation preserves behaviour and midbrain dopaminergic cells from MPTP toxicity: evidence from two mouse strains",
+      "authors": [
+        "Cécile Moro",
+        "Napoleon Torres",
+        "Nabil El Massri",
+        "David Ratel",
+        "Daniel M Johnstone",
+        "Jonathan Stone",
+        "John Mitrofanis",
+        "Alim-Louis Benabid"
+      ],
+      "year": 2013,
+      "doi": "10.1186/1471-2202-14-40",
+      "journal": "BMC Neuroscience",
+      "volume": "14",
+      "issue": "1",
+      "pages": "40",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1186/1471-2202-14-40"
+    },
+    {
+      "id": "paper-f3657a15ffbda0a8",
+      "title": "Effectiveness of Photobiomodulation to Treat Motor and Non-Motor Symptoms of Parkinson’s Disease: A Randomised Clinical Trial with Extended Treatment",
+      "authors": [
+        "Anita E. Saltmarche",
+        "Orla Hares",
+        "Brian Bicknell",
+        "Ann Liebert",
+        "Margaret Naeser",
+        "Sujith Ramachandran",
+        "Jenna Sykes",
+        "Kaley Togeretz",
+        "Ashley Namini",
+        "Gillian Z. Heller",
+        "Geoffrey Herkes"
+      ],
+      "year": 2025,
+      "doi": "10.3390/jcm14217463",
+      "journal": "Journal of Clinical Medicine",
+      "volume": "14",
+      "issue": "21",
+      "pages": "7463",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06",
+        "02.08"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.3390/jcm14217463"
+    },
+    {
+      "id": "paper-42c17b4faa1e6ed0",
+      "title": "Visual temporal frequency preference shows a distinct cortical architecture using fMRI",
+      "authors": [
+        "Yuhui Chai",
+        "Daniel A. Handwerker",
+        "Sean Marrett",
+        "Javier Gonzalez-Castillo",
+        "Elisha P. Merriam",
+        "Andrew Hall",
+        "Peter J. Molfese",
+        "Peter A. Bandettini"
+      ],
+      "year": 2019,
+      "doi": "10.1016/j.neuroimage.2019.04.048",
+      "journal": "NeuroImage",
+      "volume": "197",
+      "issue": "",
+      "pages": "13-23",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1016/j.neuroimage.2019.04.048"
+    },
+    {
+      "id": "paper-69b7434c4c3d219d",
+      "title": "Sleep deprivation reduces default mode network connectivity and anti-correlation during rest and task performance",
+      "authors": [
+        "Jack A. De Havas",
+        "Sarayu Parimal",
+        "Chun Siong Soon",
+        "Michael W.L. Chee"
+      ],
+      "year": 2012,
+      "doi": "10.1016/j.neuroimage.2011.08.026",
+      "journal": "NeuroImage",
+      "volume": "59",
+      "issue": "2",
+      "pages": "1745-1751",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1016/j.neuroimage.2011.08.026"
+    },
+    {
+      "id": "paper-34030e72e3cf76ad",
+      "title": "Transcranial photobiomodulation influences BOLD responses during finger sequence execution: An fMRI study in young and older adults",
+      "authors": [
+        "Marjorie Dole",
+        "Vincent Auboiroux",
+        "Daniel Anglade",
+        "Emilie Cousin",
+        "Monica Baciu",
+        "Caroline Sandre-Ballester",
+        "Sandrine Rebecchi",
+        "Tigrane Cantat-Moltrecht",
+        "John Mitrofanis"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.neuroimage.2026.122351",
+      "journal": "NeuroImage",
+      "volume": "344",
+      "issue": "",
+      "pages": "122351",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06",
+        "06"
+      ],
+      "reading_status": "摘要已读",
+      "url": "https://doi.org/10.1016/j.neuroimage.2026.122351",
+      "summary": "正式版摘要与预印本全文；笔记中的图表读数来自预印本。"
+    },
+    {
+      "id": "paper-2d3b4c0c08b798f9",
+      "title": "Reducing vascular variability of fMRI data across aging populations using a breathholding task",
+      "authors": [
+        "Daniel A. Handwerker",
+        "Adam Gazzaley",
+        "Ben A. Inglis",
+        "Mark D'Esposito"
+      ],
+      "year": 2007,
+      "doi": "10.1002/hbm.20307",
+      "journal": "Human Brain Mapping",
+      "volume": "28",
+      "issue": "9",
+      "pages": "846-859",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1002/hbm.20307"
+    },
+    {
+      "id": "paper-434e1dd5ae569e64",
+      "title": "A proof-of-concept clinical trial of parameter-specific transcranial light stimulation for home-based sleep modulation",
+      "authors": [
+        "Hai Jia",
+        "Siqi Liu",
+        "Zhilin Li",
+        "Hanxing Li",
+        "Zhibing Gao",
+        "Yun Shen",
+        "Chenguang Zhao"
+      ],
+      "year": 2026,
+      "doi": "10.2139/ssrn.7560350",
+      "journal": "",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "type": "preprint",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06",
+        "03"
+      ],
+      "reading_status": "摘要已读",
+      "url": "https://doi.org/10.2139/ssrn.7560350"
+    },
+    {
+      "id": "paper-33dea02855f08670",
+      "title": "Aerobic Exercise Alters Brain Function and Structure in Parkinson's Disease: A Randomized Controlled Trial",
+      "authors": [
+        "Martin E. Johansson",
+        "Ian G. M. Cameron",
+        "Nicolien M. Van der Kolk",
+        "Nienke M. de Vries",
+        "Eva Klimars",
+        "Ivan Toni",
+        "Bastiaan R. Bloem",
+        "Rick C. Helmich"
+      ],
+      "year": 2022,
+      "doi": "10.1002/ana.26291",
+      "journal": "Annals of Neurology",
+      "volume": "91",
+      "issue": "2",
+      "pages": "203-216",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1002/ana.26291"
+    },
+    {
+      "id": "paper-e35124ae74ab27f5",
+      "title": "Transcranial photobiomodulation mitigates anxiety and depression-like behavior by modulation of mitochondrial and neuroinflammatory pathways in a mouse model of simulated microgravity",
+      "authors": [
+        "Sareh Kazmi",
+        "Reza Mosaddeghi-Heris",
+        "Hesam Shahabifard",
+        "Hanie Karimi",
+        "Ali Shariati",
+        "Kimia Motlagh Asghari",
+        "Saeed Sadigh-Eteghad",
+        "Michael R. Hamblin",
+        "Javad Mahmoudi",
+        "Fereshteh Farajdokht"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.jphotobiol.2026.113583",
+      "journal": "Journal of Photochemistry and Photobiology B: Biology",
+      "volume": "284",
+      "issue": "",
+      "pages": "113583",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06"
+      ],
+      "reading_status": "摘要已读",
+      "url": "https://doi.org/10.1016/j.jphotobiol.2026.113583"
+    },
+    {
+      "id": "paper-cfb2ad872b6a7fc7",
+      "title": "A Comparison of Functional Connectivity in the Human Brainstem and Spinal Cord Associated with Noxious and Innocuous Thermal Stimulation Identified by Means of Functional MRI",
+      "authors": [
+        "Elena Koning",
+        "Jocelyn M. Powers",
+        "Gabriela Ioachim",
+        "Patrick W. Stroman"
+      ],
+      "year": 2023,
+      "doi": "10.3390/brainsci13050777",
+      "journal": "Brain Sciences",
+      "volume": "13",
+      "issue": "5",
+      "pages": "777",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.3390/brainsci13050777"
+    },
+    {
+      "id": "paper-089783054c70b31f",
+      "title": "Differentiating BOLD and non-BOLD signals in fMRI time series using multi-echo EPI",
+      "authors": [
+        "Prantik Kundu",
+        "Souheil J. Inati",
+        "Jennifer W. Evans",
+        "Wen-Ming Luh",
+        "Peter A. Bandettini"
+      ],
+      "year": 2012,
+      "doi": "10.1016/j.neuroimage.2011.12.028",
+      "journal": "NeuroImage",
+      "volume": "60",
+      "issue": "3",
+      "pages": "1759-1770",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1016/j.neuroimage.2011.12.028"
+    },
+    {
+      "id": "paper-a6c2a9d5cd2ab69b",
+      "title": "Attentional demands predict short-term memory load response in posterior parietal cortex",
+      "authors": [
+        "Hagit Magen",
+        "Tatiana-Aloi Emmanouil",
+        "Stephanie A. McMains",
+        "Sabine Kastner",
+        "Anne Treisman"
+      ],
+      "year": 2009,
+      "doi": "10.1016/j.neuropsychologia.2009.02.015",
+      "journal": "Neuropsychologia",
+      "volume": "47",
+      "issue": "8-9",
+      "pages": "1790-1798",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1016/j.neuropsychologia.2009.02.015"
+    },
+    {
+      "id": "paper-eca61bbaa6c9c3e6",
+      "title": "Transcranial photobiomodulation for the treatment of Parkinson’s disease",
+      "authors": [
+        "Sara Penuela",
+        "Roxana Burciu",
+        "Tamara Wright",
+        "José Angelo Barela",
+        "Diego Orcioli-Silva",
+        "Pedro Paulo Gutierrez",
+        "Luis DeTaboada",
+        "Brian Pryor",
+        "Fabio Augusto Barbieri",
+        "Thomas Buckley",
+        "John J. Jeka"
+      ],
+      "year": 2026,
+      "doi": "10.51224/cik.2026.8554",
+      "journal": "Communications in Kinesiology",
+      "volume": "8",
+      "issue": "S1",
+      "pages": "",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06",
+        "02.08"
+      ],
+      "reading_status": "摘要已读",
+      "url": "https://doi.org/10.51224/cik.2026.8554",
+      "summary": "3页初步研究摘要及公开图表，完整试验报告待补。"
+    },
+    {
+      "id": "paper-c86ab025b1872f90",
+      "title": "Temporal Dynamics of Stress-Induced Alternations of Intrinsic Amygdala Connectivity and Neuroendocrine Levels",
+      "authors": [
+        "C. W. E. M. Quaedflieg",
+        "V. van de Ven",
+        "T. Meyer",
+        "N. Siep",
+        "H. Merckelbach",
+        "T. Smeets"
+      ],
+      "year": 2015,
+      "doi": "10.1371/journal.pone.0124141",
+      "journal": "PLOS ONE",
+      "volume": "10",
+      "issue": "5",
+      "pages": "e0124141",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1371/journal.pone.0124141"
+    },
+    {
+      "id": "paper-17e5c1d31e8c0007",
+      "title": "Using connectome-based predictive modeling to predict individual behavior from brain connectivity",
+      "authors": [
+        "Xilin Shen",
+        "Emily S Finn",
+        "Dustin Scheinost",
+        "Monica D Rosenberg",
+        "Marvin M Chun",
+        "Xenophon Papademetris",
+        "R Todd Constable"
+      ],
+      "year": 2017,
+      "doi": "10.1038/nprot.2016.178",
+      "journal": "Nature Protocols",
+      "volume": "12",
+      "issue": "3",
+      "pages": "506-518",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "摘要已读",
+      "url": "https://doi.org/10.1038/nprot.2016.178",
+      "summary": "已读正式版方法流程、步骤1–10、预期结果及关键图表。"
+    },
+    {
+      "id": "paper-7e65f11a92683e02",
+      "title": "Salience Network Functional Connectivity Predicts Placebo Effects in Major Depression",
+      "authors": [
+        "Magdalena Sikora",
+        "Joseph Heffernan",
+        "Erich T. Avery",
+        "Brian J. Mickey",
+        "Jon-Kar Zubieta",
+        "Marta Peciña"
+      ],
+      "year": 2016,
+      "doi": "10.1016/j.bpsc.2015.10.002",
+      "journal": "Biological Psychiatry: Cognitive Neuroscience and Neuroimaging",
+      "volume": "1",
+      "issue": "1",
+      "pages": "68-76",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1016/j.bpsc.2015.10.002"
+    },
+    {
+      "id": "paper-1a34df191c3c98e1",
+      "title": "Selective changes of resting-state networks in individuals at risk for Alzheimer's disease",
+      "authors": [
+        "Christian Sorg",
+        "Valentin Riedl",
+        "Mark Mühlau",
+        "Vince D. Calhoun",
+        "Tom Eichele",
+        "Leonhard Läer",
+        "Alexander Drzezga",
+        "Hans Förstl",
+        "Alexander Kurz",
+        "Claus Zimmer",
+        "Afra M. Wohlschläger"
+      ],
+      "year": 2007,
+      "doi": "10.1073/pnas.0708803104",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "volume": "104",
+      "issue": "47",
+      "pages": "18760-18765",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.1073/pnas.0708803104"
+    },
+    {
+      "id": "paper-cd8efdb3c67bfc13",
+      "title": "Regional Variation in Interhemispheric Coordination of Intrinsic Hemodynamic Fluctuations",
+      "authors": [
+        "David E. Stark",
+        "Daniel S. Margulies",
+        "Zarrar E. Shehzad",
+        "Philip Reiss",
+        "A. M. Clare Kelly",
+        "Lucina Q. Uddin",
+        "Dylan G. Gee",
+        "Amy K. Roy",
+        "Marie T. Banich",
+        "F. Xavier Castellanos",
+        "Michael P. Milham"
+      ],
+      "year": 2008,
+      "doi": "10.1523/jneurosci.4544-08.2008",
+      "journal": "The Journal of Neuroscience",
+      "volume": "28",
+      "issue": "51",
+      "pages": "13754-13764",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "摘要已读",
+      "url": "https://doi.org/10.1523/jneurosci.4544-08.2008",
+      "summary": "已读公开作者稿的方法、结果与PubMed摘要。"
+    },
+    {
+      "id": "paper-575c65317761fc68",
+      "title": "Skill learning strengthens cortical representations of motor sequences",
+      "authors": [
+        "Tobias Wiestler",
+        "Jörn Diedrichsen"
+      ],
+      "year": 2013,
+      "doi": "10.7554/elife.00801",
+      "journal": "eLife",
+      "volume": "2",
+      "issue": "",
+      "pages": "e00801",
+      "type": "journalArticle",
+      "topics": [
+        "01",
+        "06"
+      ],
+      "reading_status": "全文已读",
+      "url": "https://doi.org/10.7554/elife.00801"
     }
   ]
 }

@@ -14,6 +14,11 @@ Significant Improvement in Cognition in Mild to Moderately Severe Dementia Cases
 
 [加入研究对比](../../research/tpbm-compare.html?selected=saltmarche-2017) · [按问题读](../../research/tpbm-questions.qmd)
 
+```{=html}
+<section id="study-reading-links" data-study="saltmarche-2017"></section>
+<script type="module" src="../../assets/reading-links.js"></script>
+```
+
 ## 怎么做
 
 ```{=html}

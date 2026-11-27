@@ -14,6 +14,11 @@ Up-regulation of cerebral cytochrome-c-oxidase and hemodynamics by transcranial 
 
 [加入研究对比](../../research/tpbm-compare.html?selected=wang-2017-cco-hbo) · [按问题读](../../research/tpbm-questions.qmd)
 
+```{=html}
+<section id="study-reading-links" data-study="wang-2017-cco-hbo"></section>
+<script type="module" src="../../assets/reading-links.js"></script>
+```
+
 ## 怎么做
 
 ```{=html}

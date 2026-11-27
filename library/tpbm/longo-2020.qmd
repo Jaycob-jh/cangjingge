@@ -14,6 +14,11 @@ Effect of Transcranial Low-Level Light Therapy vs Sham Therapy Among Patients Wi
 
 [加入研究对比](../../research/tpbm-compare.html?selected=longo-2020) · [按问题读](../../research/tpbm-questions.qmd)
 
+```{=html}
+<section id="study-reading-links" data-study="longo-2020"></section>
+<script type="module" src="../../assets/reading-links.js"></script>
+```
+
 ## 怎么做
 
 ```{=html}

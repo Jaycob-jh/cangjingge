@@ -1,4 +1,5 @@
 ---
+doi: "10.1002/advs.202523009"
 title: "从靶点个体化到频率个体化"
 subtitle: "Khan et al., 2026 · 摘要阅读札记"
 author: "藏经阁"

@@ -14,6 +14,11 @@ The effect of transcranial photobiomodulation on cognitive function and attentio
 
 [加入研究对比](../../research/tpbm-compare.html?selected=papi-2022-mci-attention) · [按问题读](../../research/tpbm-questions.qmd)
 
+```{=html}
+<section id="study-reading-links" data-study="papi-2022-mci-attention"></section>
+<script type="module" src="../../assets/reading-links.js"></script>
+```
+
 ## 怎么做
 
 ```{=html}

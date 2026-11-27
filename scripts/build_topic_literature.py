@@ -3,6 +3,7 @@ from pathlib import Path
 from html import escape
 import json,re
 from literature_common import normalize_doi
+from build_reading_links import primary_doi
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():
@@ -10,11 +11,12 @@ def main():
     catalog=json.loads((ROOT/'data/catalog.json').read_text(encoding='utf-8'))['records']
     studies=json.loads((ROOT/'data/tpbm-studies.json').read_text(encoding='utf-8'))['studies']
     byid={r['id']:r for r in catalog}; bystudy={s['id']:s for s in studies}
+    catalog_bydoi={normalize_doi(r['doi']):r for r in catalog if r.get('doi')}
     bydoi={normalize_doi(s['doi']):s for s in studies}; notes={}
     for p in sorted((ROOT/'notes/posts').glob('*.qmd')):
         text=p.read_text(encoding='utf-8-sig')
-        match=re.search(r'https://doi\.org/(10\.[^\s)]+)',text[:1600])
-        if match:notes.setdefault(normalize_doi(match[1]),[]).append((p,text))
+        doi=primary_doi(text)
+        if doi:notes.setdefault(doi,[]).append((p,text))
     assert len({t['id'] for t in topics})==len(topics)
     out=ROOT/'research/_topic-literature';out.mkdir(exist_ok=True)
     for t in topics:
@@ -28,12 +30,13 @@ def main():
         entries.sort(key=lambda x:(-int(x[0].get('year') or 0),x[0]['title']))
         lines=['## 相关论文','','按题名、作者、年份或 DOI 筛选。已整理全文的论文可直接查看参数、图表或加入对比。','','[修改论文列表](https://github.com/Jaycob-jh/cangjingge/edit/main/data/topic-literature.json)','','```{=html}',f'<section class="topic-bibliography" aria-label="{escape(t["title"])}相关论文">','<label class="topic-search">查找本专题论文<input type="search" placeholder="题名、作者、年份或 DOI" data-topic-search></label>',f'<p data-topic-count aria-live="polite">{len(entries)} 篇论文</p>','<div class="topic-papers">']
         for r,s,doi in entries:
-            title=r['title'];authors='; '.join(r.get('authors',[])[:3]);meta=' · '.join(str(x) for x in [r.get('year'),authors,r.get('journal')] if x)
+            title=r['title'];metadata=catalog_bydoi.get(doi,r);authors='; '.join(metadata.get('authors',[])[:3]);meta=' · '.join(str(x) for x in [metadata.get('year'),authors,metadata.get('journal')] if x)
             source='https://doi.org/'+doi if doi else r.get('url') or r.get('fulltext'); assert source.startswith('https://'), r['id']
             preprint=doi.startswith(('10.1101/','10.21203/','10.48550/'))
             lines += ['<article class="topic-paper">',f'<h3><a href="{escape(source,quote=True)}">{escape(title)}</a></h3>',f'<p>{escape(meta)}'+(' · 预印本' if preprint else '')+'</p>',f'<p class="topic-doi">{escape(doi)}</p>','<p class="topic-paper-links">']
             links=[]
-            if 'catalog_id' in next(e for e in t['entries'] if e.get('catalog_id')==r['id'] or e.get('study_id')==r['id']):links.append(f'<a href="../library/record.html#{r["id"]}">查看书目</a>')
+            book=catalog_bydoi.get(doi)
+            if book:links.append(f'<a href="../library/record.html#{book["id"]}">查看书目</a>')
             for p,text in notes.get(doi,[]):links.append(f'<a href="../notes/posts/{p.stem}.html">论文笔记</a>')
             if s:
                 links += [f'<a href="../library/tpbm/{s["id"]}.html">参数与图表</a>',f'<a href="tpbm-compare.html?selected={s["id"]}">加入对比</a>']

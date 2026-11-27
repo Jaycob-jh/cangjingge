@@ -56,6 +56,8 @@ def main():
             f"*{s['journal']}* · [DOI: {s['doi']}](https://doi.org/{s['doi']}) · [阅读全文]({s['fulltext']})", '',
             f"阅读范围：{s['reading']}。", '',
             f"[加入研究对比](../../research/tpbm-compare.html?selected={s['id']}) · [按问题读](../../research/tpbm-questions.qmd)", '',
+            '```{=html}', f'<section id="study-reading-links" data-study="{s["id"]}"></section>',
+            '<script type="module" src="../../assets/reading-links.js"></script>', '```', '',
             '## 怎么做', '', '```{=html}', '<dl class="tp-study-fields">']
         for key,label in LABELS.items():
             f=s['fields'][key]

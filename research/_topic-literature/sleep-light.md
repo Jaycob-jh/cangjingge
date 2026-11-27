@@ -22,7 +22,7 @@
 <p>2026 · Jieun Jung; Chanyoung Cheong; Yoonho Oh · Molecular Psychiatry</p>
 <p class="topic-doi">10.1038/s41380-026-03875-y</p>
 <p class="topic-paper-links">
-<a href="../library/record.html#paper-e1045d0d8bb91a62">查看书目</a> · <a href="../library/tpbm/jung-2026.html">参数与图表</a> · <a href="tpbm-compare.html?selected=jung-2026">加入对比</a>
+<a href="../library/record.html#paper-e1045d0d8bb91a62">查看书目</a> · <a href="../notes/posts/jung-2026-light-adenosine-sleep.html">论文笔记</a> · <a href="../library/tpbm/jung-2026.html">参数与图表</a> · <a href="tpbm-compare.html?selected=jung-2026">加入对比</a>
 </p>
 </article>
 <article class="topic-paper">

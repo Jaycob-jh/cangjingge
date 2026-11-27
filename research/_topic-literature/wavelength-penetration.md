@@ -11,10 +11,10 @@
 <div class="topic-papers">
 <article class="topic-paper">
 <h3><a href="https://doi.org/10.1002/brx2.70048">Bridging animal and human: a 3D computational framework of light propagation in head models for transcranial photobiomodulation in Alzheimer&#x27;s disease</a></h3>
-<p>2026 · Brain-X</p>
+<p>2026 · Songqi Yang; Bowen Zhang; Mojiao Li · Brain‐X</p>
 <p class="topic-doi">10.1002/brx2.70048</p>
 <p class="topic-paper-links">
-<a href="../notes/posts/yang-2026-mouse-human-light-delivery.html">论文笔记</a> · <a href="../library/tpbm/yang-2026-mouse-human-fluence.html">参数与图表</a> · <a href="tpbm-compare.html?selected=yang-2026-mouse-human-fluence">加入对比</a>
+<a href="../library/record.html#paper-9e8e4dcbd1887237">查看书目</a> · <a href="../notes/posts/yang-2026-mouse-human-light-delivery.html">论文笔记</a> · <a href="../library/tpbm/yang-2026-mouse-human-fluence.html">参数与图表</a> · <a href="tpbm-compare.html?selected=yang-2026-mouse-human-fluence">加入对比</a>
 </p>
 </article>
 <article class="topic-paper">

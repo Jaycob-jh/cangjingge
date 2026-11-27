@@ -14,6 +14,11 @@ Transcranial 1064-nm laser photobiomodulation modulates frequency-specific corti
 
 [加入研究对比](../../research/tpbm-compare.html?selected=bastola-2026) · [按问题读](../../research/tpbm-questions.qmd)
 
+```{=html}
+<section id="study-reading-links" data-study="bastola-2026"></section>
+<script type="module" src="../../assets/reading-links.js"></script>
+```
+
 ## 怎么做
 
 ```{=html}

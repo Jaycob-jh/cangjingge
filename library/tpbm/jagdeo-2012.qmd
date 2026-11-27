@@ -14,6 +14,11 @@ Transcranial Red and Near Infrared Light Transmission in a Cadaveric Model
 
 [加入研究对比](../../research/tpbm-compare.html?selected=jagdeo-2012) · [按问题读](../../research/tpbm-questions.qmd)
 
+```{=html}
+<section id="study-reading-links" data-study="jagdeo-2012"></section>
+<script type="module" src="../../assets/reading-links.js"></script>
+```
+
 ## 怎么做
 
 ```{=html}

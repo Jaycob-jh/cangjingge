@@ -5,6 +5,8 @@ project:
     - "assets/catalog.js"
     - "assets/topic-literature.js"
     - "assets/catalog.json"
+    - "assets/reading-links.js"
+    - "assets/reading-links.json"
     - "assets/tpbm-compare.js"
     - "assets/tpbm-studies.json"
     - "assets/tpbm-parameters.js"
