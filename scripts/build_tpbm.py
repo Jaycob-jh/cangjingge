@@ -39,6 +39,10 @@ def main():
     assert len({s['doi'].lower() for s in studies}) == len(studies)
     byid = {s['id']:s for s in studies}
     qids = {q['id'] for q in questions}
+    for q in questions:
+        expected = {s['id'] for s in studies if q['id'] in s['questions']}
+        actual = set(q['studies'])
+        assert actual == expected, f"研究与问题关联不一致：{q['id']}；问题页缺少 {sorted(expected-actual)}；研究卡缺少 {sorted(actual-expected)}"
     (ROOT/'library/tpbm').mkdir(exist_ok=True)
     (ROOT/'research/questions').mkdir(exist_ok=True)
     for s in studies:

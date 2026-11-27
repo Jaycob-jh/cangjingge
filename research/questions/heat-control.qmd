@@ -46,5 +46,6 @@ toc: true
 - [Dmochowski · 2020：照射时功能连接增加，MRI能测到升温吗？](../../library/tpbm/dmochowski-2020.qmd)
 - [Barrett · 2013：早期人体研究怎样测注意和记忆？](../../library/tpbm/barrett-2013.qmd)
 - [刘欣彤等 · 2026：经颅光生物调节的光—热效应仿真研究](../../library/tpbm/liu-2026-photothermal-fem.qmd)
+- [Figueiro Longo · 2020：急性脑损伤后，影像变化是否伴随症状改善？](../../library/tpbm/longo-2020.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)

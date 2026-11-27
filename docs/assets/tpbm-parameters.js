@@ -23,12 +23,27 @@ const numeric = {
   duty:['占空比 · %','Duty_Cycle_pct'], spot:['光斑 · cm²','Spot_Area_cm2'], sessions:['次数','Total_Sessions'],
 };
 const form = $('parameter-filters');
+const coreFields = new Set(['subject', 'health', 'target', 'paper', 'wave']);
+const primaryGrid = node('div');
+primaryGrid.className = 'parameter-filter-grid';
+const advanced = node('details');
+advanced.id = 'parameter-advanced';
+advanced.open = matchMedia('(min-width: 768px)').matches;
+const advancedSummary = node('summary', '更多条件：光模式、对照、剂量与疗程');
+const advancedGrid = node('div');
+advancedGrid.className = 'parameter-filter-grid';
+advanced.append(advancedSummary, advancedGrid);
+const activeFilters = node('div');
+activeFilters.className = 'parameter-active-filters';
+activeFilters.setAttribute('aria-label', '已选条件');
+form.append(primaryGrid, advanced, activeFilters);
 const inputs = {};
 function addField(key, label, field) {
   const wrap = node('label', label);
   field.name = key;
   wrap.append(field);
-  form.append(wrap);
+  wrap.dataset.filter = key;
+  (coreFields.has(key) ? primaryGrid : advancedGrid).append(wrap);
   inputs[key] = field;
 }
 for (const [key, [label,, choices]] of Object.entries(selectors)) {
@@ -45,7 +60,17 @@ for (const [key,label] of [['target','靶点'],['paper','题名 / DOI / PMID'], 
 }
 const reset = node('button', '清空筛选');
 reset.type = 'reset';
-form.append(reset);
+const filterActions = node('div');
+filterActions.className = 'parameter-actions';
+const showResults = node('button', '查看结果 ↓');
+showResults.type = 'button';
+showResults.onclick = () => {
+  $('parameter-status').tabIndex = -1;
+  $('parameter-status').focus({preventScroll:true});
+  $('parameter-status').scrollIntoView({block:'start'});
+};
+filterActions.append(showResults,reset);
+form.append(filterActions);
 function normalize(filters) {
   const clean = {};
   for (const [key, input] of Object.entries(inputs)) {
@@ -245,6 +270,18 @@ function render() {
   const raw = Object.fromEntries(Object.entries(inputs).map(([key,input]) => [key,input.value.trim()]));
   const filters = normalize(raw);
   const invalid = Object.keys(numeric).filter(key => raw[key] && !filters[key]);
+  activeFilters.replaceChildren();
+  const extraCount = Object.keys(raw).filter(key => raw[key] && !coreFields.has(key)).length;
+  advancedSummary.textContent = '更多条件：光模式、对照、剂量与疗程' + (extraCount ? ' · 已选 ' + extraCount + ' 项' : '');
+  for (const [key,value] of Object.entries(raw).filter(([,v]) => v)) {
+    const label = selectors[key]?.[0] || numeric[key]?.[0] || (key === 'target' ? '靶点' : '题名 / DOI / PMID');
+    const chip = node('button', label + '：' + value + (invalid.includes(key) ? '（检查格式）' : '') + ' ×');
+    chip.type = 'button';
+    chip.setAttribute('aria-label', '移除' + label + '：' + value);
+    chip.onclick = () => { inputs[key].value = ''; refresh(); (activeFilters.querySelector('button') || showResults).focus(); };
+    activeFilters.append(chip);
+  }
+  if (invalid.length) advanced.open = true;
   const rows = [], pending = [], candidates = [];
   if (!invalid.length) for (const paper of data.papers) for (const [group,entries] of Object.entries(paper.groups)) {
     const verified = entries.filter(item=>!item.pending);

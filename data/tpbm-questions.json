@@ -17,7 +17,8 @@
       "he-2026-pulse-eeg-microstates",
       "salehpour-2018-sleep-deprivation",
       "semyachkina-2023-sleep-drainage",
-      "athari-2026-dose-synaptic-memory"
+      "athari-2026-dose-synaptic-memory",
+      "jagdeo-2012"
     ],
     "evidence": [
       {
@@ -148,7 +149,8 @@
       "wang-2021-eeg-heat",
       "dmochowski-2020",
       "barrett-2013",
-      "liu-2026-photothermal-fem"
+      "liu-2026-photothermal-fem",
+      "longo-2020"
     ],
     "evidence": [
       {
@@ -219,7 +221,11 @@
       "chao-2019-dementia-dmn",
       "motsenyat-2025-pulse-csf",
       "chan-2024-tbi-rsfc",
-      "chun-2026-early-response"
+      "chun-2026-early-response",
+      "wang-2017-heat",
+      "holmes-2019",
+      "zomorrodi-2019",
+      "chao-2020"
     ],
     "evidence": [
       {
@@ -378,7 +384,8 @@
       "chun-2026-early-response",
       "salehpour-2018-sleep-deprivation",
       "semyachkina-2023-sleep-drainage",
-      "athari-2026-dose-synaptic-memory"
+      "athari-2026-dose-synaptic-memory",
+      "nizamutdinov-2021"
     ],
     "evidence": [
       {

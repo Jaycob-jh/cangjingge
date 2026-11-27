@@ -1,7 +1,7 @@
 #parameter-search form { margin: 1rem 0; padding: 1rem; border: 1px solid var(--bs-border-color); border-radius: .5rem; }
 #parameter-search label, #parameter-search input, #parameter-search select { display: block; }
 #parameter-search input, #parameter-search select { width: 100%; min-width: 0; padding: .4rem; }
-#parameter-filters, .parameter-results-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%, 13rem),1fr)); gap: .75rem; }
+.parameter-filter-grid, .parameter-results-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%, 13rem),1fr)); gap: .75rem; }
 .parameter-results-grid { grid-template-columns: repeat(auto-fit,minmax(min(100%, 22rem),1fr)); }
 #parameter-search article { border: 1px solid var(--bs-border-color); padding: .85rem; border-radius: .5rem; overflow-wrap: anywhere; }
 #parameter-search article h3 { font-size: 1.05rem; margin-top: 0; }
@@ -10,3 +10,15 @@
 #parameter-search li { margin-bottom: .35rem; }
 .parameter-relax { display: grid; gap: .5rem; margin: 1rem 0; }
 .parameter-relax button { padding: .5rem; text-align: left; white-space: normal; overflow-wrap: anywhere; }
+#parameter-advanced summary { cursor: pointer; padding: .6rem 0; }
+.parameter-active-filters { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .65rem; }
+.parameter-active-filters:empty { display: none; }
+.parameter-active-filters button { max-width: 100%; padding: .3rem .55rem; border: 1px solid var(--bs-border-color); border-radius: 1rem; background: transparent; font: inherit; overflow-wrap: anywhere; }
+#parameter-status { scroll-margin-top: 6rem; }
+@media (max-width: 767px) {
+  .parameter-filter-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .parameter-filter-grid [data-filter="target"], .parameter-filter-grid [data-filter="paper"] { grid-column: 1 / -1; }
+  #parameter-filters input, #parameter-filters select, #parameter-filters button { min-height: 44px; }
+  #parameter-filters input, #parameter-filters select { font-size: 1rem; }
+  .parameter-filter-grid label { font-size: .9rem; }
+}

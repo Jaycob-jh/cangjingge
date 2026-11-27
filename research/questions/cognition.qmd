@@ -109,5 +109,6 @@ toc: true
 - [Salehpour · 2018：睡眠被剥夺时，照光能保住记忆吗？](../../library/tpbm/salehpour-2018-sleep-deprivation.qmd)
 - [Semyachkina-Glushkovskaya · 2023/2024：在睡眠和清醒时照光，学习和脑排液的变化一样吗？](../../library/tpbm/semyachkina-2023-sleep-drainage.qmd)
 - [Athari · 2026：记忆和突触反应改善时，剂量越高越好吗？](../../library/tpbm/athari-2026-dose-synaptic-memory.qmd)
+- [Nizamutdinov · 2021：居家头盔照射八周后，痴呆患者的认知评分如何？](../../library/tpbm/nizamutdinov-2021.qmd)
 
 [修改这页内容](https://github.com/Jaycob-jh/cangjingge/edit/main/data/tpbm-questions.json)
