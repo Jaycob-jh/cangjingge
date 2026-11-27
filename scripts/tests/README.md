@@ -1,5 +1,7 @@
 # 参数查询回归
 
+参数来源导出修改后运行 `python scripts/tests/test_parameter_provenance.py`。检查中英文页码、补充表行号、缓存范围、原试验与二次分析的区别，且不把本地路径和哈希导出。`source_review_required` 表示现有值仍需原文核对，与原有 `pending` 标记共同决定是否进入待核证据；不覆盖原核查标记。核清后按组、字段移除此附加标记，保留核查依据。
+
 在项目根目录运行 `node scripts/tests/tpbm-query.mjs`。
 
 研究卡或问题关联修改后运行 `python scripts/tests/test_tpbm_links.py`，检查两种单向关联都会被构建拒绝。正常数据由正式构建检查。

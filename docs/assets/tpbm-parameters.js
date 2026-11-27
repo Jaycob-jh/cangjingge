@@ -214,9 +214,15 @@ function evidence(row) {
   const list = node('ul');
   for (const item of row.entries) {
     const li = node('li', data.fields[item.field] + '：' + item.value + ' · ');
-    const kind = {Direct:'原文',Calculated:'计算值',Converted:'换算值'}[item.kind];
+    const kind = {Direct:'直接记录',Calculated:'计算值',Converted:'换算值'}[item.kind];
     if (kind) li.append(kind + ' · ');
-    li.append(link(item.where || '原刊', origin(row.paper)));
+    if (item.source_review_required) li.append('待原文核对 · ');
+    const source = /^PMC\d+$/.test(item.source_pmc || '')
+      ? 'https://pmc.ncbi.nlm.nih.gov/articles/' + item.source_pmc + '/'
+      : /^\d+$/.test(item.source_pmid || '')
+        ? 'https://pubmed.ncbi.nlm.nih.gov/' + item.source_pmid + '/' : origin(row.paper);
+    li.append(link(item.where || '原刊', source));
+    if (item.source_note) li.append(' · ' + item.source_note);
     list.append(li);
   }
   return list;
@@ -284,11 +290,11 @@ function render() {
   if (invalid.length) advanced.open = true;
   const rows = [], pending = [], candidates = [];
   if (!invalid.length) for (const paper of data.papers) for (const [group,entries] of Object.entries(paper.groups)) {
-    const verified = entries.filter(item=>!item.pending);
+    const verified = entries.filter(item=>!item.pending && !item.source_review_required);
     const confirmed = entriesFor(paper,group,verified,false);
     if (verified.length) candidates.push(confirmed);
     if (verified.length && match(confirmed,filters)) rows.push(confirmed);
-    const unverified = entries.filter(item=>item.pending);
+    const unverified = entries.filter(item=>item.pending || item.source_review_required);
     if (unverified.length) candidates.push(entriesFor(paper,group,entries,true));
     if (unverified.length && match(entriesFor(paper,group,entries,true),filters)) pending.push(entriesFor(paper,group,unverified,true));
   }
