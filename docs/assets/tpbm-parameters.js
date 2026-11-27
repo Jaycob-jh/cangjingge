@@ -209,7 +209,7 @@ function match(row, filters) {
   return true;
 }
 const origin = paper => paper.doi ? 'https://doi.org/' + encodeURI(paper.doi) : 'https://pubmed.ncbi.nlm.nih.gov/' + paper.id + '/';
-function rowTitle(row) { return row.group || '文献层记录 · 组别未拆分'; }
+function rowTitle(row) { return row.paper.group_labels?.[row.group] || row.group || '文献层记录 · 组别未拆分'; }
 function evidence(row) {
   const list = node('ul');
   for (const item of row.entries) {
