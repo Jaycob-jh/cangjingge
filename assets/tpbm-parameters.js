@@ -1,4 +1,4 @@
-import {common, range, targetMatches} from './tpbm-query.mjs';
+import {common, range, targetMatches, categoryMatches} from './tpbm-query.mjs';
 const $ = id => document.getElementById(id);
 const node = (tag, text) => {
   const element = document.createElement(tag);
@@ -11,10 +11,10 @@ const link = (text, href) => {
   return element;
 };
 const selectors = {
-  subject: ['对象', 'Subject_Type', {'Human':'人体','Animal':'动物','Cell':'细胞','Ex_Vivo':'离体','Simulation':'仿真'}],
+  subject: ['对象', 'Subject_Type', {'Human':'人体','Animal':'动物','Cell':'细胞','Cadaver':'尸体组织','Ex_Vivo':'离体','Simulation':'仿真'}],
   health: ['健康状态', 'Health_Status', {'Healthy':'健康','Disease':'疾病','Mixed':'混合'}],
   mode: ['光模式', 'Light_Mode', {'CW':'连续光','PW':'脉冲光'}],
-  control: ['对照', 'Control_Type', {'Sham':'假刺激','Active_Control':'主动对照','No_Treatment':'无处理'}],
+  control: ['对照', 'Control_Type', {'Sham':'假刺激','Active_Control':'主动对照','Heat_Control':'热对照','No_Treatment':'无处理','None':'无对照','Other':'其他对照'}],
   temperature: ['测温', 'Temperature_Measured', {'Yes':'记录测温'}],
 };
 const numeric = {
@@ -203,7 +203,7 @@ function match(row, filters) {
         return actual && actual[0] >= min && actual[1] <= max;
       }
       if (key === 'target') return targetMatches(item.value,value);
-      return item.value.toLowerCase() === value.toLowerCase();
+      return categoryMatches(field,item.value,value);
     })) return false;
   }
   return true;

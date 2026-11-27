@@ -40,3 +40,14 @@ def location(text, source):
 def requires_original(text, source):
     """An imported confirmed flag alone cannot turn cached snippets into full text."""
     return source in {'Abstract', 'Metadata'} or bool(re.search(r'缓存|搜索摘录|日期元数据|\bAbstract\b', text, re.I))
+
+
+def matching_sources(item, rows):
+    """Rows must already match paper, arm, field, value and kind.
+
+    Equal values from a cached source and a PDF can coexist. Resolve the
+    *displayed locator*, rather than assigning one status to both records.
+    Unknown (possibly hand-edited) locators are left for manual reconciliation.
+    """
+    return [row for row in rows
+            if legacy_location(row.get('F', ''), row.get('G', '')) == item['where']]

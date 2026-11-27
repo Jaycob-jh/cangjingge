@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {common, targetMatches, range} from '../../assets/tpbm-query.mjs';
+import {common, targetMatches, range, categoryMatches} from '../../assets/tpbm-query.mjs';
 const cases = [
  ['健康成人右侧背外侧前额叶，0.25 W，照射300秒', {subject:'Human',health:'Healthy',target:'右侧背外侧前额叶',power:'250',duration:'5'}],
  ['850纳米左侧前额叶，0.05 W/cm²，60秒', {wave:'850',target:'左侧前额叶',irradiance:'50',duration:'1'}],
@@ -9,6 +9,7 @@ const cases = [
  ['小鼠 810纳米 不要求有假刺激', {subject:'Animal',wave:'810'}],
  ['核查 DOI:10.1038/S41598-019-42693-X', {paper:'10.1038/s41598-019-42693-x'}],
  ['PMID 28186867', {paper:'28186867'}],
+ ['只看实测温升', {temperature:'Yes'}],
 ];
 for (const [query, expected] of cases) assert.deepEqual(common(query), expected,query);
 for (const [value,query,expected] of [
@@ -23,4 +24,12 @@ for (const [value,query,expected] of [
 ]) assert.equal(targetMatches(value,query),expected,JSON.stringify({value,query}));
 assert.deepEqual(range('8–10'),[8,10]);
 assert.equal(range('10-8'),null);
-console.log(JSON.stringify({queries:cases.length,targetCases:8,rangeCases:2,passed:true}));
+for (const [field,value,query,expected] of [
+ ['Temperature_Measured','Measured','Yes',true],
+ ['Temperature_Measured','Yes','Yes',true],
+ ['Temperature_Measured','No','Yes',false],
+ ['Temperature_Measured','Unknown','Yes',false],
+ ['Control_Type','None','No_Treatment',false],
+ ['Subject_Type','Cadaver','Human',false],
+]) assert.equal(categoryMatches(field,value,query),expected);
+console.log(JSON.stringify({queries:cases.length,targetCases:8,rangeCases:2,categoryCases:6,passed:true}));

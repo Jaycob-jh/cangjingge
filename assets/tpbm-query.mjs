@@ -74,3 +74,11 @@ function common(text) {
 }
 
 export {common, range, targetMatches};
+// Keep stored scientific values intact; normalize only known filter vocabulary.
+export function categoryMatches(field, value, query) {
+  const actual = String(value).toLowerCase(), requested = String(query).toLowerCase();
+  if (field === 'Temperature_Measured' && requested === 'yes') {
+    return actual === 'measured' || actual === 'yes';
+  }
+  return actual === requested;
+}

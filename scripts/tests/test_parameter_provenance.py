@@ -2,10 +2,20 @@ import sys
 import unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from parameter_provenance import location, requires_original
+from parameter_provenance import location, requires_original, matching_sources
 
 
 class ParameterProvenance(unittest.TestCase):
+    def test_cached_and_pdf_duplicates_keep_separate_sources(self):
+        rows = [{'F': '作者网页缓存 Table 2', 'G': 'Main_Text'},
+                {'F': 'paper.pdf physical p.4, Table 2', 'G': 'Main_Text'}]
+        cached = matching_sources({'where': 'Table 2'}, rows)
+        original = matching_sources({'where': 'PDF 第 4, 页 · Table 2'}, rows)
+        self.assertEqual(len(cached), 1)
+        self.assertTrue(requires_original(cached[0]['F'], cached[0]['G']))
+        self.assertFalse(requires_original(original[0]['F'], original[0]['G']))
+        self.assertEqual(matching_sources({'where': 'Hai核对后的手写定位'}, rows), [])
+
     def test_coordinates_without_private_notes(self):
         self.assertEqual(location('I:/private/26889965.pdf 物理第2页；SHA256 abc', 'Main_Text'), 'PDF 第 2 页')
         self.assertEqual(location('paper.pdf physical pp.3–5', 'Main_Text'), 'PDF 第 3–5 页')
