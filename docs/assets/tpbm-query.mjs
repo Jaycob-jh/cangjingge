@@ -1,6 +1,6 @@
 import {parseScopeQuery} from './parameter-scope.mjs';
 const targetNames = {'前额叶':'prefrontal','运动皮层':'motor cortex','顶叶':'parietal','枕叶':'occipital','海马':'hippocamp','头皮':'scalp'};
-const targetAliases = {...targetNames, '中央后回':'postcentral', '楔前叶':'precuneus', '背外侧前额叶':'dorsolateral prefrontal', '颅骨':'skull'};
+const targetAliases = {...targetNames, '中央后回':'postcentral', '楔前叶':'precuneus', '背外侧前额叶':'dorsolateral prefrontal', '颅骨':'skull', '额部':'forehead', '前额':'forehead', '额':'forehead', 'M1':'motor cortex', ...Object.fromEntries(['Fp1','Fp2','Fpz','F3','F4','Fz','C3','C4','Cz'].map(k=>[k,k.toLowerCase()]))};
 const sideTerms = {
   right: /右(?:侧|半球)?|\b(?:right|rt\.?)\b/i,
   left: /左(?:侧|半球)?|\b(?:left|lt\.?)\b/i,
@@ -19,13 +19,17 @@ function targetMatches(value, query) {
   if (/^(?:dlpfc|dorsolateral prefrontal(?: cortex)?|背外侧前额叶)$/i.test(region)) synonyms.push('dlpfc', 'dorsolateral prefrontal', 'dorsolateral pfc');
   if (region === '前额叶' || region === 'prefrontal') synonyms.push('dlpfc');
   if (region === '背外侧前额叶') synonyms.push('dlpfc');
+  if (/^(?:运动皮层|motor cortex|m1)$/i.test(region)) synonyms.push('m1','primary motor cortex','运动皮层');
+  if (/^(?:前额叶|prefrontal|前额|额部|额|forehead)$/i.test(region)) synonyms.push('forehead','prefrontal','前额','右额','左额');
   const text = value.toLowerCase();
-  if (text.includes(query.toLowerCase()) && (!side || targetSide(text) === side)) return true;
-  if (!side) return synonyms.some(term => term && text.includes(term));
+  const electrode=term=>/^(?:m1|fp[12z]|[fc][34z])$/i.test(term);
+  const includes=part=>synonyms.some(term=>term&&(electrode(term)?new RegExp('(?:^|[^a-z0-9])'+term+'(?=$|[^a-z0-9])','i').test(part):part.includes(term)));
+  if (!electrode(region)&&text.includes(query.toLowerCase()) && (!side || targetSide(text) === side)) return true;
+  if (!side) return includes(text);
   // Bind the side to the same target phrase and exclude combined or alternative laterality.
   if (targetSide(text) !== side) return false;
   return text.split(/[,;，；、]|\b(?:and|or)\b/).some(part =>
-    targetSide(part) === side && synonyms.some(term => term && part.includes(term)));
+    targetSide(part) === side && includes(part));
 }
 function range(value) {
   const bound = value.trim().normalize('NFKC').match(/^(>=|<=|>|<|≥|≤)\s*(\d+(?:\.\d+)?)$/);
@@ -39,8 +43,29 @@ function range(value) {
   const min = Number(match[1]), max = Number(match[2] ?? match[1]);
   return Number.isFinite(max) && min <= max ? [min,max] : null;
 }
+export function normalizeQueryText(text) {
+  const cn='零〇一二两三四五六七八九十百千点';
+  const number=value=>{
+    if(/^\d+(?:\.\d+)?$/.test(value))return value;
+    const digits={'零':0,'〇':0,'一':1,'二':2,'两':2,'三':3,'四':4,'五':5,'六':6,'七':7,'八':8,'九':9};
+    const integer=v=>{let total=0,current=0;if(!/[十百千]/.test(v))return Number([...v].map(c=>digits[c]).join(''));for(const c of v){if(c in digits)current=digits[c];else {total+=(current||1)*({'十':10,'百':100,'千':1000}[c]);current=0;}}return total+current;};
+    const [a,b]=value.split('点');return String(integer(a||'零'))+(b?'.'+[...b].map(c=>digits[c]).join(''):'');
+  };
+  text=String(text).normalize('NFKC').replace(/连续激光/g,'连续光').replace(/脉冲激光/g,'脉冲光');
+  text=text.replace(new RegExp('百分之(['+cn+'0-9.]+)','g'),(_,v)=>number(v)+'%');
+  const unit='纳米|毫瓦|瓦特|瓦|焦耳|分钟|秒|小时|赫兹|次|nm|mW|W|Hz|%';
+  text=text.replace(new RegExp('(['+cn+']+)(?:\\s*([到至–—~～-])\\s*(['+cn+']+))?(?=\\s*(?:'+unit+'))','g'),(_,a,op,b)=>number(a)+(b?'–'+number(b):''));
+  text=text.replace(/半小时/g,'30分钟').replace(/单次照射|单次刺激/g,'1次照射');
+  text=text.replace(/平方厘米/g,'cm2').replace(/毫瓦/g,'mW').replace(/瓦特|瓦/g,'W').replace(/焦耳/g,'J');
+  text=text.replace(/每\s*cm2\s*(\d+(?:\.\d+)?)\s*(mW|W|J)/gi,'$1$2/cm2').replace(/(mW|W|J)\s*每\s*cm2/gi,'$1/cm2');
+  text=text.replace(/(\d+(?:\.\d+)?)\s*小时/g,(_,v)=>String(Number(v)*60)+'分钟');
+  const convert=(value,scale)=>value.split(/\s*[-–—~～至到]\s*/).map(v=>String(Number((Number(v)*scale).toPrecision(12)))).join('–');
+  text=text.replace(/(\d+(?:\.\d+)?(?:\s*[-–—~～至到]\s*\d+(?:\.\d+)?)?)\s*W(?![a-z])/g,(_,v)=>convert(v,1000)+'mW')
+    .replace(/(\d+(?:\.\d+)?(?:\s*[-–—~～至到]\s*\d+(?:\.\d+)?)?)\s*(?:秒|seconds?\b|s\b)/gi,(_,v)=>convert(v,1/60)+'分钟');
+  return text;
+}
 function common(text) {
-  text = text.normalize('NFKC').replace(/平方厘米/g, 'cm2').replace(/毫瓦/g, 'mW').replace(/焦耳/g, 'J');
+  text = normalizeQueryText(text);
   // Convert an entire reported range, not only its upper endpoint.
   const convert = (value, scale) => value.split(/\s*[-–—~～至到]\s*/).map(n => String(Number((Number(n)*scale).toPrecision(12)))).join('–');
   text = text.replace(/(\d+(?:\.\d+)?(?:\s*[-–—~～至到]\s*\d+(?:\.\d+)?)?)\s*W(?![a-z])/g, (_,n) => convert(n,1000)+'mW')
@@ -70,7 +95,7 @@ function common(text) {
       out[key] = op + m[2];
     }
   }
-  if (/成人|患者|人体|人脑|人类|human/i.test(text)) out.subject = 'Human';
+  if (/成人|患者|人体|人脑|人类|健康人|被试|受试者|志愿者|human/i.test(text)) out.subject = 'Human';
   if (/小鼠|大鼠|动物|mouse|rat\b/i.test(text)) out.subject = 'Animal';
   if (/离体|ex vivo/i.test(text)) out.subject = 'Ex_Vivo';
   if (/细胞|cell/i.test(text)) out.subject = 'Cell';
@@ -85,7 +110,9 @@ function common(text) {
   if (/无对照|没有对照/.test(text)) out.control = 'None';
   if (!/不要求.*(?:测温|温升)/.test(text) && /必须.*测温|只看.*测温|必须.*温升|只看.*实测温升/.test(text)) out.temperature = 'Yes';
   for (const term of Object.keys(targetAliases).sort((a,b) => b.length-a.length)) {
-    const found = text.match(new RegExp('(?:右侧?|左侧?|双侧|两侧)?' + term));
+    const side='(?:右侧?|左侧?|双侧|两侧|right\\b|left\\b|bilateral\\b)\\s*';
+    const latin=/^[A-Za-z]/.test(term);
+    const found = text.match(new RegExp((latin?'(?<![A-Za-z0-9])':'')+(term==='额'?side:'(?:'+side+')?')+term+(latin?'(?![A-Za-z0-9])':''),latin?'i':''));
     if (found) { out.target = found[0]; break; }
   }
   if (!out.target) {
@@ -95,6 +122,9 @@ function common(text) {
   const identifier = text.match(/(?:doi\s*:\s*|https?:\/\/(?:dx\.)?doi\.org\/)?(10\.\d{4,9}\/[^\s，。；;]+)/i)
     || text.match(/\bPMID\s*:?\s*(\d{7,9})\b/i);
   if (identifier) out.paper = identifier[1].replace(/[.,]+$/, '').toLowerCase();
+  const total=text.match(/(?:总共|一共|共计|合计|总计|累计)\s*(\d+)\s*次/);
+  if(total)out.sessions=total[1];
+  else if(/每(?:天|日|周|星期).{0,10}\d+\s*次/.test(text))delete out.sessions;
   const scoped=parseScopeQuery(text);Object.assign(out,scoped.filters);
   if(out.target==='头皮'&&(scoped.filters.dosePlane||scoped.filters.irradiancePlane)&&/头皮(?:表面)?(?:的)?\s*(?:剂量|能量密度|辐照度|\d)/.test(text))delete out.target;
   return Object.fromEntries(Object.entries(out).filter(([,v]) => v));

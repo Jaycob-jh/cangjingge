@@ -5,3 +5,5 @@
 #evidence-ai{font:inherit;min-height:44px;padding:.5rem .8rem;border:1px solid #b8c8c7;border-radius:.4rem;background:transparent;color:inherit}#evidence-ai:disabled{opacity:.5}#evidence-selected article{padding:1rem;border-left:3px solid #2e6965;background:#eef4f1;margin:.8rem 0;overflow-wrap:anywhere}#evidence-selected h3{font-size:1.1rem;margin-top:0}
 
 #evidence-ai-panel summary{cursor:pointer;min-height:44px;padding:.5rem 0}
+
+#evidence-picked:empty{display:none}#evidence-picked{border:1px solid var(--bs-border-color);border-left:3px solid #2e6965;border-radius:.4rem;padding:1rem;margin:1rem 0;overflow-wrap:anywhere}#evidence-picked h2{font-size:1.2rem;margin-top:0}#evidence-picked button,#evidence-results button[data-pick-key]{font:inherit;min-height:44px;padding:.5rem .8rem;border:1px solid #557d7b;border-radius:.3rem;background:#edf4f1;color:#203b3d}#evidence-picked button{margin-left:.6rem}#evidence-results button:disabled{opacity:.6}#evidence-document-clues h4{font-size:1.05rem}

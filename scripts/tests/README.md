@@ -28,3 +28,5 @@ Excel导入前运行 `python scripts/tests/test_parameter_import.py`。默认预
 本机草稿保存运行 `node scripts/tests/test_draft_store.mjs`：保存前不写入、人工字段/分类/页码往返、容量失败保留旧副本、过期写入与删除拒绝、损坏副本不自动清除。浏览器另验主动开启、即时刷新恢复、关闭保存、JSON/QMD导出导入和跨页面编辑冲突。
 
 `python scripts/tests/test_page_modules.py` 检查页面模块漏导出时会失败；正式构建的 verify_pages.py 同时检查自有浏览器脚本的相对静态与字面动态导入。
+
+中文实际研究问题回归：`node scripts/tests/test_research_queries.mjs`。覆盖中文数词、瓦与每平方厘米、占空比、时间/剂量/次数比较、侧别和电极名、实际实验组、文献层线索隔离、原文图表来源与稳定组ID对比；不跨组继承、不把待核字段变成已核。

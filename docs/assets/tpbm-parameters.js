@@ -1,7 +1,7 @@
 import {scopeOptions,scopedCardHints} from './parameter-scope.mjs';
-import {parseEvidenceQuestion,rowMatches} from './tpbm-evidence.mjs';
+import {parseEvidenceQuestion,rowMatches,restoreParameterRows} from './tpbm-evidence.mjs?v=20261128-query2';
 import {loadLocalQwen} from './local-qwen.mjs';
-import {common, range, targetMatches, categoryMatches, numericMatches, queryWarnings} from './tpbm-query.mjs';
+import {common, range, targetMatches, categoryMatches, numericMatches, queryWarnings} from './tpbm-query.mjs?v=20261128-query2';
 const $ = id => document.getElementById(id);
 const node = (tag, text) => {
   const element = document.createElement(tag);
@@ -130,9 +130,9 @@ function apply(filters) {
 }
 function needsSeparateFilters(question) {
   const parsed=parseEvidenceQuestion(question);
-  if(parsed.variants.length<2&&!parsed.ambiguous)return false;
+  if(parsed.variants.length<2&&!parsed.ambiguous&&!parsed.unsupportedExclusion&&!parsed.unsupportedSchedule)return false;
   const target=new URL('ask.html',location.href);target.searchParams.set('query',question);
-  status.replaceChildren(node('span','问题包含多组或尚未明确的数值条件，当前筛选已保留。 '),link('按组查证据 →',target.href));
+  status.replaceChildren(node('span','问题包含多组条件或尚未支持的限定，当前筛选已保留。 '),link('按组查证据 →',target.href));
   return true;
 }
 $('parameter-query').addEventListener('submit', event => {
@@ -341,15 +341,7 @@ function saveSelection() {
 }
 function restoreSelection(url) {
   selected.clear();
-  for(const key of new Set(url.searchParams.getAll('picked').slice(0,50))) {
-    if(selected.size>=5)break;
-    // Resolve stable IDs against the current public index; never trust URL content as evidence.
-    for(const paper of data.papers)for(const[group,entries]of Object.entries(paper.groups)) {
-      const verified=entries.filter(item=>!item.pending&&!item.source_review_required);
-      const row=entriesFor(paper,group,verified,false);
-      if(row.key===key&&verified.length)selected.set(key,row);
-    }
-  }
+  for(const row of restoreParameterRows(data,url.searchParams.getAll('picked')))selected.set(row.key,row);
 }
 function restorePage(url) {
   filterRevision++;offset=20;pendingOffset=15;

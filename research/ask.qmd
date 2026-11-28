@@ -12,7 +12,7 @@ css: ../assets/evidence-search.css
 ```{=html}
 <form id="evidence-form">
 <label for="evidence-question">你想查什么？</label>
-<input id="evidence-question" maxlength="400" placeholder="例如：40 Hz 光刺激有哪些脑电研究？">
+<input id="evidence-question" maxlength="400" placeholder="例如：健康受试者，右额1064纳米，照八分钟，有假刺激">
 <button type="submit">查证据</button>
 </form>
 <div class="evidence-examples" aria-label="问题示例">
@@ -20,7 +20,9 @@ css: ../assets/evidence-search.css
 <button type="button" data-question="40 Hz 脑电研究">40 Hz 与脑电</button>
 <button type="button" data-question="光穿透">光穿透</button>
 <button type="button" data-question="10Hz和40Hz脑电研究">10 Hz 与 40 Hz</button>
-<button type="button" data-question="健康成人 1064nm 连续光">人体照射参数</button>
+<button type="button" data-question="健康受试者右额1064纳米，照八分钟，有假刺激">右额照射参数</button>
+<button type="button" data-question="3次和14次照射的脑损伤研究">3次与14次疗程</button>
+<button type="button" data-question="10Hz脉冲光和连续光的脑电微状态结果">脉冲与连续光的脑电结果</button>
 </div>
 <p id="evidence-status" role="status">正在加载证据……</p>
 <details id="evidence-ai-panel"><summary>用本地模型挑重点（可选）</summary>
@@ -28,8 +30,9 @@ css: ../assets/evidence-search.css
 <p><small>直接检索无需模型。Qwen 在本机运行，首次约下载 869 MB；已有权重可复用。它只从本次研究中选证据，不生成新的参数或结论。</small></p>
 <p id="evidence-ai-status" role="status"></p></details>
 <div id="evidence-selected"></div>
+<section id="evidence-picked" aria-label="已选参数对比"></section>
 <div id="evidence-results"></div>
-<script type="module" src="../assets/evidence-search.js"></script>
+<script type="module" src="../assets/evidence-search.js?v=20261128-query2"></script>
 ```
 
 这里直接检索已整理的证据，按原有记录展示方法和结果。要回答哪种方案更好，请同时比较对象、对照、剂量和测量时间。
