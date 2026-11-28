@@ -217,11 +217,24 @@ function renderPicked() {
   for (const row of selected.values()) {
     const card = node('article');
     const remove = node('button','移除');
-    remove.onclick = () => { selected.delete(row.key); render(); };
+    remove.onclick = () => { selected.delete(row.key); saveSelection(); render(); };
     card.append(node('h3',rowTitle(row)),link(row.paper.title,origin(row.paper)),evidence(row),remove);
     grid.append(card);
   }
   tray.append(grid);
+  const share = node('button','复制筛选与对比链接');
+  share.type = 'button';
+  share.onclick = async () => {
+    try { await navigator.clipboard.writeText(location.href); share.textContent='链接已复制'; }
+    catch {
+      const field=node('input');field.type='text';field.readOnly=true;field.value=location.href;
+      field.setAttribute('aria-label','筛选与对比链接');tray.append(field);field.select();
+      share.textContent='请复制下方链接';
+    }
+  };
+  const clear = node('button','清空已选记录');clear.type='button';
+  clear.onclick=()=>{selected.clear();saveSelection();render();};
+  tray.append(node('p','已选记录随链接保留，刷新后仍可继续对比。'),share,clear);
   const ids = [...new Set([...selected.values()].map(row => row.paper.card).filter(Boolean))];
   if (ids.length) tray.append(link('在研究对比台查看 ' + ids.length + ' 篇全文卡', 'tpbm-compare.html?selected=' + encodeURIComponent(ids.join(','))));
 }
@@ -239,7 +252,7 @@ function renderList(target, rows, limit, more, allowCompare) {
     if (allowCompare) {
       const button = node('button', selected.has(row.key) ? '已加入对比' : '加入对比');
       button.disabled = selected.has(row.key) || selected.size >= 5;
-      button.onclick = () => { selected.set(row.key,row); render(); $('parameter-picked').scrollIntoView({block:'nearest'}); };
+      button.onclick = () => { selected.set(row.key,row); saveSelection(); render(); $('parameter-picked').scrollIntoView({block:'nearest'}); };
       article.append(button);
       if (row.paper.card) article.append(' · ', link('已整理全文卡', '../library/tpbm/' + row.paper.card + '.html'));
     }
@@ -320,6 +333,36 @@ function render() {
   renderList(section.querySelector('div'),pending,pendingOffset,()=>{pendingOffset+=20;render();},false);
   if(pendingHints.length){section.querySelector('summary').textContent+=' · '+pendingHints.length+' 条文献口径线索待核';const box=section.querySelector('div');for(const h of pendingHints){const card=node('article');card.append(node('h3',h.study.short+' · 口径待核'),node('p',h.text));if(h.source)card.append(link(h.source.label,h.source.url));box.append(card);}}
 }
+function saveSelection() {
+  const url=new URL(location.href);
+  url.searchParams.delete('picked');
+  for(const key of selected.keys())url.searchParams.append('picked',key);
+  history.replaceState(null,'',url);
+}
+function restoreSelection(url) {
+  selected.clear();
+  for(const key of new Set(url.searchParams.getAll('picked').slice(0,50))) {
+    if(selected.size>=5)break;
+    // Resolve stable IDs against the current public index; never trust URL content as evidence.
+    for(const paper of data.papers)for(const[group,entries]of Object.entries(paper.groups)) {
+      const verified=entries.filter(item=>!item.pending&&!item.source_review_required);
+      const row=entriesFor(paper,group,verified,false);
+      if(row.key===key&&verified.length)selected.set(key,row);
+    }
+  }
+}
+function restorePage(url) {
+  filterRevision++;offset=20;pendingOffset=15;
+  for(const input of Object.values(inputs))input.value='';
+  const incoming=url.searchParams.get('query');
+  $('parameter-prompt').value=incoming?.slice(0,400)||'';
+  if(url.searchParams.get('filters')==='1') {
+    const saved=normalize(Object.fromEntries(Object.keys(inputs).map(key=>[key,url.searchParams.get('f_'+key)||''])));
+    for(const[key,value]of Object.entries(saved))inputs[key].value=value;
+  } else if(incoming&&!needsSeparateFilters(incoming))apply(common(incoming));
+  restoreSelection(url);render();
+}
+window.addEventListener('popstate',()=>{if(data)restorePage(new URL(location.href));});
 function refresh() {
   filterRevision++; offset=20; pendingOffset=15;
   const url=new URL(location.href);url.searchParams.set('filters','1');
@@ -333,14 +376,7 @@ try {
   const responses = await Promise.all(['tpbm-parameters.json','tpbm-studies.json'].map(f=>fetch('../assets/'+f)));
   if(responses.some(r=>!r.ok))throw Error('Index unavailable');
   [data,studyData]=await Promise.all(responses.map(r=>r.json()));
-  const incoming = new URL(location.href).searchParams.get('query');
-  const url=new URL(location.href);
-  if (incoming) $('parameter-prompt').value = incoming.slice(0,400);
-  if (url.searchParams.get('filters')==='1') {
-    const saved=normalize(Object.fromEntries(Object.keys(inputs).map(key=>[key,url.searchParams.get('f_'+key)||''])));
-    for(const [key,value]of Object.entries(saved))inputs[key].value=value;
-  } else if (incoming&&!needsSeparateFilters(incoming)) apply(common(incoming));
-  render();
+  restorePage(new URL(location.href));
 } catch {
   $('parameter-status').textContent = '参数索引加载失败，请刷新页面。';
 }
