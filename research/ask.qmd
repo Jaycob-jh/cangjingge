@@ -1,0 +1,29 @@
+---
+title: "带着问题找证据"
+page-layout: full
+toc: false
+css: ../assets/evidence-search.css
+---
+
+查已有研究怎么做、用了哪些参数、得到了什么结果。每条内容都能回到原文。免费使用，无需登录或下载模型。
+
+[按参数查研究](tpbm-parameters.qmd) · [研究对比](tpbm-compare.qmd) · [按专题阅读](index.qmd)
+
+```{=html}
+<form id="evidence-form">
+<label for="evidence-question">你想查什么？</label>
+<input id="evidence-question" maxlength="400" placeholder="例如：40 Hz 光刺激有哪些脑电研究？">
+<button type="submit">查证据</button>
+</form>
+<div class="evidence-examples" aria-label="问题示例">
+<button type="button" data-question="睡眠和记忆的光刺激研究">睡眠与记忆</button>
+<button type="button" data-question="40 Hz 脑电研究">40 Hz 与脑电</button>
+<button type="button" data-question="光穿透">光穿透</button>
+<button type="button" data-question="健康成人 1064nm 连续光">人体照射参数</button>
+</div>
+<p id="evidence-status" role="status">正在加载证据……</p>
+<div id="evidence-results"></div>
+<script type="module" src="../assets/evidence-search.js"></script>
+```
+
+这里直接检索已整理的证据，按原有记录展示方法和结果。要回答哪种方案更好，请同时比较对象、对照、剂量和测量时间。

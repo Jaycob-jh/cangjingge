@@ -1,4 +1,4 @@
-import {common, range, targetMatches, categoryMatches} from './tpbm-query.mjs';
+import {common, range, targetMatches, categoryMatches, numericMatches, queryWarnings} from './tpbm-query.mjs';
 const $ = id => document.getElementById(id);
 const node = (tag, text) => {
   const element = document.createElement(tag);
@@ -55,7 +55,7 @@ for (const [key, [label,, choices]] of Object.entries(selectors)) {
 for (const [key,label] of [['target','靶点'],['paper','题名 / DOI / PMID'], ...Object.entries(numeric).map(([key,[label]]) => [key,label])]) {
   const field = node('input');
   field.maxLength = 160;
-  if (key in numeric) field.placeholder = '单值或范围，如 8–10';
+  if (key in numeric) field.placeholder = '如 8–10、>=10、<=20';
   addField(key, label, field);
 }
 const reset = node('button', '清空筛选');
@@ -146,6 +146,7 @@ $('parameter-query').addEventListener('submit', event => {
   event.preventDefault();
   status.textContent = apply(common($('parameter-prompt').value))
     ? '已填入可识别条件，请核对或补充。' : '未识别到支持的条件，可直接修改筛选。';
+  status.textContent += ' ' + queryWarnings($('parameter-prompt').value).join(' ');
 });
 $('parameter-ai').onclick = async event => {
   const question = $('parameter-prompt').value.trim();
@@ -179,7 +180,7 @@ $('parameter-ai').onclick = async event => {
     const filters = JSON.parse(result.choices[0].message.content);
     if (changed()) { status.textContent = '筛选已编辑，本次模型结果未应用。'; return; }
     if (!filters || Array.isArray(filters) || typeof filters !== 'object' || !apply(groundModel(question, filters))) throw Error('No valid filters');
-    status.textContent = 'Qwen 已填入条件，请检查是否漏掉限定词。';
+    status.textContent = 'Qwen 已填入条件，请检查是否漏掉限定词。' + queryWarnings(question).join(' ');
   } catch (error) {
     if (changed()) { status.textContent = '已保留当前筛选。'; return; }
     const applied = apply(common(question));
@@ -199,8 +200,7 @@ function match(row, filters) {
     const pool = row.entries.filter(item => item.field === field);
     if (!pool.some(item => {
       if (key in numeric) {
-        const [min,max] = range(value), actual = range(item.value);
-        return actual && actual[0] >= min && actual[1] <= max;
+        return numericMatches(item.value, value);
       }
       if (key === 'target') return targetMatches(item.value,value);
       return categoryMatches(field,item.value,value);
@@ -334,7 +334,12 @@ function render() {
   section.querySelector('summary').textContent = '待核证据 · ' + pending.length + ' 条';
   renderList(section.querySelector('div'),pending,pendingOffset,()=>{pendingOffset+=20;render();},false);
 }
-function refresh() { filterRevision++; offset=20; pendingOffset=15; render(); }
+function refresh() {
+  filterRevision++; offset=20; pendingOffset=15;
+  const url=new URL(location.href);url.searchParams.set('filters','1');
+  for(const [key,input]of Object.entries(inputs)){url.searchParams.delete(key);url.searchParams.delete('f_'+key);if(input.value.trim())url.searchParams.set('f_'+key,input.value.trim());}
+  history.replaceState(null,'',url);render();
+}
 form.addEventListener('input', refresh);
 form.addEventListener('reset', () => setTimeout(refresh,0));
 form.addEventListener('submit', event => event.preventDefault());
@@ -342,6 +347,13 @@ try {
   const response = await fetch('../assets/tpbm-parameters.json');
   if (!response.ok) throw Error('Index unavailable');
   data = await response.json();
+  const incoming = new URL(location.href).searchParams.get('query');
+  const url=new URL(location.href);
+  if (incoming) $('parameter-prompt').value = incoming.slice(0,400);
+  if (url.searchParams.get('filters')==='1') {
+    const saved=normalize(Object.fromEntries(Object.keys(inputs).map(key=>[key,url.searchParams.get('f_'+key)||''])));
+    for(const [key,value]of Object.entries(saved))inputs[key].value=value;
+  } else if (incoming) apply(common(incoming));
   render();
 } catch {
   $('parameter-status').textContent = '参数索引加载失败，请刷新页面。';

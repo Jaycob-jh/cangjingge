@@ -7,7 +7,7 @@ css: ../assets/tpbm-parameters.css
 
 输入一句话，或直接选研究对象、靶点、波长和剂量。表里写明组别的按实验组列出，其余按文献列出。点参数旁的出处可打开原刊，按标注找页码或图表。
 
-[研究对比台](tpbm-compare.qmd)
+[带着问题找证据](ask.qmd) · [研究对比台](tpbm-compare.qmd)
 
 ```{=html}
 <section id="parameter-search" aria-label="参数查证">
