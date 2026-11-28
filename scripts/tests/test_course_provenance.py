@@ -19,7 +19,7 @@ class CourseProvenance(unittest.TestCase):
         cls.base=read('assets/tpbm-parameters.json')
     def test_sources_validate_without_mutation(self):
         before=copy.deepcopy(self.data)
-        self.assertEqual(module.validate(self.data,self.studies,self.base),13)
+        self.assertEqual(module.validate(self.data,self.studies,self.base),len(self.data['arms']))
         self.assertEqual(self.data,before)
     def test_cross_arm_entry_rejected(self):
         data=copy.deepcopy(self.data)
@@ -37,6 +37,16 @@ class CourseProvenance(unittest.TestCase):
         with self.assertRaises(ValueError):module.validate(data,self.studies,self.base)
     def test_pending_not_published_as_verified(self):
         data=copy.deepcopy(self.data);data['arms'][0]['entries'][0]['pending']=True
+        with self.assertRaises(ValueError):module.validate(data,self.studies,self.base)
+    def test_non_card_document_identity_rejected(self):
+        data=copy.deepcopy(self.data)
+        key=next(iter(data['documents']))
+        data['documents'][key]['doi']='10.0000/wrong-paper'
+        with self.assertRaises(ValueError):module.validate(data,self.studies,self.base)
+    def test_document_path_cannot_point_to_another_pmc(self):
+        data=copy.deepcopy(self.data)
+        key=next(iter(data['documents']))
+        data['documents'][key]['url']='https://pmc.ncbi.nlm.nih.gov/articles/PMC123/'
         with self.assertRaises(ValueError):module.validate(data,self.studies,self.base)
 
 if __name__=='__main__':unittest.main()

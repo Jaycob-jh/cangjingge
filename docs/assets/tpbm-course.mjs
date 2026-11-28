@@ -47,7 +47,7 @@ export function parseCourseQuery(text){
 
 export function composeCourseIndex(base,course){
  if(!course||course.schema_version!==1||!Array.isArray(course.arms))throw Error('疗程索引格式无效');
- const copy=structuredClone(base);copy.fields={...Object.fromEntries(Object.values(courseNumeric).map(([label,field])=>[field,label])),...Object.fromEntries(Object.values(courseSelectors).map(([label,field])=>[field,label])),Protocol_Note:'方案说明',...copy.fields};
+ const copy=structuredClone(base);copy.fields={...Object.fromEntries(Object.values(courseNumeric).map(([label,field])=>[field,label])),...Object.fromEntries(Object.values(courseSelectors).map(([label,field])=>[field,label])),Protocol_Note:'方案说明',Completion_Summary:'完成情况',Treatment_Interval:'照射间隔',Completed_Sessions_Mean:'平均完成次数',Completed_Sessions_SD:'次数标准差',...copy.fields};
  const normalize=d=>String(d||'').trim().replace(/^(?:doi:\s*|https?:\/\/(?:dx\.)?doi.org\/)/i,'').toLowerCase();
  const seen=new Set();
  for(const arm of course.arms){

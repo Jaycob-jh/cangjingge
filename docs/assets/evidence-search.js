@@ -1,8 +1,8 @@
-import {composeCourseIndex,courseValue} from './tpbm-course.mjs?v=20261128-course1';
+import {composeCourseIndex,courseValue} from './tpbm-course.mjs?v=20261128-course2';
 import {scopeOptions} from './parameter-scope.mjs';
 import {loadLocalQwen} from './local-qwen.mjs';
 import {makeEvidencePacket,validateEvidenceSelection} from './evidence-grounding.mjs';
-import {retrieveEvidence,restoreParameterRows} from './tpbm-evidence.mjs?v=20261128-course1';
+import {retrieveEvidence,restoreParameterRows} from './tpbm-evidence.mjs?v=20261128-course2';
 const $=id=>document.getElementById(id), node=(tag,text)=>{const e=document.createElement(tag);if(text)e.textContent=text;return e;};
 const link=(text,url)=>{const e=node('a',text);e.href=url;return e;};
 const labels={population:'研究对象',design:'研究设计',wavelength:'波长',mode:'照射模式',target:'靶点',irradiance:'辐照度',spot:'光斑',duration:'时间',dose:'剂量',control:'对照',readout:'测量',timing:'测量时间',perWeek:'每周次数',perDay:'每日次数',courseWeeks:'持续周数',countBasis:'次数口径',armType:'照射组别',sessions:'总次数',power:'功率',wave:'波长',frequency:'脉冲频率',duty:'占空比',subject:'对象',health:'健康状态',temperature:'测温'};
@@ -92,7 +92,7 @@ function run(){
 }
 form.addEventListener('submit',e=>{e.preventDefault();run();});
 for(const button of document.querySelectorAll('[data-question]'))button.onclick=()=>{input.value=button.dataset.question;run();};
-try{const responses=await Promise.all(['tpbm-parameters.json','tpbm-studies.json','tpbm-course-arms.json'].map(p=>fetch('../assets/'+p)));if(responses.some(r=>!r.ok))throw Error('index');const [base,studyIndex,courses]=await Promise.all(responses.map(r=>r.json()));index=composeCourseIndex(base,courses);studies=studyIndex;input.value=new URL(location.href).searchParams.get('query')||'';for(const row of restoreParameterRows(index,new URL(location.href).searchParams.getAll('picked')))picked.set(row.key,row);run();}catch{status.textContent='证据索引加载失败，请刷新后重试。';}
+try{const responses=await Promise.all(['tpbm-parameters.json','tpbm-studies.json','tpbm-course-arms.json'].map(p=>fetch('../assets/'+p+'?v=20261128-course2')));if(responses.some(r=>!r.ok))throw Error('index');const [base,studyIndex,courses]=await Promise.all(responses.map(r=>r.json()));index=composeCourseIndex(base,courses);studies=studyIndex;input.value=new URL(location.href).searchParams.get('query')||'';for(const row of restoreParameterRows(index,new URL(location.href).searchParams.getAll('picked')))picked.set(row.key,row);run();}catch{status.textContent='证据索引加载失败，请刷新后重试。';}
 
 $('evidence-ai').onclick=async()=>{
  const question=input.value.trim(),version=revision,packet=makeEvidencePacket(currentResult?.cards||[],{fieldHints:currentResult?.scopeHints||[]});

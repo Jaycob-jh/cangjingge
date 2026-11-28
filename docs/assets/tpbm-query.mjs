@@ -1,5 +1,5 @@
 import {parseScopeQuery} from './parameter-scope.mjs';
-import {parseCourseQuery} from './tpbm-course.mjs?v=20261128-course1';
+import {parseCourseQuery} from './tpbm-course.mjs?v=20261128-course2';
 const targetNames = {'前额叶':'prefrontal','运动皮层':'motor cortex','顶叶':'parietal','枕叶':'occipital','海马':'hippocamp','头皮':'scalp'};
 const targetAliases = {...targetNames, '中央后回':'postcentral', '楔前叶':'precuneus', '背外侧前额叶':'dorsolateral prefrontal', '颅骨':'skull', '额部':'forehead', '前额':'forehead', '额':'forehead', 'M1':'motor cortex', ...Object.fromEntries(['Fp1','Fp2','Fpz','F3','F4','Fz','C3','C4','Cz'].map(k=>[k,k.toLowerCase()]))};
 const sideTerms = {
