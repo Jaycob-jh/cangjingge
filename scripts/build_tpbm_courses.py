@@ -21,18 +21,23 @@ def validate(data,studies,base):
     for arm in data['arms']:
         if not re.fullmatch(r'[a-z0-9-]+',arm['id']) or arm['id'] in seen: raise ValueError('疗程组ID重复或无效')
         seen.add(arm['id']);study=studies.get(arm.get('study_id'))
-        paper=next((p for p in base['papers'] if canonical_doi(p.get('doi'))==canonical_doi(arm['doi'])),None)
-        if not canonical_doi(arm['doi']) or (study is None and paper is None): raise ValueError('疗程必须对应已有书目或全文卡')
+        doi=canonical_doi(arm.get('doi'))
+        paper=next((p for p in base['papers'] if doi and canonical_doi(p.get('doi'))==doi),None)
+        document=data.get('documents',{}).get(arm['paper_id'])
+        if not doi:
+            paper=next((p for p in base['papers'] if p['id']==arm['paper_id'] and not canonical_doi(p.get('doi'))),None)
+            if not paper or not document or document.get('pmid')!=arm['paper_id'] or document.get('identity_source')!='original_pmc_article':
+                raise ValueError('无DOI记录须有已编目PMID及原文PMCID身份核验')
+        if study is None and paper is None: raise ValueError('疗程必须对应已有书目或全文卡')
         if study and canonical_doi(arm['doi'])!=canonical_doi(study['doi']): raise ValueError('疗程DOI与原研究不一致')
         if paper and paper['id']!=arm['paper_id']: raise ValueError('疗程PMID与已有书目不一致')
         if not re.fullmatch(r'\d+',arm['paper_id']): raise ValueError('需要规范PMID')
         # Curated sources may be original PDFs or publisher pages as well as PMC.
         # Non-card papers bind to their existing DOI, with page/section in `where`.
-        allowed={document_url('https://doi.org/'+canonical_doi(arm['doi']))}
+        allowed={document_url('https://doi.org/'+doi)} if doi else set()
         if study:
             allowed.add(document_url(study['fulltext']))
             allowed.update(document_url(s['url']) for s in study.get('sources',{}).values())
-        document=data.get('documents',{}).get(arm['paper_id'])
         if document:
             if canonical_doi(document['doi'])!=canonical_doi(arm['doi']) or not re.fullmatch(r'PMC\d+',document['pmcid']): raise ValueError('原文身份与已有书目不一致')
             expected='https://pmc.ncbi.nlm.nih.gov/articles/'+document['pmcid']+'/'

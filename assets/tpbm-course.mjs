@@ -54,8 +54,11 @@ export function composeCourseIndex(base,course){
  const normalize=d=>String(d||'').trim().replace(/^(?:doi:\s*|https?:\/\/(?:dx\.)?doi.org\/)/i,'').toLowerCase();
  const seen=new Set();
  for(const arm of course.arms){
-  if(!arm.id||seen.has(arm.id)||!arm.doi||!Array.isArray(arm.entries))throw Error('疗程组ID或DOI无效');seen.add(arm.id);
-  let paper=copy.papers.find(p=>normalize(p.doi)===normalize(arm.doi));
+  if(!arm.id||seen.has(arm.id)||!Array.isArray(arm.entries))throw Error('疗程组ID无效');seen.add(arm.id);
+  const doi=normalize(arm.doi),document=course.documents?.[arm.paper_id];
+  let paper=doi?copy.papers.find(p=>normalize(p.doi)===doi):copy.papers.find(p=>p.id===arm.paper_id&&!normalize(p.doi));
+  if(!doi&&(!paper||document?.pmid!==arm.paper_id||document?.identity_source!=='original_pmc_article'||!/^PMC\d+$/.test(document?.pmcid||'')||normalize(document?.doi)||document?.url!==`https://pmc.ncbi.nlm.nih.gov/articles/${document.pmcid}/`))throw Error('无DOI记录缺少原文身份核验');
+  if(paper&&paper.id!==arm.paper_id)throw Error('疗程论文身份冲突');
   if(!paper){if(copy.papers.some(p=>p.id===arm.paper_id))throw Error('疗程论文身份冲突');paper={id:arm.paper_id,doi:arm.doi,title:arm.title,author:arm.author,year:arm.year,card:arm.study_id,groups:{}};copy.papers.push(paper);}
   const key='course:'+arm.id;if(Object.hasOwn(paper.groups,key))throw Error('疗程组已有人工记录，未替换');
   paper.groups[key]=structuredClone(arm.entries);paper.group_labels={...paper.group_labels,[key]:arm.label};

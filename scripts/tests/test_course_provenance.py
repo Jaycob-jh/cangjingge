@@ -54,4 +54,15 @@ class CourseProvenance(unittest.TestCase):
         data['documents'][key]['url']='https://pmc.ncbi.nlm.nih.gov/articles/PMC123/'
         with self.assertRaises(ValueError):module.validate(data,self.studies,self.base)
 
+    def test_no_doi_requires_verified_pmid_document(self):
+        data=copy.deepcopy(self.data)
+        del data['documents']['34291201']
+        with self.assertRaises(ValueError):module.validate(data,self.studies,self.base)
+
+    def test_no_doi_cannot_match_another_empty_doi(self):
+        data=copy.deepcopy(self.data)
+        arm=next(a for a in data['arms'] if a['id']=='epc2019-delayed')
+        arm['paper_id']='111'
+        with self.assertRaises(ValueError):module.validate(data,self.studies,self.base)
+
 if __name__=='__main__':unittest.main()
