@@ -1,0 +1,203 @@
+[
+  [
+    "右侧前额叶人体光刺激",
+    {
+      "subject": "Human",
+      "target": "右侧前额叶"
+    }
+  ],
+  [
+    "健康成人，前额叶，1064 nm，连续光，有假刺激",
+    {
+      "subject": "Human",
+      "health": "Healthy",
+      "target": "前额叶",
+      "wave": "1064",
+      "mode": "CW",
+      "control": "Sham"
+    }
+  ],
+  [
+    "810纳米脉冲光",
+    {
+      "wave": "810",
+      "mode": "PW"
+    }
+  ],
+  [
+    "850到1064纳米",
+    {
+      "wave": "850到1064"
+    }
+  ],
+  [
+    "至少10分钟",
+    {
+      "duration": ">=10"
+    }
+  ],
+  [
+    "不超过250mW/cm²",
+    {
+      "irradiance": "<=250"
+    }
+  ],
+  [
+    "大于40Hz",
+    {
+      "frequency": ">40"
+    }
+  ],
+  [
+    "小于50%",
+    {
+      "duty": "<50"
+    }
+  ],
+  [
+    "最多12次",
+    {
+      "sessions": "<=12"
+    }
+  ],
+  [
+    "至少0.25W/cm²",
+    {
+      "irradiance": ">=250"
+    }
+  ],
+  [
+    "不超过600秒",
+    {
+      "duration": "<=10"
+    }
+  ],
+  [
+    "功率3W",
+    {
+      "power": "3000"
+    }
+  ],
+  [
+    "辐照度0.25W/cm2",
+    {
+      "irradiance": "250"
+    }
+  ],
+  [
+    "600秒",
+    {
+      "duration": "10"
+    }
+  ],
+  [
+    "光斑13.6平方厘米",
+    {
+      "spot": "13.6"
+    }
+  ],
+  [
+    "剂量60 J/cm²",
+    {
+      "dose": "60"
+    }
+  ],
+  [
+    "剂量至少60J/cm²",
+    {
+      "dose": ">=60"
+    }
+  ],
+  [
+    "健康成人，右侧背外侧前额叶",
+    {
+      "subject": "Human",
+      "health": "Healthy",
+      "target": "右侧背外侧前额叶"
+    }
+  ],
+  [
+    "人体右侧背外侧前额叶",
+    {
+      "subject": "Human",
+      "target": "右侧背外侧前额叶"
+    }
+  ],
+  [
+    "小鼠40赫兹",
+    {
+      "subject": "Animal",
+      "frequency": "40"
+    }
+  ],
+  [
+    "大鼠10Hz脉冲",
+    {
+      "subject": "Animal",
+      "frequency": "10",
+      "mode": "PW"
+    }
+  ],
+  [
+    "离体颅骨850nm",
+    {
+      "subject": "Ex_Vivo",
+      "target": "颅骨",
+      "wave": "850"
+    }
+  ],
+  [
+    "细胞810nm",
+    {
+      "subject": "Cell",
+      "wave": "810"
+    }
+  ],
+  [
+    "仿真1064nm",
+    {
+      "subject": "Simulation",
+      "wave": "1064"
+    }
+  ],
+  [
+    "患者有热对照",
+    {
+      "subject": "Human",
+      "health": "Disease",
+      "control": "Heat_Control"
+    }
+  ],
+  [
+    "没有对照的动物",
+    {
+      "subject": "Animal",
+      "control": "None"
+    }
+  ],
+  [
+    "无处理细胞",
+    {
+      "subject": "Cell",
+      "control": "No_Treatment"
+    }
+  ],
+  [
+    "不要求有假刺激，连续光",
+    {
+      "mode": "CW"
+    }
+  ],
+  [
+    "必须记录测温",
+    {
+      "temperature": "Yes"
+    }
+  ],
+  [
+    "查DOI: 10.1002/LSM.22471",
+    {
+      "paper": "10.1002/lsm.22471"
+    }
+  ]
+]

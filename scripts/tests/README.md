@@ -22,3 +22,5 @@ Excel导入前运行 `python scripts/tests/test_parameter_import.py`。默认预
 网页草稿运行 `node scripts/tests/test_browser_intake.mjs`；真实浏览器另查PDF本地提取（含中文）、JSON/QMD下载再导入、重复PDF、分类与人工字段保留及320–3840px布局。JSON草稿与含摘录材料只存仓库外。
 
 口径筛选运行 `node scripts/tests/test_parameter_scope.mjs`：同一条数值绑定平均/峰值、表面/脑内与点亮/运行，未注明时不默认；文献层线索与独立实验组分开。检查单位共享、W/mW与mJ/J换算、总J不当J/cm²、估算不当实测、不跨字段/组别拼参数。
+
+正式版中文参数验收：`node scripts/tests/test_v1_chinese_queries.mjs`，固定30条带中文的查询与预期筛选；同一fixture用于浏览器真实Qwen+规则组合测试，不把英文或纯单位查询计作中文句子。

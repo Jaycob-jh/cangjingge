@@ -1,0 +1,2 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import{common}from '../../assets/tpbm-query.mjs';
+const cases=JSON.parse(fs.readFileSync(new URL('./fixtures/v1-chinese-queries.json',import.meta.url),'utf8'));assert(cases.length>=30);for(const[q,expected]of cases){assert(/[\u3400-\u9fff]/.test(q),'Chinese query required');assert.deepEqual(common(q),expected,q);}console.log(JSON.stringify({chineseQueries:cases.length,passed:cases.length}));

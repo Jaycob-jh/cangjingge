@@ -41,6 +41,18 @@ class Tests(unittest.TestCase):
   self.assertEqual(calls[0][1]['store'],False);self.assertNotIn('tools',calls[0][1]);self.assertEqual(calls[0][1]['model'],m.MODEL)
   for invalid in [{'claims':[{'source_id':'invented','quote':'unknown'}]},{'claims':[{'source_id':sid,'quote':'脑内剂量99999 J/cm2'}]}]:
    with self.assertRaises(m.Denied):m.validate_answer(invalid,source)
+ def test_partial_quote_restores_context_and_deduplicates(self):
+  passage='测试资料：作者估算到脑约0.5 J/cm²，四次约2 J/cm²；不是实测剂量。'
+  sources={'scope':{'text':passage,'doi':'10.9999/test','title':'fixture','url':'https://example.org/fixture','locator':'test'}}
+  result=m.validate_answer({'claims':[{'source_id':'scope','quote':'0.5 J/cm²'},{'source_id':'scope','quote':'2 J/cm²'}]},sources)
+  self.assertEqual(len(result['claims']),1);self.assertEqual(result['claims'][0]['quote'],passage);self.assertEqual(result['claims'][0]['url'],sources['scope']['url'])
+  for bad in [None,{'source_id':'scope','quote':'实测0.5 J/cm²'}]:
+   with self.assertRaises(m.Denied):m.validate_answer({'claims':[bad]},sources)
+ def test_context_policy_in_cache_payload(self):
+  source=m.evidence_for(['moro-2013-mptp-strains']);sid='moro-2013-mptp-strains:dose';calls=[]
+  def request(url,payload,headers):
+   calls.append(json.loads(payload['input']));return {'output':[{'type':'message','content':[{'type':'output_text','text':json.dumps({'claims':[{'source_id':sid,'quote':'0.5 J/cm²'}]})}]}]}
+  result=m.ask(self.c,self.ledger,'估算剂量',['moro-2013-mptp-strains'],request);self.assertEqual(result['claims'][0]['quote'],source[sid]['text']);self.assertEqual(calls[0]['evidence_policy'],'whole-source-v1');self.assertTrue(m.ask(self.c,self.ledger,'估算剂量',['moro-2013-mptp-strains'],request)['cached']);self.assertEqual(len(calls),1)
  def test_timeout_is_not_retried(self):
   def timeout(*a):raise TimeoutError()
   with self.assertRaises(TimeoutError):m.ask(self.c,self.ledger,'研究对象',['tian-2016'],timeout)
