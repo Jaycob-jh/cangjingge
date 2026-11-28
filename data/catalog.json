@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-28",
   "topics": [
     {
       "id": "01",
@@ -72487,6 +72487,36 @@
       ],
       "reading_status": "全文已读",
       "url": "https://doi.org/10.7554/elife.00801"
+    },
+    {
+      "id": "paper-a872b6299c816509",
+      "title": "A Potential Metabolic Basis for Brain Activity Changes After Transcranial Photobiomodulation in Alzheimer’s Disease",
+      "authors": [
+        "Naomi L. Gaggi",
+        "Xianfeng Shi",
+        "SaraRose Shannon",
+        "Ryan Brown",
+        "Katherine A. Collins",
+        "Perry Renshaw",
+        "Ricardo S. Osorio",
+        "Dan V. Iosifescu"
+      ],
+      "year": 2026,
+      "doi": "10.3390/photonics13060551",
+      "journal": "Photonics",
+      "volume": "13",
+      "issue": "6",
+      "pages": "551",
+      "type": "journalArticle",
+      "topics": [
+        "02",
+        "02.04",
+        "02.06",
+        "05",
+        "05.03"
+      ],
+      "reading_status": "摘要已读",
+      "url": "https://doi.org/10.3390/photonics13060551"
     }
   ]
 }
