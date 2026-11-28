@@ -1,7 +1,8 @@
+import {courseNumeric,courseSelectors,composeCourseIndex,courseValue} from './tpbm-course.mjs?v=20261128-course1';
 import {scopeOptions,scopedCardHints} from './parameter-scope.mjs';
-import {parseEvidenceQuestion,rowMatches,restoreParameterRows} from './tpbm-evidence.mjs?v=20261128-query2';
+import {parseEvidenceQuestion,rowMatches,restoreParameterRows} from './tpbm-evidence.mjs?v=20261128-course1';
 import {loadLocalQwen} from './local-qwen.mjs';
-import {common, range, targetMatches, categoryMatches, numericMatches, queryWarnings} from './tpbm-query.mjs?v=20261128-query2';
+import {common, range, targetMatches, categoryMatches, numericMatches, queryWarnings} from './tpbm-query.mjs?v=20261128-course1';
 const $ = id => document.getElementById(id);
 const node = (tag, text) => {
   const element = document.createElement(tag);
@@ -14,6 +15,7 @@ const link = (text, href) => {
   return element;
 };
 const selectors = {
+  ...courseSelectors,
   subject: ['对象', 'Subject_Type', {'Human':'人体','Animal':'动物','Cell':'细胞','Cadaver':'尸体组织','Ex_Vivo':'离体','Simulation':'仿真'}],
   health: ['健康状态', 'Health_Status', {'Healthy':'健康','Disease':'疾病','Mixed':'混合'}],
   mode: ['光模式', 'Light_Mode', {'CW':'连续光','PW':'脉冲光'}],
@@ -24,10 +26,12 @@ for(const[key,spec]of Object.entries(scopeOptions))selectors[key]=[spec.label,'_
 const numeric = {
   wave:['波长 · nm','Wavelength_nm'], power:['功率 · mW','Power_mW'], irradiance:['辐照度 · mW/cm²','Irradiance_mW_cm2'],
   dose:['能量密度 · J/cm²','Fluence_J_cm2'], duration:['时间 · 分钟','Duration_min'], frequency:['脉冲频率 · Hz','Pulse_Frequency_Hz'],
-  duty:['占空比 · %','Duty_Cycle_pct'], spot:['光斑 · cm²','Spot_Area_cm2'], sessions:['次数','Total_Sessions'],
+  duty:['占空比 · %','Duty_Cycle_pct'], spot:['光斑 · cm²','Spot_Area_cm2'], sessions:['总次数','Total_Sessions'], ...courseNumeric,
 };
 const form = $('parameter-filters');
 const coreFields = new Set(['subject', 'health', 'target', 'paper', 'wave']);
+const courseKeys=new Set(['perWeek','perDay','courseWeeks','sessions','countBasis','armType']);
+const courseBox=node('fieldset'),courseGrid=node('div');courseBox.className='parameter-course';courseGrid.className='parameter-filter-grid';courseBox.append(node('legend','疗程条件'),node('p','方案次数与实际完成分别记录；分阶段疗程按本阶段筛选。'),courseGrid);
 const primaryGrid = node('div');
 primaryGrid.className = 'parameter-filter-grid';
 const advanced = node('details');
@@ -40,14 +44,14 @@ advanced.append(advancedSummary, advancedGrid);
 const activeFilters = node('div');
 activeFilters.className = 'parameter-active-filters';
 activeFilters.setAttribute('aria-label', '已选条件');
-form.append(primaryGrid, advanced, activeFilters);
+form.append(primaryGrid, courseBox, advanced, activeFilters);
 const inputs = {};
 function addField(key, label, field) {
   const wrap = node('label', label);
   field.name = key;
   wrap.append(field);
   wrap.dataset.filter = key;
-  (coreFields.has(key) ? primaryGrid : advancedGrid).append(wrap);
+  (courseKeys.has(key)?courseGrid:coreFields.has(key) ? primaryGrid : advancedGrid).append(wrap);
   inputs[key] = field;
 }
 for (const [key, [label,, choices]] of Object.entries(selectors)) {
@@ -193,11 +197,11 @@ function rowTitle(row) { return row.paper.group_labels?.[row.group] || row.group
 function evidence(row) {
   const list = node('ul');
   for (const item of row.entries) {
-    const li = node('li', data.fields[item.field] + '：' + item.value + ' · ');
+    const li = node('li', data.fields[item.field] + '：' + courseValue(item) + ' · ');
     const kind = {Direct:'直接记录',Calculated:'计算值',Converted:'换算值'}[item.kind];
     if (kind) li.append(kind + ' · ');
     if (item.source_review_required) li.append('待原文核对 · ');
-    const source = /^PMC\d+$/.test(item.source_pmc || '')
+    const source = /^https:\/\//i.test(item.source_url||'')?item.source_url:/^PMC\d+$/.test(item.source_pmc || '')
       ? 'https://pmc.ncbi.nlm.nih.gov/articles/' + item.source_pmc + '/'
       : /^\d+$/.test(item.source_pmid || '')
         ? 'https://pubmed.ncbi.nlm.nih.gov/' + item.source_pmid + '/' : origin(row.paper);
@@ -365,9 +369,9 @@ form.addEventListener('input', refresh);
 form.addEventListener('reset', () => setTimeout(refresh,0));
 form.addEventListener('submit', event => event.preventDefault());
 try {
-  const responses = await Promise.all(['tpbm-parameters.json','tpbm-studies.json'].map(f=>fetch('../assets/'+f)));
+  const responses = await Promise.all(['tpbm-parameters.json','tpbm-studies.json','tpbm-course-arms.json'].map(f=>fetch('../assets/'+f)));
   if(responses.some(r=>!r.ok))throw Error('Index unavailable');
-  [data,studyData]=await Promise.all(responses.map(r=>r.json()));
+  const [base,studies,courses]=await Promise.all(responses.map(r=>r.json()));data=composeCourseIndex(base,courses);studyData=studies;
   restorePage(new URL(location.href));
 } catch {
   $('parameter-status').textContent = '参数索引加载失败，请刷新页面。';

@@ -1,10 +1,11 @@
+import {composeCourseIndex,courseValue} from './tpbm-course.mjs?v=20261128-course1';
 import {scopeOptions} from './parameter-scope.mjs';
 import {loadLocalQwen} from './local-qwen.mjs';
 import {makeEvidencePacket,validateEvidenceSelection} from './evidence-grounding.mjs';
-import {retrieveEvidence,restoreParameterRows} from './tpbm-evidence.mjs?v=20261128-query2';
+import {retrieveEvidence,restoreParameterRows} from './tpbm-evidence.mjs?v=20261128-course1';
 const $=id=>document.getElementById(id), node=(tag,text)=>{const e=document.createElement(tag);if(text)e.textContent=text;return e;};
 const link=(text,url)=>{const e=node('a',text);e.href=url;return e;};
-const labels={population:'研究对象',design:'研究设计',wavelength:'波长',mode:'照射模式',target:'靶点',irradiance:'辐照度',spot:'光斑',duration:'时间',dose:'剂量',control:'对照',readout:'测量',timing:'测量时间',sessions:'总次数',power:'功率',wave:'波长',frequency:'脉冲频率',duty:'占空比',subject:'对象',health:'健康状态',temperature:'测温'};
+const labels={population:'研究对象',design:'研究设计',wavelength:'波长',mode:'照射模式',target:'靶点',irradiance:'辐照度',spot:'光斑',duration:'时间',dose:'剂量',control:'对照',readout:'测量',timing:'测量时间',perWeek:'每周次数',perDay:'每日次数',courseWeeks:'持续周数',countBasis:'次数口径',armType:'照射组别',sessions:'总次数',power:'功率',wave:'波长',frequency:'脉冲频率',duty:'占空比',subject:'对象',health:'健康状态',temperature:'测温'};
 let index,studies,currentResult,lastQuestion='',revision=0,modelBusy=false;const form=$('evidence-form'),input=$('evidence-question'),status=$('evidence-status'),results=$('evidence-results');
 const picked=new Map();
 function renderPicked(){
@@ -36,7 +37,7 @@ function run(){
  const url=new URL(location.href);url.searchParams.set('query',question);history.replaceState(null,'',url);
  const variants=result.variants||[result.filters];
  const fieldLabels={subject:'对象',health:'健康状态',target:'靶点',wave:'波长',mode:'光模式',frequency:'频率（Hz）',duration:'时间（分钟）',irradiance:'辐照度（mW/cm²）',dose:'剂量（J/cm²）',control:'对照',duty:'占空比',power:'功率',sessions:'次数',paper:'文献'};
- Object.assign(fieldLabels,Object.fromEntries(Object.entries(scopeOptions).map(([k,s])=>[k,s.label])));
+ Object.assign(fieldLabels,labels,Object.fromEntries(Object.entries(scopeOptions).map(([k,s])=>[k,s.label])));
  for(const [i,filters]of variants.entries()){
   const parameters=new URL('tpbm-parameters.html',location.href);parameters.searchParams.set('query',question);parameters.searchParams.set('filters','1');
   for(const[k,v]of Object.entries(filters))parameters.searchParams.set('f_'+k,v);
@@ -64,7 +65,7 @@ function run(){
    const count=row.entries.find(e=>e.field==='Total_Sessions');const heading=row.paper.group_labels?.[row.group]||row.group||'文献层记录 · 组别未拆分';
    card.append(node('h3',heading+(row.group&&count?' · '+count.value+' 次':'')),node('p',[row.paper.author,row.paper.year].filter(Boolean).join(' · ')));
    const identity=node('details');identity.append(node('summary','论文题名'),link(row.paper.title,row.paper.doi?'https://doi.org/'+encodeURI(row.paper.doi):'https://pubmed.ncbi.nlm.nih.gov/'+row.paper.id+'/'));card.append(identity);
-   const ul=node('ul');for(const item of row.entries){const li=node('li',(index.fields[item.field]||item.field)+'：'+item.value+' · ');const url=/^PMC\d+$/.test(item.source_pmc||'')?'https://pmc.ncbi.nlm.nih.gov/articles/'+item.source_pmc+'/':/^\d+$/.test(item.source_pmid||'')?'https://pubmed.ncbi.nlm.nih.gov/'+item.source_pmid+'/':row.paper.doi?'https://doi.org/'+encodeURI(row.paper.doi):'https://pubmed.ncbi.nlm.nih.gov/'+row.paper.id+'/';li.append(link(item.where||'原刊',url));if(item.source_note)li.append(' · '+item.source_note);if(item.kind==='Converted'||item.kind==='Calculated')li.append(' · '+(item.kind==='Converted'?'换算值':'计算值'));ul.append(li);}card.append(ul);
+   const ul=node('ul');for(const item of row.entries){const li=node('li',(index.fields[item.field]||item.field)+'：'+courseValue(item)+' · ');const url=/^https:\/\//i.test(item.source_url||'')?item.source_url:/^PMC\d+$/.test(item.source_pmc||'')?'https://pmc.ncbi.nlm.nih.gov/articles/'+item.source_pmc+'/':/^\d+$/.test(item.source_pmid||'')?'https://pubmed.ncbi.nlm.nih.gov/'+item.source_pmid+'/':row.paper.doi?'https://doi.org/'+encodeURI(row.paper.doi):'https://pubmed.ncbi.nlm.nih.gov/'+row.paper.id+'/';li.append(link(item.where||'原刊',url));if(item.source_note)li.append(' · '+item.source_note);if(item.kind==='Converted'||item.kind==='Calculated')li.append(' · '+(item.kind==='Converted'?'换算值':'计算值'));ul.append(li);}card.append(ul);
    const study=studies.studies.find(s=>s.id===row.paper.card||s.doi?.toLowerCase()===row.paper.doi?.toLowerCase());
    const figures=study?Object.values(study.sources).filter(s=>/图|表|fig|table/i.test(s.label)):[];
    if(figures.length){const p=node('p','这篇的原文图表：');for(const source of figures)p.append(link(source.label,source.url),' · ');card.append(p);}
@@ -91,7 +92,7 @@ function run(){
 }
 form.addEventListener('submit',e=>{e.preventDefault();run();});
 for(const button of document.querySelectorAll('[data-question]'))button.onclick=()=>{input.value=button.dataset.question;run();};
-try{const responses=await Promise.all(['tpbm-parameters.json','tpbm-studies.json'].map(p=>fetch('../assets/'+p)));if(responses.some(r=>!r.ok))throw Error('index');[index,studies]=await Promise.all(responses.map(r=>r.json()));input.value=new URL(location.href).searchParams.get('query')||'';for(const row of restoreParameterRows(index,new URL(location.href).searchParams.getAll('picked')))picked.set(row.key,row);run();}catch{status.textContent='证据索引加载失败，请刷新后重试。';}
+try{const responses=await Promise.all(['tpbm-parameters.json','tpbm-studies.json','tpbm-course-arms.json'].map(p=>fetch('../assets/'+p)));if(responses.some(r=>!r.ok))throw Error('index');const [base,studyIndex,courses]=await Promise.all(responses.map(r=>r.json()));index=composeCourseIndex(base,courses);studies=studyIndex;input.value=new URL(location.href).searchParams.get('query')||'';for(const row of restoreParameterRows(index,new URL(location.href).searchParams.getAll('picked')))picked.set(row.key,row);run();}catch{status.textContent='证据索引加载失败，请刷新后重试。';}
 
 $('evidence-ai').onclick=async()=>{
  const question=input.value.trim(),version=revision,packet=makeEvidencePacket(currentResult?.cards||[],{fieldHints:currentResult?.scopeHints||[]});

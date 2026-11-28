@@ -13,7 +13,7 @@ const numericCases=[
  ['一千零六十四纳米',{wave:'1064'}],['照射半小时',{duration:'30'}],['两小时',{duration:'120'}],
  ['健康受试者',{subject:'Human',health:'Healthy'}],['健康被试',{subject:'Human',health:'Healthy'}],
  ['健康志愿者',{subject:'Human',health:'Healthy'}],['单次照射',{sessions:'1'}],
- ['每周5次，总共20次',{sessions:'20'}],['每周5次',{}],
+ ['每周5次，总共20次',{sessions:'20',perWeek:'5'}],['每周5次',{perWeek:'5'}],
  ['左侧M1',{target:'左侧M1'}],['left M1',{target:'left M1'}],['C3',{target:'C3'}],
  ['额外记录温度',{}],['M10',{}],['不低于三百毫瓦',{power:'>=300'}],['连续激光',{mode:'CW'}],
 ];
@@ -50,7 +50,7 @@ for(const c of researchCases){
  for(const row of r.groups)assert(row.entries.every(e=>!e.pending&&!e.source_review_required&&e.where));
  for(const x of r.documentCandidates)for(const m of x.matches)assert(m.clues.every(c=>c.source?.label&&c.source?.url?.startsWith('https://')));
 }
-for(const q of ['只看人体，不要动物','平均300和峰值900mW/cm²','1mW/mm²脑内光刺激','每周5次','每天1次，总共28次']){
+for(const q of ['只看人体，不要动物','平均300和峰值900mW/cm²','1mW/mm²脑内光刺激','每周2次和每周3次','随访3周']){
  const r=retrieveEvidence(index,studies,q);assert(!r.recognized,q);assert.equal(r.groups.length+r.cards.length,0,q);
 }
 const rows=restoreParameterRows(index,['31875125:C3','31875125:C4','31875125:C3','unknown:x']);

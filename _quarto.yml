@@ -11,6 +11,8 @@ project:
     - "assets/tpbm-studies.json"
     - "assets/tpbm-parameters.js"
     - "assets/tpbm-query.mjs"
+    - "assets/tpbm-course.mjs"
+    - "assets/tpbm-course-arms.json"
     - "assets/parameter-scope.mjs"
     - "assets/tpbm-evidence.mjs"
     - "assets/local-qwen.mjs"

@@ -30,3 +30,5 @@ Excel导入前运行 `python scripts/tests/test_parameter_import.py`。默认预
 `python scripts/tests/test_page_modules.py` 检查页面模块漏导出时会失败；正式构建的 verify_pages.py 同时检查自有浏览器脚本的相对静态与字面动态导入。
 
 中文实际研究问题回归：`node scripts/tests/test_research_queries.mjs`。覆盖中文数词、瓦与每平方厘米、占空比、时间/剂量/次数比较、侧别和电极名、实际实验组、文献层线索隔离、原文图表来源与稳定组ID对比；不跨组继承、不把待核字段变成已核。
+
+疗程组合检索：`node scripts/tests/test_course_queries.mjs` 与 `python scripts/tests/test_course_provenance.py`。核对每周/每日次数、持续周数、总次数、方案/实际完成与照射组别，拒绝跨阶段、跨组件和主动/假刺激拼参。新增疗程事实编辑 `data/tpbm-course-arms.json`，每行绑定稳定的组/阶段 ID 和原文位置；`python scripts/build_tpbm_courses.py` 校验并生成公开资源，不改写已有参数库。不用频次乘周数代替原文报告的总次数。

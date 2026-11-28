@@ -19,6 +19,7 @@ def main():
     run(sys.executable, 'scripts/build_literature.py')
     run(sys.executable, 'scripts/build_catalog.py')
     run(sys.executable, 'scripts/build_tpbm.py')
+    run(sys.executable, 'scripts/build_tpbm_courses.py')
     run(sys.executable, 'scripts/build_topic_literature.py')
     run(sys.executable, 'scripts/build_reading_links.py')
     run(sys.executable, 'scripts/validate.py')

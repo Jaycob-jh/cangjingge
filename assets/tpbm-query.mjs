@@ -1,4 +1,5 @@
 import {parseScopeQuery} from './parameter-scope.mjs';
+import {parseCourseQuery} from './tpbm-course.mjs?v=20261128-course1';
 const targetNames = {'前额叶':'prefrontal','运动皮层':'motor cortex','顶叶':'parietal','枕叶':'occipital','海马':'hippocamp','头皮':'scalp'};
 const targetAliases = {...targetNames, '中央后回':'postcentral', '楔前叶':'precuneus', '背外侧前额叶':'dorsolateral prefrontal', '颅骨':'skull', '额部':'forehead', '前额':'forehead', '额':'forehead', 'M1':'motor cortex', ...Object.fromEntries(['Fp1','Fp2','Fpz','F3','F4','Fz','C3','C4','Cz'].map(k=>[k,k.toLowerCase()]))};
 const sideTerms = {
@@ -53,7 +54,7 @@ export function normalizeQueryText(text) {
   };
   text=String(text).normalize('NFKC').replace(/连续激光/g,'连续光').replace(/脉冲激光/g,'脉冲光');
   text=text.replace(new RegExp('百分之(['+cn+'0-9.]+)','g'),(_,v)=>number(v)+'%');
-  const unit='纳米|毫瓦|瓦特|瓦|焦耳|分钟|秒|小时|赫兹|次|nm|mW|W|Hz|%';
+  const unit='纳米|毫瓦|瓦特|瓦|焦耳|分钟|秒|小时|赫兹|次|周|星期|天|日|nm|mW|W|Hz|%';
   text=text.replace(new RegExp('(['+cn+']+)(?:\\s*([到至–—~～-])\\s*(['+cn+']+))?(?=\\s*(?:'+unit+'))','g'),(_,a,op,b)=>number(a)+(b?'–'+number(b):''));
   text=text.replace(/半小时/g,'30分钟').replace(/单次照射|单次刺激/g,'1次照射');
   text=text.replace(/平方厘米/g,'cm2').replace(/毫瓦/g,'mW').replace(/瓦特|瓦/g,'W').replace(/焦耳/g,'J');
@@ -125,6 +126,7 @@ function common(text) {
   const total=text.match(/(?:总共|一共|共计|合计|总计|累计)\s*(\d+)\s*次/);
   if(total)out.sessions=total[1];
   else if(/每(?:天|日|周|星期).{0,10}\d+\s*次/.test(text))delete out.sessions;
+  const course=parseCourseQuery(text);if(course.hasSchedule)delete out.sessions;Object.assign(out,course.filters);
   const scoped=parseScopeQuery(text);Object.assign(out,scoped.filters);
   if(out.target==='头皮'&&(scoped.filters.dosePlane||scoped.filters.irradiancePlane)&&/头皮(?:表面)?(?:的)?\s*(?:剂量|能量密度|辐照度|\d)/.test(text))delete out.target;
   return Object.fromEntries(Object.entries(out).filter(([,v]) => v));
