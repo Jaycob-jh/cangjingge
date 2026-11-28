@@ -34,3 +34,5 @@ Excel导入前运行 `python scripts/tests/test_parameter_import.py`。默认预
 疗程组合检索：`node scripts/tests/test_course_queries.mjs` 与 `python scripts/tests/test_course_provenance.py`。核对每周/每日次数、持续周数、总次数、方案/实际完成与照射组别，拒绝跨阶段、跨组件和主动/假刺激拼参。新增疗程事实编辑 `data/tpbm-course-arms.json`，每行绑定稳定的组/阶段 ID 和原文位置；`python scripts/build_tpbm_courses.py` 校验并生成公开资源，不改写已有参数库。不用频次乘周数代替原文报告的总次数。
 
 批量疗程扩充运行 `node scripts/tests/test_course_expansion.mjs`：覆盖组件剂量、不同阶段、动物/细胞、造模/干预、适应日/照射日、循环/次数、离散波长及能量/面剂量。非全文卡书目按原 DOI/PMID 复用；公开全文身份由疗程文件的 `documents` 绑定，来源地址不得串到另一篇。后台进度使用 `scripts/audit_tpbm_courses.py --output <仓库外路径>`；不是把全部次数线索当成已核疗程。完整说明见 `COURSE_EVIDENCE.md`。
+
+`node scripts/tests/test_course_review62.mjs` 以本轮57篇有疗程的原始研究/方案测试57条中文组合查询与28条防串组检查，另核对4篇交叉访视和1篇外周照射不新增经颅疗程。覆盖明确总8次与每周3次三周的报告差异、5/6/8次实际完成、诊所减频与居家阶段、组件剂量、动物物种说明、基线假刺激和无照射随访。来源测试同时拒绝计算得到的实际完成次数。

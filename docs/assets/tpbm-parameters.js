@@ -1,8 +1,8 @@
-import {courseNumeric,courseSelectors,composeCourseIndex,courseValue} from './tpbm-course.mjs?v=20261128-course2';
+import {courseNumeric,courseSelectors,composeCourseIndex,courseValue} from './tpbm-course.mjs?v=20261128-course3';
 import {scopeOptions,scopedCardHints} from './parameter-scope.mjs';
-import {parseEvidenceQuestion,rowMatches,restoreParameterRows} from './tpbm-evidence.mjs?v=20261128-course2';
+import {parseEvidenceQuestion,rowMatches,restoreParameterRows} from './tpbm-evidence.mjs?v=20261128-course3';
 import {loadLocalQwen} from './local-qwen.mjs';
-import {common, range, targetMatches, categoryMatches, numericMatches, queryWarnings} from './tpbm-query.mjs?v=20261128-course2';
+import {common, range, targetMatches, categoryMatches, numericMatches, queryWarnings} from './tpbm-query.mjs?v=20261128-course3';
 const $ = id => document.getElementById(id);
 const node = (tag, text) => {
   const element = document.createElement(tag);
@@ -369,7 +369,7 @@ form.addEventListener('input', refresh);
 form.addEventListener('reset', () => setTimeout(refresh,0));
 form.addEventListener('submit', event => event.preventDefault());
 try {
-  const responses = await Promise.all(['tpbm-parameters.json','tpbm-studies.json','tpbm-course-arms.json'].map(f=>fetch('../assets/'+f+'?v=20261128-course2')));
+  const responses = await Promise.all(['tpbm-parameters.json','tpbm-studies.json','tpbm-course-arms.json'].map(f=>fetch('../assets/'+f+'?v=20261128-course3')));
   if(responses.some(r=>!r.ok))throw Error('Index unavailable');
   const [base,studies,courses]=await Promise.all(responses.map(r=>r.json()));data=composeCourseIndex(base,courses);studyData=studies;
   restorePage(new URL(location.href));

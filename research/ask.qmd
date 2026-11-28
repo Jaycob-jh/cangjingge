@@ -33,7 +33,7 @@ css: ../assets/evidence-search.css
 <div id="evidence-selected"></div>
 <section id="evidence-picked" aria-label="已选参数对比"></section>
 <div id="evidence-results"></div>
-<script type="module" src="../assets/evidence-search.js?v=20261128-course2"></script>
+<script type="module" src="../assets/evidence-search.js?v=20261128-course3"></script>
 ```
 
 这里直接检索已整理的证据，按原有记录展示方法和结果。要回答哪种方案更好，请同时比较对象、对照、剂量和测量时间。

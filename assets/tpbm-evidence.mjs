@@ -1,6 +1,6 @@
 import {scopeOptions,entryScopeMatches,parseScopeQuery,maskScopeLanguage,scopedCardHints} from './parameter-scope.mjs';
-import {common,normalizeQueryText,numericMatches,targetMatches,categoryMatches,queryWarnings} from './tpbm-query.mjs?v=20261128-course2';
-import {parseCourseQuery,courseNumeric,courseSelectors,courseKeys} from './tpbm-course.mjs?v=20261128-course2';
+import {common,normalizeQueryText,numericMatches,targetMatches,categoryMatches,queryWarnings} from './tpbm-query.mjs?v=20261128-course3';
+import {parseCourseQuery,courseNumeric,courseSelectors,courseKeys} from './tpbm-course.mjs?v=20261128-course3';
 const fields={subject:'Subject_Type',health:'Health_Status',mode:'Light_Mode',control:'Control_Type',temperature:'Temperature_Measured',target:'Target',wave:'Wavelength_nm',power:'Power_mW',irradiance:'Irradiance_mW_cm2',dose:'Fluence_J_cm2',duration:'Duration_min',frequency:'Pulse_Frequency_Hz',duty:'Duty_Cycle_pct',spot:'Spot_Area_cm2',sessions:'Total_Sessions'};
 Object.assign(fields,Object.fromEntries([...Object.entries(courseNumeric),...Object.entries(courseSelectors)].map(([k,v])=>[k,v[1]])));
 const numeric=new Set(['wave','power','irradiance','dose','duration','frequency','duty','spot','sessions',...Object.keys(courseNumeric)]);

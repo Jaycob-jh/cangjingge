@@ -2,7 +2,10 @@
 export const courseNumeric={perWeek:['每周次数','Sessions_Per_Week'],perDay:['每日次数','Sessions_Per_Day'],courseWeeks:['持续 · 周（本方案或阶段）','Course_Weeks']};
 export const courseSelectors={countBasis:['总次数口径','Session_Count_Basis',{Planned:'方案规定',Completed:'实际完成'}],armType:['照射组别','Intervention_Arm',{Active:'主动光',Sham:'假刺激',Comparator:'其他对照'}]};
 export const courseKeys=new Set([...Object.keys(courseNumeric),...Object.keys(courseSelectors)]);
-export function courseValue(item){return item.field==='Session_Count_Basis'?({Planned:'方案规定',Completed:'实际完成'}[item.value]||item.value):item.field==='Intervention_Arm'?({Active:'主动光',Sham:'假刺激',Comparator:'其他对照'}[item.value]||item.value):item.value;}
+export function courseValue(item){
+ const labels={Session_Count_Basis:{Planned:'方案规定',Completed:'实际完成'},Intervention_Arm:{Active:'主动光',Sham:'假刺激',Comparator:'其他对照'},Subject_Type:{Human:'人体',Animal:'动物',Cell:'细胞'},Health_Status:{Healthy:'健康',Disease:'疾病',Mixed:'混合人群'},Light_Mode:{CW:'连续光',PW:'脉冲光'}};
+ return labels[item.field]?.[item.value]||item.value;
+}
 
 export function parseCourseQuery(text){
  const filters={},errors=[],spans=[];

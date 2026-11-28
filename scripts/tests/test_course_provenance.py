@@ -38,6 +38,11 @@ class CourseProvenance(unittest.TestCase):
     def test_pending_not_published_as_verified(self):
         data=copy.deepcopy(self.data);data['arms'][0]['entries'][0]['pending']=True
         with self.assertRaises(ValueError):module.validate(data,self.studies,self.base)
+    def test_actual_attendance_cannot_be_calculated(self):
+        data=copy.deepcopy(self.data)
+        arm=next(a for a in data['arms'] if any(e['field']=='Session_Count_Basis' and e['value']=='Completed' for e in a['entries']) and any(e['field']=='Total_Sessions' for e in a['entries']))
+        next(e for e in arm['entries'] if e['field']=='Total_Sessions')['kind']='Calculated'
+        with self.assertRaisesRegex(ValueError,'实际完成次数'):module.validate(data,self.studies,self.base)
     def test_non_card_document_identity_rejected(self):
         data=copy.deepcopy(self.data)
         key=next(iter(data['documents']))

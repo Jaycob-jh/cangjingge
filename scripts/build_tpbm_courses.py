@@ -41,8 +41,11 @@ def validate(data,studies,base):
         allowed.discard(None)
         entries=arm['entries'];fields={e['field'] for e in entries}
         if not {'Subject_Type','Intervention_Arm','Session_Count_Basis'}<=fields: raise ValueError('缺少组别或次数口径')
+        completed=any(e['field']=='Session_Count_Basis' and e['value']=='Completed' for e in entries)
         if arm['emission']=='none' and fields&{'Wavelength_nm','Fluence_J_cm2','Irradiance_mW_cm2','Power_mW'}: raise ValueError('不出光假刺激不能借用主动组出光参数')
         for item in entries:
+            if completed and item['field']=='Total_Sessions' and item['kind']!='Direct':
+                raise ValueError('实际完成次数必须由原文直接报告，不能按频次和周数推算')
             if item['field'] not in set(base['fields'])|EXTRA: raise ValueError('疗程字段拼写无效')
             if item.get('course_plan_id')!=arm['id']: raise ValueError('参数来自另一个组或阶段')
             if item.get('pending') is not False or item.get('source_review_required') is not False: raise ValueError('疗程匹配只接收已核对记录')
