@@ -24,7 +24,7 @@ const unitPattern=/mW\s*\/\s*cm2|W\s*\/\s*cm2|mJ\s*\/\s*cm2|kJ\s*\/\s*cm2|J\s*\/
 const numPattern=/(?<![\w.])\d+(?:\.\d+)?(?:\s*[-–—~～至到]\s*\d+(?:\.\d+)?)?/g;
 const isList=text=>!text.replace(/\b(?:average|mean|peak|low|medium|high|approximately|about|and)\b|平均|峰值|低档|中档|高档|低|中|高|约|均|与|和|[\d\s.,，、–—~～至到-]/gi,'');
 export function scopedQuantities(raw){
- const text=normalize(raw),us=[...text.matchAll(unitPattern)].filter(u=>!/[A-Za-z0-9]/.test(text[u.index+u[0].length]||''));
+ const text=normalize(raw),us=[...text.matchAll(unitPattern)].filter(u=>!/[A-Za-z0-9]/.test(text[u.index+u[0].length]||'')&&(!/^(?:mW|W)$/i.test(u[0])||!/^\s*\//.test(text.slice(u.index+u[0].length))));
  const ns=[...text.matchAll(numPattern)].filter(n=>!us.some(u=>n.index>=u.index&&n.index<u.index+u[0].length)),out=[];
  for(let i=0;i<ns.length;i++){
   const n=ns[i],u=us.find(u=>u.index>=n.index+n[0].length);if(!u||u.index-n.index>100)continue;
@@ -53,8 +53,18 @@ export function entryScopeMatches(item,key,filters){
  const scope=classify(item.source_note||'');
  return scopes.every(([k])=>scopeMatches(item[k]||scope[k.endsWith('Plane')?'plane':k==='durationBasis'?'durationBasis':'basis'],filters[k]));
 }
+function unsupportedCompoundUnit(raw){
+ const text=normalize(raw);
+ return [...text.matchAll(unitPattern)].some(u=>{
+  if(/[A-Za-z]/.test(text[u.index-1]||''))return false;
+  const tail=text.slice(u.index+u[0].length);if(!/^\s*\//.test(tail))return false;
+  const perSession=tail.match(/^\s*\/\s*(?:次|sessions?)(?![A-Za-z])/i);
+  return !perSession||/^\s*\//.test(tail.slice(perSession[0].length));
+ });
+}
 export function parseScopeQuery(question){
  const qs=scopedQuantities(question),filters={},errors=[];
+ if(unsupportedCompoundUnit(question))errors.push('尚未支持该复合单位，请换成mW、mW/cm²、J/cm²或分钟');
  if(/(?:不是|排除|不要|不含|非)(?:估算|实测|脑内|头皮|表面|峰值|平均|累计点亮|设备运行)/.test(question))errors.push('尚未自动应用排除口径，请直接选择需要的口径');
  if(/平均.{0,5}(?:和|与|、|及).{0,5}峰值|峰值.{0,5}(?:和|与|、|及).{0,5}平均/.test(question))errors.push('平均值与峰值请分别查询，避免把两个口径合成一个条件');
  if(!qs.length&&/(?:平均|峰值|脑内|表面|点亮|设备运行)(?:辐照度|功率|剂量|时间)?\s*\d/.test(question))errors.push('请为该口径的数值写明单位');
