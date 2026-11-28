@@ -1,9 +1,68 @@
+import {createDraftStore,draftStorageKey} from './reading-draft-store.mjs';
 import {templates,normalizeDOI,validDOI,findDOIs,createDraft,importDraft,pdfMentions,applyCrossref,draftQMD} from './reading-intake.mjs';
 const $=id=>document.getElementById(id);const n=(tag,text)=>{const el=document.createElement(tag);if(text!==undefined)el.textContent=text;return el;};
 let catalog,studies,links,draft=null,pdfPending=null,shown=30,revision=0,busy=false,dirty=false;
 const status=text=>{$('intake-status').textContent=text;};
 const error=e=>status(e.message||String(e));
-function mark(){dirty=true;revision++;}
+function mark(){dirty=true;revision++;scheduleSave();}
+let localCopy=null,localToken=null,saveTimer=null,store=null;
+const saveStatus=text=>{$('intake-save-status').textContent=text;};
+function savingFailed(e){
+ $('intake-autosave').checked=false;
+ const reason=e.name==='QuotaExceededError'?'浏览器存储空间不足。':e.name==='SecurityError'?'浏览器不允许保存网站数据。':(e.message||String(e));
+ saveStatus('未保存到本机：'+reason+' 请下载 JSON 备份。');
+}
+function showCopy(copy){
+ localCopy=copy;localToken=copy.token;
+ $('intake-restore').disabled=!copy.draft;
+ $('intake-forget').disabled=copy.token===null;
+ if(copy.draft)saveStatus('本机副本：'+(copy.draft.bibliography.title||copy.draft.identity.doi||'未命名草稿')+' · '+new Date(copy.savedAt).toLocaleString('zh-CN')+'。点击恢复后继续。');
+ else saveStatus('尚未保存本机副本。自动保存默认关闭。');
+}
+function saveNow(){
+ clearTimeout(saveTimer);saveTimer=null;
+ if(!draft||!store){saveStatus('本机保存不可用；可下载 JSON 保留编辑。');return false;}
+ try{
+  const copy=store.save(draft,localToken);showCopy(copy);dirty=false;
+  saveStatus('已保存到此浏览器 · '+new Date(copy.savedAt).toLocaleString('zh-CN')+'。清除网站数据会删除副本，可另下载 JSON。');
+  return true;
+ }catch(e){savingFailed(e);return false;}
+}
+function scheduleSave(){
+ if(!$('intake-autosave').checked)return;
+ clearTimeout(saveTimer);saveStatus('正在等待保存……');
+ saveTimer=setTimeout(saveNow,350);
+}
+function stopAutosave(){clearTimeout(saveTimer);saveTimer=null;$('intake-autosave').checked=false;}
+function draftOpened(){
+ stopAutosave();$('intake-autosave').disabled=!store;$('intake-save').disabled=!store;
+}
+$('intake-autosave').onchange=()=>{
+ if($('intake-autosave').checked)saveNow();
+ else {stopAutosave();saveStatus('自动保存已关闭；已有本机副本保留，后续修改需下载 JSON 或点击保存。');}
+};
+$('intake-save').onclick=()=>saveNow();
+$('intake-restore').onclick=()=>{
+ try{
+  const copy=store.load();if(!copy.draft){showCopy(copy);return;}
+  if(draft&&dirty&&!confirm('当前有未保存编辑。确认已下载备份，再恢复本机副本？'))return;
+  draft=copy.draft;pdfPending=null;revision++;dirty=false;shown=30;draftOpened();showCopy(copy);
+  $('intake-domain').value=draft.domain;$('intake-doi').value=draft.identity.doi||'';$('intake-title').value=draft.bibliography.title||'';
+  render();status('已恢复本机副本。自动保存仍关闭，可按需开启。');
+ }catch(e){savingFailed(e);}
+};
+$('intake-forget').onclick=()=>{
+ if(!confirm('删除此浏览器的草稿副本？当前页面的编辑保留，请先下载 JSON 备份。'))return;
+ try{store.remove(localToken);stopAutosave();showCopy({token:null,draft:null,savedAt:null});if(draft)dirty=true;}catch(e){savingFailed(e);}
+};
+window.addEventListener('storage',e=>{
+ if(e.key!==draftStorageKey&&e.key!==null)return;
+ stopAutosave();
+ try{showCopy(store.load());saveStatus('其他页面更改了本机副本。已停止自动保存，当前编辑保留；请先下载 JSON，再选择恢复。');}catch(err){savingFailed(err);}
+});
+function flushSave(){if($('intake-autosave').checked&&dirty)saveNow();}
+window.addEventListener('pagehide',flushSave);
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')flushSave();});
 function control(parent,label,value,oninput,tag='input'){
  const wrap=n('label',label),el=n(tag);el.value=value??'';if(tag==='input')el.maxLength=5000;if(tag==='textarea')el.rows=3;el.addEventListener('input',()=>{oninput(el.value);mark();});wrap.append(el);parent.append(wrap);return el;
 }
@@ -54,7 +113,7 @@ function attachPDF(info){
  if(!draft.pdf||draft.pdf.sha256===info.sha256){draft.pdf=structuredClone(source);draft.reading_scope.pdf_text_extracted_pages=source.extracted_pages.slice();}
  mark();render();status(`已加入 PDF 文字线索；本次 ${fresh.length} 页。题名、实验组和图表需按原文核对。`);
 }
-$('intake-create').onclick=()=>{try{if(draft&&dirty&&!confirm('当前草稿有编辑。请确认已下载保存；继续会打开另一篇草稿。'))return;draft=createDraft({doi:$('intake-doi').value,title:$('intake-title').value,domain:$('intake-domain').value},catalog,studies,links);revision++;dirty=true;shown=30;if(pdfPending)attachPDF(pdfPending);else{render();status('草稿已建立。请核对题录，再按实验组整理。');}}catch(e){error(e);}};
+$('intake-create').onclick=()=>{try{if(draft&&dirty&&!confirm('当前草稿有编辑。请确认已下载保存；继续会打开另一篇草稿。'))return;draft=createDraft({doi:$('intake-doi').value,title:$('intake-title').value,domain:$('intake-domain').value},catalog,studies,links);revision++;dirty=true;shown=30;draftOpened();if(pdfPending)attachPDF(pdfPending);else{render();status('草稿已建立。请核对题录，再按实验组整理。');}}catch(e){error(e);}};
 $('intake-domain').onchange=()=>{if(!draft)return;draft.domain=$('intake-domain').value;for(const key of templates[draft.domain])if(!Object.hasOwn(draft.field_template,key))draft.field_template[key]=null;mark();render();};
 $('intake-extra-topics').oninput=()=>{draft.topics=[...new Set([...draft.original_topics,...$('intake-extra-topics').value.split(/[,，\n]/).map(t=>t.trim()).filter(Boolean)])];mark();};
 $('intake-notes').oninput=()=>{draft.notes=$('intake-notes').value;mark();};
@@ -64,7 +123,7 @@ $('intake-crossref').onclick=async()=>{
  const d=draft,rev=revision,doi=normalizeDOI(d.identity.doi);if(!validDOI(doi)){status('此稿尚未确定 DOI，请先核对论文身份。');return;}
  $('intake-crossref').disabled=true;status('正在查询公开题录……');try{const r=await fetch('https://api.crossref.org/works/'+encodeURIComponent(doi),{signal:AbortSignal.timeout(20000),credentials:'omit'});if(!r.ok)throw Error('Crossref 暂未返回题录（'+r.status+'）。');const result=await r.json();if(draft!==d||revision!==rev){status('草稿已修改，未套用迟到的题录。请重新查询。');return;}applyCrossref(draft,result.message);mark();render();status('已补缺少的题录；原有值保留，差异列在下面。');}catch(e){error(e);}finally{$('intake-crossref').disabled=false;}
 };
-$('intake-import').onchange=async()=>{const file=$('intake-import').files[0];if(!file)return;try{if(draft&&dirty&&!confirm('确认当前草稿已保存，再打开另一份草稿？'))return;const result=importDraft(JSON.parse(await file.text()));draft=result;pdfPending=null;revision++;dirty=false;shown=30;$('intake-domain').value=draft.domain;$('intake-doi').value=draft.identity.doi||'';$('intake-title').value=draft.bibliography.title||'';render();status('已打开草稿，原有字段、分类和编辑均保留。');}catch(e){error(e);}finally{$('intake-import').value='';}};
+$('intake-import').onchange=async()=>{const file=$('intake-import').files[0];if(!file)return;try{if(draft&&dirty&&!confirm('确认当前草稿已保存，再打开另一份草稿？'))return;const rev=revision;const result=importDraft(JSON.parse(await file.text()));if(revision!==rev){status('读取期间草稿已修改，未替换当前编辑。');return;}draft=result;pdfPending=null;revision++;dirty=false;shown=30;draftOpened();$('intake-domain').value=draft.domain;$('intake-doi').value=draft.identity.doi||'';$('intake-title').value=draft.bibliography.title||'';render();status('已打开草稿，原有字段、分类和编辑均保留。');}catch(e){error(e);}finally{$('intake-import').value='';}};
 $('intake-read').onclick=async()=>{
  if(busy)return;const file=$('intake-pdf').files[0];if(!file){status('请先选择本机 PDF。');return;}
  const start=Number($('intake-start').value),end=Number($('intake-end').value);if(!Number.isInteger(start)||!Number.isInteger(end)||start<1||end<start||end-start>=1000){status('请填写有效页码范围，每次最多读取 1000 页。');return;}
@@ -89,5 +148,5 @@ $('intake-read').onclick=async()=>{
 };
 function download(format){if(!draft)return;const json=format==='json',blob=new Blob([json?JSON.stringify(draft,null,2):draftQMD(draft)],{type:json?'application/json':'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=n('a');a.href=url;a.download=draft.draft_id.replace(/[^A-Za-z0-9_-]/g,'_')+'.'+(json?'json':'qmd');a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);if(json)dirty=false;status('已生成下载文件；请确认浏览器保存成功。');}
 $('intake-json').onclick=()=>download('json');$('intake-qmd').onclick=()=>download('qmd');
-window.addEventListener('beforeunload',e=>{if(draft&&dirty){e.preventDefault();e.returnValue='';}});
-try{[catalog,studies,links]=await Promise.all(['catalog.json','tpbm-studies.json','reading-links.json'].map(async file=>{const r=await fetch(new URL(file,import.meta.url));if(!r.ok)throw Error('书目加载失败，请刷新重试。');return r.json();}));$('intake-create').disabled=false;status('输入 DOI 或题名，开始整理；也可以继续编辑已有 JSON 草稿。');}catch(e){error(e);}
+window.addEventListener('beforeunload',e=>{flushSave();if(draft&&dirty){e.preventDefault();e.returnValue='';}});
+try{[catalog,studies,links]=await Promise.all(['catalog.json','tpbm-studies.json','reading-links.json'].map(async file=>{const r=await fetch(new URL(file,import.meta.url));if(!r.ok)throw Error('书目加载失败，请刷新重试。');return r.json();}));$('intake-create').disabled=false;try{store=createDraftStore(window.localStorage,importDraft);showCopy(store.load());}catch(e){savingFailed(e);if(store){try{localToken=store.token();$('intake-forget').disabled=localToken===null;}catch{}}}status('输入 DOI 或题名，开始整理；也可以继续编辑已有 JSON 草稿。');}catch(e){error(e);}

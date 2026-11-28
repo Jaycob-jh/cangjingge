@@ -28,6 +28,13 @@ css: ../assets/reading-intake.css
 </details>
 <p id="intake-status" role="status">正在加载书目……</p>
 </section>
+<section class="intake-panel" aria-label="本机草稿">
+<h2>本机草稿</h2>
+<p>可保存一篇草稿到此浏览器，包括编辑、来源页码和 PDF 文字线索；不保存 PDF 文件，不上传。共用电脑请下载 JSON 后删除本机副本。</p>
+<label><input id="intake-autosave" type="checkbox" disabled> 在此浏览器自动保存此草稿</label>
+<div class="intake-actions"><button id="intake-save" disabled>保存到本机</button><button id="intake-restore" disabled>恢复本机副本</button><button id="intake-forget" disabled>删除本机副本</button></div>
+<p id="intake-save-status" role="status">正在检查本机副本……</p>
+</section>
 <section id="intake-editor" class="intake-panel" hidden>
 <h2>2. 核对题录与分类</h2>
 <div id="intake-duplicates"></div><div id="intake-metadata" class="intake-grid"></div>
@@ -39,10 +46,10 @@ css: ../assets/reading-intake.css
 <details id="intake-mentions"><summary>PDF 待核线索</summary><p id="intake-scope"></p><div id="intake-mention-list"></div><button id="intake-more" hidden>再显示 30 条</button></details>
 <label>自己的整理备注（只保存在 JSON 草稿）<textarea id="intake-notes" rows="4"></textarea></label>
 <h2>4. 保存，稍后继续</h2>
-<p>JSON 保留全部编辑和待核线索，可重新导入。论文笔记为 QMD 草稿；核对后由维护者加入正式库。此页不自动发布，也不保存到浏览器。</p>
+<p>JSON 保留全部编辑和待核线索，可重新导入。论文笔记为 QMD 草稿；核对后由维护者加入正式库。此页不自动发布；本机保存由上方选项控制。</p>
 <div class="intake-actions"><button id="intake-json">下载可编辑 JSON</button><button id="intake-qmd">下载论文笔记 QMD</button></div>
 <p>含 PDF 摘录的 JSON 请保存在自己的文件夹。公开笔记中不自动写入 PDF 文字、文件路径或私人备注。</p>
 </section>
 </div>
-<script type="module" src="../assets/reading-intake.js"></script>
+<script type="module" src="../assets/reading-intake.js?v=1.1-20261128"></script>
 ```

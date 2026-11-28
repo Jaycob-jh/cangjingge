@@ -24,3 +24,7 @@ Excel导入前运行 `python scripts/tests/test_parameter_import.py`。默认预
 口径筛选运行 `node scripts/tests/test_parameter_scope.mjs`：同一条数值绑定平均/峰值、表面/脑内与点亮/运行，未注明时不默认；文献层线索与独立实验组分开。检查单位共享、W/mW与mJ/J换算、总J不当J/cm²、估算不当实测、不跨字段/组别拼参数。
 
 正式版中文参数验收：`node scripts/tests/test_v1_chinese_queries.mjs`，固定30条带中文的查询与预期筛选；同一fixture用于浏览器真实Qwen+规则组合测试，不把英文或纯单位查询计作中文句子。
+
+本机草稿保存运行 `node scripts/tests/test_draft_store.mjs`：保存前不写入、人工字段/分类/页码往返、容量失败保留旧副本、过期写入与删除拒绝、损坏副本不自动清除。浏览器另验主动开启、即时刷新恢复、关闭保存、JSON/QMD导出导入和跨页面编辑冲突。
+
+`python scripts/tests/test_page_modules.py` 检查页面模块漏导出时会失败；正式构建的 verify_pages.py 同时检查自有浏览器脚本的相对静态与字面动态导入。

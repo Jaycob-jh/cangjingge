@@ -16,8 +16,20 @@ class Links(HTMLParser):
         if tag in ('a','link') and a.get('href'): self.urls.append((tag,a['href']))
         if tag in ('img','script','iframe') and a.get('src'): self.urls.append((tag,a['src']))
 
-def main():
+def check_module_imports(docs):
+    """Check literal relative imports in our own browser modules (vendor bundles excluded)."""
     errors=[]
+    pattern=re.compile(r'''\b(?:from\s*|import\s*(?:\(\s*)?)['"](\.{1,2}/[^'"]+)['"]''')
+    for path in (docs/'assets').glob('*'):
+        if path.suffix not in ('.js','.mjs') or not path.is_file(): continue
+        for spec in pattern.findall(path.read_text(encoding='utf-8')):
+            dest=path.parent/unquote(urlparse(spec).path)
+            if not dest.is_file():
+                errors.append(f'{path.relative_to(docs)} 缺少导入模块：{spec}')
+    return errors
+
+def main():
+    errors=check_module_imports(DOCS)
     pages=list(DOCS.rglob('*.html'))
     if not (DOCS/'index.html').is_file(): errors.append('缺少 docs/index.html')
     if not (DOCS/'.nojekyll').is_file(): errors.append('缺少 docs/.nojekyll')

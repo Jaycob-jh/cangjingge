@@ -18,6 +18,7 @@ project:
     - "assets/evidence-search.js"
     - "assets/reading-intake.js"
     - "assets/reading-intake.mjs"
+    - "assets/reading-draft-store.mjs"
     - "assets/vendor/pdfjs/**"
     - "assets/tpbm-parameters.json"
   render:
