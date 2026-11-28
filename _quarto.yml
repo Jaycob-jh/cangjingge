@@ -15,6 +15,9 @@ project:
     - "assets/local-qwen.mjs"
     - "assets/evidence-grounding.mjs"
     - "assets/evidence-search.js"
+    - "assets/reading-intake.js"
+    - "assets/reading-intake.mjs"
+    - "assets/vendor/pdfjs/**"
     - "assets/tpbm-parameters.json"
   render:
     - "index.qmd"

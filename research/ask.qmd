@@ -7,7 +7,7 @@ css: ../assets/evidence-search.css
 
 查已有研究怎么做、用了哪些参数、得到了什么结果。每条内容都能回到原文。免费使用，无需登录或下载模型。
 
-[按参数查研究](tpbm-parameters.qmd) · [研究对比](tpbm-compare.qmd) · [按专题阅读](index.qmd)
+[按参数查研究](tpbm-parameters.qmd) · [研究对比](tpbm-compare.qmd) · [按专题阅读](index.qmd) · [整理一篇论文](reading-intake.qmd)
 
 ```{=html}
 <form id="evidence-form">
