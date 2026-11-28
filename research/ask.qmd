@@ -19,9 +19,15 @@ css: ../assets/evidence-search.css
 <button type="button" data-question="睡眠和记忆的光刺激研究">睡眠与记忆</button>
 <button type="button" data-question="40 Hz 脑电研究">40 Hz 与脑电</button>
 <button type="button" data-question="光穿透">光穿透</button>
+<button type="button" data-question="10Hz和40Hz脑电研究">10 Hz 与 40 Hz</button>
 <button type="button" data-question="健康成人 1064nm 连续光">人体照射参数</button>
 </div>
 <p id="evidence-status" role="status">正在加载证据……</p>
+<details id="evidence-ai-panel"><summary>用本地模型挑重点（可选）</summary>
+<button id="evidence-ai" type="button" disabled>用本地 Qwen 挑重点（可选）</button>
+<p><small>直接检索无需模型。Qwen 在本机运行，首次约下载 869 MB；已有权重可复用。它只从本次研究中选证据，不生成新的参数或结论。</small></p>
+<p id="evidence-ai-status" role="status"></p></details>
+<div id="evidence-selected"></div>
 <div id="evidence-results"></div>
 <script type="module" src="../assets/evidence-search.js"></script>
 ```

@@ -119,8 +119,8 @@ export function numericMatches(actualValue, requested) {
 
 export function queryWarnings(text) {
   const warnings = [];
-  if (/不要|排除|非连续|非脉冲|不含|除了/.test(text)) warnings.push('排除条件尚未自动应用，请核对筛选；当前结果不保证满足排除要求。');
+  if (/不要(?!求)|排除|非连续|非脉冲|不含|除了/.test(text)) warnings.push('排除条件尚未自动应用，请核对筛选；当前结果不保证满足排除要求。');
   if (/最佳|最优|哪个更好|哪种更好|推荐.*参数|应该.*(?:剂量|波长)/.test(text)) warnings.push('检索可列出研究用过的参数；研究条件不同，不能据此自动判定最佳方案。');
-  if (/显著|疗效|改善|提升|有效|机制|结果/.test(text)) warnings.push('参数筛选不判断疗效或显著性，请同时阅读研究结果与对照设计。');
+  if (/显著|疗效|改善|提升|有效|机制|结果/.test(text)) warnings.push('结果见各研究卡，请结合对象、剂量和对照阅读。');
   return warnings;
 }

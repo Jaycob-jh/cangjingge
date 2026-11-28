@@ -15,3 +15,6 @@ Excel导入前运行 `python scripts/tests/test_parameter_import.py`。默认预
 覆盖具体脑区与侧别、中英文靶点、功率和时间单位换算、数值范围、DOI/PMID 及对照否定。使用与网页相同的纯函数模块，不另写一套解析逻辑。
 
 这组检查不代替浏览器真实推理、缓存、筛选与移动端检查。页面修改后还须执行 `python scripts/build_site.py`，并验证生成的页面及导入模块。
+
+
+免费证据检索修改后运行 `node scripts/tests/test_evidence.mjs`：区分实际测量与讨论提及、光衰减与症状减轻，不跨组拼参，保留比较条件并校验本地模型来源编号。DOI/PDF草稿修改后运行 `python scripts/tests/test_reading_draft.py`，检查题录冲突、原分类、页码、待核候选与人工编辑保护。

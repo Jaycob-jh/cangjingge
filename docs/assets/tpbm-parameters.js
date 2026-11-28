@@ -1,3 +1,5 @@
+import {parseEvidenceQuestion} from './tpbm-evidence.mjs';
+import {loadLocalQwen} from './local-qwen.mjs';
 import {common, range, targetMatches, categoryMatches, numericMatches, queryWarnings} from './tpbm-query.mjs';
 const $ = id => document.getElementById(id);
 const node = (tag, text) => {
@@ -89,7 +91,9 @@ function groundModel(question, proposed) {
   // The model can locate a more specific free-text target without inventing a term.
   const target = proposed.target;
   if (typeof target === 'string' && target.trim().length >= 2 && target.length <= 48) {
-    const term = target.trim().replace(/^(?:离体|在体)\s*/, '');
+    let term = target.trim().replace(/^(?:离体|在体)\s*/, '');
+    const prefix=question.slice(0,question.toLowerCase().indexOf(term.toLowerCase())).match(/(?:右侧?|左侧?|双侧|两侧|right|left|bilateral)\s*$/i);
+    if(prefix&&!/^(?:右|左|双侧|两侧|right\b|left\b|bilateral\b)/i.test(term))term=prefix[0]+term;
     if (/(?:脑|皮层|叶|回|核|丘|沟|海马|颅|头皮|cortex|hippocampus|prefrontal|precuneus|scalp|skull|^M1$|^F[34]$)/i.test(term) && question.toLowerCase().includes(term.toLowerCase()) &&
         (!explicit.target || term.includes(explicit.target))) explicit.target = term;
   }
@@ -98,29 +102,9 @@ function groundModel(question, proposed) {
       question.toLowerCase().includes(paper.toLowerCase())) explicit.paper = paper;
   return explicit;
 }
-const modelId = 'Qwen2.5-1.5B-Instruct-q4f16_1-MLC';
 let data, modelLoading;
 async function loadModel(button) {
-  // Keep the existing WebLLM cache backend so earlier downloads remain reusable.
-  const {CreateMLCEngine, hasModelInCache} = await import('https://cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.79/+esm');
-  let cached;
-  try { cached = await hasModelInCache(modelId); } catch { /* Loader can still try. */ }
-  if (button.disabled) status.textContent = cached
-    ? '已找到本地权重，正在初始化 Qwen……'
-    : '正在检查并加载 Qwen 权重，可继续手动筛选……';
-  return CreateMLCEngine(modelId, {
-    initProgressCallback: report => {
-      if (!button.disabled) return;
-      const progress = report.progress > 0 ? ' ' + Math.round(report.progress * 100) + '%' : '';
-      const fromCache = report.text?.startsWith('Loading model from cache');
-      const fetching = report.text?.startsWith('Fetching param cache');
-      if (fromCache) cached = true;
-      if (fetching) cached = false;
-      status.textContent = fetching ? '正在下载缺少的权重' + progress + '，可继续手动筛选。'
-        : cached ? '正在读取本地权重并初始化 Qwen' + progress + '……'
-        : '正在初始化 Qwen' + progress + '……';
-    },
-  });
+  return loadLocalQwen(message=>{if(button.disabled)status.textContent=message;});
 }
 async function withTimeout(work, milliseconds) {
   let timer;
@@ -142,8 +126,16 @@ function apply(filters) {
   refresh();
   return true;
 }
+function needsSeparateFilters(question) {
+  const parsed=parseEvidenceQuestion(question);
+  if(parsed.variants.length<2&&!parsed.ambiguous)return false;
+  const target=new URL('ask.html',location.href);target.searchParams.set('query',question);
+  status.replaceChildren(node('span','问题包含多组或尚未明确的数值条件，当前筛选已保留。 '),link('按组查证据 →',target.href));
+  return true;
+}
 $('parameter-query').addEventListener('submit', event => {
   event.preventDefault();
+  if(needsSeparateFilters($('parameter-prompt').value))return;
   status.textContent = apply(common($('parameter-prompt').value))
     ? '已填入可识别条件，请核对或补充。' : '未识别到支持的条件，可直接修改筛选。';
   status.textContent += ' ' + queryWarnings($('parameter-prompt').value).join(' ');
@@ -151,6 +143,7 @@ $('parameter-query').addEventListener('submit', event => {
 $('parameter-ai').onclick = async event => {
   const question = $('parameter-prompt').value.trim();
   if (!question) { status.textContent = '请先输入问题。'; return; }
+  if(needsSeparateFilters(question))return;
   const button = event.currentTarget;
   const revision = filterRevision;
   const changed = () => revision !== filterRevision || question !== $('parameter-prompt').value.trim();
