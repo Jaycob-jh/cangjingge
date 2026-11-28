@@ -22,3 +22,5 @@
   #parameter-filters input, #parameter-filters select { font-size: 1rem; }
   .parameter-filter-grid label { font-size: .9rem; }
 }
+
+#parameter-scope-hints article{padding:1rem;border:1px solid #ccd9d5;border-radius:.4rem;margin:1rem 0;overflow-wrap:anywhere}#parameter-scope-hints h3{font-size:1.15rem}#parameter-scope-hints a{display:inline-block;padding:.3rem 0}

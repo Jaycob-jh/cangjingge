@@ -1,3 +1,4 @@
+import {scopeOptions,entryScopeMatches,parseScopeQuery,maskScopeLanguage,scopedCardHints} from './parameter-scope.mjs';
 import {common,numericMatches,targetMatches,categoryMatches,queryWarnings} from './tpbm-query.mjs';
 const fields={subject:'Subject_Type',health:'Health_Status',mode:'Light_Mode',control:'Control_Type',temperature:'Temperature_Measured',target:'Target',wave:'Wavelength_nm',power:'Power_mW',irradiance:'Irradiance_mW_cm2',dose:'Fluence_J_cm2',duration:'Duration_min',frequency:'Pulse_Frequency_Hz',duty:'Duty_Cycle_pct',spot:'Spot_Area_cm2',sessions:'Total_Sessions'};
 const numeric=new Set(['wave','power','irradiance','dose','duration','frequency','duty','spot','sessions']);
@@ -15,11 +16,12 @@ const concepts=[
 const normalizeText=value=>String(value).normalize('NFKC').toLowerCase();
 const doi=value=>String(value||'').trim().replace(/^(?:doi:\s*|https?:\/\/(?:dx\.)?doi.org\/)/i,'').toLowerCase();
 function remainder(question,filters){
+ question=maskScopeLanguage(question);
  let rest=question.normalize('NFKC').replace(/(?:https?:\/\/(?:dx\.)?doi.org\/|doi\s*:\s*)?10\.\d{4,9}\/[^\s，。；;]+/gi,'').replace(/PMID\s*:?\s*\d+/gi,'').replace(/\bdoi\s*:?/gi,'');
  for(const[q]of concepts)rest=rest.replace(new RegExp(q.source,'gi'),'');
  if(filters.target)rest=rest.replace(filters.target,'');
  rest=rest.replace(/(?:至少|不低于|大于等于|不小于|超过|大于|不超过|至多|最多|不高于|小于等于|低于|小于|>=|<=|≥|≤|>|<)?\s*\d+(?:\.\d+)?(?:\s*[-–—~～至到]\s*\d+(?:\.\d+)?)?\s*(?:mW|毫瓦|W|纳米|nm|cm[²2]|平方厘米|J|焦耳|分钟|min|秒|s|Hz|赫兹|%|次)(?:\s*\/\s*(?:cm[²2]|平方厘米))?/gi,'');
- rest=rest.replace(/经颅光生物调节|经颅光刺激|光生物调节|光刺激|tPBM|PBM|人体|人脑|人类|健康|成人|患者|疾病|动物|小鼠|大鼠|离体|细胞|仿真|模拟|human|animal|mouse|rat|healthy|脉冲频率|占空比|辐照度|能量密度|照射时间|光斑|波长|剂量|功率|疗程|连续光|连续波|脉冲光|脉冲|假刺激|热对照|无处理|无对照|测温|温升|CW|PW|sham|必须记录|必须|不要求有|不要求|为什么|怎么样|能不能|有没有|能否|有哪些|哪一种|哪种|哪个|多长时间|是否|可以|怎样|怎么|多少|什么|查找|看看|帮我|研究|文献|论文|参数|证据|结果|方面|比较|对比|差别|区别|相比|改善|影响|作用|改变|变化|有效|更好|请|的吗|吗|能|会|有|没有|查|看|做|的|与|和|或|后|在|对|中|了/gi,' ');
+ rest=rest.replace(/经颅光生物调节|经颅光刺激|光生物调节|光刺激|tPBM|PBM|人体|人脑|人类|健康|成人|患者|疾病|动物|小鼠|大鼠|离体|细胞|仿真|模拟|human|animal|mouse|rat|healthy|脉冲频率|占空比|辐照度|能量密度|照射时间|光斑|波长|剂量|功率|时间|累计|点亮|运行|表面|头皮|脑内|估算|估计|实测|到脑|每次|疗程|连续光|连续波|脉冲光|脉冲|假刺激|热对照|无处理|无对照|测温|温升|CW|PW|sham|必须记录|必须|不要求有|不要求|为什么|怎么样|能不能|有没有|能否|有哪些|哪一种|哪种|哪个|多长时间|是否|可以|怎样|怎么|多少|什么|查找|看看|帮我|研究|文献|论文|参数|证据|结果|方面|比较|对比|差别|区别|相比|改善|影响|作用|改变|变化|有效|更好|请|的吗|吗|能|会|有|没有|查|看|做|的|与|和|或|后|在|对|中|了/gi,' ');
  return rest.replace(/[\p{P}\p{S}]+/gu,' ').trim();
 }
 function scientificText(study){return [study.title,study.title_zh,study.kind,study.reading,...Object.values(study.fields).map(f=>f.value),...study.results.map(r=>r.text),study.interpretation].join(' ');}
@@ -29,7 +31,7 @@ function words(text){
 }
 export function parseEvidenceQuestion(question,corpus=''){
  const filters=common(question.replace(/细胞机制/g,'机制')),warnings=queryWarnings(question),required=concepts.filter(([q])=>q.test(question));
- let variants=[{...filters}],ambiguous=false,masked=question;
+ const scoped=parseScopeQuery(question);let variants=[{...filters}],ambiguous=scoped.errors.length>0,masked=question;if(scoped.errors.length)warnings.push(...scoped.errors);
  for(const[key,unit]of [['frequency','Hz|赫兹'],['wave','nm|纳米']]){
   const pair=new RegExp('(\\d+(?:\\.\\d+)?)\\s*(?:'+unit+')?\\s*(?:和|与|或|对比|比较|vs|versus|、|，|,)\\s*(\\d+(?:\\.\\d+)?)\\s*(?:'+unit+')','i');
   const matched=question.match(pair);
@@ -55,9 +57,12 @@ export function parseEvidenceQuestion(question,corpus=''){
  return {filters,variants,warnings,required,ambiguous,literals:[...new Set(literals)],unknown};
 }
 export function rowMatches(paper,entries,filters){
- return Object.entries(filters).every(([key,value])=>key==='paper'
-  ? [paper.title,paper.id,paper.doi,paper.author].join(' ').toLowerCase().includes(value.toLowerCase())
-  : entries.some(item=>item.field===fields[key] && (numeric.has(key)?numericMatches(item.value,value):key==='target'?targetMatches(item.value,value):categoryMatches(fields[key],item.value,value))));
+ const requested=new Set(Object.keys(filters).filter(k=>!Object.hasOwn(scopeOptions,k)));
+ for(const[key,spec]of Object.entries(scopeOptions))if(filters[key])requested.add(spec.quantity);
+ return [...requested].every(key=>key==='paper'
+  ? [paper.title,paper.id,paper.doi,paper.author].join(' ').toLowerCase().includes(filters[key].toLowerCase())
+  : entries.some(item=>item.field===fields[key] && entryScopeMatches(item,key,filters) && (!filters[key] || (numeric.has(key)?numericMatches(item.value,filters[key]):key==='target'?targetMatches(item.value,filters[key]):categoryMatches(fields[key],item.value,filters[key])))));
+
 }
 function cardContainsSimpleParameter(study,variant){
  const keys=Object.keys(variant);if(keys.length!==1)return false;const key=keys[0],query=variant[key];
@@ -89,15 +94,16 @@ export function retrieveEvidence(index,studyIndex,question){
   }
  }
  const matchedDOIs=new Set(groups.map(g=>doi(g.paper.doi)));
+ const allScopeHints=variants.flatMap(v=>scopedCardHints(studies,v,numericMatches)),scopeHints=allScopeHints.filter(h=>!h.pending),pendingScopeHints=allScopeHints.filter(h=>h.pending);const scopeIDs=new Set(scopeHints.map(h=>h.study.id));
  const conditionalCards=[];
  const cards=studies.filter(s=>{
   if(!matchesConcept(texts.get(s.id),s))return false;
   if(!hasConditions)return required.length>0||literals.length>0;
   if(matchedDOIs.has(doi(s.doi))||(Object.keys(filters).length===1&&filters.paper&&doi(s.doi)===doi(filters.paper)))return true;
-  if(variants.some(v=>cardContainsSimpleParameter(s,v))){conditionalCards.push(s.id);return true;}
+  if(scopeIDs.has(s.id)||variants.some(v=>cardContainsSimpleParameter(s,v))){conditionalCards.push(s.id);return true;}
   return false;
  });
  const score=study=>required.reduce((sum,[,re])=>sum+(re.test(study.title_zh||'')?4:0)+(re.test(study.title||'')?5:0)+(re.test(study.fields.readout?.value||'')?3:0)+(re.test(study.results.map(r=>r.text).join(' '))?2:0),0)+literals.reduce((sum,t)=>sum+(normalizeText(study.title_zh||'').includes(normalizeText(t))?3:0),0);
  cards.sort((a,b)=>score(b)-score(a)||Number(b.year)-Number(a.year));
- return{filters,variants,warnings,groups,cards,pending,conditionalCards,recognized:hasConditions||required.length>0||literals.length>0};
+ return{filters,variants,warnings,groups,cards,pending,conditionalCards,scopeHints,pendingScopeHints,recognized:hasConditions||required.length>0||literals.length>0};
 }

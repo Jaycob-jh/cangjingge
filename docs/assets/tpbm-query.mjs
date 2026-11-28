@@ -1,3 +1,4 @@
+import {parseScopeQuery} from './parameter-scope.mjs';
 const targetNames = {'前额叶':'prefrontal','运动皮层':'motor cortex','顶叶':'parietal','枕叶':'occipital','海马':'hippocamp','头皮':'scalp'};
 const targetAliases = {...targetNames, '中央后回':'postcentral', '楔前叶':'precuneus', '背外侧前额叶':'dorsolateral prefrontal', '颅骨':'skull'};
 const sideTerms = {
@@ -94,6 +95,8 @@ function common(text) {
   const identifier = text.match(/(?:doi\s*:\s*|https?:\/\/(?:dx\.)?doi\.org\/)?(10\.\d{4,9}\/[^\s，。；;]+)/i)
     || text.match(/\bPMID\s*:?\s*(\d{7,9})\b/i);
   if (identifier) out.paper = identifier[1].replace(/[.,]+$/, '').toLowerCase();
+  const scoped=parseScopeQuery(text);Object.assign(out,scoped.filters);
+  if(out.target==='头皮'&&(scoped.filters.dosePlane||scoped.filters.irradiancePlane)&&/头皮(?:表面)?(?:的)?\s*(?:剂量|能量密度|辐照度|\d)/.test(text))delete out.target;
   return Object.fromEntries(Object.entries(out).filter(([,v]) => v));
 }
 

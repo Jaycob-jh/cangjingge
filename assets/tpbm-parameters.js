@@ -1,4 +1,5 @@
-import {parseEvidenceQuestion} from './tpbm-evidence.mjs';
+import {scopeOptions,scopedCardHints} from './parameter-scope.mjs';
+import {parseEvidenceQuestion,rowMatches} from './tpbm-evidence.mjs';
 import {loadLocalQwen} from './local-qwen.mjs';
 import {common, range, targetMatches, categoryMatches, numericMatches, queryWarnings} from './tpbm-query.mjs';
 const $ = id => document.getElementById(id);
@@ -19,6 +20,7 @@ const selectors = {
   control: ['对照', 'Control_Type', {'Sham':'假刺激','Active_Control':'主动对照','Heat_Control':'热对照','No_Treatment':'无处理','None':'无对照','Other':'其他对照'}],
   temperature: ['测温', 'Temperature_Measured', {'Yes':'记录测温'}],
 };
+for(const[key,spec]of Object.entries(scopeOptions))selectors[key]=[spec.label,'__scope',spec.choices];
 const numeric = {
   wave:['波长 · nm','Wavelength_nm'], power:['功率 · mW','Power_mW'], irradiance:['辐照度 · mW/cm²','Irradiance_mW_cm2'],
   dose:['能量密度 · J/cm²','Fluence_J_cm2'], duration:['时间 · 分钟','Duration_min'], frequency:['脉冲频率 · Hz','Pulse_Frequency_Hz'],
@@ -94,7 +96,7 @@ function groundModel(question, proposed) {
     let term = target.trim().replace(/^(?:离体|在体)\s*/, '');
     const prefix=question.slice(0,question.toLowerCase().indexOf(term.toLowerCase())).match(/(?:右侧?|左侧?|双侧|两侧|right|left|bilateral)\s*$/i);
     if(prefix&&!/^(?:右|左|双侧|两侧|right\b|left\b|bilateral\b)/i.test(term))term=prefix[0]+term;
-    if (/(?:脑|皮层|叶|回|核|丘|沟|海马|颅|头皮|cortex|hippocampus|prefrontal|precuneus|scalp|skull|^M1$|^F[34]$)/i.test(term) && question.toLowerCase().includes(term.toLowerCase()) &&
+    if (!(Object.keys(scopeOptions).some(k=>explicit[k])&&/^(?:脑内|头皮|表面|皮层表面|brain|scalp|surface)$/i.test(term))&&/(?:脑|皮层|叶|回|核|丘|沟|海马|颅|头皮|cortex|hippocampus|prefrontal|precuneus|scalp|skull|^M1$|^F[34]$)/i.test(term) && question.toLowerCase().includes(term.toLowerCase()) &&
         (!explicit.target || term.includes(explicit.target))) explicit.target = term;
   }
   const paper = proposed.paper;
@@ -102,7 +104,7 @@ function groundModel(question, proposed) {
       question.toLowerCase().includes(paper.toLowerCase())) explicit.paper = paper;
   return explicit;
 }
-let data, modelLoading;
+let data, studyData, modelLoading;
 async function loadModel(button) {
   return loadLocalQwen(message=>{if(button.disabled)status.textContent=message;});
 }
@@ -184,22 +186,7 @@ function entriesFor(paper, group, entries, pending) {
   return {paper,group,entries,pending,key:paper.id + ':' + group};
 }
 function match(row, filters) {
-  for (const [key,value] of Object.entries(filters)) {
-    if (key === 'paper') {
-      if (![row.paper.title,row.paper.id,row.paper.doi,row.paper.author].join(' ').toLowerCase().includes(value.toLowerCase())) return false;
-      continue;
-    }
-    const field = selectors[key]?.[1] || numeric[key]?.[1] || 'Target';
-    const pool = row.entries.filter(item => item.field === field);
-    if (!pool.some(item => {
-      if (key in numeric) {
-        return numericMatches(item.value, value);
-      }
-      if (key === 'target') return targetMatches(item.value,value);
-      return categoryMatches(field,item.value,value);
-    })) return false;
-  }
-  return true;
+  return rowMatches(row.paper,row.entries,filters);
 }
 const origin = paper => paper.doi ? 'https://doi.org/' + encodeURI(paper.doi) : 'https://pubmed.ncbi.nlm.nih.gov/' + paper.id + '/';
 function rowTitle(row) { return row.paper.group_labels?.[row.group] || row.group || '文献层记录 · 组别未拆分'; }
@@ -274,7 +261,8 @@ function render() {
   advancedSummary.textContent = '更多条件：光模式、对照、剂量与疗程' + (extraCount ? ' · 已选 ' + extraCount + ' 项' : '');
   for (const [key,value] of Object.entries(raw).filter(([,v]) => v)) {
     const label = selectors[key]?.[0] || numeric[key]?.[0] || (key === 'target' ? '靶点' : '题名 / DOI / PMID');
-    const chip = node('button', label + '：' + value + (invalid.includes(key) ? '（检查格式）' : '') + ' ×');
+    const display=selectors[key]?.[2]?.[value]||value;
+    const chip = node('button', label + '：' + display + (invalid.includes(key) ? '（检查格式）' : '') + ' ×');
     chip.type = 'button';
     chip.setAttribute('aria-label', '移除' + label + '：' + value);
     chip.onclick = () => { inputs[key].value = ''; refresh(); (activeFilters.querySelector('button') || showResults).focus(); };
@@ -294,16 +282,19 @@ function render() {
   rows.sort((a,b) => Number(Boolean(b.group))-Number(Boolean(a.group)) || Number(Boolean(b.paper.card))-Number(Boolean(a.paper.card)));
   $('parameter-status').textContent = invalid.length
     ? '请修正数值范围：' + invalid.map(key=>numeric[key][0]).join('、')
-    : data.papers.length + ' 篇索引 · ' + rows.length + ' 条匹配（按首轮核查标记） · ' + pending.length + ' 条含待核证据';
+    : data.papers.length + ' 篇索引 · ' + rows.length + ' 条匹配 · ' + pending.length + ' 条含待核证据';
   renderPicked();
+  const allHints=!invalid.length?scopedCardHints(studyData.studies,filters,numericMatches):[],hints=allHints.filter(h=>!h.pending),pendingHints=allHints.filter(h=>h.pending);
+  const hintBox=$('parameter-scope-hints');hintBox.replaceChildren();
+  if(hints.length){hintBox.append(node('h2','文献中的参数说明 · '+hints.length+' 条'),node('p','以下按文献列出，尚未拆成独立实验组。请按出处核对具体条件。'));for(const hint of hints.slice(0,12)){const card=node('article');card.append(node('h3',hint.study.title_zh||hint.study.title),node('p',hint.text));if(hint.source)card.append(link(hint.source.label,hint.source.url),' · ');card.append(link('研究详情','../library/tpbm/'+hint.study.id+'.html'),' · ',link('加入研究对比','tpbm-compare.html?selected='+encodeURIComponent(hint.study.id)));hintBox.append(card);}}
   const results = $('parameter-results');
   renderList(results, rows, offset, () => {offset+=20;render();},true);
   if (!invalid.length && !rows.length) {
-    results.prepend(node('p', pending.length
+    results.prepend(node('p', hints.length?'未找到同口径的独立实验组；下方有原文线索。':pending.length
       ? '当前条件只找到含待核证据的记录，见下方。'
       : '当前条件没有匹配。可减少条件，或试用更宽的靶点词。'));
     if (pending.length) $('parameter-pending').open = true;
-    if (!pending.length && Object.keys(filters).length) {
+    if (!pending.length && !hints.length && Object.keys(filters).length) {
       const suggestions = node('div');
       suggestions.className = 'parameter-relax';
       for (const key of Object.keys(filters)) {
@@ -312,7 +303,8 @@ function render() {
         const count = candidates.filter(row => match(row,remaining)).length;
         if (!count) continue;
         const label = selectors[key]?.[0] || numeric[key]?.[0] || (key === 'target' ? '靶点' : '题名 / DOI / PMID');
-        const button = node('button', '去掉“' + label + '：' + filters[key] + '”后可查 ' + count + ' 条记录');
+        const display=selectors[key]?.[2]?.[filters[key]]||filters[key];
+        const button = node('button', '去掉“' + label + '：' + display + '”后可查 ' + count + ' 条记录');
         button.type = 'button';
         button.onclick = () => { inputs[key].value = ''; refresh(); };
         suggestions.append(button);
@@ -326,6 +318,7 @@ function render() {
   const section = $('parameter-pending');
   section.querySelector('summary').textContent = '待核证据 · ' + pending.length + ' 条';
   renderList(section.querySelector('div'),pending,pendingOffset,()=>{pendingOffset+=20;render();},false);
+  if(pendingHints.length){section.querySelector('summary').textContent+=' · '+pendingHints.length+' 条文献口径线索待核';const box=section.querySelector('div');for(const h of pendingHints){const card=node('article');card.append(node('h3',h.study.short+' · 口径待核'),node('p',h.text));if(h.source)card.append(link(h.source.label,h.source.url));box.append(card);}}
 }
 function refresh() {
   filterRevision++; offset=20; pendingOffset=15;
@@ -337,16 +330,16 @@ form.addEventListener('input', refresh);
 form.addEventListener('reset', () => setTimeout(refresh,0));
 form.addEventListener('submit', event => event.preventDefault());
 try {
-  const response = await fetch('../assets/tpbm-parameters.json');
-  if (!response.ok) throw Error('Index unavailable');
-  data = await response.json();
+  const responses = await Promise.all(['tpbm-parameters.json','tpbm-studies.json'].map(f=>fetch('../assets/'+f)));
+  if(responses.some(r=>!r.ok))throw Error('Index unavailable');
+  [data,studyData]=await Promise.all(responses.map(r=>r.json()));
   const incoming = new URL(location.href).searchParams.get('query');
   const url=new URL(location.href);
   if (incoming) $('parameter-prompt').value = incoming.slice(0,400);
   if (url.searchParams.get('filters')==='1') {
     const saved=normalize(Object.fromEntries(Object.keys(inputs).map(key=>[key,url.searchParams.get('f_'+key)||''])));
     for(const [key,value]of Object.entries(saved))inputs[key].value=value;
-  } else if (incoming) apply(common(incoming));
+  } else if (incoming&&!needsSeparateFilters(incoming)) apply(common(incoming));
   render();
 } catch {
   $('parameter-status').textContent = '参数索引加载失败，请刷新页面。';

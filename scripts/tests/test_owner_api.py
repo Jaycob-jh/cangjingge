@@ -24,6 +24,13 @@ class Tests(unittest.TestCase):
   for field,value in [('monthly_input_tokens',5),('monthly_output_tokens',5),('monthly_usd_limit',0.000001)]:
    c=config(self.tmp.name);c[field]=value;l=m.Ledger(Path(self.tmp.name)/(field+'.sqlite3'),c)
    with self.assertRaises(m.Quota):l.reserve('test',10,10)
+ def test_no_verified_evidence_does_not_call_or_reserve(self):
+  with patch.object(m,'evidence_for',return_value={}),patch.object(self.ledger,'reserve')as reserve:
+   result=m.ask(self.c,self.ledger,'只有待核内容',['test'],lambda *a: self.fail('Should not call provider'));self.assertTrue(result['insufficient']);reserve.assert_not_called()
+ def test_pending_fields_not_sent_to_model(self):
+  source=m.evidence_for(['salehpour-2018-sleep-deprivation']);self.assertNotIn('salehpour-2018-sleep-deprivation:dose',source);self.assertTrue(any(k.endswith(':population')for k in source))
+  sample={'studies':[{'id':'test','doi':'10.9999/test','title':'test','sources':{'s':{'url':'https://example.org','label':'test'}},'fields':{'good':{'value':'known','source':'s'},'bad':{'value':'pending','source':'s','pending':True}},'results':[{'text':'unknown','source':'s','source_review_required':True}]}]}
+  with patch.object(m.json,'loads',return_value=sample):self.assertEqual(set(m.evidence_for(['test'])),{'test:good'})
  def test_cache_and_exact_source_validation(self):
   source=m.evidence_for(['tian-2016']);sid=next(iter(source));quote=source[sid]['text'];answer={'claims':[{'source_id':sid,'quote':quote}]}
   calls=[]

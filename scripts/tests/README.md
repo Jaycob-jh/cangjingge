@@ -20,3 +20,5 @@ Excel导入前运行 `python scripts/tests/test_parameter_import.py`。默认预
 免费证据检索修改后运行 `node scripts/tests/test_evidence.mjs`：区分实际测量与讨论提及、光衰减与症状减轻，不跨组拼参，保留比较条件并校验本地模型来源编号。DOI/PDF草稿修改后运行 `python scripts/tests/test_reading_draft.py`，检查题录冲突、原分类、页码、待核候选与人工编辑保护。
 
 网页草稿运行 `node scripts/tests/test_browser_intake.mjs`；真实浏览器另查PDF本地提取（含中文）、JSON/QMD下载再导入、重复PDF、分类与人工字段保留及320–3840px布局。JSON草稿与含摘录材料只存仓库外。
+
+口径筛选运行 `node scripts/tests/test_parameter_scope.mjs`：同一条数值绑定平均/峰值、表面/脑内与点亮/运行，未注明时不默认；文献层线索与独立实验组分开。检查单位共享、W/mW与mJ/J换算、总J不当J/cm²、估算不当实测、不跨字段/组别拼参数。

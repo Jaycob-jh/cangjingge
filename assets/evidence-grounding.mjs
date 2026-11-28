@@ -1,9 +1,11 @@
-export function makeEvidencePacket(cards,{maxStudies=3,maxChars=1400}={}){
+import {isPendingValue} from './parameter-scope.mjs';
+export function makeEvidencePacket(cards,{maxStudies=3,maxChars=1400,fieldHints=[]}={}){
  const packet=[];let length=0;
  for(const study of cards.slice(0,maxStudies)){
-  const candidates=[['population',study.fields.population],['design',study.fields.design],...study.results.map((item,i)=>['result'+i,{value:item.text,source:item.source}])];
+  const hinted=[...new Set(fieldHints.filter(h=>h.study.id===study.id).map(h=>h.field))].map(key=>[key,study.fields[key]]);
+  const candidates=[...hinted,['population',study.fields.population],['design',study.fields.design],...study.results.map((item,i)=>['result'+i,{...item,value:item.text,source:item.source}])];
   for(const [field,item]of candidates){
-   if(!item?.value||!study.sources[item.source])continue;
+   if(!item?.value||isPendingValue(item)||!study.sources[item.source])continue;
    const source=study.sources[item.source],text=item.value;
    // Keep whole passages; do not cut units or sentences to fit a model context.
    if(length+text.length>maxChars)continue;

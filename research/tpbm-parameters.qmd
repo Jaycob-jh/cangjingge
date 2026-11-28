@@ -7,6 +7,8 @@ css: ../assets/tpbm-parameters.css
 
 输入一句话，或直接选研究对象、靶点、波长和剂量。表里写明组别的按实验组列出，其余按文献列出。点参数旁的出处可打开原刊，按标注找页码或图表。
 
+峰值与平均值、头皮与脑内剂量、点亮与运行时间可以分别筛选。原文没写明的，不默认归类。
+
 [带着问题找证据](ask.qmd) · [研究对比台](tpbm-compare.qmd)
 
 ```{=html}
@@ -25,6 +27,7 @@ css: ../assets/tpbm-parameters.css
   <div id="parameter-picked"></div>
   <p id="parameter-status" role="status">正在载入数据……</p>
   <div id="parameter-results"></div>
+  <section id="parameter-scope-hints" aria-label="原文口径线索"></section>
   <details id="parameter-pending"><summary>待核证据</summary><div></div></details>
 </section>
 <script type="module" src="../assets/tpbm-parameters.js"></script>
